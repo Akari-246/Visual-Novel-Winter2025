@@ -21,17 +21,28 @@ lines = {
 },
 "10": {
 &"id": "10",
-&"next_id": "12",
-&"text": "La cosa es que ahora me dirijo a unas de mis tantas clases como estudiante de DAM, por fin.",
-&"type": "dialogue"
+&"next_id": "11",
+&"type": ""
 },
 "11": {
 &"id": "11",
 &"next_id": "12",
-&"type": ""
+&"text": "En fin, ese no era el punto.",
+&"type": "dialogue"
 },
 "12": {
 &"id": "12",
+&"next_id": "14",
+&"text": "La cosa es que ahora me dirijo a unas de mis tantas clases como estudiante de DAM, por fin.",
+&"type": "dialogue"
+},
+"13": {
+&"id": "13",
+&"next_id": "14",
+&"type": ""
+},
+"14": {
+&"id": "14",
 &"is_snippet": false,
 &"next_id": "end",
 &"next_id_after": "",
@@ -67,19 +78,20 @@ lines = {
 },
 "7": {
 &"id": "7",
-&"next_id": "9",
-&"text": "Me operaron hace relativamente poco (1 mes y medio ya) debido a una peritonitis por… Bueno, no daré detalles. La cosa es que me operaron y ahora debo vivir un poco diferente por una bolsa que tengo pegada a mi piel; una colostomía. **podría hacerse que, cuando diga una palabra, aparezca como un icono de información al que, si la haces click, salga el texto que quieras, con dialogic o dialogue manager o con codigo propio? BUSCAR SOBRE ESO PLS**",
+&"next_id": "8",
+&"text": "Me operaron hace relativamente poco (1 mes y medio ya) debido a una peritonitis por[speed=0.08]…[/speed]",
 &"type": "dialogue"
 },
 "8": {
 &"id": "8",
 &"next_id": "9",
-&"type": ""
+&"text": "Bueno, no daré detalles. La cosa es que me operaron y ahora debo vivir un poco diferente por una bolsa que tengo pegada a mi piel; una [b]ostomía[/b].",
+&"type": "dialogue"
 },
 "9": {
 &"id": "9",
-&"next_id": "10",
-&"text": "En fin, ese no era el punto.",
+&"next_id": "11",
+&"text": "**cuando lo diga que aparezca como un icono de información aque si lo pulsas salga el texto informativo**",
 &"type": "dialogue"
 }
 }
@@ -90,7 +102,9 @@ Desde hace tiempo deseaba que llegara este momento; estudiar algo que realmente 
 Hace unos meses terminé el bachillerato, una época demasiado estresante y agobiante. Si me preguntan, de las peores etapas de mi vida, mas eso cambió hace unas semanas.
 
 Desde hace unos años quise estudiar programación, pero en su momento me dijeron que debía ir al bachillerato, y así fue, pero, por fin, este año es totalmente distinto. Finalmente tengo las riendas de mi vida o bueno, casi. 
-Me operaron hace relativamente poco (1 mes y medio ya) debido a una peritonitis por… Bueno, no daré detalles. La cosa es que me operaron y ahora debo vivir un poco diferente por una bolsa que tengo pegada a mi piel; una colostomía. **podría hacerse que, cuando diga una palabra, aparezca como un icono de información al que, si la haces click, salga el texto que quieras, con dialogic o dialogue manager o con codigo propio? BUSCAR SOBRE ESO PLS**
+Me operaron hace relativamente poco (1 mes y medio ya) debido a una peritonitis por[speed=0.08]…[/speed] 
+Bueno, no daré detalles. La cosa es que me operaron y ahora debo vivir un poco diferente por una bolsa que tengo pegada a mi piel; una [b]ostomía[/b]. 
+**cuando lo diga que aparezca como un icono de información aque si lo pulsas salga el texto informativo**
 
 En fin, ese no era el punto.
 La cosa es que ahora me dirijo a unas de mis tantas clases como estudiante de DAM, por fin.

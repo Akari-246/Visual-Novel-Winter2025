@@ -1,0 +1,253 @@
+[gd_scene load_steps=18 format=3 uid="uid://yh25m23sqpra"]
+
+[ext_resource type="Script" uid="uid://h5nf74m70ijk" path="res://scripts/menuManager.gd" id="1_2owot"]
+[ext_resource type="Texture2D" uid="uid://d1q5mtw58g3g3" path="res://assets/imagenes/provisional.jpg" id="1_d7r87"]
+[ext_resource type="FontFile" uid="uid://dg14kclf6jted" path="res://assets/fonts/libre baskeville/LibreBaskerville-Regular.ttf" id="2_2owot"]
+[ext_resource type="Script" uid="uid://dnkv3p7myaucf" path="res://scripts/menu_op.gd" id="4_6cq3m"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6cq3m"]
+bg_color = Color(0.14509805, 0.5294118, 0.77254903, 0.76862746)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5t3kx"]
+bg_color = Color(0.21176471, 0.34901962, 0.73333335, 0.88235295)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_56ah5"]
+bg_color = Color(0.14509805, 0.5294118, 0.77254903, 0.76862746)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xqndx"]
+bg_color = Color(0.21176471, 0.34901962, 0.73333335, 0.88235295)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yb3qj"]
+bg_color = Color(0.14509805, 0.5294118, 0.77254903, 0.76862746)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4gv4q"]
+bg_color = Color(0.21181902, 0.34806502, 0.73494756, 0.88235295)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2owot"]
+bg_color = Color(0.47555906, 0.45786387, 0.736133, 0.2901961)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_8jdmi"]
+bg_color = Color(0.15686275, 0.21176471, 0.4627451, 0.76862746)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_i5l0x"]
+bg_color = Color(0.14509805, 0.5294118, 0.77254903, 0.76862746)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6m0pt"]
+bg_color = Color(0.21176471, 0.34901962, 0.73333335, 0.88235295)
+
+[sub_resource type="Animation" id="Animation_6cq3m"]
+resource_name = "animacionOpciones"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("MenuOp/PanelContainer:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1.0717735, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_5t3kx"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("MenuOp/PanelContainer:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_56ah5"]
+_data = {
+&"RESET": SubResource("Animation_5t3kx"),
+&"animacionOpciones": SubResource("Animation_6cq3m")
+}
+
+[node name="Menu" type="Control" node_paths=PackedStringArray("options_container", "options")]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_2owot")
+options_container = NodePath("MenuOp")
+options = NodePath("MenuOp/PanelContainer/opciones")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_d7r87")
+expand_mode = 1
+
+[node name="PanelContainer" type="PanelContainer" parent="."]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+grow_horizontal = 2
+
+[node name="Fondo" type="Sprite2D" parent="PanelContainer"]
+
+[node name="LogoTitulo" type="Sprite2D" parent="PanelContainer"]
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -190.0
+offset_top = -161.5
+offset_right = 190.0
+offset_bottom = 161.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 40
+
+[node name="start" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_2owot")
+theme_override_font_sizes/font_size = 56
+theme_override_styles/normal = SubResource("StyleBoxFlat_6cq3m")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_5t3kx")
+text = "start"
+
+[node name="op" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_2owot")
+theme_override_font_sizes/font_size = 56
+theme_override_styles/normal = SubResource("StyleBoxFlat_56ah5")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_xqndx")
+text = "options"
+
+[node name="exit" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_2owot")
+theme_override_font_sizes/font_size = 56
+theme_override_styles/normal = SubResource("StyleBoxFlat_yb3qj")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_4gv4q")
+text = "exit"
+
+[node name="MenuOp" type="Control" parent="." node_paths=PackedStringArray("animacion")]
+anchors_preset = 0
+offset_left = 197.0
+offset_top = 118.0
+offset_right = 975.0
+offset_bottom = 585.0
+script = ExtResource("4_6cq3m")
+animacion = NodePath("AnimationPlayer")
+
+[node name="PanelContainer" type="PanelContainer" parent="MenuOp"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -594.25
+offset_top = -354.75
+offset_right = 571.0
+offset_bottom = 299.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_2owot")
+
+[node name="opciones" type="Control" parent="MenuOp/PanelContainer"]
+layout_mode = 2
+
+[node name="TabContainer" type="TabContainer" parent="MenuOp/PanelContainer/opciones"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -306.5
+offset_top = -223.25
+offset_right = 306.5
+offset_bottom = 223.25
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_8jdmi")
+current_tab = 0
+
+[node name="idioma" type="VBoxContainer" parent="MenuOp/PanelContainer/opciones/TabContainer"]
+layout_mode = 2
+metadata/_tab_index = 0
+
+[node name="Label" type="Label" parent="MenuOp/PanelContainer/opciones/TabContainer/idioma"]
+layout_mode = 2
+text = "idiomas"
+
+[node name="OptionButton" type="OptionButton" parent="MenuOp/PanelContainer/opciones/TabContainer/idioma"]
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_i5l0x")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_6m0pt")
+fit_to_longest_item = false
+
+[node name="volumen" type="VBoxContainer" parent="MenuOp/PanelContainer/opciones/TabContainer"]
+visible = false
+layout_mode = 2
+metadata/_tab_index = 1
+
+[node name="Label" type="Label" parent="MenuOp/PanelContainer/opciones/TabContainer/volumen"]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MenuOp/PanelContainer/opciones/TabContainer/volumen"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MenuOp/PanelContainer/opciones/TabContainer/volumen/HBoxContainer"]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="MenuOp/PanelContainer/opciones/TabContainer/volumen/HBoxContainer"]
+layout_mode = 2
+
+[node name="HSlider" type="HSlider" parent="MenuOp/PanelContainer/opciones/TabContainer/volumen/HBoxContainer"]
+layout_mode = 2
+
+[node name="Button2" type="Button" parent="MenuOp/PanelContainer/opciones/TabContainer/volumen/HBoxContainer"]
+layout_mode = 2
+
+[node name="exit" type="Button" parent="MenuOp/PanelContainer/opciones"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -88.375
+offset_top = -92.0
+offset_right = 87.625
+offset_bottom = -33.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_fonts/font = ExtResource("2_2owot")
+theme_override_font_sizes/font_size = 36
+theme_override_styles/normal = SubResource("StyleBoxFlat_yb3qj")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_4gv4q")
+text = "exit"
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="MenuOp"]
+root_node = NodePath("../..")
+libraries = {
+&"": SubResource("AnimationLibrary_56ah5")
+}
+
+[connection signal="pressed" from="VBoxContainer/start" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="VBoxContainer/op" to="." method="_on_op_pressed"]
+[connection signal="pressed" from="VBoxContainer/exit" to="." method="_on_exit_pressed"]
+[connection signal="pressed" from="MenuOp/PanelContainer/opciones/exit" to="MenuOp" method="_on_exit_pressed"]

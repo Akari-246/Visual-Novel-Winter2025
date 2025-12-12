@@ -1,0 +1,12 @@
+AnimationPlayer
+Button
+HSlider
+Label
+HBoxContainer
+OptionButton
+VBoxContainer
+TabContainer
+Control
+PanelContainer
+TextureRect
+Sprite2D
