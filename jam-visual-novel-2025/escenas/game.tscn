@@ -1,3 +1,82 @@
-[gd_scene format=3 uid="uid://dxlcblop2fes"]
+[gd_scene load_steps=3 format=3 uid="uid://dxlcblop2fes"]
 
-[node name="Node2D" type="Node2D"]
+[ext_resource type="Script" uid="uid://br5xvgj4qdwgi" path="res://scripts/gameManager.gd" id="1_62eqe"]
+[ext_resource type="Texture2D" uid="uid://cn7g3dl8cvidn" path="res://icon.svg" id="2_6qgwm"]
+
+[node name="Game" type="Node2D"]
+script = ExtResource("1_62eqe")
+
+[node name="Fondo" type="Sprite2D" parent="."]
+position = Vector2(-31, -17)
+scale = Vector2(9.3828125, 5.664062)
+texture = ExtResource("2_6qgwm")
+centered = false
+
+[node name="DiscordScreen" type="CanvasLayer" parent="."]
+
+[node name="Panel" type="Panel" parent="DiscordScreen"]
+custom_minimum_size = Vector2(500, 400)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -250.0
+offset_top = -200.0
+offset_right = 250.0
+offset_bottom = 200.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="Mensajes" type="VBoxContainer" parent="DiscordScreen/Panel"]
+layout_mode = 1
+anchors_preset = 13
+anchor_left = 0.5
+anchor_right = 0.5
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 10
+alignment = 1
+
+[node name="InfoPanel" type="CanvasLayer" parent="."]
+
+[node name="Panel" type="Panel" parent="InfoPanel"]
+custom_minimum_size = Vector2(400, 300)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -200.0
+offset_top = -150.0
+offset_right = 200.0
+offset_bottom = 150.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Button" type="Button" parent="InfoPanel/Panel"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -58.0
+offset_top = -31.0
+grow_horizontal = 0
+grow_vertical = 0
+text = "Cerrar"
+
+[node name="InfoLabel" type="RichTextLabel" parent="InfoPanel/Panel"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+bbcode_enabled = true
+fit_content = true
+
+[node name="Character" type="Node2D" parent="."]
+
+[node name="Dialogue" type="CanvasLayer" parent="."]

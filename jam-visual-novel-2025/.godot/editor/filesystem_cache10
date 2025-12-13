@@ -1,5 +1,5 @@
 f098f8d3115d962055284dee314b4f89
-::res://::1765568858
+::res://::1765642764
 default_bus_layout.tres::AudioBusLayout::3238594863796064399::1765568351::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D::5751770903062247227::1765451405::1765451891::1::::<><><>0<>0<>ac698f11db3aecdcdd9e275ce854616d<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 ::res://addons/::1764927132
@@ -85,7 +85,10 @@ main_view.tscn::PackedScene::4884668666408697448::1765451405::0::1::::<><><>0<>0
 ::res://assets/audio/SFX/::1765568899
 recogeObjetoAgudo.wav::AudioStreamWAV::5991311106407014889::1765568838::1765568858::1::::<><><>0<>0<>c16746779ce7f616222c592ff97b03a3<>res://.godot/imported/recogeObjetoAgudo.wav-17232db44f72073fe061b3a034671f3d.sample::
 sfxBarraVol.wav::AudioStreamWAV::1320730309987038421::1765568899::1765568899::1::::<><><>0<>0<>2a034788912416b7195fa3400fd5df3f<>res://.godot/imported/sfxBarraVol.wav-d50c46277808567c02f3da2e0a571f5d.sample::
-::res://assets/fonts/::1765553510
+::res://assets/fonts/::1765634844
+::res://assets/fonts/Crimson pro/::1765634844
+CrimsonPro-ExtraLight.ttf::FontFile::2543053280135748175::1765634823::1765634844::1::::<><><>0<>0<>06178c289462bfd693d9af2aa5b89d90<>res://.godot/imported/CrimsonPro-ExtraLight.ttf-f486007c6555df93c7eb0fb965b27b0a.fontdata::
+CrimsonPro-ExtraLightItalic.ttf::FontFile::7852185040795045240::1765634823::1765634844::1::::<><><>0<>0<>bdf63a8e86642c5dca09970fde06143e<>res://.godot/imported/CrimsonPro-ExtraLightItalic.ttf-ac8f9f13341b39986605f05a28b0f817.fontdata::
 ::res://assets/fonts/dancing scripts/::1765553527
 AUTHORS.txt::TextFile::-1::1765553510::0::1::::<><><>0<>0<><>::
 CONTRIBUTORS.txt::TextFile::-1::1765553510::0::1::::<><><>0<>0<><>::
@@ -101,16 +104,20 @@ LibreBaskerville-Bold.ttf::FontFile::788514193048785952::1765553510::1765553527:
 LibreBaskerville-Italic.ttf::FontFile::382332677064380523::1765553510::1765553527::1::::<><><>0<>0<>f147b590d2d9c19fde8108ae8889b011<>res://.godot/imported/LibreBaskerville-Italic.ttf-9c3a4d94c97cd130e25feb4132aaf9db.fontdata::
 LibreBaskerville-Regular.ttf::FontFile::7635847707550856303::1765553510::1765553527::1::::<><><>0<>0<>adccce6e137b0ee92be801e1d74a33d2<>res://.godot/imported/LibreBaskerville-Regular.ttf-f78e355491de456e5af46bfd6f961878.fontdata::
 OFL.txt::TextFile::-1::1765553510::0::1::::<><><>0<>0<><>::
-::res://assets/imagenes/::1765559618
+::res://assets/imagenes/::1765635442
 provisional.jpg::CompressedTexture2D::9019046002379734360::1765559617::1765559618::1::::<><><>0<>0<>27caa7ae2d19dfacf96edb02d91ed84c<>res://.godot/imported/provisional.jpg-ed30a51bf4df0e8d5a17d784c027428c.ctex::
-::res://dialogos/::1765455023
-prueba1.dialogue::Resource::7577838736298934760::1765455022::1765584696::1::::<><><>0<>0<>a1030294c7e987dee51ccb17c7ce3435<>res://.godot/imported/prueba1.dialogue-99698be83b979a13590f7ba1ca4fad03.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
-::res://escenas/::1765584517
+::res://assets/imagenes/fondos/::1765635437
+::res://assets/imagenes/personajes/::1765635442
+::res://dialogos/::1765642882
+escenaHospi.dialogue::Resource::4515241362355848428::1765641287::1765641287::1::::<><><>0<>0<>a00b9fc933973c278dc2cc1358de6453<>res://.godot/imported/escenaHospi.dialogue-d997efdadfe54b854d994ba3266c919a.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
+inicio.dialogue::Resource::2332915011357048097::1765642920::1765642920::1::::<><><>0<>0<>2b6536bf09072ec5d295a3f687cfdb4b<>res://.godot/imported/inicio.dialogue-085d28d4d3e13c39c95f520916dd26d3.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
+::res://escenas/::1765642765
 audio.tscn::PackedScene::1211841389494885650::1765570041::0::1::::<><><>0<>0<><>::uid://6edl6h4ttc14::::res://scripts/audio.gd
-game.tscn::PackedScene::258718747939119734::1765454890::0::1::::<><><>0<>0<><>::
+game.tscn::PackedScene::258718747939119734::1765642920::0::1::::<><><>0<>0<><>::uid://br5xvgj4qdwgi::::res://scripts/gameManager.gd<>uid://cn7g3dl8cvidn::::res://icon.svg
 menu.tscn::PackedScene::1700676497499850718::1765584517::0::1::::<><><>0<>0<><>::uid://h5nf74m70ijk::::res://scripts/menuManager.gd<>uid://d1q5mtw58g3g3::::res://assets/imagenes/provisional.jpg<>uid://dg14kclf6jted::::res://assets/fonts/libre baskeville/LibreBaskerville-Regular.ttf<>uid://dnkv3p7myaucf::::res://scripts/menu_op.gd<>uid://lh7yi4u1exu3::::res://assets/fonts/libre baskeville/LibreBaskerville-Bold.ttf<>uid://dqspm13v3xdwh::::res://scripts/audioControl.gd<>uid://crmiavqkqlsw4::::res://assets/audio/SFX/recogeObjetoAgudo.wav<>uid://s21h87br30r6::::res://assets/audio/SFX/sfxBarraVol.wav
-::res://scripts/::1765584671
+::res://scripts/::1765642609
 audio.gd::GDScript::2184315098887749313::1765584517::0::1::::<>AudioStreamPlayer<><>0<>0<><>::
 audioControl.gd::GDScript::8320375943133349911::1765584572::0::1::::<>VBoxContainer<><>0<>0<><>::
+gameManager.gd::GDScript::3642996681049569188::1765642609::0::1::::<>Node2D<><>0<>0<><>::
 menuManager.gd::GDScript::554053214099021156::1765584671::0::1::::<>Control<><>0<>0<><>::
 menu_op.gd::GDScript::8093686692853068569::1765572139::0::1::::<>Control<><>0<>0<><>::
