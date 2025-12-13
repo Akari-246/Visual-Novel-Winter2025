@@ -1,0 +1,114 @@
+~ start
+
+[bg habitacion]
+Un día como otro cualquiera me preparé para ir a clases.
+Desde hace tiempo deseaba que llegara este momento; estudiar algo que realmente quería.
+
+Hace unos meses terminé el bachillerato, una época demasiado estresante y agobiante. Si me preguntan, de las peores etapas de mi vida, mas eso cambió hace unas semanas.
+
+Desde hace unos años quise estudiar programación, pero en su momento me dijeron que debía ir al bachillerato, y así fue, pero, por fin, este año es totalmente distinto. Finalmente tengo las riendas de mi vida o bueno, casi. 
+Me operaron hace relativamente poco (1 mes y medio ya) debido a una peritonitis por[speed=0.08]…[/speed] 
+Bueno, no daré detalles. La cosa es que me operaron y ahora debo vivir un poco diferente por una bolsa que tengo pegada a mi piel; una [b]ostomía[/b]. 
+**cuando lo diga que aparezca como un icono de información aque si lo pulsas salga el texto informativo**
+
+En fin, ese no era el punto.
+La cosa es que ahora me dirijo a unas de mis tantas clases como estudiante de DAM, por fin.
+
+
+*fondo de clase*
+Era ya la hora del recreo cuando, de repente, me fijo en que tengo una nueva notificación. Vaya, ¿quién será? Espera, ¿un desconocido?, ¿por qué me habla?, ¿querrá algo? 
+¿Quizás me ha confundido con otra persona?
+
+*en pantalla del pc tipo como si vieras discord*
+[i]Holaaa, perdona la intrusión y espero no molestar.
+[i]Soy de segundo, hablando con un profe y algunos de tu clase me enteré que tuvisteis un examen.
+[i]Te escribía para saber qué tal te fue y os fue en general. Espero que haya salido genialll y disculpa la intrusión repentina.
+
+Me lo pensé un poco antes de responder, pero no podía evitar no ser amable. Aunque fuera una tontería, me hizo un poco de gracia esa notificación.
+No tardé mucho más y, sin darme cuenta, ya había mandado el mensaje.
+
+[i]holaa
+[i]pues el examen me salió bien. Creo que sólo suspendieron dos personas.
+[i]Gracias por preguntar ^^
+
+Iba a aprovechar para adelantar algunas tareas, pero enseguida me distrajo algo.
+
+*mostrar pantalla del pc y, anterior a los dos mensajes, nuevo mensaje:*
+[i]Nadaa ^^
+[i]Y perdona el mensaje random.
+[i]Me alegra que te haya salido bien. Antes estaba sentado con 2 de tus compañeros y no quería molestarte al entrar.
+[i]Mucho ánimo con el resto del día.
+
+*mostrar dialogo pero por encima del fondo del pc y mensajes*
+Vaya, respondió rápido.
+Después de haberme dado cuenta, no puedo simplemente dejarlo en visto
+
+*mostrar mensaje*
+[i]No pasa nada, igual que te vaya bien a ti también
+
+*fondo de clase*
+Después de aquella pequeña conversación que tuve con un chico desconocido que ni siquiera estaba en mi clase, pero sí, al parecer, en mi curso, el resto de mi día fue normal. Sin embargo, aunque parecía que él me conocía, yo no sabía cómo se suponía que era él, y admito que eso provocó que estuviera absorta pensando en ello y en cómo había conseguido contactarme, pero debía seguir con mis tareas.
+
+*fondo negro*
+Conforme pasaban los días mis nervios crecían más y más.
+Dentro de nada era mi operación para volver a la normalidad. Me iban a quitar la ostomía.
+Y esa era de mis operaciones más importantes, porque aquello significaba que dentro de nada mi cuerpo volvería a ser, relativamente, normal. Quizás no funcionará como antes, nunca volvería a ser la de antes de todas formas, pero ya no tendría que vivir nunca más con esta bolsa que tantos problemas me ha estado causando.
+
+21 de noviembre.
+Ya era el día de mi operación.
+Recuerdo que antes de ingresar hablé con mi madre y mis amigas, quienes sabían de la intervención que tenían que hacerme.
+
+*habitación hospital*
+Ya cuando los médicos entraron a la habitación donde estaba, sabía lo que se avecinaba.
+Era hora.
+
+Me cambié, me cogieron la vía y, con el cuerpo lleno de nervios, arrastraron la camilla en la que estaba acostada para, con rapidez, adentrarnos en el quirófano. 
+*fondo negro*
+Hacía mucho frío, nunca me acostumbraba a aquel sitio, pero sabía que todo iría bien, al fin y al cabo, me operaba mi cirujano favorito.
+
+
+
+
+Paolo: Holaa, criaturita. ¿Qué tal? ¿Nerviosa?
+Kristine: Un poco, la verdad.
+Paolo: No te preocupes. Voy a hacer mi mejor trabajo contigo. Ya dentro de nada irás al baño como antes.
+Kristine: Eso espero *risa nerviosa*
+Anestesista: Por supuesto que sí, todo saldrá bien. Ahora necesito que respires profundo y cuentes hasta 10.
+
+Aunque sea una pregunta absurda [b]¿qué debería hacer?[/b]:
+- Hacer caso
+	do cargarSiguienteCap("escenaHospi")
+	=> END
+
+- No hacer caso 
+	No, no puedo hacer eso.
+	Después de todo este tiempo preparándome mentalmente y de todo el papeleo que han tenido que hacer mis padres, no puedo simplemente no hacerle caso a los profesionales.
+	En definitiva, sería una idea pésima.
+	Mejor le hago caso. Al fin y al cabo, estaba deseando que llegara este momento.
+	
+	Al final, lentamente y con nervios, comencé a contar.
+	Ya he pasado por este proceso más veces.
+	Puedo hacerlo.
+	do cargarSiguienteCap("escenaHospi")
+	=> END
+
+- Irte
+	Sin decir nada, me quité el aparato que me pusieron en el rostro para dormirme, de un tirón me quité también la vía y, sin importarme lo que pudieran decir los médicos o lo que pudiera pasar, me fui del quirófano.
+	Corrí.
+	No sabía porqué, pero corrí por mi vida, pero se me olvidó un detalle.
+	Iba descalza y vestía una única camisa del hospital, la típica que llevan los pacientes a quienes van a operar que se debe anudar por detrás.
+	La cosa es que, al no llevar zapatos ni nada que pudiera cubrir mis pies, bajando por las escaleras tropecé con lo que parecía ser una cáscara de plátano [wave](¿quién dejaría eso en el suelo de un hospital?)[wave]
+	Y me caí. De tal forma en la que, no sé cómo, perdí la consciencia.
+	Durante minutos vi negro. Horas, creo.
+	No podía mover mi cuerpo, no podía hacer nada.
+	[wait=1][wave]¿Así se siente morir?[/wave]
+	
+	[wait=1.5]	Final estúpido
+	No pudieron operar a Kristine y, para colmo, murió por tu culpa. Enhorabuena.
+	- Volver a intentar
+		do get_tree().reload_current_scene()
+		=> END
+	- Ir al menú principal
+		do get_tree().change_scene_to_file("res://escenas/menu.tscn")
+		=> END
+	=> END

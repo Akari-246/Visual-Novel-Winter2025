@@ -1,0 +1,14 @@
+CanvasLayer
+Node2D
+RichTextLabel
+Label
+Button
+Panel
+VBoxContainer
+Sprite2D
+AudioStreamPlayer
+AnimationPlayer
+HSlider
+HBoxContainer
+OptionButton
+TabContainer
