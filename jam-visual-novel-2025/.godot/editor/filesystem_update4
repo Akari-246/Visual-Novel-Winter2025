@@ -1,3 +1,7 @@
 res://scripts/menuManager.gd
 res://escenas/menu.tscn
 res://scripts/menu_op.gd
+res://default_bus_layout.tres
+res://scripts/audioControl.gd
+res://escenas/audio.tscn
+res://scripts/audio.gd
