@@ -1,7 +1,9 @@
-[gd_scene load_steps=3 format=3 uid="uid://dxlcblop2fes"]
+[gd_scene load_steps=5 format=3 uid="uid://dxlcblop2fes"]
 
 [ext_resource type="Script" uid="uid://br5xvgj4qdwgi" path="res://scripts/gameManager.gd" id="1_62eqe"]
 [ext_resource type="Texture2D" uid="uid://cn7g3dl8cvidn" path="res://icon.svg" id="2_6qgwm"]
+[ext_resource type="FontFile" uid="uid://lh7yi4u1exu3" path="res://assets/fonts/libre baskeville/LibreBaskerville-Bold.ttf" id="3_6kmlf"]
+[ext_resource type="PackedScene" uid="uid://c2yniadkhh4it" path="res://escenas/medidorPuntos.tscn" id="3_6qgwm"]
 
 [node name="Game" type="Node2D"]
 script = ExtResource("1_62eqe")
@@ -11,6 +13,18 @@ position = Vector2(-31, -17)
 scale = Vector2(9.3828125, 5.664062)
 texture = ExtResource("2_6qgwm")
 centered = false
+
+[node name="SkipBtn" type="Button" parent="."]
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = 1039.0
+offset_right = 1152.0
+offset_bottom = 78.0
+grow_horizontal = 0
+theme_override_fonts/font = ExtResource("3_6kmlf")
+theme_override_font_sizes/font_size = 28
+text = "Skip"
 
 [node name="DiscordScreen" type="CanvasLayer" parent="."]
 
@@ -80,3 +94,7 @@ fit_content = true
 [node name="Character" type="Node2D" parent="."]
 
 [node name="Dialogue" type="CanvasLayer" parent="."]
+
+[node name="MedidorPuntos" parent="." instance=ExtResource("3_6qgwm")]
+
+[connection signal="pressed" from="SkipBtn" to="." method="_on_skip_btn_pressed"]

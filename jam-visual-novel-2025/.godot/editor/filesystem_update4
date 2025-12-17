@@ -7,3 +7,10 @@ res://escenas/audio.tscn
 res://scripts/audio.gd
 res://escenas/game.tscn
 res://scripts/gameManager.gd
+res://scripts/sistemaPuntos.gd
+res://escenas/sistema_puntos.tscn
+res://escenas/medidorPuntos.tscn
+res://scripts/medidorPuntitos.gd
+res://scripts/autoBtn.gd
+res://scripts/skipBtn.gd
+res://scripts/buttonSkip.gd

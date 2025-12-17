@@ -1,0 +1,244 @@
+~ start
+Has llegado al final de la historia.
+=> END
+
+~ finalCanon
+*fondo negro*
+La anterior navidad no la pasé muy bien que digamos por culpa de las disputas familiares. Esta vez, este año no sería diferente, además, mi abuelo había fallecido, por lo que era peor que el anterior. Y a eso sumándole el hecho de que habían tenido que operarme de nuevo no hace mucho por urgencia; sepsis y peritonitis de nuevo.
+Pensé que estas vacaciones serían de las peores, pero, en cierta parte, me equivoqué.
+
+Estaba viva. Debía aprovechar eso.
+Había sobrevivido ante algo que casi nadie ha conseguido y, aunque estaba cansada de sobrevivir ante tanta lucha tras años de operaciones y pruebas constantes, había una persona que hacía de mi vida una lucha con sentido.
+Mateo.
+
+*fondo calle*
+Ya era notorio el frío de diciembre.
+Habíamos pasado la tarde simplemente caminando por la ciudad ya alumbrada con las luces de Navidad hablando de todo y de nada a la vez.
+
+*fondo de portal/entrada del edificio*
+Al entrar en el portal de mi casa junto a mi acompañante para refugiarnos del frío, noté que me quería decir algo.
+Le di el tiempo necesario para que hablara. Intentaba mirarlo con cariño y no con curiosidad.
+El portal estaba decorado con un muñeco de nieve de plástico y varias cajas que simulaban ser regalos. Arriba del ascensor había un letrero en el que ponía “Feliz Navidad”. Intenté enfocarme en el decorado para no ponerlo nervioso.
+
+Mateo: Quiero darte algo. De parte de mi madre y mía, claro.
+Kristine: ¿Qué es?
+Mateo: Míralo por ti misma.
+
+Luego de que dijera eso, me dio una bolsa pequeña.
+Curiosa, cogí la bolsita y la abrí para encontrarme con una cajita.
+Una vez vi su contenido me asombré ante el detalle tan bonito que habían tenido su madre y él.
+
+Kristine: Muchas gracias… Tu regalo va a tardar un poco en llegar, ¿te lo dije?
+Mateo: Sí, tranquila. No te preocupes por eso. ¿Quieres que te lo ponga?
+Kristine: Por favor.
+
+Agradecí que lo preguntara él. A pesar de que llevábamos ya casi 1 año juntos, me apenaba un poco pedirle favores como uno tan simple como poner un colgante.
+
+Kristine: Es precioso.
+Con cariño, acuné su cara entre mis manos.
+
+Kristine: Muchas gracias.
+Él sólo sonrió y agachó un poco su cabeza para estar a mi altura.
+
+Mateo: No es nada.
+
+Cuando terminó de hablar, separó mis manos de su rostro para abrazarme.
+Segundos después, nos distanciamos un poco para mirarnos fijamente.
+
+Impaciente, no pude esperar más y lo besé.
+Fue lento y cálido. Contrastaba con el frío que hacía tanto dentro como fuera. 
+Era un beso seguro, sin prisas, sin accidentes. Uno bien dado, por cierto, no hubo ninguna broma después.
+
+Kristine: Feliz Navidad.
+Mateo: Feliz Navidad, mi amor.
+
+*fondo negro*
+Y bueno, podría contar mucho más, pero, para eso, prefiero dejarlo aquí.
+
+Gracias por haberme acompañado en esta pequeña historia.
+Espero que te haya resultado agradable.
+
+Ahora sí, me despido de ti, querido jugador.
+=> creditos
+
+
+# ========================================
+# FINALES MALOS 
+# ========================================
+~ finalMalo
+[bg negro]
+Al final, con el paso del tiempo, Mateo comenzó a hablarme menos.
+Aquellas conversaciones que teníamos disminuyeron.
+Tal vez, lo tenía merecido.
+Al fin y al cabo, en ocasiones no fui muy agradable con él...
+
+Terminé mi primer año en DAM y, dado que ya no hablaba tanto con Mateo, dejé de verlo.
+Es más, apenas hablamos ahora.
+
+Echo de menos cuando conversábamos sin parar...
+
+No debí de comportarme de esa forma con él...
+[wait=2.0]
+[center][b][color=purple] ━━━━━━━━━━━━━━━━━━ FINAL MALO ━━━━━━━━━━━━━━━━━━ \n[center][b][color=white]Caminos Separados [center][b][color=purple]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[wait=2.0]
+[center]"A veces, las oportunidades que tenías no vuelven. Jamás lo harán"[/center]
+[wait=2.0]
+=> opGameOver
+
+~ finalEstupido
+[wait=2.0]
+[center][b][color=red] ━━━━━━━━━━━━━━━━━━ FINAL EStÚPIDO ━━━━━━━━━━━━━━━━━━ \n[center][b][color=white]Muerte inmediata[center][b][color=red]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[wait=2.0]
+[center]No pudieron operar a Kristine y, para colmo, murió por tu culpa. Enhorabuena.[/center]
+[wait=2.0]
+=> opGameOver
+
+~ soloAmigos
+No. Por supuesto que no.
+¿Y si me rechaza? ¿Y si luego nuestra amistad no vuelve a ser la misma?
+No puedo arriesgarme, no si vuelvo a perder a alguien que quiero por un desliz...
+
+Después de aquello, los días pasaron y, por alguna maldita razón, lo que sentía por Mateo no cesaba, es más, se intensificaba.
+Intenté olvidar cualquier sentimiento que tuviera por él y cada vez que estaba a su lado intentaba concentrarme en otras cosas que no fuera él, pero, simplemente, no podía. Era imposible.
+Estaba enamorada de Mateo y, por suerte o por desgracia, nadie podría cambiar eso, ni siquiera yo misma.
+
+Juro que intenté seguir siendo su amiga, pero cuando uno guarda esta clase de sentimientos por un amigo, sencillamente la amistad deja de ser una amistad real.
+Sí, hay cariño real, por supuesto que sí, pero no es lo que quizás él quiere.
+
+Con el tiempo, me di cuenta de que no podía seguir así y me fui alejando de él, pero no por él, sino por mí.
+Él siempre fue muy bueno conmigo, mas yo no estaba contenta con esa relación. Necesitaba más.
+
+Quería ser su novia, pero nunca me atreví a decirle nada.
+
+Ojalá me hubiera animado.
+Ojalá hubiera tenido el valor suficiente para admitir la realidad...
+
+[wait=2.0]
+[center][b][color=cyan] ━━━━━━━━━━━━━━━━━━ FINAL AMIGOS ━━━━━━━━━━━━━━━━━━ \n[center][b][color=white]Kristine y Mateo fueron buenos amigos[center][b][color=cyan]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[wait=2.0]
+[center]"Nunca es malo admitir lo que hay dentro de ti"[/center]
+[wait=2.0]
+=> opGameOver
+
+~ finalCobarde
+Mateo: Oye, ¿te pasa algo?
+Kristine: No, nada. No te preocupes
+Le sonreí para convencerle de que de verdad no pasaba nada, cosa que logré.
+
+No puedo darle la carta. Por supuesto que no.
+¿Qué pasa si se ríe en mi cara una vez sepa de mis sentimientos?
+¿Y si rompe la carta? ¿Y si le prende fuego? ¿Y si, en cuanto sepa lo que siento, se intenta aprovechar de mí?
+O peor, ¿y si le muestra lo que le escribí a alguien más?
+
+No sé en qué pensé, pero no puedo darle la carta, no si hay tantas posibilidades crueles que puedan pasar.
+Simplemente, no puedo.
+Da miedo.
+No quiero pasar por nada malo.
+No puedo dejar que fragmenten mi corazón en pedacitos. No más veces.
+
+Después de esa quedada, algo cambió dentro de mí.
+Era consciente de lo que sentía por Mateo, pero nunca me atreví a contárselo.
+
+Por suerte, fuimos amigos por mucho tiempo, pero, muy dentro de mí, me hubiera gustado darle esa carta que le escribí...
+
+[wait=2.0]
+[center][b][color=orange] ━━━━━━━━━━━━━━━━━━ FINAL COBARDE ━━━━━━━━━━━━━━━━━━ \n[center][b][color=white]El temor se apoderó de Kristine y ella nunca confesó sus sentimientos[center][b][color=orange]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[wait=2.0]
+[center]"Arrepentirse nunca es la opción"[/center]
+[wait=2.0]
+=> opGameOver
+
+~ demasiadasMentiras
+[bg negro]
+[wait=1.0]
+[center]Has acumulado [color=red][b]demasiadas[/b][/color] mentiras...[/center]
+[wait=2.0]
+[bg clase]
+Un día como otro cualquiera, salí de clases. No obstante, me encontré a la salida con Mateo.
+Justo cuando iba a hablarle, dijo algo que no esperaba...
+
+Mateo: Kristine... ya no puedo más.
+Lo dijo tan serio que me extrañó. Nunca lo había visto así.
+Kristine: ¿Qué quieres decir?
+Mateo: Has mentido tantas veces que ya no sé qué es real de ti y qué no. Lo siento, pero no puedo confiar en alguien así, no si sigues mintiendo.
+
+Abrí la boca para decir algo, pero no me salieron las palabras.
+Kristine: Lo siento...
+Mateo: Yo también.
+
+Intenté pensar en alguna frase más que tuviera sentido, incluso explicarle, sin embargo, para las mentiras no suele haber excusa que lo justifique.
+No sabía qué más decir a excepción de una sincera disculpa.
+Iba a decir algo, pero él se alejó.
+[bg negro]
+Desde ese día, como era de esperar, no volvió a dirigirme la palabra.
+Por desgracia, las cosas con Mateo no volvieron a ser como antes. Su confianza en mí no volvió, inclusive intenté hablarle en algunas ocasiones, pero se notaba que la conversación era forzada...
+La amistad que teníamos se rompió. Y no sé porqué me extraña, si era evidente que tarde o temprano pasara, puesto que casi nunca de lo que le decía era verdad... Desearía haber sido más sincera.
+
+Perdí una gran amistad que pudo llegar a algo más...
+
+[wait=2.0]
+[center][b][color=red]━━━━━━━━━━━━━━━━━━ FINAL MALO ━━━━━━━━━━━━━━━━━━\n[center][b][color=white]Demasiadas mentiras \n[center][b][color=red] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color][/b][/center]
+[center]"Las mentiras pueden destruir cualquier tipo de relación, incluso la más fuerte"[/center]
+[wait=2.0]
+=> opGameOver
+
+# ========================================
+# COSOS
+# ========================================
+~ opGameOver
+[center]Elige una opción[/center]
+- Volver a intentar 
+	=> reintentar
+- Ver estadísticas 
+	=> mostrarStats
+- Ir al menú principal 
+	=> menu
+
+~ reintentar
+do retry_game()
+=> END
+
+~ mostrarStats
+[center][b]═══════════════════[center][b]ESTADÍSTICAS[center][b]═══════════════════[/b][/center]
+Puntos con Mateo.
+do SistemaPuntos.obtenerPuntos("mateo")
+
+Puntos negativos acumulados.
+do SistemaPuntos.obtenerPuntosNegativos()/SistemaPuntos.maxPuntos
+#Puntos con Mateo: {SistemaPuntos.obtenerPuntos("mateo")}
+#Puntos negativos acumulados: {SistemaPuntos.obtenerPuntosNegativos()}/{SistemaPuntos.maxPuntos}
+[wait=2.0]
+
+- Volver a intentar => reintentar
+- Ir al menú principal => menu
+
+~ menu
+do get_tree().change_scene_to_file("res://escenas/menu.tscn")
+=> END
+
+~ creditos
+[bg negro]
+[center][b]━━━━━━━━━━━━━━━━━━━━ \n[center][b]CRÉDITOS \n[center][b]━━━━━━━━━━━━━━━━━━━━[/b][/center]
+[wait=1.0]
+[center]Una historia, escrita por mí; \n[center][b]Akari[/b]\n[center] Historia inspirada en algo que sucedió de verdad
+[wait=2.0]
+[center]Creado con \n[center]Godot Engine 4 \n[center]Y Dialogue Manager 3[/center]
+[wait=2.0]
+[center]¡Gracias por jugar! \n :D[/center]
+[wait=2.0]
+
+- Volver al menú principal 
+	=> menu
+- Volver a jugar 
+	=> reintentar
+
+=> reintentar
+#do get_tree().reload_current_scene()
+do retry_game()
+=> END
+
+=> menu
+do get_tree().change_scene_to_file("res://escenas/menu.tscn")
+=> END
+
+=> END

@@ -66,15 +66,13 @@ Me cambié, me cogieron la vía y, con el cuerpo lleno de nervios, arrastraron l
 *fondo negro*
 Hacía mucho frío, nunca me acostumbraba a aquel sitio, pero sabía que todo iría bien, al fin y al cabo, me operaba mi cirujano favorito.
 
-
-
-
-Paolo: Holaa, criaturita. ¿Qué tal? ¿Nerviosa?
+Felix: Holaa, criaturita. ¿Qué tal? ¿Nerviosa?
 Kristine: Un poco, la verdad.
-Paolo: No te preocupes. Voy a hacer mi mejor trabajo contigo. Ya dentro de nada irás al baño como antes.
+Felix: No te preocupes. Voy a hacer mi mejor trabajo contigo. Ya dentro de nada irás al baño como antes.
 Kristine: Eso espero *risa nerviosa*
 Anestesista: Por supuesto que sí, todo saldrá bien. Ahora necesito que respires profundo y cuentes hasta 10.
 
+do marcar_punto_decision("decisionQuirofano")
 Aunque sea una pregunta absurda [b]¿qué debería hacer?[/b]:
 - Hacer caso
 	do cargarSiguienteCap("escenaHospi")
@@ -102,13 +100,5 @@ Aunque sea una pregunta absurda [b]¿qué debería hacer?[/b]:
 	Durante minutos vi negro. Horas, creo.
 	No podía mover mi cuerpo, no podía hacer nada.
 	[wait=1][wave]¿Así se siente morir?[/wave]
-	
-	[wait=1.5]	Final estúpido
-	No pudieron operar a Kristine y, para colmo, murió por tu culpa. Enhorabuena.
-	- Volver a intentar
-		do get_tree().reload_current_scene()
-		=> END
-	- Ir al menú principal
-		do get_tree().change_scene_to_file("res://escenas/menu.tscn")
-		=> END
+	do cargarFinal("finalEstupido")
 	=> END

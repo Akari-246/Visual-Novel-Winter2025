@@ -1,0 +1,303 @@
+~ start
+
+*fondo habitación*
+Dejé el móvil, realmente necesitaba concentrarme para terminar algunas tareas.
+
+*fondo habitación de noche*
+Llegó la noche y, como mañana de nuevo tenía clase, me dormí.
+Al despertar me sorprendí al leer algo que no esperaba para nada.
+
+*encima de habitación coso móvil con mensajes*
+[i]Cierto, como tema aparte te quería comentar algo.
+[i]No quiero abrumarte con este mensaje, quería agradecerte el permitirme hablar contigo y conocerte, aunque no sea en persona por los horarios de clase y tal. Aprecio mucho eso y me pareces alguien genial e intuyo con un gran corazón, y sí, aún con lo poco que hemos hablado me da esa sensación.
+[i]Me pareces y transmites ser así y si me permites saber más de ti aún siendo por aquí, sin agobiarte, lo agradecería mucho. Que no te extrañen estas palabras. Te las mereces y quería compartir lo que opino de ti con este gran mensaje del momento JAAJAKA 
+[i]Y si al menos consiguen alegrarte el día o animarte, habré cumplido con mi propósito. Disculpa por la longitud. No estoy acostumbrado a ganar confianza tan rápido con alguien y sé que puede abrumar verlo al momento
+
+*fondo habitación*
+Sonreí como una tonta.
+Iba a responderle, pero me di cuenta que se me hizo tarde para ir a clase.
+
+*fondo clase*
+Pasaron las horas y con ello llegó la hora de ir a casa. Debido a que tenía una revisión con el médico, para asegurarse de que mi herida y mi intestino iban bien, se me olvidó completamente que no le había contestado, no hasta que lo recordé al día siguiente.
+*fondo habitación y encima móvil*
+¿Qué le respondo? 
+- Contestar con timidez 
+	[i]No te preocupes y muchas gracias por  tus palabras ^^
+	=> sigue
+	
+- Contestar de forma borde
+	do SistemaPuntos.cambiarPuntos("mateo", -1)
+	[i] A veces está bien guardarse lo que opinas de la gente para uno mismo. Por favor, por el momento, no me digas nada por el estilo a lo que dijiste antes.
+	Respondí sin pensar.
+	do SistemaPuntos.cambiarPuntos("kristine", -2)
+	Mierda, ¿por qué escribí eso?
+	Iba a borrarlo. Por los nervios tardé de más y, cuando quise borrarlo o editar el mensaje, ya era tarde.
+	Me contestó con una disculpa.
+	Odio ser así, ojalá hubiera sido más amable...
+	=> sigue
+
+- Contestar después y preguntarle a qué viene eso
+	do SistemaPuntos.cambiarPuntos("mateo", -0.5)
+	Sin saber qué responder, le dejé en visto.
+	Pero no me gusta dejar en visto mensajes que sé que debo contestar. 
+	Indecisa, tardé varios minutos en escribir algo para preguntarle el porqué de su mensaje, pero sin sonar muy borde.
+	[i] ¿A qué viene eso?
+	Me dispuse a hacer mis deberes, pero me distrajo el sonido que indicaba una nueva notificación.
+	Y, efectivamente, era él.
+	[i] Nada. Sólo quería hacerte saber que agradezco el poder hablar contigo
+	[i] Lamento si te ha molestado, no era mi intención.
+	Me disculpé con él porque no quería sonar borde.
+	=> sigue
+
+~ sigue
+*fondo habitación*
+En fin, después de aquello, seguimos hablando. De cualquier cosa en verdad, sobre el curso, aficiones… Inclusive si decía algún comentario sobre si se me complicaba algo de una asignatura, él me explicaba lo que fuera necesario. 
+
+*fondo habitación, pero anochecer*
+De hecho, un día de diciembre, después de comentarle que llevaba muy mal una asignatura; Entornos de desarrollo, a las 00:00, me fui a dormir. 
+
+*fondo habitación de día*
+Al despertar, miré el móvil como de costumbre, pero me sorprendí mucho al ver que él, a las 6:48 de la mañana, me respondió y, por si fueran poco los consejos que anteriormente me dio y los enlaces que me pasó para ayudarme, me mandó un archivo word hecho por él, el cual estaba lleno de explicaciones y ejemplos sobre lo que no entendía. Lo había hecho de madrugada. Por mí. Para ayudarme a mí. 
+Enseguida le di las gracias por lo que había hecho. Al fin y al cabo, aquellos apuntes eran justo lo que necesitaba para llevar mejor el examen, pero una cuestión rondaba mi mente. ¿Por qué lo hacía?
+Aunque agradecía enormemente el gesto que había tenido conmigo y seguía teniendo cada día al interesarse por mí, preguntarme y ayudarme con las asignaturas o problemas con tareas que hacía, aún cuando ni nos conocíamos de vista, no dejaba de pensar en la razón por la que hacía todo aquello.
+Sin darme cuenta, aquel extraño que poco a poco dejaba de serlo, ocupaba varios de mis pensamientos al día. Sin duda alguna, necesitaba conocerlo y agradecerle.
+Y eso no tardaría mucho en ocurrir.
+
+*fondo calle*
+13 de diciembre. 
+Ya casi era invierno y quedaba poco para las vacaciones de Navidad. Aquello era algo que me encantaba y me desagradaba al mismo tiempo.
+
+*fondo clase*
+Estaba pensando bastante, demasiado si soy sincera, por su culpa.
+
+*encima del fondo mostrar pc y mensajes*
+[i]Hoy salgo 1 hora antes, pero me quedo en clase para esperarte luego ^^
+[i]Si quieres, claro
+
+[b]Debo ser agradable con él… ¿No?
+- Aceptar y quedar con él
+	do SistemaPuntos.cambiarPuntos("mateo", 2)
+	[i]Vale ^^
+	=> siguee
+
+- Cancelarlo
+	do SistemaPuntos.cambiarPuntos("mateo", -0.5)
+	Ni siquiera lo conozco...
+	No debería quedar con él hasta que me sienta cómoda, supongo.
+	do SistemaPuntos.cambiarPuntos("kristine", -1)
+	Sin saber muy bien qué decirle, le cancelé, pero le dije que otro día sí, siempre que ambos pudiéramos, claro.
+	Enseguida me arrepentí. ¿Por qué le cancelaría cuando realmente me gustaría conocerlo?
+	Borré el mensaje que le escribí para rectificarme y decirle que sí al vernos.
+	=> siguee
+
+- Mentir
+	do SistemaPuntos.cambiarPuntos("mateo", -1.5)
+	Indecisa, decidí decirle una pequeña mentira.
+	[i]Lo siento, tengo muchas cosas que hacer hoy. Otro día si quieres ^^
+	Realmente no era una gran mentira. Después de todo, tenía algunas tareas pendientes por hacer. Sin embargo, no era tan urgente.
+	=> seSalta
+
+~ siguee
+*fondo clase*
+No voy a mentirte.
+Estoy muy inquieta. Mi mente no deja de darle vueltas a lo mismo.
+Voy a verlo.
+Voy a conocer al chico que me ha estado ayudando tanto estos últimos días. El mismo que me dedicó palabras bonitas, a mí.
+En cuanto termine la clase tendré enfrente al mismo chico que me ha dicho que soy alguien genial y con un gran corazón.
+
+No sé si me arrepiento, si estoy impaciente o, en parte, ambas.
+
+Al final el profesor terminó con su explicación y, dado que ya eran las 14:30, la clase terminó.
+Todos comenzaron a recoger sus cosas, incluida yo, pero, a diferencia del resto, lo hacía más lento. Necesitaba tomarme mi tiempo para asimilar que iba a tener que socializar un poco más.
+
+*fondo calle*
+Casi 10 minutos después salí del centro y lo encontré ahí.
+Tal y como dijo antes, estaba esperándome casi en la entrada.
+Al verme, me saludó.
+
+Mateo: Holaaa, ¿qué tal te ha ido?
+Kristine: Bien, ¿y a ti?
+Mateo: Bien bien. 
+
+Al decir aquello comenzamos a caminar para volver a nuestras respectivas casas.
+
+Mateo: Por cierto, quería preguntarte algo. Sólo si no te molesta.
+Kristine: Claro, adelante.
+Mateo: La vez que faltaste la otra semana, ¿te pasó algo grave?
+
+Con lo amable que ha sido conmigo, [b]me gustaría decirle la verdad…
+- Contarle la verdad
+	Kristine: Bueno, antes tenía una ostomía, entonces tuve que faltar por la operación que me hicieron para quitarla.
+
+	Ver su cara de sorpresa me hizo un poco de gracia. 
+	Por algún motivo, su mirada me animaba a seguir hablando, cosa que con casi nadie me había pasado.
+
+	Kristine: Ya estoy bien, no te preocupes. Esa operación era la última que tenían que hacerme, lo que me queda son revisiones y pruebas cada mes y luego serán anuales.
+	Mateo: ¿Por qué?, quiero decir, ¿por qué tenías eso? ¿Y qué es?
+	Kristine: No quiero aburrirte o abrumarte.
+	Mateo: No lo vas a hacer, tranquila. Cuéntame, sin miedo.
+
+	Y aquello fue suficiente para contarle todo.
+
+	Kristine: Está bien… La ostomía es una apertura que tienes en el cuerpo, más o menos a la altura del intestino, que permite la salida de heces hacia una bolsa, que era lo que tenía hace poco menos de un mes.
+	Mateo: Y la tenías por…
+
+	Animó para que siguiera hablando
+
+	Kristine: Porque tuve una peritonitis. En resumen, me han tenido que operar varias veces por cáncer y demás. Pero lo dicho, ya estoy bien.
+	Mateo: Vaya… Me sorprende que, a pesar de las operaciones, hayas podido seguir. Igual, me alegra mucho que estés bien por fin, de corazón te lo digo.
+	Kristine: Muchas gracias.
+	=> sigueee
+- Cambiar de tema
+	do SistemaPuntos.cambiarPuntos("mateo", -0.25)
+	Kristine: Bueno...
+	Mateo: ¿Si?
+	Kristine: Preferiría saber de ti antes. 
+	Mateo: Entiendo. ¿Qué quieres saber?
+	Kristine: No sé, qué hiciste antes de este grado, amistades, tal vez vida amorosa...
+	Mateo: Oh, antes de entrar en este grado hice el grado medio de...
+	
+	Y, sin darme cuenta de lo que había provocado, comenzó a hablar de su vida.
+	Intentó hacer el bachillerato, pero no le gustó y se metió a un grado medio. Allí conoció a actual su mejor amigo y a un grupo de amigos que conforme más se juntaba con ellos más se daba cuenta de la toxicidad que había en ese ambiente.
+	Al parecer le gustó una chica, pero no le fue muy bien puesto que terminó engañándolo de una forma cruel. Qué asco dan las personas así...
+	=> sigueee
+- Mentir
+	do SistemaPuntos.cambiarPuntos("mateo", -1.5)
+	Kristine: Oh, no. Nada grave, sólo un resfriado. No te preocupes.
+	Mateo: Menos mal qu eya estás bien.
+	Kristine: Si...
+	¿Por qué le mentí?
+	Aunque no era agradable el recordar lo que me había pasado, quizá me hubiera venido bien contarlo, aunque fuera a un aparentemente desconocido que ya no era tan desconocido.
+	Me hubiera gustado decirle la verdad, pero a lo mejor hice bien no contándoselo. No a todos les gustaría escuchar la cantidad de operaciones que ha tenido una persona y las razones. 
+	Es desmotivante y luego tener que escuchar lo "fuerte" que has sido en ese proceso, que no todos podrían haber luchado igual que tú y el resto de ese discurso tan cliché, es... Es desesperante y para nada original, pero, sobre todo, es agotador.
+	Termina cansando escuchar lo mismo de cada persona que sabe o empieza a conocer de tu lucha en la que no vivías, sino que sobrevivías y de una forma en la que no te queda de otra.
+	A nadie le gusta ser fuerte, pero, tarde o temprano, toca serlo.
+	En fin...
+	=> sigueee
+
+~ sigueee
+No me di cuenta de que ya estábamos cerca de mi casa.
+
+Mateo: ¿Por dónde vives?
+Kristine: Pues justo en esta calle.
+Mateo: ¿Tienes algo que hacer?
+
+Podría decirle la verdad. ¿O le miento? Una pequeña mentira no hace daño a nadie… ¿No?
+- Decir la verdad
+	Kristine: Sí, tengo en unos días algunos exámenes.
+	Mateo: Ohhh vale. Yo vivo un poco más lejos, así que tendré que coger el bus.
+	Kristine: Vale, sin problema.
+
+	Justo cuando me iba a despedir de él, me dio un abrazo, el cual terminó rápido.
+
+	Mateo: ¡Nos vemos!
+	*fondo negro*
+	Y así fue como, definitivamente, lo conocí. En persona esta vez.
+	=> historiaNormal
+- Mentir
+	Kristine: No. No tengo nada pendiente por el momento.
+	do SistemaPuntos.cambiarPuntos("mateo", -1.5)
+	Mateo: Ohhh qué bien.
+	¿Por qué siento que él sabe algo que yo no?
+	Mateo: Bueno, mi autobús sale en nada así que tengo que irme.
+	Kristine: Vale, no te preocupes.
+	
+	Después de aquello, nos despedimos.
+	Así fue como lo conocí. En persona, esta vez.
+	=> historiaNormal
+
+Opción 2: Mentir → Kristine dice que está libre, lo cual es mentira y Mateo al final descubre que mintió porque unos compañeros de la clase le comentaron que tenían exámenes en esa semana y le pidieron ayuda. Baja puntos con Mateo y, si ha acumulado anteriormente más, saca el final Demasiadas mentiras
+
+~ historiaNormal
+*fondo habitación*
+Un rato después vi una notificación que tenía nueva de hace unas horas.
+Me entretuve bastante estudiando.
+
+*en móvil*
+[i]Me ha gustado hablar contigo
+[i]No te he querido entretener mucho para que puedas estudiar tranquila y por eso me he despedido al llegar a tu casa ^^ 
+[i]y oye, si quieres mañana te espero también, si te parece bien y si tienes tiempo claro ^^ 
+
+Y gracias por comentarme lo de las operaciones. De verdad que me alegro que estés bien y que aún pasando por ellas, no te afecten en gran medida
+Aunque ya lo sabes, estoy para lo que sea y gracias por comentarme sobre ello, de corazón te lo digo
+
+Sin dudarlo, le respondí.
+
+[i]No te preocupes, no pasa nada ^^
+[i]Y me parece bien que nos veamos mañana de nuevo
+[i]Gracias a ti por escuchar y por tus palabras ^^
+
+[i]Te iba a escuchar sí o sí, ya que aparte del tema y la importancia del mismo en sí, me pareces una persona increíble y me siento muy cómodo contigo, la verdad. Espero transmitir lo mismo, me gusta tu forma de pensar y quién eres como persona, técnicamente eres genial en resumidas cuentas y agradezco la confianza que me das para contarme las cosas aún conociéndonos poco ^^ 
+
+*fondo habitación*
+No entiendo cómo se podía ser tan tierno, pero no podía distraerme más.
+~ seSalta
+Seguí estudiando y haciendo ejercicios el resto del día para aprenderme bien los conceptos y hacer bien el examen que tenía al día siguiente.
+Pareció que así fue.
+
+*En clase*
+Hice el examen tranquila.
+No sentía que me había salido tan mal como esperaba, por lo que salí de clase contenta.
+
+*fondo calle*
+En cuanto estuve fuera del centro, vi a alguien que se me hacia conocido.
+¿Era él?
+Me estaba esperando.
+Llevaba 20 minutos de más fuera, en la calle, para esperarme.
+Y él, por lo que me contó, debía coger un autobús.
+
+Me dio tanta pena que en cuanto lo vi, me disculpé con él.
+
+Mateo: No te preocupes, ¿te salió bien el examen?
+Kristine: Sí. Bastante bien.
+Mateo: Me alegro.
+
+Le pregunté sobre su día y estuvimos hablando durante todo el trayecto hasta mi casa. Vivía mucho más cerca del instituto que él. 
+Cuando llegamos iba a despedirme, pero se adelantó con algo que no esperaba.
+
+Mateo: Oye, a todo esto, ¿podría tener tu número?
+
+Aunque me pilló desprevenida, le respondí.
+
+Kristine: Claro.
+
+Sacó su móvil y le dí mi número.
+No quería que estuviera mal, por lo que me aseguré de que lo apuntó correctamente y luego lo guardó. 
+
+*fondo casa*
+Justamente al llegar a mi casa recibí una notificación:
+
+*movil ya como si fuera whatsapp*
+[i]Holaaaa soy Mateo
+
+*casa*
+Al verlo, por alguna razón, sonreí al instante. Y le respondí, por supuesto, al mensaje.
+
+*fondo negro*
+Desde ese día hablábamos bastante.
+
+En Navidad, aunque no lo pasé tan bien como esperé, pude quedar con mi mejor amiga y con él. No creí que después de haberlo pasado tan mal en ese invierno, llegaría un descanso.
+*de negro a azul claro o algo por el estilo(?/rosa(?*
+En parte, esa luz empezó a llegar gracias a él, Mateo, quien me alegraba algunos días; a veces con bromas, a veces con algún vídeo que me mandaba y otras veces porque simplemente me contaba cosas que no sabía sobre él.
+
+Esas vacaciones de invierno me sirvieron para dos cosas o bueno, tres; despejarme, aprender y adelantar algunos trabajos y también para conocer mejor a Mateo, quien, con rapidez, se convirtió en un gran amigo para mí.
+
+Sin darme cuenta del paso del tiempo, ya casi era mi cumpleaños; 24 de enero.
+No obstante, no esperaba lo que sucedería después.
+
+*fondo casa/habitacion*
+Mi cumpleaños fue bien, Mateo me felicitó justo a las 00:00 y el resto del día fue normal. 
+El 25 de enero tenía un examen, por lo que estuve estudiando en mi cumple. 
+
+Aquel día me desperté rara, pero no era una excusa para faltar, claro que no, tenía un examen importante de programación que hacer.
+Si algo aprendí de bachillerato, era que, pasara lo que pasara, no podías faltar a los exámenes. Tenías que hacerlo sí o sí, así que no ir a clase no era una opción.
+Debía hacer y aprobar ese examen.
+
+Me levanté de la cama y, una vez lista, me dirigí a clases con los apuntes en mano.
+
+*fondo clase*
+Mientras hacía el examen, comencé a notar algunos mareos, pero no le di importancia. Lo que no sabía era que aquello sería la peor decisión que tomaría.
+
+Empiezo a encontrarme muy rara...
+
+=> END
