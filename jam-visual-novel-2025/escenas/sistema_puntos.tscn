@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://c8w3htrbh2qre"]
+
+[ext_resource type="Script" uid="uid://c2nt5yumlvtmr" path="res://scripts/sistemaPuntos.gd" id="1_c7dy2"]
+
+[node name="SistemaPuntos" type="Node"]
+script = ExtResource("1_c7dy2")

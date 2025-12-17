@@ -1,0 +1,1809 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" uid="uid://dbs4435dsf3ry" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_jmoey"]
+
+[resource]
+script = ExtResource("1_jmoey")
+using_states = PackedStringArray()
+titles = {
+"creditos": "219",
+"demasiadasMentiras": "151",
+"finalCanon": "5",
+"finalCobarde": "123",
+"finalEstupido": "88",
+"finalMalo": "68",
+"menu": "215",
+"mostrarStats": "201",
+"opGameOver": "188",
+"reintentar": "197",
+"soloAmigos": "96",
+"start": "1"
+}
+character_names = PackedStringArray("Mateo", "Kristine")
+first_title = "0"
+lines = {
+"0": {
+&"id": "0",
+&"next_id": "1",
+&"type": "title"
+},
+"1": {
+&"id": "1",
+&"next_id": "2",
+&"text": "Has llegado al final de la historia.",
+&"type": "dialogue"
+},
+"10": {
+&"id": "10",
+&"next_id": "11",
+&"text": "Había sobrevivido ante algo que casi nadie ha conseguido y, aunque estaba cansada de sobrevivir ante tanta lucha tras años de operaciones y pruebas constantes, había una persona que hacía de mi vida una lucha con sentido.",
+&"type": "dialogue"
+},
+"100": {
+&"id": "100",
+&"next_id": "101",
+&"text": "Después de aquello, los días pasaron y, por alguna maldita razón, lo que sentía por Mateo no cesaba, es más, se intensificaba.",
+&"type": "dialogue"
+},
+"101": {
+&"id": "101",
+&"next_id": "102",
+&"text": "Intenté olvidar cualquier sentimiento que tuviera por él y cada vez que estaba a su lado intentaba concentrarme en otras cosas que no fuera él, pero, simplemente, no podía. Era imposible.",
+&"type": "dialogue"
+},
+"102": {
+&"id": "102",
+&"next_id": "104",
+&"text": "Estaba enamorada de Mateo y, por suerte o por desgracia, nadie podría cambiar eso, ni siquiera yo misma.",
+&"type": "dialogue"
+},
+"103": {
+&"id": "103",
+&"next_id": "104",
+&"type": ""
+},
+"104": {
+&"id": "104",
+&"next_id": "105",
+&"text": "Juro que intenté seguir siendo su amiga, pero cuando uno guarda esta clase de sentimientos por un amigo, sencillamente la amistad deja de ser una amistad real.",
+&"type": "dialogue"
+},
+"105": {
+&"id": "105",
+&"next_id": "107",
+&"text": "Sí, hay cariño real, por supuesto que sí, pero no es lo que quizás él quiere.",
+&"type": "dialogue"
+},
+"106": {
+&"id": "106",
+&"next_id": "107",
+&"type": ""
+},
+"107": {
+&"id": "107",
+&"next_id": "108",
+&"text": "Con el tiempo, me di cuenta de que no podía seguir así y me fui alejando de él, pero no por él, sino por mí.",
+&"type": "dialogue"
+},
+"108": {
+&"id": "108",
+&"next_id": "110",
+&"text": "Él siempre fue muy bueno conmigo, mas yo no estaba contenta con esa relación. Necesitaba más.",
+&"type": "dialogue"
+},
+"109": {
+&"id": "109",
+&"next_id": "110",
+&"type": ""
+},
+"11": {
+&"id": "11",
+&"next_id": "13",
+&"text": "Mateo.",
+&"type": "dialogue"
+},
+"110": {
+&"id": "110",
+&"next_id": "112",
+&"text": "Quería ser su novia, pero nunca me atreví a decirle nada.",
+&"type": "dialogue"
+},
+"111": {
+&"id": "111",
+&"next_id": "112",
+&"type": ""
+},
+"112": {
+&"id": "112",
+&"next_id": "113",
+&"text": "Ojalá me hubiera animado.",
+&"type": "dialogue"
+},
+"113": {
+&"id": "113",
+&"next_id": "115",
+&"text": "Ojalá hubiera tenido el valor suficiente para admitir la realidad...",
+&"type": "dialogue"
+},
+"114": {
+&"id": "114",
+&"next_id": "115",
+&"type": ""
+},
+"115": {
+&"id": "115",
+&"next_id": "116",
+&"text": "[wait=2.0]",
+&"type": "dialogue"
+},
+"116": {
+&"id": "116",
+&"next_id": "117",
+&"text": "[center][b][color=cyan] ━━━━━━━━━━━━━━━━━━ FINAL AMIGOS ━━━━━━━━━━━━━━━━━━ 
+[center][b][color=white]Kristine y Mateo fueron buenos amigos[center][b][color=cyan]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+&"type": "dialogue"
+},
+"117": {
+&"id": "117",
+&"next_id": "118",
+&"text": "[wait=2.0]",
+&"type": "dialogue"
+},
+"118": {
+&"id": "118",
+&"next_id": "119",
+&"text": "[center]\"Nunca es malo admitir lo que hay dentro de ti\"[/center]",
+&"type": "dialogue"
+},
+"119": {
+&"id": "119",
+&"next_id": "120",
+&"text": "[wait=2.0]",
+&"type": "dialogue"
+},
+"12": {
+&"id": "12",
+&"next_id": "13",
+&"type": ""
+},
+"120": {
+&"id": "120",
+&"is_snippet": false,
+&"next_id": "188",
+&"next_id_after": "",
+&"type": "goto"
+},
+"121": {
+&"id": "121",
+&"next_id": "122",
+&"type": ""
+},
+"122": {
+&"id": "122",
+&"next_id": "123",
+&"type": "title"
+},
+"123": {
+&"character": "Mateo",
+&"id": "123",
+&"next_id": "124",
+&"text": "Oye, ¿te pasa algo?",
+&"type": "dialogue"
+},
+"124": {
+&"character": "Kristine",
+&"id": "124",
+&"next_id": "125",
+&"text": "No, nada. No te preocupes",
+&"type": "dialogue"
+},
+"125": {
+&"id": "125",
+&"next_id": "127",
+&"text": "Le sonreí para convencerle de que de verdad no pasaba nada, cosa que logré.",
+&"type": "dialogue"
+},
+"126": {
+&"id": "126",
+&"next_id": "127",
+&"type": ""
+},
+"127": {
+&"id": "127",
+&"next_id": "128",
+&"text": "No puedo darle la carta. Por supuesto que no.",
+&"type": "dialogue"
+},
+"128": {
+&"id": "128",
+&"next_id": "129",
+&"text": "¿Qué pasa si se ríe en mi cara una vez sepa de mis sentimientos?",
+&"type": "dialogue"
+},
+"129": {
+&"id": "129",
+&"next_id": "130",
+&"text": "¿Y si rompe la carta? ¿Y si le prende fuego? ¿Y si, en cuanto sepa lo que siento, se intenta aprovechar de mí?",
+&"type": "dialogue"
+},
+"13": {
+&"id": "13",
+&"next_id": "14",
+&"text": "*fondo calle*",
+&"type": "dialogue"
+},
+"130": {
+&"id": "130",
+&"next_id": "132",
+&"text": "O peor, ¿y si le muestra lo que le escribí a alguien más?",
+&"type": "dialogue"
+},
+"131": {
+&"id": "131",
+&"next_id": "132",
+&"type": ""
+},
+"132": {
+&"id": "132",
+&"next_id": "133",
+&"text": "No sé en qué pensé, pero no puedo darle la carta, no si hay tantas posibilidades crueles que puedan pasar.",
+&"type": "dialogue"
+},
+"133": {
+&"id": "133",
+&"next_id": "134",
+&"text": "Simplemente, no puedo.",
+&"type": "dialogue"
+},
+"134": {
+&"id": "134",
+&"next_id": "135",
+&"text": "Da miedo.",
+&"type": "dialogue"
+},
+"135": {
+&"id": "135",
+&"next_id": "136",
+&"text": "No quiero pasar por nada malo.",
+&"type": "dialogue"
+},
+"136": {
+&"id": "136",
+&"next_id": "138",
+&"text": "No puedo dejar que fragmenten mi corazón en pedacitos. No más veces.",
+&"type": "dialogue"
+},
+"137": {
+&"id": "137",
+&"next_id": "138",
+&"type": ""
+},
+"138": {
+&"id": "138",
+&"next_id": "139",
+&"text": "Después de esa quedada, algo cambió dentro de mí.",
+&"type": "dialogue"
+},
+"139": {
+&"id": "139",
+&"next_id": "141",
+&"text": "Era consciente de lo que sentía por Mateo, pero nunca me atreví a contárselo.",
+&"type": "dialogue"
+},
+"14": {
+&"id": "14",
+&"next_id": "15",
+&"text": "Ya era notorio el frío de diciembre.",
+&"type": "dialogue"
+},
+"140": {
+&"id": "140",
+&"next_id": "141",
+&"type": ""
+},
+"141": {
+&"id": "141",
+&"next_id": "143",
+&"text": "Por suerte, fuimos amigos por mucho tiempo, pero, muy dentro de mí, me hubiera gustado darle esa carta que le escribí...",
+&"type": "dialogue"
+},
+"142": {
+&"id": "142",
+&"next_id": "143",
+&"type": ""
+},
+"143": {
+&"id": "143",
+&"next_id": "144",
+&"text": "[wait=2.0]",
+&"type": "dialogue"
+},
+"144": {
+&"id": "144",
+&"next_id": "145",
+&"text": "[center][b][color=orange] ━━━━━━━━━━━━━━━━━━ FINAL COBARDE ━━━━━━━━━━━━━━━━━━ 
+[center][b][color=white]El temor se apoderó de Kristine y ella nunca confesó sus sentimientos[center][b][color=orange]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+&"type": "dialogue"
+},
+"145": {
+&"id": "145",
+&"next_id": "146",
+&"text": "[wait=2.0]",
+&"type": "dialogue"
+},
+"146": {
+&"id": "146",
+&"next_id": "147",
+&"text": "[center]\"Arrepentirse nunca es la opción\"[/center]",
+&"type": "dialogue"
+},
+"147": {
+&"id": "147",
+&"next_id": "148",
+&"text": "[wait=2.0]",
+&"type": "dialogue"
+},
+"148": {
+&"id": "148",
+&"is_snippet": false,
+&"next_id": "188",
+&"next_id_after": "",
+&"type": "goto"
+},
+"149": {
+&"id": "149",
+&"next_id": "150",
+&"type": ""
+},
+"15": {
+&"id": "15",
+&"next_id": "17",
+&"text": "Habíamos pasado la tarde simplemente caminando por la ciudad ya alumbrada con las luces de Navidad hablando de todo y de nada a la vez.",
+&"type": "dialogue"
+},
+"150": {
+&"id": "150",
+&"next_id": "151",
+&"type": "title"
+},
+"151": {
+&"id": "151",
+&"next_id": "152",
+&"text": "[bg negro]",
+&"type": "dialogue"
+},
+"152": {
+&"id": "152",
+&"next_id": "153",
+&"text": "[wait=1.0]",
+&"type": "dialogue"
+},
+"153": {
+&"id": "153",
+&"next_id": "154",
+&"text": "[center]Has acumulado [color=red][b]demasiadas[/b][/color] mentiras...[/center]",
+&"type": "dialogue"
+},
+"154": {
+&"id": "154",
+&"next_id": "155",
+&"text": "[wait=2.0]",
+&"type": "dialogue"
+},
+"155": {
+&"id": "155",
+&"next_id": "156",
+&"text": "[bg clase]",
+&"type": "dialogue"
+},
+"156": {
+&"id": "156",
+&"next_id": "157",
+&"text": "Un día como otro cualquiera, salí de clases. No obstante, me encontré a la salida con Mateo.",
+&"type": "dialogue"
+},
+"157": {
+&"id": "157",
+&"next_id": "159",
+&"text": "Justo cuando iba a hablarle, dijo algo que no esperaba...",
+&"type": "dialogue"
+},
+"158": {
+&"id": "158",
+&"next_id": "159",
+&"type": ""
+},
+"159": {
+&"character": "Mateo",
+&"id": "159",
+&"next_id": "160",
+&"text": "Kristine... ya no puedo más.",
+&"type": "dialogue"
+},
+"16": {
+&"id": "16",
+&"next_id": "17",
+&"type": ""
+},
+"160": {
+&"id": "160",
+&"next_id": "161",
+&"text": "Lo dijo tan serio que me extrañó. Nunca lo había visto así.",
+&"type": "dialogue"
+},
+"161": {
+&"character": "Kristine",
+&"id": "161",
+&"next_id": "162",
+&"text": "¿Qué quieres decir?",
+&"type": "dialogue"
+},
+"162": {
+&"character": "Mateo",
+&"id": "162",
+&"next_id": "164",
+&"text": "Has mentido tantas veces que ya no sé qué es real de ti y qué no. Lo siento, pero no puedo confiar en alguien así, no si sigues mintiendo.",
+&"type": "dialogue"
+},
+"163": {
+&"id": "163",
+&"next_id": "164",
+&"type": ""
+},
+"164": {
+&"id": "164",
+&"next_id": "165",
+&"text": "Abrí la boca para decir algo, pero no me salieron las palabras.",
+&"type": "dialogue"
+},
+"165": {
+&"character": "Kristine",
+&"id": "165",
+&"next_id": "166",
+&"text": "Lo siento...",
+&"type": "dialogue"
+},
+"166": {
+&"character": "Mateo",
+&"id": "166",
+&"next_id": "168",
+&"text": "Yo también.",
+&"type": "dialogue"
+},
+"167": {
+&"id": "167",
+&"next_id": "168",
+&"type": ""
+},
+"168": {
+&"id": "168",
+&"next_id": "169",
+&"text": "Intenté pensar en alguna frase más que tuviera sentido, incluso explicarle, sin embargo, para las mentiras no suele haber excusa que lo justifique.",
+&"type": "dialogue"
+},
+"169": {
+&"id": "169",
+&"next_id": "170",
+&"text": "No sabía qué más decir a excepción de una sincera disculpa.",
+&"type": "dialogue"
+},
+"17": {
+&"id": "17",
+&"next_id": "18",
+&"text": "*fondo de portal/entrada del edificio*",
+&"type": "dialogue"
+},
+"170": {
+&"id": "170",
+&"next_id": "171",
+&"text": "Iba a decir algo, pero él se alejó.",
+&"type": "dialogue"
+},
+"171": {
+&"id": "171",
+&"next_id": "172",
+&"text": "[bg negro]",
+&"type": "dialogue"
+},
+"172": {
+&"id": "172",
+&"next_id": "173",
+&"text": "Desde ese día, como era de esperar, no volvió a dirigirme la palabra.",
+&"type": "dialogue"
+},
+"173": {
+&"id": "173",
+&"next_id": "174",
+&"text": "Por desgracia, las cosas con Mateo no volvieron a ser como antes. Su confianza en mí no volvió, inclusive intenté hablarle en algunas ocasiones, pero se notaba que la conversación era forzada...",
+&"type": "dialogue"
+},
+"174": {
+&"id": "174",
+&"next_id": "176",
+&"text": "La amistad que teníamos se rompió. Y no sé porqué me extraña, si era evidente que tarde o temprano pasara, puesto que casi nunca de lo que le decía era verdad... Desearía haber sido más sincera.",
+&"type": "dialogue"
+},
+"175": {
+&"id": "175",
+&"next_id": "176",
+&"type": ""
+},
+"176": {
+&"id": "176",
+&"next_id": "178",
+&"text": "Perdí una gran amistad que pudo llegar a algo más...",
+&"type": "dialogue"
+},
+"177": {
+&"id": "177",
+&"next_id": "178",
+&"type": ""
+},
+"178": {
+&"id": "178",
+&"next_id": "179",
+&"text": "[wait=2.0]",
+&"type": "dialogue"
+},
+"179": {
+&"id": "179",
+&"next_id": "180",
+&"text": "[center][b][color=red]━━━━━━━━━━━━━━━━━━ FINAL MALO ━━━━━━━━━━━━━━━━━━
+[center][b][color=white]Demasiadas mentiras 
+[center][b][color=red] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color][/b][/center]",
+&"type": "dialogue"
+},
+"18": {
+&"id": "18",
+&"next_id": "19",
+&"text": "Al entrar en el portal de mi casa junto a mi acompañante para refugiarnos del frío, noté que me quería decir algo.",
+&"type": "dialogue"
+},
+"180": {
+&"id": "180",
+&"next_id": "181",
+&"text": "[center]\"Las mentiras pueden destruir cualquier tipo de relación, incluso la más fuerte\"[/center]",
+&"type": "dialogue"
+},
+"181": {
+&"id": "181",
+&"next_id": "182",
+&"text": "[wait=2.0]",
+&"type": "dialogue"
+},
+"182": {
+&"id": "182",
+&"is_snippet": false,
+&"next_id": "188",
+&"next_id_after": "",
+&"type": "goto"
+},
+"186": {
+&"id": "186",
+&"next_id": "187",
+&"type": ""
+},
+"187": {
+&"id": "187",
+&"next_id": "188",
+&"type": "title"
+},
+"188": {
+&"id": "188",
+&"next_id": "189",
+&"text": "[center]Elige una opción[/center]",
+&"type": "dialogue"
+},
+"189": {
+&"id": "189",
+&"next_id": "190",
+&"responses": PackedStringArray("189", "191", "193"),
+&"text": "Volver a intentar",
+&"type": "response"
+},
+"19": {
+&"id": "19",
+&"next_id": "20",
+&"text": "Le di el tiempo necesario para que hablara. Intentaba mirarlo con cariño y no con curiosidad.",
+&"type": "dialogue"
+},
+"190": {
+&"id": "190",
+&"is_snippet": false,
+&"next_id": "197",
+&"next_id_after": "",
+&"type": "goto"
+},
+"191": {
+&"id": "191",
+&"next_id": "192",
+&"text": "Ver estadísticas",
+&"type": "response"
+},
+"192": {
+&"id": "192",
+&"is_snippet": false,
+&"next_id": "201",
+&"next_id_after": "",
+&"type": "goto"
+},
+"193": {
+&"id": "193",
+&"next_id": "194",
+&"text": "Ir al menú principal",
+&"type": "response"
+},
+"194": {
+&"id": "194",
+&"is_snippet": false,
+&"next_id": "215",
+&"next_id_after": "",
+&"type": "goto"
+},
+"195": {
+&"id": "195",
+&"next_id": "196",
+&"type": ""
+},
+"196": {
+&"id": "196",
+&"next_id": "197",
+&"type": "title"
+},
+"197": {
+&"id": "197",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "retry_game",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 14,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "198",
+&"type": "mutation"
+},
+"198": {
+&"id": "198",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"199": {
+&"id": "199",
+&"next_id": "200",
+&"type": ""
+},
+"2": {
+&"id": "2",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"20": {
+&"id": "20",
+&"next_id": "22",
+&"text": "El portal estaba decorado con un muñeco de nieve de plástico y varias cajas que simulaban ser regalos. Arriba del ascensor había un letrero en el que ponía “Feliz Navidad”. Intenté enfocarme en el decorado para no ponerlo nervioso.",
+&"type": "dialogue"
+},
+"200": {
+&"id": "200",
+&"next_id": "201",
+&"type": "title"
+},
+"201": {
+&"id": "201",
+&"next_id": "202",
+&"text": "[center][b]═══════════════════[center][b]ESTADÍSTICAS[center][b]═══════════════════[/b][/center]",
+&"type": "dialogue"
+},
+"202": {
+&"id": "202",
+&"next_id": "203",
+&"text": "Puntos con Mateo.",
+&"type": "dialogue"
+},
+"203": {
+&"id": "203",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"i": 3,
+&"type": &"variable",
+&"value": "SistemaPuntos"
+}, {
+&"i": 16,
+&"type": &"dot"
+}, {
+&"function": "obtenerPuntos",
+&"i": 17,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 31,
+&"type": &"string",
+&"value": "mateo"
+}, {
+&"i": 38,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "205",
+&"type": "mutation"
+},
+"204": {
+&"id": "204",
+&"next_id": "205",
+&"type": ""
+},
+"205": {
+&"id": "205",
+&"next_id": "206",
+&"text": "Puntos negativos acumulados.",
+&"type": "dialogue"
+},
+"206": {
+&"id": "206",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"i": 3,
+&"type": &"variable",
+&"value": "SistemaPuntos"
+}, {
+&"i": 16,
+&"type": &"dot"
+}, {
+&"function": "obtenerPuntosNegativos",
+&"i": 17,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 40,
+&"type": &"parens_close"
+}])])
+}, {
+&"i": 41,
+&"type": &"operator",
+&"value": "/"
+}, {
+&"i": 42,
+&"type": &"variable",
+&"value": "SistemaPuntos"
+}, {
+&"i": 55,
+&"type": &"dot"
+}, {
+&"i": 56,
+&"type": &"variable",
+&"value": "maxPuntos"
+}]),
+&"is_blocking": true
+},
+&"next_id": "209",
+&"type": "mutation"
+},
+"208": {
+&"id": "208",
+&"next_id": "209",
+&"type": ""
+},
+"209": {
+&"id": "209",
+&"next_id": "211",
+&"text": "[wait=2.0]",
+&"type": "dialogue"
+},
+"21": {
+&"id": "21",
+&"next_id": "22",
+&"type": ""
+},
+"210": {
+&"id": "210",
+&"next_id": "211",
+&"type": ""
+},
+"211": {
+&"id": "211",
+&"next_id": "197",
+&"responses": PackedStringArray("211", "212"),
+&"text": "Volver a intentar",
+&"type": "response"
+},
+"212": {
+&"id": "212",
+&"next_id": "215",
+&"text": "Ir al menú principal",
+&"type": "response"
+},
+"213": {
+&"id": "213",
+&"next_id": "214",
+&"type": ""
+},
+"214": {
+&"id": "214",
+&"next_id": "215",
+&"type": "title"
+},
+"215": {
+&"id": "215",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "get_tree",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 12,
+&"type": &"parens_close"
+}])])
+}, {
+&"i": 13,
+&"type": &"dot"
+}, {
+&"function": "change_scene_to_file",
+&"i": 14,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 35,
+&"type": &"string",
+&"value": "res://escenas/menu.tscn"
+}, {
+&"i": 60,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "216",
+&"type": "mutation"
+},
+"216": {
+&"id": "216",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"217": {
+&"id": "217",
+&"next_id": "218",
+&"type": ""
+},
+"218": {
+&"id": "218",
+&"next_id": "219",
+&"type": "title"
+},
+"219": {
+&"id": "219",
+&"next_id": "220",
+&"text": "[bg negro]",
+&"type": "dialogue"
+},
+"22": {
+&"character": "Mateo",
+&"id": "22",
+&"next_id": "23",
+&"text": "Quiero darte algo. De parte de mi madre y mía, claro.",
+&"type": "dialogue"
+},
+"220": {
+&"id": "220",
+&"next_id": "221",
+&"text": "[center][b]━━━━━━━━━━━━━━━━━━━━ 
+[center][b]CRÉDITOS 
+[center][b]━━━━━━━━━━━━━━━━━━━━[/b][/center]",
+&"type": "dialogue"
+},
+"221": {
+&"id": "221",
+&"next_id": "222",
+&"text": "[wait=1.0]",
+&"type": "dialogue"
+},
+"222": {
+&"id": "222",
+&"next_id": "223",
+&"text": "[center]Una historia, escrita por mí; 
+[center][b]Akari[/b]
+[center] Historia inspirada en algo que sucedió de verdad",
+&"type": "dialogue"
+},
+"223": {
+&"id": "223",
+&"next_id": "224",
+&"text": "[wait=2.0]",
+&"type": "dialogue"
+},
+"224": {
+&"id": "224",
+&"next_id": "225",
+&"text": "[center]Creado con 
+[center]Godot Engine 4 
+[center]Y Dialogue Manager 3[/center]",
+&"type": "dialogue"
+},
+"225": {
+&"id": "225",
+&"next_id": "226",
+&"text": "[wait=2.0]",
+&"type": "dialogue"
+},
+"226": {
+&"id": "226",
+&"next_id": "227",
+&"text": "[center]¡Gracias por jugar! 
+ :D[/center]",
+&"type": "dialogue"
+},
+"227": {
+&"id": "227",
+&"next_id": "229",
+&"text": "[wait=2.0]",
+&"type": "dialogue"
+},
+"228": {
+&"id": "228",
+&"next_id": "229",
+&"type": ""
+},
+"229": {
+&"id": "229",
+&"next_id": "230",
+&"responses": PackedStringArray("229", "231"),
+&"text": "Volver al menú principal",
+&"type": "response"
+},
+"23": {
+&"character": "Kristine",
+&"id": "23",
+&"next_id": "24",
+&"text": "¿Qué es?",
+&"type": "dialogue"
+},
+"230": {
+&"id": "230",
+&"is_snippet": false,
+&"next_id": "215",
+&"next_id_after": "",
+&"type": "goto"
+},
+"231": {
+&"id": "231",
+&"next_id": "232",
+&"text": "Volver a jugar",
+&"type": "response"
+},
+"232": {
+&"id": "232",
+&"is_snippet": false,
+&"next_id": "197",
+&"next_id_after": "",
+&"type": "goto"
+},
+"233": {
+&"id": "233",
+&"next_id": "234",
+&"type": ""
+},
+"234": {
+&"id": "234",
+&"is_snippet": false,
+&"next_id": "197",
+&"next_id_after": "",
+&"type": "goto"
+},
+"235": {
+&"id": "235",
+&"next_id": "236",
+&"type": ""
+},
+"236": {
+&"id": "236",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "retry_game",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 14,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "237",
+&"type": "mutation"
+},
+"237": {
+&"id": "237",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"238": {
+&"id": "238",
+&"next_id": "239",
+&"type": ""
+},
+"239": {
+&"id": "239",
+&"is_snippet": false,
+&"next_id": "215",
+&"next_id_after": "",
+&"type": "goto"
+},
+"24": {
+&"character": "Mateo",
+&"id": "24",
+&"next_id": "26",
+&"text": "Míralo por ti misma.",
+&"type": "dialogue"
+},
+"240": {
+&"id": "240",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "get_tree",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 12,
+&"type": &"parens_close"
+}])])
+}, {
+&"i": 13,
+&"type": &"dot"
+}, {
+&"function": "change_scene_to_file",
+&"i": 14,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 35,
+&"type": &"string",
+&"value": "res://escenas/menu.tscn"
+}, {
+&"i": 60,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "241",
+&"type": "mutation"
+},
+"241": {
+&"id": "241",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"242": {
+&"id": "242",
+&"next_id": "243",
+&"type": ""
+},
+"243": {
+&"id": "243",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"244": {
+&"id": "244",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"25": {
+&"id": "25",
+&"next_id": "26",
+&"type": ""
+},
+"26": {
+&"id": "26",
+&"next_id": "27",
+&"text": "Luego de que dijera eso, me dio una bolsa pequeña.",
+&"type": "dialogue"
+},
+"27": {
+&"id": "27",
+&"next_id": "28",
+&"text": "Curiosa, cogí la bolsita y la abrí para encontrarme con una cajita.",
+&"type": "dialogue"
+},
+"28": {
+&"id": "28",
+&"next_id": "30",
+&"text": "Una vez vi su contenido me asombré ante el detalle tan bonito que habían tenido su madre y él.",
+&"type": "dialogue"
+},
+"29": {
+&"id": "29",
+&"next_id": "30",
+&"type": ""
+},
+"3": {
+&"id": "3",
+&"next_id": "4",
+&"type": ""
+},
+"30": {
+&"character": "Kristine",
+&"id": "30",
+&"next_id": "31",
+&"text": "Muchas gracias… Tu regalo va a tardar un poco en llegar, ¿te lo dije?",
+&"type": "dialogue"
+},
+"31": {
+&"character": "Mateo",
+&"id": "31",
+&"next_id": "32",
+&"text": "Sí, tranquila. No te preocupes por eso. ¿Quieres que te lo ponga?",
+&"type": "dialogue"
+},
+"32": {
+&"character": "Kristine",
+&"id": "32",
+&"next_id": "34",
+&"text": "Por favor.",
+&"type": "dialogue"
+},
+"33": {
+&"id": "33",
+&"next_id": "34",
+&"type": ""
+},
+"34": {
+&"id": "34",
+&"next_id": "36",
+&"text": "Agradecí que lo preguntara él. A pesar de que llevábamos ya casi 1 año juntos, me apenaba un poco pedirle favores como uno tan simple como poner un colgante.",
+&"type": "dialogue"
+},
+"35": {
+&"id": "35",
+&"next_id": "36",
+&"type": ""
+},
+"36": {
+&"character": "Kristine",
+&"id": "36",
+&"next_id": "37",
+&"text": "Es precioso.",
+&"type": "dialogue"
+},
+"37": {
+&"id": "37",
+&"next_id": "39",
+&"text": "Con cariño, acuné su cara entre mis manos.",
+&"type": "dialogue"
+},
+"38": {
+&"id": "38",
+&"next_id": "39",
+&"type": ""
+},
+"39": {
+&"character": "Kristine",
+&"id": "39",
+&"next_id": "40",
+&"text": "Muchas gracias.",
+&"type": "dialogue"
+},
+"4": {
+&"id": "4",
+&"next_id": "5",
+&"type": "title"
+},
+"40": {
+&"id": "40",
+&"next_id": "42",
+&"text": "Él sólo sonrió y agachó un poco su cabeza para estar a mi altura.",
+&"type": "dialogue"
+},
+"41": {
+&"id": "41",
+&"next_id": "42",
+&"type": ""
+},
+"42": {
+&"character": "Mateo",
+&"id": "42",
+&"next_id": "44",
+&"text": "No es nada.",
+&"type": "dialogue"
+},
+"43": {
+&"id": "43",
+&"next_id": "44",
+&"type": ""
+},
+"44": {
+&"id": "44",
+&"next_id": "45",
+&"text": "Cuando terminó de hablar, separó mis manos de su rostro para abrazarme.",
+&"type": "dialogue"
+},
+"45": {
+&"id": "45",
+&"next_id": "47",
+&"text": "Segundos después, nos distanciamos un poco para mirarnos fijamente.",
+&"type": "dialogue"
+},
+"46": {
+&"id": "46",
+&"next_id": "47",
+&"type": ""
+},
+"47": {
+&"id": "47",
+&"next_id": "48",
+&"text": "Impaciente, no pude esperar más y lo besé.",
+&"type": "dialogue"
+},
+"48": {
+&"id": "48",
+&"next_id": "49",
+&"text": "Fue lento y cálido. Contrastaba con el frío que hacía tanto dentro como fuera.",
+&"type": "dialogue"
+},
+"49": {
+&"id": "49",
+&"next_id": "51",
+&"text": "Era un beso seguro, sin prisas, sin accidentes. Uno bien dado, por cierto, no hubo ninguna broma después.",
+&"type": "dialogue"
+},
+"5": {
+&"id": "5",
+&"next_id": "6",
+&"text": "*fondo negro*",
+&"type": "dialogue"
+},
+"50": {
+&"id": "50",
+&"next_id": "51",
+&"type": ""
+},
+"51": {
+&"character": "Kristine",
+&"id": "51",
+&"next_id": "52",
+&"text": "Feliz Navidad.",
+&"type": "dialogue"
+},
+"52": {
+&"character": "Mateo",
+&"id": "52",
+&"next_id": "54",
+&"text": "Feliz Navidad, mi amor.",
+&"type": "dialogue"
+},
+"53": {
+&"id": "53",
+&"next_id": "54",
+&"type": ""
+},
+"54": {
+&"id": "54",
+&"next_id": "55",
+&"text": "*fondo negro*",
+&"type": "dialogue"
+},
+"55": {
+&"id": "55",
+&"next_id": "57",
+&"text": "Y bueno, podría contar mucho más, pero, para eso, prefiero dejarlo aquí.",
+&"type": "dialogue"
+},
+"56": {
+&"id": "56",
+&"next_id": "57",
+&"type": ""
+},
+"57": {
+&"id": "57",
+&"next_id": "58",
+&"text": "Gracias por haberme acompañado en esta pequeña historia.",
+&"type": "dialogue"
+},
+"58": {
+&"id": "58",
+&"next_id": "60",
+&"text": "Espero que te haya resultado agradable.",
+&"type": "dialogue"
+},
+"59": {
+&"id": "59",
+&"next_id": "60",
+&"type": ""
+},
+"6": {
+&"id": "6",
+&"next_id": "7",
+&"text": "La anterior navidad no la pasé muy bien que digamos por culpa de las disputas familiares. Esta vez, este año no sería diferente, además, mi abuelo había fallecido, por lo que era peor que el anterior. Y a eso sumándole el hecho de que habían tenido que operarme de nuevo no hace mucho por urgencia; sepsis y peritonitis de nuevo.",
+&"type": "dialogue"
+},
+"60": {
+&"id": "60",
+&"next_id": "61",
+&"text": "Ahora sí, me despido de ti, querido jugador.",
+&"type": "dialogue"
+},
+"61": {
+&"id": "61",
+&"is_snippet": false,
+&"next_id": "219",
+&"next_id_after": "",
+&"type": "goto"
+},
+"66": {
+&"id": "66",
+&"next_id": "67",
+&"type": ""
+},
+"67": {
+&"id": "67",
+&"next_id": "68",
+&"type": "title"
+},
+"68": {
+&"id": "68",
+&"next_id": "69",
+&"text": "[bg negro]",
+&"type": "dialogue"
+},
+"69": {
+&"id": "69",
+&"next_id": "70",
+&"text": "Al final, con el paso del tiempo, Mateo comenzó a hablarme menos.",
+&"type": "dialogue"
+},
+"7": {
+&"id": "7",
+&"next_id": "9",
+&"text": "Pensé que estas vacaciones serían de las peores, pero, en cierta parte, me equivoqué.",
+&"type": "dialogue"
+},
+"70": {
+&"id": "70",
+&"next_id": "71",
+&"text": "Aquellas conversaciones que teníamos disminuyeron.",
+&"type": "dialogue"
+},
+"71": {
+&"id": "71",
+&"next_id": "72",
+&"text": "Tal vez, lo tenía merecido.",
+&"type": "dialogue"
+},
+"72": {
+&"id": "72",
+&"next_id": "74",
+&"text": "Al fin y al cabo, en ocasiones no fui muy agradable con él...",
+&"type": "dialogue"
+},
+"73": {
+&"id": "73",
+&"next_id": "74",
+&"type": ""
+},
+"74": {
+&"id": "74",
+&"next_id": "75",
+&"text": "Terminé mi primer año en DAM y, dado que ya no hablaba tanto con Mateo, dejé de verlo.",
+&"type": "dialogue"
+},
+"75": {
+&"id": "75",
+&"next_id": "77",
+&"text": "Es más, apenas hablamos ahora.",
+&"type": "dialogue"
+},
+"76": {
+&"id": "76",
+&"next_id": "77",
+&"type": ""
+},
+"77": {
+&"id": "77",
+&"next_id": "79",
+&"text": "Echo de menos cuando conversábamos sin parar...",
+&"type": "dialogue"
+},
+"78": {
+&"id": "78",
+&"next_id": "79",
+&"type": ""
+},
+"79": {
+&"id": "79",
+&"next_id": "80",
+&"text": "No debí de comportarme de esa forma con él...",
+&"type": "dialogue"
+},
+"8": {
+&"id": "8",
+&"next_id": "9",
+&"type": ""
+},
+"80": {
+&"id": "80",
+&"next_id": "81",
+&"text": "[wait=2.0]",
+&"type": "dialogue"
+},
+"81": {
+&"id": "81",
+&"next_id": "82",
+&"text": "[center][b][color=purple] ━━━━━━━━━━━━━━━━━━ FINAL MALO ━━━━━━━━━━━━━━━━━━ 
+[center][b][color=white]Caminos Separados [center][b][color=purple]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+&"type": "dialogue"
+},
+"82": {
+&"id": "82",
+&"next_id": "83",
+&"text": "[wait=2.0]",
+&"type": "dialogue"
+},
+"83": {
+&"id": "83",
+&"next_id": "84",
+&"text": "[center]\"A veces, las oportunidades que tenías no vuelven. Jamás lo harán\"[/center]",
+&"type": "dialogue"
+},
+"84": {
+&"id": "84",
+&"next_id": "85",
+&"text": "[wait=2.0]",
+&"type": "dialogue"
+},
+"85": {
+&"id": "85",
+&"is_snippet": false,
+&"next_id": "188",
+&"next_id_after": "",
+&"type": "goto"
+},
+"86": {
+&"id": "86",
+&"next_id": "87",
+&"type": ""
+},
+"87": {
+&"id": "87",
+&"next_id": "88",
+&"type": "title"
+},
+"88": {
+&"id": "88",
+&"next_id": "89",
+&"text": "[wait=2.0]",
+&"type": "dialogue"
+},
+"89": {
+&"id": "89",
+&"next_id": "90",
+&"text": "[center][b][color=red] ━━━━━━━━━━━━━━━━━━ FINAL EStÚPIDO ━━━━━━━━━━━━━━━━━━ 
+[center][b][color=white]Muerte inmediata[center][b][color=red]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+&"type": "dialogue"
+},
+"9": {
+&"id": "9",
+&"next_id": "10",
+&"text": "Estaba viva. Debía aprovechar eso.",
+&"type": "dialogue"
+},
+"90": {
+&"id": "90",
+&"next_id": "91",
+&"text": "[wait=2.0]",
+&"type": "dialogue"
+},
+"91": {
+&"id": "91",
+&"next_id": "92",
+&"text": "[center]No pudieron operar a Kristine y, para colmo, murió por tu culpa. Enhorabuena.[/center]",
+&"type": "dialogue"
+},
+"92": {
+&"id": "92",
+&"next_id": "93",
+&"text": "[wait=2.0]",
+&"type": "dialogue"
+},
+"93": {
+&"id": "93",
+&"is_snippet": false,
+&"next_id": "188",
+&"next_id_after": "",
+&"type": "goto"
+},
+"94": {
+&"id": "94",
+&"next_id": "95",
+&"type": ""
+},
+"95": {
+&"id": "95",
+&"next_id": "96",
+&"type": "title"
+},
+"96": {
+&"id": "96",
+&"next_id": "97",
+&"text": "No. Por supuesto que no.",
+&"type": "dialogue"
+},
+"97": {
+&"id": "97",
+&"next_id": "98",
+&"text": "¿Y si me rechaza? ¿Y si luego nuestra amistad no vuelve a ser la misma?",
+&"type": "dialogue"
+},
+"98": {
+&"id": "98",
+&"next_id": "100",
+&"text": "No puedo arriesgarme, no si vuelvo a perder a alguien que quiero por un desliz...",
+&"type": "dialogue"
+},
+"99": {
+&"id": "99",
+&"next_id": "100",
+&"type": ""
+}
+}
+raw_text = "~ start
+Has llegado al final de la historia.
+=> END
+
+~ finalCanon
+*fondo negro*
+La anterior navidad no la pasé muy bien que digamos por culpa de las disputas familiares. Esta vez, este año no sería diferente, además, mi abuelo había fallecido, por lo que era peor que el anterior. Y a eso sumándole el hecho de que habían tenido que operarme de nuevo no hace mucho por urgencia; sepsis y peritonitis de nuevo.
+Pensé que estas vacaciones serían de las peores, pero, en cierta parte, me equivoqué.
+
+Estaba viva. Debía aprovechar eso.
+Había sobrevivido ante algo que casi nadie ha conseguido y, aunque estaba cansada de sobrevivir ante tanta lucha tras años de operaciones y pruebas constantes, había una persona que hacía de mi vida una lucha con sentido.
+Mateo.
+
+*fondo calle*
+Ya era notorio el frío de diciembre.
+Habíamos pasado la tarde simplemente caminando por la ciudad ya alumbrada con las luces de Navidad hablando de todo y de nada a la vez.
+
+*fondo de portal/entrada del edificio*
+Al entrar en el portal de mi casa junto a mi acompañante para refugiarnos del frío, noté que me quería decir algo.
+Le di el tiempo necesario para que hablara. Intentaba mirarlo con cariño y no con curiosidad.
+El portal estaba decorado con un muñeco de nieve de plástico y varias cajas que simulaban ser regalos. Arriba del ascensor había un letrero en el que ponía “Feliz Navidad”. Intenté enfocarme en el decorado para no ponerlo nervioso.
+
+Mateo: Quiero darte algo. De parte de mi madre y mía, claro.
+Kristine: ¿Qué es?
+Mateo: Míralo por ti misma.
+
+Luego de que dijera eso, me dio una bolsa pequeña.
+Curiosa, cogí la bolsita y la abrí para encontrarme con una cajita.
+Una vez vi su contenido me asombré ante el detalle tan bonito que habían tenido su madre y él.
+
+Kristine: Muchas gracias… Tu regalo va a tardar un poco en llegar, ¿te lo dije?
+Mateo: Sí, tranquila. No te preocupes por eso. ¿Quieres que te lo ponga?
+Kristine: Por favor.
+
+Agradecí que lo preguntara él. A pesar de que llevábamos ya casi 1 año juntos, me apenaba un poco pedirle favores como uno tan simple como poner un colgante.
+
+Kristine: Es precioso.
+Con cariño, acuné su cara entre mis manos.
+
+Kristine: Muchas gracias.
+Él sólo sonrió y agachó un poco su cabeza para estar a mi altura.
+
+Mateo: No es nada.
+
+Cuando terminó de hablar, separó mis manos de su rostro para abrazarme.
+Segundos después, nos distanciamos un poco para mirarnos fijamente.
+
+Impaciente, no pude esperar más y lo besé.
+Fue lento y cálido. Contrastaba con el frío que hacía tanto dentro como fuera. 
+Era un beso seguro, sin prisas, sin accidentes. Uno bien dado, por cierto, no hubo ninguna broma después.
+
+Kristine: Feliz Navidad.
+Mateo: Feliz Navidad, mi amor.
+
+*fondo negro*
+Y bueno, podría contar mucho más, pero, para eso, prefiero dejarlo aquí.
+
+Gracias por haberme acompañado en esta pequeña historia.
+Espero que te haya resultado agradable.
+
+Ahora sí, me despido de ti, querido jugador.
+=> creditos
+
+
+# ========================================
+# FINALES MALOS 
+# ========================================
+~ finalMalo
+[bg negro]
+Al final, con el paso del tiempo, Mateo comenzó a hablarme menos.
+Aquellas conversaciones que teníamos disminuyeron.
+Tal vez, lo tenía merecido.
+Al fin y al cabo, en ocasiones no fui muy agradable con él...
+
+Terminé mi primer año en DAM y, dado que ya no hablaba tanto con Mateo, dejé de verlo.
+Es más, apenas hablamos ahora.
+
+Echo de menos cuando conversábamos sin parar...
+
+No debí de comportarme de esa forma con él...
+[wait=2.0]
+[center][b][color=purple] ━━━━━━━━━━━━━━━━━━ FINAL MALO ━━━━━━━━━━━━━━━━━━ \\n[center][b][color=white]Caminos Separados [center][b][color=purple]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[wait=2.0]
+[center]\"A veces, las oportunidades que tenías no vuelven. Jamás lo harán\"[/center]
+[wait=2.0]
+=> opGameOver
+
+~ finalEstupido
+[wait=2.0]
+[center][b][color=red] ━━━━━━━━━━━━━━━━━━ FINAL EStÚPIDO ━━━━━━━━━━━━━━━━━━ \\n[center][b][color=white]Muerte inmediata[center][b][color=red]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[wait=2.0]
+[center]No pudieron operar a Kristine y, para colmo, murió por tu culpa. Enhorabuena.[/center]
+[wait=2.0]
+=> opGameOver
+
+~ soloAmigos
+No. Por supuesto que no.
+¿Y si me rechaza? ¿Y si luego nuestra amistad no vuelve a ser la misma?
+No puedo arriesgarme, no si vuelvo a perder a alguien que quiero por un desliz...
+
+Después de aquello, los días pasaron y, por alguna maldita razón, lo que sentía por Mateo no cesaba, es más, se intensificaba.
+Intenté olvidar cualquier sentimiento que tuviera por él y cada vez que estaba a su lado intentaba concentrarme en otras cosas que no fuera él, pero, simplemente, no podía. Era imposible.
+Estaba enamorada de Mateo y, por suerte o por desgracia, nadie podría cambiar eso, ni siquiera yo misma.
+
+Juro que intenté seguir siendo su amiga, pero cuando uno guarda esta clase de sentimientos por un amigo, sencillamente la amistad deja de ser una amistad real.
+Sí, hay cariño real, por supuesto que sí, pero no es lo que quizás él quiere.
+
+Con el tiempo, me di cuenta de que no podía seguir así y me fui alejando de él, pero no por él, sino por mí.
+Él siempre fue muy bueno conmigo, mas yo no estaba contenta con esa relación. Necesitaba más.
+
+Quería ser su novia, pero nunca me atreví a decirle nada.
+
+Ojalá me hubiera animado.
+Ojalá hubiera tenido el valor suficiente para admitir la realidad...
+
+[wait=2.0]
+[center][b][color=cyan] ━━━━━━━━━━━━━━━━━━ FINAL AMIGOS ━━━━━━━━━━━━━━━━━━ \\n[center][b][color=white]Kristine y Mateo fueron buenos amigos[center][b][color=cyan]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[wait=2.0]
+[center]\"Nunca es malo admitir lo que hay dentro de ti\"[/center]
+[wait=2.0]
+=> opGameOver
+
+~ finalCobarde
+Mateo: Oye, ¿te pasa algo?
+Kristine: No, nada. No te preocupes
+Le sonreí para convencerle de que de verdad no pasaba nada, cosa que logré.
+
+No puedo darle la carta. Por supuesto que no.
+¿Qué pasa si se ríe en mi cara una vez sepa de mis sentimientos?
+¿Y si rompe la carta? ¿Y si le prende fuego? ¿Y si, en cuanto sepa lo que siento, se intenta aprovechar de mí?
+O peor, ¿y si le muestra lo que le escribí a alguien más?
+
+No sé en qué pensé, pero no puedo darle la carta, no si hay tantas posibilidades crueles que puedan pasar.
+Simplemente, no puedo.
+Da miedo.
+No quiero pasar por nada malo.
+No puedo dejar que fragmenten mi corazón en pedacitos. No más veces.
+
+Después de esa quedada, algo cambió dentro de mí.
+Era consciente de lo que sentía por Mateo, pero nunca me atreví a contárselo.
+
+Por suerte, fuimos amigos por mucho tiempo, pero, muy dentro de mí, me hubiera gustado darle esa carta que le escribí...
+
+[wait=2.0]
+[center][b][color=orange] ━━━━━━━━━━━━━━━━━━ FINAL COBARDE ━━━━━━━━━━━━━━━━━━ \\n[center][b][color=white]El temor se apoderó de Kristine y ella nunca confesó sus sentimientos[center][b][color=orange]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[wait=2.0]
+[center]\"Arrepentirse nunca es la opción\"[/center]
+[wait=2.0]
+=> opGameOver
+
+~ demasiadasMentiras
+[bg negro]
+[wait=1.0]
+[center]Has acumulado [color=red][b]demasiadas[/b][/color] mentiras...[/center]
+[wait=2.0]
+[bg clase]
+Un día como otro cualquiera, salí de clases. No obstante, me encontré a la salida con Mateo.
+Justo cuando iba a hablarle, dijo algo que no esperaba...
+
+Mateo: Kristine... ya no puedo más.
+Lo dijo tan serio que me extrañó. Nunca lo había visto así.
+Kristine: ¿Qué quieres decir?
+Mateo: Has mentido tantas veces que ya no sé qué es real de ti y qué no. Lo siento, pero no puedo confiar en alguien así, no si sigues mintiendo.
+
+Abrí la boca para decir algo, pero no me salieron las palabras.
+Kristine: Lo siento...
+Mateo: Yo también.
+
+Intenté pensar en alguna frase más que tuviera sentido, incluso explicarle, sin embargo, para las mentiras no suele haber excusa que lo justifique.
+No sabía qué más decir a excepción de una sincera disculpa.
+Iba a decir algo, pero él se alejó.
+[bg negro]
+Desde ese día, como era de esperar, no volvió a dirigirme la palabra.
+Por desgracia, las cosas con Mateo no volvieron a ser como antes. Su confianza en mí no volvió, inclusive intenté hablarle en algunas ocasiones, pero se notaba que la conversación era forzada...
+La amistad que teníamos se rompió. Y no sé porqué me extraña, si era evidente que tarde o temprano pasara, puesto que casi nunca de lo que le decía era verdad... Desearía haber sido más sincera.
+
+Perdí una gran amistad que pudo llegar a algo más...
+
+[wait=2.0]
+[center][b][color=red]━━━━━━━━━━━━━━━━━━ FINAL MALO ━━━━━━━━━━━━━━━━━━\\n[center][b][color=white]Demasiadas mentiras \\n[center][b][color=red] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color][/b][/center]
+[center]\"Las mentiras pueden destruir cualquier tipo de relación, incluso la más fuerte\"[/center]
+[wait=2.0]
+=> opGameOver
+
+# ========================================
+# COSOS
+# ========================================
+~ opGameOver
+[center]Elige una opción[/center]
+- Volver a intentar 
+	=> reintentar
+- Ver estadísticas 
+	=> mostrarStats
+- Ir al menú principal 
+	=> menu
+
+~ reintentar
+do retry_game()
+=> END
+
+~ mostrarStats
+[center][b]═══════════════════[center][b]ESTADÍSTICAS[center][b]═══════════════════[/b][/center]
+Puntos con Mateo.
+do SistemaPuntos.obtenerPuntos(\"mateo\")
+
+Puntos negativos acumulados.
+do SistemaPuntos.obtenerPuntosNegativos()/SistemaPuntos.maxPuntos
+#Puntos con Mateo: {SistemaPuntos.obtenerPuntos(\"mateo\")}
+#Puntos negativos acumulados: {SistemaPuntos.obtenerPuntosNegativos()}/{SistemaPuntos.maxPuntos}
+[wait=2.0]
+
+- Volver a intentar => reintentar
+- Ir al menú principal => menu
+
+~ menu
+do get_tree().change_scene_to_file(\"res://escenas/menu.tscn\")
+=> END
+
+~ creditos
+[bg negro]
+[center][b]━━━━━━━━━━━━━━━━━━━━ \\n[center][b]CRÉDITOS \\n[center][b]━━━━━━━━━━━━━━━━━━━━[/b][/center]
+[wait=1.0]
+[center]Una historia, escrita por mí; \\n[center][b]Akari[/b]\\n[center] Historia inspirada en algo que sucedió de verdad
+[wait=2.0]
+[center]Creado con \\n[center]Godot Engine 4 \\n[center]Y Dialogue Manager 3[/center]
+[wait=2.0]
+[center]¡Gracias por jugar! \\n :D[/center]
+[wait=2.0]
+
+- Volver al menú principal 
+	=> menu
+- Volver a jugar 
+	=> reintentar
+
+=> reintentar
+#do get_tree().reload_current_scene()
+do retry_game()
+=> END
+
+=> menu
+do get_tree().change_scene_to_file(\"res://escenas/menu.tscn\")
+=> END
+
+=> END"
+metadata/dialogue_manager_version = "3.9.0"

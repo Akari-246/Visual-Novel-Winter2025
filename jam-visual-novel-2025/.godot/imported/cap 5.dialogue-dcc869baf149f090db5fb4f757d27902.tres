@@ -1,0 +1,1259 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" uid="uid://dbs4435dsf3ry" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_svdbe"]
+
+[resource]
+script = ExtResource("1_svdbe")
+using_states = PackedStringArray()
+titles = {
+"start": "1"
+}
+character_names = PackedStringArray("Kristine", "Mateo", "[wait=2]Kristine", "Opción 1", "Opción 2", "Opción 3")
+first_title = "0"
+lines = {
+"0": {
+&"id": "0",
+&"next_id": "1",
+&"type": "title"
+},
+"1": {
+&"id": "1",
+&"next_id": "2",
+&"text": "Sí.",
+&"type": "dialogue"
+},
+"10": {
+&"id": "10",
+&"next_id": "12",
+&"text": "Y tras eso, sin pensarlo, le entregué la carta con rapidez para no tener tiempo de arrepentirme.",
+&"type": "dialogue"
+},
+"100": {
+&"id": "100",
+&"next_id": "101",
+&"text": "Por suerte o por desgracia, él lo notó. Y me abrazó.",
+&"type": "dialogue"
+},
+"101": {
+&"id": "101",
+&"next_id": "102",
+&"text": "Inmediatamente noté que se me subió algo. Me notaba la cara roja. Por su culpa. Tonto.",
+&"type": "dialogue"
+},
+"102": {
+&"id": "102",
+&"next_id": "104",
+&"text": "Con lentitud, me aparté de él y nos sentamos en un banco que había libre.",
+&"type": "dialogue"
+},
+"103": {
+&"id": "103",
+&"next_id": "104",
+&"type": ""
+},
+"104": {
+&"id": "104",
+&"next_id": "106",
+&"text": "Hice mal al pensar que los nervios habían abandonado mi cuerpo.",
+&"type": "dialogue"
+},
+"105": {
+&"id": "105",
+&"next_id": "106",
+&"type": ""
+},
+"106": {
+&"character": "Mateo",
+&"id": "106",
+&"next_id": "108",
+&"text": "Seré breve.",
+&"type": "dialogue"
+},
+"107": {
+&"id": "107",
+&"next_id": "108",
+&"type": ""
+},
+"108": {
+&"id": "108",
+&"next_id": "109",
+&"text": "No, por favor.",
+&"type": "dialogue"
+},
+"109": {
+&"id": "109",
+&"next_id": "111",
+&"text": "Quería y no quería que este momento llegara.",
+&"type": "dialogue"
+},
+"11": {
+&"id": "11",
+&"next_id": "12",
+&"type": ""
+},
+"110": {
+&"id": "110",
+&"next_id": "111",
+&"type": ""
+},
+"111": {
+&"character": "Mateo",
+&"id": "111",
+&"next_id": "113",
+&"text": "Sobre lo de tu carta… Te agradezco mucho que me la hayas dado. Escribes muy bonito, por cierto. Quería decirte que…",
+&"type": "dialogue"
+},
+"112": {
+&"id": "112",
+&"next_id": "113",
+&"type": ""
+},
+"113": {
+&"id": "113",
+&"next_id": "115",
+&"text": "Aquí vamos… ¿Me va a rechazar? Parece que sí.",
+&"type": "dialogue"
+},
+"114": {
+&"id": "114",
+&"next_id": "115",
+&"type": ""
+},
+"115": {
+&"character": "Mateo",
+&"id": "115",
+&"next_id": "117",
+&"text": "Quería decirte que yo también siento lo mismo.",
+&"type": "dialogue"
+},
+"116": {
+&"id": "116",
+&"next_id": "117",
+&"type": ""
+},
+"117": {
+&"id": "117",
+&"next_id": "118",
+&"text": "... *puntos lentito*",
+&"type": "dialogue"
+},
+"118": {
+&"id": "118",
+&"next_id": "120",
+&"text": "¿Cómo?",
+&"type": "dialogue"
+},
+"119": {
+&"id": "119",
+&"next_id": "120",
+&"type": ""
+},
+"12": {
+&"character": "Mateo",
+&"id": "12",
+&"next_id": "14",
+&"text": "Está bien…",
+&"type": "dialogue"
+},
+"120": {
+&"character": "Kristine",
+&"id": "120",
+&"next_id": "121",
+&"text": "¿Qué?",
+&"type": "dialogue"
+},
+"121": {
+&"character": "Mateo",
+&"id": "121",
+&"next_id": "123",
+&"text": "Que siento lo mismo que tú. Me gustas. Mucho. Y sí, me siento muy afortunado de haberte conocido y también me gustaría pasar más tiempo contigo. Tienes razón en que 3 o 4 horas no son suficientes para estar juntos. Haces que el tiempo pase demasiado rápido, y no sé si me gusta o si lo odio. Pero no me malinterpretes, me encanta estar a tu lado.",
+&"type": "dialogue"
+},
+"122": {
+&"id": "122",
+&"next_id": "123",
+&"type": ""
+},
+"123": {
+&"id": "123",
+&"next_id": "124",
+&"text": "Se me escapó una risa, y mi aliento se convirtió en una nubecita de vapor en el aire helado. De verdad que hacía mucho frío.",
+&"type": "dialogue"
+},
+"124": {
+&"id": "124",
+&"next_id": "125",
+&"text": "Inconscientemente, mientras hablaba, me acerqué un poquito más a él.",
+&"type": "dialogue"
+},
+"125": {
+&"id": "125",
+&"next_id": "127",
+&"text": "No podía creer lo que estaba diciendo.",
+&"type": "dialogue"
+},
+"126": {
+&"id": "126",
+&"next_id": "127",
+&"type": ""
+},
+"127": {
+&"character": "Mateo",
+&"id": "127",
+&"next_id": "129",
+&"text": "También me gustaría tenerte, y no en el sentido de posesión. También me gustaría ser tu compañero en esta vida y estar para ti siempre, sobre todo cuando lo necesites. Me encanta pasar tiempo contigo, siempre me lo paso bien si es contigo realmente…",
+&"type": "dialogue"
+},
+"128": {
+&"id": "128",
+&"next_id": "129",
+&"type": ""
+},
+"129": {
+&"id": "129",
+&"next_id": "131",
+&"text": "Dado que yo estaba callada, las palabras no salían de mis labios, él siguió hablando.",
+&"type": "dialogue"
+},
+"13": {
+&"id": "13",
+&"next_id": "14",
+&"type": ""
+},
+"130": {
+&"id": "130",
+&"next_id": "131",
+&"type": ""
+},
+"131": {
+&"character": "Mateo",
+&"id": "131",
+&"next_id": "133",
+&"text": "Entonces, ahora que sabes que siento lo mismo que tú por mí… ¿Quieres ser mi novia?",
+&"type": "dialogue"
+},
+"132": {
+&"id": "132",
+&"next_id": "133",
+&"type": ""
+},
+"133": {
+&"id": "133",
+&"next_id": "135",
+&"text": "¿Ya dije que no podía creer lo que estaba pasando?",
+&"type": "dialogue"
+},
+"134": {
+&"id": "134",
+&"next_id": "135",
+&"type": ""
+},
+"135": {
+&"id": "135",
+&"next_id": "137",
+&"text": "Estaba estupefacta, pero debía responder.",
+&"type": "dialogue"
+},
+"136": {
+&"id": "136",
+&"next_id": "137",
+&"type": ""
+},
+"137": {
+&"id": "137",
+&"next_id": "138",
+&"text": "¿Qué le digo?",
+&"type": "dialogue"
+},
+"138": {
+&"character": "Opción 1",
+&"id": "138",
+&"next_id": "139",
+&"text": "Sí → historia sigue normal",
+&"type": "dialogue"
+},
+"139": {
+&"character": "Opción 2",
+&"id": "139",
+&"next_id": "140",
+&"text": "No → la prota dice lo estúpido que sería decir eso y aparecen de nuevo las opciones",
+&"type": "dialogue"
+},
+"14": {
+&"id": "14",
+&"next_id": "16",
+&"text": "Enseguida se hizo presente el silencio aquel día de tantos en invierno, el cual él mismo rompió. Y sin venir a cuento.",
+&"type": "dialogue"
+},
+"140": {
+&"character": "Opción 3",
+&"id": "140",
+&"next_id": "141",
+&"text": "No decir nada e irte → Kristine recalca que eso sería de subnormales y dice que quiere empezar un noviazgo con Mateo, volviendo al inicio de las opciones, pero acumula puntos negativos (2)(?",
+&"type": "dialogue"
+},
+"141": {
+&"id": "141",
+&"next_id": "143",
+&"text": "De modo que únicamente puedes avanzar si dices que si jaja",
+&"type": "dialogue"
+},
+"142": {
+&"id": "142",
+&"next_id": "143",
+&"type": ""
+},
+"143": {
+&"character": "Kristine",
+&"id": "143",
+&"next_id": "145",
+&"text": "S-sí. Claro.",
+&"type": "dialogue"
+},
+"144": {
+&"id": "144",
+&"next_id": "145",
+&"type": ""
+},
+"145": {
+&"id": "145",
+&"next_id": "146",
+&"text": "Mateo sonrió. Su sonrisa era tan cálida y contagiosa que yo también sonreí.",
+&"type": "dialogue"
+},
+"146": {
+&"id": "146",
+&"next_id": "148",
+&"text": "Se acercó más a mí hasta estar abrazados. Era acogedor, tanto que casi se me olvidaba que estaba temblando, tanto por los nervios de antes como por las bajas temperaturas.",
+&"type": "dialogue"
+},
+"147": {
+&"id": "147",
+&"next_id": "148",
+&"type": ""
+},
+"148": {
+&"id": "148",
+&"next_id": "149",
+&"text": "En un intento de estar más cerca y disminuir el frío que sentía, me acomodé de forma en que mi cabeza quedó encima de su pecho mientras él me abrazaba por la espalda, dándome cariño con delicadeza.",
+&"type": "dialogue"
+},
+"149": {
+&"id": "149",
+&"next_id": "151",
+&"text": "Escuchaba su corazón y me encantaba aquella melodía.",
+&"type": "dialogue"
+},
+"15": {
+&"id": "15",
+&"next_id": "16",
+&"type": ""
+},
+"150": {
+&"id": "150",
+&"next_id": "151",
+&"type": ""
+},
+"151": {
+&"character": "Mateo",
+&"id": "151",
+&"next_id": "152",
+&"text": "Tu corazón no deja de latir rápido, por cierto.",
+&"type": "dialogue"
+},
+"152": {
+&"character": "Kristine",
+&"id": "152",
+&"next_id": "153",
+&"text": "Estaba nerviosa.",
+&"type": "dialogue"
+},
+"153": {
+&"character": "Mateo",
+&"id": "153",
+&"next_id": "155",
+&"text": "Ya, lo he notado. Y fuimos antes a la cafetería porque pensé que así te sería más fácil hablar.",
+&"type": "dialogue"
+},
+"154": {
+&"id": "154",
+&"next_id": "155",
+&"type": ""
+},
+"155": {
+&"id": "155",
+&"next_id": "157",
+&"text": "Y no se equivocaba.",
+&"type": "dialogue"
+},
+"156": {
+&"id": "156",
+&"next_id": "157",
+&"type": ""
+},
+"157": {
+&"character": "Kristine",
+&"id": "157",
+&"next_id": "158",
+&"text": "Tu corazón también late rápido.",
+&"type": "dialogue"
+},
+"158": {
+&"character": "Mateo",
+&"id": "158",
+&"next_id": "160",
+&"text": "Porque por fin estoy con la chica que siempre quise.",
+&"type": "dialogue"
+},
+"159": {
+&"id": "159",
+&"next_id": "160",
+&"type": ""
+},
+"16": {
+&"character": "Mateo",
+&"id": "16",
+&"next_id": "18",
+&"text": "[wait=1]¿Te puedo besar?",
+&"type": "dialogue"
+},
+"160": {
+&"id": "160",
+&"next_id": "162",
+&"text": "Lo miré a los ojos. ¿Cómo podía decir eso tan rápido y sin inmutarse?, ¿y cómo estaba seguro de aquello?",
+&"type": "dialogue"
+},
+"161": {
+&"id": "161",
+&"next_id": "162",
+&"type": ""
+},
+"162": {
+&"character": "Mateo",
+&"id": "162",
+&"next_id": "164",
+&"text": "Me gustaste desde la primera vez que te vi.",
+&"type": "dialogue"
+},
+"163": {
+&"id": "163",
+&"next_id": "164",
+&"type": ""
+},
+"164": {
+&"id": "164",
+&"next_id": "165",
+&"text": "Directo y sin anestesia.",
+&"type": "dialogue"
+},
+"165": {
+&"id": "165",
+&"next_id": "167",
+&"text": "Esa fue otra mini bomba para mi corazón. ¿Cómo era capaz de decir ese tipo de cosas sin luego avergonzarse? Admiraba eso de él.",
+&"type": "dialogue"
+},
+"166": {
+&"id": "166",
+&"next_id": "167",
+&"type": ""
+},
+"167": {
+&"id": "167",
+&"next_id": "169",
+&"text": "Lo miré, pensando que lo decía de broma, pero con su mirada supe que no. No mentía, al igual que yo no mentí en la carta, él no mentía en su confesión ni en lo que acababa de decir.",
+&"type": "dialogue"
+},
+"168": {
+&"id": "168",
+&"next_id": "169",
+&"type": ""
+},
+"169": {
+&"id": "169",
+&"next_id": "170",
+&"text": "*fondo negro*",
+&"type": "dialogue"
+},
+"17": {
+&"id": "17",
+&"next_id": "18",
+&"type": ""
+},
+"170": {
+&"id": "170",
+&"next_id": "171",
+&"text": "Así fue como logré darle la carta en la que confesaba lo que sentía al chico que me gustaba y, dos días después, conseguí estar con él como pareja. Aquello se hizo oficial.",
+&"type": "dialogue"
+},
+"171": {
+&"id": "171",
+&"next_id": "173",
+&"text": "Mentiría si dijera que era el mejor día de mi vida, ya que ese fue cuando me quitaron la ostomía. Pero, si no era el primero, era de los primeros mejores días que he podido tener.",
+&"type": "dialogue"
+},
+"172": {
+&"id": "172",
+&"next_id": "173",
+&"type": ""
+},
+"173": {
+&"id": "173",
+&"next_id": "174",
+&"text": "Desde entonces, fuimos prácticamente inseparables.",
+&"type": "dialogue"
+},
+"174": {
+&"id": "174",
+&"next_id": "176",
+&"text": "Si había algún problema siempre intentábamos solucionarlo con calma y amor ante todo.",
+&"type": "dialogue"
+},
+"175": {
+&"id": "175",
+&"next_id": "176",
+&"type": ""
+},
+"176": {
+&"id": "176",
+&"next_id": "178",
+&"text": "Y así, casi sin darnos cuenta, el invierno se quedó atrás para dejar paso a la llegada brillante y cálida del verano.",
+&"type": "dialogue"
+},
+"177": {
+&"id": "177",
+&"next_id": "178",
+&"type": ""
+},
+"178": {
+&"id": "178",
+&"next_id": "179",
+&"text": "Recuerdo cómo algunas veces él se acercaba a mí lentamente para intentar besarme y cuando veía que no estaba lista, simplemente se disculpaba y decía que no me preocupara, que esperaría lo que fuera necesario hasta que estuviera preparada.",
+&"type": "dialogue"
+},
+"179": {
+&"id": "179",
+&"next_id": "181",
+&"text": "Hasta un día de verano.",
+&"type": "dialogue"
+},
+"18": {
+&"id": "18",
+&"next_id": "19",
+&"text": "[speed=0.01]...",
+&"type": "dialogue"
+},
+"180": {
+&"id": "180",
+&"next_id": "181",
+&"type": ""
+},
+"181": {
+&"id": "181",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"182": {
+&"id": "182",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"19": {
+&"id": "19",
+&"next_id": "21",
+&"text": "[wait=4]¿Qué?",
+&"type": "dialogue"
+},
+"2": {
+&"id": "2",
+&"next_id": "4",
+&"text": "No puedo acobardarme justo ahora. No cuando inconscientemente me he hecho a la idea de dárselo. No cuando ya he imaginado cada posible escenario y estoy abierta a cualquier rechazo que me pueda dar.",
+&"type": "dialogue"
+},
+"20": {
+&"id": "20",
+&"next_id": "21",
+&"type": ""
+},
+"21": {
+&"character": "Kristine",
+&"id": "21",
+&"next_id": "22",
+&"text": "¿Qué?",
+&"type": "dialogue"
+},
+"22": {
+&"character": "Mateo",
+&"id": "22",
+&"next_id": "24",
+&"text": "Si te puedo besar.",
+&"type": "dialogue"
+},
+"23": {
+&"id": "23",
+&"next_id": "24",
+&"type": ""
+},
+"24": {
+&"id": "24",
+&"next_id": "25",
+&"text": "[speed=0.06]...",
+&"type": "dialogue"
+},
+"25": {
+&"character": "[wait=2]Kristine",
+&"id": "25",
+&"next_id": "27",
+&"text": "¿Qué?",
+&"type": "dialogue"
+},
+"26": {
+&"id": "26",
+&"next_id": "27",
+&"type": ""
+},
+"27": {
+&"id": "27",
+&"next_id": "28",
+&"text": "No podía creer lo que dijo.",
+&"type": "dialogue"
+},
+"28": {
+&"id": "28",
+&"next_id": "29",
+&"text": "Para empezar, ¿qué había dicho?, ¿besar?, ¿a mí?, ¿tan de repente?, ¿por qué?, ¿cómo?",
+&"type": "dialogue"
+},
+"29": {
+&"id": "29",
+&"next_id": "31",
+&"text": "¿Y cómo se supone que se besan las personas?",
+&"type": "dialogue"
+},
+"3": {
+&"id": "3",
+&"next_id": "4",
+&"type": ""
+},
+"30": {
+&"id": "30",
+&"next_id": "31",
+&"type": ""
+},
+"31": {
+&"character": "Mateo",
+&"id": "31",
+&"next_id": "33",
+&"text": "Si te puedo dar un beso.",
+&"type": "dialogue"
+},
+"32": {
+&"id": "32",
+&"next_id": "33",
+&"type": ""
+},
+"33": {
+&"id": "33",
+&"next_id": "34",
+&"text": "Única opción que no cambia mucho",
+&"type": "dialogue"
+},
+"34": {
+&"character": "Opción 1",
+&"id": "34",
+&"next_id": "35",
+&"text": "actuar con timidez → le dice que no de forma tímida uwu (esta es la opción digamos real)",
+&"type": "dialogue"
+},
+"35": {
+&"character": "Opción 2",
+&"id": "35",
+&"next_id": "37",
+&"text": "ser directa → le dice que no de forma directa y Mateo se disculpa",
+&"type": "dialogue"
+},
+"36": {
+&"id": "36",
+&"next_id": "37",
+&"type": ""
+},
+"37": {
+&"character": "Kristine",
+&"id": "37",
+&"next_id": "38",
+&"text": "N-no… No",
+&"type": "dialogue"
+},
+"38": {
+&"character": "Mateo",
+&"id": "38",
+&"next_id": "40",
+&"text": "Está bien, lo siento. No te preocupes.",
+&"type": "dialogue"
+},
+"39": {
+&"id": "39",
+&"next_id": "40",
+&"type": ""
+},
+"4": {
+&"character": "Kristine",
+&"id": "4",
+&"next_id": "6",
+&"text": "Por cierto… Quería… Quería darte algo.",
+&"type": "dialogue"
+},
+"40": {
+&"id": "40",
+&"next_id": "42",
+&"text": "Después de aquella interacción y el momento algo extraño para mí, nos despedimos y entré en mi casa.",
+&"type": "dialogue"
+},
+"41": {
+&"id": "41",
+&"next_id": "42",
+&"type": ""
+},
+"42": {
+&"id": "42",
+&"next_id": "43",
+&"text": "*fondo habitación*",
+&"type": "dialogue"
+},
+"43": {
+&"id": "43",
+&"next_id": "44",
+&"text": "No podía creer lo que había pasado, lo que había hecho, ni lo que él había dicho.",
+&"type": "dialogue"
+},
+"44": {
+&"id": "44",
+&"next_id": "45",
+&"text": "Preguntó si me podía besar. Y lo hizo con una cara tan… Tierna.",
+&"type": "dialogue"
+},
+"45": {
+&"id": "45",
+&"next_id": "47",
+&"text": "Su mirada tenía un brillo que nunca olvidaré.",
+&"type": "dialogue"
+},
+"46": {
+&"id": "46",
+&"next_id": "47",
+&"type": ""
+},
+"47": {
+&"id": "47",
+&"next_id": "48",
+&"text": "Habiendo tantos chicos que no preguntan y lo harían directamente sin importar tu verdadera opinión, él pidió permiso. Quiso saber si quería.",
+&"type": "dialogue"
+},
+"48": {
+&"id": "48",
+&"next_id": "49",
+&"text": "Y eso que no leyó nada de la carta…",
+&"type": "dialogue"
+},
+"49": {
+&"id": "49",
+&"next_id": "51",
+&"text": "Entonces, ¿sabrá algo?, ¿se esperará algo de lo que leerá siquiera?",
+&"type": "dialogue"
+},
+"5": {
+&"id": "5",
+&"next_id": "6",
+&"type": ""
+},
+"50": {
+&"id": "50",
+&"next_id": "51",
+&"type": ""
+},
+"51": {
+&"id": "51",
+&"next_id": "53",
+&"text": "Sea lo que sea, hizo caso a lo que le dije.",
+&"type": "dialogue"
+},
+"52": {
+&"id": "52",
+&"next_id": "53",
+&"type": ""
+},
+"53": {
+&"id": "53",
+&"next_id": "55",
+&"text": "Antes de la carta, le puse una nota en donde especificaba claramente que no me dijera nada hasta que nos viéramos y estuviéramos solos; únicamente él y yo.",
+&"type": "dialogue"
+},
+"54": {
+&"id": "54",
+&"next_id": "55",
+&"type": ""
+},
+"55": {
+&"id": "55",
+&"next_id": "57",
+&"text": "Pasaron 2 días, que parecían eternos, después de aquello.",
+&"type": "dialogue"
+},
+"56": {
+&"id": "56",
+&"next_id": "57",
+&"type": ""
+},
+"57": {
+&"id": "57",
+&"next_id": "59",
+&"text": "Justamente ayer al terminar el examen, Mateo me preguntó si podía quedar el 16. Sin pensarlo le dije que sí. Y a qué precio.",
+&"type": "dialogue"
+},
+"58": {
+&"id": "58",
+&"next_id": "59",
+&"type": ""
+},
+"59": {
+&"id": "59",
+&"next_id": "60",
+&"text": "Debería de haberle rechazado y haber aplazado la quedada para cuando estuviera realmente lista, pero, si nos ponemos así y hubiera atrasado aquel encuentro para otro día o para cuando me sintiera preparada, nunca lo hubiera visto.",
+&"type": "dialogue"
+},
+"6": {
+&"id": "6",
+&"next_id": "8",
+&"text": "Cuando dije eso, Mateo mostró una cara de confusión y curiosidad al mismo tiempo. ¿Cómo podía ser tan adorable?",
+&"type": "dialogue"
+},
+"60": {
+&"id": "60",
+&"next_id": "61",
+&"text": "Esa quedada nunca habría llegado, ya que siempre sentiría estos nervios recorriendo mi cuerpo.",
+&"type": "dialogue"
+},
+"61": {
+&"id": "61",
+&"next_id": "62",
+&"text": "Nunca estaría lo suficientemente lista como para verlo en persona, como para hablar cara a cara con él.",
+&"type": "dialogue"
+},
+"62": {
+&"id": "62",
+&"next_id": "64",
+&"text": "Simplemente, ese momento que creía perfecto para cuando estuviera dispuesta a hablar las cosas con él, jamás llegaría verdaderamente.",
+&"type": "dialogue"
+},
+"63": {
+&"id": "63",
+&"next_id": "64",
+&"type": ""
+},
+"64": {
+&"id": "64",
+&"next_id": "66",
+&"text": "Y, sin darme cuenta de cuán rápido pasó ese lapso de tiempo, que creía más largo, llegó la hora.",
+&"type": "dialogue"
+},
+"65": {
+&"id": "65",
+&"next_id": "66",
+&"type": ""
+},
+"66": {
+&"id": "66",
+&"next_id": "68",
+&"text": "18:00.",
+&"type": "dialogue"
+},
+"67": {
+&"id": "67",
+&"next_id": "68",
+&"type": ""
+},
+"68": {
+&"id": "68",
+&"next_id": "70",
+&"text": "Él ya estaba esperándome abajo.",
+&"type": "dialogue"
+},
+"69": {
+&"id": "69",
+&"next_id": "70",
+&"type": ""
+},
+"7": {
+&"id": "7",
+&"next_id": "8",
+&"type": ""
+},
+"70": {
+&"id": "70",
+&"next_id": "71",
+&"text": "Yo ya estaba medianamente lista.",
+&"type": "dialogue"
+},
+"71": {
+&"id": "71",
+&"next_id": "73",
+&"text": "Si hablamos sentimentalmente, no lo estaba. Nunca lo estaría sabiendo lo que debía hablar en cuanto lo viera, pero al menos físicamente sí lo estaba.",
+&"type": "dialogue"
+},
+"72": {
+&"id": "72",
+&"next_id": "73",
+&"type": ""
+},
+"73": {
+&"id": "73",
+&"next_id": "75",
+&"text": "16 de febrero…",
+&"type": "dialogue"
+},
+"74": {
+&"id": "74",
+&"next_id": "75",
+&"type": ""
+},
+"75": {
+&"id": "75",
+&"next_id": "76",
+&"text": "*fondo de calle invierno*",
+&"type": "dialogue"
+},
+"76": {
+&"id": "76",
+&"next_id": "77",
+&"text": "Al salir, noté el frío que hacía y lo vi, esperando.",
+&"type": "dialogue"
+},
+"77": {
+&"id": "77",
+&"next_id": "79",
+&"text": "En cuanto me miró, dejó escapar una sonrisa.",
+&"type": "dialogue"
+},
+"78": {
+&"id": "78",
+&"next_id": "79",
+&"type": ""
+},
+"79": {
+&"id": "79",
+&"next_id": "81",
+&"text": "Por suerte para mí, lo primero que hicimos aquel día fue ir a la cafetería en la que solíamos estar. Ya era costumbre ir ahí.",
+&"type": "dialogue"
+},
+"8": {
+&"character": "Kristine",
+&"id": "8",
+&"next_id": "10",
+&"text": "Sé que… Q-quizás sea mítico hacerlo un 14 de febrero, pero te prometo que no es por la fecha en sí… En fin, en la primera página hay… Algunas notas. Necesito que sigas al pie de la letra esas anotaciones, por favor.",
+&"type": "dialogue"
+},
+"80": {
+&"id": "80",
+&"next_id": "81",
+&"type": ""
+},
+"81": {
+&"id": "81",
+&"next_id": "82",
+&"text": "*fondo de cafetería*",
+&"type": "dialogue"
+},
+"82": {
+&"id": "82",
+&"next_id": "84",
+&"text": "Mientras tomaba mi querido capuccino para entrar en calor e intentar disminuir los nervios, él hablaba de su familia, cosas que le pasaron a algunos compañeros de su clase y otros temas.",
+&"type": "dialogue"
+},
+"83": {
+&"id": "83",
+&"next_id": "84",
+&"type": ""
+},
+"84": {
+&"id": "84",
+&"next_id": "85",
+&"text": "Intentaba mirarlo, juro que intenté verlo a los ojos, pero simplemente no podía. Era incapaz sabiendo que él ya había leído mi carta.",
+&"type": "dialogue"
+},
+"85": {
+&"id": "85",
+&"next_id": "87",
+&"text": "Él ya sabía lo que sentía, pero yo no sabía si aquello era correspondido o no. Y eso lentamente me estaba matando.",
+&"type": "dialogue"
+},
+"86": {
+&"id": "86",
+&"next_id": "87",
+&"type": ""
+},
+"87": {
+&"id": "87",
+&"next_id": "89",
+&"text": "Definitivamente, era masoquista.",
+&"type": "dialogue"
+},
+"88": {
+&"id": "88",
+&"next_id": "89",
+&"type": ""
+},
+"89": {
+&"id": "89",
+&"next_id": "90",
+&"text": "No podía quejarme, no siendo consciente de que fui yo misma la que le dijo que no me contara nada sobre la carta ni lo que ponía ahí hasta que estuviéramos a solas. Y yo no sabía cómo sacar el tema.",
+&"type": "dialogue"
+},
+"9": {
+&"id": "9",
+&"next_id": "10",
+&"type": ""
+},
+"90": {
+&"id": "90",
+&"next_id": "92",
+&"text": "Supongo que, si no lo hacía yo, lo haría él. Tarde o temprano.",
+&"type": "dialogue"
+},
+"91": {
+&"id": "91",
+&"next_id": "92",
+&"type": ""
+},
+"92": {
+&"id": "92",
+&"next_id": "93",
+&"text": "*fondo de parque, noche, invierno*",
+&"type": "dialogue"
+},
+"93": {
+&"id": "93",
+&"next_id": "95",
+&"text": "Después de unas horas, llegamos al parque, aquel al que solíamos ir.",
+&"type": "dialogue"
+},
+"94": {
+&"id": "94",
+&"next_id": "95",
+&"type": ""
+},
+"95": {
+&"id": "95",
+&"next_id": "96",
+&"text": "Ya había anochecido, a pesar de que eran las 20:00 aproximadamente, y hacía frío. Mucho frío.",
+&"type": "dialogue"
+},
+"96": {
+&"id": "96",
+&"next_id": "97",
+&"text": "Ni la sudadera de terciopelo que llevaba era suficiente para entrar en calor. Me abracé a mí misma con la esperanza de que los escalofríos disminuyeran.",
+&"type": "dialogue"
+},
+"97": {
+&"id": "97",
+&"next_id": "98",
+&"text": "Intento fallido.",
+&"type": "dialogue"
+},
+"98": {
+&"id": "98",
+&"next_id": "100",
+&"text": "En definitiva, odio ser friolera.",
+&"type": "dialogue"
+},
+"99": {
+&"id": "99",
+&"next_id": "100",
+&"type": ""
+}
+}
+raw_text = "~ start
+Sí.
+No puedo acobardarme justo ahora. No cuando inconscientemente me he hecho a la idea de dárselo. No cuando ya he imaginado cada posible escenario y estoy abierta a cualquier rechazo que me pueda dar.
+
+Kristine: Por cierto… Quería… Quería darte algo.
+
+Cuando dije eso, Mateo mostró una cara de confusión y curiosidad al mismo tiempo. ¿Cómo podía ser tan adorable?
+
+Kristine: Sé que… Q-quizás sea mítico hacerlo un 14 de febrero, pero te prometo que no es por la fecha en sí… En fin, en la primera página hay… Algunas notas. Necesito que sigas al pie de la letra esas anotaciones, por favor.
+
+Y tras eso, sin pensarlo, le entregué la carta con rapidez para no tener tiempo de arrepentirme.
+
+Mateo: Está bien… 
+
+Enseguida se hizo presente el silencio aquel día de tantos en invierno, el cual él mismo rompió. Y sin venir a cuento.
+
+Mateo: [wait=1]¿Te puedo besar?
+
+[speed=0.01]...
+[wait=4]¿Qué?
+
+Kristine: ¿Qué?
+Mateo: Si te puedo besar.
+
+[speed=0.06]...
+[wait=2]Kristine: ¿Qué?
+
+No podía creer lo que dijo.
+Para empezar, ¿qué había dicho?, ¿besar?, ¿a mí?, ¿tan de repente?, ¿por qué?, ¿cómo? 
+¿Y cómo se supone que se besan las personas?
+
+Mateo: Si te puedo dar un beso.
+
+Única opción que no cambia mucho
+Opción 1: actuar con timidez → le dice que no de forma tímida uwu (esta es la opción digamos real) 
+Opción 2: ser directa → le dice que no de forma directa y Mateo se disculpa
+
+Kristine: N-no… No
+Mateo: Está bien, lo siento. No te preocupes.
+
+Después de aquella interacción y el momento algo extraño para mí, nos despedimos y entré en mi casa.
+
+*fondo habitación*
+No podía creer lo que había pasado, lo que había hecho, ni lo que él había dicho.
+Preguntó si me podía besar. Y lo hizo con una cara tan… Tierna.
+Su mirada tenía un brillo que nunca olvidaré.
+
+Habiendo tantos chicos que no preguntan y lo harían directamente sin importar tu verdadera opinión, él pidió permiso. Quiso saber si quería.
+Y eso que no leyó nada de la carta… 
+Entonces, ¿sabrá algo?, ¿se esperará algo de lo que leerá siquiera?
+
+Sea lo que sea, hizo caso a lo que le dije.
+
+Antes de la carta, le puse una nota en donde especificaba claramente que no me dijera nada hasta que nos viéramos y estuviéramos solos; únicamente él y yo.
+
+Pasaron 2 días, que parecían eternos, después de aquello.
+
+Justamente ayer al terminar el examen, Mateo me preguntó si podía quedar el 16. Sin pensarlo le dije que sí. Y a qué precio.
+
+Debería de haberle rechazado y haber aplazado la quedada para cuando estuviera realmente lista, pero, si nos ponemos así y hubiera atrasado aquel encuentro para otro día o para cuando me sintiera preparada, nunca lo hubiera visto. 
+Esa quedada nunca habría llegado, ya que siempre sentiría estos nervios recorriendo mi cuerpo. 
+Nunca estaría lo suficientemente lista como para verlo en persona, como para hablar cara a cara con él.
+Simplemente, ese momento que creía perfecto para cuando estuviera dispuesta a hablar las cosas con él, jamás llegaría verdaderamente.
+
+Y, sin darme cuenta de cuán rápido pasó ese lapso de tiempo, que creía más largo, llegó la hora.
+
+18:00.
+
+Él ya estaba esperándome abajo.
+
+Yo ya estaba medianamente lista. 
+Si hablamos sentimentalmente, no lo estaba. Nunca lo estaría sabiendo lo que debía hablar en cuanto lo viera, pero al menos físicamente sí lo estaba.
+
+16 de febrero…
+
+*fondo de calle invierno*
+Al salir, noté el frío que hacía y lo vi, esperando.
+En cuanto me miró, dejó escapar una sonrisa.
+
+Por suerte para mí, lo primero que hicimos aquel día fue ir a la cafetería en la que solíamos estar. Ya era costumbre ir ahí.
+
+*fondo de cafetería*
+Mientras tomaba mi querido capuccino para entrar en calor e intentar disminuir los nervios, él hablaba de su familia, cosas que le pasaron a algunos compañeros de su clase y otros temas.
+
+Intentaba mirarlo, juro que intenté verlo a los ojos, pero simplemente no podía. Era incapaz sabiendo que él ya había leído mi carta. 
+Él ya sabía lo que sentía, pero yo no sabía si aquello era correspondido o no. Y eso lentamente me estaba matando.
+
+Definitivamente, era masoquista.
+
+No podía quejarme, no siendo consciente de que fui yo misma la que le dijo que no me contara nada sobre la carta ni lo que ponía ahí hasta que estuviéramos a solas. Y yo no sabía cómo sacar el tema.
+Supongo que, si no lo hacía yo, lo haría él. Tarde o temprano.
+
+*fondo de parque, noche, invierno*
+Después de unas horas, llegamos al parque, aquel al que solíamos ir.
+
+Ya había anochecido, a pesar de que eran las 20:00 aproximadamente, y hacía frío. Mucho frío. 
+Ni la sudadera de terciopelo que llevaba era suficiente para entrar en calor. Me abracé a mí misma con la esperanza de que los escalofríos disminuyeran.
+Intento fallido.
+En definitiva, odio ser friolera.
+
+Por suerte o por desgracia, él lo notó. Y me abrazó.
+Inmediatamente noté que se me subió algo. Me notaba la cara roja. Por su culpa. Tonto.
+Con lentitud, me aparté de él y nos sentamos en un banco que había libre.
+
+Hice mal al pensar que los nervios habían abandonado mi cuerpo.
+
+Mateo: Seré breve.
+
+No, por favor.
+Quería y no quería que este momento llegara.
+
+Mateo: Sobre lo de tu carta… Te agradezco mucho que me la hayas dado. Escribes muy bonito, por cierto. Quería decirte que…
+
+Aquí vamos… ¿Me va a rechazar? Parece que sí.
+
+Mateo: Quería decirte que yo también siento lo mismo.
+
+... *puntos lentito*
+¿Cómo?
+
+Kristine: ¿Qué?
+Mateo: Que siento lo mismo que tú. Me gustas. Mucho. Y sí, me siento muy afortunado de haberte conocido y también me gustaría pasar más tiempo contigo. Tienes razón en que 3 o 4 horas no son suficientes para estar juntos. Haces que el tiempo pase demasiado rápido, y no sé si me gusta o si lo odio. Pero no me malinterpretes, me encanta estar a tu lado.
+
+Se me escapó una risa, y mi aliento se convirtió en una nubecita de vapor en el aire helado. De verdad que hacía mucho frío.
+Inconscientemente, mientras hablaba, me acerqué un poquito más a él.
+No podía creer lo que estaba diciendo.
+
+Mateo: También me gustaría tenerte, y no en el sentido de posesión. También me gustaría ser tu compañero en esta vida y estar para ti siempre, sobre todo cuando lo necesites. Me encanta pasar tiempo contigo, siempre me lo paso bien si es contigo realmente…
+
+Dado que yo estaba callada, las palabras no salían de mis labios, él siguió hablando.
+
+Mateo: Entonces, ahora que sabes que siento lo mismo que tú por mí… ¿Quieres ser mi novia?
+
+¿Ya dije que no podía creer lo que estaba pasando?
+
+Estaba estupefacta, pero debía responder.
+
+¿Qué le digo?
+Opción 1: Sí → historia sigue normal
+Opción 2: No → la prota dice lo estúpido que sería decir eso y aparecen de nuevo las opciones
+Opción 3: No decir nada e irte → Kristine recalca que eso sería de subnormales y dice que quiere empezar un noviazgo con Mateo, volviendo al inicio de las opciones, pero acumula puntos negativos (2)(?
+De modo que únicamente puedes avanzar si dices que si jaja
+
+Kristine: S-sí. Claro.
+
+Mateo sonrió. Su sonrisa era tan cálida y contagiosa que yo también sonreí.
+Se acercó más a mí hasta estar abrazados. Era acogedor, tanto que casi se me olvidaba que estaba temblando, tanto por los nervios de antes como por las bajas temperaturas.
+
+En un intento de estar más cerca y disminuir el frío que sentía, me acomodé de forma en que mi cabeza quedó encima de su pecho mientras él me abrazaba por la espalda, dándome cariño con delicadeza. 
+Escuchaba su corazón y me encantaba aquella melodía.
+
+Mateo: Tu corazón no deja de latir rápido, por cierto.
+Kristine: Estaba nerviosa.
+Mateo: Ya, lo he notado. Y fuimos antes a la cafetería porque pensé que así te sería más fácil hablar. 
+
+Y no se equivocaba.
+
+Kristine: Tu corazón también late rápido.
+Mateo: Porque por fin estoy con la chica que siempre quise.
+
+Lo miré a los ojos. ¿Cómo podía decir eso tan rápido y sin inmutarse?, ¿y cómo estaba seguro de aquello?
+
+Mateo: Me gustaste desde la primera vez que te vi.
+
+Directo y sin anestesia. 
+Esa fue otra mini bomba para mi corazón. ¿Cómo era capaz de decir ese tipo de cosas sin luego avergonzarse? Admiraba eso de él.
+
+Lo miré, pensando que lo decía de broma, pero con su mirada supe que no. No mentía, al igual que yo no mentí en la carta, él no mentía en su confesión ni en lo que acababa de decir.
+
+*fondo negro*
+Así fue como logré darle la carta en la que confesaba lo que sentía al chico que me gustaba y, dos días después, conseguí estar con él como pareja. Aquello se hizo oficial.
+Mentiría si dijera que era el mejor día de mi vida, ya que ese fue cuando me quitaron la ostomía. Pero, si no era el primero, era de los primeros mejores días que he podido tener.
+
+Desde entonces, fuimos prácticamente inseparables.
+Si había algún problema siempre intentábamos solucionarlo con calma y amor ante todo.
+
+Y así, casi sin darnos cuenta, el invierno se quedó atrás para dejar paso a la llegada brillante y cálida del verano.
+
+Recuerdo cómo algunas veces él se acercaba a mí lentamente para intentar besarme y cuando veía que no estaba lista, simplemente se disculpaba y decía que no me preocupara, que esperaría lo que fuera necesario hasta que estuviera preparada.
+Hasta un día de verano.
+
+=> END"
+metadata/dialogue_manager_version = "3.9.0"

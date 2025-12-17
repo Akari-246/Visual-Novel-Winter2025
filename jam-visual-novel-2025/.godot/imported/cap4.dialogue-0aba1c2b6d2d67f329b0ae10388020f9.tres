@@ -1,0 +1,981 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" uid="uid://dbs4435dsf3ry" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_hjgrp"]
+
+[resource]
+script = ExtResource("1_hjgrp")
+using_states = PackedStringArray()
+titles = {
+"historiaSigue": "9",
+"seSalta": "18",
+"siguee": "66",
+"start": "1"
+}
+character_names = PackedStringArray("Mateo", "Compañero 1", "Compañero 2", "Papá")
+first_title = "0"
+lines = {
+"0": {
+&"id": "0",
+&"next_id": "1",
+&"type": "title"
+},
+"1": {
+&"id": "1",
+&"next_id": "2",
+&"text": "Empiezo a encontrarme muy rara.",
+&"type": "dialogue"
+},
+"10": {
+&"id": "10",
+&"next_id": "11",
+&"type": ""
+},
+"100": {
+&"id": "100",
+&"next_id": "102",
+&"text": "Igualmente, de alguna forma, intenté animarme para hacerlo. Después de todo, para arrepentirse siempre hay tiempo.",
+&"type": "dialogue"
+},
+"101": {
+&"id": "101",
+&"next_id": "102",
+&"type": ""
+},
+"102": {
+&"id": "102",
+&"next_id": "103",
+&"text": "Cada vez que leía la carta, la mejoraba como podía.",
+&"type": "dialogue"
+},
+"103": {
+&"id": "103",
+&"next_id": "105",
+&"text": "Añadía frases, borraba otras, sustituía algunas palabras… Lo modificaba con el objetivo en mente de que, si algún día lo leía, fuera de las mejores cartas que haya visto en su vida y se conmoviera, aunque sea, un poco. También por supuesto quería que entendiera todo lo que decía en ella.",
+&"type": "dialogue"
+},
+"104": {
+&"id": "104",
+&"next_id": "105",
+&"type": ""
+},
+"105": {
+&"id": "105",
+&"next_id": "106",
+&"text": "Hasta que, finalmente, llegué a la versión que quería.",
+&"type": "dialogue"
+},
+"106": {
+&"id": "106",
+&"next_id": "108",
+&"text": "De todas formas, todos los días revisaba la carta las veces necesarias para poder estar tranquila de que estaba bien y se entendía todo.",
+&"type": "dialogue"
+},
+"107": {
+&"id": "107",
+&"next_id": "108",
+&"type": ""
+},
+"108": {
+&"id": "108",
+&"next_id": "110",
+&"text": "Cabe recalcar que nunca dejé los estudios y las tareas de lado.",
+&"type": "dialogue"
+},
+"109": {
+&"id": "109",
+&"next_id": "110",
+&"type": ""
+},
+"11": {
+&"id": "11",
+&"next_id": "13",
+&"text": "Creo que el profesor preguntó cómo estaba, pero no lo escuché bien por lo que no contesté. Ni siquiera podía pensar bien.",
+&"type": "dialogue"
+},
+"110": {
+&"id": "110",
+&"next_id": "112",
+&"text": "Me fui haciendo cada vez más cercana a Mateo, a tal punto en el que varios días a la semana quedábamos y hablábamos. Incluso me sentía cómoda ante la posible idea de darle la carta que escribí, pero, como dije antes, quería esperar a tener la excusa perfecta. Y de paso, la mejoraba. Además, no me sentía del todo preparada.",
+&"type": "dialogue"
+},
+"111": {
+&"id": "111",
+&"next_id": "112",
+&"type": ""
+},
+"112": {
+&"id": "112",
+&"next_id": "114",
+&"text": "Conforme pasaban los días y más unida me iba haciendo a aquel chico, más pensaba en que era absurdo darle la carta ese día.",
+&"type": "dialogue"
+},
+"113": {
+&"id": "113",
+&"next_id": "114",
+&"type": ""
+},
+"114": {
+&"id": "114",
+&"next_id": "115",
+&"text": "*fondo calle pero invierno*",
+&"type": "dialogue"
+},
+"115": {
+&"id": "115",
+&"next_id": "117",
+&"text": "El 14 de febrero llegó.",
+&"type": "dialogue"
+},
+"116": {
+&"id": "116",
+&"next_id": "117",
+&"type": ""
+},
+"117": {
+&"id": "117",
+&"next_id": "118",
+&"text": "Había quedado con Mateo y lo único que me impedía estar con él ese mismo día era un examen que tenía el 15, pero eso no evitó nada.",
+&"type": "dialogue"
+},
+"118": {
+&"id": "118",
+&"next_id": "119",
+&"text": "Inclusive traje conmigo la carta por si se daba la ocasión que creía oportuna para entregársela, pero no creía ser capaz. No al menos si no me ganaba mi lado impulsivo. Al fin y al cabo, algunos dicen que para hacer algo sólo te hace falta un pequeño empujón.",
+&"type": "dialogue"
+},
+"119": {
+&"id": "119",
+&"next_id": "121",
+&"text": "Imagino que eso fue lo que me pasó.",
+&"type": "dialogue"
+},
+"12": {
+&"id": "12",
+&"next_id": "13",
+&"type": ""
+},
+"120": {
+&"id": "120",
+&"next_id": "121",
+&"type": ""
+},
+"121": {
+&"id": "121",
+&"next_id": "122",
+&"text": "Después de pasar el rato con él en un parque que frecuentábamos, ya estábamos enfrente del portal de mi casa.",
+&"type": "dialogue"
+},
+"122": {
+&"id": "122",
+&"next_id": "124",
+&"text": "Me estaba hablando de algo, pero yo no era capaz de retener esa información, puesto que estaba concentrada en otra cosa…",
+&"type": "dialogue"
+},
+"123": {
+&"id": "123",
+&"next_id": "124",
+&"type": ""
+},
+"124": {
+&"id": "124",
+&"next_id": "125",
+&"text": "Sentía que era el momento.",
+&"type": "dialogue"
+},
+"125": {
+&"id": "125",
+&"next_id": "126",
+&"text": "Puede que fuera ahora o nunca.",
+&"type": "dialogue"
+},
+"126": {
+&"id": "126",
+&"next_id": "127",
+&"text": "Quizá no volvería a tener la misma oportunidad.",
+&"type": "dialogue"
+},
+"127": {
+&"id": "127",
+&"next_id": "128",
+&"text": "[b]¿Debo dárselo realmente?",
+&"type": "dialogue"
+},
+"128": {
+&"id": "128",
+&"next_id": "129",
+&"responses": PackedStringArray("128", "130"),
+&"text": "Por supuesto",
+&"type": "response"
+},
+"129": {
+&"id": "129",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "cargarSiguienteCap",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 22,
+&"type": &"string",
+&"value": "cap5"
+}, {
+&"i": 28,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "133",
+&"type": "mutation"
+},
+"13": {
+&"id": "13",
+&"next_id": "14",
+&"text": "Quería ir al baño.",
+&"type": "dialogue"
+},
+"130": {
+&"id": "130",
+&"next_id": "131",
+&"text": "No",
+&"type": "response"
+},
+"131": {
+&"id": "131",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "cargarFinal",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 15,
+&"type": &"string",
+&"value": "finalCobarde"
+}, {
+&"i": 29,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "133",
+&"type": "mutation"
+},
+"132": {
+&"id": "132",
+&"next_id": "133",
+&"type": ""
+},
+"133": {
+&"id": "133",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"134": {
+&"id": "134",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"14": {
+&"id": "14",
+&"next_id": "15",
+&"text": "Me levanté, pero al hacerlo el mundo comenzó a girar y todo se veía borroso.",
+&"type": "dialogue"
+},
+"15": {
+&"id": "15",
+&"next_id": "17",
+&"text": "Por instinto, me apoyé en la mesa que tenía cerca y caminé hacia la salida, pero, cuando menos lo esperé, mi cuerpo empezó a caer, de no ser por el profesor, quien notó mi malestar, sí me habría caído al suelo. Me agarró de los hombros y me ayudó a salir al pasillo.",
+&"type": "dialogue"
+},
+"16": {
+&"id": "16",
+&"next_id": "17",
+&"type": ""
+},
+"17": {
+&"id": "17",
+&"next_id": "18",
+&"type": "title"
+},
+"18": {
+&"id": "18",
+&"next_id": "19",
+&"text": "Pasó un rato y seguía mareada, pero ya estaba tumbada en un sofá que tenían en el pasillo.",
+&"type": "dialogue"
+},
+"19": {
+&"id": "19",
+&"next_id": "21",
+&"text": "Por suerte, el profesor y unos compañeros me ayudaron y estuvieron conmigo hasta que mi padre llegara para acompañarme a casa.",
+&"type": "dialogue"
+},
+"2": {
+&"id": "2",
+&"next_id": "3",
+&"text": "¿Debería avisar a alguien?",
+&"type": "dialogue"
+},
+"20": {
+&"id": "20",
+&"next_id": "21",
+&"type": ""
+},
+"21": {
+&"id": "21",
+&"next_id": "23",
+&"text": "Lo que no me esperaba para nada era que Mateo viniera y se quedara a mi lado.",
+&"type": "dialogue"
+},
+"22": {
+&"id": "22",
+&"next_id": "23",
+&"type": ""
+},
+"23": {
+&"character": "Mateo",
+&"id": "23",
+&"next_id": "24",
+&"text": "¿Cómo está?",
+&"type": "dialogue"
+},
+"24": {
+&"id": "24",
+&"next_id": "25",
+&"text": "Se escuchaba nervioso.",
+&"type": "dialogue"
+},
+"25": {
+&"id": "25",
+&"next_id": "27",
+&"text": "Intenté abrir los ojos para verlo, pero todo estaba borroso y me estaba agobiando, así que seguí con los ojos cerrados.",
+&"type": "dialogue"
+},
+"26": {
+&"id": "26",
+&"next_id": "27",
+&"type": ""
+},
+"27": {
+&"character": "Compañero 1",
+&"id": "27",
+&"next_id": "28",
+&"text": "Pues nada, ahí está.",
+&"type": "dialogue"
+},
+"28": {
+&"id": "28",
+&"next_id": "29",
+&"text": "Dijo mientras creo que me señalaba de alguna forma.",
+&"type": "dialogue"
+},
+"29": {
+&"character": "Compañero 2",
+&"id": "29",
+&"next_id": "31",
+&"text": "Está con mareos, pero parece que se encuentra mejor.",
+&"type": "dialogue"
+},
+"3": {
+&"id": "3",
+&"next_id": "4",
+&"responses": PackedStringArray("3", "5"),
+&"text": "No",
+&"type": "response"
+},
+"30": {
+&"id": "30",
+&"next_id": "31",
+&"type": ""
+},
+"31": {
+&"id": "31",
+&"next_id": "33",
+&"text": "Mateo, esos compañeros y el profesor estuvieron conmigo hasta que, finalmente, llegó mi padre.",
+&"type": "dialogue"
+},
+"32": {
+&"id": "32",
+&"next_id": "33",
+&"type": ""
+},
+"33": {
+&"character": "Mateo",
+&"id": "33",
+&"next_id": "34",
+&"text": "Disculpe, ¿no le importa si lo ayudo a llevarla y os acompaño?",
+&"type": "dialogue"
+},
+"34": {
+&"character": "Papá",
+&"id": "34",
+&"next_id": "35",
+&"text": "No, claro que no.",
+&"type": "dialogue"
+},
+"35": {
+&"id": "35",
+&"next_id": "37",
+&"text": "Me sorprendió que mi padre aceptara la ayuda.",
+&"type": "dialogue"
+},
+"36": {
+&"id": "36",
+&"next_id": "37",
+&"type": ""
+},
+"37": {
+&"id": "37",
+&"next_id": "38",
+&"text": "*fondo habitación*",
+&"type": "dialogue"
+},
+"38": {
+&"id": "38",
+&"next_id": "39",
+&"text": "Tal y como dijo, Mateo me acompañó hasta mi casa.",
+&"type": "dialogue"
+},
+"39": {
+&"id": "39",
+&"next_id": "41",
+&"text": "Una vez se aseguró de que estaba mejor, se fue. Pero eso no quitó el hecho de que estuvo conmigo alrededor de media hora. En mi casa. Cuando él debía coger un autobús para llegar a la suya y, si se retrasaba, lo perdería.",
+&"type": "dialogue"
+},
+"4": {
+&"id": "4",
+&"is_snippet": false,
+&"next_id": "9",
+&"next_id_after": "",
+&"type": "goto"
+},
+"40": {
+&"id": "40",
+&"next_id": "41",
+&"type": ""
+},
+"41": {
+&"id": "41",
+&"next_id": "42",
+&"text": "Le dije que no hacía falta que se quedara conmigo, pero lo único que dijo fue:",
+&"type": "dialogue"
+},
+"42": {
+&"id": "42",
+&"next_id": "43",
+&"text": "*que aparezca el texto lentito*",
+&"type": "dialogue"
+},
+"43": {
+&"id": "43",
+&"next_id": "44",
+&"text": "No me iba a ir hasta verte bien. Como si debía acompañarte después a donde necesitaras.",
+&"type": "dialogue"
+},
+"44": {
+&"id": "44",
+&"next_id": "46",
+&"text": "No te preocupes y descansa, que lo importante ahora es que mejores y te pongas bien.",
+&"type": "dialogue"
+},
+"45": {
+&"id": "45",
+&"next_id": "46",
+&"type": ""
+},
+"46": {
+&"id": "46",
+&"next_id": "48",
+&"text": "No sé exactamente cómo fue ni porqué, pero, desde entonces, algo empezó a surgir en mí. Y aquello crecía de una forma extrañamente exagerada, pero no me di cuenta, o, tal vez, no quise darme cuenta de aquel sentimiento desconocido y conocido al mismo tiempo.",
+&"type": "dialogue"
+},
+"47": {
+&"id": "47",
+&"next_id": "48",
+&"type": ""
+},
+"48": {
+&"id": "48",
+&"next_id": "49",
+&"text": "Si ya hablábamos a menudo, después de aquello intenté hablar mucho más con él. Se preocupaba por mí al igual que yo por él.",
+&"type": "dialogue"
+},
+"49": {
+&"id": "49",
+&"next_id": "51",
+&"text": "En mis pensamientos solía aparecer Mateo y todo lo que pudiera estar relacionado con él.",
+&"type": "dialogue"
+},
+"5": {
+&"id": "5",
+&"next_id": "6",
+&"text": "Sí",
+&"type": "response"
+},
+"50": {
+&"id": "50",
+&"next_id": "51",
+&"type": ""
+},
+"51": {
+&"id": "51",
+&"next_id": "53",
+&"text": "Sin darme cuenta y sin siquiera notarlo, un día de invierno, escribí algo. Algo que explicaba exactamente lo que sentía. Y no me costó hacerlo, no se me dificultó expresar todo lo que tenía adentro y de lo que no me percaté.",
+&"type": "dialogue"
+},
+"52": {
+&"id": "52",
+&"next_id": "53",
+&"type": ""
+},
+"53": {
+&"id": "53",
+&"next_id": "54",
+&"text": "Le escribí una carta a Mateo y, mientras escribía, ni siquiera era consciente de lo que hacía, no hasta que lo terminé y leí.",
+&"type": "dialogue"
+},
+"54": {
+&"id": "54",
+&"next_id": "56",
+&"text": "Me moría de vergüenza una vez lo terminé de leer.",
+&"type": "dialogue"
+},
+"55": {
+&"id": "55",
+&"next_id": "56",
+&"type": ""
+},
+"56": {
+&"id": "56",
+&"next_id": "57",
+&"text": "[b]¿Realmente debía dárselo?[/b] ¿Es [b]necesario[/b] que lo lea y sepa lo que siento?",
+&"type": "dialogue"
+},
+"57": {
+&"id": "57",
+&"next_id": "59",
+&"text": "No, por supuesto que no. No a menos que…",
+&"type": "dialogue"
+},
+"58": {
+&"id": "58",
+&"next_id": "59",
+&"type": ""
+},
+"59": {
+&"id": "59",
+&"next_id": "60",
+&"text": "[b]¿Me gustaría comenzar algo con él?",
+&"type": "dialogue"
+},
+"6": {
+&"id": "6",
+&"is_snippet": false,
+&"next_id": "18",
+&"next_id_after": "",
+&"type": "goto"
+},
+"60": {
+&"id": "60",
+&"next_id": "61",
+&"responses": PackedStringArray("60", "62"),
+&"text": "Sí",
+&"type": "response"
+},
+"61": {
+&"id": "61",
+&"is_snippet": false,
+&"next_id": "66",
+&"next_id_after": "",
+&"type": "goto"
+},
+"62": {
+&"id": "62",
+&"next_id": "63",
+&"text": "No",
+&"type": "response"
+},
+"63": {
+&"id": "63",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "cargarFinal",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 15,
+&"type": &"string",
+&"value": "soloAmigos"
+}, {
+&"i": 27,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "65",
+&"type": "mutation"
+},
+"64": {
+&"id": "64",
+&"next_id": "65",
+&"type": ""
+},
+"65": {
+&"id": "65",
+&"next_id": "66",
+&"type": "title"
+},
+"66": {
+&"id": "66",
+&"next_id": "67",
+&"text": "*fondo negro*",
+&"type": "dialogue"
+},
+"67": {
+&"id": "67",
+&"next_id": "68",
+&"text": "Tras leer esto y ser consciente de mis sentimientos, es evidente que no puedo tener como tal una amistad con él. Pero necesito que él lo sepa.",
+&"type": "dialogue"
+},
+"68": {
+&"id": "68",
+&"next_id": "69",
+&"text": "En el fondo, creo que me gustaría que lea esto.",
+&"type": "dialogue"
+},
+"69": {
+&"id": "69",
+&"next_id": "70",
+&"text": "*fondo de negro pasar lentamente a rosa oscuro*",
+&"type": "dialogue"
+},
+"7": {
+&"id": "7",
+&"next_id": "8",
+&"type": ""
+},
+"70": {
+&"id": "70",
+&"next_id": "71",
+&"text": "Tal vez podamos ser algo más. Tal vez le guste como algo más que una amiga.",
+&"type": "dialogue"
+},
+"71": {
+&"id": "71",
+&"next_id": "72",
+&"text": "Quizá siga siendo bueno cuando seamos novios.",
+&"type": "dialogue"
+},
+"72": {
+&"id": "72",
+&"next_id": "74",
+&"text": "Cabe la posibilidad de que no sea como el resto de chicos que he conocido, exceptuando a dos, claro; mi padre y un antiguo amigo.",
+&"type": "dialogue"
+},
+"73": {
+&"id": "73",
+&"next_id": "74",
+&"type": ""
+},
+"74": {
+&"id": "74",
+&"next_id": "75",
+&"text": "*fondo habitación*",
+&"type": "dialogue"
+},
+"75": {
+&"id": "75",
+&"next_id": "76",
+&"text": "¿En qué diablos pienso?",
+&"type": "dialogue"
+},
+"76": {
+&"id": "76",
+&"next_id": "78",
+&"text": "¿Cómo que ser su novia?",
+&"type": "dialogue"
+},
+"77": {
+&"id": "77",
+&"next_id": "78",
+&"type": ""
+},
+"78": {
+&"id": "78",
+&"next_id": "80",
+&"text": ".[wait=0.5].[wait=0.5].",
+&"type": "dialogue"
+},
+"79": {
+&"id": "79",
+&"next_id": "80",
+&"type": ""
+},
+"8": {
+&"id": "8",
+&"next_id": "9",
+&"type": "title"
+},
+"80": {
+&"id": "80",
+&"next_id": "81",
+&"text": "*fondo negro de vuelta*",
+&"type": "dialogue"
+},
+"81": {
+&"id": "81",
+&"next_id": "82",
+&"text": "¿Realmente estoy lista para tener una relación?",
+&"type": "dialogue"
+},
+"82": {
+&"id": "82",
+&"next_id": "83",
+&"text": "No hace relativamente mucho salí de una, ¿voy a ser capaz de meterme en otra?",
+&"type": "dialogue"
+},
+"83": {
+&"id": "83",
+&"next_id": "84",
+&"text": "*de negro a fucsia oscuro*",
+&"type": "dialogue"
+},
+"84": {
+&"id": "84",
+&"next_id": "85",
+&"text": "Puede que, si es con él, sí.",
+&"type": "dialogue"
+},
+"85": {
+&"id": "85",
+&"next_id": "87",
+&"text": "A fin de cuentas, he aprendido bastante gracias a un antiguo amigo que me gustaba, aunque era digitalmente, los sentimientos eran reales.",
+&"type": "dialogue"
+},
+"86": {
+&"id": "86",
+&"next_id": "87",
+&"type": ""
+},
+"87": {
+&"id": "87",
+&"next_id": "88",
+&"text": "*de fucsia oscuro a fucsia un poco menos oscuro*",
+&"type": "dialogue"
+},
+"88": {
+&"id": "88",
+&"next_id": "89",
+&"text": "Mateo me ha demostrado muchas cosas y todas, hasta ahora, han sido buenas.",
+&"type": "dialogue"
+},
+"89": {
+&"id": "89",
+&"next_id": "90",
+&"text": "A lo mejor puedo intentarlo…",
+&"type": "dialogue"
+},
+"9": {
+&"id": "9",
+&"next_id": "11",
+&"text": "Me tomé una pastilla con la esperanza de que el malestar se fuera, pero, aunque no lo quisiera admitir en ese momento, creo que aquello sólo empeoró la molestia que sentí tan de repente.",
+&"type": "dialogue"
+},
+"90": {
+&"id": "90",
+&"next_id": "92",
+&"text": "El no ya lo tengo por delante… Puede que no sea malo dárselo…",
+&"type": "dialogue"
+},
+"91": {
+&"id": "91",
+&"next_id": "92",
+&"type": ""
+},
+"92": {
+&"id": "92",
+&"next_id": "94",
+&"text": ".[wait=0.5].[wait=0.5].",
+&"type": "dialogue"
+},
+"93": {
+&"id": "93",
+&"next_id": "94",
+&"type": ""
+},
+"94": {
+&"id": "94",
+&"next_id": "95",
+&"text": "Un momento, no. No puedo dársela simplemente y ya.",
+&"type": "dialogue"
+},
+"95": {
+&"id": "95",
+&"next_id": "96",
+&"text": "Aunque, por otro lado, quizás sólo necesito una excusa para entregarle esto.",
+&"type": "dialogue"
+},
+"96": {
+&"id": "96",
+&"next_id": "97",
+&"text": "No queda nada para el 14 de febrero, San Valentín…",
+&"type": "dialogue"
+},
+"97": {
+&"id": "97",
+&"next_id": "99",
+&"text": "No, sería demasiado. Incluso para mí.",
+&"type": "dialogue"
+},
+"98": {
+&"id": "98",
+&"next_id": "99",
+&"type": ""
+},
+"99": {
+&"id": "99",
+&"next_id": "100",
+&"text": "*fondo habitación*",
+&"type": "dialogue"
+}
+}
+raw_text = "~ start
+Empiezo a encontrarme muy rara. 
+¿Debería avisar a alguien?
+- No
+	=> historiaSigue
+- Sí
+	=> seSalta
+
+~ historiaSigue
+Me tomé una pastilla con la esperanza de que el malestar se fuera, pero, aunque no lo quisiera admitir en ese momento, creo que aquello sólo empeoró la molestia que sentí tan de repente.
+
+Creo que el profesor preguntó cómo estaba, pero no lo escuché bien por lo que no contesté. Ni siquiera podía pensar bien.
+
+Quería ir al baño.
+Me levanté, pero al hacerlo el mundo comenzó a girar y todo se veía borroso.
+Por instinto, me apoyé en la mesa que tenía cerca y caminé hacia la salida, pero, cuando menos lo esperé, mi cuerpo empezó a caer, de no ser por el profesor, quien notó mi malestar, sí me habría caído al suelo. Me agarró de los hombros y me ayudó a salir al pasillo.
+
+~ seSalta
+Pasó un rato y seguía mareada, pero ya estaba tumbada en un sofá que tenían en el pasillo. 
+Por suerte, el profesor y unos compañeros me ayudaron y estuvieron conmigo hasta que mi padre llegara para acompañarme a casa.
+
+Lo que no me esperaba para nada era que Mateo viniera y se quedara a mi lado.
+
+Mateo: ¿Cómo está?
+Se escuchaba nervioso. 
+Intenté abrir los ojos para verlo, pero todo estaba borroso y me estaba agobiando, así que seguí con los ojos cerrados.
+
+Compañero 1: Pues nada, ahí está.
+Dijo mientras creo que me señalaba de alguna forma.
+Compañero 2: Está con mareos, pero parece que se encuentra mejor.
+
+Mateo, esos compañeros y el profesor estuvieron conmigo hasta que, finalmente, llegó mi padre.
+
+Mateo: Disculpe, ¿no le importa si lo ayudo a llevarla y os acompaño?
+Papá: No, claro que no.
+Me sorprendió que mi padre aceptara la ayuda.
+
+*fondo habitación*
+Tal y como dijo, Mateo me acompañó hasta mi casa.
+Una vez se aseguró de que estaba mejor, se fue. Pero eso no quitó el hecho de que estuvo conmigo alrededor de media hora. En mi casa. Cuando él debía coger un autobús para llegar a la suya y, si se retrasaba, lo perdería.
+
+Le dije que no hacía falta que se quedara conmigo, pero lo único que dijo fue:
+*que aparezca el texto lentito*
+No me iba a ir hasta verte bien. Como si debía acompañarte después a donde necesitaras.
+No te preocupes y descansa, que lo importante ahora es que mejores y te pongas bien.
+
+No sé exactamente cómo fue ni porqué, pero, desde entonces, algo empezó a surgir en mí. Y aquello crecía de una forma extrañamente exagerada, pero no me di cuenta, o, tal vez, no quise darme cuenta de aquel sentimiento desconocido y conocido al mismo tiempo.
+
+Si ya hablábamos a menudo, después de aquello intenté hablar mucho más con él. Se preocupaba por mí al igual que yo por él.
+En mis pensamientos solía aparecer Mateo y todo lo que pudiera estar relacionado con él.
+
+Sin darme cuenta y sin siquiera notarlo, un día de invierno, escribí algo. Algo que explicaba exactamente lo que sentía. Y no me costó hacerlo, no se me dificultó expresar todo lo que tenía adentro y de lo que no me percaté.
+
+Le escribí una carta a Mateo y, mientras escribía, ni siquiera era consciente de lo que hacía, no hasta que lo terminé y leí.
+Me moría de vergüenza una vez lo terminé de leer.
+
+[b]¿Realmente debía dárselo?[/b] ¿Es [b]necesario[/b] que lo lea y sepa lo que siento?
+No, por supuesto que no. No a menos que…
+
+[b]¿Me gustaría comenzar algo con él?
+- Sí
+	=> siguee
+- No
+	do cargarFinal(\"soloAmigos\")
+
+~ siguee
+*fondo negro*
+Tras leer esto y ser consciente de mis sentimientos, es evidente que no puedo tener como tal una amistad con él. Pero necesito que él lo sepa. 
+En el fondo, creo que me gustaría que lea esto.
+*fondo de negro pasar lentamente a rosa oscuro*
+Tal vez podamos ser algo más. Tal vez le guste como algo más que una amiga.
+Quizá siga siendo bueno cuando seamos novios.
+Cabe la posibilidad de que no sea como el resto de chicos que he conocido, exceptuando a dos, claro; mi padre y un antiguo amigo.
+
+*fondo habitación*
+¿En qué diablos pienso?
+¿Cómo que ser su novia?
+
+.[wait=0.5].[wait=0.5].
+
+*fondo negro de vuelta*
+¿Realmente estoy lista para tener una relación?
+No hace relativamente mucho salí de una, ¿voy a ser capaz de meterme en otra?
+*de negro a fucsia oscuro*
+Puede que, si es con él, sí.
+A fin de cuentas, he aprendido bastante gracias a un antiguo amigo que me gustaba, aunque era digitalmente, los sentimientos eran reales.
+
+*de fucsia oscuro a fucsia un poco menos oscuro*
+Mateo me ha demostrado muchas cosas y todas, hasta ahora, han sido buenas.
+A lo mejor puedo intentarlo…
+El no ya lo tengo por delante… Puede que no sea malo dárselo…
+
+.[wait=0.5].[wait=0.5].
+
+Un momento, no. No puedo dársela simplemente y ya.
+Aunque, por otro lado, quizás sólo necesito una excusa para entregarle esto.
+No queda nada para el 14 de febrero, San Valentín…
+No, sería demasiado. Incluso para mí.
+
+*fondo habitación*
+Igualmente, de alguna forma, intenté animarme para hacerlo. Después de todo, para arrepentirse siempre hay tiempo.
+
+Cada vez que leía la carta, la mejoraba como podía. 
+Añadía frases, borraba otras, sustituía algunas palabras… Lo modificaba con el objetivo en mente de que, si algún día lo leía, fuera de las mejores cartas que haya visto en su vida y se conmoviera, aunque sea, un poco. También por supuesto quería que entendiera todo lo que decía en ella.
+
+Hasta que, finalmente, llegué a la versión que quería.
+De todas formas, todos los días revisaba la carta las veces necesarias para poder estar tranquila de que estaba bien y se entendía todo.
+
+Cabe recalcar que nunca dejé los estudios y las tareas de lado.
+
+Me fui haciendo cada vez más cercana a Mateo, a tal punto en el que varios días a la semana quedábamos y hablábamos. Incluso me sentía cómoda ante la posible idea de darle la carta que escribí, pero, como dije antes, quería esperar a tener la excusa perfecta. Y de paso, la mejoraba. Además, no me sentía del todo preparada.
+
+Conforme pasaban los días y más unida me iba haciendo a aquel chico, más pensaba en que era absurdo darle la carta ese día.
+
+*fondo calle pero invierno*
+El 14 de febrero llegó.
+
+Había quedado con Mateo y lo único que me impedía estar con él ese mismo día era un examen que tenía el 15, pero eso no evitó nada.
+Inclusive traje conmigo la carta por si se daba la ocasión que creía oportuna para entregársela, pero no creía ser capaz. No al menos si no me ganaba mi lado impulsivo. Al fin y al cabo, algunos dicen que para hacer algo sólo te hace falta un pequeño empujón. 
+Imagino que eso fue lo que me pasó.
+
+Después de pasar el rato con él en un parque que frecuentábamos, ya estábamos enfrente del portal de mi casa.
+Me estaba hablando de algo, pero yo no era capaz de retener esa información, puesto que estaba concentrada en otra cosa…
+
+Sentía que era el momento.
+Puede que fuera ahora o nunca.
+Quizá no volvería a tener la misma oportunidad.
+[b]¿Debo dárselo realmente?
+- Por supuesto
+	do cargarSiguienteCap(\"cap5\")
+- No
+	do cargarFinal(\"finalCobarde\")
+
+=> END"
+metadata/dialogue_manager_version = "3.9.0"

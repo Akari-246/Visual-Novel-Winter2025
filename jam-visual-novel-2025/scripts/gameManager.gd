@@ -1,6 +1,6 @@
 extends Node2D
 
-# Referencias a nodos
+# ====== Referencias a nodos ======
 @onready var background: Sprite2D = $Fondo
 @onready var discord_screen: CanvasLayer = $DiscordScreen
 @onready var discord_panel: Panel = $DiscordScreen/Panel
@@ -9,8 +9,9 @@ extends Node2D
 @onready var info_label: RichTextLabel = $InfoPanel/Panel/InfoLabel
 @onready var close_button: Button = $InfoPanel/Panel/Button
 @onready var characters_container: Node2D = $Character
+@onready var boton_skip: Button = $SkipBtn 
 
-# Recursos de fondos
+# ====== Recursos de fondos ======
 var backgrounds = {
 	"habitacion": "",
 	"clase": "",
@@ -20,24 +21,34 @@ var backgrounds = {
 
 var bad_ending = false
 var dialogue_resource: DialogueResource
+var balloon_actual = null
+var skip_activo = false
+var velocidad_skip = 0.05
 
 func _ready():
 	dialogue_resource = load("res://dialogos/inicio.dialogue")
 	
 	DialogueManager.dialogue_ended.connect(_on_dialogue_ended)
 	close_button.pressed.connect(_on_close_info_panel)
+	SistemaPuntos.maxPuntosNegativos.connect(inicioMaxNegativos)
+
 	
 	# Ocultar elementos al inicio
 	discord_screen.visible = false
 	info_panel.visible = false
 	characters_container.visible = false
 	
-	start_dialogue() #iniciar dialogo :D
+	start_dialogue()
 
+# ====== DIALOGO ======
 func start_dialogue():
-	DialogueManager.show_example_dialogue_balloon(dialogue_resource, "start")
+	balloon_actual = DialogueManager.show_example_dialogue_balloon(dialogue_resource, "start")
+	configBalloon()
 
-# ========== FUNCIONES PARA EL DIÁLOGO ==========
+func configBalloon():
+	await get_tree().process_frame
+
+# ====== FUNCIONES DE DIALOGO ======
 func set_background(bg_name: String):
 	if bg_name == "negro":
 		background.texture = null
@@ -51,11 +62,9 @@ func set_background(bg_name: String):
 		print("Fondo no encontrado: " + bg_name)
 
 func show_info_icon(info_type: String):
-	# Esta función se llamará desde el diálogo
 	print("Mostrar info sobre: " + info_type)
 
 func show_discord_screen():
-	# Limpiar mensajes anteriores
 	for child in messages_container.get_children():
 		child.queue_free()
 	discord_screen.visible = true
@@ -64,8 +73,7 @@ func hide_discord_screen():
 	discord_screen.visible = false
 
 func add_discord_message(text: String, is_player: bool = false):
-	await get_tree().create_timer(0.1).timeout  #delay para efecto
-	
+	await get_tree().create_timer(0.1).timeout
 	var message = RichTextLabel.new()
 	message.bbcode_enabled = true
 	message.fit_content = true
@@ -81,12 +89,12 @@ func add_discord_message(text: String, is_player: bool = false):
 
 func show_characters():
 	characters_container.visible = true
-	#aqui cargar sprites de personajes
 
 func set_bad_ending(value: bool):
 	bad_ending = value
 
 func retry_game():
+	SistemaPuntos.resetearPuntos()
 	get_tree().reload_current_scene()
 
 func go_to_main_menu():
@@ -95,17 +103,41 @@ func go_to_main_menu():
 func _on_close_info_panel():
 	info_panel.visible = false
 
-func _on_dialogue_ended(resource: DialogueResource):
+func _on_dialogue_ended(_resource: DialogueResource):
 	print("Diálogo terminado")
+	balloon_actual = null
 
 func cargarSiguienteCap(nombreCap: String):
 	await get_tree().create_timer(0.5).timeout
-	# Cargar el siguiente capítulo
 	dialogue_resource = load("res://dialogos/" + nombreCap + ".dialogue")
-	
-	#iniciarlo
-	DialogueManager.show_example_dialogue_balloon(dialogue_resource, "start")
+	balloon_actual = DialogueManager.show_example_dialogue_balloon(dialogue_resource, "start")
+	configBalloon()
 
-#func cargar_escenaHospi():
-	#dialogue_resource =load("res://dialogos/escenaHospi.dialogue")
-	#DialogueManager.show_example_dialogue_balloon(dialogue_resource, "start")
+func inicioMaxNegativos():
+	print("Se alcanzó el máximo de los puntos negativos")
+
+func cargarFinal(nombreFinal: String):
+	await get_tree().create_timer(0.5).timeout
+	dialogue_resource = load("res://dialogos/finales.dialogue")
+	balloon_actual = DialogueManager.show_example_dialogue_balloon(dialogue_resource, nombreFinal)
+	configBalloon()
+
+func mostrarFinal():
+	var puntosNegativos = SistemaPuntos.obtenerPuntosNegativos()
+	var puntosMateo = SistemaPuntos.obtenerPuntos("mateo")
+	var puntosKris = SistemaPuntos.obtenerPuntos("kristine")
+	
+	if puntosNegativos >= 4:
+		cargarFinal("finalMalo")
+	elif puntosKris >= 2 and puntosMateo >= 4:
+		cargarFinal("demasiadasMentiras")
+	else: 
+		cargarFinal("finalCanon")
+
+func mostrar_medidor_mateo():
+	if has_node("MedidorPuntos"):
+		$MedidorPuntos.mostrar_medidor("mateo")
+
+func ocultar_medidor_mateo():
+	if has_node("MedidorPuntos"):
+		$MedidorPuntos.ocultar_medidor()
