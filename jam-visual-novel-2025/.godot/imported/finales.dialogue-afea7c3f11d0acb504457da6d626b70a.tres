@@ -98,7 +98,7 @@ lines = {
 },
 "11": {
 &"id": "11",
-&"next_id": "13",
+&"next_id": "14",
 &"text": "Mateo.",
 &"type": "dialogue"
 },
@@ -160,11 +160,6 @@ lines = {
 &"next_id": "120",
 &"text": "[wait=2.0]",
 &"type": "dialogue"
-},
-"12": {
-&"id": "12",
-&"next_id": "13",
-&"type": ""
 },
 "120": {
 &"id": "120",
@@ -229,8 +224,7 @@ lines = {
 "13": {
 &"id": "13",
 &"next_id": "14",
-&"text": "*fondo calle*",
-&"type": "dialogue"
+&"type": ""
 },
 "130": {
 &"id": "130",
@@ -357,7 +351,7 @@ lines = {
 },
 "15": {
 &"id": "15",
-&"next_id": "17",
+&"next_id": "18",
 &"text": "Habíamos pasado la tarde simplemente caminando por la ciudad ya alumbrada con las luces de Navidad hablando de todo y de nada a la vez.",
 &"type": "dialogue"
 },
@@ -419,11 +413,6 @@ lines = {
 &"next_id": "160",
 &"text": "Kristine... ya no puedo más.",
 &"type": "dialogue"
-},
-"16": {
-&"id": "16",
-&"next_id": "17",
-&"type": ""
 },
 "160": {
 &"id": "160",
@@ -490,8 +479,7 @@ lines = {
 "17": {
 &"id": "17",
 &"next_id": "18",
-&"text": "*fondo de portal/entrada del edificio*",
-&"type": "dialogue"
+&"type": ""
 },
 "170": {
 &"id": "170",
@@ -1265,9 +1253,24 @@ lines = {
 },
 "5": {
 &"id": "5",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "negro"
+}, {
+&"i": 25,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
 &"next_id": "6",
-&"text": "*fondo negro*",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "50": {
 &"id": "50",
@@ -1295,9 +1298,24 @@ lines = {
 },
 "54": {
 &"id": "54",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "negro"
+}, {
+&"i": 25,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
 &"next_id": "55",
-&"text": "*fondo negro*",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "55": {
 &"id": "55",
@@ -1567,7 +1585,7 @@ Has llegado al final de la historia.
 => END
 
 ~ finalCanon
-*fondo negro*
+do set_background(\"negro\")
 La anterior navidad no la pasé muy bien que digamos por culpa de las disputas familiares. Esta vez, este año no sería diferente, además, mi abuelo había fallecido, por lo que era peor que el anterior. Y a eso sumándole el hecho de que habían tenido que operarme de nuevo no hace mucho por urgencia; sepsis y peritonitis de nuevo.
 Pensé que estas vacaciones serían de las peores, pero, en cierta parte, me equivoqué.
 
@@ -1575,11 +1593,11 @@ Estaba viva. Debía aprovechar eso.
 Había sobrevivido ante algo que casi nadie ha conseguido y, aunque estaba cansada de sobrevivir ante tanta lucha tras años de operaciones y pruebas constantes, había una persona que hacía de mi vida una lucha con sentido.
 Mateo.
 
-*fondo calle*
+#*fondo calle*
 Ya era notorio el frío de diciembre.
 Habíamos pasado la tarde simplemente caminando por la ciudad ya alumbrada con las luces de Navidad hablando de todo y de nada a la vez.
 
-*fondo de portal/entrada del edificio*
+#*fondo de portal/entrada del edificio*
 Al entrar en el portal de mi casa junto a mi acompañante para refugiarnos del frío, noté que me quería decir algo.
 Le di el tiempo necesario para que hablara. Intentaba mirarlo con cariño y no con curiosidad.
 El portal estaba decorado con un muñeco de nieve de plástico y varias cajas que simulaban ser regalos. Arriba del ascensor había un letrero en el que ponía “Feliz Navidad”. Intenté enfocarme en el decorado para no ponerlo nervioso.
@@ -1616,7 +1634,7 @@ Era un beso seguro, sin prisas, sin accidentes. Uno bien dado, por cierto, no hu
 Kristine: Feliz Navidad.
 Mateo: Feliz Navidad, mi amor.
 
-*fondo negro*
+do set_background(\"negro\")
 Y bueno, podría contar mucho más, pero, para eso, prefiero dejarlo aquí.
 
 Gracias por haberme acompañado en esta pequeña historia.

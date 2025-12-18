@@ -1,5 +1,5 @@
 f098f8d3115d962055284dee314b4f89
-::res://::1765915595
+::res://::1766050366
 default_bus_layout.tres::AudioBusLayout::3238594863796064399::1765568351::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D::5751770903062247227::1765451405::1765451891::1::::<><><>0<>0<>ac698f11db3aecdcdd9e275ce854616d<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 ::res://addons/::1764927132
@@ -106,28 +106,58 @@ LibreBaskerville-Regular.ttf::FontFile::7635847707550856303::1765553510::1765553
 OFL.txt::TextFile::-1::1765553510::0::1::::<><><>0<>0<><>::
 ::res://assets/imagenes/::1765635442
 provisional.jpg::CompressedTexture2D::9019046002379734360::1765559617::1765559618::1::::<><><>0<>0<>27caa7ae2d19dfacf96edb02d91ed84c<>res://.godot/imported/provisional.jpg-ed30a51bf4df0e8d5a17d784c027428c.ctex::
-::res://assets/imagenes/fondos/::1765635437
-::res://assets/imagenes/personajes/::1765635442
-::res://dialogos/::1765908533
-cap3.dialogue::Resource::3990686215667703907::1765878210::1765878210::1::::<><><>0<>0<>5f40868f1f12bf6027f609bd60a6b0b2<>res://.godot/imported/cap3.dialogue-2bae850097fdec8fea9b7bc428b73db1.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
-cap4.dialogue::Resource::8288544974775611756::1765908533::1765908533::1::::<><><>0<>0<>40e783f45328043e5dfb97a4dcf5aa6c<>res://.godot/imported/cap4.dialogue-0aba1c2b6d2d67f329b0ae10388020f9.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
-cap 5.dialogue::Resource::5806876327846853483::1765907393::1765907394::1::::<><><>0<>0<>cac25b6e6c740243c1fb3b588792a0a0<>res://.godot/imported/cap 5.dialogue-dcc869baf149f090db5fb4f757d27902.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
-escenaHospi.dialogue::Resource::4515241362355848428::1765834788::1765834788::1::::<><><>0<>0<>a00b9fc933973c278dc2cc1358de6453<>res://.godot/imported/escenaHospi.dialogue-d997efdadfe54b854d994ba3266c919a.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
-finales.dialogue::Resource::1762277697769272317::1765908533::1765908533::1::::<><><>0<>0<>78f7bcc085064e8ebc2c78a862c735b2<>res://.godot/imported/finales.dialogue-afea7c3f11d0acb504457da6d626b70a.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
-inicio.dialogue::Resource::2332915011357048097::1765916736::1765916736::1::::<><><>0<>0<>2b6536bf09072ec5d295a3f687cfdb4b<>res://.godot/imported/inicio.dialogue-085d28d4d3e13c39c95f520916dd26d3.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
-::res://escenas/::1765916305
+::res://assets/imagenes/fondos/::1766080846
+calleDia.jpeg::CompressedTexture2D::520812586726230944::1766080845::1766080846::1::::<><><>0<>0<>75f9e6725252ace97d558958242bf82b<>res://.godot/imported/calleDia.jpeg-1086a457d015ef8582915de35dcfaedb.ctex::
+calleNoche.jpeg::CompressedTexture2D::6942654087502307875::1766080845::1766080846::1::::<><><>0<>0<>970ff6fdbbf91fff1c9f7e3dd9e9d1b7<>res://.godot/imported/calleNoche.jpeg-5d4c1f24e809759167c0bf38460faaf4.ctex::
+clase.jpeg::CompressedTexture2D::7505447094673330933::1766050092::1766050325::1::::<><><>0<>0<>81ab97b0df2d10a9834addff9e05b463<>res://.godot/imported/clase.jpeg-917f779ea05623bf4006a8e1705d2537.ctex::
+fondo negro.jpg::CompressedTexture2D::6161967330040240671::1766054368::1766054369::1::::<><><>0<>0<>fe7fb3598451e35ea5f9b78fcac0da35<>res://.godot/imported/fondo negro.jpg-95bf6b42fa1ef7e078ccbf9a59cb2804.ctex::
+fucsia muy oscuro.jpeg::CompressedTexture2D::3970662692694626275::1766080835::1766080836::1::::<><><>0<>0<>5917d19dfba6048472f1d00fe2a9df53<>res://.godot/imported/fucsia muy oscuro.jpeg-3e3149146dd64e5f687da5a41e7f5797.ctex::
+fucsia oscuro.jpeg::CompressedTexture2D::4555899692283388654::1766080832::1766080832::1::::<><><>0<>0<>1d13aef84727a2413829df38175f0294<>res://.godot/imported/fucsia oscuro.jpeg-bcb94c474cdd68a8c2f5fc9fc2217f56.ctex::
+habitacion1.jpeg::CompressedTexture2D::7395141048430356656::1766050092::1766050318::1::::<><><>0<>0<>762f6b5730ba90a34aa2db52bb81b6c1<>res://.godot/imported/habitacion1.jpeg-ffa2f1066e23de4ac57882c5f87061fd.ctex::
+habitacion2.jpeg::CompressedTexture2D::2609596261786096404::1766050092::1766050332::1::::<><><>0<>0<>8f4fa8eeeb43633db6b8acf39b51f097<>res://.godot/imported/habitacion2.jpeg-0da502c1ea8eea6a72a5536eb60416d6.ctex::
+habitacion atardecer.jpeg::CompressedTexture2D::5450800286898803349::1766050092::1766050341::1::::<><><>0<>0<>78b2454d3acd58f9e18e407aa979919e<>res://.godot/imported/habitacion atardecer.jpeg-6afd38789bc8b5c0d269e930d63c4928.ctex::
+habitacion hospi.jpeg::CompressedTexture2D::7252805213873563458::1766050092::1766050350::1::::<><><>0<>0<>b63a5a629cdf691510611d84e7e0a343<>res://.godot/imported/habitacion hospi.jpeg-dd7666d9540c20646b91603be7eea06e.ctex::
+habitacion noche.jpeg::CompressedTexture2D::4684133032008287776::1766050092::1766050358::1::::<><><>0<>0<>20e4e58ff19d88ea61438a2deea117d6<>res://.godot/imported/habitacion noche.jpeg-d5bbb0befb825ad714203b7da9f47c29.ctex::
+habitacionRecortada.jpeg::CompressedTexture2D::8930429201903124796::1766051232::1766051232::1::::<><><>0<>0<>3fb54e184c812ef401bf6075f3a4c6f8<>res://.godot/imported/habitacionRecortada.jpeg-61abf22d8f3d0a09ab91d86260638fb8.ctex::
+parque.jpeg::CompressedTexture2D::3161339378073403436::1766050137::1766050366::1::::<><><>0<>0<>01cc7cb68c7ea387fadd5e02d53ea5a4<>res://.godot/imported/parque.jpeg-3b5c08c905d3042209ac79f3896dc345.ctex::
+parqueNoche.jpeg::CompressedTexture2D::3007546626196501662::1766080824::1766080825::1::::<><><>0<>0<>92c25194aa13f9de55cc06d5676ea12a<>res://.godot/imported/parqueNoche.jpeg-dc86e5271f898d1caa00b82971af8275.ctex::
+portal.jpeg::CompressedTexture2D::2828063907653384165::1766080824::1766080825::1::::<><><>0<>0<>b37c617a85abf66fca49027233796144<>res://.godot/imported/portal.jpeg-f7e7dea3e983f60b5d86288a7098f2ef.ctex::
+rosa.jpeg::CompressedTexture2D::7760372075354024511::1766080832::1766080832::1::::<><><>0<>0<>a7a2e5d43482094221d4aad8d6a14406<>res://.godot/imported/rosa.jpeg-b3e1681a097fc178690960efa072d6eb.ctex::
+::res://assets/imagenes/personajes/::1766081009
+kris feliz.png::CompressedTexture2D::5373855199121378013::1766081009::1766081011::1::::<><><>0<>0<>20e3dda44638f8246256af73a177c441<>res://.godot/imported/kris feliz.png-19fa8b2ac9eef62740bc75e09b18c051.ctex::
+kris habla alegre.png::CompressedTexture2D::4763934808691231502::1766081009::1766081011::1::::<><><>0<>0<>03672a6fda13cbcd9588f4881703200d<>res://.godot/imported/kris habla alegre.png-0708b2a3f609b9a4d64452d8ae595acf.ctex::
+kris habla mal.png::CompressedTexture2D::2450228733277911733::1766081009::1766081011::1::::<><><>0<>0<>7bffda3c8170121590be3aa8280b8904<>res://.godot/imported/kris habla mal.png-a7b96befa5cecf2cb5debbed1ec4c300.ctex::
+kris habla normañ.png::CompressedTexture2D::1444327798076887544::1766081009::1766081011::1::::<><><>0<>0<>9e5571df69bff46dc244e62b33e8d3e9<>res://.godot/imported/kris habla normañ.png-697878d99d0aa9d909ee24324e0d0879.ctex::
+kris habla preocupada.png::CompressedTexture2D::2524555500498091504::1766081009::1766081011::1::::<><><>0<>0<>8a5b0218b50cb772b76a4fe6b32ca95b<>res://.godot/imported/kris habla preocupada.png-6df5cfb0f36c0aa224439ee2048699c3.ctex::
+kris intento sonrie.png::CompressedTexture2D::8016645669888684277::1766081009::1766081011::1::::<><><>0<>0<>75e8bfc1572b6ebe5b978c2dcfb62b64<>res://.godot/imported/kris intento sonrie.png-e31757491cd8f4daf1eb9e70dffe437a.ctex::
+kristine seria.png::CompressedTexture2D::7158518040307995290::1766081009::1766081011::1::::<><><>0<>0<>36eb92e3e4d2ff1cfa4e3cbcbd9ad0dc<>res://.godot/imported/kristine seria.png-23de2abc2f8b7e67d6e7b3959dcf5d74.ctex::
+kristine sin hablar.png::CompressedTexture2D::3127014051985288124::1766081009::1766081011::1::::<><><>0<>0<>0d87c218bf025bbf1d401e8ebfbe36ac<>res://.godot/imported/kristine sin hablar.png-55ee768c88e23e5389d75881a6e95198.ctex::
+Mateo habla1.png::CompressedTexture2D::4662343098325816925::1766081009::1766081011::1::::<><><>0<>0<>1c9cf52d635548e123d5ee019a6697e6<>res://.godot/imported/Mateo habla1.png-afb82ac1952df8b35a5ae4eced5ba072.ctex::
+mateo habla2.png::CompressedTexture2D::2378158732146169665::1766081009::1766081011::1::::<><><>0<>0<>d7254ff71fd1d22f47a06468195be237<>res://.godot/imported/mateo habla2.png-6f41150308931fa6d9158cf9003b5484.ctex::
+mateo serio.png::CompressedTexture2D::1562460411026564925::1766081009::1766081011::1::::<><><>0<>0<>737f37eff78286676ef0112f17314951<>res://.godot/imported/mateo serio.png-2097aeba169e26496430949bb939b8eb.ctex::
+mateo sin hablar.png::CompressedTexture2D::3072441603591661990::1766081009::1766081011::1::::<><><>0<>0<>88f9efc0baf9beb94a637dc2c417a3fb<>res://.godot/imported/mateo sin hablar.png-412ab33c0211157b23380f95ee4ada11.ctex::
+Mateo sonrie.png::CompressedTexture2D::6405435755051955838::1766081009::1766081011::1::::<><><>0<>0<>7a12709c6746da25add4982a760e022e<>res://.godot/imported/Mateo sonrie.png-91348fa4cd02bdab8aa3911d2e50c26e.ctex::
+::res://dialogos/::1766065481
+cap3.dialogue::Resource::3990686215667703907::1766065481::1766065481::1::::<><><>0<>0<>5f40868f1f12bf6027f609bd60a6b0b2<>res://.godot/imported/cap3.dialogue-2bae850097fdec8fea9b7bc428b73db1.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
+cap4.dialogue::Resource::8288544974775611756::1766065481::1766065481::1::::<><><>0<>0<>40e783f45328043e5dfb97a4dcf5aa6c<>res://.godot/imported/cap4.dialogue-0aba1c2b6d2d67f329b0ae10388020f9.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
+cap 5.dialogue::Resource::5806876327846853483::1766065481::1766065481::1::::<><><>0<>0<>cac25b6e6c740243c1fb3b588792a0a0<>res://.godot/imported/cap 5.dialogue-dcc869baf149f090db5fb4f757d27902.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
+escenaHospi.dialogue::Resource::4515241362355848428::1766065481::1766065481::1::::<><><>0<>0<>a00b9fc933973c278dc2cc1358de6453<>res://.godot/imported/escenaHospi.dialogue-d997efdadfe54b854d994ba3266c919a.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
+finales.dialogue::Resource::1762277697769272317::1766065481::1766065481::1::::<><><>0<>0<>78f7bcc085064e8ebc2c78a862c735b2<>res://.godot/imported/finales.dialogue-afea7c3f11d0acb504457da6d626b70a.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
+inicio.dialogue::Resource::2332915011357048097::1766065481::1766065481::1::::<><><>0<>0<>2b6536bf09072ec5d295a3f687cfdb4b<>res://.godot/imported/inicio.dialogue-085d28d4d3e13c39c95f520916dd26d3.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
+::res://escenas/::1766051906
 audio.tscn::PackedScene::1211841389494885650::1765570041::0::1::::<><><>0<>0<><>::uid://6edl6h4ttc14::::res://scripts/audio.gd
-game.tscn::PackedScene::258718747939119734::1765916305::0::1::::<><><>0<>0<><>::uid://br5xvgj4qdwgi::::res://scripts/gameManager.gd<>uid://cn7g3dl8cvidn::::res://icon.svg<>uid://lh7yi4u1exu3::::res://assets/fonts/libre baskeville/LibreBaskerville-Bold.ttf<>uid://c2yniadkhh4it::::res://escenas/medidorPuntos.tscn<>uid://cn1ilq71bq6yh::::res://scripts/skipBtn.gd
+game.tscn::PackedScene::258718747939119734::1766051906::0::1::::<><><>0<>0<><>::uid://br5xvgj4qdwgi::::res://scripts/gameManager.gd<>uid://lh7yi4u1exu3::::res://assets/fonts/libre baskeville/LibreBaskerville-Bold.ttf<>uid://c2yniadkhh4it::::res://escenas/medidorPuntos.tscn<>uid://ddmi5l4xu1pca::::res://assets/imagenes/fondos/habitacion1.jpeg
 medidorPuntos.tscn::PackedScene::6718288824066145087::1765832090::0::1::::<><><>0<>0<><>::uid://ba0pm2or24kob::::res://scripts/medidorPuntitos.gd
 menu.tscn::PackedScene::1700676497499850718::1765584517::0::1::::<><><>0<>0<><>::uid://h5nf74m70ijk::::res://scripts/menuManager.gd<>uid://d1q5mtw58g3g3::::res://assets/imagenes/provisional.jpg<>uid://dg14kclf6jted::::res://assets/fonts/libre baskeville/LibreBaskerville-Regular.ttf<>uid://dnkv3p7myaucf::::res://scripts/menu_op.gd<>uid://lh7yi4u1exu3::::res://assets/fonts/libre baskeville/LibreBaskerville-Bold.ttf<>uid://dqspm13v3xdwh::::res://scripts/audioControl.gd<>uid://crmiavqkqlsw4::::res://assets/audio/SFX/recogeObjetoAgudo.wav<>uid://s21h87br30r6::::res://assets/audio/SFX/sfxBarraVol.wav
 sistema_puntos.tscn::PackedScene::7136203118646578990::1765721185::0::1::::<><><>0<>0<><>::uid://c2nt5yumlvtmr::::res://scripts/sistemaPuntos.gd
-::res://scripts/::1765916245
+::res://scripts/::1766065481
 audio.gd::GDScript::2184315098887749313::1765584517::0::1::::<>AudioStreamPlayer<><>0<>0<><>::
 audioControl.gd::GDScript::8320375943133349911::1765584572::0::1::::<>VBoxContainer<><>0<>0<><>::
-gameManager.gd::GDScript::3642996681049569188::1765916245::0::1::::<>Node2D<><>0<>0<><>::
+buttonSkip.gd::GDScript::5878833823446823170::1765917014::0::1::::<>Button<><>0<>0<><>::
+gameManager.gd::GDScript::3642996681049569188::1766065481::0::1::::<>Node2D<><>0<>0<><>::
 medidorPuntitos.gd::GDScript::2438963752530302013::1765725890::0::1::::<>CanvasLayer<><>0<>0<><>::
 menuManager.gd::GDScript::554053214099021156::1765584671::0::1::::<>Control<><>0<>0<><>::
 menu_op.gd::GDScript::8093686692853068569::1765572139::0::1::::<>Control<><>0<>0<><>::
-skipBtn.gd::GDScript::5739476426951929347::1765915733::0::1::::<>Button<><>0<>0<><>::
-sistemaSkip.gd::GDScript::8024367494018127708::1765915574::0::1::::<>Node<><>0<>0<><>::
 sistemaPuntos.gd::GDScript::6695985545112827597::1765825484::0::1::::<>Node<><>0<>0<><>::
+sistemaSkip.gd::GDScript::8024367494018127708::1765915574::0::1::::<>Node<><>0<>0<><>::
+skipBtn.gd::GDScript::5739476426951929347::1765956008::0::1::::<>Button<><>0<>0<><>::

@@ -31,30 +31,44 @@ lines = {
 "100": {
 &"id": "100",
 &"next_id": "101",
-&"text": "*fondo de habitación y encima móvil con mensajes estilo discord*",
-&"type": "dialogue"
+&"type": ""
 },
 "101": {
 &"id": "101",
-&"next_id": "102",
-&"text": "[i]Por cierto, en su momento no te pregunté, ¿cómo te llamas? Porque brillante o luz en japonés no creo que sea.",
-&"type": "dialogue"
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "habitacion1"
+}, {
+&"i": 31,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "103",
+&"type": "mutation"
 },
 "102": {
 &"id": "102",
-&"next_id": "104",
-&"text": "[i]Aunque me parece un bonito apodo.",
-&"type": "dialogue"
+&"next_id": "103",
+&"type": ""
 },
 "103": {
 &"id": "103",
 &"next_id": "104",
-&"type": ""
+&"text": "[i]Por cierto, en su momento no te pregunté, ¿cómo te llamas? Porque brillante o luz en japonés no creo que sea.",
+&"type": "dialogue"
 },
 "104": {
 &"id": "104",
 &"next_id": "106",
-&"text": "Akari es el apodo que uso. Significa, efectivamente, luz en japonés.",
+&"text": "[i]Aunque me parece un bonito apodo.",
 &"type": "dialogue"
 },
 "105": {
@@ -64,28 +78,27 @@ lines = {
 },
 "106": {
 &"id": "106",
-&"next_id": "107",
-&"text": "[b]¿Qué debería decirle?[/b]",
+&"next_id": "108",
+&"text": "Akari es el apodo que uso. Significa, efectivamente, luz en japonés.",
 &"type": "dialogue"
 },
 "107": {
 &"id": "107",
 &"next_id": "108",
-&"responses": PackedStringArray("107", "114", "119"),
-&"text": "Responder y preguntar por su nombre",
-&"type": "response"
+&"type": ""
 },
 "108": {
 &"id": "108",
 &"next_id": "109",
-&"text": "[i]No te preocupes, me llamo Kristine",
+&"text": "[b]¿Qué debería decirle?[/b]",
 &"type": "dialogue"
 },
 "109": {
 &"id": "109",
 &"next_id": "110",
-&"text": "[i]Tu nombre es Mateo?",
-&"type": "dialogue"
+&"responses": PackedStringArray("109", "116", "121"),
+&"text": "Responder y preguntar por su nombre",
+&"type": "response"
 },
 "11": {
 &"id": "11",
@@ -96,17 +109,29 @@ lines = {
 "110": {
 &"id": "110",
 &"next_id": "111",
-&"text": "A mí me resultó más fácil saberlo debido al apodo que usaba; Mateo-x-path.",
+&"text": "[i]No te preocupes, me llamo Kristine",
 &"type": "dialogue"
 },
 "111": {
 &"id": "111",
 &"next_id": "112",
-&"text": "[i]Sii, pero me puedes llamar como te sea más cómodo ^^",
+&"text": "[i]Tu nombre es Mateo?",
 &"type": "dialogue"
 },
 "112": {
 &"id": "112",
+&"next_id": "113",
+&"text": "A mí me resultó más fácil saberlo debido al apodo que usaba; Mateo-x-path.",
+&"type": "dialogue"
+},
+"113": {
+&"id": "113",
+&"next_id": "114",
+&"text": "[i]Sii, pero me puedes llamar como te sea más cómodo ^^",
+&"type": "dialogue"
+},
+"114": {
+&"id": "114",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "cargarSiguienteCap",
@@ -123,22 +148,22 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "125",
+&"next_id": "127",
 &"type": "mutation"
-},
-"113": {
-&"id": "113",
-&"next_id": "114",
-&"type": ""
-},
-"114": {
-&"id": "114",
-&"next_id": "115",
-&"text": "Evitar el tema",
-&"type": "response"
 },
 "115": {
 &"id": "115",
+&"next_id": "116",
+&"type": ""
+},
+"116": {
+&"id": "116",
+&"next_id": "117",
+&"text": "Evitar el tema",
+&"type": "response"
+},
+"117": {
+&"id": "117",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"i": 3,
@@ -166,23 +191,29 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "116",
-&"type": "mutation"
-},
-"116": {
-&"id": "116",
-&"next_id": "117",
-&"text": "No quería responder exactamente a su pregunta, por lo que sólo le dije que Akari me parecía un nombre bastante bonito.",
-&"type": "dialogue"
-},
-"117": {
-&"id": "117",
 &"next_id": "118",
-&"text": "Pareció que aquello le defraudó un poco, pero bueno.",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "118": {
 &"id": "118",
+&"next_id": "119",
+&"text": "No quería responder exactamente a su pregunta, por lo que sólo le dije que Akari me parecía un nombre bastante bonito.",
+&"type": "dialogue"
+},
+"119": {
+&"id": "119",
+&"next_id": "120",
+&"text": "Pareció que aquello le defraudó un poco, pero bueno.",
+&"type": "dialogue"
+},
+"12": {
+&"id": "12",
+&"next_id": "14",
+&"text": "Uno se llevó mi especial atención. O, mejor dicho, varios.",
+&"type": "dialogue"
+},
+"120": {
+&"id": "120",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "cargarSiguienteCap",
@@ -199,23 +230,17 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "125",
+&"next_id": "127",
 &"type": "mutation"
 },
-"119": {
-&"id": "119",
-&"next_id": "120",
+"121": {
+&"id": "121",
+&"next_id": "122",
 &"text": "Mentir",
 &"type": "response"
 },
-"12": {
-&"id": "12",
-&"next_id": "14",
-&"text": "Uno se llevó mi especial atención. O, mejor dicho, varios.",
-&"type": "dialogue"
-},
-"120": {
-&"id": "120",
+"122": {
+&"id": "122",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"i": 3,
@@ -243,23 +268,23 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "121",
-&"type": "mutation"
-},
-"121": {
-&"id": "121",
-&"next_id": "122",
-&"text": "[i] Puedes llamarme Kris.",
-&"type": "dialogue"
-},
-"122": {
-&"id": "122",
 &"next_id": "123",
-&"text": "No era mi nombre como tal, pero no mentía en que podía llamarme de esa manera si él quería...",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "123": {
 &"id": "123",
+&"next_id": "124",
+&"text": "[i] Puedes llamarme Kris.",
+&"type": "dialogue"
+},
+"124": {
+&"id": "124",
+&"next_id": "125",
+&"text": "No era mi nombre como tal, pero no mentía en que podía llamarme de esa manera si él quería...",
+&"type": "dialogue"
+},
+"125": {
+&"id": "125",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "cargarSiguienteCap",
@@ -276,23 +301,23 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "125",
+&"next_id": "127",
 &"type": "mutation"
 },
-"124": {
-&"id": "124",
-&"next_id": "125",
+"126": {
+&"id": "126",
+&"next_id": "127",
 &"type": ""
 },
-"125": {
-&"id": "125",
+"127": {
+&"id": "127",
 &"is_snippet": false,
 &"next_id": "end",
 &"next_id_after": "",
 &"type": "goto"
 },
-"126": {
-&"id": "126",
+"128": {
+&"id": "128",
 &"is_snippet": false,
 &"next_id": "end",
 &"next_id_after": "",
@@ -402,9 +427,24 @@ lines = {
 },
 "3": {
 &"id": "3",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "negro"
+}, {
+&"i": 25,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
 &"next_id": "4",
-&"text": "*fondo negro*",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "30": {
 &"id": "30",
@@ -647,9 +687,24 @@ lines = {
 },
 "68": {
 &"id": "68",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "negro"
+}, {
+&"i": 25,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
 &"next_id": "69",
-&"text": "*fondo negro o casa*",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "69": {
 &"id": "69",
@@ -681,43 +736,52 @@ lines = {
 },
 "73": {
 &"id": "73",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "habitacion1"
+}, {
+&"i": 31,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
 &"next_id": "74",
-&"text": "28 de noviembre.",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "74": {
 &"id": "74",
 &"next_id": "75",
-&"text": "Al despertarme me fijé que tenía una nueva notificación. Cómo no, de él.",
+&"text": "28 de noviembre.",
 &"type": "dialogue"
 },
 "75": {
 &"id": "75",
-&"next_id": "77",
-&"text": "Era raro empezar de nuevo a acostumbrarme a tener mensajes de una persona, de cierta persona.",
+&"next_id": "76",
+&"text": "Al despertarme me fijé que tenía una nueva notificación. Cómo no, de él.",
 &"type": "dialogue"
 },
 "76": {
 &"id": "76",
-&"next_id": "77",
-&"type": ""
-},
-"77": {
-&"id": "77",
-&"next_id": "78",
-&"text": "*encima del fondo de habitacion mostrar movil y mensajes*",
+&"next_id": "79",
+&"text": "Era raro empezar de nuevo a acostumbrarme a tener mensajes de una persona, de cierta persona.",
 &"type": "dialogue"
 },
 "78": {
 &"id": "78",
 &"next_id": "79",
-&"text": "[i]Cómo te ha ido la vuelta a clases? Y mucho ánimo hoy ^^",
-&"type": "dialogue"
+&"type": ""
 },
 "79": {
 &"id": "79",
 &"next_id": "80",
-&"text": "[i]Llevo una chaqueta negra pensando que haría más frío y me estoy muriendo de calor.",
+&"text": "[i]Cómo te ha ido la vuelta a clases? Y mucho ánimo hoy ^^",
 &"type": "dialogue"
 },
 "8": {
@@ -727,133 +791,173 @@ lines = {
 },
 "80": {
 &"id": "80",
-&"next_id": "82",
-&"text": "[i]Momento de arrepentirse JAKSAK",
+&"next_id": "81",
+&"text": "[i]Llevo una chaqueta negra pensando que haría más frío y me estoy muriendo de calor.",
 &"type": "dialogue"
 },
 "81": {
 &"id": "81",
-&"next_id": "82",
-&"type": ""
+&"next_id": "83",
+&"text": "[i]Momento de arrepentirse JAKSAK",
+&"type": "dialogue"
 },
 "82": {
 &"id": "82",
 &"next_id": "83",
-&"text": "*fondo negro, empezando a ser rosa pero oscuro*",
-&"type": "dialogue"
+&"type": ""
 },
 "83": {
 &"id": "83",
-&"next_id": "85",
-&"text": "A pesar de que era un desconocido para mí, no podía evitar sentir ternura en cómo se preocupaba por mí. Y no sólo esa vez, puesto que esas serían las primeras veces que se interesaría en mí.",
-&"type": "dialogue"
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "negro"
+}, {
+&"i": 25,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "84",
+&"type": "mutation"
 },
 "84": {
 &"id": "84",
-&"next_id": "85",
-&"type": ""
+&"next_id": "86",
+&"text": "A pesar de que era un desconocido para mí, no podía evitar sentir ternura en cómo se preocupaba por mí. Y no sólo esa vez, puesto que esas serían las primeras veces que se interesaría en mí.",
+&"type": "dialogue"
 },
 "85": {
 &"id": "85",
 &"next_id": "86",
-&"text": "*fondo negro*",
-&"type": "dialogue"
+&"type": ""
 },
 "86": {
 &"id": "86",
-&"next_id": "88",
-&"text": "Se acercaban algunos exámenes y, claramente, mi estado postoperatorio no me iba impedir hacerlos. Sin embargo, mentiría si dijera que no se me dificultaba concentrarme un poco para estudiar.",
-&"type": "dialogue"
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "negro"
+}, {
+&"i": 25,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "87",
+&"type": "mutation"
 },
 "87": {
 &"id": "87",
-&"next_id": "88",
-&"type": ""
+&"next_id": "89",
+&"text": "Se acercaban algunos exámenes y, claramente, mi estado postoperatorio no me iba impedir hacerlos. Sin embargo, mentiría si dijera que no se me dificultaba concentrarme un poco para estudiar.",
+&"type": "dialogue"
 },
 "88": {
 &"id": "88",
-&"next_id": "90",
-&"text": "Conforme pasaban los días, más me costaba aprender y entender varios conceptos de algunas asignaturas, pero, por alguna razón, cuando se lo comentaba al chico con el que hace pocos días había comenzado a hablar, me animaba y me decía que lo iba a sacar.",
-&"type": "dialogue"
+&"next_id": "89",
+&"type": ""
 },
 "89": {
 &"id": "89",
-&"next_id": "90",
-&"type": ""
+&"next_id": "91",
+&"text": "Conforme pasaban los días, más me costaba aprender y entender varios conceptos de algunas asignaturas, pero, por alguna razón, cuando se lo comentaba al chico con el que hace pocos días había comenzado a hablar, me animaba y me decía que lo iba a sacar.",
+&"type": "dialogue"
 },
 "9": {
 &"id": "9",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "habitacionHospital"
+}, {
+&"i": 38,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
 &"next_id": "10",
-&"text": "*habitación hospital*",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "90": {
 &"id": "90",
-&"next_id": "92",
-&"text": "Por supuesto que confío en mí. No necesito ánimos de nadie, pero debo admitir que me sacaba una sonrisa al leerlo.",
-&"type": "dialogue"
+&"next_id": "91",
+&"type": ""
 },
 "91": {
 &"id": "91",
-&"next_id": "92",
-&"type": ""
-},
-"92": {
-&"id": "92",
-&"next_id": "93",
-&"text": "*encima del fondo mostrar movil con mensajes*",
+&"next_id": "94",
+&"text": "Por supuesto que confío en mí. No necesito ánimos de nadie, pero debo admitir que me sacaba una sonrisa al leerlo.",
 &"type": "dialogue"
 },
 "93": {
 &"id": "93",
 &"next_id": "94",
-&"text": "[i]De todas formas estoy convencido que lo sacarás una vez lo practiques",
-&"type": "dialogue"
+&"type": ""
 },
 "94": {
 &"id": "94",
-&"next_id": "96",
-&"text": "[i]Estoy seguro de ello ^^",
+&"next_id": "95",
+&"text": "[i]De todas formas estoy convencido que lo sacarás una vez lo practiques",
 &"type": "dialogue"
 },
 "95": {
 &"id": "95",
-&"next_id": "96",
-&"type": ""
+&"next_id": "97",
+&"text": "[i]Estoy seguro de ello ^^",
+&"type": "dialogue"
 },
 "96": {
 &"id": "96",
-&"next_id": "98",
-&"text": "Aparte de darme ánimos y desearme suerte cada vez que debía hacer un examen, solíamos hablar de temas triviales; mascotas, gustos musicales, hobbies, videojuegos favoritos…",
-&"type": "dialogue"
+&"next_id": "97",
+&"type": ""
 },
 "97": {
 &"id": "97",
-&"next_id": "98",
-&"type": ""
+&"next_id": "99",
+&"text": "Aparte de darme ánimos y desearme suerte cada vez que debía hacer un examen, solíamos hablar de temas triviales; mascotas, gustos musicales, hobbies, videojuegos favoritos…",
+&"type": "dialogue"
 },
 "98": {
 &"id": "98",
-&"next_id": "100",
-&"text": "Un día cayó en cuenta de que no sabía mi nombre.Y fue gracioso la manera en la que preguntó.",
-&"type": "dialogue"
+&"next_id": "99",
+&"type": ""
 },
 "99": {
 &"id": "99",
-&"next_id": "100",
-&"type": ""
+&"next_id": "101",
+&"text": "Un día cayó en cuenta de que no sabía mi nombre.Y fue gracioso la manera en la que preguntó.",
+&"type": "dialogue"
 }
 }
 raw_text = "~ start
 Hice lo que me ordenó la anestesista y, en pocos minutos, me dormí.
 
-*fondo negro*
+do set_background(\"negro\")
 Tal y como dijeron, todo salió a la perfección.
 El único problema era que debía quedarme varios días en el hospital, Felix dijo que entre 5 y 8 días, y yo quería ir a clases, sin embargo, debía entender que todo era cuestión de tiempo para poder volver.
 
 3 días después 
 
-*habitación hospital*
+do set_background(\"habitacionHospital\")
 Me estaba acostumbrando, de nuevo, a vivir de forma distinta, tal y como vivía antes de la perforación que tuve.
 Poco a poco iba mejorando, lo cual subió mi estado de ánimo, lo suficiente como para revisar los mensajes que tenía y responder a todos.
 Uno se llevó mi especial atención. O, mejor dicho, varios.
@@ -912,31 +1016,32 @@ Felix: Buenas, familia. Los resultados de la ecografía y la analítica han sali
 
 Tras las indicaciones que me dio el cirujano, mis padres pudieron encargarse de los papeles para poder darme de alta. 
 
-*fondo negro o casa*
+do set_background(\"negro\")
 En cuestión de horas ya estaba en casa. Se podría decir con el cuerpo de antes, pero no sería del todo cierto, sin embargo, estaba segura que con el tiempo me acostumbraría de nuevo. Al menos eso esperaba.
 
 Pocos días después fui retomando la rutina de ir a clases, estudiar lo necesario y hacer las tareas atrasadas que tenía pendientes, además de los exámenes, claro.
 
+do set_background(\"habitacion1\")
 28 de noviembre.
 Al despertarme me fijé que tenía una nueva notificación. Cómo no, de él.
 Era raro empezar de nuevo a acostumbrarme a tener mensajes de una persona, de cierta persona.
 
-*encima del fondo de habitacion mostrar movil y mensajes*
+#*encima del fondo de habitacion mostrar movil y mensajes*
 [i]Cómo te ha ido la vuelta a clases? Y mucho ánimo hoy ^^
 [i]Llevo una chaqueta negra pensando que haría más frío y me estoy muriendo de calor. 
 [i]Momento de arrepentirse JAKSAK 
 
-*fondo negro, empezando a ser rosa pero oscuro*
+do set_background(\"negro\") #n vez de negro que sea un poco mas rosa muyyy oscuro
 A pesar de que era un desconocido para mí, no podía evitar sentir ternura en cómo se preocupaba por mí. Y no sólo esa vez, puesto que esas serían las primeras veces que se interesaría en mí.
 
-*fondo negro*
+do set_background(\"negro\")
 Se acercaban algunos exámenes y, claramente, mi estado postoperatorio no me iba impedir hacerlos. Sin embargo, mentiría si dijera que no se me dificultaba concentrarme un poco para estudiar.
 
 Conforme pasaban los días, más me costaba aprender y entender varios conceptos de algunas asignaturas, pero, por alguna razón, cuando se lo comentaba al chico con el que hace pocos días había comenzado a hablar, me animaba y me decía que lo iba a sacar.
 
 Por supuesto que confío en mí. No necesito ánimos de nadie, pero debo admitir que me sacaba una sonrisa al leerlo.
 
-*encima del fondo mostrar movil con mensajes*
+#*encima del fondo mostrar movil con mensajes*
 [i]De todas formas estoy convencido que lo sacarás una vez lo practiques 
 [i]Estoy seguro de ello ^^
 
@@ -944,7 +1049,8 @@ Aparte de darme ánimos y desearme suerte cada vez que debía hacer un examen, s
 
 Un día cayó en cuenta de que no sabía mi nombre.Y fue gracioso la manera en la que preguntó.
 
-*fondo de habitación y encima móvil con mensajes estilo discord*
+do set_background(\"habitacion1\")
+#*fondo de habitación y encima móvil con mensajes estilo discord*
 [i]Por cierto, en su momento no te pregunté, ¿cómo te llamas? Porque brillante o luz en japonés no creo que sea.
 [i]Aunque me parece un bonito apodo.
 

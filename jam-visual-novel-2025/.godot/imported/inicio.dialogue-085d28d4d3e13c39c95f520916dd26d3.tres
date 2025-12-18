@@ -30,17 +30,11 @@ lines = {
 "100": {
 &"id": "100",
 &"next_id": "101",
-&"text": "No podía mover mi cuerpo, no podía hacer nada.",
+&"text": "[wait=1][wave]¿Así se siente morir?[/wave]",
 &"type": "dialogue"
 },
 "101": {
 &"id": "101",
-&"next_id": "102",
-&"text": "[wait=1][wave]¿Así se siente morir?[/wave]",
-&"type": "dialogue"
-},
-"102": {
-&"id": "102",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "cargarFinal",
@@ -57,23 +51,23 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "103",
+&"next_id": "102",
 &"type": "mutation"
 },
-"103": {
-&"id": "103",
+"102": {
+&"id": "102",
 &"is_snippet": false,
 &"next_id": "end",
 &"next_id_after": "",
 &"type": "goto"
 },
-"104": {
-&"id": "104",
-&"next_id": "105",
+"103": {
+&"id": "103",
+&"next_id": "104",
 &"type": ""
 },
-"105": {
-&"id": "105",
+"104": {
+&"id": "104",
 &"is_snippet": false,
 &"next_id": "end",
 &"next_id_after": "",
@@ -98,94 +92,130 @@ lines = {
 },
 "14": {
 &"id": "14",
-&"next_id": "17",
+&"next_id": "16",
 &"text": "La cosa es que ahora me dirijo a unas de mis tantas clases como estudiante de DAM, por fin.",
 &"type": "dialogue"
 },
+"15": {
+&"id": "15",
+&"next_id": "16",
+&"type": ""
+},
 "16": {
 &"id": "16",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "clase"
+}, {
+&"i": 25,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
 &"next_id": "17",
-&"type": ""
+&"type": "mutation"
 },
 "17": {
 &"id": "17",
 &"next_id": "18",
-&"text": "*fondo de clase*",
+&"text": "Era ya la hora del recreo cuando, de repente, me fijo en que tengo una nueva notificación. Vaya, ¿quién será? Espera, ¿un desconocido?, ¿por qué me habla?, ¿querrá algo?",
 &"type": "dialogue"
 },
 "18": {
 &"id": "18",
-&"next_id": "19",
-&"text": "Era ya la hora del recreo cuando, de repente, me fijo en que tengo una nueva notificación. Vaya, ¿quién será? Espera, ¿un desconocido?, ¿por qué me habla?, ¿querrá algo?",
+&"next_id": "20",
+&"text": "¿Quizás me ha confundido con otra persona?",
 &"type": "dialogue"
 },
 "19": {
 &"id": "19",
-&"next_id": "21",
-&"text": "¿Quizás me ha confundido con otra persona?",
-&"type": "dialogue"
+&"next_id": "20",
+&"type": ""
 },
 "2": {
 &"id": "2",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "habitacion1"
+}, {
+&"i": 31,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
 &"next_id": "3",
-&"text": "[bg habitacion]",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "20": {
 &"id": "20",
 &"next_id": "21",
-&"type": ""
+&"text": "*en pantalla del pc tipo como si vieras discord*",
+&"type": "dialogue"
 },
 "21": {
 &"id": "21",
 &"next_id": "22",
-&"text": "*en pantalla del pc tipo como si vieras discord*",
+&"text": "[i]Holaaa, perdona la intrusión y espero no molestar.",
 &"type": "dialogue"
 },
 "22": {
 &"id": "22",
 &"next_id": "23",
-&"text": "[i]Holaaa, perdona la intrusión y espero no molestar.",
+&"text": "[i]Soy de segundo, hablando con un profe y algunos de tu clase me enteré que tuvisteis un examen.",
 &"type": "dialogue"
 },
 "23": {
 &"id": "23",
-&"next_id": "24",
-&"text": "[i]Soy de segundo, hablando con un profe y algunos de tu clase me enteré que tuvisteis un examen.",
+&"next_id": "25",
+&"text": "[i]Te escribía para saber qué tal te fue y os fue en general. Espero que haya salido genialll y disculpa la intrusión repentina.",
 &"type": "dialogue"
 },
 "24": {
 &"id": "24",
-&"next_id": "26",
-&"text": "[i]Te escribía para saber qué tal te fue y os fue en general. Espero que haya salido genialll y disculpa la intrusión repentina.",
-&"type": "dialogue"
+&"next_id": "25",
+&"type": ""
 },
 "25": {
 &"id": "25",
 &"next_id": "26",
-&"type": ""
+&"text": "Me lo pensé un poco antes de responder, pero no podía evitar no ser amable. Aunque fuera una tontería, me hizo un poco de gracia esa notificación.",
+&"type": "dialogue"
 },
 "26": {
 &"id": "26",
-&"next_id": "27",
-&"text": "Me lo pensé un poco antes de responder, pero no podía evitar no ser amable. Aunque fuera una tontería, me hizo un poco de gracia esa notificación.",
+&"next_id": "28",
+&"text": "No tardé mucho más y, sin darme cuenta, ya había mandado el mensaje.",
 &"type": "dialogue"
 },
 "27": {
 &"id": "27",
-&"next_id": "29",
-&"text": "No tardé mucho más y, sin darme cuenta, ya había mandado el mensaje.",
-&"type": "dialogue"
+&"next_id": "28",
+&"type": ""
 },
 "28": {
 &"id": "28",
 &"next_id": "29",
-&"type": ""
+&"text": "[i]holaa",
+&"type": "dialogue"
 },
 "29": {
 &"id": "29",
 &"next_id": "30",
-&"text": "[i]holaa",
+&"text": "[i]pues el examen me salió bien. Creo que sólo suspendieron dos personas.",
 &"type": "dialogue"
 },
 "3": {
@@ -196,61 +226,60 @@ lines = {
 },
 "30": {
 &"id": "30",
-&"next_id": "31",
-&"text": "[i]pues el examen me salió bien. Creo que sólo suspendieron dos personas.",
+&"next_id": "32",
+&"text": "[i]Gracias por preguntar ^^",
 &"type": "dialogue"
 },
 "31": {
 &"id": "31",
-&"next_id": "33",
-&"text": "[i]Gracias por preguntar ^^",
-&"type": "dialogue"
+&"next_id": "32",
+&"type": ""
 },
 "32": {
 &"id": "32",
-&"next_id": "33",
-&"type": ""
+&"next_id": "34",
+&"text": "Iba a aprovechar para adelantar algunas tareas, pero enseguida me distrajo algo.",
+&"type": "dialogue"
 },
 "33": {
 &"id": "33",
-&"next_id": "35",
-&"text": "Iba a aprovechar para adelantar algunas tareas, pero enseguida me distrajo algo.",
-&"type": "dialogue"
+&"next_id": "34",
+&"type": ""
 },
 "34": {
 &"id": "34",
 &"next_id": "35",
-&"type": ""
+&"text": "*mostrar pantalla del pc y, anterior a los dos mensajes, nuevo mensaje:*",
+&"type": "dialogue"
 },
 "35": {
 &"id": "35",
 &"next_id": "36",
-&"text": "*mostrar pantalla del pc y, anterior a los dos mensajes, nuevo mensaje:*",
+&"text": "[i]Nadaa ^^",
 &"type": "dialogue"
 },
 "36": {
 &"id": "36",
 &"next_id": "37",
-&"text": "[i]Nadaa ^^",
+&"text": "[i]Y perdona el mensaje random.",
 &"type": "dialogue"
 },
 "37": {
 &"id": "37",
 &"next_id": "38",
-&"text": "[i]Y perdona el mensaje random.",
+&"text": "[i]Me alegra que te haya salido bien. Antes estaba sentado con 2 de tus compañeros y no quería molestarte al entrar.",
 &"type": "dialogue"
 },
 "38": {
 &"id": "38",
-&"next_id": "39",
-&"text": "[i]Me alegra que te haya salido bien. Antes estaba sentado con 2 de tus compañeros y no quería molestarte al entrar.",
+&"next_id": "40",
+&"text": "[i]Mucho ánimo con el resto del día.",
 &"type": "dialogue"
 },
 "39": {
 &"id": "39",
-&"next_id": "41",
-&"text": "[i]Mucho ánimo con el resto del día.",
-&"type": "dialogue"
+&"next_id": "40",
+&"type": ""
 },
 "4": {
 &"id": "4",
@@ -261,59 +290,74 @@ lines = {
 "40": {
 &"id": "40",
 &"next_id": "41",
-&"type": ""
+&"text": "*mostrar dialogo pero por encima del fondo del pc y mensajes*",
+&"type": "dialogue"
 },
 "41": {
 &"id": "41",
 &"next_id": "42",
-&"text": "*mostrar dialogo pero por encima del fondo del pc y mensajes*",
+&"text": "Vaya, respondió rápido.",
 &"type": "dialogue"
 },
 "42": {
 &"id": "42",
-&"next_id": "43",
-&"text": "Vaya, respondió rápido.",
+&"next_id": "44",
+&"text": "Después de haberme dado cuenta, no puedo simplemente dejarlo en visto",
 &"type": "dialogue"
 },
 "43": {
 &"id": "43",
-&"next_id": "45",
-&"text": "Después de haberme dado cuenta, no puedo simplemente dejarlo en visto",
-&"type": "dialogue"
+&"next_id": "44",
+&"type": ""
 },
 "44": {
 &"id": "44",
 &"next_id": "45",
-&"type": ""
+&"text": "*mostrar mensaje*",
+&"type": "dialogue"
 },
 "45": {
 &"id": "45",
-&"next_id": "46",
-&"text": "*mostrar mensaje*",
+&"next_id": "47",
+&"text": "[i]No pasa nada, igual que te vaya bien a ti también",
 &"type": "dialogue"
 },
 "46": {
 &"id": "46",
-&"next_id": "48",
-&"text": "[i]No pasa nada, igual que te vaya bien a ti también",
-&"type": "dialogue"
+&"next_id": "47",
+&"type": ""
 },
 "47": {
 &"id": "47",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "clase"
+}, {
+&"i": 25,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
 &"next_id": "48",
-&"type": ""
+&"type": "mutation"
 },
 "48": {
 &"id": "48",
-&"next_id": "49",
-&"text": "*fondo de clase*",
+&"next_id": "50",
+&"text": "Después de aquella pequeña conversación que tuve con un chico desconocido que ni siquiera estaba en mi clase, pero sí, al parecer, en mi curso, el resto de mi día fue normal. Sin embargo, aunque parecía que él me conocía, yo no sabía cómo se suponía que era él, y admito que eso provocó que estuviera absorta pensando en ello y en cómo había conseguido contactarme, pero debía seguir con mis tareas.",
 &"type": "dialogue"
 },
 "49": {
 &"id": "49",
-&"next_id": "51",
-&"text": "Después de aquella pequeña conversación que tuve con un chico desconocido que ni siquiera estaba en mi clase, pero sí, al parecer, en mi curso, el resto de mi día fue normal. Sin embargo, aunque parecía que él me conocía, yo no sabía cómo se suponía que era él, y admito que eso provocó que estuviera absorta pensando en ello y en cómo había conseguido contactarme, pero debía seguir con mis tareas.",
-&"type": "dialogue"
+&"next_id": "50",
+&"type": ""
 },
 "5": {
 &"id": "5",
@@ -322,60 +366,91 @@ lines = {
 },
 "50": {
 &"id": "50",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "negro"
+}, {
+&"i": 25,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
 &"next_id": "51",
-&"type": ""
+&"type": "mutation"
 },
 "51": {
 &"id": "51",
 &"next_id": "52",
-&"text": "*fondo negro*",
+&"text": "Conforme pasaban los días mis nervios crecían más y más.",
 &"type": "dialogue"
 },
 "52": {
 &"id": "52",
 &"next_id": "53",
-&"text": "Conforme pasaban los días mis nervios crecían más y más.",
+&"text": "Dentro de nada era mi operación para volver a la normalidad. Me iban a quitar la ostomía.",
 &"type": "dialogue"
 },
 "53": {
 &"id": "53",
-&"next_id": "54",
-&"text": "Dentro de nada era mi operación para volver a la normalidad. Me iban a quitar la ostomía.",
+&"next_id": "55",
+&"text": "Y esa era de mis operaciones más importantes, porque aquello significaba que dentro de nada mi cuerpo volvería a ser, relativamente, normal. Quizás no funcionará como antes, nunca volvería a ser la de antes de todas formas, pero ya no tendría que vivir nunca más con esta bolsa que tantos problemas me ha estado causando.",
 &"type": "dialogue"
 },
 "54": {
 &"id": "54",
-&"next_id": "56",
-&"text": "Y esa era de mis operaciones más importantes, porque aquello significaba que dentro de nada mi cuerpo volvería a ser, relativamente, normal. Quizás no funcionará como antes, nunca volvería a ser la de antes de todas formas, pero ya no tendría que vivir nunca más con esta bolsa que tantos problemas me ha estado causando.",
-&"type": "dialogue"
+&"next_id": "55",
+&"type": ""
 },
 "55": {
 &"id": "55",
 &"next_id": "56",
-&"type": ""
+&"text": "21 de noviembre.",
+&"type": "dialogue"
 },
 "56": {
 &"id": "56",
 &"next_id": "57",
-&"text": "21 de noviembre.",
+&"text": "Ya era el día de mi operación.",
 &"type": "dialogue"
 },
 "57": {
 &"id": "57",
-&"next_id": "58",
-&"text": "Ya era el día de mi operación.",
+&"next_id": "59",
+&"text": "Recuerdo que antes de ingresar hablé con mi madre y mis amigas, quienes sabían de la intervención que tenían que hacerme.",
 &"type": "dialogue"
 },
 "58": {
 &"id": "58",
-&"next_id": "60",
-&"text": "Recuerdo que antes de ingresar hablé con mi madre y mis amigas, quienes sabían de la intervención que tenían que hacerme.",
-&"type": "dialogue"
+&"next_id": "59",
+&"type": ""
 },
 "59": {
 &"id": "59",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "habitacionHospital"
+}, {
+&"i": 38,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
 &"next_id": "60",
-&"type": ""
+&"type": "mutation"
 },
 "6": {
 &"id": "6",
@@ -386,61 +461,77 @@ lines = {
 "60": {
 &"id": "60",
 &"next_id": "61",
-&"text": "*habitación hospital*",
+&"text": "Ya cuando los médicos entraron a la habitación donde estaba, sabía lo que se avecinaba.",
 &"type": "dialogue"
 },
 "61": {
 &"id": "61",
-&"next_id": "62",
-&"text": "Ya cuando los médicos entraron a la habitación donde estaba, sabía lo que se avecinaba.",
+&"next_id": "63",
+&"text": "Era hora.",
 &"type": "dialogue"
 },
 "62": {
 &"id": "62",
-&"next_id": "64",
-&"text": "Era hora.",
-&"type": "dialogue"
+&"next_id": "63",
+&"type": ""
 },
 "63": {
 &"id": "63",
 &"next_id": "64",
-&"type": ""
-},
-"64": {
-&"id": "64",
-&"next_id": "65",
 &"text": "Me cambié, me cogieron la vía y, con el cuerpo lleno de nervios, arrastraron la camilla en la que estaba acostada para, con rapidez, adentrarnos en el quirófano.",
 &"type": "dialogue"
 },
+"64": {
+&"id": "64",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "negro"
+}, {
+&"i": 25,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "65",
+&"type": "mutation"
+},
 "65": {
 &"id": "65",
-&"next_id": "66",
-&"text": "*fondo negro*",
+&"next_id": "67",
+&"text": "Hacía mucho frío, nunca me acostumbraba a aquel sitio, pero sabía que todo iría bien, al fin y al cabo, me operaba mi cirujano favorito.",
 &"type": "dialogue"
 },
 "66": {
 &"id": "66",
-&"next_id": "68",
-&"text": "Hacía mucho frío, nunca me acostumbraba a aquel sitio, pero sabía que todo iría bien, al fin y al cabo, me operaba mi cirujano favorito.",
-&"type": "dialogue"
-},
-"67": {
-&"id": "67",
-&"next_id": "68",
+&"next_id": "67",
 &"type": ""
 },
-"68": {
+"67": {
 &"character": "Felix",
-&"id": "68",
-&"next_id": "69",
+&"id": "67",
+&"next_id": "68",
 &"text": "Holaa, criaturita. ¿Qué tal? ¿Nerviosa?",
 &"type": "dialogue"
 },
-"69": {
+"68": {
 &"character": "Kristine",
+&"id": "68",
+&"next_id": "69",
+&"text": "Un poco, la verdad.",
+&"type": "dialogue"
+},
+"69": {
+&"character": "Felix",
 &"id": "69",
 &"next_id": "70",
-&"text": "Un poco, la verdad.",
+&"text": "No te preocupes. Voy a hacer mi mejor trabajo contigo. Ya dentro de nada irás al baño como antes.",
 &"type": "dialogue"
 },
 "7": {
@@ -449,22 +540,15 @@ lines = {
 &"type": ""
 },
 "70": {
-&"character": "Felix",
+&"character": "Kristine",
 &"id": "70",
 &"next_id": "71",
-&"text": "No te preocupes. Voy a hacer mi mejor trabajo contigo. Ya dentro de nada irás al baño como antes.",
-&"type": "dialogue"
-},
-"71": {
-&"character": "Kristine",
-&"id": "71",
-&"next_id": "72",
 &"text": "Eso espero *risa nerviosa*",
 &"type": "dialogue"
 },
-"72": {
+"71": {
 &"character": "Anestesista",
-&"id": "72",
+&"id": "71",
 &"next_id": "74",
 &"text": "Por supuesto que sí, todo saldrá bien. Ahora necesito que respires profundo y cuentes hasta 10.",
 &"type": "dialogue"
@@ -476,40 +560,19 @@ lines = {
 },
 "74": {
 &"id": "74",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"function": "marcar_punto_decision",
-&"i": 3,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 25,
-&"type": &"string",
-&"value": "decisionQuirofano"
-}, {
-&"i": 44,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
 &"next_id": "75",
-&"type": "mutation"
+&"text": "Aunque sea una pregunta absurda [b]¿qué debería hacer?[/b]:",
+&"type": "dialogue"
 },
 "75": {
 &"id": "75",
 &"next_id": "76",
-&"text": "Aunque sea una pregunta absurda [b]¿qué debería hacer?[/b]:",
-&"type": "dialogue"
-},
-"76": {
-&"id": "76",
-&"next_id": "77",
-&"responses": PackedStringArray("76", "80", "92"),
+&"responses": PackedStringArray("75", "79", "91"),
 &"text": "Hacer caso",
 &"type": "response"
 },
-"77": {
-&"id": "77",
+"76": {
+&"id": "76",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "cargarSiguienteCap",
@@ -526,20 +589,26 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "78",
+&"next_id": "77",
 &"type": "mutation"
 },
-"78": {
-&"id": "78",
+"77": {
+&"id": "77",
 &"is_snippet": false,
 &"next_id": "end",
 &"next_id_after": "",
 &"type": "goto"
 },
+"78": {
+&"id": "78",
+&"next_id": "79",
+&"type": ""
+},
 "79": {
 &"id": "79",
 &"next_id": "80",
-&"type": ""
+&"text": "No hacer caso",
+&"type": "response"
 },
 "8": {
 &"id": "8",
@@ -550,58 +619,52 @@ lines = {
 "80": {
 &"id": "80",
 &"next_id": "81",
-&"text": "No hacer caso",
-&"type": "response"
+&"text": "No, no puedo hacer eso.",
+&"type": "dialogue"
 },
 "81": {
 &"id": "81",
 &"next_id": "82",
-&"text": "No, no puedo hacer eso.",
+&"text": "Después de todo este tiempo preparándome mentalmente y de todo el papeleo que han tenido que hacer mis padres, no puedo simplemente no hacerle caso a los profesionales.",
 &"type": "dialogue"
 },
 "82": {
 &"id": "82",
 &"next_id": "83",
-&"text": "Después de todo este tiempo preparándome mentalmente y de todo el papeleo que han tenido que hacer mis padres, no puedo simplemente no hacerle caso a los profesionales.",
+&"text": "En definitiva, sería una idea pésima.",
 &"type": "dialogue"
 },
 "83": {
 &"id": "83",
-&"next_id": "84",
-&"text": "En definitiva, sería una idea pésima.",
+&"next_id": "85",
+&"text": "Mejor le hago caso. Al fin y al cabo, estaba deseando que llegara este momento.",
 &"type": "dialogue"
 },
 "84": {
 &"id": "84",
-&"next_id": "86",
-&"text": "Mejor le hago caso. Al fin y al cabo, estaba deseando que llegara este momento.",
-&"type": "dialogue"
+&"next_id": "85",
+&"type": ""
 },
 "85": {
 &"id": "85",
 &"next_id": "86",
-&"type": ""
+&"text": "Al final, lentamente y con nervios, comencé a contar.",
+&"type": "dialogue"
 },
 "86": {
 &"id": "86",
 &"next_id": "87",
-&"text": "Al final, lentamente y con nervios, comencé a contar.",
+&"text": "Ya he pasado por este proceso más veces.",
 &"type": "dialogue"
 },
 "87": {
 &"id": "87",
 &"next_id": "88",
-&"text": "Ya he pasado por este proceso más veces.",
+&"text": "Puedo hacerlo.",
 &"type": "dialogue"
 },
 "88": {
 &"id": "88",
-&"next_id": "89",
-&"text": "Puedo hacerlo.",
-&"type": "dialogue"
-},
-"89": {
-&"id": "89",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "cargarSiguienteCap",
@@ -618,8 +681,15 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "90",
+&"next_id": "89",
 &"type": "mutation"
+},
+"89": {
+&"id": "89",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
 },
 "9": {
 &"id": "9",
@@ -629,68 +699,67 @@ lines = {
 },
 "90": {
 &"id": "90",
-&"is_snippet": false,
-&"next_id": "end",
-&"next_id_after": "",
-&"type": "goto"
+&"next_id": "91",
+&"type": ""
 },
 "91": {
 &"id": "91",
 &"next_id": "92",
-&"type": ""
+&"text": "Irte",
+&"type": "response"
 },
 "92": {
 &"id": "92",
 &"next_id": "93",
-&"text": "Irte",
-&"type": "response"
+&"text": "Sin decir nada, me quité el aparato que me pusieron en el rostro para dormirme, de un tirón me quité también la vía y, sin importarme lo que pudieran decir los médicos o lo que pudiera pasar, me fui del quirófano.",
+&"type": "dialogue"
 },
 "93": {
 &"id": "93",
 &"next_id": "94",
-&"text": "Sin decir nada, me quité el aparato que me pusieron en el rostro para dormirme, de un tirón me quité también la vía y, sin importarme lo que pudieran decir los médicos o lo que pudiera pasar, me fui del quirófano.",
+&"text": "Corrí.",
 &"type": "dialogue"
 },
 "94": {
 &"id": "94",
 &"next_id": "95",
-&"text": "Corrí.",
+&"text": "No sabía porqué, pero corrí por mi vida, pero se me olvidó un detalle.",
 &"type": "dialogue"
 },
 "95": {
 &"id": "95",
 &"next_id": "96",
-&"text": "No sabía porqué, pero corrí por mi vida, pero se me olvidó un detalle.",
+&"text": "Iba descalza y vestía una única camisa del hospital, la típica que llevan los pacientes a quienes van a operar que se debe anudar por detrás.",
 &"type": "dialogue"
 },
 "96": {
 &"id": "96",
 &"next_id": "97",
-&"text": "Iba descalza y vestía una única camisa del hospital, la típica que llevan los pacientes a quienes van a operar que se debe anudar por detrás.",
+&"text": "La cosa es que, al no llevar zapatos ni nada que pudiera cubrir mis pies, bajando por las escaleras tropecé con lo que parecía ser una cáscara de plátano [wave](¿quién dejaría eso en el suelo de un hospital?)[wave]",
 &"type": "dialogue"
 },
 "97": {
 &"id": "97",
 &"next_id": "98",
-&"text": "La cosa es que, al no llevar zapatos ni nada que pudiera cubrir mis pies, bajando por las escaleras tropecé con lo que parecía ser una cáscara de plátano [wave](¿quién dejaría eso en el suelo de un hospital?)[wave]",
+&"text": "Y me caí. De tal forma en la que, no sé cómo, perdí la consciencia.",
 &"type": "dialogue"
 },
 "98": {
 &"id": "98",
 &"next_id": "99",
-&"text": "Y me caí. De tal forma en la que, no sé cómo, perdí la consciencia.",
+&"text": "Durante minutos vi negro. Horas, creo.",
 &"type": "dialogue"
 },
 "99": {
 &"id": "99",
 &"next_id": "100",
-&"text": "Durante minutos vi negro. Horas, creo.",
+&"text": "No podía mover mi cuerpo, no podía hacer nada.",
 &"type": "dialogue"
 }
 }
 raw_text = "~ start
 
-[bg habitacion]
+do set_background(\"habitacion1\")
 Un día como otro cualquiera me preparé para ir a clases.
 Desde hace tiempo deseaba que llegara este momento; estudiar algo que realmente quería.
 
@@ -704,8 +773,7 @@ Bueno, no daré detalles. La cosa es que me operaron y ahora debo vivir un poco 
 En fin, ese no era el punto.
 La cosa es que ahora me dirijo a unas de mis tantas clases como estudiante de DAM, por fin.
 
-
-*fondo de clase*
+do set_background(\"clase\")
 Era ya la hora del recreo cuando, de repente, me fijo en que tengo una nueva notificación. Vaya, ¿quién será? Espera, ¿un desconocido?, ¿por qué me habla?, ¿querrá algo? 
 ¿Quizás me ha confundido con otra persona?
 
@@ -736,10 +804,10 @@ Después de haberme dado cuenta, no puedo simplemente dejarlo en visto
 *mostrar mensaje*
 [i]No pasa nada, igual que te vaya bien a ti también
 
-*fondo de clase*
+do set_background(\"clase\")
 Después de aquella pequeña conversación que tuve con un chico desconocido que ni siquiera estaba en mi clase, pero sí, al parecer, en mi curso, el resto de mi día fue normal. Sin embargo, aunque parecía que él me conocía, yo no sabía cómo se suponía que era él, y admito que eso provocó que estuviera absorta pensando en ello y en cómo había conseguido contactarme, pero debía seguir con mis tareas.
 
-*fondo negro*
+do set_background(\"negro\")
 Conforme pasaban los días mis nervios crecían más y más.
 Dentro de nada era mi operación para volver a la normalidad. Me iban a quitar la ostomía.
 Y esa era de mis operaciones más importantes, porque aquello significaba que dentro de nada mi cuerpo volvería a ser, relativamente, normal. Quizás no funcionará como antes, nunca volvería a ser la de antes de todas formas, pero ya no tendría que vivir nunca más con esta bolsa que tantos problemas me ha estado causando.
@@ -748,12 +816,12 @@ Y esa era de mis operaciones más importantes, porque aquello significaba que de
 Ya era el día de mi operación.
 Recuerdo que antes de ingresar hablé con mi madre y mis amigas, quienes sabían de la intervención que tenían que hacerme.
 
-*habitación hospital*
+do set_background(\"habitacionHospital\")
 Ya cuando los médicos entraron a la habitación donde estaba, sabía lo que se avecinaba.
 Era hora.
 
 Me cambié, me cogieron la vía y, con el cuerpo lleno de nervios, arrastraron la camilla en la que estaba acostada para, con rapidez, adentrarnos en el quirófano. 
-*fondo negro*
+do set_background(\"negro\")
 Hacía mucho frío, nunca me acostumbraba a aquel sitio, pero sabía que todo iría bien, al fin y al cabo, me operaba mi cirujano favorito.
 
 Felix: Holaa, criaturita. ¿Qué tal? ¿Nerviosa?
@@ -762,7 +830,7 @@ Felix: No te preocupes. Voy a hacer mi mejor trabajo contigo. Ya dentro de nada 
 Kristine: Eso espero *risa nerviosa*
 Anestesista: Por supuesto que sí, todo saldrá bien. Ahora necesito que respires profundo y cuentes hasta 10.
 
-do marcar_punto_decision(\"decisionQuirofano\")
+#do marcar_punto_decision(\"decisionQuirofano\")
 Aunque sea una pregunta absurda [b]¿qué debería hacer?[/b]:
 - Hacer caso
 	do cargarSiguienteCap(\"escenaHospi\")

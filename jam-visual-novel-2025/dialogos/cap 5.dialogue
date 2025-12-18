@@ -40,7 +40,7 @@ Mateo: Está bien, lo siento. No te preocupes.
 
 Después de aquella interacción y el momento algo extraño para mí, nos despedimos y entré en mi casa.
 
-*fondo habitación*
+do set_background("habitacionNoche")
 No podía creer lo que había pasado, lo que había hecho, ni lo que él había dicho.
 Preguntó si me podía besar. Y lo hizo con una cara tan… Tierna.
 Su mirada tenía un brillo que nunca olvidaré.
@@ -53,6 +53,7 @@ Sea lo que sea, hizo caso a lo que le dije.
 
 Antes de la carta, le puse una nota en donde especificaba claramente que no me dijera nada hasta que nos viéramos y estuviéramos solos; únicamente él y yo.
 
+do set_background("negro")
 Pasaron 2 días, que parecían eternos, después de aquello.
 
 Justamente ayer al terminar el examen, Mateo me preguntó si podía quedar el 16. Sin pensarlo le dije que sí. Y a qué precio.
@@ -64,6 +65,7 @@ Simplemente, ese momento que creía perfecto para cuando estuviera dispuesta a h
 
 Y, sin darme cuenta de cuán rápido pasó ese lapso de tiempo, que creía más largo, llegó la hora.
 
+do set_background("habitacionAtardecer")
 18:00.
 
 Él ya estaba esperándome abajo.
@@ -73,13 +75,13 @@ Si hablamos sentimentalmente, no lo estaba. Nunca lo estaría sabiendo lo que de
 
 16 de febrero…
 
-*fondo de calle invierno*
+#*fondo de calle invierno*
 Al salir, noté el frío que hacía y lo vi, esperando.
 En cuanto me miró, dejó escapar una sonrisa.
 
 Por suerte para mí, lo primero que hicimos aquel día fue ir a la cafetería en la que solíamos estar. Ya era costumbre ir ahí.
 
-*fondo de cafetería*
+#*fondo de cafetería*
 Mientras tomaba mi querido capuccino para entrar en calor e intentar disminuir los nervios, él hablaba de su familia, cosas que le pasaron a algunos compañeros de su clase y otros temas.
 
 Intentaba mirarlo, juro que intenté verlo a los ojos, pero simplemente no podía. Era incapaz sabiendo que él ya había leído mi carta. 
@@ -90,7 +92,7 @@ Definitivamente, era masoquista.
 No podía quejarme, no siendo consciente de que fui yo misma la que le dijo que no me contara nada sobre la carta ni lo que ponía ahí hasta que estuviéramos a solas. Y yo no sabía cómo sacar el tema.
 Supongo que, si no lo hacía yo, lo haría él. Tarde o temprano.
 
-*fondo de parque, noche, invierno*
+#*fondo de parque, noche, invierno*
 Después de unas horas, llegamos al parque, aquel al que solíamos ir.
 
 Ya había anochecido, a pesar de que eran las 20:00 aproximadamente, y hacía frío. Mucho frío. 
@@ -167,7 +169,7 @@ Esa fue otra mini bomba para mi corazón. ¿Cómo era capaz de decir ese tipo de
 
 Lo miré, pensando que lo decía de broma, pero con su mirada supe que no. No mentía, al igual que yo no mentí en la carta, él no mentía en su confesión ni en lo que acababa de decir.
 
-*fondo negro*
+do set_background("negro")
 Así fue como logré darle la carta en la que confesaba lo que sentía al chico que me gustaba y, dos días después, conseguí estar con él como pareja. Aquello se hizo oficial.
 Mentiría si dijera que era el mejor día de mi vida, ya que ese fue cuando me quitaron la ostomía. Pero, si no era el primero, era de los primeros mejores días que he podido tener.
 

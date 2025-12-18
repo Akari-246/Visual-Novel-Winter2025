@@ -11,12 +11,16 @@ extends Node2D
 @onready var characters_container: Node2D = $Character
 @onready var boton_skip: Button = $SkipBtn 
 
-# ====== Recursos de fondos ======
+# ====== recursos de fondos ======
 var backgrounds = {
-	"habitacion": "",
-	"clase": "",
-	"habitacion_hospital": "",
-	"negro": ""
+	"habitacion1": "res://assets/imagenes/fondos/habitacion1.jpeg",
+	"habitacionMasOscura": "res://assets/imagenes/fondos/habitacion2.jpeg",
+	"habitacionAtardecer": "res://assets/imagenes/fondos/habitacion atardecer.jpeg",
+	"habitacionNoche": "res://assets/imagenes/fondos/habitacion noche.jpeg",
+	"clase": "res://assets/imagenes/fondos/clase.jpeg",
+	"habitacionHospital": "res://assets/imagenes/fondos/habitacion hospi.jpeg",
+	"negro": "res://assets/imagenes/fondos/fondo negro.jpg",
+	"parque": "res://assets/imagenes/fondos/parque.jpeg"
 }
 
 var bad_ending = false
@@ -31,7 +35,6 @@ func _ready():
 	DialogueManager.dialogue_ended.connect(_on_dialogue_ended)
 	close_button.pressed.connect(_on_close_info_panel)
 	SistemaPuntos.maxPuntosNegativos.connect(inicioMaxNegativos)
-
 	
 	# Ocultar elementos al inicio
 	discord_screen.visible = false
