@@ -1,19 +1,19 @@
 ~ start
 
-*fondo habitación*
+do set_background("habitacion1")
 Dejé el móvil, realmente necesitaba concentrarme para terminar algunas tareas.
 
-*fondo habitación de noche*
+do set_background("habitacionNoche")
 Llegó la noche y, como mañana de nuevo tenía clase, me dormí.
 Al despertar me sorprendí al leer algo que no esperaba para nada.
 
-*encima de habitación coso móvil con mensajes*
+#*encima de habitación coso móvil con mensajes*
 [i]Cierto, como tema aparte te quería comentar algo.
 [i]No quiero abrumarte con este mensaje, quería agradecerte el permitirme hablar contigo y conocerte, aunque no sea en persona por los horarios de clase y tal. Aprecio mucho eso y me pareces alguien genial e intuyo con un gran corazón, y sí, aún con lo poco que hemos hablado me da esa sensación.
 [i]Me pareces y transmites ser así y si me permites saber más de ti aún siendo por aquí, sin agobiarte, lo agradecería mucho. Que no te extrañen estas palabras. Te las mereces y quería compartir lo que opino de ti con este gran mensaje del momento JAAJAKA 
 [i]Y si al menos consiguen alegrarte el día o animarte, habré cumplido con mi propósito. Disculpa por la longitud. No estoy acostumbrado a ganar confianza tan rápido con alguien y sé que puede abrumar verlo al momento
 
-*fondo habitación*
+do set_background("habitacion1")
 Sonreí como una tonta.
 Iba a responderle, pero me di cuenta que se me hizo tarde para ir a clase.
 
@@ -50,27 +50,27 @@ Pasaron las horas y con ello llegó la hora de ir a casa. Debido a que tenía un
 	=> sigue
 
 ~ sigue
-*fondo habitación*
+do set_background("habitacion1")
 En fin, después de aquello, seguimos hablando. De cualquier cosa en verdad, sobre el curso, aficiones… Inclusive si decía algún comentario sobre si se me complicaba algo de una asignatura, él me explicaba lo que fuera necesario. 
 
-*fondo habitación, pero anochecer*
+do set_background("habitacionNoche")
 De hecho, un día de diciembre, después de comentarle que llevaba muy mal una asignatura; Entornos de desarrollo, a las 00:00, me fui a dormir. 
 
-*fondo habitación de día*
+do set_background("habitacion1")
 Al despertar, miré el móvil como de costumbre, pero me sorprendí mucho al ver que él, a las 6:48 de la mañana, me respondió y, por si fueran poco los consejos que anteriormente me dio y los enlaces que me pasó para ayudarme, me mandó un archivo word hecho por él, el cual estaba lleno de explicaciones y ejemplos sobre lo que no entendía. Lo había hecho de madrugada. Por mí. Para ayudarme a mí. 
 Enseguida le di las gracias por lo que había hecho. Al fin y al cabo, aquellos apuntes eran justo lo que necesitaba para llevar mejor el examen, pero una cuestión rondaba mi mente. ¿Por qué lo hacía?
 Aunque agradecía enormemente el gesto que había tenido conmigo y seguía teniendo cada día al interesarse por mí, preguntarme y ayudarme con las asignaturas o problemas con tareas que hacía, aún cuando ni nos conocíamos de vista, no dejaba de pensar en la razón por la que hacía todo aquello.
 Sin darme cuenta, aquel extraño que poco a poco dejaba de serlo, ocupaba varios de mis pensamientos al día. Sin duda alguna, necesitaba conocerlo y agradecerle.
 Y eso no tardaría mucho en ocurrir.
 
-*fondo calle*
+do set_background("negro")
 13 de diciembre. 
 Ya casi era invierno y quedaba poco para las vacaciones de Navidad. Aquello era algo que me encantaba y me desagradaba al mismo tiempo.
 
-*fondo clase*
+do set_background("clase")
 Estaba pensando bastante, demasiado si soy sincera, por su culpa.
 
-*encima del fondo mostrar pc y mensajes*
+#*encima del fondo mostrar pc y mensajes*
 [i]Hoy salgo 1 hora antes, pero me quedo en clase para esperarte luego ^^
 [i]Si quieres, claro
 
@@ -98,7 +98,7 @@ Estaba pensando bastante, demasiado si soy sincera, por su culpa.
 	=> seSalta
 
 ~ siguee
-*fondo clase*
+do set_background("clase")
 No voy a mentirte.
 Estoy muy inquieta. Mi mente no deja de darle vueltas a lo mismo.
 Voy a verlo.
@@ -110,7 +110,7 @@ No sé si me arrepiento, si estoy impaciente o, en parte, ambas.
 Al final el profesor terminó con su explicación y, dado que ya eran las 14:30, la clase terminó.
 Todos comenzaron a recoger sus cosas, incluida yo, pero, a diferencia del resto, lo hacía más lento. Necesitaba tomarme mi tiempo para asimilar que iba a tener que socializar un poco más.
 
-*fondo calle*
+#*fondo calle*
 Casi 10 minutos después salí del centro y lo encontré ahí.
 Tal y como dijo antes, estaba esperándome casi en la entrada.
 Al verme, me saludó.
@@ -213,7 +213,7 @@ Opción 2: Mentir → Kristine dice que está libre, lo cual es mentira y Mateo 
 Un rato después vi una notificación que tenía nueva de hace unas horas.
 Me entretuve bastante estudiando.
 
-*en móvil*
+#*en móvil*
 [i]Me ha gustado hablar contigo
 [i]No te he querido entretener mucho para que puedas estudiar tranquila y por eso me he despedido al llegar a tu casa ^^ 
 [i]y oye, si quieres mañana te espero también, si te parece bien y si tienes tiempo claro ^^ 
@@ -229,17 +229,17 @@ Sin dudarlo, le respondí.
 
 [i]Te iba a escuchar sí o sí, ya que aparte del tema y la importancia del mismo en sí, me pareces una persona increíble y me siento muy cómodo contigo, la verdad. Espero transmitir lo mismo, me gusta tu forma de pensar y quién eres como persona, técnicamente eres genial en resumidas cuentas y agradezco la confianza que me das para contarme las cosas aún conociéndonos poco ^^ 
 
-*fondo habitación*
+do set_background("habitacion1")
 No entiendo cómo se podía ser tan tierno, pero no podía distraerme más.
 ~ seSalta
 Seguí estudiando y haciendo ejercicios el resto del día para aprenderme bien los conceptos y hacer bien el examen que tenía al día siguiente.
 Pareció que así fue.
 
-*En clase*
+do set_background("clase")
 Hice el examen tranquila.
 No sentía que me había salido tan mal como esperaba, por lo que salí de clase contenta.
 
-*fondo calle*
+#*fondo calle*
 En cuanto estuve fuera del centro, vi a alguien que se me hacia conocido.
 ¿Era él?
 Me estaba esperando.
@@ -264,16 +264,15 @@ Kristine: Claro.
 Sacó su móvil y le dí mi número.
 No quería que estuviera mal, por lo que me aseguré de que lo apuntó correctamente y luego lo guardó. 
 
-*fondo casa*
+do set_background("habitacion1")
 Justamente al llegar a mi casa recibí una notificación:
 
-*movil ya como si fuera whatsapp*
+#*movil ya como si fuera whatsapp*
 [i]Holaaaa soy Mateo
 
-*casa*
 Al verlo, por alguna razón, sonreí al instante. Y le respondí, por supuesto, al mensaje.
 
-*fondo negro*
+do set_background("negro")
 Desde ese día hablábamos bastante.
 
 En Navidad, aunque no lo pasé tan bien como esperé, pude quedar con mi mejor amiga y con él. No creí que después de haberlo pasado tan mal en ese invierno, llegaría un descanso.
@@ -285,7 +284,7 @@ Esas vacaciones de invierno me sirvieron para dos cosas o bueno, tres; despejarm
 Sin darme cuenta del paso del tiempo, ya casi era mi cumpleaños; 24 de enero.
 No obstante, no esperaba lo que sucedería después.
 
-*fondo casa/habitacion*
+do set_background("habitacion1")
 Mi cumpleaños fue bien, Mateo me felicitó justo a las 00:00 y el resto del día fue normal. 
 El 25 de enero tenía un examen, por lo que estuve estudiando en mi cumple. 
 
@@ -295,7 +294,7 @@ Debía hacer y aprobar ese examen.
 
 Me levanté de la cama y, una vez lista, me dirigí a clases con los apuntes en mano.
 
-*fondo clase*
+do set_background("clase")
 Mientras hacía el examen, comencé a notar algunos mareos, pero no le di importancia. Lo que no sabía era que aquello sería la peor decisión que tomaría.
 
 Empiezo a encontrarme muy rara...

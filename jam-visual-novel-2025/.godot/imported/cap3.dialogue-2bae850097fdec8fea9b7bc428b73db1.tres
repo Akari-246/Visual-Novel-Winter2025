@@ -34,9 +34,24 @@ lines = {
 },
 "100": {
 &"id": "100",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "clase"
+}, {
+&"i": 25,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
 &"next_id": "101",
-&"text": "*fondo clase*",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "101": {
 &"id": "101",
@@ -98,20 +113,14 @@ lines = {
 },
 "110": {
 &"id": "110",
-&"next_id": "112",
+&"next_id": "113",
 &"text": "Todos comenzaron a recoger sus cosas, incluida yo, pero, a diferencia del resto, lo hacía más lento. Necesitaba tomarme mi tiempo para asimilar que iba a tener que socializar un poco más.",
 &"type": "dialogue"
-},
-"111": {
-&"id": "111",
-&"next_id": "112",
-&"type": ""
 },
 "112": {
 &"id": "112",
 &"next_id": "113",
-&"text": "*fondo calle*",
-&"type": "dialogue"
+&"type": ""
 },
 "113": {
 &"id": "113",
@@ -362,9 +371,24 @@ lines = {
 },
 "15": {
 &"id": "15",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "habitacion1"
+}, {
+&"i": 31,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
 &"next_id": "16",
-&"text": "*fondo habitación*",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "150": {
 &"id": "150",
@@ -784,9 +808,24 @@ lines = {
 },
 "2": {
 &"id": "2",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "habitacion1"
+}, {
+&"i": 31,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
 &"next_id": "3",
-&"text": "*fondo habitación*",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "20": {
 &"id": "20",
@@ -880,20 +919,14 @@ lines = {
 },
 "213": {
 &"id": "213",
-&"next_id": "215",
+&"next_id": "216",
 &"text": "Me entretuve bastante estudiando.",
 &"type": "dialogue"
-},
-"214": {
-&"id": "214",
-&"next_id": "215",
-&"type": ""
 },
 "215": {
 &"id": "215",
 &"next_id": "216",
-&"text": "*en móvil*",
-&"type": "dialogue"
+&"type": ""
 },
 "216": {
 &"id": "216",
@@ -995,9 +1028,24 @@ lines = {
 },
 "231": {
 &"id": "231",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "habitacion1"
+}, {
+&"i": 31,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
 &"next_id": "232",
-&"text": "*fondo habitación*",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "232": {
 &"id": "232",
@@ -1029,9 +1077,24 @@ lines = {
 },
 "237": {
 &"id": "237",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "clase"
+}, {
+&"i": 25,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
 &"next_id": "238",
-&"text": "*En clase*",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "238": {
 &"id": "238",
@@ -1041,7 +1104,7 @@ lines = {
 },
 "239": {
 &"id": "239",
-&"next_id": "241",
+&"next_id": "242",
 &"text": "No sentía que me había salido tan mal como esperaba, por lo que salí de clase contenta.",
 &"type": "dialogue"
 },
@@ -1051,16 +1114,10 @@ lines = {
 &"text": "[i]No te preocupes y muchas gracias por  tus palabras ^^",
 &"type": "dialogue"
 },
-"240": {
-&"id": "240",
-&"next_id": "241",
-&"type": ""
-},
 "241": {
 &"id": "241",
 &"next_id": "242",
-&"text": "*fondo calle*",
-&"type": "dialogue"
+&"type": ""
 },
 "242": {
 &"id": "242",
@@ -1217,26 +1274,35 @@ lines = {
 },
 "266": {
 &"id": "266",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "habitacion1"
+}, {
+&"i": 31,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
 &"next_id": "267",
-&"text": "*fondo casa*",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "267": {
 &"id": "267",
-&"next_id": "269",
+&"next_id": "270",
 &"text": "Justamente al llegar a mi casa recibí una notificación:",
 &"type": "dialogue"
-},
-"268": {
-&"id": "268",
-&"next_id": "269",
-&"type": ""
 },
 "269": {
 &"id": "269",
 &"next_id": "270",
-&"text": "*movil ya como si fuera whatsapp*",
-&"type": "dialogue"
+&"type": ""
 },
 "27": {
 &"id": "27",
@@ -1257,48 +1323,63 @@ lines = {
 },
 "272": {
 &"id": "272",
-&"next_id": "273",
-&"text": "*casa*",
+&"next_id": "274",
+&"text": "Al verlo, por alguna razón, sonreí al instante. Y le respondí, por supuesto, al mensaje.",
 &"type": "dialogue"
 },
 "273": {
 &"id": "273",
-&"next_id": "275",
-&"text": "Al verlo, por alguna razón, sonreí al instante. Y le respondí, por supuesto, al mensaje.",
-&"type": "dialogue"
+&"next_id": "274",
+&"type": ""
 },
 "274": {
 &"id": "274",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "negro"
+}, {
+&"i": 25,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
 &"next_id": "275",
-&"type": ""
+&"type": "mutation"
 },
 "275": {
 &"id": "275",
-&"next_id": "276",
-&"text": "*fondo negro*",
+&"next_id": "277",
+&"text": "Desde ese día hablábamos bastante.",
 &"type": "dialogue"
 },
 "276": {
 &"id": "276",
-&"next_id": "278",
-&"text": "Desde ese día hablábamos bastante.",
-&"type": "dialogue"
+&"next_id": "277",
+&"type": ""
 },
 "277": {
 &"id": "277",
 &"next_id": "278",
-&"type": ""
+&"text": "En Navidad, aunque no lo pasé tan bien como esperé, pude quedar con mi mejor amiga y con él. No creí que después de haberlo pasado tan mal en ese invierno, llegaría un descanso.",
+&"type": "dialogue"
 },
 "278": {
 &"id": "278",
 &"next_id": "279",
-&"text": "En Navidad, aunque no lo pasé tan bien como esperé, pude quedar con mi mejor amiga y con él. No creí que después de haberlo pasado tan mal en ese invierno, llegaría un descanso.",
+&"text": "*de negro a azul claro o algo por el estilo(?/rosa(?*",
 &"type": "dialogue"
 },
 "279": {
 &"id": "279",
-&"next_id": "280",
-&"text": "*de negro a azul claro o algo por el estilo(?/rosa(?*",
+&"next_id": "281",
+&"text": "En parte, esa luz empezó a llegar gracias a él, Mateo, quien me alegraba algunos días; a veces con bromas, a veces con algún vídeo que me mandaba y otras veces porque simplemente me contaba cosas que no sabía sobre él.",
 &"type": "dialogue"
 },
 "28": {
@@ -1335,60 +1416,74 @@ lines = {
 },
 "280": {
 &"id": "280",
-&"next_id": "282",
-&"text": "En parte, esa luz empezó a llegar gracias a él, Mateo, quien me alegraba algunos días; a veces con bromas, a veces con algún vídeo que me mandaba y otras veces porque simplemente me contaba cosas que no sabía sobre él.",
-&"type": "dialogue"
+&"next_id": "281",
+&"type": ""
 },
 "281": {
 &"id": "281",
-&"next_id": "282",
-&"type": ""
+&"next_id": "283",
+&"text": "Esas vacaciones de invierno me sirvieron para dos cosas o bueno, tres; despejarme, aprender y adelantar algunos trabajos y también para conocer mejor a Mateo, quien, con rapidez, se convirtió en un gran amigo para mí.",
+&"type": "dialogue"
 },
 "282": {
 &"id": "282",
-&"next_id": "284",
-&"text": "Esas vacaciones de invierno me sirvieron para dos cosas o bueno, tres; despejarme, aprender y adelantar algunos trabajos y también para conocer mejor a Mateo, quien, con rapidez, se convirtió en un gran amigo para mí.",
-&"type": "dialogue"
+&"next_id": "283",
+&"type": ""
 },
 "283": {
 &"id": "283",
 &"next_id": "284",
-&"type": ""
+&"text": "Sin darme cuenta del paso del tiempo, ya casi era mi cumpleaños; 24 de enero.",
+&"type": "dialogue"
 },
 "284": {
 &"id": "284",
-&"next_id": "285",
-&"text": "Sin darme cuenta del paso del tiempo, ya casi era mi cumpleaños; 24 de enero.",
+&"next_id": "286",
+&"text": "No obstante, no esperaba lo que sucedería después.",
 &"type": "dialogue"
 },
 "285": {
 &"id": "285",
-&"next_id": "287",
-&"text": "No obstante, no esperaba lo que sucedería después.",
-&"type": "dialogue"
+&"next_id": "286",
+&"type": ""
 },
 "286": {
 &"id": "286",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "habitacion1"
+}, {
+&"i": 31,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
 &"next_id": "287",
-&"type": ""
+&"type": "mutation"
 },
 "287": {
 &"id": "287",
 &"next_id": "288",
-&"text": "*fondo casa/habitacion*",
+&"text": "Mi cumpleaños fue bien, Mateo me felicitó justo a las 00:00 y el resto del día fue normal.",
 &"type": "dialogue"
 },
 "288": {
 &"id": "288",
-&"next_id": "289",
-&"text": "Mi cumpleaños fue bien, Mateo me felicitó justo a las 00:00 y el resto del día fue normal.",
+&"next_id": "290",
+&"text": "El 25 de enero tenía un examen, por lo que estuve estudiando en mi cumple.",
 &"type": "dialogue"
 },
 "289": {
 &"id": "289",
-&"next_id": "291",
-&"text": "El 25 de enero tenía un examen, por lo que estuve estudiando en mi cumple.",
-&"type": "dialogue"
+&"next_id": "290",
+&"type": ""
 },
 "29": {
 &"id": "29",
@@ -1399,58 +1494,74 @@ lines = {
 "290": {
 &"id": "290",
 &"next_id": "291",
-&"type": ""
+&"text": "Aquel día me desperté rara, pero no era una excusa para faltar, claro que no, tenía un examen importante de programación que hacer.",
+&"type": "dialogue"
 },
 "291": {
 &"id": "291",
 &"next_id": "292",
-&"text": "Aquel día me desperté rara, pero no era una excusa para faltar, claro que no, tenía un examen importante de programación que hacer.",
+&"text": "Si algo aprendí de bachillerato, era que, pasara lo que pasara, no podías faltar a los exámenes. Tenías que hacerlo sí o sí, así que no ir a clase no era una opción.",
 &"type": "dialogue"
 },
 "292": {
 &"id": "292",
-&"next_id": "293",
-&"text": "Si algo aprendí de bachillerato, era que, pasara lo que pasara, no podías faltar a los exámenes. Tenías que hacerlo sí o sí, así que no ir a clase no era una opción.",
+&"next_id": "294",
+&"text": "Debía hacer y aprobar ese examen.",
 &"type": "dialogue"
 },
 "293": {
 &"id": "293",
-&"next_id": "295",
-&"text": "Debía hacer y aprobar ese examen.",
-&"type": "dialogue"
+&"next_id": "294",
+&"type": ""
 },
 "294": {
 &"id": "294",
-&"next_id": "295",
-&"type": ""
-},
-"295": {
-&"id": "295",
-&"next_id": "297",
+&"next_id": "296",
 &"text": "Me levanté de la cama y, una vez lista, me dirigí a clases con los apuntes en mano.",
 &"type": "dialogue"
 },
+"295": {
+&"id": "295",
+&"next_id": "296",
+&"type": ""
+},
 "296": {
 &"id": "296",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "clase"
+}, {
+&"i": 25,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
 &"next_id": "297",
-&"type": ""
+&"type": "mutation"
 },
 "297": {
 &"id": "297",
-&"next_id": "298",
-&"text": "*fondo clase*",
+&"next_id": "299",
+&"text": "Mientras hacía el examen, comencé a notar algunos mareos, pero no le di importancia. Lo que no sabía era que aquello sería la peor decisión que tomaría.",
 &"type": "dialogue"
 },
 "298": {
 &"id": "298",
-&"next_id": "300",
-&"text": "Mientras hacía el examen, comencé a notar algunos mareos, pero no le di importancia. Lo que no sabía era que aquello sería la peor decisión que tomaría.",
-&"type": "dialogue"
+&"next_id": "299",
+&"type": ""
 },
 "299": {
 &"id": "299",
-&"next_id": "300",
-&"type": ""
+&"next_id": "301",
+&"text": "Empiezo a encontrarme muy rara...",
+&"type": "dialogue"
 },
 "3": {
 &"id": "3",
@@ -1466,24 +1577,18 @@ lines = {
 },
 "300": {
 &"id": "300",
-&"next_id": "302",
-&"text": "Empiezo a encontrarme muy rara...",
-&"type": "dialogue"
+&"next_id": "301",
+&"type": ""
 },
 "301": {
 &"id": "301",
-&"next_id": "302",
-&"type": ""
-},
-"302": {
-&"id": "302",
 &"is_snippet": false,
 &"next_id": "end",
 &"next_id_after": "",
 &"type": "goto"
 },
-"303": {
-&"id": "303",
+"302": {
+&"id": "302",
 &"is_snippet": false,
 &"next_id": "end",
 &"next_id_after": "",
@@ -1663,9 +1768,24 @@ lines = {
 },
 "5": {
 &"id": "5",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "habitacionNoche"
+}, {
+&"i": 35,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
 &"next_id": "6",
-&"text": "*fondo habitación de noche*",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "50": {
 &"id": "50",
@@ -1679,9 +1799,24 @@ lines = {
 },
 "52": {
 &"id": "52",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "habitacion1"
+}, {
+&"i": 31,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
 &"next_id": "53",
-&"text": "*fondo habitación*",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "53": {
 &"id": "53",
@@ -1696,9 +1831,24 @@ lines = {
 },
 "55": {
 &"id": "55",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "habitacionNoche"
+}, {
+&"i": 35,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
 &"next_id": "56",
-&"text": "*fondo habitación, pero anochecer*",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "56": {
 &"id": "56",
@@ -1713,9 +1863,24 @@ lines = {
 },
 "58": {
 &"id": "58",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "habitacion1"
+}, {
+&"i": 31,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
 &"next_id": "59",
-&"text": "*fondo habitación de día*",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "59": {
 &"id": "59",
@@ -1760,9 +1925,24 @@ lines = {
 },
 "65": {
 &"id": "65",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "negro"
+}, {
+&"i": 25,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
 &"next_id": "66",
-&"text": "*fondo calle*",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "66": {
 &"id": "66",
@@ -1783,32 +1963,41 @@ lines = {
 },
 "69": {
 &"id": "69",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "clase"
+}, {
+&"i": 25,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
 &"next_id": "70",
-&"text": "*fondo clase*",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "7": {
 &"id": "7",
-&"next_id": "9",
+&"next_id": "10",
 &"text": "Al despertar me sorprendí al leer algo que no esperaba para nada.",
 &"type": "dialogue"
 },
 "70": {
 &"id": "70",
-&"next_id": "72",
+&"next_id": "73",
 &"text": "Estaba pensando bastante, demasiado si soy sincera, por su culpa.",
 &"type": "dialogue"
-},
-"71": {
-&"id": "71",
-&"next_id": "72",
-&"type": ""
 },
 "72": {
 &"id": "72",
 &"next_id": "73",
-&"text": "*encima del fondo mostrar pc y mensajes*",
-&"type": "dialogue"
+&"type": ""
 },
 "73": {
 &"id": "73",
@@ -1877,11 +2066,6 @@ lines = {
 &"next_id": "80",
 &"text": "[i]Vale ^^",
 &"type": "dialogue"
-},
-"8": {
-&"id": "8",
-&"next_id": "9",
-&"type": ""
 },
 "80": {
 &"id": "80",
@@ -1998,8 +2182,7 @@ lines = {
 "9": {
 &"id": "9",
 &"next_id": "10",
-&"text": "*encima de habitación coso móvil con mensajes*",
-&"type": "dialogue"
+&"type": ""
 },
 "90": {
 &"id": "90",
@@ -2089,20 +2272,20 @@ lines = {
 }
 raw_text = "~ start
 
-*fondo habitación*
+do set_background(\"habitacion1\")
 Dejé el móvil, realmente necesitaba concentrarme para terminar algunas tareas.
 
-*fondo habitación de noche*
+do set_background(\"habitacionNoche\")
 Llegó la noche y, como mañana de nuevo tenía clase, me dormí.
 Al despertar me sorprendí al leer algo que no esperaba para nada.
 
-*encima de habitación coso móvil con mensajes*
+#*encima de habitación coso móvil con mensajes*
 [i]Cierto, como tema aparte te quería comentar algo.
 [i]No quiero abrumarte con este mensaje, quería agradecerte el permitirme hablar contigo y conocerte, aunque no sea en persona por los horarios de clase y tal. Aprecio mucho eso y me pareces alguien genial e intuyo con un gran corazón, y sí, aún con lo poco que hemos hablado me da esa sensación.
 [i]Me pareces y transmites ser así y si me permites saber más de ti aún siendo por aquí, sin agobiarte, lo agradecería mucho. Que no te extrañen estas palabras. Te las mereces y quería compartir lo que opino de ti con este gran mensaje del momento JAAJAKA 
 [i]Y si al menos consiguen alegrarte el día o animarte, habré cumplido con mi propósito. Disculpa por la longitud. No estoy acostumbrado a ganar confianza tan rápido con alguien y sé que puede abrumar verlo al momento
 
-*fondo habitación*
+do set_background(\"habitacion1\")
 Sonreí como una tonta.
 Iba a responderle, pero me di cuenta que se me hizo tarde para ir a clase.
 
@@ -2139,27 +2322,27 @@ Pasaron las horas y con ello llegó la hora de ir a casa. Debido a que tenía un
 	=> sigue
 
 ~ sigue
-*fondo habitación*
+do set_background(\"habitacion1\")
 En fin, después de aquello, seguimos hablando. De cualquier cosa en verdad, sobre el curso, aficiones… Inclusive si decía algún comentario sobre si se me complicaba algo de una asignatura, él me explicaba lo que fuera necesario. 
 
-*fondo habitación, pero anochecer*
+do set_background(\"habitacionNoche\")
 De hecho, un día de diciembre, después de comentarle que llevaba muy mal una asignatura; Entornos de desarrollo, a las 00:00, me fui a dormir. 
 
-*fondo habitación de día*
+do set_background(\"habitacion1\")
 Al despertar, miré el móvil como de costumbre, pero me sorprendí mucho al ver que él, a las 6:48 de la mañana, me respondió y, por si fueran poco los consejos que anteriormente me dio y los enlaces que me pasó para ayudarme, me mandó un archivo word hecho por él, el cual estaba lleno de explicaciones y ejemplos sobre lo que no entendía. Lo había hecho de madrugada. Por mí. Para ayudarme a mí. 
 Enseguida le di las gracias por lo que había hecho. Al fin y al cabo, aquellos apuntes eran justo lo que necesitaba para llevar mejor el examen, pero una cuestión rondaba mi mente. ¿Por qué lo hacía?
 Aunque agradecía enormemente el gesto que había tenido conmigo y seguía teniendo cada día al interesarse por mí, preguntarme y ayudarme con las asignaturas o problemas con tareas que hacía, aún cuando ni nos conocíamos de vista, no dejaba de pensar en la razón por la que hacía todo aquello.
 Sin darme cuenta, aquel extraño que poco a poco dejaba de serlo, ocupaba varios de mis pensamientos al día. Sin duda alguna, necesitaba conocerlo y agradecerle.
 Y eso no tardaría mucho en ocurrir.
 
-*fondo calle*
+do set_background(\"negro\")
 13 de diciembre. 
 Ya casi era invierno y quedaba poco para las vacaciones de Navidad. Aquello era algo que me encantaba y me desagradaba al mismo tiempo.
 
-*fondo clase*
+do set_background(\"clase\")
 Estaba pensando bastante, demasiado si soy sincera, por su culpa.
 
-*encima del fondo mostrar pc y mensajes*
+#*encima del fondo mostrar pc y mensajes*
 [i]Hoy salgo 1 hora antes, pero me quedo en clase para esperarte luego ^^
 [i]Si quieres, claro
 
@@ -2187,7 +2370,7 @@ Estaba pensando bastante, demasiado si soy sincera, por su culpa.
 	=> seSalta
 
 ~ siguee
-*fondo clase*
+do set_background(\"clase\")
 No voy a mentirte.
 Estoy muy inquieta. Mi mente no deja de darle vueltas a lo mismo.
 Voy a verlo.
@@ -2199,7 +2382,7 @@ No sé si me arrepiento, si estoy impaciente o, en parte, ambas.
 Al final el profesor terminó con su explicación y, dado que ya eran las 14:30, la clase terminó.
 Todos comenzaron a recoger sus cosas, incluida yo, pero, a diferencia del resto, lo hacía más lento. Necesitaba tomarme mi tiempo para asimilar que iba a tener que socializar un poco más.
 
-*fondo calle*
+#*fondo calle*
 Casi 10 minutos después salí del centro y lo encontré ahí.
 Tal y como dijo antes, estaba esperándome casi en la entrada.
 Al verme, me saludó.
@@ -2302,7 +2485,7 @@ Opción 2: Mentir → Kristine dice que está libre, lo cual es mentira y Mateo 
 Un rato después vi una notificación que tenía nueva de hace unas horas.
 Me entretuve bastante estudiando.
 
-*en móvil*
+#*en móvil*
 [i]Me ha gustado hablar contigo
 [i]No te he querido entretener mucho para que puedas estudiar tranquila y por eso me he despedido al llegar a tu casa ^^ 
 [i]y oye, si quieres mañana te espero también, si te parece bien y si tienes tiempo claro ^^ 
@@ -2318,17 +2501,17 @@ Sin dudarlo, le respondí.
 
 [i]Te iba a escuchar sí o sí, ya que aparte del tema y la importancia del mismo en sí, me pareces una persona increíble y me siento muy cómodo contigo, la verdad. Espero transmitir lo mismo, me gusta tu forma de pensar y quién eres como persona, técnicamente eres genial en resumidas cuentas y agradezco la confianza que me das para contarme las cosas aún conociéndonos poco ^^ 
 
-*fondo habitación*
+do set_background(\"habitacion1\")
 No entiendo cómo se podía ser tan tierno, pero no podía distraerme más.
 ~ seSalta
 Seguí estudiando y haciendo ejercicios el resto del día para aprenderme bien los conceptos y hacer bien el examen que tenía al día siguiente.
 Pareció que así fue.
 
-*En clase*
+do set_background(\"clase\")
 Hice el examen tranquila.
 No sentía que me había salido tan mal como esperaba, por lo que salí de clase contenta.
 
-*fondo calle*
+#*fondo calle*
 En cuanto estuve fuera del centro, vi a alguien que se me hacia conocido.
 ¿Era él?
 Me estaba esperando.
@@ -2353,16 +2536,15 @@ Kristine: Claro.
 Sacó su móvil y le dí mi número.
 No quería que estuviera mal, por lo que me aseguré de que lo apuntó correctamente y luego lo guardó. 
 
-*fondo casa*
+do set_background(\"habitacion1\")
 Justamente al llegar a mi casa recibí una notificación:
 
-*movil ya como si fuera whatsapp*
+#*movil ya como si fuera whatsapp*
 [i]Holaaaa soy Mateo
 
-*casa*
 Al verlo, por alguna razón, sonreí al instante. Y le respondí, por supuesto, al mensaje.
 
-*fondo negro*
+do set_background(\"negro\")
 Desde ese día hablábamos bastante.
 
 En Navidad, aunque no lo pasé tan bien como esperé, pude quedar con mi mejor amiga y con él. No creí que después de haberlo pasado tan mal en ese invierno, llegaría un descanso.
@@ -2374,7 +2556,7 @@ Esas vacaciones de invierno me sirvieron para dos cosas o bueno, tres; despejarm
 Sin darme cuenta del paso del tiempo, ya casi era mi cumpleaños; 24 de enero.
 No obstante, no esperaba lo que sucedería después.
 
-*fondo casa/habitacion*
+do set_background(\"habitacion1\")
 Mi cumpleaños fue bien, Mateo me felicitó justo a las 00:00 y el resto del día fue normal. 
 El 25 de enero tenía un examen, por lo que estuve estudiando en mi cumple. 
 
@@ -2384,7 +2566,7 @@ Debía hacer y aprobar ese examen.
 
 Me levanté de la cama y, una vez lista, me dirigí a clases con los apuntes en mano.
 
-*fondo clase*
+do set_background(\"clase\")
 Mientras hacía el examen, comencé a notar algunos mareos, pero no le di importancia. Lo que no sabía era que aquello sería la peor decisión que tomaría.
 
 Empiezo a encontrarme muy rara...

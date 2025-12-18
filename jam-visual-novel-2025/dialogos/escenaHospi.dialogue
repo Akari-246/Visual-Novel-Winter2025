@@ -1,13 +1,13 @@
 ~ start
 Hice lo que me ordenó la anestesista y, en pocos minutos, me dormí.
 
-*fondo negro*
+do set_background("negro")
 Tal y como dijeron, todo salió a la perfección.
 El único problema era que debía quedarme varios días en el hospital, Felix dijo que entre 5 y 8 días, y yo quería ir a clases, sin embargo, debía entender que todo era cuestión de tiempo para poder volver.
 
 3 días después 
 
-*habitación hospital*
+do set_background("habitacionHospital")
 Me estaba acostumbrando, de nuevo, a vivir de forma distinta, tal y como vivía antes de la perforación que tuve.
 Poco a poco iba mejorando, lo cual subió mi estado de ánimo, lo suficiente como para revisar los mensajes que tenía y responder a todos.
 Uno se llevó mi especial atención. O, mejor dicho, varios.
@@ -66,31 +66,32 @@ Felix: Buenas, familia. Los resultados de la ecografía y la analítica han sali
 
 Tras las indicaciones que me dio el cirujano, mis padres pudieron encargarse de los papeles para poder darme de alta. 
 
-*fondo negro o casa*
+do set_background("negro")
 En cuestión de horas ya estaba en casa. Se podría decir con el cuerpo de antes, pero no sería del todo cierto, sin embargo, estaba segura que con el tiempo me acostumbraría de nuevo. Al menos eso esperaba.
 
 Pocos días después fui retomando la rutina de ir a clases, estudiar lo necesario y hacer las tareas atrasadas que tenía pendientes, además de los exámenes, claro.
 
+do set_background("habitacion1")
 28 de noviembre.
 Al despertarme me fijé que tenía una nueva notificación. Cómo no, de él.
 Era raro empezar de nuevo a acostumbrarme a tener mensajes de una persona, de cierta persona.
 
-*encima del fondo de habitacion mostrar movil y mensajes*
+#*encima del fondo de habitacion mostrar movil y mensajes*
 [i]Cómo te ha ido la vuelta a clases? Y mucho ánimo hoy ^^
 [i]Llevo una chaqueta negra pensando que haría más frío y me estoy muriendo de calor. 
 [i]Momento de arrepentirse JAKSAK 
 
-*fondo negro, empezando a ser rosa pero oscuro*
+do set_background("negro") #n vez de negro que sea un poco mas rosa muyyy oscuro
 A pesar de que era un desconocido para mí, no podía evitar sentir ternura en cómo se preocupaba por mí. Y no sólo esa vez, puesto que esas serían las primeras veces que se interesaría en mí.
 
-*fondo negro*
+do set_background("negro")
 Se acercaban algunos exámenes y, claramente, mi estado postoperatorio no me iba impedir hacerlos. Sin embargo, mentiría si dijera que no se me dificultaba concentrarme un poco para estudiar.
 
 Conforme pasaban los días, más me costaba aprender y entender varios conceptos de algunas asignaturas, pero, por alguna razón, cuando se lo comentaba al chico con el que hace pocos días había comenzado a hablar, me animaba y me decía que lo iba a sacar.
 
 Por supuesto que confío en mí. No necesito ánimos de nadie, pero debo admitir que me sacaba una sonrisa al leerlo.
 
-*encima del fondo mostrar movil con mensajes*
+#*encima del fondo mostrar movil con mensajes*
 [i]De todas formas estoy convencido que lo sacarás una vez lo practiques 
 [i]Estoy seguro de ello ^^
 
@@ -98,7 +99,8 @@ Aparte de darme ánimos y desearme suerte cada vez que debía hacer un examen, s
 
 Un día cayó en cuenta de que no sabía mi nombre.Y fue gracioso la manera en la que preguntó.
 
-*fondo de habitación y encima móvil con mensajes estilo discord*
+do set_background("habitacion1")
+#*fondo de habitación y encima móvil con mensajes estilo discord*
 [i]Por cierto, en su momento no te pregunté, ¿cómo te llamas? Porque brillante o luz en japonés no creo que sea.
 [i]Aunque me parece un bonito apodo.
 
