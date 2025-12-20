@@ -1,8 +1,10 @@
-[gd_scene load_steps=26 format=3 uid="uid://yh25m23sqpra"]
+[gd_scene load_steps=28 format=3 uid="uid://yh25m23sqpra"]
 
 [ext_resource type="Script" uid="uid://h5nf74m70ijk" path="res://scripts/menuManager.gd" id="1_2owot"]
-[ext_resource type="Texture2D" uid="uid://d1q5mtw58g3g3" path="res://assets/imagenes/provisional.jpg" id="1_d7r87"]
 [ext_resource type="FontFile" uid="uid://dg14kclf6jted" path="res://assets/fonts/libre baskeville/LibreBaskerville-Regular.ttf" id="2_2owot"]
+[ext_resource type="Texture2D" uid="uid://bqi4tpiuav81w" path="res://assets/imagenes/fondos/fondo menu7.jpeg" id="2_8jdmi"]
+[ext_resource type="Texture2D" uid="uid://citeu0foibnt2" path="res://assets/imagenes/personajes/krisFeliz.png" id="3_4gv4q"]
+[ext_resource type="Texture2D" uid="uid://ba6aj80p4o2fg" path="res://assets/imagenes/personajes/silueta Mateo.png" id="3_8jdmi"]
 [ext_resource type="Script" uid="uid://dnkv3p7myaucf" path="res://scripts/menu_op.gd" id="4_6cq3m"]
 [ext_resource type="FontFile" uid="uid://lh7yi4u1exu3" path="res://assets/fonts/libre baskeville/LibreBaskerville-Bold.ttf" id="5_5t3kx"]
 [ext_resource type="Script" uid="uid://dqspm13v3xdwh" path="res://scripts/audioControl.gd" id="5_xqndx"]
@@ -51,6 +53,21 @@ bg_color = Color(0.21176471, 0.34901962, 0.73333335, 0.88235295)
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_11hni"]
 bg_color = Color(0.16862746, 0.6627451, 0.84705883, 0.76862746)
 
+[sub_resource type="Animation" id="Animation_5t3kx"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("MenuOp/PanelContainer:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+
 [sub_resource type="Animation" id="Animation_6cq3m"]
 resource_name = "animacionOpciones"
 length = 0.5
@@ -65,21 +82,6 @@ tracks/0/keys = {
 "transitions": PackedFloat32Array(1.0717735, 1),
 "update": 0,
 "values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
-}
-
-[sub_resource type="Animation" id="Animation_5t3kx"]
-length = 0.001
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("MenuOp/PanelContainer:modulate")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Color(1, 1, 1, 1)]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_56ah5"]
@@ -104,10 +106,22 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_left = -23.0
+offset_right = 14.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = ExtResource("1_d7r87")
+texture = ExtResource("2_8jdmi")
 expand_mode = 1
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(157, 299.99997)
+scale = Vector2(0.43663308, 0.4223632)
+texture = ExtResource("3_8jdmi")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(983, 285)
+scale = Vector2(0.41015625, 0.4243164)
+texture = ExtResource("3_4gv4q")
 
 [node name="PanelContainer" type="PanelContainer" parent="."]
 layout_mode = 1

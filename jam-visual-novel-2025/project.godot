@@ -13,7 +13,7 @@ config_version=5
 config/name="Visual novel winter"
 run/main_scene="uid://yh25m23sqpra"
 config/features=PackedStringArray("4.5", "GL Compatibility")
-config/icon="res://icon.svg"
+config/icon="uid://c5uf0sk5f4dax"
 
 [autoload]
 
@@ -21,6 +21,7 @@ DialogueManager="*res://addons/dialogue_manager/dialogue_manager.gd"
 Audio="*res://escenas/audio.tscn"
 SistemaPuntos="*res://scripts/sistemaPuntos.gd"
 SistemaSkip="*res://scripts/sistemaSkip.gd"
+Game="*res://scripts/gameFinales.gd"
 
 [editor_plugins]
 

@@ -1,5 +1,4 @@
 ~ start
-Empiezo a encontrarme muy rara. 
 ¿Debería avisar a alguien?
 - No
 	=> historiaSigue
@@ -21,7 +20,9 @@ Por suerte, el profesor y unos compañeros me ayudaron y estuvieron conmigo hast
 
 Lo que no me esperaba para nada era que Mateo viniera y se quedara a mi lado.
 
+do show_character("mateo", "izq", "hablaPreocupado")
 Mateo: ¿Cómo está?
+do show_character("mateo", "izq", "sinHablar")
 Se escuchaba nervioso. 
 Intenté abrir los ojos para verlo, pero todo estaba borroso y me estaba agobiando, así que seguí con los ojos cerrados.
 
@@ -31,23 +32,32 @@ Compañero 2: Está con mareos, pero parece que se encuentra mejor.
 
 Mateo, esos compañeros y el profesor estuvieron conmigo hasta que, finalmente, llegó mi padre.
 
+do show_character("papaNoHabla", "centro")
+do show_character("mateo", "izq", "hablaPreocupado")
 Mateo: Disculpe, ¿no le importa si lo ayudo a llevarla y os acompaño?
+do show_character("papa", "centro")
+do show_character("mateo", "izq", "sinHablar")
 Papá: No, claro que no.
+do show_character("papaNoHabla", "centro")
 Me sorprendió que mi padre aceptara la ayuda.
 
-do set_background("habitacion1")
+do hide_character("centro")
+do set_background("habitacionMasOscura")
 Tal y como dijo, Mateo me acompañó hasta mi casa.
+do hide_character("izq")
 Una vez se aseguró de que estaba mejor, se fue. Pero eso no quitó el hecho de que estuvo conmigo alrededor de media hora. En mi casa. Cuando él debía coger un autobús para llegar a la suya y, si se retrasaba, lo perdería.
 
 Le dije que no hacía falta que se quedara conmigo, pero lo único que dijo fue:
-[speed=0.5]No me iba a ir hasta verte bien. Como si debía acompañarte después a donde necesitaras.
-[speed=0.5]No te preocupes y descansa, que lo importante ahora es que mejores y te pongas bien.
+[speed=0.5][b]No me iba a ir hasta verte bien. Como si debía acompañarte después a donde necesitaras.
+[speed=0.5][b]No te preocupes y descansa, que lo importante ahora es que mejores y te pongas bien.
 
+do set_background("negroo")
 No sé exactamente cómo fue ni porqué, pero, desde entonces, algo empezó a surgir en mí. Y aquello crecía de una forma extrañamente exagerada, pero no me di cuenta, o, tal vez, no quise darme cuenta de aquel sentimiento desconocido y conocido al mismo tiempo.
 
 Si ya hablábamos a menudo, después de aquello intenté hablar mucho más con él. Se preocupaba por mí al igual que yo por él.
 En mis pensamientos solía aparecer Mateo y todo lo que pudiera estar relacionado con él.
 
+do set_background("habitacionAtardecer")
 Sin darme cuenta y sin siquiera notarlo, un día de invierno, escribí algo. Algo que explicaba exactamente lo que sentía. Y no me costó hacerlo, no se me dificultó expresar todo lo que tenía adentro y de lo que no me percaté.
 
 Le escribí una carta a Mateo y, mientras escribía, ni siquiera era consciente de lo que hacía, no hasta que lo terminé y leí.
@@ -58,20 +68,25 @@ No, por supuesto que no. [speed=0.3]No a menos que…
 
 [b]¿Me gustaría comenzar algo con él?
 - Sí
-	=> siguee
+	if SistemaPuntos.obtenerPuntos("mateo") <= -4:
+		#do cargarFinal("finalMalo")#mostrarFinal()	
+		do cargarFinal("finalMalo")
+		#SistemaPuntos.obtenerPuntos()
+	else:
+		=> siguee
 - No
 	do cargarFinal("soloAmigos")
 
 ~ siguee
-do set_background("negro")
+do set_background("negroo")
 Tras leer esto y ser consciente de mis sentimientos, es evidente que no puedo tener como tal una amistad con él. Pero necesito que él lo sepa. 
 En el fondo, creo que me gustaría que lea esto.
-do set_background("negro")#*fondo de negro pasar lentamente a rosa oscuro*
+[speed= 0.0001] 
+do set_background("fucsiaMuyOscuro")
 Tal vez podamos ser algo más. Tal vez le guste como algo más que una amiga.
 Quizá siga siendo bueno cuando seamos novios.
 Cabe la posibilidad de que no sea como el resto de chicos que he conocido, exceptuando a dos, claro; mi padre y un antiguo amigo.
-
-do set_background("habitacion1")
+do set_background("habitacionAtardecer")
 ¿En qué diablos pienso?
 ¿Cómo que ser su novia?
 
@@ -80,11 +95,11 @@ do set_background("habitacion1")
 do set_background("negro")
 ¿Realmente estoy lista para tener una relación?
 No hace relativamente mucho salí de una, ¿voy a ser capaz de meterme en otra?
-do set_background("negro") #*de negro a fucsia oscuro*
+do set_background("fucsiaOscuro") 
 Puede que, si es con él, sí.
 A fin de cuentas, he aprendido bastante gracias a un antiguo amigo que me gustaba, aunque era digitalmente, los sentimientos eran reales.
 
-do set_background("negro")#*de fucsia oscuro a fucsia un poco menos oscuro*
+do set_background("rosa")
 Mateo me ha demostrado muchas cosas y todas, hasta ahora, han sido buenas.
 A lo mejor puedo intentarlo…
 El no ya lo tengo por delante… Puede que no sea malo dárselo…
@@ -111,14 +126,14 @@ Me fui haciendo cada vez más cercana a Mateo, a tal punto en el que varios día
 
 Conforme pasaban los días y más unida me iba haciendo a aquel chico, más pensaba en que era absurdo darle la carta ese día.
 
-#*fondo calle pero invierno*
-do set_background("negro")
 El 14 de febrero llegó.
+do set_background("calleDia")
 
 Había quedado con Mateo y lo único que me impedía estar con él ese mismo día era un examen que tenía el 15, pero eso no evitó nada.
 Inclusive traje conmigo la carta por si se daba la ocasión que creía oportuna para entregársela, pero no creía ser capaz. No al menos si no me ganaba mi lado impulsivo. Al fin y al cabo, algunos dicen que para hacer algo sólo te hace falta un pequeño empujón. 
 Imagino que eso fue lo que me pasó.
 
+do set_background("calleNoche")
 Después de pasar el rato con él en un parque que frecuentábamos, ya estábamos enfrente del portal de mi casa.
 Me estaba hablando de algo, pero yo no era capaz de retener esa información, puesto que estaba concentrada en otra cosa…
 
@@ -127,7 +142,7 @@ Puede que fuera ahora o nunca.
 Quizá no volvería a tener la misma oportunidad.
 [b]¿Debo dárselo realmente?
 - Por supuesto
-	do cargarSiguienteCap("cap5")
+	do cargarSiguienteCap("cap 5")
 - No
 	do cargarFinal("finalCobarde")
 

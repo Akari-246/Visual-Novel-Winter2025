@@ -1,7 +1,7 @@
 extends Node
 
 var puntosNegativos = 0
-var maxPuntos = 5
+var maxPuntos = 6
 var puntos = { #eto para la relacion con los personajes
 	"mateo": 0,
 	"kristine": 0
@@ -39,7 +39,7 @@ func agregarPersonaje(nombre: String, puntosInicio: int = 0):
 		print("Nuevo personaje: " + nombre + ":D")
 	
 func restarPunto() -> bool:
-	puntosNegativos += 0.5
+	puntosNegativos += 1
 	puntoNegativo.emit(puntosNegativos, maxPuntos)
 	print("Punto negativo: " + str(puntosNegativos) + "/" + str(maxPuntos))
 	
