@@ -1,8 +1,12 @@
-[gd_scene load_steps=12 format=3 uid="uid://73jm5qjy52vq"]
+[gd_scene load_steps=16 format=3 uid="uid://73jm5qjy52vq"]
 
 [ext_resource type="Script" uid="uid://d1wt4ma6055l8" path="res://addons/dialogue_manager/example_balloon/example_balloon.gd" id="1_36de5"]
 [ext_resource type="PackedScene" uid="uid://ckvgyvclnwggo" path="res://addons/dialogue_manager/dialogue_label.tscn" id="2_a8ve6"]
+[ext_resource type="FontFile" uid="uid://bch4ylw3wcakl" path="res://assets/fonts/Crimson pro/CrimsonPro-ExtraLight.ttf" id="2_r5ei8"]
 [ext_resource type="Script" uid="uid://bb52rsfwhkxbn" path="res://addons/dialogue_manager/dialogue_responses_menu.gd" id="3_72ixx"]
+[ext_resource type="FontFile" uid="uid://dg14kclf6jted" path="res://assets/fonts/libre baskeville/LibreBaskerville-Regular.ttf" id="4_v42gu"]
+[ext_resource type="FontFile" uid="uid://lh7yi4u1exu3" path="res://assets/fonts/libre baskeville/LibreBaskerville-Bold.ttf" id="5_wqs7j"]
+[ext_resource type="FontFile" uid="uid://fpg70u15ncgp" path="res://assets/fonts/libre baskeville/LibreBaskerville-Italic.ttf" id="6_odc0r"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_spyqn"]
 bg_color = Color(0, 0, 0, 1)
@@ -119,7 +123,7 @@ anchors_preset = 12
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_top = -219.0
+offset_top = -181.0
 grow_horizontal = 2
 grow_vertical = 0
 
@@ -143,6 +147,8 @@ unique_name_in_owner = true
 modulate = Color(1, 1, 1, 0.501961)
 layout_mode = 2
 mouse_filter = 1
+theme_override_fonts/normal_font = ExtResource("2_r5ei8")
+theme_override_font_sizes/normal_font_size = 30
 bbcode_enabled = true
 text = "Character"
 fit_content = true
@@ -152,6 +158,13 @@ scroll_active = false
 unique_name_in_owner = true
 layout_mode = 2
 size_flags_vertical = 3
+theme_override_fonts/normal_font = ExtResource("4_v42gu")
+theme_override_fonts/bold_font = ExtResource("5_wqs7j")
+theme_override_fonts/bold_italics_font = ExtResource("5_wqs7j")
+theme_override_fonts/italics_font = ExtResource("6_odc0r")
+theme_override_fonts/mono_font = ExtResource("4_v42gu")
+theme_override_font_sizes/normal_font_size = 22
+theme_override_font_sizes/bold_font_size = 22
 text = "Dialogue..."
 
 [node name="Control" type="Control" parent="Balloon/MarginContainer/PanelContainer/MarginContainer/HBoxContainer"]
@@ -191,6 +204,8 @@ response_template = NodePath("ResponseExample")
 
 [node name="ResponseExample" type="Button" parent="Balloon/ResponsesMenu"]
 layout_mode = 2
+theme_override_fonts/font = ExtResource("2_r5ei8")
+theme_override_font_sizes/font_size = 30
 text = "Response example"
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]

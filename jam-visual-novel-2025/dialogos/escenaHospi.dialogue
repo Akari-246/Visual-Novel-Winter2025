@@ -1,7 +1,9 @@
 ~ start
+do set_background("negroo")
+do hide_character("izq")
+do hide_character("derecha")
 Hice lo que me ordenó la anestesista y, en pocos minutos, me dormí.
 
-do set_background("negro")
 Tal y como dijeron, todo salió a la perfección.
 El único problema era que debía quedarme varios días en el hospital, Felix dijo que entre 5 y 8 días, y yo quería ir a clases, sin embargo, debía entender que todo era cuestión de tiempo para poder volver.
 
@@ -14,7 +16,7 @@ Uno se llevó mi especial atención. O, mejor dicho, varios.
 
 Era él.
 
-*encima del fondo de habitación de hospital mostrar móvil y mensajes estilo discord*
+#*encima del fondo de habitación de hospital mostrar móvil y mensajes estilo discord*
 20/11
 [i]Qué tal llevas el examen??[/i]
 [i]Se vienen cositas, tenemos que presentar algunos proyectos en 2 semanas, a ver qué tal sale
@@ -44,29 +46,44 @@ Ante esa extraña preocupación, por el hecho de ser un desconocido para mí, s�
 
 [i]Muchas gracias ^^
 
-*se quita el móvil y vuelta sólo fondo habitación hospital*
+#*se quita el móvil y vuelta sólo fondo habitación hospital*
 Pasaron unos días hasta que, finalmente, lo que más esperaba sucedió.
 
 Cada día me hacían analíticas de sangre, al inicio la sangre indicaba que tenía los leucocitos y el PCR bastante alto, pero a partir del cuarto día parecía que los valores iban volviendo a la normalidad poco a poco.
 
 Y un día, el cirujano me visitó.
 
+do show_character("felix", "izq")
 Felix: ¿Cómo está la niña?
+do show_character("mama", "derecha")
+do show_character("felixNoHabla", "izq")
 Mamá: Pues nada, ahí está, viendo la tele.
+do show_character("mamaNoHabla", "derecha")
+do show_character("felix", "izq")
 Felix: ¿Y bien? ¿Cómo vas al baño?
+do hide_character("derecha")
 Esta vez se dirigió a mí cuando preguntó.
+do show_character("kristine", "derecha", "hablaAlegre")
+do show_character("felixNoHabla", "izq")
 Kristine: Bien, me cuesta y molesta un poco, pero empiezo a acostumbrarme.
+do show_character("kristine", "derecha", "sinHablar")
+do show_character("felix", "izq")
 Felix: Me alegro. En cuanto a la analítica de hoy, indica que todo está en orden. Si mañana sigue bien, le podremos dar de alta el 27 de este mes. De todas formas, eso sólo será si la ecografía de mañana sale bien.
+do show_character("felixNoHabla", "izq")
 
 En cuanto dijo las palabras de alta no pude evitar emocionarme.
+do hide_character("izq")
+do hide_character("derecha")
 Después de 6 días en el hospital, con fatiga los primeros días, gran molestia abdominal y aprendiendo de nuevo a tener un cuerpo normal dentro de la sociedad, estaba cansada de estar ahí, a pesar de que el personal fue lo mejor que me pudo pasar porque eran maravillosos, deseaba poder llegar a casa. Necesitaba estar en casa.
 Y un día después, eso sucedió.
 
+do show_character("felix", "izq")
 Felix: Buenas, familia. Los resultados de la ecografía y la analítica han salido bien. No tienes nada inflamado, los leucocitos y la PCR lo tienes normal. Con lo que debes tener cuidado es con la herida donde tenías la bolsa, debes limpiarla todos los días y es muy importante que no le dé el sol para que cicatrice bien.
 
+do hide_character("izq")
 Tras las indicaciones que me dio el cirujano, mis padres pudieron encargarse de los papeles para poder darme de alta. 
 
-do set_background("negro")
+do set_background("negroo")
 En cuestión de horas ya estaba en casa. Se podría decir con el cuerpo de antes, pero no sería del todo cierto, sin embargo, estaba segura que con el tiempo me acostumbraría de nuevo. Al menos eso esperaba.
 
 Pocos días después fui retomando la rutina de ir a clases, estudiar lo necesario y hacer las tareas atrasadas que tenía pendientes, además de los exámenes, claro.
@@ -81,10 +98,10 @@ Era raro empezar de nuevo a acostumbrarme a tener mensajes de una persona, de ci
 [i]Llevo una chaqueta negra pensando que haría más frío y me estoy muriendo de calor. 
 [i]Momento de arrepentirse JAKSAK 
 
-do set_background("negro") #n vez de negro que sea un poco mas rosa muyyy oscuro
+do set_background("fucsiaMuyOscuro") #n vez de negro que sea un poco mas rosa muyyy oscuro
 A pesar de que era un desconocido para mí, no podía evitar sentir ternura en cómo se preocupaba por mí. Y no sólo esa vez, puesto que esas serían las primeras veces que se interesaría en mí.
 
-do set_background("negro")
+do set_background("negroo")
 Se acercaban algunos exámenes y, claramente, mi estado postoperatorio no me iba impedir hacerlos. Sin embargo, mentiría si dijera que no se me dificultaba concentrarme un poco para estudiar.
 
 Conforme pasaban los días, más me costaba aprender y entender varios conceptos de algunas asignaturas, pero, por alguna razón, cuando se lo comentaba al chico con el que hace pocos días había comenzado a hablar, me animaba y me decía que lo iba a sacar.
@@ -108,6 +125,7 @@ Akari es el apodo que uso. Significa, efectivamente, luz en japonés.
 
 [b]¿Qué debería decirle?[/b]
 - Responder y preguntar por su nombre
+	do SistemaPuntos.cambiarPuntos("mateo", 2)
 	[i]No te preocupes, me llamo Kristine
 	[i]Tu nombre es Mateo?
 	A mí me resultó más fácil saberlo debido al apodo que usaba; Mateo-x-path.
@@ -120,7 +138,7 @@ Akari es el apodo que uso. Significa, efectivamente, luz en japonés.
 	Pareció que aquello le defraudó un poco, pero bueno.
 	do cargarSiguienteCap("cap3")
 - Mentir 
-	do SistemaPuntos.cambiarPuntos("mateo", -1)
+	do SistemaPuntos.cambiarPuntos("mateo", -2)
 	[i] Puedes llamarme Kris.
 	No era mi nombre como tal, pero no mentía en que podía llamarme de esa manera si él quería...
 	do cargarSiguienteCap("cap3")

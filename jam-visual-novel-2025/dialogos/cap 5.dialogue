@@ -1,45 +1,85 @@
 ~ start
+do set_background("calleNoche")
 Sí.
 No puedo acobardarme justo ahora. No cuando inconscientemente me he hecho a la idea de dárselo. No cuando ya he imaginado cada posible escenario y estoy abierta a cualquier rechazo que me pueda dar.
 
+do show_character("kristine", "derecha", "sonrojadaHabla")
+do show_character("mateo", "izq", "sinHablar")
 Kristine: Por cierto… Quería… Quería darte algo.
 
+do show_character("mateo", "izq", "serio")
+do show_character("kristine", "derecha", "sonrojada")
 Cuando dije eso, Mateo mostró una cara de confusión y curiosidad al mismo tiempo. ¿Cómo podía ser tan adorable?
 
+do show_character("kristine", "derecha", "sonrojadaHabla")
 Kristine: Sé que… Q-quizás sea mítico hacerlo un 14 de febrero, pero te prometo que no es por la fecha en sí… En fin, en la primera página hay… Algunas notas. Necesito que sigas al pie de la letra esas anotaciones, por favor.
+do show_character("kristine", "derecha", "seria")
 
 Y tras eso, sin pensarlo, le entregué la carta con rapidez para no tener tiempo de arrepentirme.
 
+do show_character("mateo", "izq", "hablaAlegre")
 Mateo: Está bien… 
+do show_character("mateo", "izq", "feliz")
 
 Enseguida se hizo presente el silencio aquel día de tantos en invierno, el cual él mismo rompió. Y sin venir a cuento.
 
+do show_character("mateo", "izq", "hablaNormal")
 Mateo: [wait=1]¿Te puedo besar?
+do show_character("kristine", "derecha", "sonrojada")
+do show_character("mateo", "izq", "sonrojado")
 
 [speed=0.01]...
 [wait=4]¿Qué?
 
+do show_character("kristine", "derecha", "sonrojadaHabla2")
 Kristine: ¿Qué?
+do show_character("mateo", "izq", "hablaNormal")
+do show_character("kristine", "derecha", "avergonzada")
 Mateo: Si te puedo besar.
+do show_character("mateo", "izq", "avergonzado")
+do show_character("kristine", "derecha", "avergonzada")
 
 [speed=0.06]...
-[wait=2]Kristine: ¿Qué?
+[wait=2]
+do show_character("kristine", "derecha", "sonrojadaHabla2")
+Kristine: ¿Qué?
 
+do show_character("mateo", "izq", "sonrojado")
+do show_character("kristine", "derecha", "sonrojada")
 No podía creer lo que dijo.
 Para empezar, ¿qué había dicho?, ¿besar?, ¿a mí?, ¿tan de repente?, ¿por qué?, ¿cómo? 
 ¿Y cómo se supone que se besan las personas?
 
+do show_character("mateo", "izq", "hablaNormal")
 Mateo: Si te puedo dar un beso.
+do show_character("kristine", "derecha", "avergonzada")
+do show_character("mateo", "izq", "serio")
 
-Única opción que no cambia mucho
-Opción 1: actuar con timidez → le dice que no de forma tímida uwu (esta es la opción digamos real) 
-Opción 2: ser directa → le dice que no de forma directa y Mateo se disculpa
+- Actuar con timidez
+	do show_character("kristine", "derecha", "sonrojadaHabla")
+	do show_character("mateo", "izq", "serio")
+	Kristine: N-no... No. Perdón.
+	do show_character("mateo", "izq", "hablaPreocupado")
+	do show_character("kristine", "derecha", "avergonzada")
+	Mateo: Está bien, lo siento. No te preocupes.
+	=> siguee
 
-Kristine: N-no… No
-Mateo: Está bien, lo siento. No te preocupes.
+- Ser directa
+	do show_character("kristine", "derecha", "sonrojadaHabla2")
+	do show_character("mateo", "izq", "serio")
+	Kristine: No.
+	do show_character("mateo", "izq", "hablaPreocupado")
+	do show_character("kristine", "derecha", "avergonzada")
+	Mateo: Está bien. Lo siento...
+	=> siguee
 
+~ siguee
+do show_character("mateo", "izq", "sonrojado")
+do show_character("kristine", "derecha", "sonrojada")
 Después de aquella interacción y el momento algo extraño para mí, nos despedimos y entré en mi casa.
 
+do hide_character("izq")
+do hide_character("derecha")
 do set_background("habitacionNoche")
 No podía creer lo que había pasado, lo que había hecho, ni lo que él había dicho.
 Preguntó si me podía besar. Y lo hizo con una cara tan… Tierna.
@@ -53,7 +93,7 @@ Sea lo que sea, hizo caso a lo que le dije.
 
 Antes de la carta, le puse una nota en donde especificaba claramente que no me dijera nada hasta que nos viéramos y estuviéramos solos; únicamente él y yo.
 
-do set_background("negro")
+do set_background("negroo")
 Pasaron 2 días, que parecían eternos, después de aquello.
 
 Justamente ayer al terminar el examen, Mateo me preguntó si podía quedar el 16. Sin pensarlo le dije que sí. Y a qué precio.
@@ -65,7 +105,7 @@ Simplemente, ese momento que creía perfecto para cuando estuviera dispuesta a h
 
 Y, sin darme cuenta de cuán rápido pasó ese lapso de tiempo, que creía más largo, llegó la hora.
 
-do set_background("habitacionAtardecer")
+do set_background("habitacionMasOscura")
 18:00.
 
 Él ya estaba esperándome abajo.
@@ -75,13 +115,13 @@ Si hablamos sentimentalmente, no lo estaba. Nunca lo estaría sabiendo lo que de
 
 16 de febrero…
 
-#*fondo de calle invierno*
+do set_background("calleDia")
 Al salir, noté el frío que hacía y lo vi, esperando.
 En cuanto me miró, dejó escapar una sonrisa.
 
 Por suerte para mí, lo primero que hicimos aquel día fue ir a la cafetería en la que solíamos estar. Ya era costumbre ir ahí.
 
-#*fondo de cafetería*
+do set_background("negroo")
 Mientras tomaba mi querido capuccino para entrar en calor e intentar disminuir los nervios, él hablaba de su familia, cosas que le pasaron a algunos compañeros de su clase y otros temas.
 
 Intentaba mirarlo, juro que intenté verlo a los ojos, pero simplemente no podía. Era incapaz sabiendo que él ya había leído mi carta. 
@@ -92,7 +132,7 @@ Definitivamente, era masoquista.
 No podía quejarme, no siendo consciente de que fui yo misma la que le dijo que no me contara nada sobre la carta ni lo que ponía ahí hasta que estuviéramos a solas. Y yo no sabía cómo sacar el tema.
 Supongo que, si no lo hacía yo, lo haría él. Tarde o temprano.
 
-#*fondo de parque, noche, invierno*
+do set_background("parqueNoche")
 Después de unas horas, llegamos al parque, aquel al que solíamos ir.
 
 Ya había anochecido, a pesar de que eran las 20:00 aproximadamente, y hacía frío. Mucho frío. 
@@ -106,70 +146,128 @@ Con lentitud, me aparté de él y nos sentamos en un banco que había libre.
 
 Hice mal al pensar que los nervios habían abandonado mi cuerpo.
 
+do show_character("mateo", "izq", "hablaNormal")
+do show_character("kristine", "derecha", "avergonzada")
 Mateo: Seré breve.
+do show_character("mateo", "izq", "serio")
 
 No, por favor.
 Quería y no quería que este momento llegara.
 
-Mateo: Sobre lo de tu carta… Te agradezco mucho que me la hayas dado. Escribes muy bonito, por cierto. Quería decirte que…
+do show_character("mateo", "izq", "hablaNormal")
+Mateo: Sobre lo de tu carta… 
+do show_character("mateo", "izq", "hablaAlegre")
+do show_character("kristine", "derecha", "intentoSonrisa")
+Mateo: Te agradezco mucho que me la hayas dado. Escribes muy bonito, por cierto. Quería decirte que…
 
+do show_character("mateo", "izq", "serio")
 Aquí vamos… ¿Me va a rechazar? Parece que sí.
 
+do show_character("mateo", "izq", "hablaAlegre")
 Mateo: Quería decirte que yo también siento lo mismo.
+do show_character("mateo", "izq", "feliz")
 
-... *puntos lentito*
-¿Cómo?
+[speed= 0.0001]...
+[speed=0.03]¿Cómo?
 
+do show_character("kristine", "derecha", "hablaNormal")
 Kristine: ¿Qué?
+do show_character("mateo", "izq", "hablaAlegre")
+do show_character("kristine", "derecha", "avergonzada")
 Mateo: Que siento lo mismo que tú. Me gustas. Mucho. Y sí, me siento muy afortunado de haberte conocido y también me gustaría pasar más tiempo contigo. Tienes razón en que 3 o 4 horas no son suficientes para estar juntos. Haces que el tiempo pase demasiado rápido, y no sé si me gusta o si lo odio. Pero no me malinterpretes, me encanta estar a tu lado.
 
+do show_character("mateo", "izq", "feliz")
+do show_character("kristine", "derecha", "feliz")
 Se me escapó una risa, y mi aliento se convirtió en una nubecita de vapor en el aire helado. De verdad que hacía mucho frío.
 Inconscientemente, mientras hablaba, me acerqué un poquito más a él.
 No podía creer lo que estaba diciendo.
 
+do show_character("mateo", "izq", "hablaAlegre")
 Mateo: También me gustaría tenerte, y no en el sentido de posesión. También me gustaría ser tu compañero en esta vida y estar para ti siempre, sobre todo cuando lo necesites. Me encanta pasar tiempo contigo, siempre me lo paso bien si es contigo realmente…
 
+do show_character("mateo", "izq", "feliz")
 Dado que yo estaba callada, las palabras no salían de mis labios, él siguió hablando.
 
-Mateo: Entonces, ahora que sabes que siento lo mismo que tú por mí… ¿Quieres ser mi novia?
+do show_character("mateo", "izq", "hablaAlegre")
+Mateo: Entonces, ahora que sabes que siento lo mismo que tú por mí… 
+do show_character("mateo", "izq", "hablaNormal")
+Mateo: ¿Quieres ser mi novia?
+do show_character("kristine", "derecha", "avergonzada")
+do show_character("mateo", "izq", "feliz")
 
 ¿Ya dije que no podía creer lo que estaba pasando?
 
 Estaba estupefacta, pero debía responder.
 
+~ momentoDecision
 ¿Qué le digo?
-Opción 1: Sí → historia sigue normal
-Opción 2: No → la prota dice lo estúpido que sería decir eso y aparecen de nuevo las opciones
-Opción 3: No decir nada e irte → Kristine recalca que eso sería de subnormales y dice que quiere empezar un noviazgo con Mateo, volviendo al inicio de las opciones, pero acumula puntos negativos (2)(?
-De modo que únicamente puedes avanzar si dices que si jaja
+- Si
+	do SistemaPuntos.cambiarPuntos("mateo", 2)
+	=> sigue
+- No
+	No.
+	No puedo decirle que no.
+	No cuando sé lo que quiero y que él también me quiere de la forma en la que menos pensé que me querría.
+	No soy tan estúpida como para dejar marchar esta oportunidad. Y menos cuando la tengo frente a mis narices.
+	=> momentoDecision
+- No decir nada
+	¿Qué?
+	No, debo decirle algo.
+	De verdad [b]quiero[/b] empezar algo con él...
+	=> momentoDecision
 
+~ sigue
+do show_character("kristine", "derecha", "sonrojadaHabla2")
 Kristine: S-sí. Claro.
+do show_character("kristine", "derecha", "avergonzada")
 
 Mateo sonrió. Su sonrisa era tan cálida y contagiosa que yo también sonreí.
+do show_character("kristine", "derecha", "feliz")
 Se acercó más a mí hasta estar abrazados. Era acogedor, tanto que casi se me olvidaba que estaba temblando, tanto por los nervios de antes como por las bajas temperaturas.
 
 En un intento de estar más cerca y disminuir el frío que sentía, me acomodé de forma en que mi cabeza quedó encima de su pecho mientras él me abrazaba por la espalda, dándome cariño con delicadeza. 
 Escuchaba su corazón y me encantaba aquella melodía.
 
+do show_character("mateo", "izq", "hablaAlegre")
 Mateo: Tu corazón no deja de latir rápido, por cierto.
+do show_character("mateo", "izq", "feliz")
+do show_character("kristine", "derecha", "hablaNormal")
 Kristine: Estaba nerviosa.
-Mateo: Ya, lo he notado. Y fuimos antes a la cafetería porque pensé que así te sería más fácil hablar. 
+do show_character("mateo", "izq", "hablaAlegre")
+do show_character("kristine", "derecha", "feliz")
+Mateo: Ya, lo he notado. 
+do show_character("mateo", "izq", "hablaNormal")
+do show_character("kristine", "derecha", "feliz")
+Mateo: Y fuimos antes a la cafetería porque pensé que así te sería más fácil hablar. 
 
+do show_character("mateo", "izq", "serio")
 Y no se equivocaba.
 
+do show_character("mateo", "izq", "feliz")
+do show_character("kristine", "derecha", "hablaNormal")
 Kristine: Tu corazón también late rápido.
+do show_character("mateo", "izq", "hablaAlegre")
+do show_character("kristine", "derecha", "feliz")
 Mateo: Porque por fin estoy con la chica que siempre quise.
+do show_character("mateo", "izq", "feliz")
+do show_character("kristine", "derecha", "avergonzada")
 
 Lo miré a los ojos. ¿Cómo podía decir eso tan rápido y sin inmutarse?, ¿y cómo estaba seguro de aquello?
 
+do show_character("mateo", "izq", "hablaAlegre")
 Mateo: Me gustaste desde la primera vez que te vi.
+
+do show_character("mateo", "izq", "sonrojado")
+do show_character("kristine", "derecha", "sonrojada")
 
 Directo y sin anestesia. 
 Esa fue otra mini bomba para mi corazón. ¿Cómo era capaz de decir ese tipo de cosas sin luego avergonzarse? Admiraba eso de él.
 
 Lo miré, pensando que lo decía de broma, pero con su mirada supe que no. No mentía, al igual que yo no mentí en la carta, él no mentía en su confesión ni en lo que acababa de decir.
 
-do set_background("negro")
+do hide_character("izq")
+do hide_character("derecha")
+do set_background("fucsiaMuyOscuro")
 Así fue como logré darle la carta en la que confesaba lo que sentía al chico que me gustaba y, dos días después, conseguí estar con él como pareja. Aquello se hizo oficial.
 Mentiría si dijera que era el mejor día de mi vida, ya que ese fue cuando me quitaron la ostomía. Pero, si no era el primero, era de los primeros mejores días que he podido tener.
 
@@ -181,4 +279,8 @@ Y así, casi sin darnos cuenta, el invierno se quedó atrás para dejar paso a l
 Recuerdo cómo algunas veces él se acercaba a mí lentamente para intentar besarme y cuando veía que no estaba lista, simplemente se disculpaba y decía que no me preocupara, que esperaría lo que fuera necesario hasta que estuviera preparada.
 Hasta un día de verano.
 
-=> END
+if SistemaPuntos.obtenerPuntos("mateo") >= 1:
+	do cargarFinal("finalCanon")
+else:
+	do Game.mostrarFinal()
+	=> END

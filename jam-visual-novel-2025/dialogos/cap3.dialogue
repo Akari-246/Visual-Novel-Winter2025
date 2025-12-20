@@ -8,25 +8,26 @@ Llegó la noche y, como mañana de nuevo tenía clase, me dormí.
 Al despertar me sorprendí al leer algo que no esperaba para nada.
 
 #*encima de habitación coso móvil con mensajes*
+do set_background("habitacion1")
 [i]Cierto, como tema aparte te quería comentar algo.
 [i]No quiero abrumarte con este mensaje, quería agradecerte el permitirme hablar contigo y conocerte, aunque no sea en persona por los horarios de clase y tal. Aprecio mucho eso y me pareces alguien genial e intuyo con un gran corazón, y sí, aún con lo poco que hemos hablado me da esa sensación.
 [i]Me pareces y transmites ser así y si me permites saber más de ti aún siendo por aquí, sin agobiarte, lo agradecería mucho. Que no te extrañen estas palabras. Te las mereces y quería compartir lo que opino de ti con este gran mensaje del momento JAAJAKA 
 [i]Y si al menos consiguen alegrarte el día o animarte, habré cumplido con mi propósito. Disculpa por la longitud. No estoy acostumbrado a ganar confianza tan rápido con alguien y sé que puede abrumar verlo al momento
 
-do set_background("habitacion1")
 Sonreí como una tonta.
 Iba a responderle, pero me di cuenta que se me hizo tarde para ir a clase.
 
-*fondo clase*
+do set_background("clase")
 Pasaron las horas y con ello llegó la hora de ir a casa. Debido a que tenía una revisión con el médico, para asegurarse de que mi herida y mi intestino iban bien, se me olvidó completamente que no le había contestado, no hasta que lo recordé al día siguiente.
-*fondo habitación y encima móvil*
+
+do set_background("habitacion1")
 ¿Qué le respondo? 
 - Contestar con timidez 
 	[i]No te preocupes y muchas gracias por  tus palabras ^^
 	=> sigue
 	
 - Contestar de forma borde
-	do SistemaPuntos.cambiarPuntos("mateo", -1)
+	do SistemaPuntos.cambiarPuntos("mateo", -1.5)
 	[i] A veces está bien guardarse lo que opinas de la gente para uno mismo. Por favor, por el momento, no me digas nada por el estilo a lo que dijiste antes.
 	Respondí sin pensar.
 	do SistemaPuntos.cambiarPuntos("kristine", -2)
@@ -91,7 +92,7 @@ Estaba pensando bastante, demasiado si soy sincera, por su culpa.
 	=> siguee
 
 - Mentir
-	do SistemaPuntos.cambiarPuntos("mateo", -1.5)
+	do SistemaPuntos.cambiarPuntos("mateo", -2)
 	Indecisa, decidí decirle una pequeña mentira.
 	[i]Lo siento, tengo muchas cosas que hacer hoy. Otro día si quieres ^^
 	Realmente no era una gran mentira. Después de todo, tenía algunas tareas pendientes por hacer. Sin embargo, no era tan urgente.
@@ -110,52 +111,102 @@ No sé si me arrepiento, si estoy impaciente o, en parte, ambas.
 Al final el profesor terminó con su explicación y, dado que ya eran las 14:30, la clase terminó.
 Todos comenzaron a recoger sus cosas, incluida yo, pero, a diferencia del resto, lo hacía más lento. Necesitaba tomarme mi tiempo para asimilar que iba a tener que socializar un poco más.
 
-#*fondo calle*
+do set_background("calleDia")
 Casi 10 minutos después salí del centro y lo encontré ahí.
 Tal y como dijo antes, estaba esperándome casi en la entrada.
 Al verme, me saludó.
 
+do show_character("kristine", "derecha", "sinHablar")
+do show_character("mateo", "izq", "hablaAlegre")
 Mateo: Holaaa, ¿qué tal te ha ido?
+do show_character("kristine", "derecha", "hablaNormal")
+do show_character("mateo", "izq", "sinHablar")
 Kristine: Bien, ¿y a ti?
+do show_character("kristine", "derecha", "sinHablar")
+do show_character("mateo", "izq", "hablaAlegre")
 Mateo: Bien bien. 
+do show_character("mateo", "izq", "sinHablar")
 
 Al decir aquello comenzamos a caminar para volver a nuestras respectivas casas.
 
+do show_character("mateo", "izq", "hablaNormal")
 Mateo: Por cierto, quería preguntarte algo. Sólo si no te molesta.
+do show_character("mateo", "izq", "sinHablar")
+do show_character("kristine", "derecha", "hablaAlegre")
 Kristine: Claro, adelante.
+do show_character("kristine", "derecha", "sinHablar")
+do show_character("mateo", "izq", "hablaPreocupado")
 Mateo: La vez que faltaste la otra semana, ¿te pasó algo grave?
+do show_character("mateo", "izq", "sinHablar")
 
 Con lo amable que ha sido conmigo, [b]me gustaría decirle la verdad…
 - Contarle la verdad
+	do show_character("kristine", "derecha", "hablaPreocupada")
 	Kristine: Bueno, antes tenía una ostomía, entonces tuve que faltar por la operación que me hicieron para quitarla.
-
+	do show_character("kristine", "derecha", "sinHablar")
+	
 	Ver su cara de sorpresa me hizo un poco de gracia. 
 	Por algún motivo, su mirada me animaba a seguir hablando, cosa que con casi nadie me había pasado.
 
+	do show_character("kristine", "derecha", "hablaAlegre")
 	Kristine: Ya estoy bien, no te preocupes. Esa operación era la última que tenían que hacerme, lo que me queda son revisiones y pruebas cada mes y luego serán anuales.
+	do show_character("kristine", "derecha", "sinHablar")
+	do show_character("mateo", "izq", "hablaPreocupado")
 	Mateo: ¿Por qué?, quiero decir, ¿por qué tenías eso? ¿Y qué es?
+	do show_character("mateo", "izq", "sinHablar")
+	do show_character("kristine", "derecha", "hablaPreocupada")
 	Kristine: No quiero aburrirte o abrumarte.
+	do show_character("kristine", "derecha", "sinHablar")
+	do show_character("mateo", "izq", "hablaAlegre")
 	Mateo: No lo vas a hacer, tranquila. Cuéntame, sin miedo.
-
+	do show_character("mateo", "izq", "sinHablar")
+	do show_character("kristine", "derecha", "intentoSonrisa")
 	Y aquello fue suficiente para contarle todo.
 
+	do show_character("kristine", "derecha", "hablaPreocupada")
 	Kristine: Está bien… La ostomía es una apertura que tienes en el cuerpo, más o menos a la altura del intestino, que permite la salida de heces hacia una bolsa, que era lo que tenía hace poco menos de un mes.
+	do show_character("kristine", "derecha", "sinHablar")
+	do show_character("mateo", "izq", "hablaPreocupado")
 	Mateo: Y la tenías por…
-
+	do show_character("mateo", "izq", "sinHablar")
 	Animó para que siguiera hablando
-
-	Kristine: Porque tuve una peritonitis. En resumen, me han tenido que operar varias veces por cáncer y demás. Pero lo dicho, ya estoy bien.
-	Mateo: Vaya… Me sorprende que, a pesar de las operaciones, hayas podido seguir. Igual, me alegra mucho que estés bien por fin, de corazón te lo digo.
+	
+	do show_character("kristine", "derecha", "hablaNormal")
+	Kristine: Porque tuve una peritonitis. 
+	do show_character("kristine", "derecha", "hablaPreocupada")
+	Kristine: En resumen, me han tenido que operar varias veces por cáncer y demás.
+	do show_character("kristine", "derecha", "hablaAlegre") 
+	Kristine: Pero lo dicho, ya estoy bien.
+	do show_character("kristine", "derecha", "sinHablar")
+	do show_character("mateo", "izq", "hablaNormal")
+	Mateo: Vaya… Me sorprende que, a pesar de las operaciones, hayas podido seguir. 
+	do show_character("mateo", "izq", "hablaAlegre")
+	Mateo: Igual, me alegra mucho que estés bien por fin, de corazón te lo digo.
+	do show_character("mateo", "izq", "sinHablar")
+	do show_character("kristine", "derecha", "hablaAlegre") 
 	Kristine: Muchas gracias.
+	do show_character("kristine", "derecha", "feliz") 
 	=> sigueee
+	
 - Cambiar de tema
 	do SistemaPuntos.cambiarPuntos("mateo", -0.25)
+	do show_character("kristine", "derecha", "hablaNormal")
 	Kristine: Bueno...
+	do show_character("kristine", "derecha", "sinHablar")
+	do show_character("mateo", "izq", "hablaNormal") 
 	Mateo: ¿Si?
+	do show_character("mateo", "izq", "sinHablar") 
 	Kristine: Preferiría saber de ti antes. 
+	do show_character("kristine", "derecha", "sinHablar")
+	do show_character("mateo", "izq", "hablaAlegre") 
 	Mateo: Entiendo. ¿Qué quieres saber?
+	do show_character("mateo", "izq", "sinHablar") 
 	Kristine: No sé, qué hiciste antes de este grado, amistades, tal vez vida amorosa...
+	do show_character("mateo", "izq", "hablaNormal") 
+	do show_character("kristine", "derecha", "sinHablar")
 	Mateo: Oh, antes de entrar en este grado hice el grado medio de...
+	do show_character("mateo", "izq", "sinHablar") 
+	do show_character("kristine", "derecha", "sinHablar")
 	
 	Y, sin darme cuenta de lo que había provocado, comenzó a hablar de su vida.
 	Intentó hacer el bachillerato, pero no le gustó y se metió a un grado medio. Allí conoció a actual su mejor amigo y a un grupo de amigos que conforme más se juntaba con ellos más se daba cuenta de la toxicidad que había en ese ambiente.
@@ -163,9 +214,18 @@ Con lo amable que ha sido conmigo, [b]me gustaría decirle la verdad…
 	=> sigueee
 - Mentir
 	do SistemaPuntos.cambiarPuntos("mateo", -1.5)
+	do show_character("mateo", "izq", "sinHablar") 
+	do show_character("kristine", "derecha", "hablaNormal")
 	Kristine: Oh, no. Nada grave, sólo un resfriado. No te preocupes.
-	Mateo: Menos mal qu eya estás bien.
+	do show_character("mateo", "izq", "hablaAlegre") 
+	do show_character("kristine", "derecha", "sinHablar")
+	Mateo: Menos mal que ya estás bien.
+	do show_character("mateo", "izq", "sinHablar") 
+	do show_character("kristine", "derecha", "hablaNormal")
 	Kristine: Si...
+	do show_character("mateo", "izq", "sinHablar") 
+	do show_character("kristine", "derecha", "sinHablar")
+	
 	¿Por qué le mentí?
 	Aunque no era agradable el recordar lo que me había pasado, quizá me hubiera venido bien contarlo, aunque fuera a un aparentemente desconocido que ya no era tan desconocido.
 	Me hubiera gustado decirle la verdad, pero a lo mejor hice bien no contándoselo. No a todos les gustaría escuchar la cantidad de operaciones que ha tenido una persona y las razones. 
@@ -176,127 +236,176 @@ Con lo amable que ha sido conmigo, [b]me gustaría decirle la verdad…
 	=> sigueee
 
 ~ sigueee
+do show_character("kristine", "derecha", "sinHablar") 
+do show_character("mateo", "izq", "sinHablar") 
 No me di cuenta de que ya estábamos cerca de mi casa.
-
+ 
+do show_character("mateo", "izq", "hablaNormal") 
 Mateo: ¿Por dónde vives?
+do show_character("kristine", "derecha", "hablaNormal") 
+do show_character("mateo", "izq", "sinHablar") 
 Kristine: Pues justo en esta calle.
+do show_character("kristine", "derecha", "sinHablar") 
+do show_character("mateo", "izq", "hablaNormal") 
 Mateo: ¿Tienes algo que hacer?
+do show_character("mateo", "izq", "sinHablar") 
 
 Podría decirle la verdad. ¿O le miento? Una pequeña mentira no hace daño a nadie… ¿No?
 - Decir la verdad
+	do SistemaPuntos.cambiarPuntos("mateo", 1)
+	
+	do show_character("kristine", "derecha", "hablaNormal") 
+	do show_character("mateo", "izq", "sinHablar")
 	Kristine: Sí, tengo en unos días algunos exámenes.
+	do show_character("mateo", "izq", "hablaAlegre")
+	do show_character("kristine", "derecha", "sinHablar")
 	Mateo: Ohhh vale. Yo vivo un poco más lejos, así que tendré que coger el bus.
+	do show_character("mateo", "izq", "sinHablar")
+	do show_character("kristine", "derecha", "hablaNormal")
 	Kristine: Vale, sin problema.
+	do show_character("kristine", "derecha", "sinHablar")
 
 	Justo cuando me iba a despedir de él, me dio un abrazo, el cual terminó rápido.
 
+	do show_character("mateo", "izq", "hablaAlegre")
 	Mateo: ¡Nos vemos!
-	*fondo negro*
+	do hide_character("izq")
+	do hide_character("derecha")
+	do set_background("negroo")
 	Y así fue como, definitivamente, lo conocí. En persona esta vez.
 	=> historiaNormal
 - Mentir
+	do show_character("mateo", "izq", "sinHablar")
+	do show_character("kristine", "derecha", "hablaNormal")
 	Kristine: No. No tengo nada pendiente por el momento.
 	do SistemaPuntos.cambiarPuntos("mateo", -1.5)
+	do show_character("mateo", "izq", "hablaNormal")
+	do show_character("kristine", "derecha", "sinHablar")
 	Mateo: Ohhh qué bien.
+	do show_character("mateo", "izq", "sinHablar")
 	¿Por qué siento que él sabe algo que yo no?
+	do show_character("mateo", "izq", "hablaNormal")
 	Mateo: Bueno, mi autobús sale en nada así que tengo que irme.
+	do show_character("mateo", "izq", "sinHablar")
+	do show_character("kristine", "derecha", "hablaNormal")
 	Kristine: Vale, no te preocupes.
+	do show_character("kristine", "derecha", "sinHablar")
 	
 	Después de aquello, nos despedimos.
 	Así fue como lo conocí. En persona, esta vez.
 	=> historiaNormal
 
-Opción 2: Mentir → Kristine dice que está libre, lo cual es mentira y Mateo al final descubre que mintió porque unos compañeros de la clase le comentaron que tenían exámenes en esa semana y le pidieron ayuda. Baja puntos con Mateo y, si ha acumulado anteriormente más, saca el final Demasiadas mentiras
-
 ~ historiaNormal
-*fondo habitación*
-Un rato después vi una notificación que tenía nueva de hace unas horas.
-Me entretuve bastante estudiando.
+if SistemaPuntos.obtenerPuntos("mateo") <= 0:
+	do cargarFinal("demasiadasMentiras")
+	#SistemaPuntos.obtenerPuntos()
+else:
+	do set_background("habitacionMasOscura")
+	Un rato después vi una notificación que tenía nueva de hace unas horas.
+	Me entretuve bastante estudiando.
 
-#*en móvil*
-[i]Me ha gustado hablar contigo
-[i]No te he querido entretener mucho para que puedas estudiar tranquila y por eso me he despedido al llegar a tu casa ^^ 
-[i]y oye, si quieres mañana te espero también, si te parece bien y si tienes tiempo claro ^^ 
+	#*en móvil*
+	[i]Me ha gustado hablar contigo
+	[i]No te he querido entretener mucho para que puedas estudiar tranquila y por eso me he despedido al llegar a tu casa ^^ 
+	[i]y oye, si quieres mañana te espero también, si te parece bien y si tienes tiempo claro ^^ 
 
-Y gracias por comentarme lo de las operaciones. De verdad que me alegro que estés bien y que aún pasando por ellas, no te afecten en gran medida
-Aunque ya lo sabes, estoy para lo que sea y gracias por comentarme sobre ello, de corazón te lo digo
+	Y gracias por comentarme lo de las operaciones. De verdad que me alegro que estés bien y que aún pasando por ellas, no te afecten en gran medida
+	Aunque ya lo sabes, estoy para lo que sea y gracias por comentarme sobre ello, de corazón te lo digo
 
-Sin dudarlo, le respondí.
+	Sin dudarlo, le respondí.
 
-[i]No te preocupes, no pasa nada ^^
-[i]Y me parece bien que nos veamos mañana de nuevo
-[i]Gracias a ti por escuchar y por tus palabras ^^
+	[i]No te preocupes, no pasa nada ^^
+	[i]Y me parece bien que nos veamos mañana de nuevo
+	[i]Gracias a ti por escuchar y por tus palabras ^^
 
-[i]Te iba a escuchar sí o sí, ya que aparte del tema y la importancia del mismo en sí, me pareces una persona increíble y me siento muy cómodo contigo, la verdad. Espero transmitir lo mismo, me gusta tu forma de pensar y quién eres como persona, técnicamente eres genial en resumidas cuentas y agradezco la confianza que me das para contarme las cosas aún conociéndonos poco ^^ 
+	[i]Te iba a escuchar sí o sí, ya que aparte del tema y la importancia del mismo en sí, me pareces una persona increíble y me siento muy cómodo contigo, la verdad. Espero transmitir lo mismo, me gusta tu forma de pensar y quién eres como persona, técnicamente eres genial en resumidas cuentas y agradezco la confianza que me das para contarme las cosas aún conociéndonos poco ^^ 
 
-do set_background("habitacion1")
-No entiendo cómo se podía ser tan tierno, pero no podía distraerme más.
-~ seSalta
-Seguí estudiando y haciendo ejercicios el resto del día para aprenderme bien los conceptos y hacer bien el examen que tenía al día siguiente.
-Pareció que así fue.
+	do set_background("habitacionMasOscura")
+	No entiendo cómo se podía ser tan tierno, pero no podía distraerme más.
+	~ seSalta
+	do set_background("habitacionAtardecer")
+	Seguí estudiando y haciendo ejercicios el resto del día para aprenderme bien los conceptos y hacer bien el examen que tenía al día siguiente.
+	Pareció que así fue.
 
-do set_background("clase")
-Hice el examen tranquila.
-No sentía que me había salido tan mal como esperaba, por lo que salí de clase contenta.
+	do set_background("clase")
+	Hice el examen tranquila.
+	No sentía que me había salido tan mal como esperaba, por lo que salí de clase contenta.
 
-#*fondo calle*
-En cuanto estuve fuera del centro, vi a alguien que se me hacia conocido.
-¿Era él?
-Me estaba esperando.
-Llevaba 20 minutos de más fuera, en la calle, para esperarme.
-Y él, por lo que me contó, debía coger un autobús.
+	do set_background("calleDia")
+	En cuanto estuve fuera del centro, vi a alguien que se me hacia conocido.
+	¿Era él?
+	Me estaba esperando.
+	Llevaba 20 minutos de más fuera, en la calle, para esperarme.
+	Y él, por lo que me contó, debía coger un autobús.
 
-Me dio tanta pena que en cuanto lo vi, me disculpé con él.
+	Me dio tanta pena que en cuanto lo vi, me disculpé con él.
 
-Mateo: No te preocupes, ¿te salió bien el examen?
-Kristine: Sí. Bastante bien.
-Mateo: Me alegro.
+	do show_character("mateo", "izq", "hablaNormal")
+	do show_character("kristine", "derecha", "sinHablar")
+	Mateo: No te preocupes, ¿te salió bien el examen?
+	do show_character("mateo", "izq", "sinHablar")
+	do show_character("kristine", "derecha", "hablaAlegre")
+	Kristine: Sí. Bastante bien.
+	do show_character("mateo", "izq", "hablaAlegre")
+	do show_character("kristine", "derecha", "sinHablar")
+	Mateo: Me alegro.
+	do show_character("kristine", "derecha", "feliz")
+	do show_character("mateo", "izq", "feliz")
 
-Le pregunté sobre su día y estuvimos hablando durante todo el trayecto hasta mi casa. Vivía mucho más cerca del instituto que él. 
-Cuando llegamos iba a despedirme, pero se adelantó con algo que no esperaba.
+	Le pregunté sobre su día y estuvimos hablando durante todo el trayecto hasta mi casa. Vivía mucho más cerca del instituto que él. 
+	Cuando llegamos iba a despedirme, pero se adelantó con algo que no esperaba.
 
-Mateo: Oye, a todo esto, ¿podría tener tu número?
+	do show_character("mateo", "izq", "hablaNormal")
+	do show_character("kristine", "derecha", "sinHablar")
+	Mateo: Oye, a todo esto, ¿podría tener tu número?
+	do show_character("mateo", "izq", "sinHablar")
 
-Aunque me pilló desprevenida, le respondí.
+	Aunque me pilló desprevenida, le respondí.
+	do show_character("kristine", "derecha", "hablaAlegre")
+	Kristine: Claro.
+	do show_character("kristine", "derecha", "sinHablar")
 
-Kristine: Claro.
+	Sacó su móvil y le dí mi número.
+	No quería que estuviera mal, por lo que me aseguré de que lo apuntó correctamente y luego lo guardó. 
 
-Sacó su móvil y le dí mi número.
-No quería que estuviera mal, por lo que me aseguré de que lo apuntó correctamente y luego lo guardó. 
+	do hide_character("izq")
+	do hide_character("derecha")
+	do set_background("habitacionMasOscura")
+	Justamente al llegar a mi casa recibí una notificación:
 
-do set_background("habitacion1")
-Justamente al llegar a mi casa recibí una notificación:
+	#*movil ya como si fuera whatsapp*
+	[i]Holaaaa soy Mateo
 
-#*movil ya como si fuera whatsapp*
-[i]Holaaaa soy Mateo
+	Al verlo, por alguna razón, sonreí al instante. Y le respondí, por supuesto.
 
-Al verlo, por alguna razón, sonreí al instante. Y le respondí, por supuesto, al mensaje.
+	do set_background("negroo")
+	Desde ese día hablábamos bastante.
 
-do set_background("negro")
-Desde ese día hablábamos bastante.
+	En Navidad, aunque no lo pasé tan bien como esperé, pude quedar con mi mejor amiga y con él. No creí que después de haberlo pasado tan mal en ese invierno, llegaría un descanso.
+	do set_background("fucsiaMuyOscuro")
+	En parte, esa luz empezó a llegar gracias a él, Mateo, quien me alegraba algunos días; a veces con bromas, a veces con algún vídeo que me mandaba y otras veces porque simplemente me contaba cosas que no sabía sobre él.
 
-En Navidad, aunque no lo pasé tan bien como esperé, pude quedar con mi mejor amiga y con él. No creí que después de haberlo pasado tan mal en ese invierno, llegaría un descanso.
-*de negro a azul claro o algo por el estilo(?/rosa(?*
-En parte, esa luz empezó a llegar gracias a él, Mateo, quien me alegraba algunos días; a veces con bromas, a veces con algún vídeo que me mandaba y otras veces porque simplemente me contaba cosas que no sabía sobre él.
+	Esas vacaciones de invierno me sirvieron para dos cosas o bueno, tres; despejarme, aprender y adelantar algunos trabajos y también para conocer mejor a Mateo, quien, con rapidez, se convirtió en un gran amigo para mí.
 
-Esas vacaciones de invierno me sirvieron para dos cosas o bueno, tres; despejarme, aprender y adelantar algunos trabajos y también para conocer mejor a Mateo, quien, con rapidez, se convirtió en un gran amigo para mí.
+	Sin darme cuenta del paso del tiempo, ya casi era mi cumpleaños; 24 de enero.
+	No obstante, no esperaba lo que sucedería después.
 
-Sin darme cuenta del paso del tiempo, ya casi era mi cumpleaños; 24 de enero.
-No obstante, no esperaba lo que sucedería después.
+	do set_background("habitacionNoche")
+	Mi cumpleaños fue bien, Mateo me felicitó justo a las 00:00 y el resto del día fue normal. 
+	do set_background("habitacionAtardecer")
+	El 25 de enero tenía un examen, por lo que estuve estudiando en mi cumple. 
 
-do set_background("habitacion1")
-Mi cumpleaños fue bien, Mateo me felicitó justo a las 00:00 y el resto del día fue normal. 
-El 25 de enero tenía un examen, por lo que estuve estudiando en mi cumple. 
+	do set_background("habitacion1")
+	Aquel día me desperté rara, pero no era una excusa para faltar, claro que no, tenía un examen importante de programación que hacer.
+	Si algo aprendí de bachillerato, era que, pasara lo que pasara, no podías faltar a los exámenes. Tenías que hacerlo sí o sí, así que no ir a clase no era una opción.
+	Debía hacer y aprobar ese examen.
 
-Aquel día me desperté rara, pero no era una excusa para faltar, claro que no, tenía un examen importante de programación que hacer.
-Si algo aprendí de bachillerato, era que, pasara lo que pasara, no podías faltar a los exámenes. Tenías que hacerlo sí o sí, así que no ir a clase no era una opción.
-Debía hacer y aprobar ese examen.
+	Me levanté de la cama y, una vez lista, me dirigí a clases con los apuntes en mano.
 
-Me levanté de la cama y, una vez lista, me dirigí a clases con los apuntes en mano.
+	do set_background("clase")
+	Mientras hacía el examen, comencé a notar algunos mareos, pero no le di importancia. Lo que no sabía era que aquello sería la peor decisión que tomaría.
 
-do set_background("clase")
-Mientras hacía el examen, comencé a notar algunos mareos, pero no le di importancia. Lo que no sabía era que aquello sería la peor decisión que tomaría.
+	Empiezo a encontrarme muy rara...
+	do cargarSiguienteCap("cap4")
 
-Empiezo a encontrarme muy rara...
-
-=> END
+	=> END

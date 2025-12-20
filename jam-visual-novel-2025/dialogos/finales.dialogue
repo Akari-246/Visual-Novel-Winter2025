@@ -3,7 +3,7 @@ Has llegado al final de la historia.
 => END
 
 ~ finalCanon
-do set_background("negro")
+do set_background("negroo")
 La anterior navidad no la pasé muy bien que digamos por culpa de las disputas familiares. Esta vez, este año no sería diferente, además, mi abuelo había fallecido, por lo que era peor que el anterior. Y a eso sumándole el hecho de que habían tenido que operarme de nuevo no hace mucho por urgencia; sepsis y peritonitis de nuevo.
 Pensé que estas vacaciones serían de las peores, pero, en cierta parte, me equivoqué.
 
@@ -11,36 +11,62 @@ Estaba viva. Debía aprovechar eso.
 Había sobrevivido ante algo que casi nadie ha conseguido y, aunque estaba cansada de sobrevivir ante tanta lucha tras años de operaciones y pruebas constantes, había una persona que hacía de mi vida una lucha con sentido.
 Mateo.
 
-#*fondo calle*
+do set_background("calleDia")
 Ya era notorio el frío de diciembre.
 Habíamos pasado la tarde simplemente caminando por la ciudad ya alumbrada con las luces de Navidad hablando de todo y de nada a la vez.
 
-#*fondo de portal/entrada del edificio*
+do set_background("entradaPortal")
+do show_character("mateo", "izq", "sinHablar")
+do show_character("kristine", "derecha", "sinHablar")
 Al entrar en el portal de mi casa junto a mi acompañante para refugiarnos del frío, noté que me quería decir algo.
 Le di el tiempo necesario para que hablara. Intentaba mirarlo con cariño y no con curiosidad.
 El portal estaba decorado con un muñeco de nieve de plástico y varias cajas que simulaban ser regalos. Arriba del ascensor había un letrero en el que ponía “Feliz Navidad”. Intenté enfocarme en el decorado para no ponerlo nervioso.
 
+
+do show_character("mateo", "izq", "hablaAlegre")
 Mateo: Quiero darte algo. De parte de mi madre y mía, claro.
+do show_character("mateo", "izq", "feliz")
+do show_character("kristine", "derecha", "hablaNormal")
 Kristine: ¿Qué es?
+do show_character("mateo", "izq", "hablaAlegre")
+do show_character("kristine", "derecha", "seria")
 Mateo: Míralo por ti misma.
+do show_character("mateo", "izq", "feliz")
+do show_character("kristine", "derecha", "seria")
 
 Luego de que dijera eso, me dio una bolsa pequeña.
 Curiosa, cogí la bolsita y la abrí para encontrarme con una cajita.
+do show_character("kristine", "derecha", "feliz")
 Una vez vi su contenido me asombré ante el detalle tan bonito que habían tenido su madre y él.
 
-Kristine: Muchas gracias… Tu regalo va a tardar un poco en llegar, ¿te lo dije?
+do show_character("mateo", "izq", "feliz")
+do show_character("kristine", "derecha", "feliz")
+Kristine: Muchas gracias… 
+do show_character("kristine", "derecha", "hablaPreocupada")
+Kristine: Tu regalo va a tardar un poco en llegar, ¿te lo dije?
+do show_character("mateo", "izq", "hablaAlegre")
+do show_character("kristine", "derecha", "intentoSonrisa")
 Mateo: Sí, tranquila. No te preocupes por eso. ¿Quieres que te lo ponga?
+do show_character("mateo", "izq", "feliz")
+do show_character("kristine", "derecha", "hablaAlegre")
 Kristine: Por favor.
+do show_character("kristine", "derecha", "feliz")
 
 Agradecí que lo preguntara él. A pesar de que llevábamos ya casi 1 año juntos, me apenaba un poco pedirle favores como uno tan simple como poner un colgante.
 
+do show_character("kristine", "derecha", "hablaAlegre")
 Kristine: Es precioso.
+do show_character("kristine", "derecha", "feliz")
 Con cariño, acuné su cara entre mis manos.
 
+do show_character("kristine", "derecha", "hablaAlegre")
 Kristine: Muchas gracias.
+do show_character("kristine", "derecha", "feliz")
 Él sólo sonrió y agachó un poco su cabeza para estar a mi altura.
 
+do show_character("mateo", "izq", "hablaAlegre")
 Mateo: No es nada.
+do show_character("mateo", "izq", "feliz")
 
 Cuando terminó de hablar, separó mis manos de su rostro para abrazarme.
 Segundos después, nos distanciamos un poco para mirarnos fijamente.
@@ -49,10 +75,16 @@ Impaciente, no pude esperar más y lo besé.
 Fue lento y cálido. Contrastaba con el frío que hacía tanto dentro como fuera. 
 Era un beso seguro, sin prisas, sin accidentes. Uno bien dado, por cierto, no hubo ninguna broma después.
 
+do show_character("kristine", "derecha", "hablaAlegre")
 Kristine: Feliz Navidad.
+do show_character("mateo", "izq", "hablaAlegre")
+do show_character("kristine", "derecha", "feliz")
 Mateo: Feliz Navidad, mi amor.
+do show_character("mateo", "izq", "feliz")
 
-do set_background("negro")
+do hide_character("izq")
+do hide_character("derecha")
+do set_background("negroo")
 Y bueno, podría contar mucho más, pero, para eso, prefiero dejarlo aquí.
 
 Gracias por haberme acompañado en esta pequeña historia.
@@ -66,9 +98,11 @@ Ahora sí, me despido de ti, querido jugador.
 # FINALES MALOS 
 # ========================================
 ~ finalMalo
-[bg negro]
-Al final, con el paso del tiempo, Mateo comenzó a hablarme menos.
-Aquellas conversaciones que teníamos disminuyeron.
+do set_background("negroo")
+Sin embargo, sucedió algo que no esperaba. O quizá sí, pero no quise reconocerlo.
+
+Justo cuando creí que iba a ser más cercana a Mateo, con el paso del tiempo, comenzó a hablarme menos.
+Aquellas conversaciones que teníamos disminuyeron y ya no me respondía tan frecuente como antes.
 Tal vez, lo tenía merecido.
 Al fin y al cabo, en ocasiones no fui muy agradable con él...
 
@@ -86,14 +120,16 @@ No debí de comportarme de esa forma con él...
 => opGameOver
 
 ~ finalEstupido
+do set_background("negroo")
 [wait=2.0]
-[center][b][color=red] ━━━━━━━━━━━━━━━━━━ FINAL EStÚPIDO ━━━━━━━━━━━━━━━━━━ \n[center][b][color=white]Muerte inmediata[center][b][color=red]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[center][b][color=red] ━━━━━━━━━━━━━━━━━━ FINAL ESTÚPIDO ━━━━━━━━━━━━━━━━━━ \n[center][b][color=white]Muerte inmediata[center][b][color=red]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [wait=2.0]
 [center]No pudieron operar a Kristine y, para colmo, murió por tu culpa. Enhorabuena.[/center]
 [wait=2.0]
 => opGameOver
 
 ~ soloAmigos
+do set_background("negroo")
 No. Por supuesto que no.
 ¿Y si me rechaza? ¿Y si luego nuestra amistad no vuelve a ser la misma?
 No puedo arriesgarme, no si vuelvo a perder a alguien que quiero por un desliz...
@@ -121,10 +157,18 @@ Ojalá hubiera tenido el valor suficiente para admitir la realidad...
 => opGameOver
 
 ~ finalCobarde
+do show_character("mateo", "izq", "hablaPreocupado")
+do show_character("kristine", "derecha", "seria")
 Mateo: Oye, ¿te pasa algo?
+do show_character("mateo", "izq", "trite")
+do show_character("kristine", "derecha", "hablaNormal")
 Kristine: No, nada. No te preocupes
+do show_character("kristine", "derecha", "intentoSonrisa")
+do show_character("mateo", "izq", "serio")
 Le sonreí para convencerle de que de verdad no pasaba nada, cosa que logré.
 
+do show_character("kristine", "derecha", "sinHablar")
+do show_character("mateo", "izq", "sinHablar")
 No puedo darle la carta. Por supuesto que no.
 ¿Qué pasa si se ríe en mi cara una vez sepa de mis sentimientos?
 ¿Y si rompe la carta? ¿Y si le prende fuego? ¿Y si, en cuanto sepa lo que siento, se intenta aprovechar de mí?
@@ -136,6 +180,9 @@ Da miedo.
 No quiero pasar por nada malo.
 No puedo dejar que fragmenten mi corazón en pedacitos. No más veces.
 
+do hide_character("izq")
+do hide_character("derecha")
+do set_background("negroo")
 Después de esa quedada, algo cambió dentro de mí.
 Era consciente de lo que sentía por Mateo, pero nunca me atreví a contárselo.
 
@@ -149,27 +196,50 @@ Por suerte, fuimos amigos por mucho tiempo, pero, muy dentro de mí, me hubiera 
 => opGameOver
 
 ~ demasiadasMentiras
-[bg negro]
+¡Oh, no!
+do hide_character("izq")
+do hide_character("derecha")
+do set_background("negroo")
 [wait=1.0]
 [center]Has acumulado [color=red][b]demasiadas[/b][/color] mentiras...[/center]
 [wait=2.0]
-[bg clase]
+do set_background("clase")
 Un día como otro cualquiera, salí de clases. No obstante, me encontré a la salida con Mateo.
+do set_background("calleDia")
+do show_character("mateo", "izq", "serio")
 Justo cuando iba a hablarle, dijo algo que no esperaba...
 
+do show_character("kristine", "derecha", "seria")
+do show_character("mateo", "izq", "hablaNormal")
 Mateo: Kristine... ya no puedo más.
+do show_character("mateo", "izq", "serio")
 Lo dijo tan serio que me extrañó. Nunca lo había visto así.
+
+do show_character("kristine", "derecha", "hablaPreocupada")
+do show_character("mateo", "izq", "serio")
 Kristine: ¿Qué quieres decir?
-Mateo: Has mentido tantas veces que ya no sé qué es real de ti y qué no. Lo siento, pero no puedo confiar en alguien así, no si sigues mintiendo.
+do show_character("kristine", "derecha", "seria")
+do show_character("mateo", "izq", "hablaNormal")
+Mateo: Has mentido tantas veces que ya no sé qué es real de ti y qué no. 
+do show_character("mateo", "izq", "hablaPreocupado")
+Mateo: Lo siento, pero no puedo confiar en alguien así, no si sigues mintiendo.
+do show_character("mateo", "izq", "serio")
 
 Abrí la boca para decir algo, pero no me salieron las palabras.
+do show_character("kristine", "derecha", "hablaTrite")
 Kristine: Lo siento...
+do show_character("kristine", "derecha", "seria")
+do show_character("mateo", "izq", "hablaNormal")
 Mateo: Yo también.
+do show_character("kristine", "derecha", "sinHablar")
+do show_character("mateo", "izq", "sinHablar")
 
 Intenté pensar en alguna frase más que tuviera sentido, incluso explicarle, sin embargo, para las mentiras no suele haber excusa que lo justifique.
 No sabía qué más decir a excepción de una sincera disculpa.
+do hide_character("izq")
 Iba a decir algo, pero él se alejó.
-[bg negro]
+do hide_character("derecha")
+do set_background("negroo")
 Desde ese día, como era de esperar, no volvió a dirigirme la palabra.
 Por desgracia, las cosas con Mateo no volvieron a ser como antes. Su confianza en mí no volvió, inclusive intenté hablarle en algunas ocasiones, pero se notaba que la conversación era forzada...
 La amistad que teníamos se rompió. Y no sé porqué me extraña, si era evidente que tarde o temprano pasara, puesto que casi nunca de lo que le decía era verdad... Desearía haber sido más sincera.
@@ -189,25 +259,12 @@ Perdí una gran amistad que pudo llegar a algo más...
 [center]Elige una opción[/center]
 - Volver a intentar 
 	=> reintentar
-- Ver estadísticas 
-	=> mostrarStats
 - Ir al menú principal 
 	=> menu
 
 ~ reintentar
 do retry_game()
 => END
-
-~ mostrarStats
-[center][b]═══════════════════[center][b]ESTADÍSTICAS[center][b]═══════════════════[/b][/center]
-Puntos con Mateo.
-do SistemaPuntos.obtenerPuntos("mateo")
-
-Puntos negativos acumulados.
-do SistemaPuntos.obtenerPuntosNegativos()/SistemaPuntos.maxPuntos
-#Puntos con Mateo: {SistemaPuntos.obtenerPuntos("mateo")}
-#Puntos negativos acumulados: {SistemaPuntos.obtenerPuntosNegativos()}/{SistemaPuntos.maxPuntos}
-[wait=2.0]
 
 - Volver a intentar => reintentar
 - Ir al menú principal => menu
@@ -217,13 +274,15 @@ do get_tree().change_scene_to_file("res://escenas/menu.tscn")
 => END
 
 ~ creditos
-[bg negro]
+do set_background("negroo")
 [center][b]━━━━━━━━━━━━━━━━━━━━ \n[center][b]CRÉDITOS \n[center][b]━━━━━━━━━━━━━━━━━━━━[/b][/center]
 [wait=1.0]
 [center]Una historia, escrita por mí; \n[center][b]Akari[/b]\n[center] Historia inspirada en algo que sucedió de verdad
 [wait=2.0]
 [center]Creado con \n[center]Godot Engine 4 \n[center]Y Dialogue Manager 3[/center]
-[wait=2.0]
+[center]Herramientas usadas para los assets: \n[center]Ibis paint X y Krita\n[center]
+[wait=2] Agradecimientos especiales a mis amigas por ayudarme y a mi novio por hacer de esta historia una real.
+[center] 
 [center]¡Gracias por jugar! \n :D[/center]
 [wait=2.0]
 
