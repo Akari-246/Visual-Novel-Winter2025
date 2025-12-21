@@ -4,17 +4,26 @@ extends Control
 @export var options_container: Control  # Asegúrate de asignar MenuOp aquí en inspector
 @export var options: Control
 @export var controls: Control
-
 @onready var play_button: Button = $VBoxContainer/start
 @onready var options_button: Button = $VBoxContainer/op
+@onready var exit_button = $VBoxContainer/exit #$MenuOp/PanelContainer/opciones/exit
 
 var change_control := ""
 var change_button: Button
 
 func _ready():
 	Audio.music_nivel(-3.0)
+	IdiomaManager.idioma_cambiado.connect(_actualizar_textos)
+	# Aplicar textos iniciales
+	_actualizar_textos("")
 	if play_button:
 		play_button.grab_focus()
+
+func _actualizar_textos(_idioma: String = ""):
+	play_button.text = tr("ui_jugar")
+	options_button.text = tr("ui_opciones")
+	if exit_button:
+		exit_button.text = tr("ui_salir")
 
 func _on_start_pressed() -> void:
 	Audio.pulsar_btn()
@@ -46,6 +55,6 @@ func _on_options_menu_closed():
 		options_button.focus_mode = Control.FOCUS_ALL
 		options_button.grab_focus()
 
-func _on_option_button_item_selected(index: int) -> void:
-	var game_manager = get_tree().get_root().get_node("Main/GameManager")
-	game_manager.change_language(index)
+#func _on_option_button_item_selected(index: int) -> void:
+	#var game_manager = get_tree().get_root().get_node("Main/GameManager")
+	#game_manager.change_language(index)

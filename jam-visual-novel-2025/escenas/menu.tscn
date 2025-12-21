@@ -1,4 +1,4 @@
-[gd_scene load_steps=28 format=3 uid="uid://yh25m23sqpra"]
+[gd_scene load_steps=29 format=3 uid="uid://yh25m23sqpra"]
 
 [ext_resource type="Script" uid="uid://h5nf74m70ijk" path="res://scripts/menuManager.gd" id="1_2owot"]
 [ext_resource type="FontFile" uid="uid://dg14kclf6jted" path="res://assets/fonts/libre baskeville/LibreBaskerville-Regular.ttf" id="2_2owot"]
@@ -10,6 +10,7 @@
 [ext_resource type="Script" uid="uid://dqspm13v3xdwh" path="res://scripts/audioControl.gd" id="5_xqndx"]
 [ext_resource type="AudioStream" uid="uid://crmiavqkqlsw4" path="res://assets/audio/SFX/recogeObjetoAgudo.wav" id="6_4gv4q"]
 [ext_resource type="AudioStream" uid="uid://s21h87br30r6" path="res://assets/audio/SFX/sfxBarraVol.wav" id="6_yb3qj"]
+[ext_resource type="Script" uid="uid://dgyuojqnf5dq2" path="res://scripts/selectorIdiomas.gd" id="7_i5l0x"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6cq3m"]
 bg_color = Color(0.14509805, 0.5294118, 0.77254903, 0.76862746)
@@ -155,7 +156,7 @@ theme_override_font_sizes/font_size = 56
 theme_override_styles/normal = SubResource("StyleBoxFlat_6cq3m")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_5t3kx")
 theme_override_styles/hover = SubResource("StyleBoxFlat_builu")
-text = "start"
+text = "ui_empezar"
 
 [node name="op" type="Button" parent="VBoxContainer"]
 layout_mode = 2
@@ -164,7 +165,7 @@ theme_override_font_sizes/font_size = 56
 theme_override_styles/normal = SubResource("StyleBoxFlat_56ah5")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_xqndx")
 theme_override_styles/hover = SubResource("StyleBoxFlat_20bhr")
-text = "options"
+text = "ui_opciones"
 
 [node name="exit" type="Button" parent="VBoxContainer"]
 layout_mode = 2
@@ -173,7 +174,7 @@ theme_override_font_sizes/font_size = 56
 theme_override_styles/normal = SubResource("StyleBoxFlat_yb3qj")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_4gv4q")
 theme_override_styles/hover = SubResource("StyleBoxFlat_lji1a")
-text = "exit"
+text = "ui_salir"
 
 [node name="Audio" type="AudioStreamPlayer" parent="VBoxContainer"]
 
@@ -226,13 +227,14 @@ metadata/_tab_index = 0
 
 [node name="Label" type="Label" parent="MenuOp/PanelContainer/opciones/TabContainer/idioma"]
 layout_mode = 2
-text = "idiomas"
+text = "ui_idiomas"
 
 [node name="OptionButton" type="OptionButton" parent="MenuOp/PanelContainer/opciones/TabContainer/idioma"]
 layout_mode = 2
 theme_override_styles/normal = SubResource("StyleBoxFlat_i5l0x")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_6m0pt")
 fit_to_longest_item = false
+script = ExtResource("7_i5l0x")
 
 [node name="volumen" type="VBoxContainer" parent="MenuOp/PanelContainer/opciones/TabContainer" node_paths=PackedStringArray("general", "musica", "efectos", "audioPlayer", "barraPlayer")]
 visible = false
@@ -252,7 +254,7 @@ layout_mode = 2
 size_flags_horizontal = 4
 theme_override_fonts/font = ExtResource("5_5t3kx")
 theme_override_font_sizes/font_size = 34
-text = "Volumen"
+text = "ui_audio"
 
 [node name="Label2" type="Label" parent="MenuOp/PanelContainer/opciones/TabContainer/volumen"]
 layout_mode = 2
@@ -270,7 +272,7 @@ theme_override_constants/separation = 13
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_2owot")
 theme_override_font_sizes/font_size = 18
-text = "Volumen general"
+text = "ui_volumenGeneral"
 
 [node name="menosG" type="Button" parent="MenuOp/PanelContainer/opciones/TabContainer/volumen/mainBox"]
 layout_mode = 2
@@ -294,7 +296,7 @@ theme_override_constants/separation = 13
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_2owot")
 theme_override_font_sizes/font_size = 18
-text = "Música"
+text = "ui_volumenMusica"
 
 [node name="menosM" type="Button" parent="MenuOp/PanelContainer/opciones/TabContainer/volumen/musicaBox"]
 layout_mode = 2
@@ -318,7 +320,7 @@ theme_override_constants/separation = 13
 layout_mode = 2
 theme_override_fonts/font = ExtResource("2_2owot")
 theme_override_font_sizes/font_size = 18
-text = "Efectos sonido"
+text = "ui_sfx"
 
 [node name="menosSFX" type="Button" parent="MenuOp/PanelContainer/opciones/TabContainer/volumen/sfxBox"]
 layout_mode = 2
@@ -351,7 +353,7 @@ theme_override_font_sizes/font_size = 36
 theme_override_styles/normal = SubResource("StyleBoxFlat_yb3qj")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_4gv4q")
 theme_override_styles/hover = SubResource("StyleBoxFlat_11hni")
-text = "exit"
+text = "ui_salir"
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="MenuOp"]
 root_node = NodePath("../..")

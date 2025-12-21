@@ -1,0 +1,14 @@
+key,es,en
+ui_jugar,Jugar,Play
+ui_opciones,Opciones,Options
+ui_salir,Salir,Exit
+ui_continuar,Continuar,Continue
+ui_idiomas,Idiomas,Languages
+ui_audio,Audio,Audio
+ui_volumenGeneral,Volumen General,Master Volume
+ui_volumenMusica,Volumen Música,Music Volume
+ui_sfx,Volumen Efectos,Sound Effects Volume
+ui_volver,Volver,Back
+btn_aceptar,Aceptar,Accept
+btn_cancelar,Cancelar,Cancel
+ui_empezar,Empezar,Start

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://c8kbje62je367"]
+
+[ext_resource type="Script" uid="uid://b7mah1wj836sj" path="res://scripts/idiomas.gd" id="1_l1y2s"]
+
+[node name="idioma" type="Node"]
+script = ExtResource("1_l1y2s")

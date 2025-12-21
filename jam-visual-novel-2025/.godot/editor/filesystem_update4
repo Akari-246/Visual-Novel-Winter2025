@@ -6,3 +6,5 @@ res://escenas/game.tscn
 res://scripts/gameManager.gd
 res://scripts/sistemaPuntos.gd
 res://escenas/menu.tscn
+res://scripts/idiomas.gd
+res://scripts/selectorIdiomas.gd

@@ -83,15 +83,16 @@ var posicionCharacter = {
 var bad_ending = false
 var dialogue_resource: DialogueResource
 var balloon_actual = null
-var skip_activo = false
-var velocidad_skip = 0.05
 var is_paused = false
 
 func _ready():
 	Game.manager = self
+	#dialogue_resource = load("res://dialogos/es/inicio.dialogue")
 	
-	dialogue_resource = load("res://dialogos/inicio.dialogue")
-	
+	IdiomaManager.idioma_cambiado.connect(_on_idioma_cambiado)
+	var ruta_dialogo := IdiomaManager.obtener_ruta_dialogo("inicio")
+	dialogue_resource = load(ruta_dialogo)
+
 	DialogueManager.dialogue_ended.connect(_on_dialogue_ended)
 	close_button.pressed.connect(_on_close_info_panel)
 	SistemaPuntos.maxPuntosNegativos.connect(inicioMaxNegativos)
@@ -104,7 +105,6 @@ func _ready():
 	$menuPausa/MenuOp.visible = false
 	opSubMenu.hide()
 
-	
 	# Conectar botones del menú de pausa (con verificación para evitar duplicados)
 	if not continuar.is_connected("pressed", _on_continuar_pressed):
 		continuar.pressed.connect(_on_continuar_pressed)
@@ -126,6 +126,14 @@ func _ready():
 		audio_ctrl.sliders()  # Llama a sliders() para sincronizar con el volumen actual
 	
 	start_dialogue()
+	
+# ====== para idioma ======
+func _on_idioma_cambiado(nuevo_idioma: String):
+	# Actualizar textos del menú de pausa
+	continuar.text = tr("MENU_CONTINUAR")
+	salir.text = tr("MENU_SALIR")
+	opciones.text = tr("MENU_OPCIONES")
+
 
 # ====== DIALOGO ======
 func start_dialogue():
@@ -266,7 +274,9 @@ func _on_dialogue_ended(_resource: DialogueResource):
 
 func cargarSiguienteCap(nombreCap: String):
 	await get_tree().create_timer(0.5).timeout
-	dialogue_resource = load("res://dialogos/" + nombreCap + ".dialogue")
+	var ruta := IdiomaManager.obtener_ruta_dialogo(nombreCap)
+	dialogue_resource = load(ruta)
+	#dialogue_resource = load("res://dialogos/" + nombreCap + ".dialogue")
 	balloon_actual = DialogueManager.show_example_dialogue_balloon(dialogue_resource, "start")
 	configBalloon()
 
@@ -275,7 +285,9 @@ func inicioMaxNegativos():
 
 func cargarFinal(nombreFinal: String):
 	await get_tree().create_timer(0.5).timeout
-	dialogue_resource = load("res://dialogos/finales.dialogue")
+	var ruta:= IdiomaManager.obtener_ruta_dialogo("finales")
+	dialogue_resource = load(ruta)
+	#dialogue_resource = load("res://dialogos/finales.dialogue")
 	balloon_actual = DialogueManager.show_example_dialogue_balloon(dialogue_resource, nombreFinal)
 	configBalloon()
 
@@ -370,10 +382,11 @@ func _on_options_exit_pressed():
 	opciones.grab_focus()
 
 func _on_option_button_item_selected(index: int):
-	change_language(index)
+	var idiomas := ["es", "en"]
+	if index < idiomas.size():
+		IdiomaManager.cambiar_idioma(idiomas[index])
 
 func change_language(index: int):
-	# Implementa el cambio de idioma aquí (ej. cambiar textos, guardar en configuración)
 	print("Idioma cambiado a índice: " + str(index))
 	# Ejemplo: TranslationServer.set_locale("es" if index == 0 else "en")
 
