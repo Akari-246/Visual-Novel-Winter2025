@@ -13,7 +13,7 @@ var change_button: Button
 
 func _ready():
 	#añadir para sonar musica
-	#Audio.music_nivel(-3.0)
+	Audio.music_nivel(-3.0)
 	if play_button:
 		play_button.grab_focus()
 

@@ -120,6 +120,7 @@ No debí de comportarme de esa forma con él...
 => opGameOver
 
 ~ finalEstupido
+do Audio.change_music(Audio.finalEstupido2)
 do set_background("negroo")
 [wait=2.0]
 [center][b][color=red] ━━━━━━━━━━━━━━━━━━ FINAL ESTÚPIDO ━━━━━━━━━━━━━━━━━━ \n[center][b][color=white]Muerte inmediata[center][b][color=red]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

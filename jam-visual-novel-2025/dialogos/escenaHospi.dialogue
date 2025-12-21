@@ -89,6 +89,7 @@ En cuestión de horas ya estaba en casa. Se podría decir con el cuerpo de antes
 Pocos días después fui retomando la rutina de ir a clases, estudiar lo necesario y hacer las tareas atrasadas que tenía pendientes, además de los exámenes, claro.
 
 do set_background("habitacion1")
+do Audio.change_music(Audio.noviembre)
 28 de noviembre.
 Al despertarme me fijé que tenía una nueva notificación. Cómo no, de él.
 Era raro empezar de nuevo a acostumbrarme a tener mensajes de una persona, de cierta persona.

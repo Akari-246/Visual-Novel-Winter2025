@@ -6,16 +6,16 @@
 script = ExtResource("1_jmoey")
 using_states = PackedStringArray()
 titles = {
-"creditos": "276",
-"demasiadasMentiras": "198",
+"creditos": "277",
+"demasiadasMentiras": "199",
 "finalCanon": "5",
-"finalCobarde": "159",
+"finalCobarde": "160",
 "finalEstupido": "122",
 "finalMalo": "100",
-"menu": "272",
-"opGameOver": "258",
-"reintentar": "265",
-"soloAmigos": "131",
+"menu": "273",
+"opGameOver": "259",
+"reintentar": "266",
+"soloAmigos": "132",
 "start": "1"
 }
 character_names = PackedStringArray("Mateo", "Kristine", "[center]Herramientas usadas para los assets")
@@ -173,7 +173,7 @@ lines = {
 "119": {
 &"id": "119",
 &"is_snippet": false,
-&"next_id": "258",
+&"next_id": "259",
 &"next_id_after": "",
 &"type": "goto"
 },
@@ -196,6 +196,41 @@ lines = {
 &"id": "122",
 &"mutation": {
 &"expression": Array[Dictionary]([{
+&"i": 3,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 8,
+&"type": &"dot"
+}, {
+&"function": "change_music",
+&"i": 9,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 22,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 27,
+&"type": &"dot"
+}, {
+&"i": 28,
+&"type": &"variable",
+&"value": "finalEstupido2"
+}, {
+&"i": 42,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "123",
+&"type": "mutation"
+},
+"123": {
+&"id": "123",
+&"mutation": {
+&"expression": Array[Dictionary]([{
 &"function": "set_background",
 &"i": 3,
 &"type": &"function",
@@ -210,51 +245,46 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "123",
-&"type": "mutation"
-},
-"123": {
-&"id": "123",
 &"next_id": "124",
-&"text": "[wait=2.0]",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "124": {
 &"id": "124",
 &"next_id": "125",
-&"text": "[center][b][color=red] ━━━━━━━━━━━━━━━━━━ FINAL ESTÚPIDO ━━━━━━━━━━━━━━━━━━ 
-[center][b][color=white]Muerte inmediata[center][b][color=red]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+&"text": "[wait=2.0]",
 &"type": "dialogue"
 },
 "125": {
 &"id": "125",
 &"next_id": "126",
-&"text": "[wait=2.0]",
+&"text": "[center][b][color=red] ━━━━━━━━━━━━━━━━━━ FINAL ESTÚPIDO ━━━━━━━━━━━━━━━━━━ 
+[center][b][color=white]Muerte inmediata[center][b][color=red]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
 &"type": "dialogue"
 },
 "126": {
 &"id": "126",
 &"next_id": "127",
-&"text": "[center]No pudieron operar a Kristine y, para colmo, murió por tu culpa. Enhorabuena.[/center]",
+&"text": "[wait=2.0]",
 &"type": "dialogue"
 },
 "127": {
 &"id": "127",
 &"next_id": "128",
-&"text": "[wait=2.0]",
+&"text": "[center]No pudieron operar a Kristine y, para colmo, murió por tu culpa. Enhorabuena.[/center]",
 &"type": "dialogue"
 },
 "128": {
 &"id": "128",
-&"is_snippet": false,
-&"next_id": "258",
-&"next_id_after": "",
-&"type": "goto"
+&"next_id": "129",
+&"text": "[wait=2.0]",
+&"type": "dialogue"
 },
 "129": {
 &"id": "129",
-&"next_id": "130",
-&"type": ""
+&"is_snippet": false,
+&"next_id": "259",
+&"next_id_after": "",
+&"type": "goto"
 },
 "13": {
 &"id": "13",
@@ -280,10 +310,15 @@ lines = {
 "130": {
 &"id": "130",
 &"next_id": "131",
-&"type": "title"
+&"type": ""
 },
 "131": {
 &"id": "131",
+&"next_id": "132",
+&"type": "title"
+},
+"132": {
+&"id": "132",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "set_background",
@@ -300,54 +335,49 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "132",
-&"type": "mutation"
-},
-"132": {
-&"id": "132",
 &"next_id": "133",
-&"text": "No. Por supuesto que no.",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "133": {
 &"id": "133",
 &"next_id": "134",
-&"text": "¿Y si me rechaza? ¿Y si luego nuestra amistad no vuelve a ser la misma?",
+&"text": "No. Por supuesto que no.",
 &"type": "dialogue"
 },
 "134": {
 &"id": "134",
-&"next_id": "136",
-&"text": "No puedo arriesgarme, no si vuelvo a perder a alguien que quiero por un desliz...",
+&"next_id": "135",
+&"text": "¿Y si me rechaza? ¿Y si luego nuestra amistad no vuelve a ser la misma?",
 &"type": "dialogue"
 },
 "135": {
 &"id": "135",
-&"next_id": "136",
-&"type": ""
+&"next_id": "137",
+&"text": "No puedo arriesgarme, no si vuelvo a perder a alguien que quiero por un desliz...",
+&"type": "dialogue"
 },
 "136": {
 &"id": "136",
 &"next_id": "137",
-&"text": "Después de aquello, los días pasaron y, por alguna maldita razón, lo que sentía por Mateo no cesaba, es más, se intensificaba.",
-&"type": "dialogue"
+&"type": ""
 },
 "137": {
 &"id": "137",
 &"next_id": "138",
-&"text": "Intenté olvidar cualquier sentimiento que tuviera por él y cada vez que estaba a su lado intentaba concentrarme en otras cosas que no fuera él, pero, simplemente, no podía. Era imposible.",
+&"text": "Después de aquello, los días pasaron y, por alguna maldita razón, lo que sentía por Mateo no cesaba, es más, se intensificaba.",
 &"type": "dialogue"
 },
 "138": {
 &"id": "138",
-&"next_id": "140",
-&"text": "Estaba enamorada de Mateo y, por suerte o por desgracia, nadie podría cambiar eso, ni siquiera yo misma.",
+&"next_id": "139",
+&"text": "Intenté olvidar cualquier sentimiento que tuviera por él y cada vez que estaba a su lado intentaba concentrarme en otras cosas que no fuera él, pero, simplemente, no podía. Era imposible.",
 &"type": "dialogue"
 },
 "139": {
 &"id": "139",
-&"next_id": "140",
-&"type": ""
+&"next_id": "141",
+&"text": "Estaba enamorada de Mateo y, por suerte o por desgracia, nadie podría cambiar eso, ni siquiera yo misma.",
+&"type": "dialogue"
 },
 "14": {
 &"id": "14",
@@ -358,58 +388,57 @@ lines = {
 "140": {
 &"id": "140",
 &"next_id": "141",
-&"text": "Juro que intenté seguir siendo su amiga, pero cuando uno guarda esta clase de sentimientos por un amigo, sencillamente la amistad deja de ser una amistad real.",
-&"type": "dialogue"
+&"type": ""
 },
 "141": {
 &"id": "141",
-&"next_id": "143",
-&"text": "Sí, hay cariño real, por supuesto que sí, pero no es lo que quizás él quiere.",
+&"next_id": "142",
+&"text": "Juro que intenté seguir siendo su amiga, pero cuando uno guarda esta clase de sentimientos por un amigo, sencillamente la amistad deja de ser una amistad real.",
 &"type": "dialogue"
 },
 "142": {
 &"id": "142",
-&"next_id": "143",
-&"type": ""
+&"next_id": "144",
+&"text": "Sí, hay cariño real, por supuesto que sí, pero no es lo que quizás él quiere.",
+&"type": "dialogue"
 },
 "143": {
 &"id": "143",
 &"next_id": "144",
-&"text": "Con el tiempo, me di cuenta de que no podía seguir así y me fui alejando de él, pero no por él, sino por mí.",
-&"type": "dialogue"
+&"type": ""
 },
 "144": {
 &"id": "144",
-&"next_id": "146",
-&"text": "Él siempre fue muy bueno conmigo, mas yo no estaba contenta con esa relación. Necesitaba más.",
+&"next_id": "145",
+&"text": "Con el tiempo, me di cuenta de que no podía seguir así y me fui alejando de él, pero no por él, sino por mí.",
 &"type": "dialogue"
 },
 "145": {
 &"id": "145",
-&"next_id": "146",
-&"type": ""
+&"next_id": "147",
+&"text": "Él siempre fue muy bueno conmigo, mas yo no estaba contenta con esa relación. Necesitaba más.",
+&"type": "dialogue"
 },
 "146": {
 &"id": "146",
-&"next_id": "148",
-&"text": "Quería ser su novia, pero nunca me atreví a decirle nada.",
-&"type": "dialogue"
+&"next_id": "147",
+&"type": ""
 },
 "147": {
 &"id": "147",
-&"next_id": "148",
-&"type": ""
+&"next_id": "149",
+&"text": "Quería ser su novia, pero nunca me atreví a decirle nada.",
+&"type": "dialogue"
 },
 "148": {
 &"id": "148",
 &"next_id": "149",
-&"text": "Ojalá me hubiera animado.",
-&"type": "dialogue"
+&"type": ""
 },
 "149": {
 &"id": "149",
-&"next_id": "151",
-&"text": "Ojalá hubiera tenido el valor suficiente para admitir la realidad...",
+&"next_id": "150",
+&"text": "Ojalá me hubiera animado.",
 &"type": "dialogue"
 },
 "15": {
@@ -420,59 +449,70 @@ lines = {
 },
 "150": {
 &"id": "150",
-&"next_id": "151",
-&"type": ""
+&"next_id": "152",
+&"text": "Ojalá hubiera tenido el valor suficiente para admitir la realidad...",
+&"type": "dialogue"
 },
 "151": {
 &"id": "151",
 &"next_id": "152",
-&"text": "[wait=2.0]",
-&"type": "dialogue"
+&"type": ""
 },
 "152": {
 &"id": "152",
 &"next_id": "153",
-&"text": "[center][b][color=cyan] ━━━━━━━━━━━━━━━━━━ FINAL AMIGOS ━━━━━━━━━━━━━━━━━━ 
-[center][b][color=white]Kristine y Mateo fueron buenos amigos[center][b][color=cyan]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+&"text": "[wait=2.0]",
 &"type": "dialogue"
 },
 "153": {
 &"id": "153",
 &"next_id": "154",
-&"text": "[wait=2.0]",
+&"text": "[center][b][color=cyan] ━━━━━━━━━━━━━━━━━━ FINAL AMIGOS ━━━━━━━━━━━━━━━━━━ 
+[center][b][color=white]Kristine y Mateo fueron buenos amigos[center][b][color=cyan]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
 &"type": "dialogue"
 },
 "154": {
 &"id": "154",
 &"next_id": "155",
-&"text": "[center]\"Nunca es malo admitir lo que hay dentro de ti\"[/center]",
+&"text": "[wait=2.0]",
 &"type": "dialogue"
 },
 "155": {
 &"id": "155",
 &"next_id": "156",
-&"text": "[wait=2.0]",
+&"text": "[center]\"Nunca es malo admitir lo que hay dentro de ti\"[/center]",
 &"type": "dialogue"
 },
 "156": {
 &"id": "156",
-&"is_snippet": false,
-&"next_id": "258",
-&"next_id_after": "",
-&"type": "goto"
+&"next_id": "157",
+&"text": "[wait=2.0]",
+&"type": "dialogue"
 },
 "157": {
 &"id": "157",
-&"next_id": "158",
-&"type": ""
+&"is_snippet": false,
+&"next_id": "259",
+&"next_id_after": "",
+&"type": "goto"
 },
 "158": {
 &"id": "158",
 &"next_id": "159",
-&"type": "title"
+&"type": ""
 },
 "159": {
 &"id": "159",
+&"next_id": "160",
+&"type": "title"
+},
+"16": {
+&"id": "16",
+&"next_id": "17",
+&"type": ""
+},
+"160": {
+&"id": "160",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -497,16 +537,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "160",
+&"next_id": "161",
 &"type": "mutation"
 },
-"16": {
-&"id": "16",
-&"next_id": "17",
-&"type": ""
-},
-"160": {
-&"id": "160",
+"161": {
+&"id": "161",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -531,18 +566,18 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "161",
+&"next_id": "162",
 &"type": "mutation"
 },
-"161": {
+"162": {
 &"character": "Mateo",
-&"id": "161",
-&"next_id": "162",
+&"id": "162",
+&"next_id": "163",
 &"text": "Oye, ¿te pasa algo?",
 &"type": "dialogue"
 },
-"162": {
-&"id": "162",
+"163": {
+&"id": "163",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -567,11 +602,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "163",
+&"next_id": "164",
 &"type": "mutation"
 },
-"163": {
-&"id": "163",
+"164": {
+&"id": "164",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -596,18 +631,18 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "164",
+&"next_id": "165",
 &"type": "mutation"
 },
-"164": {
+"165": {
 &"character": "Kristine",
-&"id": "164",
-&"next_id": "165",
+&"id": "165",
+&"next_id": "166",
 &"text": "No, nada. No te preocupes",
 &"type": "dialogue"
 },
-"165": {
-&"id": "165",
+"166": {
+&"id": "166",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -632,11 +667,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "166",
+&"next_id": "167",
 &"type": "mutation"
 },
-"166": {
-&"id": "166",
+"167": {
+&"id": "167",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -661,48 +696,19 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "167",
+&"next_id": "168",
 &"type": "mutation"
-},
-"167": {
-&"id": "167",
-&"next_id": "169",
-&"text": "Le sonreí para convencerle de que de verdad no pasaba nada, cosa que logré.",
-&"type": "dialogue"
 },
 "168": {
 &"id": "168",
-&"next_id": "169",
-&"type": ""
+&"next_id": "170",
+&"text": "Le sonreí para convencerle de que de verdad no pasaba nada, cosa que logré.",
+&"type": "dialogue"
 },
 "169": {
 &"id": "169",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"function": "show_character",
-&"i": 3,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 18,
-&"type": &"string",
-&"value": "kristine"
-}]), Array[Dictionary]([{
-&"i": 30,
-&"type": &"string",
-&"value": "derecha"
-}]), Array[Dictionary]([{
-&"i": 41,
-&"type": &"string",
-&"value": "sinHablar"
-}, {
-&"i": 52,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
 &"next_id": "170",
-&"type": "mutation"
+&"type": ""
 },
 "17": {
 &"id": "17",
@@ -735,6 +741,35 @@ lines = {
 &"value": Array[Array]([Array[Dictionary]([{
 &"i": 18,
 &"type": &"string",
+&"value": "kristine"
+}]), Array[Dictionary]([{
+&"i": 30,
+&"type": &"string",
+&"value": "derecha"
+}]), Array[Dictionary]([{
+&"i": 41,
+&"type": &"string",
+&"value": "sinHablar"
+}, {
+&"i": 52,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "171",
+&"type": "mutation"
+},
+"171": {
+&"id": "171",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
 &"value": "mateo"
 }]), Array[Dictionary]([{
 &"i": 27,
@@ -751,60 +786,54 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "171",
-&"type": "mutation"
-},
-"171": {
-&"id": "171",
 &"next_id": "172",
-&"text": "No puedo darle la carta. Por supuesto que no.",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "172": {
 &"id": "172",
 &"next_id": "173",
-&"text": "¿Qué pasa si se ríe en mi cara una vez sepa de mis sentimientos?",
+&"text": "No puedo darle la carta. Por supuesto que no.",
 &"type": "dialogue"
 },
 "173": {
 &"id": "173",
 &"next_id": "174",
-&"text": "¿Y si rompe la carta? ¿Y si le prende fuego? ¿Y si, en cuanto sepa lo que siento, se intenta aprovechar de mí?",
+&"text": "¿Qué pasa si se ríe en mi cara una vez sepa de mis sentimientos?",
 &"type": "dialogue"
 },
 "174": {
 &"id": "174",
-&"next_id": "176",
-&"text": "O peor, ¿y si le muestra lo que le escribí a alguien más?",
+&"next_id": "175",
+&"text": "¿Y si rompe la carta? ¿Y si le prende fuego? ¿Y si, en cuanto sepa lo que siento, se intenta aprovechar de mí?",
 &"type": "dialogue"
 },
 "175": {
 &"id": "175",
-&"next_id": "176",
-&"type": ""
+&"next_id": "177",
+&"text": "O peor, ¿y si le muestra lo que le escribí a alguien más?",
+&"type": "dialogue"
 },
 "176": {
 &"id": "176",
 &"next_id": "177",
-&"text": "No sé en qué pensé, pero no puedo darle la carta, no si hay tantas posibilidades crueles que puedan pasar.",
-&"type": "dialogue"
+&"type": ""
 },
 "177": {
 &"id": "177",
 &"next_id": "178",
-&"text": "Simplemente, no puedo.",
+&"text": "No sé en qué pensé, pero no puedo darle la carta, no si hay tantas posibilidades crueles que puedan pasar.",
 &"type": "dialogue"
 },
 "178": {
 &"id": "178",
 &"next_id": "179",
-&"text": "Da miedo.",
+&"text": "Simplemente, no puedo.",
 &"type": "dialogue"
 },
 "179": {
 &"id": "179",
 &"next_id": "180",
-&"text": "No quiero pasar por nada malo.",
+&"text": "Da miedo.",
 &"type": "dialogue"
 },
 "18": {
@@ -838,17 +867,23 @@ lines = {
 },
 "180": {
 &"id": "180",
-&"next_id": "182",
-&"text": "No puedo dejar que fragmenten mi corazón en pedacitos. No más veces.",
+&"next_id": "181",
+&"text": "No quiero pasar por nada malo.",
 &"type": "dialogue"
 },
 "181": {
 &"id": "181",
-&"next_id": "182",
-&"type": ""
+&"next_id": "183",
+&"text": "No puedo dejar que fragmenten mi corazón en pedacitos. No más veces.",
+&"type": "dialogue"
 },
 "182": {
 &"id": "182",
+&"next_id": "183",
+&"type": ""
+},
+"183": {
+&"id": "183",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "hide_character",
@@ -865,11 +900,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "183",
+&"next_id": "184",
 &"type": "mutation"
 },
-"183": {
-&"id": "183",
+"184": {
+&"id": "184",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "hide_character",
@@ -886,11 +921,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "184",
+&"next_id": "185",
 &"type": "mutation"
 },
-"184": {
-&"id": "184",
+"185": {
+&"id": "185",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "set_background",
@@ -907,36 +942,31 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "185",
-&"type": "mutation"
-},
-"185": {
-&"id": "185",
 &"next_id": "186",
-&"text": "Después de esa quedada, algo cambió dentro de mí.",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "186": {
 &"id": "186",
-&"next_id": "188",
-&"text": "Era consciente de lo que sentía por Mateo, pero nunca me atreví a contárselo.",
+&"next_id": "187",
+&"text": "Después de esa quedada, algo cambió dentro de mí.",
 &"type": "dialogue"
 },
 "187": {
 &"id": "187",
-&"next_id": "188",
-&"type": ""
+&"next_id": "189",
+&"text": "Era consciente de lo que sentía por Mateo, pero nunca me atreví a contárselo.",
+&"type": "dialogue"
 },
 "188": {
 &"id": "188",
-&"next_id": "190",
-&"text": "Por suerte, fuimos amigos por mucho tiempo, pero, muy dentro de mí, me hubiera gustado darle esa carta que le escribí...",
-&"type": "dialogue"
+&"next_id": "189",
+&"type": ""
 },
 "189": {
 &"id": "189",
-&"next_id": "190",
-&"type": ""
+&"next_id": "191",
+&"text": "Por suerte, fuimos amigos por mucho tiempo, pero, muy dentro de mí, me hubiera gustado darle esa carta que le escribí...",
+&"type": "dialogue"
 },
 "19": {
 &"id": "19",
@@ -970,77 +1000,61 @@ lines = {
 "190": {
 &"id": "190",
 &"next_id": "191",
-&"text": "[wait=2.0]",
-&"type": "dialogue"
+&"type": ""
 },
 "191": {
 &"id": "191",
 &"next_id": "192",
-&"text": "[center][b][color=orange] ━━━━━━━━━━━━━━━━━━ FINAL COBARDE ━━━━━━━━━━━━━━━━━━ 
-[center][b][color=white]El temor se apoderó de Kristine y ella nunca confesó sus sentimientos[center][b][color=orange]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+&"text": "[wait=2.0]",
 &"type": "dialogue"
 },
 "192": {
 &"id": "192",
 &"next_id": "193",
-&"text": "[wait=2.0]",
+&"text": "[center][b][color=orange] ━━━━━━━━━━━━━━━━━━ FINAL COBARDE ━━━━━━━━━━━━━━━━━━ 
+[center][b][color=white]El temor se apoderó de Kristine y ella nunca confesó sus sentimientos[center][b][color=orange]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
 &"type": "dialogue"
 },
 "193": {
 &"id": "193",
 &"next_id": "194",
-&"text": "[center]\"Arrepentirse nunca es la opción\"[/center]",
+&"text": "[wait=2.0]",
 &"type": "dialogue"
 },
 "194": {
 &"id": "194",
 &"next_id": "195",
-&"text": "[wait=2.0]",
+&"text": "[center]\"Arrepentirse nunca es la opción\"[/center]",
 &"type": "dialogue"
 },
 "195": {
 &"id": "195",
-&"is_snippet": false,
-&"next_id": "258",
-&"next_id_after": "",
-&"type": "goto"
+&"next_id": "196",
+&"text": "[wait=2.0]",
+&"type": "dialogue"
 },
 "196": {
 &"id": "196",
-&"next_id": "197",
-&"type": ""
+&"is_snippet": false,
+&"next_id": "259",
+&"next_id_after": "",
+&"type": "goto"
 },
 "197": {
 &"id": "197",
 &"next_id": "198",
-&"type": "title"
+&"type": ""
 },
 "198": {
 &"id": "198",
 &"next_id": "199",
-&"text": "¡Oh, no!",
-&"type": "dialogue"
+&"type": "title"
 },
 "199": {
 &"id": "199",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"function": "hide_character",
-&"i": 3,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 18,
-&"type": &"string",
-&"value": "izq"
-}, {
-&"i": 23,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
 &"next_id": "200",
-&"type": "mutation"
+&"text": "¡Oh, no!",
+&"type": "dialogue"
 },
 "2": {
 &"id": "2",
@@ -1065,9 +1079,9 @@ lines = {
 &"value": Array[Array]([Array[Dictionary]([{
 &"i": 18,
 &"type": &"string",
-&"value": "derecha"
+&"value": "izq"
 }, {
-&"i": 27,
+&"i": 23,
 &"type": &"parens_close"
 }])])
 }]),
@@ -1078,6 +1092,27 @@ lines = {
 },
 "201": {
 &"id": "201",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "hide_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "derecha"
+}, {
+&"i": 27,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "202",
+&"type": "mutation"
+},
+"202": {
+&"id": "202",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "set_background",
@@ -1094,29 +1129,29 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "202",
-&"type": "mutation"
-},
-"202": {
-&"id": "202",
 &"next_id": "203",
-&"text": "[wait=1.0]",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "203": {
 &"id": "203",
 &"next_id": "204",
-&"text": "[center]Has acumulado [color=red][b]demasiadas[/b][/color] mentiras...[/center]",
+&"text": "[wait=1.0]",
 &"type": "dialogue"
 },
 "204": {
 &"id": "204",
 &"next_id": "205",
-&"text": "[wait=2.0]",
+&"text": "[center]Has acumulado [color=red][b]demasiadas[/b][/color] mentiras...[/center]",
 &"type": "dialogue"
 },
 "205": {
 &"id": "205",
+&"next_id": "206",
+&"text": "[wait=2.0]",
+&"type": "dialogue"
+},
+"206": {
+&"id": "206",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "set_background",
@@ -1133,17 +1168,17 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "206",
-&"type": "mutation"
-},
-"206": {
-&"id": "206",
 &"next_id": "207",
-&"text": "Un día como otro cualquiera, salí de clases. No obstante, me encontré a la salida con Mateo.",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "207": {
 &"id": "207",
+&"next_id": "208",
+&"text": "Un día como otro cualquiera, salí de clases. No obstante, me encontré a la salida con Mateo.",
+&"type": "dialogue"
+},
+"208": {
+&"id": "208",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "set_background",
@@ -1160,11 +1195,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "208",
+&"next_id": "209",
 &"type": "mutation"
 },
-"208": {
-&"id": "208",
+"209": {
+&"id": "209",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -1189,14 +1224,8 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "209",
+&"next_id": "210",
 &"type": "mutation"
-},
-"209": {
-&"id": "209",
-&"next_id": "211",
-&"text": "Justo cuando iba a hablarle, dijo algo que no esperaba...",
-&"type": "dialogue"
 },
 "21": {
 &"id": "21",
@@ -1206,11 +1235,17 @@ lines = {
 },
 "210": {
 &"id": "210",
-&"next_id": "211",
-&"type": ""
+&"next_id": "212",
+&"text": "Justo cuando iba a hablarle, dijo algo que no esperaba...",
+&"type": "dialogue"
 },
 "211": {
 &"id": "211",
+&"next_id": "212",
+&"type": ""
+},
+"212": {
+&"id": "212",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -1235,11 +1270,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "212",
+&"next_id": "213",
 &"type": "mutation"
 },
-"212": {
-&"id": "212",
+"213": {
+&"id": "213",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -1264,18 +1299,18 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "213",
+&"next_id": "214",
 &"type": "mutation"
 },
-"213": {
+"214": {
 &"character": "Mateo",
-&"id": "213",
-&"next_id": "214",
+&"id": "214",
+&"next_id": "215",
 &"text": "Kristine... ya no puedo más.",
 &"type": "dialogue"
 },
-"214": {
-&"id": "214",
+"215": {
+&"id": "215",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -1300,22 +1335,22 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "215",
+&"next_id": "216",
 &"type": "mutation"
-},
-"215": {
-&"id": "215",
-&"next_id": "217",
-&"text": "Lo dijo tan serio que me extrañó. Nunca lo había visto así.",
-&"type": "dialogue"
 },
 "216": {
 &"id": "216",
-&"next_id": "217",
-&"type": ""
+&"next_id": "218",
+&"text": "Lo dijo tan serio que me extrañó. Nunca lo había visto así.",
+&"type": "dialogue"
 },
 "217": {
 &"id": "217",
+&"next_id": "218",
+&"type": ""
+},
+"218": {
+&"id": "218",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -1340,11 +1375,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "218",
+&"next_id": "219",
 &"type": "mutation"
 },
-"218": {
-&"id": "218",
+"219": {
+&"id": "219",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -1369,15 +1404,8 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "219",
-&"type": "mutation"
-},
-"219": {
-&"character": "Kristine",
-&"id": "219",
 &"next_id": "220",
-&"text": "¿Qué quieres decir?",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "22": {
 &"id": "22",
@@ -1386,7 +1414,14 @@ lines = {
 &"type": "dialogue"
 },
 "220": {
+&"character": "Kristine",
 &"id": "220",
+&"next_id": "221",
+&"text": "¿Qué quieres decir?",
+&"type": "dialogue"
+},
+"221": {
+&"id": "221",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -1411,11 +1446,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "221",
+&"next_id": "222",
 &"type": "mutation"
 },
-"221": {
-&"id": "221",
+"222": {
+&"id": "222",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -1440,18 +1475,18 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "222",
+&"next_id": "223",
 &"type": "mutation"
 },
-"222": {
+"223": {
 &"character": "Mateo",
-&"id": "222",
-&"next_id": "223",
+&"id": "223",
+&"next_id": "224",
 &"text": "Has mentido tantas veces que ya no sé qué es real de ti y qué no.",
 &"type": "dialogue"
 },
-"223": {
-&"id": "223",
+"224": {
+&"id": "224",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -1476,18 +1511,18 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "224",
+&"next_id": "225",
 &"type": "mutation"
 },
-"224": {
+"225": {
 &"character": "Mateo",
-&"id": "224",
-&"next_id": "225",
+&"id": "225",
+&"next_id": "226",
 &"text": "Lo siento, pero no puedo confiar en alguien así, no si sigues mintiendo.",
 &"type": "dialogue"
 },
-"225": {
-&"id": "225",
+"226": {
+&"id": "226",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -1512,22 +1547,22 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "227",
+&"next_id": "228",
 &"type": "mutation"
-},
-"226": {
-&"id": "226",
-&"next_id": "227",
-&"type": ""
 },
 "227": {
 &"id": "227",
 &"next_id": "228",
-&"text": "Abrí la boca para decir algo, pero no me salieron las palabras.",
-&"type": "dialogue"
+&"type": ""
 },
 "228": {
 &"id": "228",
+&"next_id": "229",
+&"text": "Abrí la boca para decir algo, pero no me salieron las palabras.",
+&"type": "dialogue"
+},
+"229": {
+&"id": "229",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -1552,18 +1587,18 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "229",
+&"next_id": "230",
 &"type": "mutation"
 },
-"229": {
+"230": {
 &"character": "Kristine",
-&"id": "229",
-&"next_id": "230",
+&"id": "230",
+&"next_id": "231",
 &"text": "Lo siento...",
 &"type": "dialogue"
 },
-"230": {
-&"id": "230",
+"231": {
+&"id": "231",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -1588,11 +1623,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "231",
+&"next_id": "232",
 &"type": "mutation"
 },
-"231": {
-&"id": "231",
+"232": {
+&"id": "232",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -1617,18 +1652,18 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "232",
+&"next_id": "233",
 &"type": "mutation"
 },
-"232": {
+"233": {
 &"character": "Mateo",
-&"id": "232",
-&"next_id": "233",
+&"id": "233",
+&"next_id": "234",
 &"text": "Yo también.",
 &"type": "dialogue"
 },
-"233": {
-&"id": "233",
+"234": {
+&"id": "234",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -1653,11 +1688,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "234",
+&"next_id": "235",
 &"type": "mutation"
 },
-"234": {
-&"id": "234",
+"235": {
+&"id": "235",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -1682,28 +1717,28 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "236",
+&"next_id": "237",
 &"type": "mutation"
-},
-"235": {
-&"id": "235",
-&"next_id": "236",
-&"type": ""
 },
 "236": {
 &"id": "236",
 &"next_id": "237",
-&"text": "Intenté pensar en alguna frase más que tuviera sentido, incluso explicarle, sin embargo, para las mentiras no suele haber excusa que lo justifique.",
-&"type": "dialogue"
+&"type": ""
 },
 "237": {
 &"id": "237",
 &"next_id": "238",
-&"text": "No sabía qué más decir a excepción de una sincera disculpa.",
+&"text": "Intenté pensar en alguna frase más que tuviera sentido, incluso explicarle, sin embargo, para las mentiras no suele haber excusa que lo justifique.",
 &"type": "dialogue"
 },
 "238": {
 &"id": "238",
+&"next_id": "239",
+&"text": "No sabía qué más decir a excepción de una sincera disculpa.",
+&"type": "dialogue"
+},
+"239": {
+&"id": "239",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "hide_character",
@@ -1720,14 +1755,8 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "239",
-&"type": "mutation"
-},
-"239": {
-&"id": "239",
 &"next_id": "240",
-&"text": "Iba a decir algo, pero él se alejó.",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "24": {
 &"id": "24",
@@ -1736,6 +1765,12 @@ lines = {
 },
 "240": {
 &"id": "240",
+&"next_id": "241",
+&"text": "Iba a decir algo, pero él se alejó.",
+&"type": "dialogue"
+},
+"241": {
+&"id": "241",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "hide_character",
@@ -1752,11 +1787,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "241",
+&"next_id": "242",
 &"type": "mutation"
 },
-"241": {
-&"id": "241",
+"242": {
+&"id": "242",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "set_background",
@@ -1773,55 +1808,47 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "242",
-&"type": "mutation"
-},
-"242": {
-&"id": "242",
 &"next_id": "243",
-&"text": "Desde ese día, como era de esperar, no volvió a dirigirme la palabra.",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "243": {
 &"id": "243",
 &"next_id": "244",
-&"text": "Por desgracia, las cosas con Mateo no volvieron a ser como antes. Su confianza en mí no volvió, inclusive intenté hablarle en algunas ocasiones, pero se notaba que la conversación era forzada...",
+&"text": "Desde ese día, como era de esperar, no volvió a dirigirme la palabra.",
 &"type": "dialogue"
 },
 "244": {
 &"id": "244",
-&"next_id": "246",
-&"text": "La amistad que teníamos se rompió. Y no sé porqué me extraña, si era evidente que tarde o temprano pasara, puesto que casi nunca de lo que le decía era verdad... Desearía haber sido más sincera.",
+&"next_id": "245",
+&"text": "Por desgracia, las cosas con Mateo no volvieron a ser como antes. Su confianza en mí no volvió, inclusive intenté hablarle en algunas ocasiones, pero se notaba que la conversación era forzada...",
 &"type": "dialogue"
 },
 "245": {
 &"id": "245",
-&"next_id": "246",
-&"type": ""
+&"next_id": "247",
+&"text": "La amistad que teníamos se rompió. Y no sé porqué me extraña, si era evidente que tarde o temprano pasara, puesto que casi nunca de lo que le decía era verdad... Desearía haber sido más sincera.",
+&"type": "dialogue"
 },
 "246": {
 &"id": "246",
-&"next_id": "248",
-&"text": "Perdí una gran amistad que pudo llegar a algo más...",
-&"type": "dialogue"
+&"next_id": "247",
+&"type": ""
 },
 "247": {
 &"id": "247",
-&"next_id": "248",
-&"type": ""
+&"next_id": "249",
+&"text": "Perdí una gran amistad que pudo llegar a algo más...",
+&"type": "dialogue"
 },
 "248": {
 &"id": "248",
 &"next_id": "249",
-&"text": "[wait=2.0]",
-&"type": "dialogue"
+&"type": ""
 },
 "249": {
 &"id": "249",
 &"next_id": "250",
-&"text": "[center][b][color=red]━━━━━━━━━━━━━━━━━━ FINAL MALO ━━━━━━━━━━━━━━━━━━
-[center][b][color=white]Demasiadas mentiras 
-[center][b][color=red] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color][/b][/center]",
+&"text": "[wait=2.0]",
 &"type": "dialogue"
 },
 "25": {
@@ -1856,44 +1883,45 @@ lines = {
 "250": {
 &"id": "250",
 &"next_id": "251",
-&"text": "[center]\"Las mentiras pueden destruir cualquier tipo de relación, incluso la más fuerte\"[/center]",
+&"text": "[center][b][color=red]━━━━━━━━━━━━━━━━━━ FINAL MALO ━━━━━━━━━━━━━━━━━━
+[center][b][color=white]Demasiadas mentiras 
+[center][b][color=red] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color][/b][/center]",
 &"type": "dialogue"
 },
 "251": {
 &"id": "251",
 &"next_id": "252",
-&"text": "[wait=2.0]",
+&"text": "[center]\"Las mentiras pueden destruir cualquier tipo de relación, incluso la más fuerte\"[/center]",
 &"type": "dialogue"
 },
 "252": {
 &"id": "252",
+&"next_id": "253",
+&"text": "[wait=2.0]",
+&"type": "dialogue"
+},
+"253": {
+&"id": "253",
 &"is_snippet": false,
-&"next_id": "258",
+&"next_id": "259",
 &"next_id_after": "",
 &"type": "goto"
-},
-"256": {
-&"id": "256",
-&"next_id": "257",
-&"type": ""
 },
 "257": {
 &"id": "257",
 &"next_id": "258",
-&"type": "title"
+&"type": ""
 },
 "258": {
 &"id": "258",
 &"next_id": "259",
-&"text": "[center]Elige una opción[/center]",
-&"type": "dialogue"
+&"type": "title"
 },
 "259": {
 &"id": "259",
 &"next_id": "260",
-&"responses": PackedStringArray("259", "261"),
-&"text": "Volver a intentar",
-&"type": "response"
+&"text": "[center]Elige una opción[/center]",
+&"type": "dialogue"
 },
 "26": {
 &"character": "Mateo",
@@ -1904,36 +1932,43 @@ lines = {
 },
 "260": {
 &"id": "260",
-&"is_snippet": false,
-&"next_id": "265",
-&"next_id_after": "",
-&"type": "goto"
+&"next_id": "261",
+&"responses": PackedStringArray("260", "262"),
+&"text": "Volver a intentar",
+&"type": "response"
 },
 "261": {
 &"id": "261",
-&"next_id": "262",
-&"text": "Ir al menú principal",
-&"type": "response"
-},
-"262": {
-&"id": "262",
 &"is_snippet": false,
-&"next_id": "272",
+&"next_id": "266",
 &"next_id_after": "",
 &"type": "goto"
 },
+"262": {
+&"id": "262",
+&"next_id": "263",
+&"text": "Ir al menú principal",
+&"type": "response"
+},
 "263": {
 &"id": "263",
-&"next_id": "264",
-&"type": ""
+&"is_snippet": false,
+&"next_id": "273",
+&"next_id_after": "",
+&"type": "goto"
 },
 "264": {
 &"id": "264",
 &"next_id": "265",
-&"type": "title"
+&"type": ""
 },
 "265": {
 &"id": "265",
+&"next_id": "266",
+&"type": "title"
+},
+"266": {
+&"id": "266",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "retry_game",
@@ -1946,32 +1981,26 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "266",
+&"next_id": "267",
 &"type": "mutation"
 },
-"266": {
-&"id": "266",
+"267": {
+&"id": "267",
 &"is_snippet": false,
 &"next_id": "end",
 &"next_id_after": "",
 &"type": "goto"
 },
-"267": {
-&"id": "267",
-&"next_id": "268",
-&"type": ""
-},
 "268": {
 &"id": "268",
-&"next_id": "265",
-&"responses": PackedStringArray("268", "269"),
-&"text": "Volver a intentar",
-&"type": "response"
+&"next_id": "269",
+&"type": ""
 },
 "269": {
 &"id": "269",
-&"next_id": "272",
-&"text": "Ir al menú principal",
+&"next_id": "266",
+&"responses": PackedStringArray("269", "270"),
+&"text": "Volver a intentar",
 &"type": "response"
 },
 "27": {
@@ -2005,16 +2034,22 @@ lines = {
 },
 "270": {
 &"id": "270",
-&"next_id": "271",
-&"type": ""
+&"next_id": "273",
+&"text": "Ir al menú principal",
+&"type": "response"
 },
 "271": {
 &"id": "271",
 &"next_id": "272",
-&"type": "title"
+&"type": ""
 },
 "272": {
 &"id": "272",
+&"next_id": "273",
+&"type": "title"
+},
+"273": {
+&"id": "273",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "get_tree",
@@ -2042,28 +2077,28 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "273",
+&"next_id": "274",
 &"type": "mutation"
 },
-"273": {
-&"id": "273",
+"274": {
+&"id": "274",
 &"is_snippet": false,
 &"next_id": "end",
 &"next_id_after": "",
 &"type": "goto"
 },
-"274": {
-&"id": "274",
-&"next_id": "275",
-&"type": ""
-},
 "275": {
 &"id": "275",
 &"next_id": "276",
-&"type": "title"
+&"type": ""
 },
 "276": {
 &"id": "276",
+&"next_id": "277",
+&"type": "title"
+},
+"277": {
+&"id": "277",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "set_background",
@@ -2080,29 +2115,21 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "277",
+&"next_id": "278",
 &"type": "mutation"
 },
-"277": {
-&"id": "277",
-&"next_id": "278",
+"278": {
+&"id": "278",
+&"next_id": "279",
 &"text": "[center][b]━━━━━━━━━━━━━━━━━━━━ 
 [center][b]CRÉDITOS 
 [center][b]━━━━━━━━━━━━━━━━━━━━[/b][/center]",
 &"type": "dialogue"
 },
-"278": {
-&"id": "278",
-&"next_id": "279",
-&"text": "[wait=1.0]",
-&"type": "dialogue"
-},
 "279": {
 &"id": "279",
 &"next_id": "280",
-&"text": "[center]Una historia, escrita por mí; 
-[center][b]Akari[/b]
-[center] Historia inspirada en algo que sucedió de verdad",
+&"text": "[wait=1.0]",
 &"type": "dialogue"
 },
 "28": {
@@ -2137,68 +2164,69 @@ lines = {
 "280": {
 &"id": "280",
 &"next_id": "281",
-&"text": "[wait=2.0]",
+&"text": "[center]Una historia, escrita por mí; 
+[center][b]Akari[/b]
+[center] Historia inspirada en algo que sucedió de verdad",
 &"type": "dialogue"
 },
 "281": {
 &"id": "281",
 &"next_id": "282",
+&"text": "[wait=2.0]",
+&"type": "dialogue"
+},
+"282": {
+&"id": "282",
+&"next_id": "283",
 &"text": "[center]Creado con 
 [center]Godot Engine 4 
 [center]Y Dialogue Manager 3[/center]",
 &"type": "dialogue"
 },
-"282": {
-&"character": "[center]Herramientas usadas para los assets",
-&"id": "282",
-&"next_id": "283",
-&"text": "[center]Ibis paint X y Krita
-[center]",
-&"type": "dialogue"
-},
 "283": {
+&"character": "[center]Herramientas usadas para los assets",
 &"id": "283",
 &"next_id": "284",
-&"text": "[wait=2] Agradecimientos especiales a mis amigas por ayudarme y a mi novio por hacer de esta historia una real.",
+&"text": "[center]Ibis paint X y Krita
+[center]",
 &"type": "dialogue"
 },
 "284": {
 &"id": "284",
 &"next_id": "285",
-&"text": "[center]",
+&"text": "[wait=2] Agradecimientos especiales a mis amigas por ayudarme y a mi novio por hacer de esta historia una real.",
 &"type": "dialogue"
 },
 "285": {
 &"id": "285",
 &"next_id": "286",
-&"text": "[center]¡Gracias por jugar! 
- :D[/center]",
+&"text": "[center]",
 &"type": "dialogue"
 },
 "286": {
 &"id": "286",
-&"next_id": "288",
-&"text": "[wait=2.0]",
+&"next_id": "287",
+&"text": "[center]¡Gracias por jugar! 
+ :D[/center]",
 &"type": "dialogue"
 },
 "287": {
 &"id": "287",
-&"next_id": "288",
-&"type": ""
+&"next_id": "289",
+&"text": "[wait=2.0]",
+&"type": "dialogue"
 },
 "288": {
 &"id": "288",
 &"next_id": "289",
-&"responses": PackedStringArray("288", "290"),
-&"text": "Volver al menú principal",
-&"type": "response"
+&"type": ""
 },
 "289": {
 &"id": "289",
-&"is_snippet": false,
-&"next_id": "272",
-&"next_id_after": "",
-&"type": "goto"
+&"next_id": "290",
+&"responses": PackedStringArray("289", "291"),
+&"text": "Volver al menú principal",
+&"type": "response"
 },
 "29": {
 &"character": "Kristine",
@@ -2209,36 +2237,43 @@ lines = {
 },
 "290": {
 &"id": "290",
-&"next_id": "291",
-&"text": "Volver a jugar",
-&"type": "response"
+&"is_snippet": false,
+&"next_id": "273",
+&"next_id_after": "",
+&"type": "goto"
 },
 "291": {
 &"id": "291",
-&"is_snippet": false,
-&"next_id": "265",
-&"next_id_after": "",
-&"type": "goto"
+&"next_id": "292",
+&"text": "Volver a jugar",
+&"type": "response"
 },
 "292": {
 &"id": "292",
-&"next_id": "293",
-&"type": ""
-},
-"293": {
-&"id": "293",
 &"is_snippet": false,
-&"next_id": "265",
+&"next_id": "266",
 &"next_id_after": "",
 &"type": "goto"
 },
+"293": {
+&"id": "293",
+&"next_id": "294",
+&"type": ""
+},
 "294": {
 &"id": "294",
-&"next_id": "295",
-&"type": ""
+&"is_snippet": false,
+&"next_id": "266",
+&"next_id_after": "",
+&"type": "goto"
 },
 "295": {
 &"id": "295",
+&"next_id": "296",
+&"type": ""
+},
+"296": {
+&"id": "296",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "retry_game",
@@ -2251,59 +2286,27 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "296",
+&"next_id": "297",
 &"type": "mutation"
 },
-"296": {
-&"id": "296",
+"297": {
+&"id": "297",
 &"is_snippet": false,
 &"next_id": "end",
 &"next_id_after": "",
 &"type": "goto"
 },
-"297": {
-&"id": "297",
-&"next_id": "298",
-&"type": ""
-},
 "298": {
 &"id": "298",
-&"is_snippet": false,
-&"next_id": "272",
-&"next_id_after": "",
-&"type": "goto"
+&"next_id": "299",
+&"type": ""
 },
 "299": {
 &"id": "299",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"function": "get_tree",
-&"i": 3,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 12,
-&"type": &"parens_close"
-}])])
-}, {
-&"i": 13,
-&"type": &"dot"
-}, {
-&"function": "change_scene_to_file",
-&"i": 14,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 35,
-&"type": &"string",
-&"value": "res://escenas/menu.tscn"
-}, {
-&"i": 60,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
-&"next_id": "300",
-&"type": "mutation"
+&"is_snippet": false,
+&"next_id": "273",
+&"next_id_after": "",
+&"type": "goto"
 },
 "3": {
 &"id": "3",
@@ -2341,25 +2344,57 @@ lines = {
 },
 "300": {
 &"id": "300",
-&"is_snippet": false,
-&"next_id": "end",
-&"next_id_after": "",
-&"type": "goto"
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "get_tree",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 12,
+&"type": &"parens_close"
+}])])
+}, {
+&"i": 13,
+&"type": &"dot"
+}, {
+&"function": "change_scene_to_file",
+&"i": 14,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 35,
+&"type": &"string",
+&"value": "res://escenas/menu.tscn"
+}, {
+&"i": 60,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "301",
+&"type": "mutation"
 },
 "301": {
 &"id": "301",
-&"next_id": "302",
-&"type": ""
-},
-"302": {
-&"id": "302",
 &"is_snippet": false,
 &"next_id": "end",
 &"next_id_after": "",
 &"type": "goto"
 },
+"302": {
+&"id": "302",
+&"next_id": "303",
+&"type": ""
+},
 "303": {
 &"id": "303",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"304": {
+&"id": "304",
 &"is_snippet": false,
 &"next_id": "end",
 &"next_id_after": "",
@@ -3338,7 +3373,7 @@ lines = {
 "93": {
 &"id": "93",
 &"is_snippet": false,
-&"next_id": "276",
+&"next_id": "277",
 &"next_id_after": "",
 &"type": "goto"
 },
@@ -3475,6 +3510,7 @@ No debí de comportarme de esa forma con él...
 => opGameOver
 
 ~ finalEstupido
+do Audio.change_music(Audio.finalEstupido2)
 do set_background(\"negroo\")
 [wait=2.0]
 [center][b][color=red] ━━━━━━━━━━━━━━━━━━ FINAL ESTÚPIDO ━━━━━━━━━━━━━━━━━━ \\n[center][b][color=white]Muerte inmediata[center][b][color=red]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
