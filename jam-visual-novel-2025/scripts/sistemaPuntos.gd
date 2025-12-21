@@ -21,9 +21,9 @@ func cambiarPuntos(personaje: String, cantidad: int):
 #		para emitir la señal que creaste:
 		puntosCambian.emit(personaje, cantidad, puntos[personaje])
 		if cantidad > 0:
-			print ("💙" + str(cantidad) + " puntos con " + personaje + "(Total: ) " + str(puntos[personaje]) + ")")
+			print ("💙" + str(cantidad) + " puntos con " + personaje + "(Total: " + str(puntos[personaje]) + ")")
 		else:
-			print ("💔" + str(cantidad) + " puntos con " + personaje + "(Total: ) " + str(puntos[personaje]) + ")")
+			print ("💔" + str(cantidad) + " puntos con " + personaje + "(Total: " + str(puntos[personaje]) + ")")
 	else:
 		push_warning("El personaje no existe " + personaje)
 

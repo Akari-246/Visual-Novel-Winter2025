@@ -1,9 +1,90 @@
-[gd_scene load_steps=5 format=3 uid="uid://dxlcblop2fes"]
+[gd_scene load_steps=26 format=3 uid="uid://dxlcblop2fes"]
 
 [ext_resource type="Script" uid="uid://br5xvgj4qdwgi" path="res://scripts/gameManager.gd" id="1_62eqe"]
 [ext_resource type="FontFile" uid="uid://lh7yi4u1exu3" path="res://assets/fonts/libre baskeville/LibreBaskerville-Bold.ttf" id="3_6kmlf"]
 [ext_resource type="PackedScene" uid="uid://c2yniadkhh4it" path="res://escenas/medidorPuntos.tscn" id="3_6qgwm"]
 [ext_resource type="Texture2D" uid="uid://ddmi5l4xu1pca" path="res://assets/imagenes/fondos/habitacion1.jpeg" id="3_sa5h6"]
+[ext_resource type="FontFile" uid="uid://dg14kclf6jted" path="res://assets/fonts/libre baskeville/LibreBaskerville-Regular.ttf" id="5_t1yb8"]
+[ext_resource type="Script" uid="uid://dnkv3p7myaucf" path="res://scripts/menu_op.gd" id="6_yu5dx"]
+[ext_resource type="Script" uid="uid://dqspm13v3xdwh" path="res://scripts/audioControl.gd" id="7_c2h8q"]
+[ext_resource type="AudioStream" uid="uid://crmiavqkqlsw4" path="res://assets/audio/SFX/recogeObjetoAgudo.wav" id="8_g88m5"]
+[ext_resource type="AudioStream" uid="uid://s21h87br30r6" path="res://assets/audio/SFX/sfxBarraVol.wav" id="9_jjepi"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0irvc"]
+bg_color = Color(0.14509805, 0.5294118, 0.77254903, 0.76862746)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hgee2"]
+bg_color = Color(0.21176471, 0.34901962, 0.73333335, 0.88235295)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_b1nxp"]
+bg_color = Color(0.16862746, 0.6627451, 0.84705883, 0.76862746)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dnmmx"]
+bg_color = Color(0.14509805, 0.5294118, 0.77254903, 0.76862746)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_j1rs0"]
+bg_color = Color(0.21176471, 0.34901962, 0.73333335, 0.88235295)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yoq8h"]
+bg_color = Color(0.16862746, 0.6627451, 0.84705883, 0.76862746)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_xm0jm"]
+bg_color = Color(0.47555906, 0.45786387, 0.736133, 0.2901961)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_aww3m"]
+bg_color = Color(0.15686275, 0.21176471, 0.4627451, 0.76862746)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_eupfu"]
+bg_color = Color(0.14509805, 0.5294118, 0.77254903, 0.76862746)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vhtji"]
+bg_color = Color(0.21176471, 0.34901962, 0.73333335, 0.88235295)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1ndok"]
+bg_color = Color(0.14509805, 0.5294118, 0.77254903, 0.76862746)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_40d4f"]
+bg_color = Color(0.21181902, 0.34806502, 0.73494756, 0.88235295)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_65jox"]
+bg_color = Color(0.16862746, 0.6627451, 0.84705883, 0.76862746)
+
+[sub_resource type="Animation" id="Animation_5t3kx"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("MenuOp/PanelContainer:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_6cq3m"]
+resource_name = "animacionOpciones"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("MenuOp/PanelContainer:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1.0717735, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_56ah5"]
+_data = {
+&"RESET": SubResource("Animation_5t3kx"),
+&"animacionOpciones": SubResource("Animation_6cq3m")
+}
 
 [node name="Game" type="Node2D"]
 script = ExtResource("1_62eqe")
@@ -28,6 +109,7 @@ theme_override_font_sizes/font_size = 28
 text = "Skip"
 
 [node name="DiscordScreen" type="CanvasLayer" parent="."]
+visible = false
 
 [node name="Panel" type="Panel" parent="DiscordScreen"]
 custom_minimum_size = Vector2(500, 400)
@@ -57,6 +139,7 @@ theme_override_constants/separation = 10
 alignment = 1
 
 [node name="InfoPanel" type="CanvasLayer" parent="."]
+visible = false
 
 [node name="Panel" type="Panel" parent="InfoPanel"]
 custom_minimum_size = Vector2(400, 300)
@@ -97,6 +180,7 @@ fit_content = true
 [node name="Dialogue" type="CanvasLayer" parent="."]
 
 [node name="MedidorPuntos" parent="." instance=ExtResource("3_6qgwm")]
+visible = false
 
 [node name="personajeIzq" type="Sprite2D" parent="."]
 position = Vector2(900, 350)
@@ -110,4 +194,249 @@ scale = Vector2(0.5, 0.5)
 position = Vector2(160, 330)
 scale = Vector2(0.5, 0.5)
 
+[node name="menuPausa" type="CanvasLayer" parent="."]
+
+[node name="Panel" type="Panel" parent="menuPausa"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -321.0
+offset_top = -232.0
+offset_right = 321.0
+offset_bottom = 232.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="menuPausa/Panel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -246.5
+offset_top = -183.5
+offset_right = 246.5
+offset_bottom = 183.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 27
+
+[node name="continuar" type="Button" parent="menuPausa/Panel/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("5_t1yb8")
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxFlat_0irvc")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_hgee2")
+theme_override_styles/hover = SubResource("StyleBoxFlat_b1nxp")
+text = "Continuar"
+
+[node name="op" type="Button" parent="menuPausa/Panel/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("5_t1yb8")
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxFlat_dnmmx")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_j1rs0")
+theme_override_styles/hover = SubResource("StyleBoxFlat_yoq8h")
+text = "Opciones"
+
+[node name="salir" type="Button" parent="menuPausa/Panel/VBoxContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("5_t1yb8")
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxFlat_0irvc")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_hgee2")
+theme_override_styles/hover = SubResource("StyleBoxFlat_b1nxp")
+text = "Salir del menú"
+
+[node name="Audio" type="AudioStreamPlayer" parent="menuPausa/Panel/VBoxContainer"]
+
+[node name="MenuOp" type="Control" parent="menuPausa" node_paths=PackedStringArray("animacion")]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 197.0
+offset_top = 118.0
+offset_right = 975.0
+offset_bottom = 585.0
+script = ExtResource("6_yu5dx")
+animacion = NodePath("AnimationPlayer")
+
+[node name="PanelContainer" type="PanelContainer" parent="menuPausa/MenuOp"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -594.25
+offset_top = -354.75
+offset_right = 571.0
+offset_bottom = 299.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_xm0jm")
+
+[node name="opciones" type="Control" parent="menuPausa/MenuOp/PanelContainer"]
+layout_mode = 2
+
+[node name="TabContainer" type="TabContainer" parent="menuPausa/MenuOp/PanelContainer/opciones"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -306.5
+offset_top = -223.25
+offset_right = 306.5
+offset_bottom = 223.25
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_aww3m")
+current_tab = 0
+
+[node name="idioma" type="VBoxContainer" parent="menuPausa/MenuOp/PanelContainer/opciones/TabContainer"]
+layout_mode = 2
+metadata/_tab_index = 0
+
+[node name="Label" type="Label" parent="menuPausa/MenuOp/PanelContainer/opciones/TabContainer/idioma"]
+layout_mode = 2
+text = "idiomas"
+
+[node name="OptionButton" type="OptionButton" parent="menuPausa/MenuOp/PanelContainer/opciones/TabContainer/idioma"]
+layout_mode = 2
+theme_override_styles/normal = SubResource("StyleBoxFlat_eupfu")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_vhtji")
+fit_to_longest_item = false
+
+[node name="volumen" type="VBoxContainer" parent="menuPausa/MenuOp/PanelContainer/opciones/TabContainer" node_paths=PackedStringArray("general", "musica", "efectos", "audioPlayer", "barraPlayer")]
+visible = false
+layout_mode = 2
+script = ExtResource("7_c2h8q")
+general = NodePath("mainBox/sliderG")
+musica = NodePath("musicaBox/sliderM")
+efectos = NodePath("sfxBox/sliderSFX")
+testSonido = ExtResource("8_g88m5")
+audioPlayer = NodePath("")
+sonidoBarra = ExtResource("9_jjepi")
+barraPlayer = NodePath("")
+metadata/_tab_index = 1
+
+[node name="Label" type="Label" parent="menuPausa/MenuOp/PanelContainer/opciones/TabContainer/volumen"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_fonts/font = ExtResource("3_6kmlf")
+theme_override_font_sizes/font_size = 34
+text = "Volumen"
+
+[node name="Label2" type="Label" parent="menuPausa/MenuOp/PanelContainer/opciones/TabContainer/volumen"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_fonts/font = ExtResource("3_6kmlf")
+theme_override_font_sizes/font_size = 12
+text = " "
+
+[node name="mainBox" type="HBoxContainer" parent="menuPausa/MenuOp/PanelContainer/opciones/TabContainer/volumen"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_constants/separation = 13
+
+[node name="Label" type="Label" parent="menuPausa/MenuOp/PanelContainer/opciones/TabContainer/volumen/mainBox"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("5_t1yb8")
+theme_override_font_sizes/font_size = 18
+text = "Volumen general"
+
+[node name="menosG" type="Button" parent="menuPausa/MenuOp/PanelContainer/opciones/TabContainer/volumen/mainBox"]
+layout_mode = 2
+text = " - "
+
+[node name="sliderG" type="HSlider" parent="menuPausa/MenuOp/PanelContainer/opciones/TabContainer/volumen/mainBox"]
+custom_minimum_size = Vector2(200, 50)
+layout_mode = 2
+focus_mode = 0
+
+[node name="masG" type="Button" parent="menuPausa/MenuOp/PanelContainer/opciones/TabContainer/volumen/mainBox"]
+layout_mode = 2
+text = " + "
+
+[node name="musicaBox" type="HBoxContainer" parent="menuPausa/MenuOp/PanelContainer/opciones/TabContainer/volumen"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_constants/separation = 13
+
+[node name="Label" type="Label" parent="menuPausa/MenuOp/PanelContainer/opciones/TabContainer/volumen/musicaBox"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("5_t1yb8")
+theme_override_font_sizes/font_size = 18
+text = "Música"
+
+[node name="menosM" type="Button" parent="menuPausa/MenuOp/PanelContainer/opciones/TabContainer/volumen/musicaBox"]
+layout_mode = 2
+text = " - "
+
+[node name="sliderM" type="HSlider" parent="menuPausa/MenuOp/PanelContainer/opciones/TabContainer/volumen/musicaBox"]
+custom_minimum_size = Vector2(200, 50)
+layout_mode = 2
+focus_mode = 0
+
+[node name="masM" type="Button" parent="menuPausa/MenuOp/PanelContainer/opciones/TabContainer/volumen/musicaBox"]
+layout_mode = 2
+text = " + "
+
+[node name="sfxBox" type="HBoxContainer" parent="menuPausa/MenuOp/PanelContainer/opciones/TabContainer/volumen"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_constants/separation = 13
+
+[node name="Label" type="Label" parent="menuPausa/MenuOp/PanelContainer/opciones/TabContainer/volumen/sfxBox"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("5_t1yb8")
+theme_override_font_sizes/font_size = 18
+text = "Efectos sonido"
+
+[node name="menosSFX" type="Button" parent="menuPausa/MenuOp/PanelContainer/opciones/TabContainer/volumen/sfxBox"]
+layout_mode = 2
+text = " - "
+
+[node name="sliderSFX" type="HSlider" parent="menuPausa/MenuOp/PanelContainer/opciones/TabContainer/volumen/sfxBox"]
+custom_minimum_size = Vector2(200, 50)
+layout_mode = 2
+focus_mode = 0
+
+[node name="masSFX" type="Button" parent="menuPausa/MenuOp/PanelContainer/opciones/TabContainer/volumen/sfxBox"]
+layout_mode = 2
+text = " + "
+
+[node name="exit" type="Button" parent="menuPausa/MenuOp/PanelContainer/opciones"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -88.375
+offset_top = -92.0
+offset_right = 87.625
+offset_bottom = -33.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_fonts/font = ExtResource("5_t1yb8")
+theme_override_font_sizes/font_size = 36
+theme_override_styles/normal = SubResource("StyleBoxFlat_1ndok")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_40d4f")
+theme_override_styles/hover = SubResource("StyleBoxFlat_65jox")
+text = "exit"
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="menuPausa/MenuOp"]
+root_node = NodePath("../..")
+libraries = {
+&"": SubResource("AnimationLibrary_56ah5")
+}
+
 [connection signal="pressed" from="SkipBtn" to="." method="_on_skip_btn_pressed"]
+[connection signal="pressed" from="menuPausa/Panel/VBoxContainer/continuar" to="." method="_on_continuar_pressed"]
+[connection signal="pressed" from="menuPausa/Panel/VBoxContainer/op" to="." method="_on_op_pressed"]
+[connection signal="pressed" from="menuPausa/MenuOp/PanelContainer/opciones/exit" to="." method="_on_exit_pressed"]
