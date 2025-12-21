@@ -12,7 +12,6 @@ var change_control := ""
 var change_button: Button
 
 func _ready():
-	#añadir para sonar musica
 	Audio.music_nivel(-3.0)
 	if play_button:
 		play_button.grab_focus()
@@ -45,8 +44,7 @@ func _on_options_menu_closed():
 		play_button.focus_mode = Control.FOCUS_ALL
 	if options_button:
 		options_button.focus_mode = Control.FOCUS_ALL
-		options_button.grab_focus()  # Restaurar foco en el botón de opciones
-
+		options_button.grab_focus()
 
 func _on_option_button_item_selected(index: int) -> void:
 	var game_manager = get_tree().get_root().get_node("Main/GameManager")

@@ -1,8 +1,9 @@
-Sprite2D
 Button
+VBoxContainer
 Panel
 CanvasLayer
-VBoxContainer
+Control
+Sprite2D
 Label
 ProgressBar
 Node
@@ -11,4 +12,3 @@ RichTextLabel
 AudioStreamPlayer
 AnimationPlayer
 HSlider
-HBoxContainer

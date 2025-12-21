@@ -2,3 +2,7 @@ res://scripts/audio.gd
 res://scripts/menuManager.gd
 res://scripts/audioControl.gd
 res://escenas/audio.tscn
+res://escenas/game.tscn
+res://scripts/gameManager.gd
+res://scripts/sistemaPuntos.gd
+res://escenas/menu.tscn

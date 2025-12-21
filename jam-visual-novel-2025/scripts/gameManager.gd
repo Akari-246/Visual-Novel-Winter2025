@@ -13,6 +13,12 @@ extends Node2D
 @onready var characterIzq = $personajeIzq
 @onready var characterDrcha = $personajeDerecha
 @onready var characterCentro = $personajeCentro
+@onready var pause_menu = $menuPausa
+@onready var continuar = $menuPausa/Panel/VBoxContainer/continuar
+@onready var salir = $menuPausa/Panel/VBoxContainer/salir
+@onready var opciones = $menuPausa/Panel/VBoxContainer/op
+@onready var opSubMenu = $menuPausa/MenuOp/PanelContainer/opciones
+@onready var animacion = $menuPausa/MenuOp/AnimationPlayer
 
 # ====== fondos ======
 var backgrounds = {
@@ -79,6 +85,7 @@ var dialogue_resource: DialogueResource
 var balloon_actual = null
 var skip_activo = false
 var velocidad_skip = 0.05
+var is_paused = false
 
 func _ready():
 	Game.manager = self
@@ -93,6 +100,30 @@ func _ready():
 	discord_screen.visible = false
 	info_panel.visible = false
 	characters_container.visible = false
+	pause_menu.visible = false
+	$menuPausa/MenuOp.visible = false
+	opSubMenu.hide()
+
+	
+	# Conectar botones del menú de pausa (con verificación para evitar duplicados)
+	if not continuar.is_connected("pressed", _on_continuar_pressed):
+		continuar.pressed.connect(_on_continuar_pressed)
+	if not salir.is_connected("pressed", _on_salir_pressed):
+		salir.pressed.connect(_on_salir_pressed)
+	if not opciones.is_connected("pressed", _on_op_pressed):
+		opciones.pressed.connect(_on_op_pressed)
+
+	# Conectar señales del submenú de opciones
+	if opSubMenu.has_node("opciones/exit"):
+		opSubMenu.get_node("opciones/exit").pressed.connect(_on_options_exit_pressed)
+	if opSubMenu.has_node("TabContainer/idioma/OptionButton"):
+		opSubMenu.get_node("TabContainer/idioma/OptionButton").item_selected.connect(_on_option_button_item_selected)
+	
+	# Conectar sliders del audioControl en el submenú (si existe)
+	if opSubMenu.has_node("opciones/audioControl"):  # Ajusta el path si es diferente
+		var audio_ctrl = opSubMenu.get_node("opciones/audioControl")
+		# Los sliders ya están conectados en audioControl.gd, pero puedes inicializar valores aquí si quieres
+		audio_ctrl.sliders()  # Llama a sliders() para sincronizar con el volumen actual
 	
 	start_dialogue()
 
@@ -116,7 +147,6 @@ func set_background(bg_name: String): #optimizar esta cosa
 	else:
 		print("Fondo no encontrado: " + bg_name)
 
-
 func show_info_icon(info_type: String):
 	print("Mostrar info sobre: " + info_type)
 
@@ -139,7 +169,7 @@ func add_discord_message(text: String, is_player: bool = false):
 		message.text = "[right][color=cornflower_blue]" + text + "[/color][/right]"
 	else:
 		message.text = "[color=white]" + text + "[/color]"
-	
+
 	message.custom_minimum_size = Vector2(400, 0)
 	messages_container.add_child(message)
 
@@ -286,3 +316,68 @@ func mostrar_medidor_mateo():
 func ocultar_medidor_mateo():
 	if has_node("MedidorPuntos"):
 		$MedidorPuntos.ocultar_medidor()
+
+#Manejar tecla para pausar
+func _input(event):
+	if event.is_action_pressed("pause"):  #q asignada
+		toggle_pause()
+
+#Función para mostrar/ocultar menú de pausa
+func toggle_pause():
+	is_paused = !is_paused
+	pause_menu.visible = is_paused
+	if is_paused:
+		if balloon_actual:
+			balloon_actual.hide()
+		get_viewport().set_input_as_handled()
+	else:
+		if balloon_actual:
+			balloon_actual.show()
+		opSubMenu.hide()
+		$menuPausa/MenuOp.visible = false
+
+func _on_op_pressed() -> void:
+	print("Botón opciones presionado")  # Debug: Verifica si se llama
+	mostrarOpciones(true)
+
+func _on_continuar_pressed() -> void:
+	toggle_pause()  # Cierra el menú y reanuda
+
+func _on_salir_pressed() -> void:
+	if balloon_actual and balloon_actual.has_method("end_dialogue"):
+		balloon_actual.end_dialogue()
+	get_tree().change_scene_to_file("res://escenas/menu.tscn")
+	
+func mostrarOpciones(show_menu: bool):
+	if show_menu:
+		$menuPausa/MenuOp.visible = true
+		opSubMenu.show()
+		if animacion:
+			animacion.play("animacionOpciones")
+		if opSubMenu.has_node("exit"):
+			opSubMenu.get_node("exit").grab_focus()
+	else:
+		if animacion:
+			animacion.play_backwards("animacionOpciones")
+			await animacion.animation_finished
+		opSubMenu.hide()
+		$menuPausa/MenuOp.visible = false
+
+#Salir del submenú de opciones
+func _on_options_exit_pressed():
+	Audio.pulsar_btn()
+	mostrarOpciones(false)
+	opciones.grab_focus()
+
+func _on_option_button_item_selected(index: int):
+	change_language(index)
+
+func change_language(index: int):
+	# Implementa el cambio de idioma aquí (ej. cambiar textos, guardar en configuración)
+	print("Idioma cambiado a índice: " + str(index))
+	# Ejemplo: TranslationServer.set_locale("es" if index == 0 else "en")
+
+func _on_exit_pressed() -> void:
+	Audio.pulsar_btn()
+	mostrarOpciones(false) #Cierra submenú opciones
+	opciones.grab_focus() #Devuelve foco al botón "Opciones" del menú pausa
