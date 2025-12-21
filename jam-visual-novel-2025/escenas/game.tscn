@@ -231,7 +231,7 @@ theme_override_font_sizes/font_size = 30
 theme_override_styles/normal = SubResource("StyleBoxFlat_0irvc")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_hgee2")
 theme_override_styles/hover = SubResource("StyleBoxFlat_b1nxp")
-text = "Continuar"
+text = "ui_continuar"
 
 [node name="op" type="Button" parent="menuPausa/Panel/VBoxContainer"]
 layout_mode = 2
@@ -240,7 +240,7 @@ theme_override_font_sizes/font_size = 30
 theme_override_styles/normal = SubResource("StyleBoxFlat_dnmmx")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_j1rs0")
 theme_override_styles/hover = SubResource("StyleBoxFlat_yoq8h")
-text = "Opciones"
+text = "ui_opciones"
 
 [node name="salir" type="Button" parent="menuPausa/Panel/VBoxContainer"]
 layout_mode = 2
@@ -249,7 +249,7 @@ theme_override_font_sizes/font_size = 30
 theme_override_styles/normal = SubResource("StyleBoxFlat_0irvc")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_hgee2")
 theme_override_styles/hover = SubResource("StyleBoxFlat_b1nxp")
-text = "Salir del menú"
+text = "ui_salir"
 
 [node name="Audio" type="AudioStreamPlayer" parent="menuPausa/Panel/VBoxContainer"]
 
@@ -303,7 +303,7 @@ metadata/_tab_index = 0
 
 [node name="Label" type="Label" parent="menuPausa/MenuOp/PanelContainer/opciones/TabContainer/idioma"]
 layout_mode = 2
-text = "idiomas"
+text = "ui_idiomas"
 
 [node name="OptionButton" type="OptionButton" parent="menuPausa/MenuOp/PanelContainer/opciones/TabContainer/idioma"]
 layout_mode = 2
@@ -311,7 +311,7 @@ theme_override_styles/normal = SubResource("StyleBoxFlat_eupfu")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_vhtji")
 fit_to_longest_item = false
 
-[node name="volumen" type="VBoxContainer" parent="menuPausa/MenuOp/PanelContainer/opciones/TabContainer" node_paths=PackedStringArray("general", "musica", "efectos", "audioPlayer", "barraPlayer")]
+[node name="volumen" type="VBoxContainer" parent="menuPausa/MenuOp/PanelContainer/opciones/TabContainer" node_paths=PackedStringArray("general", "musica", "efectos")]
 visible = false
 layout_mode = 2
 script = ExtResource("7_c2h8q")
@@ -319,9 +319,7 @@ general = NodePath("mainBox/sliderG")
 musica = NodePath("musicaBox/sliderM")
 efectos = NodePath("sfxBox/sliderSFX")
 testSonido = ExtResource("8_g88m5")
-audioPlayer = NodePath("")
 sonidoBarra = ExtResource("9_jjepi")
-barraPlayer = NodePath("")
 metadata/_tab_index = 1
 
 [node name="Label" type="Label" parent="menuPausa/MenuOp/PanelContainer/opciones/TabContainer/volumen"]
@@ -329,7 +327,7 @@ layout_mode = 2
 size_flags_horizontal = 4
 theme_override_fonts/font = ExtResource("3_6kmlf")
 theme_override_font_sizes/font_size = 34
-text = "Volumen"
+text = "ui_audio"
 
 [node name="Label2" type="Label" parent="menuPausa/MenuOp/PanelContainer/opciones/TabContainer/volumen"]
 layout_mode = 2
@@ -347,7 +345,7 @@ theme_override_constants/separation = 13
 layout_mode = 2
 theme_override_fonts/font = ExtResource("5_t1yb8")
 theme_override_font_sizes/font_size = 18
-text = "Volumen general"
+text = "ui_volumenGeneral"
 
 [node name="menosG" type="Button" parent="menuPausa/MenuOp/PanelContainer/opciones/TabContainer/volumen/mainBox"]
 layout_mode = 2
@@ -371,7 +369,7 @@ theme_override_constants/separation = 13
 layout_mode = 2
 theme_override_fonts/font = ExtResource("5_t1yb8")
 theme_override_font_sizes/font_size = 18
-text = "Música"
+text = "ui_volumenMusica"
 
 [node name="menosM" type="Button" parent="menuPausa/MenuOp/PanelContainer/opciones/TabContainer/volumen/musicaBox"]
 layout_mode = 2
@@ -395,7 +393,7 @@ theme_override_constants/separation = 13
 layout_mode = 2
 theme_override_fonts/font = ExtResource("5_t1yb8")
 theme_override_font_sizes/font_size = 18
-text = "Efectos sonido"
+text = "ui_sfx"
 
 [node name="menosSFX" type="Button" parent="menuPausa/MenuOp/PanelContainer/opciones/TabContainer/volumen/sfxBox"]
 layout_mode = 2
@@ -428,7 +426,7 @@ theme_override_font_sizes/font_size = 36
 theme_override_styles/normal = SubResource("StyleBoxFlat_1ndok")
 theme_override_styles/pressed = SubResource("StyleBoxFlat_40d4f")
 theme_override_styles/hover = SubResource("StyleBoxFlat_65jox")
-text = "exit"
+text = "ui_salir"
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="menuPausa/MenuOp"]
 root_node = NodePath("../..")

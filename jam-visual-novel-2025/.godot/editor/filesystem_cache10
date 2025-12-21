@@ -1,5 +1,5 @@
 f098f8d3115d962055284dee314b4f89
-::res://::1766324300
+::res://::1766345911
 default_bus_layout.tres::AudioBusLayout::3238594863796064399::1765568351::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D::5751770903062247227::1765451405::1765451891::1::::<><><>0<>0<>ac698f11db3aecdcdd9e275ce854616d<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 ::res://addons/::1764927132
@@ -86,35 +86,34 @@ main_view.tscn::PackedScene::4884668666408697448::1765451405::0::1::::<><><>0<>0
 ::res://assets/audio/musica/cap3/::1766316626
 ::res://assets/audio/musica/cap4/::1766316630
 ::res://assets/audio/musica/cap5/::1766316639
-::res://assets/audio/musica/decidiendo/::1766316899
-soft-piano-music-312509.mp3::AudioStreamMP3::4615240310737583576::1766316898::1766316899::1::::<><><>0<>0<>0b5f78a26549cc3103bd1988dc3e7f34<>res://.godot/imported/soft-piano-music-312509.mp3-c82d4d217010af25662d9904aba293c3.mp3str::
-::res://assets/audio/musica/escenaHospi/::1766323658
-night-amsterdam-synth-pop-version-background-music-for-video-vlog-207300.mp3::AudioStreamMP3::4273977176206953403::1766323658::1766323658::1::::<><><>0<>0<>c9754103ac35f08218fed92121e6aa9c<>res://.godot/imported/night-amsterdam-synth-pop-version-background-music-for-video-vlog-207300.mp3-10f272ff6aaa333c0d149daa06c4274f.mp3str::
-relaxing-piano-music-248868.mp3::AudioStreamMP3::8114203429620991257::1766322392::1766322392::1::::<><><>0<>0<>822a77fa28b375f18eea8b0dbe058840<>res://.godot/imported/relaxing-piano-music-248868.mp3-c5727b3c32fe8c628101e532d897fac0.mp3str::
+::res://assets/audio/musica/decidiendo/::1766325069
+soft-piano-music-312509.mp3::AudioStreamMP3::4615240310737583576::1766325069::1766316899::1::::<><><>0<>0<>0b5f78a26549cc3103bd1988dc3e7f34<>res://.godot/imported/soft-piano-music-312509.mp3-c82d4d217010af25662d9904aba293c3.mp3str::
+::res://assets/audio/musica/escenaHospi/::1766325069
+night-amsterdam-synth-pop-version-background-music-for-video-vlog-207300.mp3::AudioStreamMP3::4273977176206953403::1766325069::1766323658::1::::<><><>0<>0<>c9754103ac35f08218fed92121e6aa9c<>res://.godot/imported/night-amsterdam-synth-pop-version-background-music-for-video-vlog-207300.mp3-10f272ff6aaa333c0d149daa06c4274f.mp3str::
+relaxing-piano-music-248868.mp3::AudioStreamMP3::8114203429620991257::1766325069::1766322392::1::::<><><>0<>0<>822a77fa28b375f18eea8b0dbe058840<>res://.godot/imported/relaxing-piano-music-248868.mp3-c5727b3c32fe8c628101e532d897fac0.mp3str::
 ::res://assets/audio/musica/finales/::1766323776
-::res://assets/audio/musica/finales/amigos/::1766316716
-thinking-of-good-time-soft-piano-music-201837.mp3::AudioStreamMP3::2929365911062023373::1766316715::1766316716::1::::<><><>0<>0<>ce62cef604d181d2cb10e9ee5b268e09<>res://.godot/imported/thinking-of-good-time-soft-piano-music-201837.mp3-7387bcf32e1234cb81bc6077b02bd99d.mp3str::
+::res://assets/audio/musica/finales/amigos/::1766325069
+thinking-of-good-time-soft-piano-music-201837.mp3::AudioStreamMP3::2929365911062023373::1766325069::1766316716::1::::<><><>0<>0<>ce62cef604d181d2cb10e9ee5b268e09<>res://.godot/imported/thinking-of-good-time-soft-piano-music-201837.mp3-7387bcf32e1234cb81bc6077b02bd99d.mp3str::
 ::res://assets/audio/musica/finales/canon/::1766316649
-::res://assets/audio/musica/finales/cobarde/::1766316693
-evening-glow-soft-piano-music-243818.mp3::AudioStreamMP3::3367399993882503542::1766316693::1766316693::1::::<><><>0<>0<>dd4270a490ff1964e76172ff6313b38d<>res://.godot/imported/evening-glow-soft-piano-music-243818.mp3-fdd80ec18836c52ddd8da56f389be5b3.mp3str::
-::res://assets/audio/musica/finales/demasiadas mentiras/::1766316699
-beyond-the-horizon-cinematic-background-music-for-video-short-2-413333.mp3::AudioStreamMP3::5847526219942116553::1766316699::1766316699::1::::<><><>0<>0<>4213eba1a95f6e9ba2d55c00bc084336<>res://.godot/imported/beyond-the-horizon-cinematic-background-music-for-video-short-2-413333.mp3-5bb13c28c38a044ced1009880dfcebbc.mp3str::
-::res://assets/audio/musica/finales/estupido/::1766324300
-cartoon-funny-comedy-background-music-326435.mp3::AudioStreamMP3::2210965956443392774::1766323737::1766323737::1::::<><><>0<>0<>abbf1a358e4ceef90237ef260a6a8452<>res://.godot/imported/cartoon-funny-comedy-background-music-326435.mp3-819d9acaaef4a172c703371fdbac24ed.mp3str::
-funny-comedy-cartoon-background.mp3::AudioStreamMP3::4808078890614772314::1766323737::1766324300::1::::<><><>0<>0<>5de75f6641c7af3708ae18043b257cea<>res://.godot/imported/funny-comedy-cartoon-background.mp3-57abdf8812572b9021c02f2058152a20.mp3str::
-::res://assets/audio/musica/finales/malo/::1766316707
-militant-amelia-dramatic-orchestral-background-music-for-video-34-sec-205319.mp3::AudioStreamMP3::1291857928284440413::1766316706::1766316707::1::::<><><>0<>0<>b64938c57ba18d84f3ccab1f2d3c034e<>res://.godot/imported/militant-amelia-dramatic-orchestral-background-music-for-video-34-sec-205319.mp3-9e65dd1a9f723ee3df60bdee62d73d38.mp3str::
-::res://assets/audio/musica/finales/malos/::1766323784
-old-friends-from-manhattan-background-orchestral-hip-hop-music-35sec-234799.mp3::AudioStreamMP3::1476808147756256265::1766323783::1766323784::1::::<><><>0<>0<>50c504ad8355326d414ad689169662b7<>res://.godot/imported/old-friends-from-manhattan-background-orchestral-hip-hop-music-35sec-234799.mp3-1dd6b3a021cc7ecc0f73da5385686b4b.mp3str::
-::res://assets/audio/musica/inicio/::1766317936
-a-moment-like-this-172295.mp3::AudioStreamMP3::736124837929357644::1766316737::1766317936::1::::<><><>0<>0<>7d6c1d1371aa5c853834e4353c4228c2<>res://.godot/imported/a-moment-like-this-172295.mp3-46c848933eaec73a71d31cde2e2bc8f4.mp3str::
-::res://assets/audio/musica/menu/::1766258088
-stress-relief-piano-117013.mp3::AudioStreamMP3::2319163259283661016::1766258079::1766258088::1::::<><><>0<>0<>a8c19c22f628eff0457eae7ad9bca6f3<>res://.godot/imported/stress-relief-piano-117013.mp3-4ccd3f9c9e9f92494237f6d216f73a23.mp3str::
+::res://assets/audio/musica/finales/cobarde/::1766325069
+evening-glow-soft-piano-music-243818.mp3::AudioStreamMP3::3367399993882503542::1766325069::1766316693::1::::<><><>0<>0<>dd4270a490ff1964e76172ff6313b38d<>res://.godot/imported/evening-glow-soft-piano-music-243818.mp3-fdd80ec18836c52ddd8da56f389be5b3.mp3str::
+::res://assets/audio/musica/finales/demasiadas mentiras/::1766325069
+beyond-the-horizon-cinematic-background-music-for-video-short-2-413333.mp3::AudioStreamMP3::5847526219942116553::1766325069::1766316699::1::::<><><>0<>0<>4213eba1a95f6e9ba2d55c00bc084336<>res://.godot/imported/beyond-the-horizon-cinematic-background-music-for-video-short-2-413333.mp3-5bb13c28c38a044ced1009880dfcebbc.mp3str::
+::res://assets/audio/musica/finales/estupido/::1766325069
+cartoon-funny-comedy-background-music-326435.mp3::AudioStreamMP3::2210965956443392774::1766325069::1766323737::1::::<><><>0<>0<>abbf1a358e4ceef90237ef260a6a8452<>res://.godot/imported/cartoon-funny-comedy-background-music-326435.mp3-819d9acaaef4a172c703371fdbac24ed.mp3str::
+::res://assets/audio/musica/finales/malo/::1766325069
+militant-amelia-dramatic-orchestral-background-music-for-video-34-sec-205319.mp3::AudioStreamMP3::1291857928284440413::1766325069::1766316707::1::::<><><>0<>0<>b64938c57ba18d84f3ccab1f2d3c034e<>res://.godot/imported/militant-amelia-dramatic-orchestral-background-music-for-video-34-sec-205319.mp3-9e65dd1a9f723ee3df60bdee62d73d38.mp3str::
+::res://assets/audio/musica/finales/malos/::1766325069
+old-friends-from-manhattan-background-orchestral-hip-hop-music-35sec-234799.mp3::AudioStreamMP3::1476808147756256265::1766325069::1766323784::1::::<><><>0<>0<>50c504ad8355326d414ad689169662b7<>res://.godot/imported/old-friends-from-manhattan-background-orchestral-hip-hop-music-35sec-234799.mp3-1dd6b3a021cc7ecc0f73da5385686b4b.mp3str::
+::res://assets/audio/musica/inicio/::1766325069
+a-moment-like-this-172295.mp3::AudioStreamMP3::736124837929357644::1766325069::1766317936::1::::<><><>0<>0<>7d6c1d1371aa5c853834e4353c4228c2<>res://.godot/imported/a-moment-like-this-172295.mp3-46c848933eaec73a71d31cde2e2bc8f4.mp3str::
+::res://assets/audio/musica/menu/::1766325069
+stress-relief-piano-117013.mp3::AudioStreamMP3::2319163259283661016::1766325069::1766258088::1::::<><><>0<>0<>a8c19c22f628eff0457eae7ad9bca6f3<>res://.godot/imported/stress-relief-piano-117013.mp3-4ccd3f9c9e9f92494237f6d216f73a23.mp3str::
 ::res://assets/audio/SFX/::1766319997
 recogeObjetoAgudo.wav::AudioStreamWAV::5991311106407014889::1765568838::1765568858::1::::<><><>0<>0<>c16746779ce7f616222c592ff97b03a3<>res://.godot/imported/recogeObjetoAgudo.wav-17232db44f72073fe061b3a034671f3d.sample::
 sfxBarraVol.wav::AudioStreamWAV::1320730309987038421::1765568899::1765568899::1::::<><><>0<>0<>2a034788912416b7195fa3400fd5df3f<>res://.godot/imported/sfxBarraVol.wav-d50c46277808567c02f3da2e0a571f5d.sample::
-::res://assets/audio/SFX/notificacion/::1766320017
-sfxNoti.wav::AudioStreamWAV::7556702895495567729::1766320017::1766320017::1::::<><><>0<>0<>fad3d2d9c77232480c7bfdf18c188e28<>res://.godot/imported/sfxNoti.wav-daaf1751230ab42cf16d58abaf5b5d31.sample::
+::res://assets/audio/SFX/notificacion/::1766325069
+sfxNoti.wav::AudioStreamWAV::7556702895495567729::1766325069::1766320017::1::::<><><>0<>0<>fad3d2d9c77232480c7bfdf18c188e28<>res://.godot/imported/sfxNoti.wav-daaf1751230ab42cf16d58abaf5b5d31.sample::
 ::res://assets/cuadros dialogo/::1766257785
 1003276466.png::CompressedTexture2D::1907167983353958166::1766257785::1766089741::1::::<><><>0<>0<>0ad5cbc686869898cfe2e5f75a220e51<>res://.godot/imported/1003276466.png-489672a6d5adcedbd903393e631d9abd.ctex::
 ::res://assets/fonts/::1765634844
@@ -190,28 +189,38 @@ madre.png::CompressedTexture2D::8167583119179025901::1766257785::1766137372::1::
 mama sin hablar.png::CompressedTexture2D::8743871816999996847::1766257785::1766137372::1::::<><><>0<>0<>39d27a42e09faa74496a657d3a30b9ca<>res://.godot/imported/mama sin hablar.png-469a3e301e31f6b8f63048fde7ff2a5f.ctex::
 padre sin hablar.png::CompressedTexture2D::1443273711880641439::1766257785::1766137377::1::::<><><>0<>0<>63e38290d9c2c35f2621e87971c60b46<>res://.godot/imported/padre sin hablar.png-b33c4752d900f80b509894ae73494d81.ctex::
 padre.png::CompressedTexture2D::5143888712165697874::1766257785::1766137377::1::::<><><>0<>0<>5b928090a48d3e8566ca30e642d8c5f3<>res://.godot/imported/padre.png-f31277bdfc72a91a7ccd9aa2aea4008d.ctex::
-::res://dialogos/::1766324355
-cap3.dialogue::Resource::3990686215667703907::1766257785::1766247556::1::::<><><>0<>0<>5f40868f1f12bf6027f609bd60a6b0b2<>res://.godot/imported/cap3.dialogue-2bae850097fdec8fea9b7bc428b73db1.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
-cap4.dialogue::Resource::8288544974775611756::1766257785::1766247121::1::::<><><>0<>0<>40e783f45328043e5dfb97a4dcf5aa6c<>res://.godot/imported/cap4.dialogue-0aba1c2b6d2d67f329b0ae10388020f9.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
-cap 5.dialogue::Resource::5806876327846853483::1766257785::1766256687::1::::<><><>0<>0<>cac25b6e6c740243c1fb3b588792a0a0<>res://.godot/imported/cap 5.dialogue-dcc869baf149f090db5fb4f757d27902.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
-escenaHospi.dialogue::Resource::4515241362355848428::1766323904::1766323904::1::::<><><>0<>0<>a00b9fc933973c278dc2cc1358de6453<>res://.godot/imported/escenaHospi.dialogue-d997efdadfe54b854d994ba3266c919a.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
-finales.dialogue::Resource::1762277697769272317::1766323904::1766323904::1::::<><><>0<>0<>78f7bcc085064e8ebc2c78a862c735b2<>res://.godot/imported/finales.dialogue-afea7c3f11d0acb504457da6d626b70a.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
-inicio.dialogue::Resource::2332915011357048097::1766324421::1766324421::1::::<><><>0<>0<>2b6536bf09072ec5d295a3f687cfdb4b<>res://.godot/imported/inicio.dialogue-085d28d4d3e13c39c95f520916dd26d3.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
-::res://escenas/::1766324061
-audio.tscn::PackedScene::1211841389494885650::1766324061::0::1::::<><><>0<>0<><>::uid://6edl6h4ttc14::::res://scripts/audio.gd
-game.tscn::PackedScene::258718747939119734::1766257785::0::1::::<><><>0<>0<><>::uid://br5xvgj4qdwgi::::res://scripts/gameManager.gd<>uid://lh7yi4u1exu3::::res://assets/fonts/libre baskeville/LibreBaskerville-Bold.ttf<>uid://c2yniadkhh4it::::res://escenas/medidorPuntos.tscn<>uid://ddmi5l4xu1pca::::res://assets/imagenes/fondos/habitacion1.jpeg
+::res://dialogos/::1766345587
+::res://dialogos/en/::1766345587
+::res://dialogos/es/::1766345589
+cap3.dialogue::Resource::3990686215667703907::1766257785::1766345580::1::::<><><>0<>0<>bf0a08e2cc51cd48d920a6b94b31f252<>res://.godot/imported/cap3.dialogue-9b9e24a4d20f8018143798836174d13b.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
+cap4.dialogue::Resource::8288544974775611756::1766257785::1766345580::1::::<><><>0<>0<>dd9dee74514090cac23bb1e024a65a9a<>res://.godot/imported/cap4.dialogue-95bdafc4d1180765f58b789077b74816.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
+cap 5.dialogue::Resource::5806876327846853483::1766257785::1766345580::1::::<><><>0<>0<>19ca4899065d692f53e83a177e771a42<>res://.godot/imported/cap 5.dialogue-59e35a70fe8625b94be2b6c13ef3bd5b.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
+escenaHospi.dialogue::Resource::4515241362355848428::1766325069::1766345580::1::::<><><>0<>0<>7cb9d867d54e4ba43dc200f5d497978d<>res://.godot/imported/escenaHospi.dialogue-582db4e45c76ac3e3e05ce535d3a827b.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
+finales.dialogue::Resource::1762277697769272317::1766345589::1766345589::1::::<><><>0<>0<>8d1aeb0ca51dcfbf817a3219d25ce96f<>res://.godot/imported/finales.dialogue-f228c4e596eb6bd606c15994f0af5a68.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
+inicio.dialogue::Resource::2332915011357048097::1766325069::1766345580::1::::<><><>0<>0<>fa9ce1b4a9640b2083b518d409c41202<>res://.godot/imported/inicio.dialogue-dadec2f5012e0658221e877c269713b6.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
+::res://escenas/::1766345361
+audio.tscn::PackedScene::1211841389494885650::1766325069::0::1::::<><><>0<>0<><>::uid://6edl6h4ttc14::::res://scripts/audio.gd
+game.tscn::PackedScene::258718747939119734::1766344216::0::1::::<><><>0<>0<><>::uid://br5xvgj4qdwgi::::res://scripts/gameManager.gd<>uid://lh7yi4u1exu3::::res://assets/fonts/libre baskeville/LibreBaskerville-Bold.ttf<>uid://c2yniadkhh4it::::res://escenas/medidorPuntos.tscn<>uid://ddmi5l4xu1pca::::res://assets/imagenes/fondos/habitacion1.jpeg<>uid://dg14kclf6jted::::res://assets/fonts/libre baskeville/LibreBaskerville-Regular.ttf<>uid://dnkv3p7myaucf::::res://scripts/menu_op.gd<>uid://dqspm13v3xdwh::::res://scripts/audioControl.gd<>uid://crmiavqkqlsw4::::res://assets/audio/SFX/recogeObjetoAgudo.wav<>uid://s21h87br30r6::::res://assets/audio/SFX/sfxBarraVol.wav
+idioma.tscn::PackedScene::7109794033341090686::1766343425::0::1::::<><><>0<>0<><>::uid://b7mah1wj836sj::::res://scripts/idiomas.gd
 medidorPuntos.tscn::PackedScene::6718288824066145087::1765832090::0::1::::<><><>0<>0<><>::uid://ba0pm2or24kob::::res://scripts/medidorPuntitos.gd
-menu.tscn::PackedScene::1700676497499850718::1766257785::0::1::::<><><>0<>0<><>::uid://h5nf74m70ijk::::res://scripts/menuManager.gd<>uid://dg14kclf6jted::::res://assets/fonts/libre baskeville/LibreBaskerville-Regular.ttf<>uid://bqi4tpiuav81w::::res://assets/imagenes/fondos/fondo menu7.jpeg<>uid://citeu0foibnt2::::res://assets/imagenes/personajes/krisFeliz.png<>uid://ba6aj80p4o2fg::::res://assets/imagenes/personajes/silueta Mateo.png<>uid://dnkv3p7myaucf::::res://scripts/menu_op.gd<>uid://lh7yi4u1exu3::::res://assets/fonts/libre baskeville/LibreBaskerville-Bold.ttf<>uid://dqspm13v3xdwh::::res://scripts/audioControl.gd<>uid://crmiavqkqlsw4::::res://assets/audio/SFX/recogeObjetoAgudo.wav<>uid://s21h87br30r6::::res://assets/audio/SFX/sfxBarraVol.wav
+menu.tscn::PackedScene::1700676497499850718::1766345361::0::1::::<><><>0<>0<><>::uid://h5nf74m70ijk::::res://scripts/menuManager.gd<>uid://dg14kclf6jted::::res://assets/fonts/libre baskeville/LibreBaskerville-Regular.ttf<>uid://bqi4tpiuav81w::::res://assets/imagenes/fondos/fondo menu7.jpeg<>uid://citeu0foibnt2::::res://assets/imagenes/personajes/krisFeliz.png<>uid://ba6aj80p4o2fg::::res://assets/imagenes/personajes/silueta Mateo.png<>uid://dnkv3p7myaucf::::res://scripts/menu_op.gd<>uid://lh7yi4u1exu3::::res://assets/fonts/libre baskeville/LibreBaskerville-Bold.ttf<>uid://dqspm13v3xdwh::::res://scripts/audioControl.gd<>uid://crmiavqkqlsw4::::res://assets/audio/SFX/recogeObjetoAgudo.wav<>uid://s21h87br30r6::::res://assets/audio/SFX/sfxBarraVol.wav<>uid://dgyuojqnf5dq2::::res://scripts/selectorIdiomas.gd
 sistema_puntos.tscn::PackedScene::7136203118646578990::1765721185::0::1::::<><><>0<>0<><>::uid://c2nt5yumlvtmr::::res://scripts/sistemaPuntos.gd
-::res://scripts/::1766324355
-audio.gd::GDScript::2184315098887749313::1766324355::0::1::::<>AudioStreamPlayer<><>0<>0<><>::
-audioControl.gd::GDScript::8320375943133349911::1766316231::0::1::::<>VBoxContainer<><>0<>0<><>::
+::res://scripts/::1766345749
+audio.gd::GDScript::2184315098887749313::1766325069::0::1::::<>AudioStreamPlayer<><>0<>0<><>::
+audioControl.gd::GDScript::8320375943133349911::1766325069::0::1::::<>VBoxContainer<><>0<>0<><>::
 buttonSkip.gd::GDScript::5878833823446823170::1765917014::0::1::::<>Button<><>0<>0<><>::
 gameFinales.gd::GDScript::7017076499396403565::1766257785::0::1::::<>Node<><>0<>0<><>::
-gameManager.gd::GDScript::3642996681049569188::1766257785::0::1::::<>Node2D<><>0<>0<><>::
+gameManager.gd::GDScript::3642996681049569188::1766345749::0::1::::<>Node2D<><>0<>0<><>::
+idiomas.gd::GDScript::4657250113763144697::1766343425::0::1::::<>Node<><>0<>0<><>::
 medidorPuntitos.gd::GDScript::2438963752530302013::1765725890::0::1::::<>CanvasLayer<><>0<>0<><>::
-menuManager.gd::GDScript::554053214099021156::1766258172::0::1::::<>Control<><>0<>0<><>::
+menuManager.gd::GDScript::554053214099021156::1766345037::0::1::::<>Control<><>0<>0<><>::
 menu_op.gd::GDScript::8093686692853068569::1765572139::0::1::::<>Control<><>0<>0<><>::
-sistemaPuntos.gd::GDScript::6695985545112827597::1766257785::0::1::::<>Node<><>0<>0<><>::
+selectorIdiomas.gd::GDScript::7631180018000477223::1766345589::0::1::::<>OptionButton<><>0<>0<><>::
+sistemaPuntos.gd::GDScript::6695985545112827597::1766335178::0::1::::<>Node<><>0<>0<><>::
 sistemaSkip.gd::GDScript::8024367494018127708::1765915574::0::1::::<>Node<><>0<>0<><>::
 skipBtn.gd::GDScript::5739476426951929347::1765956008::0::1::::<>Button<><>0<>0<><>::
+::res://traducciones/::1766346057
+traduccion.en.translation::OptimizedTranslation::2038771964986559695::1766346058::0::1::::<><><>0<>0<><>::
+traduccion.es.translation::OptimizedTranslation::8989380830298725626::1766346058::0::1::::<><><>0<>0<><>::
+traduccion.csv::Translation::3268588074904580089::1766346057::1766346058::1::::<><><>0<>0<>1486a93f5c2166731ef79dd05afa4d18<>res://traducciones/traduccion.es.translation<*>res://traducciones/traduccion.en.translation::
+traducciones.csv::Translation::4408472780111746415::1766345916::1766345916::0::::<><><>0<>0<>bec4b50c089e21f6e4ca163440a19578<>::
