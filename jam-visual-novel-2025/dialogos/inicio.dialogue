@@ -1,6 +1,7 @@
 ~ start
 
 do set_background("habitacion1")
+do Audio.change_music(Audio.inicio, 0)
 Un día como otro cualquiera me preparé para ir a clases.
 Desde hace tiempo deseaba que llegara este momento; estudiar algo que realmente quería.
 
@@ -19,6 +20,7 @@ Era ya la hora del recreo cuando, de repente, me fijo en que tengo una nueva not
 ¿Quizás me ha confundido con otra persona?
 
 #*en pantalla del pc tipo como si vieras discord*
+do Audio.play_sfx(Audio.notificacion)
 [i]Holaaa, perdona la intrusión y espero no molestar.
 [i]Soy de segundo, hablando con un profe y algunos de tu clase me enteré que tuvisteis un examen.
 [i]Te escribía para saber qué tal te fue y os fue en general. Espero que haya salido genialll y disculpa la intrusión repentina.
@@ -33,9 +35,13 @@ No tardé mucho más y, sin darme cuenta, ya había mandado el mensaje.
 Iba a aprovechar para adelantar algunas tareas, pero enseguida me distrajo algo.
 
 #*mostrar pantalla del pc y, anterior a los dos mensajes, nuevo mensaje:*
+do Audio.play_sfx(Audio.notificacion)
 [i]Nadaa ^^
+do Audio.play_sfx(Audio.notificacion)
 [i]Y perdona el mensaje random.
+do Audio.play_sfx(Audio.notificacion)
 [i]Me alegra que te haya salido bien. Antes estaba sentado con 2 de tus compañeros y no quería molestarte al entrar.
+do Audio.play_sfx(Audio.notificacion)
 [i]Mucho ánimo con el resto del día.
 
 #*mostrar dialogo pero por encima del fondo del pc y mensajes*
@@ -53,6 +59,7 @@ Conforme pasaban los días mis nervios crecían más y más.
 Dentro de nada era mi operación para volver a la normalidad. Me iban a quitar la ostomía.
 Y esa era de mis operaciones más importantes, porque aquello significaba que dentro de nada mi cuerpo volvería a ser, relativamente, normal. Quizás no funcionará como antes, nunca volvería a ser la de antes de todas formas, pero ya no tendría que vivir nunca más con esta bolsa que tantos problemas me ha estado causando.
 
+do Audio.change_music(Audio.hospi)
 21 de noviembre.
 Ya era el día de mi operación.
 Recuerdo que antes de ingresar hablé con mi madre y mis amigas, quienes sabían de la intervención que tenían que hacerme.
@@ -82,12 +89,15 @@ do show_character("kristine", "derecha", "sinHablar")
 Anestesista: Por supuesto que sí, todo saldrá bien. Ahora necesito que respires profundo y cuentes hasta 10.
 
 #do marcar_punto_decision("decisionQuirofano")
+do Audio.change_music(Audio.momentoDecidir)
 Aunque sea una pregunta absurda [b]¿qué debería hacer?[/b]:
 - Hacer caso
+	do Audio.change_music(Audio.hospi)
 	do cargarSiguienteCap("escenaHospi")
 	=> END
 
 - No hacer caso 
+	do Audio.change_music(Audio.hospi)
 	do hide_character("izq")
 	do hide_character("derecha")
 	No, no puedo hacer eso.
@@ -104,6 +114,7 @@ Aunque sea una pregunta absurda [b]¿qué debería hacer?[/b]:
 - Irte
 	do hide_character("izq")
 	do hide_character("derecha")
+	do Audio.change_music(Audio.finalEstupido2)
 	Sin decir nada, me quité el aparato que me pusieron en el rostro para dormirme, de un tirón me quité también la vía y, sin importarme lo que pudieran decir los médicos o lo que pudiera pasar, me fui del quirófano.
 	Corrí.
 	No sabía porqué, pero corrí por mi vida, pero se me olvidó un detalle.

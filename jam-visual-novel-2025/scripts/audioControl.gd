@@ -41,7 +41,7 @@ func _ready():
 	# Timer para detener sonido de barra (0.5s después de cambio)
 	barra_timer = Timer.new()
 	barra_timer.one_shot = true
-	barra_timer.timeout.connect(_stop_barra_sound)
+	barra_timer.timeout.connect(stopBarraSonido)
 	add_child(barra_timer)
 
 func sliders():
@@ -71,16 +71,14 @@ func volumen(busNom: String, value: float):
 	
 func volGeneral(value: float):
 	volumen("Master", value)
-	#play_barra_sound(value)  # Reproduce sonido de barra con volumen dinámico
 
 func volMusica(value: float):
 	volumen("Musica", value)
-	#play_barra_sound(value)  # Reproduce sonido de barra con volumen dinámico
-	
+
 func volSfx(value: float):
 	volumen("SFX", value)
 	#playSfx()  # Sonido de prueba único para SFX
-	play_barra_sound(value)  # También sonido de barra dinámico para SFX
+	playBarraSonido(value)  # También sonido de barra dinámico para SFX
 
 func btnMenosG():
 	general.value = clamp(general.value - vol, 0.0, 100.0)
@@ -104,13 +102,18 @@ func playSfx():
 		audioPlayer.play()
 
 # Función para reproducir sonido de barra con volumen dinámico
-func play_barra_sound(slider_value: float):
+func playBarraSonido(slider_value: float):
 	if barraPlayer and sonidoBarra:
 		barraPlayer.stream = sonidoBarra
 		barraPlayer.volume_db = slider_to_deci(slider_value)  # Volumen baja/sub con el slider
 		barraPlayer.play()
 		barra_timer.start(0.5)  # Detiene después de 0.5s
 
-func _stop_barra_sound():
+func stopBarraSonido():
 	if barraPlayer:
 		barraPlayer.stop()
+		
+#func playSFX():
+	#if audioPlayer and testSonido:
+		#audioPlayer.stream = testSonido
+		#audioPlayer.play()
