@@ -1,14 +1,14 @@
 [gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
 
-[ext_resource type="Script" uid="uid://dbs4435dsf3ry" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_abg16"]
+[ext_resource type="Script" uid="uid://dbs4435dsf3ry" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_d1vjk"]
 
 [resource]
-script = ExtResource("1_abg16")
+script = ExtResource("1_d1vjk")
 using_states = PackedStringArray()
 titles = {
 "momentoDecision": "206",
 "sigue": "223",
-"siguee": "79",
+"siguee": "78",
 "start": "1"
 }
 character_names = PackedStringArray("Kristine", "Mateo")
@@ -37,72 +37,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "3",
+&"next_id": "2",
 &"type": "mutation"
 },
 "10": {
 &"id": "10",
-&"next_id": "11",
-&"type": ""
-},
-"100": {
-&"id": "100",
-&"next_id": "101",
-&"type": ""
-},
-"101": {
-&"id": "101",
-&"next_id": "103",
-&"text": "Justamente ayer al terminar el examen, Mateo me preguntó si podía quedar el 16. Sin pensarlo le dije que sí. Y a qué precio.",
-&"type": "dialogue"
-},
-"102": {
-&"id": "102",
-&"next_id": "103",
-&"type": ""
-},
-"103": {
-&"id": "103",
-&"next_id": "104",
-&"text": "Debería de haberle rechazado y haber aplazado la quedada para cuando estuviera realmente lista, pero, si nos ponemos así y hubiera atrasado aquel encuentro para otro día o para cuando me sintiera preparada, nunca lo hubiera visto.",
-&"type": "dialogue"
-},
-"104": {
-&"id": "104",
-&"next_id": "105",
-&"text": "Esa quedada nunca habría llegado, ya que siempre sentiría estos nervios recorriendo mi cuerpo.",
-&"type": "dialogue"
-},
-"105": {
-&"id": "105",
-&"next_id": "106",
-&"text": "Nunca estaría lo suficientemente lista como para verlo en persona, como para hablar cara a cara con él.",
-&"type": "dialogue"
-},
-"106": {
-&"id": "106",
-&"next_id": "108",
-&"text": "Simplemente, ese momento que creía perfecto para cuando estuviera dispuesta a hablar las cosas con él, jamás llegaría verdaderamente.",
-&"type": "dialogue"
-},
-"107": {
-&"id": "107",
-&"next_id": "108",
-&"type": ""
-},
-"108": {
-&"id": "108",
-&"next_id": "110",
-&"text": "Y, sin darme cuenta de cuán rápido pasó ese lapso de tiempo, que creía más largo, llegó la hora.",
-&"type": "dialogue"
-},
-"109": {
-&"id": "109",
-&"next_id": "110",
-&"type": ""
-},
-"11": {
-&"id": "11",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -127,11 +66,62 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "12",
+&"next_id": "11",
 &"type": "mutation"
 },
-"110": {
-&"id": "110",
+"100": {
+&"id": "100",
+&"next_id": "102",
+&"text": "Just yesterday, right after finishing the exam, Mateo asked me if we could meet on the 16th. Without thinking, I said yes. And at what a cost.",
+&"type": "dialogue"
+},
+"101": {
+&"id": "101",
+&"next_id": "102",
+&"type": ""
+},
+"102": {
+&"id": "102",
+&"next_id": "103",
+&"text": "I should have said no and postponed the meeting until I was truly ready, but if I’m being honest, had I delayed that meeting to another day or until I felt prepared, I would never have seen him.",
+&"type": "dialogue"
+},
+"103": {
+&"id": "103",
+&"next_id": "104",
+&"text": "That meeting would never have happened, because I would always feel these nerves coursing through my body.",
+&"type": "dialogue"
+},
+"104": {
+&"id": "104",
+&"next_id": "105",
+&"text": "I would never have been truly ready to see him in person, to talk to him face to face.",
+&"type": "dialogue"
+},
+"105": {
+&"id": "105",
+&"next_id": "107",
+&"text": "Simply put, that moment I thought would be perfect for when I was ready to talk to him would never really come.",
+&"type": "dialogue"
+},
+"106": {
+&"id": "106",
+&"next_id": "107",
+&"type": ""
+},
+"107": {
+&"id": "107",
+&"next_id": "109",
+&"text": "And, without realizing how quickly that span of time passed, which I had thought would be longer, the moment arrived.",
+&"type": "dialogue"
+},
+"108": {
+&"id": "108",
+&"next_id": "109",
+&"type": ""
+},
+"109": {
+&"id": "109",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "set_background",
@@ -148,61 +138,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "111",
+&"next_id": "110",
 &"type": "mutation"
 },
-"111": {
-&"id": "111",
-&"next_id": "113",
-&"text": "18:00.",
-&"type": "dialogue"
-},
-"112": {
-&"id": "112",
-&"next_id": "113",
-&"type": ""
-},
-"113": {
-&"id": "113",
-&"next_id": "115",
-&"text": "Él ya estaba esperándome abajo.",
-&"type": "dialogue"
-},
-"114": {
-&"id": "114",
-&"next_id": "115",
-&"type": ""
-},
-"115": {
-&"id": "115",
-&"next_id": "116",
-&"text": "Yo ya estaba medianamente lista.",
-&"type": "dialogue"
-},
-"116": {
-&"id": "116",
-&"next_id": "118",
-&"text": "Si hablamos sentimentalmente, no lo estaba. Nunca lo estaría sabiendo lo que debía hablar en cuanto lo viera, pero al menos físicamente sí lo estaba.",
-&"type": "dialogue"
-},
-"117": {
-&"id": "117",
-&"next_id": "118",
-&"type": ""
-},
-"118": {
-&"id": "118",
-&"next_id": "120",
-&"text": "16 de febrero…",
-&"type": "dialogue"
-},
-"119": {
-&"id": "119",
-&"next_id": "120",
-&"type": ""
-},
-"12": {
-&"id": "12",
+"11": {
+&"id": "11",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -227,11 +167,61 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "13",
+&"next_id": "12",
 &"type": "mutation"
 },
-"120": {
-&"id": "120",
+"110": {
+&"id": "110",
+&"next_id": "112",
+&"text": "6:00 PM.",
+&"type": "dialogue"
+},
+"111": {
+&"id": "111",
+&"next_id": "112",
+&"type": ""
+},
+"112": {
+&"id": "112",
+&"next_id": "114",
+&"text": "He was already waiting for me outside.",
+&"type": "dialogue"
+},
+"113": {
+&"id": "113",
+&"next_id": "114",
+&"type": ""
+},
+"114": {
+&"id": "114",
+&"next_id": "115",
+&"text": "I was already somewhat ready.",
+&"type": "dialogue"
+},
+"115": {
+&"id": "115",
+&"next_id": "117",
+&"text": "Emotionally, though, I wasn’t. I never would be, knowing what I had to talk about when I saw him. But at least physically, I was ready.",
+&"type": "dialogue"
+},
+"116": {
+&"id": "116",
+&"next_id": "117",
+&"type": ""
+},
+"117": {
+&"id": "117",
+&"next_id": "119",
+&"text": "16th of February…",
+&"type": "dialogue"
+},
+"118": {
+&"id": "118",
+&"next_id": "119",
+&"type": ""
+},
+"119": {
+&"id": "119",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "set_background",
@@ -248,39 +238,45 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "121",
+&"next_id": "120",
 &"type": "mutation"
+},
+"12": {
+&"id": "12",
+&"next_id": "14",
+&"text": "When I said that, Mateo’s expression was a mix of confusion and curiosity. How could he be so cute?",
+&"type": "dialogue"
+},
+"120": {
+&"id": "120",
+&"next_id": "121",
+&"text": "As I stepped outside, I noticed how cold it was, and I saw him waiting.",
+&"type": "dialogue"
 },
 "121": {
 &"id": "121",
-&"next_id": "122",
-&"text": "Al salir, noté el frío que hacía y lo vi, esperando.",
+&"next_id": "123",
+&"text": "The moment he looked at me, he let out a smile.",
 &"type": "dialogue"
 },
 "122": {
 &"id": "122",
-&"next_id": "124",
-&"text": "En cuanto me miró, dejó escapar una sonrisa.",
-&"type": "dialogue"
+&"next_id": "123",
+&"type": ""
 },
 "123": {
 &"id": "123",
-&"next_id": "124",
-&"type": ""
+&"next_id": "125",
+&"text": "Luckily for me, the first thing we did that day was go to the café we used to frequent. It had become a habit to go there.",
+&"type": "dialogue"
 },
 "124": {
 &"id": "124",
-&"next_id": "126",
-&"text": "Por suerte para mí, lo primero que hicimos aquel día fue ir a la cafetería en la que solíamos estar. Ya era costumbre ir ahí.",
-&"type": "dialogue"
+&"next_id": "125",
+&"type": ""
 },
 "125": {
 &"id": "125",
-&"next_id": "126",
-&"type": ""
-},
-"126": {
-&"id": "126",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "set_background",
@@ -297,73 +293,72 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "127",
+&"next_id": "126",
 &"type": "mutation"
+},
+"126": {
+&"id": "126",
+&"next_id": "128",
+&"text": "While I sipped my beloved cappuccino to warm up and try to calm my nerves, he talked about his family, things that happened to some of his classmates, and other topics.",
+&"type": "dialogue"
 },
 "127": {
 &"id": "127",
-&"next_id": "129",
-&"text": "Mientras tomaba mi querido capuccino para entrar en calor e intentar disminuir los nervios, él hablaba de su familia, cosas que le pasaron a algunos compañeros de su clase y otros temas.",
-&"type": "dialogue"
+&"next_id": "128",
+&"type": ""
 },
 "128": {
 &"id": "128",
 &"next_id": "129",
-&"type": ""
+&"text": "I tried to look at him, I swear I tried to meet his eyes, but I simply couldn’t. I was incapable of doing so knowing that he had already read my letter.",
+&"type": "dialogue"
 },
 "129": {
 &"id": "129",
-&"next_id": "130",
-&"text": "Intentaba mirarlo, juro que intenté verlo a los ojos, pero simplemente no podía. Era incapaz sabiendo que él ya había leído mi carta.",
+&"next_id": "131",
+&"text": "He already knew how I felt, but I didn’t know whether those feelings were returned or not. And that was slowly killing me.",
 &"type": "dialogue"
 },
 "13": {
 &"id": "13",
-&"next_id": "15",
-&"text": "Cuando dije eso, Mateo mostró una cara de confusión y curiosidad al mismo tiempo. ¿Cómo podía ser tan adorable?",
-&"type": "dialogue"
+&"next_id": "14",
+&"type": ""
 },
 "130": {
 &"id": "130",
-&"next_id": "132",
-&"text": "Él ya sabía lo que sentía, pero yo no sabía si aquello era correspondido o no. Y eso lentamente me estaba matando.",
-&"type": "dialogue"
+&"next_id": "131",
+&"type": ""
 },
 "131": {
 &"id": "131",
-&"next_id": "132",
-&"type": ""
+&"next_id": "133",
+&"text": "Definitely, I was a masochist.",
+&"type": "dialogue"
 },
 "132": {
 &"id": "132",
-&"next_id": "134",
-&"text": "Definitivamente, era masoquista.",
-&"type": "dialogue"
+&"next_id": "133",
+&"type": ""
 },
 "133": {
 &"id": "133",
 &"next_id": "134",
-&"type": ""
+&"text": "I couldn’t complain, knowing full well that I was the one who had told him not to say anything about the letter or its contents until we were alone. And I didn’t know how to bring up the subject.",
+&"type": "dialogue"
 },
 "134": {
 &"id": "134",
-&"next_id": "135",
-&"text": "No podía quejarme, no siendo consciente de que fui yo misma la que le dijo que no me contara nada sobre la carta ni lo que ponía ahí hasta que estuviéramos a solas. Y yo no sabía cómo sacar el tema.",
+&"next_id": "136",
+&"text": "I suppose that if I didn’t do it, he would. Sooner or later.",
 &"type": "dialogue"
 },
 "135": {
 &"id": "135",
-&"next_id": "137",
-&"text": "Supongo que, si no lo hacía yo, lo haría él. Tarde o temprano.",
-&"type": "dialogue"
+&"next_id": "136",
+&"type": ""
 },
 "136": {
 &"id": "136",
-&"next_id": "137",
-&"type": ""
-},
-"137": {
-&"id": "137",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "set_background",
@@ -380,85 +375,28 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "138",
+&"next_id": "137",
 &"type": "mutation"
+},
+"137": {
+&"id": "137",
+&"next_id": "139",
+&"text": "After a couple hours, we reached the park, the one we would often find ourselves in.",
+&"type": "dialogue"
 },
 "138": {
 &"id": "138",
-&"next_id": "140",
-&"text": "Después de unas horas, llegamos al parque, aquel al que solíamos ir.",
-&"type": "dialogue"
+&"next_id": "139",
+&"type": ""
 },
 "139": {
 &"id": "139",
 &"next_id": "140",
-&"type": ""
+&"text": "It was already dark, even though it was around 8:00 PM, and it was cold. Very cold.",
+&"type": "dialogue"
 },
 "14": {
 &"id": "14",
-&"next_id": "15",
-&"type": ""
-},
-"140": {
-&"id": "140",
-&"next_id": "141",
-&"text": "Ya había anochecido, a pesar de que eran las 20:00 aproximadamente, y hacía frío. Mucho frío.",
-&"type": "dialogue"
-},
-"141": {
-&"id": "141",
-&"next_id": "142",
-&"text": "Ni la sudadera de terciopelo que llevaba era suficiente para entrar en calor. Me abracé a mí misma con la esperanza de que los escalofríos disminuyeran.",
-&"type": "dialogue"
-},
-"142": {
-&"id": "142",
-&"next_id": "143",
-&"text": "Intento fallido.",
-&"type": "dialogue"
-},
-"143": {
-&"id": "143",
-&"next_id": "145",
-&"text": "En definitiva, odio ser friolera.",
-&"type": "dialogue"
-},
-"144": {
-&"id": "144",
-&"next_id": "145",
-&"type": ""
-},
-"145": {
-&"id": "145",
-&"next_id": "146",
-&"text": "Por suerte o por desgracia, él lo notó. Y me abrazó.",
-&"type": "dialogue"
-},
-"146": {
-&"id": "146",
-&"next_id": "147",
-&"text": "Inmediatamente noté que se me subió algo. Me notaba la cara roja. Por su culpa. Tonto.",
-&"type": "dialogue"
-},
-"147": {
-&"id": "147",
-&"next_id": "149",
-&"text": "Con lentitud, me aparté de él y nos sentamos en un banco que había libre.",
-&"type": "dialogue"
-},
-"148": {
-&"id": "148",
-&"next_id": "149",
-&"type": ""
-},
-"149": {
-&"id": "149",
-&"next_id": "151",
-&"text": "Hice mal al pensar que los nervios habían abandonado mi cuerpo.",
-&"type": "dialogue"
-},
-"15": {
-&"id": "15",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -483,16 +421,75 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "16",
+&"next_id": "15",
 &"type": "mutation"
+},
+"140": {
+&"id": "140",
+&"next_id": "141",
+&"text": "Not even the velvet hoodie I was wearing was enough to keep me warm. I hugged myself, hoping the chills would lessen.",
+&"type": "dialogue"
+},
+"141": {
+&"id": "141",
+&"next_id": "142",
+&"text": "Failed attempt.",
+&"type": "dialogue"
+},
+"142": {
+&"id": "142",
+&"next_id": "144",
+&"text": "Honestly, I hate being so sensitive to the cold.",
+&"type": "dialogue"
+},
+"143": {
+&"id": "143",
+&"next_id": "144",
+&"type": ""
+},
+"144": {
+&"id": "144",
+&"next_id": "145",
+&"text": "Luckily, or unfortunately, he noticed. And he hugged me.",
+&"type": "dialogue"
+},
+"145": {
+&"id": "145",
+&"next_id": "146",
+&"text": "Immediately, I felt something rise. My face was red. Because of him. Silly.",
+&"type": "dialogue"
+},
+"146": {
+&"id": "146",
+&"next_id": "148",
+&"text": "Slowly, I pulled away from him, and we sat on an empty bench..",
+&"type": "dialogue"
+},
+"147": {
+&"id": "147",
+&"next_id": "148",
+&"type": ""
+},
+"148": {
+&"id": "148",
+&"next_id": "150",
+&"text": "I was wrong to think that my nerves had left my body.",
+&"type": "dialogue"
+},
+"149": {
+&"id": "149",
+&"next_id": "150",
+&"type": ""
+},
+"15": {
+&"character": "Kristine",
+&"id": "15",
+&"next_id": "16",
+&"text": "I know that… M-maybe it’s kind of cliché to do it on Valentine’s Day, but I promise it’s not because of the date itself… Anyway, on the first page there are… some notes. I need you to follow them to the letter, please.",
+&"type": "dialogue"
 },
 "150": {
 &"id": "150",
-&"next_id": "151",
-&"type": ""
-},
-"151": {
-&"id": "151",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"i": 3,
@@ -527,11 +524,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "152",
+&"next_id": "151",
 &"type": "mutation"
 },
-"152": {
-&"id": "152",
+"151": {
+&"id": "151",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -556,11 +553,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "153",
+&"next_id": "152",
 &"type": "mutation"
 },
-"153": {
-&"id": "153",
+"152": {
+&"id": "152",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -585,18 +582,18 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "154",
+&"next_id": "153",
 &"type": "mutation"
 },
-"154": {
+"153": {
 &"character": "Mateo",
-&"id": "154",
-&"next_id": "155",
-&"text": "Seré breve.",
+&"id": "153",
+&"next_id": "154",
+&"text": "I’ll be brief.",
 &"type": "dialogue"
 },
-"155": {
-&"id": "155",
+"154": {
+&"id": "154",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -621,40 +618,33 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "157",
+&"next_id": "156",
 &"type": "mutation"
+},
+"155": {
+&"id": "155",
+&"next_id": "156",
+&"type": ""
 },
 "156": {
 &"id": "156",
 &"next_id": "157",
-&"type": ""
+&"text": "No, please.",
+&"type": "dialogue"
 },
 "157": {
 &"id": "157",
-&"next_id": "158",
-&"text": "No, por favor.",
+&"next_id": "159",
+&"text": "I both wanted and didn’t want this day to come.",
 &"type": "dialogue"
 },
 "158": {
 &"id": "158",
-&"next_id": "160",
-&"text": "Quería y no quería que este momento llegara.",
-&"type": "dialogue"
+&"next_id": "159",
+&"type": ""
 },
 "159": {
 &"id": "159",
-&"next_id": "160",
-&"type": ""
-},
-"16": {
-&"character": "Kristine",
-&"id": "16",
-&"next_id": "17",
-&"text": "Sé que… Q-quizás sea mítico hacerlo un 14 de febrero, pero te prometo que no es por la fecha en sí… En fin, en la primera página hay… Algunas notas. Necesito que sigas al pie de la letra esas anotaciones, por favor.",
-&"type": "dialogue"
-},
-"160": {
-&"id": "160",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -679,157 +669,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "161",
+&"next_id": "160",
 &"type": "mutation"
 },
-"161": {
-&"character": "Mateo",
-&"id": "161",
-&"next_id": "162",
-&"text": "Sobre lo de tu carta…",
-&"type": "dialogue"
-},
-"162": {
-&"id": "162",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"function": "show_character",
-&"i": 3,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 18,
-&"type": &"string",
-&"value": "mateo"
-}]), Array[Dictionary]([{
-&"i": 27,
-&"type": &"string",
-&"value": "izq"
-}]), Array[Dictionary]([{
-&"i": 34,
-&"type": &"string",
-&"value": "hablaAlegre"
-}, {
-&"i": 47,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
-&"next_id": "163",
-&"type": "mutation"
-},
-"163": {
-&"id": "163",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"function": "show_character",
-&"i": 3,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 18,
-&"type": &"string",
-&"value": "kristine"
-}]), Array[Dictionary]([{
-&"i": 30,
-&"type": &"string",
-&"value": "derecha"
-}]), Array[Dictionary]([{
-&"i": 41,
-&"type": &"string",
-&"value": "intentoSonrisa"
-}, {
-&"i": 57,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
-&"next_id": "164",
-&"type": "mutation"
-},
-"164": {
-&"character": "Mateo",
-&"id": "164",
-&"next_id": "166",
-&"text": "Te agradezco mucho que me la hayas dado. Escribes muy bonito, por cierto. Quería decirte que…",
-&"type": "dialogue"
-},
-"165": {
-&"id": "165",
-&"next_id": "166",
-&"type": ""
-},
-"166": {
-&"id": "166",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"function": "show_character",
-&"i": 3,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 18,
-&"type": &"string",
-&"value": "mateo"
-}]), Array[Dictionary]([{
-&"i": 27,
-&"type": &"string",
-&"value": "izq"
-}]), Array[Dictionary]([{
-&"i": 34,
-&"type": &"string",
-&"value": "serio"
-}, {
-&"i": 41,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
-&"next_id": "167",
-&"type": "mutation"
-},
-"167": {
-&"id": "167",
-&"next_id": "169",
-&"text": "Aquí vamos… ¿Me va a rechazar? Parece que sí.",
-&"type": "dialogue"
-},
-"168": {
-&"id": "168",
-&"next_id": "169",
-&"type": ""
-},
-"169": {
-&"id": "169",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"function": "show_character",
-&"i": 3,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 18,
-&"type": &"string",
-&"value": "mateo"
-}]), Array[Dictionary]([{
-&"i": 27,
-&"type": &"string",
-&"value": "izq"
-}]), Array[Dictionary]([{
-&"i": 34,
-&"type": &"string",
-&"value": "hablaAlegre"
-}, {
-&"i": 47,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
-&"next_id": "170",
-&"type": "mutation"
-},
-"17": {
-&"id": "17",
+"16": {
+&"id": "16",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -854,105 +698,18 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "19",
+&"next_id": "18",
 &"type": "mutation"
 },
-"170": {
+"160": {
 &"character": "Mateo",
-&"id": "170",
-&"next_id": "171",
-&"text": "Quería decirte que yo también siento lo mismo.",
+&"id": "160",
+&"next_id": "161",
+&"text": "About your letter…",
 &"type": "dialogue"
 },
-"171": {
-&"id": "171",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"function": "show_character",
-&"i": 3,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 18,
-&"type": &"string",
-&"value": "mateo"
-}]), Array[Dictionary]([{
-&"i": 27,
-&"type": &"string",
-&"value": "izq"
-}]), Array[Dictionary]([{
-&"i": 34,
-&"type": &"string",
-&"value": "feliz"
-}, {
-&"i": 41,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
-&"next_id": "173",
-&"type": "mutation"
-},
-"172": {
-&"id": "172",
-&"next_id": "173",
-&"type": ""
-},
-"173": {
-&"id": "173",
-&"next_id": "174",
-&"text": "[speed= 0.0001]...",
-&"type": "dialogue"
-},
-"174": {
-&"id": "174",
-&"next_id": "176",
-&"text": "[speed=0.03]¿Cómo?",
-&"type": "dialogue"
-},
-"175": {
-&"id": "175",
-&"next_id": "176",
-&"type": ""
-},
-"176": {
-&"id": "176",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"function": "show_character",
-&"i": 3,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 18,
-&"type": &"string",
-&"value": "kristine"
-}]), Array[Dictionary]([{
-&"i": 30,
-&"type": &"string",
-&"value": "derecha"
-}]), Array[Dictionary]([{
-&"i": 41,
-&"type": &"string",
-&"value": "hablaNormal"
-}, {
-&"i": 54,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
-&"next_id": "177",
-&"type": "mutation"
-},
-"177": {
-&"character": "Kristine",
-&"id": "177",
-&"next_id": "178",
-&"text": "¿Qué?",
-&"type": "dialogue"
-},
-"178": {
-&"id": "178",
+"161": {
+&"id": "161",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -977,11 +734,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "179",
+&"next_id": "162",
 &"type": "mutation"
 },
-"179": {
-&"id": "179",
+"162": {
+&"id": "162",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -998,36 +755,112 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "avergonzada"
+&"value": "intentoSonrisa"
 }, {
-&"i": 54,
+&"i": 57,
 &"type": &"parens_close"
 }])])
 }]),
 &"is_blocking": true
 },
-&"next_id": "180",
+&"next_id": "163",
 &"type": "mutation"
 },
-"18": {
-&"id": "18",
-&"next_id": "19",
-&"type": ""
-},
-"180": {
+"163": {
 &"character": "Mateo",
-&"id": "180",
-&"next_id": "182",
-&"text": "Que siento lo mismo que tú. Me gustas. Mucho. Y sí, me siento muy afortunado de haberte conocido y también me gustaría pasar más tiempo contigo. Tienes razón en que 3 o 4 horas no son suficientes para estar juntos. Haces que el tiempo pase demasiado rápido, y no sé si me gusta o si lo odio. Pero no me malinterpretes, me encanta estar a tu lado.",
+&"id": "163",
+&"next_id": "165",
+&"text": "I really appreciate that you gave it to me. Your writing is really pretty, by the way. I wanted to tell you that…",
 &"type": "dialogue"
 },
-"181": {
-&"id": "181",
-&"next_id": "182",
+"164": {
+&"id": "164",
+&"next_id": "165",
 &"type": ""
 },
-"182": {
-&"id": "182",
+"165": {
+&"id": "165",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "mateo"
+}]), Array[Dictionary]([{
+&"i": 27,
+&"type": &"string",
+&"value": "izq"
+}]), Array[Dictionary]([{
+&"i": 34,
+&"type": &"string",
+&"value": "serio"
+}, {
+&"i": 41,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "166",
+&"type": "mutation"
+},
+"166": {
+&"id": "166",
+&"next_id": "168",
+&"text": "Here we go… Is he going to reject me? Because it seems that way.",
+&"type": "dialogue"
+},
+"167": {
+&"id": "167",
+&"next_id": "168",
+&"type": ""
+},
+"168": {
+&"id": "168",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "mateo"
+}]), Array[Dictionary]([{
+&"i": 27,
+&"type": &"string",
+&"value": "izq"
+}]), Array[Dictionary]([{
+&"i": 34,
+&"type": &"string",
+&"value": "hablaAlegre"
+}, {
+&"i": 47,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "169",
+&"type": "mutation"
+},
+"169": {
+&"character": "Mateo",
+&"id": "169",
+&"next_id": "170",
+&"text": "I wanted to tell you that I feel the same way about you.",
+&"type": "dialogue"
+},
+"17": {
+&"id": "17",
+&"next_id": "18",
+&"type": ""
+},
+"170": {
+&"id": "170",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -1052,11 +885,174 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "183",
+&"next_id": "172",
 &"type": "mutation"
 },
-"183": {
-&"id": "183",
+"171": {
+&"id": "171",
+&"next_id": "172",
+&"type": ""
+},
+"172": {
+&"id": "172",
+&"next_id": "173",
+&"text": "[speed= 0.0001]...",
+&"type": "dialogue"
+},
+"173": {
+&"id": "173",
+&"next_id": "175",
+&"text": "[speed=0.03]How?",
+&"type": "dialogue"
+},
+"174": {
+&"id": "174",
+&"next_id": "175",
+&"type": ""
+},
+"175": {
+&"id": "175",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "kristine"
+}]), Array[Dictionary]([{
+&"i": 30,
+&"type": &"string",
+&"value": "derecha"
+}]), Array[Dictionary]([{
+&"i": 41,
+&"type": &"string",
+&"value": "hablaNormal"
+}, {
+&"i": 54,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "176",
+&"type": "mutation"
+},
+"176": {
+&"character": "Kristine",
+&"id": "176",
+&"next_id": "177",
+&"text": "What?",
+&"type": "dialogue"
+},
+"177": {
+&"id": "177",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "mateo"
+}]), Array[Dictionary]([{
+&"i": 27,
+&"type": &"string",
+&"value": "izq"
+}]), Array[Dictionary]([{
+&"i": 34,
+&"type": &"string",
+&"value": "hablaAlegre"
+}, {
+&"i": 47,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "178",
+&"type": "mutation"
+},
+"178": {
+&"id": "178",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "kristine"
+}]), Array[Dictionary]([{
+&"i": 30,
+&"type": &"string",
+&"value": "derecha"
+}]), Array[Dictionary]([{
+&"i": 41,
+&"type": &"string",
+&"value": "avergonzada"
+}, {
+&"i": 54,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "179",
+&"type": "mutation"
+},
+"179": {
+&"character": "Mateo",
+&"id": "179",
+&"next_id": "181",
+&"text": "I feel the same way you do. I like you. A lot. And yes, I feel very lucky to have met you, and I’d also like to spend more time with you. You’re right that three or four hours aren’t enough to be together. You make time pass far too quickly, and I don’t know whether I like that or hate it. But don’t misunderstand me, I love being by your side.",
+&"type": "dialogue"
+},
+"18": {
+&"id": "18",
+&"next_id": "20",
+&"text": "And after that, without thinking, I handed him the letter quickly so I wouldn’t have time to regret it.",
+&"type": "dialogue"
+},
+"180": {
+&"id": "180",
+&"next_id": "181",
+&"type": ""
+},
+"181": {
+&"id": "181",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "mateo"
+}]), Array[Dictionary]([{
+&"i": 27,
+&"type": &"string",
+&"value": "izq"
+}]), Array[Dictionary]([{
+&"i": 34,
+&"type": &"string",
+&"value": "feliz"
+}, {
+&"i": 41,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "182",
+&"type": "mutation"
+},
+"182": {
+&"id": "182",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -1081,25 +1077,31 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "184",
+&"next_id": "183",
 &"type": "mutation"
+},
+"183": {
+&"id": "183",
+&"next_id": "184",
+&"text": "I let out a laugh, and my breath formed a small cloud in the icy air.",
+&"type": "dialogue"
 },
 "184": {
 &"id": "184",
 &"next_id": "185",
-&"text": "Se me escapó una risa, y mi aliento se convirtió en una nubecita de vapor en el aire helado. De verdad que hacía mucho frío.",
+&"text": "It truly was freezing.",
 &"type": "dialogue"
 },
 "185": {
 &"id": "185",
 &"next_id": "186",
-&"text": "Inconscientemente, mientras hablaba, me acerqué un poquito más a él.",
+&"text": "Without realizing it, I edged a bit closer to him as I spoke.",
 &"type": "dialogue"
 },
 "186": {
 &"id": "186",
 &"next_id": "188",
-&"text": "No podía creer lo que estaba diciendo.",
+&"text": "I couldn’t believe the words were coming out of his mouth.",
 &"type": "dialogue"
 },
 "187": {
@@ -1140,14 +1142,13 @@ lines = {
 &"character": "Mateo",
 &"id": "189",
 &"next_id": "191",
-&"text": "También me gustaría tenerte, y no en el sentido de posesión. También me gustaría ser tu compañero en esta vida y estar para ti siempre, sobre todo cuando lo necesites. Me encanta pasar tiempo contigo, siempre me lo paso bien si es contigo realmente…",
+&"text": "I’d also like to have you, not in a possessive sense. I’d also like to be your partner in this life and always be there for you, especially when you need it. I love spending time with you, I truly always have a good time when it’s with you…",
 &"type": "dialogue"
 },
 "19": {
 &"id": "19",
-&"next_id": "21",
-&"text": "Y tras eso, sin pensarlo, le entregué la carta con rapidez para no tener tiempo de arrepentirme.",
-&"type": "dialogue"
+&"next_id": "20",
+&"type": ""
 },
 "190": {
 &"id": "190",
@@ -1186,7 +1187,7 @@ lines = {
 "192": {
 &"id": "192",
 &"next_id": "194",
-&"text": "Dado que yo estaba callada, las palabras no salían de mis labios, él siguió hablando.",
+&"text": "Since I remained silent and the words wouldn’t come out of my mouth, he kept talking.",
 &"type": "dialogue"
 },
 "193": {
@@ -1227,7 +1228,7 @@ lines = {
 &"character": "Mateo",
 &"id": "195",
 &"next_id": "196",
-&"text": "Entonces, ahora que sabes que siento lo mismo que tú por mí…",
+&"text": "Then, now that you know that your feelings are reciprocated…",
 &"type": "dialogue"
 },
 "196": {
@@ -1263,7 +1264,7 @@ lines = {
 &"character": "Mateo",
 &"id": "197",
 &"next_id": "198",
-&"text": "¿Quieres ser mi novia?",
+&"text": "Will you be my girlfriend?",
 &"type": "dialogue"
 },
 "198": {
@@ -1326,13 +1327,71 @@ lines = {
 },
 "2": {
 &"id": "2",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"i": 3,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 8,
+&"type": &"dot"
+}, {
+&"function": "change_music",
+&"i": 9,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 22,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 27,
+&"type": &"dot"
+}, {
+&"i": 28,
+&"type": &"variable",
+&"value": "darCarta"
+}]), Array[Dictionary]([{
+&"i": 38,
+&"type": &"number",
+&"value": -1
+}, {
+&"i": 40,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
 &"next_id": "3",
-&"type": ""
+&"type": "mutation"
 },
 "20": {
 &"id": "20",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "mateo"
+}]), Array[Dictionary]([{
+&"i": 27,
+&"type": &"string",
+&"value": "izq"
+}]), Array[Dictionary]([{
+&"i": 34,
+&"type": &"string",
+&"value": "hablaAlegre"
+}, {
+&"i": 47,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
 &"next_id": "21",
-&"type": ""
+&"type": "mutation"
 },
 "200": {
 &"id": "200",
@@ -1342,7 +1401,7 @@ lines = {
 "201": {
 &"id": "201",
 &"next_id": "203",
-&"text": "¿Ya dije que no podía creer lo que estaba pasando?",
+&"text": "Have I already mentioned that I couldn’t believe what was happening?",
 &"type": "dialogue"
 },
 "202": {
@@ -1353,7 +1412,7 @@ lines = {
 "203": {
 &"id": "203",
 &"next_id": "205",
-&"text": "Estaba estupefacta, pero debía responder.",
+&"text": "I was stunned, but I knew I had to reply.",
 &"type": "dialogue"
 },
 "204": {
@@ -1369,14 +1428,14 @@ lines = {
 "206": {
 &"id": "206",
 &"next_id": "207",
-&"text": "¿Qué le digo?",
+&"text": "What do I tell him?",
 &"type": "dialogue"
 },
 "207": {
 &"id": "207",
 &"next_id": "208",
 &"responses": PackedStringArray("207", "210", "216"),
-&"text": "Si",
+&"text": "Yes",
 &"type": "response"
 },
 "208": {
@@ -1419,33 +1478,11 @@ lines = {
 &"type": "goto"
 },
 "21": {
+&"character": "Mateo",
 &"id": "21",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"function": "show_character",
-&"i": 3,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 18,
-&"type": &"string",
-&"value": "mateo"
-}]), Array[Dictionary]([{
-&"i": 27,
-&"type": &"string",
-&"value": "izq"
-}]), Array[Dictionary]([{
-&"i": 34,
-&"type": &"string",
-&"value": "hablaAlegre"
-}, {
-&"i": 47,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
 &"next_id": "22",
-&"type": "mutation"
+&"text": "Ok, sure…",
+&"type": "dialogue"
 },
 "210": {
 &"id": "210",
@@ -1462,19 +1499,19 @@ lines = {
 "212": {
 &"id": "212",
 &"next_id": "213",
-&"text": "No puedo decirle que no.",
+&"text": "I couldn’t tell him that.",
 &"type": "dialogue"
 },
 "213": {
 &"id": "213",
 &"next_id": "214",
-&"text": "No cuando sé lo que quiero y que él también me quiere de la forma en la que menos pensé que me querría.",
+&"text": "Not when I know what I want and I finally know that he wants me in the least possible way I could think of.",
 &"type": "dialogue"
 },
 "214": {
 &"id": "214",
 &"next_id": "215",
-&"text": "No soy tan estúpida como para dejar marchar esta oportunidad. Y menos cuando la tengo frente a mis narices.",
+&"text": "I’m not that stupid as to let this opportunity go. And much less when it’s right in front of me.",
 &"type": "dialogue"
 },
 "215": {
@@ -1487,33 +1524,55 @@ lines = {
 "216": {
 &"id": "216",
 &"next_id": "217",
-&"text": "No decir nada",
+&"text": "Don’t say anything",
 &"type": "response"
 },
 "217": {
 &"id": "217",
 &"next_id": "218",
-&"text": "¿Qué?",
+&"text": "What?",
 &"type": "dialogue"
 },
 "218": {
 &"id": "218",
 &"next_id": "219",
-&"text": "No, debo decirle algo.",
+&"text": "No, I have to say something.",
 &"type": "dialogue"
 },
 "219": {
 &"id": "219",
 &"next_id": "220",
-&"text": "De verdad [b]quiero[/b] empezar algo con él...",
+&"text": "I really [b]want[/b] to start something with him...",
 &"type": "dialogue"
 },
 "22": {
-&"character": "Mateo",
 &"id": "22",
-&"next_id": "23",
-&"text": "Está bien…",
-&"type": "dialogue"
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "mateo"
+}]), Array[Dictionary]([{
+&"i": 27,
+&"type": &"string",
+&"value": "izq"
+}]), Array[Dictionary]([{
+&"i": 34,
+&"type": &"string",
+&"value": "feliz"
+}, {
+&"i": 41,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "24",
+&"type": "mutation"
 },
 "220": {
 &"id": "220",
@@ -1565,7 +1624,7 @@ lines = {
 &"character": "Kristine",
 &"id": "224",
 &"next_id": "225",
-&"text": "S-sí. Claro.",
+&"text": "Y-yes. Oh my god, a thousand times yes.",
 &"type": "dialogue"
 },
 "225": {
@@ -1605,7 +1664,7 @@ lines = {
 "227": {
 &"id": "227",
 &"next_id": "228",
-&"text": "Mateo sonrió. Su sonrisa era tan cálida y contagiosa que yo también sonreí.",
+&"text": "Mateo smiled. His smile was so warm and contagious that I smiled too.",
 &"type": "dialogue"
 },
 "228": {
@@ -1640,37 +1699,13 @@ lines = {
 "229": {
 &"id": "229",
 &"next_id": "231",
-&"text": "Se acercó más a mí hasta estar abrazados. Era acogedor, tanto que casi se me olvidaba que estaba temblando, tanto por los nervios de antes como por las bajas temperaturas.",
+&"text": "He moved closer until we were hugging. It was so cozy that I almost forgot I was trembling, both from my earlier nerves and the cold.",
 &"type": "dialogue"
 },
 "23": {
 &"id": "23",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"function": "show_character",
-&"i": 3,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 18,
-&"type": &"string",
-&"value": "mateo"
-}]), Array[Dictionary]([{
-&"i": 27,
-&"type": &"string",
-&"value": "izq"
-}]), Array[Dictionary]([{
-&"i": 34,
-&"type": &"string",
-&"value": "feliz"
-}, {
-&"i": 41,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
-&"next_id": "25",
-&"type": "mutation"
+&"next_id": "24",
+&"type": ""
 },
 "230": {
 &"id": "230",
@@ -1680,13 +1715,13 @@ lines = {
 "231": {
 &"id": "231",
 &"next_id": "232",
-&"text": "En un intento de estar más cerca y disminuir el frío que sentía, me acomodé de forma en que mi cabeza quedó encima de su pecho mientras él me abrazaba por la espalda, dándome cariño con delicadeza.",
+&"text": "In an attempt to get closer and ease the cold I felt, I positioned myself so that my head rested on his chest while he hugged me from behind, giving me gentle affection.",
 &"type": "dialogue"
 },
 "232": {
 &"id": "232",
 &"next_id": "234",
-&"text": "Escuchaba su corazón y me encantaba aquella melodía.",
+&"text": "I could hear his heartbeat, and I decided that it was my favourite melody.",
 &"type": "dialogue"
 },
 "233": {
@@ -1727,7 +1762,7 @@ lines = {
 &"character": "Mateo",
 &"id": "235",
 &"next_id": "236",
-&"text": "Tu corazón no deja de latir rápido, por cierto.",
+&"text": "You’re heart is beating really fast, by the way",
 &"type": "dialogue"
 },
 "236": {
@@ -1792,7 +1827,7 @@ lines = {
 &"character": "Kristine",
 &"id": "238",
 &"next_id": "239",
-&"text": "Estaba nerviosa.",
+&"text": "I was really nervous.",
 &"type": "dialogue"
 },
 "239": {
@@ -1826,8 +1861,9 @@ lines = {
 },
 "24": {
 &"id": "24",
-&"next_id": "25",
-&"type": ""
+&"next_id": "26",
+&"text": "Suddenly, that familiar winter-day silence filled the air, and he broke it, completely out of the blue.",
+&"type": "dialogue"
 },
 "240": {
 &"id": "240",
@@ -1862,7 +1898,7 @@ lines = {
 &"character": "Mateo",
 &"id": "241",
 &"next_id": "242",
-&"text": "Ya, lo he notado.",
+&"text": "I know, I could see it in your face.",
 &"type": "dialogue"
 },
 "242": {
@@ -1927,7 +1963,7 @@ lines = {
 &"character": "Mateo",
 &"id": "244",
 &"next_id": "246",
-&"text": "Y fuimos antes a la cafetería porque pensé que así te sería más fácil hablar.",
+&"text": "That’s why we went first to the coffee shop, I thought it would make it easier for you to have this conversation.",
 &"type": "dialogue"
 },
 "245": {
@@ -1967,7 +2003,7 @@ lines = {
 "247": {
 &"id": "247",
 &"next_id": "249",
-&"text": "Y no se equivocaba.",
+&"text": "And he wasn’t in the wrong.",
 &"type": "dialogue"
 },
 "248": {
@@ -2006,9 +2042,8 @@ lines = {
 },
 "25": {
 &"id": "25",
-&"next_id": "27",
-&"text": "Enseguida se hizo presente el silencio aquel día de tantos en invierno, el cual él mismo rompió. Y sin venir a cuento.",
-&"type": "dialogue"
+&"next_id": "26",
+&"type": ""
 },
 "250": {
 &"id": "250",
@@ -2043,7 +2078,7 @@ lines = {
 &"character": "Kristine",
 &"id": "251",
 &"next_id": "252",
-&"text": "Tu corazón también late rápido.",
+&"text": "Your heart is also racing.",
 &"type": "dialogue"
 },
 "252": {
@@ -2108,7 +2143,7 @@ lines = {
 &"character": "Mateo",
 &"id": "254",
 &"next_id": "255",
-&"text": "Porque por fin estoy con la chica que siempre quise.",
+&"text": "Because I’m finally with the girl I have dreamt of.",
 &"type": "dialogue"
 },
 "255": {
@@ -2177,7 +2212,7 @@ lines = {
 "258": {
 &"id": "258",
 &"next_id": "260",
-&"text": "Lo miré a los ojos. ¿Cómo podía decir eso tan rápido y sin inmutarse?, ¿y cómo estaba seguro de aquello?",
+&"text": "I looked him in the eyes. How could he say that so quickly and without flinching?, and how could he be so sure of it?",
 &"type": "dialogue"
 },
 "259": {
@@ -2187,8 +2222,32 @@ lines = {
 },
 "26": {
 &"id": "26",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "mateo"
+}]), Array[Dictionary]([{
+&"i": 27,
+&"type": &"string",
+&"value": "izq"
+}]), Array[Dictionary]([{
+&"i": 34,
+&"type": &"string",
+&"value": "hablaNormal"
+}, {
+&"i": 47,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
 &"next_id": "27",
-&"type": ""
+&"type": "mutation"
 },
 "260": {
 &"id": "260",
@@ -2223,7 +2282,7 @@ lines = {
 &"character": "Mateo",
 &"id": "261",
 &"next_id": "263",
-&"text": "Me gustaste desde la primera vez que te vi.",
+&"text": "I had liked you since the first time I saw you.",
 &"type": "dialogue"
 },
 "262": {
@@ -2297,13 +2356,13 @@ lines = {
 "266": {
 &"id": "266",
 &"next_id": "267",
-&"text": "Directo y sin anestesia.",
+&"text": "He went straight to the point and without any sugarcoating.",
 &"type": "dialogue"
 },
 "267": {
 &"id": "267",
 &"next_id": "269",
-&"text": "Esa fue otra mini bomba para mi corazón. ¿Cómo era capaz de decir ese tipo de cosas sin luego avergonzarse? Admiraba eso de él.",
+&"text": "That was another tiny shock to my heart. How could he say such things and not feel even a bit embarrassed? I really admired that about him.",
 &"type": "dialogue"
 },
 "268": {
@@ -2314,37 +2373,15 @@ lines = {
 "269": {
 &"id": "269",
 &"next_id": "271",
-&"text": "Lo miré, pensando que lo decía de broma, pero con su mirada supe que no. No mentía, al igual que yo no mentí en la carta, él no mentía en su confesión ni en lo que acababa de decir.",
+&"text": "I looked at him, thinking he was joking, but from his gaze, I knew he wasn’t. He wasn’t lying, just as I hadn’t lied in the letter, he wasn’t lying in his confession or in what he had just said.",
 &"type": "dialogue"
 },
 "27": {
+&"character": "Mateo",
 &"id": "27",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"function": "show_character",
-&"i": 3,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 18,
-&"type": &"string",
-&"value": "mateo"
-}]), Array[Dictionary]([{
-&"i": 27,
-&"type": &"string",
-&"value": "izq"
-}]), Array[Dictionary]([{
-&"i": 34,
-&"type": &"string",
-&"value": "hablaNormal"
-}, {
-&"i": 47,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
 &"next_id": "28",
-&"type": "mutation"
+&"text": "[wait=1]Can I kiss you?",
+&"type": "dialogue"
 },
 "270": {
 &"id": "270",
@@ -2417,13 +2454,13 @@ lines = {
 "274": {
 &"id": "274",
 &"next_id": "275",
-&"text": "Así fue como logré darle la carta en la que confesaba lo que sentía al chico que me gustaba y, dos días después, conseguí estar con él como pareja. Aquello se hizo oficial.",
+&"text": "That’s how I managed to give the letter in which I confessed my feelings to the boy I liked, and two days later, I became his girlfriend. It became official.",
 &"type": "dialogue"
 },
 "275": {
 &"id": "275",
 &"next_id": "277",
-&"text": "Mentiría si dijera que era el mejor día de mi vida, ya que ese fue cuando me quitaron la ostomía. Pero, si no era el primero, era de los primeros mejores días que he podido tener.",
+&"text": "I’d be lying if I said it was the best day of my life, since that was the day my ostomy was removed. But if it wasn’t the very best, it was definitely one of the best days I’ve ever had.",
 &"type": "dialogue"
 },
 "276": {
@@ -2434,13 +2471,13 @@ lines = {
 "277": {
 &"id": "277",
 &"next_id": "278",
-&"text": "Desde entonces, fuimos prácticamente inseparables.",
+&"text": "Since then, we have been practically inseparable.",
 &"type": "dialogue"
 },
 "278": {
 &"id": "278",
 &"next_id": "280",
-&"text": "Si había algún problema siempre intentábamos solucionarlo con calma y amor ante todo.",
+&"text": "If there was ever a problem, we always tried to solve it calmly, with love above all else.",
 &"type": "dialogue"
 },
 "279": {
@@ -2449,16 +2486,38 @@ lines = {
 &"type": ""
 },
 "28": {
-&"character": "Mateo",
 &"id": "28",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "kristine"
+}]), Array[Dictionary]([{
+&"i": 30,
+&"type": &"string",
+&"value": "derecha"
+}]), Array[Dictionary]([{
+&"i": 41,
+&"type": &"string",
+&"value": "sonrojada"
+}, {
+&"i": 52,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
 &"next_id": "29",
-&"text": "[wait=1]¿Te puedo besar?",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "280": {
 &"id": "280",
 &"next_id": "282",
-&"text": "Y así, casi sin darnos cuenta, el invierno se quedó atrás para dejar paso a la llegada brillante y cálida del verano.",
+&"text": "And so, almost without realizing it, winter slipped away, making way for the bright and warm arrival of summer.",
 &"type": "dialogue"
 },
 "281": {
@@ -2469,13 +2528,13 @@ lines = {
 "282": {
 &"id": "282",
 &"next_id": "283",
-&"text": "Recuerdo cómo algunas veces él se acercaba a mí lentamente para intentar besarme y cuando veía que no estaba lista, simplemente se disculpaba y decía que no me preocupara, que esperaría lo que fuera necesario hasta que estuviera preparada.",
+&"text": "I remember how, sometimes, he would slowly lean in to try to kiss me, and when he saw I wasn’t ready, he would simply apologize and say not to worry, that he would wait as long as necessary until I was prepared.",
 &"type": "dialogue"
 },
 "283": {
 &"id": "283",
 &"next_id": "285",
-&"text": "Hasta un día de verano.",
+&"text": "Until one summer day.",
 &"type": "dialogue"
 },
 "284": {
@@ -2589,81 +2648,6 @@ lines = {
 &"value": Array[Array]([Array[Dictionary]([{
 &"i": 18,
 &"type": &"string",
-&"value": "kristine"
-}]), Array[Dictionary]([{
-&"i": 30,
-&"type": &"string",
-&"value": "derecha"
-}]), Array[Dictionary]([{
-&"i": 41,
-&"type": &"string",
-&"value": "sonrojada"
-}, {
-&"i": 52,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
-&"next_id": "30",
-&"type": "mutation"
-},
-"290": {
-&"id": "290",
-&"is_snippet": false,
-&"next_id": "end",
-&"next_id_after": "",
-&"type": "goto"
-},
-"3": {
-&"id": "3",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"i": 3,
-&"type": &"variable",
-&"value": "Audio"
-}, {
-&"i": 8,
-&"type": &"dot"
-}, {
-&"function": "change_music",
-&"i": 9,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 22,
-&"type": &"variable",
-&"value": "Audio"
-}, {
-&"i": 27,
-&"type": &"dot"
-}, {
-&"i": 28,
-&"type": &"variable",
-&"value": "darCarta"
-}]), Array[Dictionary]([{
-&"i": 38,
-&"type": &"number",
-&"value": -1
-}, {
-&"i": 40,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
-&"next_id": "4",
-&"type": "mutation"
-},
-"30": {
-&"id": "30",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"function": "show_character",
-&"i": 3,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 18,
-&"type": &"string",
 &"value": "mateo"
 }]), Array[Dictionary]([{
 &"i": 27,
@@ -2680,33 +2664,46 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "32",
+&"next_id": "31",
 &"type": "mutation"
+},
+"290": {
+&"id": "290",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"3": {
+&"id": "3",
+&"next_id": "4",
+&"text": "Yes.",
+&"type": "dialogue"
+},
+"30": {
+&"id": "30",
+&"next_id": "31",
+&"type": ""
 },
 "31": {
 &"id": "31",
 &"next_id": "32",
-&"type": ""
+&"text": "[speed=0.01]...",
+&"type": "dialogue"
 },
 "32": {
 &"id": "32",
-&"next_id": "33",
-&"text": "[speed=0.01]...",
+&"next_id": "34",
+&"text": "[wait=4]What?",
 &"type": "dialogue"
 },
 "33": {
 &"id": "33",
-&"next_id": "35",
-&"text": "[wait=4]¿Qué?",
-&"type": "dialogue"
+&"next_id": "34",
+&"type": ""
 },
 "34": {
 &"id": "34",
-&"next_id": "35",
-&"type": ""
-},
-"35": {
-&"id": "35",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -2731,18 +2728,18 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "36",
+&"next_id": "35",
 &"type": "mutation"
 },
-"36": {
+"35": {
 &"character": "Kristine",
-&"id": "36",
-&"next_id": "37",
-&"text": "¿Qué?",
+&"id": "35",
+&"next_id": "36",
+&"text": "What?",
 &"type": "dialogue"
 },
-"37": {
-&"id": "37",
+"36": {
+&"id": "36",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -2767,11 +2764,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "38",
+&"next_id": "37",
 &"type": "mutation"
 },
-"38": {
-&"id": "38",
+"37": {
+&"id": "37",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -2796,24 +2793,18 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "39",
+&"next_id": "38",
 &"type": "mutation"
 },
-"39": {
+"38": {
 &"character": "Mateo",
+&"id": "38",
+&"next_id": "39",
+&"text": "If I can kiss you.",
+&"type": "dialogue"
+},
+"39": {
 &"id": "39",
-&"next_id": "40",
-&"text": "Si te puedo besar.",
-&"type": "dialogue"
-},
-"4": {
-&"id": "4",
-&"next_id": "5",
-&"text": "Sí.",
-&"type": "dialogue"
-},
-"40": {
-&"id": "40",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -2838,11 +2829,17 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "41",
+&"next_id": "40",
 &"type": "mutation"
 },
-"41": {
-&"id": "41",
+"4": {
+&"id": "4",
+&"next_id": "6",
+&"text": "I can’t back down now. Not when I’ve already, unconsciously, prepared myself to give it to him. Not when I’ve pictured every possible outcome and am ready for any rejection he might offer.",
+&"type": "dialogue"
+},
+"40": {
+&"id": "40",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -2867,28 +2864,28 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "43",
+&"next_id": "42",
 &"type": "mutation"
+},
+"41": {
+&"id": "41",
+&"next_id": "42",
+&"type": ""
 },
 "42": {
 &"id": "42",
 &"next_id": "43",
-&"type": ""
+&"text": "[speed=0.06]...",
+&"type": "dialogue"
 },
 "43": {
 &"id": "43",
 &"next_id": "44",
-&"text": "[speed=0.06]...",
+&"text": "[wait=2]",
 &"type": "dialogue"
 },
 "44": {
 &"id": "44",
-&"next_id": "45",
-&"text": "[wait=2]",
-&"type": "dialogue"
-},
-"45": {
-&"id": "45",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -2913,23 +2910,23 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "46",
+&"next_id": "45",
 &"type": "mutation"
 },
-"46": {
+"45": {
 &"character": "Kristine",
-&"id": "46",
-&"next_id": "48",
-&"text": "¿Qué?",
+&"id": "45",
+&"next_id": "47",
+&"text": "What?",
 &"type": "dialogue"
+},
+"46": {
+&"id": "46",
+&"next_id": "47",
+&"type": ""
 },
 "47": {
 &"id": "47",
-&"next_id": "48",
-&"type": ""
-},
-"48": {
-&"id": "48",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -2954,11 +2951,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "49",
+&"next_id": "48",
 &"type": "mutation"
 },
-"49": {
-&"id": "49",
+"48": {
+&"id": "48",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -2983,40 +2980,39 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "50",
+&"next_id": "49",
 &"type": "mutation"
+},
+"49": {
+&"id": "49",
+&"next_id": "50",
+&"text": "I couldn’t believe what he was saying.",
+&"type": "dialogue"
 },
 "5": {
 &"id": "5",
-&"next_id": "7",
-&"text": "No puedo acobardarme justo ahora. No cuando inconscientemente me he hecho a la idea de dárselo. No cuando ya he imaginado cada posible escenario y estoy abierta a cualquier rechazo que me pueda dar.",
-&"type": "dialogue"
+&"next_id": "6",
+&"type": ""
 },
 "50": {
 &"id": "50",
 &"next_id": "51",
-&"text": "No podía creer lo que dijo.",
+&"text": "To begin with, what had he said?, to kiss?, who?, me?, so suddenly?, why?, how?",
 &"type": "dialogue"
 },
 "51": {
 &"id": "51",
-&"next_id": "52",
-&"text": "Para empezar, ¿qué había dicho?, ¿besar?, ¿a mí?, ¿tan de repente?, ¿por qué?, ¿cómo?",
+&"next_id": "53",
+&"text": "And how are people supposed to kiss?",
 &"type": "dialogue"
 },
 "52": {
 &"id": "52",
-&"next_id": "54",
-&"text": "¿Y cómo se supone que se besan las personas?",
-&"type": "dialogue"
+&"next_id": "53",
+&"type": ""
 },
 "53": {
 &"id": "53",
-&"next_id": "54",
-&"type": ""
-},
-"54": {
-&"id": "54",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -3041,18 +3037,18 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "55",
+&"next_id": "54",
 &"type": "mutation"
 },
-"55": {
+"54": {
 &"character": "Mateo",
-&"id": "55",
-&"next_id": "56",
-&"text": "Si te puedo dar un beso.",
+&"id": "54",
+&"next_id": "55",
+&"text": "If I can kiss you.",
 &"type": "dialogue"
 },
-"56": {
-&"id": "56",
+"55": {
+&"id": "55",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -3077,11 +3073,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "57",
+&"next_id": "56",
 &"type": "mutation"
 },
-"57": {
-&"id": "57",
+"56": {
+&"id": "56",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -3106,28 +3102,23 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "59",
+&"next_id": "58",
 &"type": "mutation"
+},
+"57": {
+&"id": "57",
+&"next_id": "58",
+&"type": ""
 },
 "58": {
 &"id": "58",
 &"next_id": "59",
-&"type": ""
+&"responses": PackedStringArray("58", "68"),
+&"text": "Act in a shy manner",
+&"type": "response"
 },
 "59": {
 &"id": "59",
-&"next_id": "60",
-&"responses": PackedStringArray("59", "69"),
-&"text": "Actuar con timidez",
-&"type": "response"
-},
-"6": {
-&"id": "6",
-&"next_id": "7",
-&"type": ""
-},
-"60": {
-&"id": "60",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"i": 3,
@@ -3155,11 +3146,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "61",
+&"next_id": "60",
 &"type": "mutation"
 },
-"61": {
-&"id": "61",
+"6": {
+&"id": "6",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -3184,11 +3175,40 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "62",
+&"next_id": "7",
 &"type": "mutation"
 },
-"62": {
-&"id": "62",
+"60": {
+&"id": "60",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "kristine"
+}]), Array[Dictionary]([{
+&"i": 30,
+&"type": &"string",
+&"value": "derecha"
+}]), Array[Dictionary]([{
+&"i": 41,
+&"type": &"string",
+&"value": "sonrojadaHabla"
+}, {
+&"i": 57,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "61",
+&"type": "mutation"
+},
+"61": {
+&"id": "61",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -3213,18 +3233,18 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "63",
+&"next_id": "62",
 &"type": "mutation"
 },
-"63": {
+"62": {
 &"character": "Kristine",
-&"id": "63",
-&"next_id": "64",
-&"text": "N-no... No. Perdón.",
+&"id": "62",
+&"next_id": "63",
+&"text": "N-no... No. Sorry.",
 &"type": "dialogue"
 },
-"64": {
-&"id": "64",
+"63": {
+&"id": "63",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -3249,11 +3269,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "65",
+&"next_id": "64",
 &"type": "mutation"
 },
-"65": {
-&"id": "65",
+"64": {
+&"id": "64",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -3278,65 +3298,36 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "66",
+&"next_id": "65",
 &"type": "mutation"
 },
-"66": {
+"65": {
 &"character": "Mateo",
-&"id": "66",
-&"next_id": "67",
-&"text": "Está bien, lo siento. No te preocupes.",
+&"id": "65",
+&"next_id": "66",
+&"text": "That’s fine, I’m sorry. Don’t worry.",
 &"type": "dialogue"
+},
+"66": {
+&"id": "66",
+&"is_snippet": false,
+&"next_id": "78",
+&"next_id_after": "",
+&"type": "goto"
 },
 "67": {
 &"id": "67",
-&"is_snippet": false,
-&"next_id": "79",
-&"next_id_after": "",
-&"type": "goto"
+&"next_id": "68",
+&"type": ""
 },
 "68": {
 &"id": "68",
 &"next_id": "69",
-&"type": ""
+&"text": "Be direct",
+&"type": "response"
 },
 "69": {
 &"id": "69",
-&"next_id": "70",
-&"text": "Ser directa",
-&"type": "response"
-},
-"7": {
-&"id": "7",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"function": "show_character",
-&"i": 3,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 18,
-&"type": &"string",
-&"value": "kristine"
-}]), Array[Dictionary]([{
-&"i": 30,
-&"type": &"string",
-&"value": "derecha"
-}]), Array[Dictionary]([{
-&"i": 41,
-&"type": &"string",
-&"value": "sonrojadaHabla"
-}, {
-&"i": 57,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
-&"next_id": "8",
-&"type": "mutation"
-},
-"70": {
-&"id": "70",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -3361,158 +3352,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "71",
+&"next_id": "70",
 &"type": "mutation"
 },
-"71": {
-&"id": "71",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"function": "show_character",
-&"i": 3,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 18,
-&"type": &"string",
-&"value": "mateo"
-}]), Array[Dictionary]([{
-&"i": 27,
-&"type": &"string",
-&"value": "izq"
-}]), Array[Dictionary]([{
-&"i": 34,
-&"type": &"string",
-&"value": "serio"
-}, {
-&"i": 41,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
-&"next_id": "72",
-&"type": "mutation"
-},
-"72": {
-&"character": "Kristine",
-&"id": "72",
-&"next_id": "73",
-&"text": "No.",
-&"type": "dialogue"
-},
-"73": {
-&"id": "73",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"function": "show_character",
-&"i": 3,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 18,
-&"type": &"string",
-&"value": "mateo"
-}]), Array[Dictionary]([{
-&"i": 27,
-&"type": &"string",
-&"value": "izq"
-}]), Array[Dictionary]([{
-&"i": 34,
-&"type": &"string",
-&"value": "hablaPreocupado"
-}, {
-&"i": 51,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
-&"next_id": "74",
-&"type": "mutation"
-},
-"74": {
-&"id": "74",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"function": "show_character",
-&"i": 3,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 18,
-&"type": &"string",
-&"value": "kristine"
-}]), Array[Dictionary]([{
-&"i": 30,
-&"type": &"string",
-&"value": "derecha"
-}]), Array[Dictionary]([{
-&"i": 41,
-&"type": &"string",
-&"value": "avergonzada"
-}, {
-&"i": 54,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
-&"next_id": "75",
-&"type": "mutation"
-},
-"75": {
-&"character": "Mateo",
-&"id": "75",
-&"next_id": "76",
-&"text": "Está bien. Lo siento...",
-&"type": "dialogue"
-},
-"76": {
-&"id": "76",
-&"is_snippet": false,
-&"next_id": "79",
-&"next_id_after": "",
-&"type": "goto"
-},
-"77": {
-&"id": "77",
-&"next_id": "78",
-&"type": ""
-},
-"78": {
-&"id": "78",
-&"next_id": "79",
-&"type": "title"
-},
-"79": {
-&"id": "79",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"function": "show_character",
-&"i": 3,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 18,
-&"type": &"string",
-&"value": "mateo"
-}]), Array[Dictionary]([{
-&"i": 27,
-&"type": &"string",
-&"value": "izq"
-}]), Array[Dictionary]([{
-&"i": 34,
-&"type": &"string",
-&"value": "sonrojado"
-}, {
-&"i": 45,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
-&"next_id": "80",
-&"type": "mutation"
-},
-"8": {
-&"id": "8",
+"7": {
+&"id": "7",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -3537,11 +3381,158 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "9",
+&"next_id": "8",
 &"type": "mutation"
 },
-"80": {
-&"id": "80",
+"70": {
+&"id": "70",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "mateo"
+}]), Array[Dictionary]([{
+&"i": 27,
+&"type": &"string",
+&"value": "izq"
+}]), Array[Dictionary]([{
+&"i": 34,
+&"type": &"string",
+&"value": "serio"
+}, {
+&"i": 41,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "71",
+&"type": "mutation"
+},
+"71": {
+&"character": "Kristine",
+&"id": "71",
+&"next_id": "72",
+&"text": "No.",
+&"type": "dialogue"
+},
+"72": {
+&"id": "72",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "mateo"
+}]), Array[Dictionary]([{
+&"i": 27,
+&"type": &"string",
+&"value": "izq"
+}]), Array[Dictionary]([{
+&"i": 34,
+&"type": &"string",
+&"value": "hablaPreocupado"
+}, {
+&"i": 51,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "73",
+&"type": "mutation"
+},
+"73": {
+&"id": "73",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "kristine"
+}]), Array[Dictionary]([{
+&"i": 30,
+&"type": &"string",
+&"value": "derecha"
+}]), Array[Dictionary]([{
+&"i": 41,
+&"type": &"string",
+&"value": "avergonzada"
+}, {
+&"i": 54,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "74",
+&"type": "mutation"
+},
+"74": {
+&"character": "Mateo",
+&"id": "74",
+&"next_id": "75",
+&"text": "That’s fine. I’m sorry...",
+&"type": "dialogue"
+},
+"75": {
+&"id": "75",
+&"is_snippet": false,
+&"next_id": "78",
+&"next_id_after": "",
+&"type": "goto"
+},
+"76": {
+&"id": "76",
+&"next_id": "77",
+&"type": ""
+},
+"77": {
+&"id": "77",
+&"next_id": "78",
+&"type": "title"
+},
+"78": {
+&"id": "78",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "mateo"
+}]), Array[Dictionary]([{
+&"i": 27,
+&"type": &"string",
+&"value": "izq"
+}]), Array[Dictionary]([{
+&"i": 34,
+&"type": &"string",
+&"value": "sonrojado"
+}, {
+&"i": 45,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "79",
+&"type": "mutation"
+},
+"79": {
+&"id": "79",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -3566,22 +3557,29 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "81",
+&"next_id": "80",
 &"type": "mutation"
+},
+"8": {
+&"character": "Kristine",
+&"id": "8",
+&"next_id": "10",
+&"text": "By the way… I wanted… I wanted to give you something.",
+&"type": "dialogue"
+},
+"80": {
+&"id": "80",
+&"next_id": "82",
+&"text": "After that somewhat awkward interaction, we said goodbye, and I went into my house.",
+&"type": "dialogue"
 },
 "81": {
 &"id": "81",
-&"next_id": "83",
-&"text": "Después de aquella interacción y el momento algo extraño para mí, nos despedimos y entré en mi casa.",
-&"type": "dialogue"
+&"next_id": "82",
+&"type": ""
 },
 "82": {
 &"id": "82",
-&"next_id": "83",
-&"type": ""
-},
-"83": {
-&"id": "83",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "hide_character",
@@ -3598,11 +3596,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "84",
+&"next_id": "83",
 &"type": "mutation"
 },
-"84": {
-&"id": "84",
+"83": {
+&"id": "83",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "hide_character",
@@ -3619,11 +3617,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "85",
+&"next_id": "84",
 &"type": "mutation"
 },
-"85": {
-&"id": "85",
+"84": {
+&"id": "84",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "set_background",
@@ -3640,86 +3638,84 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "86",
+&"next_id": "85",
 &"type": "mutation"
+},
+"85": {
+&"id": "85",
+&"next_id": "86",
+&"text": "I couldn’t believe what had just happened, what had just been done, not even what he said.",
+&"type": "dialogue"
 },
 "86": {
 &"id": "86",
 &"next_id": "87",
-&"text": "No podía creer lo que había pasado, lo que había hecho, ni lo que él había dicho.",
+&"text": "He asked me if he could kiss me. And he did it with a face that was so… cute.",
 &"type": "dialogue"
 },
 "87": {
 &"id": "87",
-&"next_id": "88",
-&"text": "Preguntó si me podía besar. Y lo hizo con una cara tan… Tierna.",
+&"next_id": "89",
+&"text": "His eyes had a special sparkle that I won’t be able to forget.",
 &"type": "dialogue"
 },
 "88": {
 &"id": "88",
-&"next_id": "90",
-&"text": "Su mirada tenía un brillo que nunca olvidaré.",
-&"type": "dialogue"
+&"next_id": "89",
+&"type": ""
 },
 "89": {
 &"id": "89",
 &"next_id": "90",
-&"type": ""
+&"text": "Considering how many guys wouldn’t ask and would just go ahead without caring about your true feelings, he asked for permission. He wanted to know if I was willing.",
+&"type": "dialogue"
 },
 "9": {
-&"character": "Kristine",
 &"id": "9",
-&"next_id": "11",
-&"text": "Por cierto… Quería… Quería darte algo.",
-&"type": "dialogue"
+&"next_id": "10",
+&"type": ""
 },
 "90": {
 &"id": "90",
 &"next_id": "91",
-&"text": "Habiendo tantos chicos que no preguntan y lo harían directamente sin importar tu verdadera opinión, él pidió permiso. Quiso saber si quería.",
+&"text": "And that was without even reading any of the letter…",
 &"type": "dialogue"
 },
 "91": {
 &"id": "91",
-&"next_id": "92",
-&"text": "Y eso que no leyó nada de la carta…",
+&"next_id": "93",
+&"text": "So, does he have any ideas?, will he even expect anything from what he’s about to read?",
 &"type": "dialogue"
 },
 "92": {
 &"id": "92",
-&"next_id": "94",
-&"text": "Entonces, ¿sabrá algo?, ¿se esperará algo de lo que leerá siquiera?",
-&"type": "dialogue"
+&"next_id": "93",
+&"type": ""
 },
 "93": {
 &"id": "93",
-&"next_id": "94",
-&"type": ""
+&"next_id": "95",
+&"text": "Whatever it was, he listened to what I told him.",
+&"type": "dialogue"
 },
 "94": {
 &"id": "94",
-&"next_id": "96",
-&"text": "Sea lo que sea, hizo caso a lo que le dije.",
-&"type": "dialogue"
+&"next_id": "95",
+&"type": ""
 },
 "95": {
 &"id": "95",
-&"next_id": "96",
-&"type": ""
+&"next_id": "97",
+&"text": "Before the letter, I attached a note clearly specifying that he shouldn’t say anything until we saw each other and were alone, just the two of us.",
+&"type": "dialogue"
 },
 "96": {
 &"id": "96",
-&"next_id": "98",
-&"text": "Antes de la carta, le puse una nota en donde especificaba claramente que no me dijera nada hasta que nos viéramos y estuviéramos solos; únicamente él y yo.",
-&"type": "dialogue"
+&"next_id": "97",
+&"type": ""
 },
 "97": {
 &"id": "97",
-&"next_id": "98",
-&"type": ""
-},
-"98": {
-&"id": "98",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "set_background",
@@ -3736,300 +3732,305 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "99",
+&"next_id": "98",
 &"type": "mutation"
+},
+"98": {
+&"id": "98",
+&"next_id": "100",
+&"text": "Two days passed, which felt like an eternity, after that.",
+&"type": "dialogue"
 },
 "99": {
 &"id": "99",
-&"next_id": "101",
-&"text": "Pasaron 2 días, que parecían eternos, después de aquello.",
-&"type": "dialogue"
+&"next_id": "100",
+&"type": ""
 }
 }
 raw_text = "~ start
 do set_background(\"calleNoche\")
-
 do Audio.change_music(Audio.darCarta, -1)
-Sí.
-No puedo acobardarme justo ahora. No cuando inconscientemente me he hecho a la idea de dárselo. No cuando ya he imaginado cada posible escenario y estoy abierta a cualquier rechazo que me pueda dar.
+Yes.
+I can’t back down now. Not when I’ve already, unconsciously, prepared myself to give it to him. Not when I’ve pictured every possible outcome and am ready for any rejection he might offer.
 
 do show_character(\"kristine\", \"derecha\", \"sonrojadaHabla\")
 do show_character(\"mateo\", \"izq\", \"sinHablar\")
-Kristine: Por cierto… Quería… Quería darte algo.
+Kristine: By the way… I wanted… I wanted to give you something.
 
 do show_character(\"mateo\", \"izq\", \"serio\")
 do show_character(\"kristine\", \"derecha\", \"sonrojada\")
-Cuando dije eso, Mateo mostró una cara de confusión y curiosidad al mismo tiempo. ¿Cómo podía ser tan adorable?
+When I said that, Mateo’s expression was a mix of confusion and curiosity. How could he be so cute?
 
 do show_character(\"kristine\", \"derecha\", \"sonrojadaHabla\")
-Kristine: Sé que… Q-quizás sea mítico hacerlo un 14 de febrero, pero te prometo que no es por la fecha en sí… En fin, en la primera página hay… Algunas notas. Necesito que sigas al pie de la letra esas anotaciones, por favor.
+Kristine: I know that… M-maybe it’s kind of cliché to do it on Valentine’s Day, but I promise it’s not because of the date itself… Anyway, on the first page there are… some notes. I need you to follow them to the letter, please.
 do show_character(\"kristine\", \"derecha\", \"seria\")
 
-Y tras eso, sin pensarlo, le entregué la carta con rapidez para no tener tiempo de arrepentirme.
+And after that, without thinking, I handed him the letter quickly so I wouldn’t have time to regret it.
 
 do show_character(\"mateo\", \"izq\", \"hablaAlegre\")
-Mateo: Está bien… 
+Mateo: Ok, sure…
 do show_character(\"mateo\", \"izq\", \"feliz\")
 
-Enseguida se hizo presente el silencio aquel día de tantos en invierno, el cual él mismo rompió. Y sin venir a cuento.
+Suddenly, that familiar winter-day silence filled the air, and he broke it, completely out of the blue.
 
 do show_character(\"mateo\", \"izq\", \"hablaNormal\")
-Mateo: [wait=1]¿Te puedo besar?
+Mateo: [wait=1]Can I kiss you?
 do show_character(\"kristine\", \"derecha\", \"sonrojada\")
 do show_character(\"mateo\", \"izq\", \"sonrojado\")
 
 [speed=0.01]...
-[wait=4]¿Qué?
+[wait=4]What?
 
 do show_character(\"kristine\", \"derecha\", \"sonrojadaHabla2\")
-Kristine: ¿Qué?
+Kristine: What?
 do show_character(\"mateo\", \"izq\", \"hablaNormal\")
 do show_character(\"kristine\", \"derecha\", \"avergonzada\")
-Mateo: Si te puedo besar.
+Mateo: If I can kiss you.
 do show_character(\"mateo\", \"izq\", \"avergonzado\")
 do show_character(\"kristine\", \"derecha\", \"avergonzada\")
 
 [speed=0.06]...
 [wait=2]
 do show_character(\"kristine\", \"derecha\", \"sonrojadaHabla2\")
-Kristine: ¿Qué?
+Kristine: What?
 
 do show_character(\"mateo\", \"izq\", \"sonrojado\")
 do show_character(\"kristine\", \"derecha\", \"sonrojada\")
-No podía creer lo que dijo.
-Para empezar, ¿qué había dicho?, ¿besar?, ¿a mí?, ¿tan de repente?, ¿por qué?, ¿cómo? 
-¿Y cómo se supone que se besan las personas?
+I couldn’t believe what he was saying.
+To begin with, what had he said?, to kiss?, who?, me?, so suddenly?, why?, how? 
+And how are people supposed to kiss?
 
 do show_character(\"mateo\", \"izq\", \"hablaNormal\")
-Mateo: Si te puedo dar un beso.
+Mateo: If I can kiss you.
 do show_character(\"kristine\", \"derecha\", \"avergonzada\")
 do show_character(\"mateo\", \"izq\", \"serio\")
 
-- Actuar con timidez
+- Act in a shy manner
 	do SistemaPuntos.cambiarPuntos(\"mateo\", 1)
 	do show_character(\"kristine\", \"derecha\", \"sonrojadaHabla\")
 	do show_character(\"mateo\", \"izq\", \"serio\")
-	Kristine: N-no... No. Perdón.
+	Kristine: N-no... No. Sorry.
 	do show_character(\"mateo\", \"izq\", \"hablaPreocupado\")
 	do show_character(\"kristine\", \"derecha\", \"avergonzada\")
-	Mateo: Está bien, lo siento. No te preocupes.
+	Mateo: That’s fine, I’m sorry. Don’t worry.
 	=> siguee
 
-- Ser directa
+- Be direct
 	do show_character(\"kristine\", \"derecha\", \"sonrojadaHabla2\")
 	do show_character(\"mateo\", \"izq\", \"serio\")
 	Kristine: No.
 	do show_character(\"mateo\", \"izq\", \"hablaPreocupado\")
 	do show_character(\"kristine\", \"derecha\", \"avergonzada\")
-	Mateo: Está bien. Lo siento...
+	Mateo: That’s fine. I’m sorry...
 	=> siguee
 
 ~ siguee
 do show_character(\"mateo\", \"izq\", \"sonrojado\")
 do show_character(\"kristine\", \"derecha\", \"sonrojada\")
-Después de aquella interacción y el momento algo extraño para mí, nos despedimos y entré en mi casa.
+After that somewhat awkward interaction, we said goodbye, and I went into my house.
 
 do hide_character(\"izq\")
 do hide_character(\"derecha\")
 do set_background(\"habitacionNoche\")
-No podía creer lo que había pasado, lo que había hecho, ni lo que él había dicho.
-Preguntó si me podía besar. Y lo hizo con una cara tan… Tierna.
-Su mirada tenía un brillo que nunca olvidaré.
+I couldn’t believe what had just happened, what had just been done, not even what he said.
+He asked me if he could kiss me. And he did it with a face that was so… cute.
+His eyes had a special sparkle that I won’t be able to forget.
 
-Habiendo tantos chicos que no preguntan y lo harían directamente sin importar tu verdadera opinión, él pidió permiso. Quiso saber si quería.
-Y eso que no leyó nada de la carta… 
-Entonces, ¿sabrá algo?, ¿se esperará algo de lo que leerá siquiera?
+Considering how many guys wouldn’t ask and would just go ahead without caring about your true feelings, he asked for permission. He wanted to know if I was willing.
+And that was without even reading any of the letter…
+So, does he have any ideas?, will he even expect anything from what he’s about to read?
 
-Sea lo que sea, hizo caso a lo que le dije.
+Whatever it was, he listened to what I told him.
 
-Antes de la carta, le puse una nota en donde especificaba claramente que no me dijera nada hasta que nos viéramos y estuviéramos solos; únicamente él y yo.
+Before the letter, I attached a note clearly specifying that he shouldn’t say anything until we saw each other and were alone, just the two of us.
 
 do set_background(\"negroo\")
-Pasaron 2 días, que parecían eternos, después de aquello.
+Two days passed, which felt like an eternity, after that.
 
-Justamente ayer al terminar el examen, Mateo me preguntó si podía quedar el 16. Sin pensarlo le dije que sí. Y a qué precio.
+Just yesterday, right after finishing the exam, Mateo asked me if we could meet on the 16th. Without thinking, I said yes. And at what a cost.
 
-Debería de haberle rechazado y haber aplazado la quedada para cuando estuviera realmente lista, pero, si nos ponemos así y hubiera atrasado aquel encuentro para otro día o para cuando me sintiera preparada, nunca lo hubiera visto. 
-Esa quedada nunca habría llegado, ya que siempre sentiría estos nervios recorriendo mi cuerpo. 
-Nunca estaría lo suficientemente lista como para verlo en persona, como para hablar cara a cara con él.
-Simplemente, ese momento que creía perfecto para cuando estuviera dispuesta a hablar las cosas con él, jamás llegaría verdaderamente.
+I should have said no and postponed the meeting until I was truly ready, but if I’m being honest, had I delayed that meeting to another day or until I felt prepared, I would never have seen him.
+That meeting would never have happened, because I would always feel these nerves coursing through my body.
+I would never have been truly ready to see him in person, to talk to him face to face.
+Simply put, that moment I thought would be perfect for when I was ready to talk to him would never really come.
 
-Y, sin darme cuenta de cuán rápido pasó ese lapso de tiempo, que creía más largo, llegó la hora.
+And, without realizing how quickly that span of time passed, which I had thought would be longer, the moment arrived.
 
 do set_background(\"habitacionMasOscura\")
-18:00.
+6:00 PM.
 
-Él ya estaba esperándome abajo.
+He was already waiting for me outside.
 
-Yo ya estaba medianamente lista. 
-Si hablamos sentimentalmente, no lo estaba. Nunca lo estaría sabiendo lo que debía hablar en cuanto lo viera, pero al menos físicamente sí lo estaba.
+I was already somewhat ready.
+Emotionally, though, I wasn’t. I never would be, knowing what I had to talk about when I saw him. But at least physically, I was ready.
 
-16 de febrero…
+16th of February…
 
 do set_background(\"calleDia\")
-Al salir, noté el frío que hacía y lo vi, esperando.
-En cuanto me miró, dejó escapar una sonrisa.
+As I stepped outside, I noticed how cold it was, and I saw him waiting.
+The moment he looked at me, he let out a smile.
 
-Por suerte para mí, lo primero que hicimos aquel día fue ir a la cafetería en la que solíamos estar. Ya era costumbre ir ahí.
+Luckily for me, the first thing we did that day was go to the café we used to frequent. It had become a habit to go there.
 
 do set_background(\"negroo\")
-Mientras tomaba mi querido capuccino para entrar en calor e intentar disminuir los nervios, él hablaba de su familia, cosas que le pasaron a algunos compañeros de su clase y otros temas.
+While I sipped my beloved cappuccino to warm up and try to calm my nerves, he talked about his family, things that happened to some of his classmates, and other topics.
 
-Intentaba mirarlo, juro que intenté verlo a los ojos, pero simplemente no podía. Era incapaz sabiendo que él ya había leído mi carta. 
-Él ya sabía lo que sentía, pero yo no sabía si aquello era correspondido o no. Y eso lentamente me estaba matando.
+I tried to look at him, I swear I tried to meet his eyes, but I simply couldn’t. I was incapable of doing so knowing that he had already read my letter.
+He already knew how I felt, but I didn’t know whether those feelings were returned or not. And that was slowly killing me.
 
-Definitivamente, era masoquista.
+Definitely, I was a masochist.
 
-No podía quejarme, no siendo consciente de que fui yo misma la que le dijo que no me contara nada sobre la carta ni lo que ponía ahí hasta que estuviéramos a solas. Y yo no sabía cómo sacar el tema.
-Supongo que, si no lo hacía yo, lo haría él. Tarde o temprano.
+I couldn’t complain, knowing full well that I was the one who had told him not to say anything about the letter or its contents until we were alone. And I didn’t know how to bring up the subject.
+I suppose that if I didn’t do it, he would. Sooner or later.
 
 do set_background(\"parqueNoche\")
-Después de unas horas, llegamos al parque, aquel al que solíamos ir.
+After a couple hours, we reached the park, the one we would often find ourselves in.
 
-Ya había anochecido, a pesar de que eran las 20:00 aproximadamente, y hacía frío. Mucho frío. 
-Ni la sudadera de terciopelo que llevaba era suficiente para entrar en calor. Me abracé a mí misma con la esperanza de que los escalofríos disminuyeran.
-Intento fallido.
-En definitiva, odio ser friolera.
+It was already dark, even though it was around 8:00 PM, and it was cold. Very cold.
+Not even the velvet hoodie I was wearing was enough to keep me warm. I hugged myself, hoping the chills would lessen.
+Failed attempt.
+Honestly, I hate being so sensitive to the cold.
 
-Por suerte o por desgracia, él lo notó. Y me abrazó.
-Inmediatamente noté que se me subió algo. Me notaba la cara roja. Por su culpa. Tonto.
-Con lentitud, me aparté de él y nos sentamos en un banco que había libre.
+Luckily, or unfortunately, he noticed. And he hugged me.
+Immediately, I felt something rise. My face was red. Because of him. Silly.
+Slowly, I pulled away from him, and we sat on an empty bench..
 
-Hice mal al pensar que los nervios habían abandonado mi cuerpo.
+I was wrong to think that my nerves had left my body.
 
 do Audio.change_music(Audio.declaracionMateo, -1)
 do show_character(\"mateo\", \"izq\", \"hablaNormal\")
 do show_character(\"kristine\", \"derecha\", \"avergonzada\")
-Mateo: Seré breve.
+Mateo: I’ll be brief.
 do show_character(\"mateo\", \"izq\", \"serio\")
 
-No, por favor.
-Quería y no quería que este momento llegara.
+No, please.
+I both wanted and didn’t want this day to come.
 
 do show_character(\"mateo\", \"izq\", \"hablaNormal\")
-Mateo: Sobre lo de tu carta… 
+Mateo: About your letter… 
 do show_character(\"mateo\", \"izq\", \"hablaAlegre\")
 do show_character(\"kristine\", \"derecha\", \"intentoSonrisa\")
-Mateo: Te agradezco mucho que me la hayas dado. Escribes muy bonito, por cierto. Quería decirte que…
+Mateo: I really appreciate that you gave it to me. Your writing is really pretty, by the way. I wanted to tell you that…
 
 do show_character(\"mateo\", \"izq\", \"serio\")
-Aquí vamos… ¿Me va a rechazar? Parece que sí.
+Here we go… Is he going to reject me? Because it seems that way.
 
 do show_character(\"mateo\", \"izq\", \"hablaAlegre\")
-Mateo: Quería decirte que yo también siento lo mismo.
+Mateo: I wanted to tell you that I feel the same way about you.
 do show_character(\"mateo\", \"izq\", \"feliz\")
 
 [speed= 0.0001]...
-[speed=0.03]¿Cómo?
+[speed=0.03]How?
 
 do show_character(\"kristine\", \"derecha\", \"hablaNormal\")
-Kristine: ¿Qué?
+Kristine: What?
 do show_character(\"mateo\", \"izq\", \"hablaAlegre\")
 do show_character(\"kristine\", \"derecha\", \"avergonzada\")
-Mateo: Que siento lo mismo que tú. Me gustas. Mucho. Y sí, me siento muy afortunado de haberte conocido y también me gustaría pasar más tiempo contigo. Tienes razón en que 3 o 4 horas no son suficientes para estar juntos. Haces que el tiempo pase demasiado rápido, y no sé si me gusta o si lo odio. Pero no me malinterpretes, me encanta estar a tu lado.
+Mateo: I feel the same way you do. I like you. A lot. And yes, I feel very lucky to have met you, and I’d also like to spend more time with you. You’re right that three or four hours aren’t enough to be together. You make time pass far too quickly, and I don’t know whether I like that or hate it. But don’t misunderstand me, I love being by your side.
 
 do show_character(\"mateo\", \"izq\", \"feliz\")
 do show_character(\"kristine\", \"derecha\", \"feliz\")
-Se me escapó una risa, y mi aliento se convirtió en una nubecita de vapor en el aire helado. De verdad que hacía mucho frío.
-Inconscientemente, mientras hablaba, me acerqué un poquito más a él.
-No podía creer lo que estaba diciendo.
+I let out a laugh, and my breath formed a small cloud in the icy air. 
+It truly was freezing.
+Without realizing it, I edged a bit closer to him as I spoke.
+I couldn’t believe the words were coming out of his mouth.
 
 do show_character(\"mateo\", \"izq\", \"hablaAlegre\")
-Mateo: También me gustaría tenerte, y no en el sentido de posesión. También me gustaría ser tu compañero en esta vida y estar para ti siempre, sobre todo cuando lo necesites. Me encanta pasar tiempo contigo, siempre me lo paso bien si es contigo realmente…
+Mateo: I’d also like to have you, not in a possessive sense. I’d also like to be your partner in this life and always be there for you, especially when you need it. I love spending time with you, I truly always have a good time when it’s with you…
 
 do show_character(\"mateo\", \"izq\", \"feliz\")
-Dado que yo estaba callada, las palabras no salían de mis labios, él siguió hablando.
+Since I remained silent and the words wouldn’t come out of my mouth, he kept talking.
 
 do show_character(\"mateo\", \"izq\", \"hablaAlegre\")
-Mateo: Entonces, ahora que sabes que siento lo mismo que tú por mí… 
+Mateo: Then, now that you know that your feelings are reciprocated… 
 do show_character(\"mateo\", \"izq\", \"hablaNormal\")
-Mateo: ¿Quieres ser mi novia?
+Mateo: Will you be my girlfriend?
 do show_character(\"kristine\", \"derecha\", \"avergonzada\")
 do show_character(\"mateo\", \"izq\", \"feliz\")
 
-¿Ya dije que no podía creer lo que estaba pasando?
+Have I already mentioned that I couldn’t believe what was happening?
 
-Estaba estupefacta, pero debía responder.
+I was stunned, but I knew I had to reply.
 
 ~ momentoDecision
-¿Qué le digo?
-- Si
+What do I tell him?
+- Yes
 	do SistemaPuntos.cambiarPuntos(\"mateo\", 2)
 	=> sigue
 - No
 	No.
-	No puedo decirle que no.
-	No cuando sé lo que quiero y que él también me quiere de la forma en la que menos pensé que me querría.
-	No soy tan estúpida como para dejar marchar esta oportunidad. Y menos cuando la tengo frente a mis narices.
+	I couldn’t tell him that.
+	Not when I know what I want and I finally know that he wants me in the least possible way I could think of.
+	I’m not that stupid as to let this opportunity go. And much less when it’s right in front of me.
 	=> momentoDecision
-- No decir nada
-	¿Qué?
-	No, debo decirle algo.
-	De verdad [b]quiero[/b] empezar algo con él...
+- Don’t say anything
+	What?
+	No, I have to say something.
+	I really [b]want[/b] to start something with him...
 	=> momentoDecision
 
 ~ sigue
 do show_character(\"kristine\", \"derecha\", \"sonrojadaHabla2\")
-Kristine: S-sí. Claro.
+Kristine: Y-yes. Oh my god, a thousand times yes.
 do show_character(\"kristine\", \"derecha\", \"avergonzada\")
 
-Mateo sonrió. Su sonrisa era tan cálida y contagiosa que yo también sonreí.
+Mateo smiled. His smile was so warm and contagious that I smiled too.
 do show_character(\"kristine\", \"derecha\", \"feliz\")
-Se acercó más a mí hasta estar abrazados. Era acogedor, tanto que casi se me olvidaba que estaba temblando, tanto por los nervios de antes como por las bajas temperaturas.
+He moved closer until we were hugging. It was so cozy that I almost forgot I was trembling, both from my earlier nerves and the cold.
 
-En un intento de estar más cerca y disminuir el frío que sentía, me acomodé de forma en que mi cabeza quedó encima de su pecho mientras él me abrazaba por la espalda, dándome cariño con delicadeza. 
-Escuchaba su corazón y me encantaba aquella melodía.
+In an attempt to get closer and ease the cold I felt, I positioned myself so that my head rested on his chest while he hugged me from behind, giving me gentle affection.
+I could hear his heartbeat, and I decided that it was my favourite melody.
 
 do show_character(\"mateo\", \"izq\", \"hablaAlegre\")
-Mateo: Tu corazón no deja de latir rápido, por cierto.
+Mateo: You’re heart is beating really fast, by the way
 do show_character(\"mateo\", \"izq\", \"feliz\")
 do show_character(\"kristine\", \"derecha\", \"hablaNormal\")
-Kristine: Estaba nerviosa.
+Kristine: I was really nervous.
 do show_character(\"mateo\", \"izq\", \"hablaAlegre\")
 do show_character(\"kristine\", \"derecha\", \"feliz\")
-Mateo: Ya, lo he notado. 
+Mateo: I know, I could see it in your face.
 do show_character(\"mateo\", \"izq\", \"hablaNormal\")
 do show_character(\"kristine\", \"derecha\", \"feliz\")
-Mateo: Y fuimos antes a la cafetería porque pensé que así te sería más fácil hablar. 
+Mateo: That’s why we went first to the coffee shop, I thought it would make it easier for you to have this conversation. 
 
 do show_character(\"mateo\", \"izq\", \"serio\")
-Y no se equivocaba.
+And he wasn’t in the wrong.
 
 do show_character(\"mateo\", \"izq\", \"feliz\")
 do show_character(\"kristine\", \"derecha\", \"hablaNormal\")
-Kristine: Tu corazón también late rápido.
+Kristine: Your heart is also racing.
 do show_character(\"mateo\", \"izq\", \"hablaAlegre\")
 do show_character(\"kristine\", \"derecha\", \"feliz\")
-Mateo: Porque por fin estoy con la chica que siempre quise.
+Mateo: Because I’m finally with the girl I have dreamt of.
 do show_character(\"mateo\", \"izq\", \"feliz\")
 do show_character(\"kristine\", \"derecha\", \"avergonzada\")
 
-Lo miré a los ojos. ¿Cómo podía decir eso tan rápido y sin inmutarse?, ¿y cómo estaba seguro de aquello?
+I looked him in the eyes. How could he say that so quickly and without flinching?, and how could he be so sure of it?
 
 do show_character(\"mateo\", \"izq\", \"hablaAlegre\")
-Mateo: Me gustaste desde la primera vez que te vi.
+Mateo: I had liked you since the first time I saw you.
 
 do show_character(\"mateo\", \"izq\", \"sonrojado\")
 do show_character(\"kristine\", \"derecha\", \"sonrojada\")
 
-Directo y sin anestesia. 
-Esa fue otra mini bomba para mi corazón. ¿Cómo era capaz de decir ese tipo de cosas sin luego avergonzarse? Admiraba eso de él.
+He went straight to the point and without any sugarcoating.
+That was another tiny shock to my heart. How could he say such things and not feel even a bit embarrassed? I really admired that about him.
 
-Lo miré, pensando que lo decía de broma, pero con su mirada supe que no. No mentía, al igual que yo no mentí en la carta, él no mentía en su confesión ni en lo que acababa de decir.
+I looked at him, thinking he was joking, but from his gaze, I knew he wasn’t. He wasn’t lying, just as I hadn’t lied in the letter, he wasn’t lying in his confession or in what he had just said.
 
 do hide_character(\"izq\")
 do hide_character(\"derecha\")
 do set_background(\"fucsiaMuyOscuro\")
-Así fue como logré darle la carta en la que confesaba lo que sentía al chico que me gustaba y, dos días después, conseguí estar con él como pareja. Aquello se hizo oficial.
-Mentiría si dijera que era el mejor día de mi vida, ya que ese fue cuando me quitaron la ostomía. Pero, si no era el primero, era de los primeros mejores días que he podido tener.
+That’s how I managed to give the letter in which I confessed my feelings to the boy I liked, and two days later, I became his girlfriend. It became official.
+I’d be lying if I said it was the best day of my life, since that was the day my ostomy was removed. But if it wasn’t the very best, it was definitely one of the best days I’ve ever had.
 
-Desde entonces, fuimos prácticamente inseparables.
-Si había algún problema siempre intentábamos solucionarlo con calma y amor ante todo.
+Since then, we have been practically inseparable.
+If there was ever a problem, we always tried to solve it calmly, with love above all else.
 
-Y así, casi sin darnos cuenta, el invierno se quedó atrás para dejar paso a la llegada brillante y cálida del verano.
+And so, almost without realizing it, winter slipped away, making way for the bright and warm arrival of summer.
 
-Recuerdo cómo algunas veces él se acercaba a mí lentamente para intentar besarme y cuando veía que no estaba lista, simplemente se disculpaba y decía que no me preocupara, que esperaría lo que fuera necesario hasta que estuviera preparada.
-Hasta un día de verano.
+I remember how, sometimes, he would slowly lean in to try to kiss me, and when he saw I wasn’t ready, he would simply apologize and say not to worry, that he would wait as long as necessary until I was prepared.
+Until one summer day.
 
 if SistemaPuntos.obtenerPuntos(\"mateo\") >= 1:
 	do cargarFinal(\"finalCanon\")

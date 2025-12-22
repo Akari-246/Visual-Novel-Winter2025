@@ -1,3 +1,4 @@
+Label
 Node
 Button
 VBoxContainer
@@ -5,7 +6,6 @@ Panel
 CanvasLayer
 Control
 Sprite2D
-Label
 ProgressBar
 Node2D
 RichTextLabel

@@ -1,13 +1,12 @@
 ~ start
 do set_background("calleNoche")
 
-do Audio.change_music(Audio.darCarta, 0)
+do Audio.change_music(Audio.darCarta, -1)
 Sí.
 No puedo acobardarme justo ahora. No cuando inconscientemente me he hecho a la idea de dárselo. No cuando ya he imaginado cada posible escenario y estoy abierta a cualquier rechazo que me pueda dar.
 
 do show_character("kristine", "derecha", "sonrojadaHabla")
 do show_character("mateo", "izq", "sinHablar")
-do Audio.change_music(Audio.darCarta, 0)
 Kristine: Por cierto… Quería… Quería darte algo.
 
 do show_character("mateo", "izq", "serio")
@@ -59,6 +58,7 @@ do show_character("kristine", "derecha", "avergonzada")
 do show_character("mateo", "izq", "serio")
 
 - Actuar con timidez
+	do SistemaPuntos.cambiarPuntos("mateo", 1)
 	do show_character("kristine", "derecha", "sonrojadaHabla")
 	do show_character("mateo", "izq", "serio")
 	Kristine: N-no... No. Perdón.

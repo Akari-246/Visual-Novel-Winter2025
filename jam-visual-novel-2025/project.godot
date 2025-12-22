@@ -39,7 +39,7 @@ pause={
 [internationalization]
 
 locale/translations=PackedStringArray("res://traducciones/traduccion.en.translation", "res://traducciones/traduccion.es.translation")
-locale/translations_pot_files=PackedStringArray("res://dialogos/es/cap3.dialogue", "res://dialogos/es/cap4.dialogue", "res://dialogos/es/cap 5.dialogue", "res://dialogos/es/escenaHospi.dialogue", "res://dialogos/es/finales.dialogue", "res://dialogos/es/inicio.dialogue")
+locale/translations_pot_files=PackedStringArray("res://dialogos/es/cap3.dialogue", "res://dialogos/es/cap4.dialogue", "res://dialogos/es/cap 5.dialogue", "res://dialogos/es/escenaHospi.dialogue", "res://dialogos/es/finales.dialogue", "res://dialogos/es/inicio.dialogue", "res://dialogos/en/inicio.dialogue", "res://dialogos/en/hospiScene.dialogue", "res://dialogos/en/escenaHospi.dialogue", "res://dialogos/en/cap3.dialogue", "res://dialogos/en/cap4.dialogue", "res://dialogos/en/cap 5.dialogue", "res://dialogos/en/finales.dialogue")
 
 [rendering]
 

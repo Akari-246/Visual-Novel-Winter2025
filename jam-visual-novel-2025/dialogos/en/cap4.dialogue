@@ -1,0 +1,152 @@
+~ start
+Should I tell someone?
+- No
+	=> historiaSigue
+- Yes
+	=> seSalta
+
+~ historiaSigue
+I took a pill hoping the discomfort would go away, but, even though I didn’t want to admit it at the time, I think it only made the sudden discomfort worse.
+
+I think the teacher asked how I was, but I didn’t hear properly, so I didn’t answer. I couldn’t even think clearly.
+
+I wanted to go to the bathroom.
+do Audio.change_music(Audio.desmayada, 0)
+I stood up, but as I did, the world began to spin and everything looked blurry.
+Instinctively, I leaned on the nearby desk and started walking toward the exit, but before I knew it, my body began to collapse. If it weren’t for the teacher, who noticed I was unwell, I would have fallen to the floor. He grabbed me by the shoulders and helped me out into the hallway.
+
+~ seSalta
+do Audio.change_music(Audio.desmayada, 0)
+Some time passed, and I was still dizzy, but I was lying on a sofa they had in the hallway.
+Fortunately, the teacher and a few classmates helped me and stayed with me until my father arrived to take me home.
+
+What I definitely didn’t expect was for Mateo to come and stay by my side.
+
+do show_character("mateo", "izq", "hablaPreocupado")
+Mateo: How is she?
+do show_character("mateo", "izq", "sinHablar")
+He sounded nervous. 
+I tried to open my eyes so I could see him, but everything was blurry and It was overwhelming, so I just kept them closed.
+
+Classamte 1: Well, she’s there.
+He said that while pointing at me in some way, at least I think so. 
+Classamte 2: She’s dizzy, but it seems she’s a bit better. 
+
+Mateo, those classmates and the teacher stayed with me until, finally, my father arrived.
+
+do show_character("papaNoHabla", "centro")
+do show_character("mateo", "izq", "hablaPreocupado")
+Mateo: Excuse me, do you mind If I help carry her and go with you?
+do show_character("papa", "centro")
+do show_character("mateo", "izq", "sinHablar")
+Papá: No, of course not.
+do show_character("papaNoHabla", "centro")
+I was surprised to hear my father accepting the help.
+
+do hide_character("centro")
+do set_background("habitacionMasOscura")
+Just as he said, Mateo accompanied me home.
+do hide_character("izq")
+do Audio.change_music(Audio.despuesMareo, 0)
+Once he made sure I was feeling better, he left. But that didn’t change the fact that he had stayed with me for about half an hour, at my house, when he needed to catch a bus to get to his own, and if he was late, he would miss it.
+
+I told him he didn’t need to stay with me, but the only thing he said was:
+[speed=0.5][b]I didn’t plan on going until I made sure you were fine. Even if that meant going with you wherever was necessary
+[speed=0.5][b]Don’t worry and get some rest, what’s important now is that you get better.
+
+do set_background("negroo")
+I don’t know exactly how or why, but from then on, something started to awaken in me. And it grew in a strangely exaggerated way, yet I didn’t notice, or perhaps I didn’t want to notice that feeling, both unfamiliar and familiar at the same time.
+
+If we already talked often, after that I tried to talk with him even more. He cared about me just as much as I cared about him.
+Mateo and everything related to him often appeared in my thoughts.
+
+do set_background("habitacionAtardecer")
+do Audio.change_music(Audio.aceptandoSentimientos, 0)
+Without realizing it, one winter day I wrote something, something that perfectly captured what I felt. It wasn’t difficult at all, I was able to express everything inside me, even what I hadn’t been fully aware of.
+
+I wrote a letter to Mateo, and as I was writing it, I wasn’t even aware of what I was doing, not until I finished and read it.
+I was dying of embarrassment once I finished reading it.
+
+[b]Should I really give it to him?[/b] Is it [b]necessary[/b] that he reads and knows how I feel?
+No, of course not. [speed=0.3]Not unless…
+
+[b]Would I like to start something with him?
+- Yes
+	if SistemaPuntos.obtenerPuntos("mateo") <= -4:
+		#do cargarFinal("finalMalo")#mostrarFinal()	
+		do cargarFinal("finalMalo")
+		#SistemaPuntos.obtenerPuntos()
+	else:
+		=> siguee
+- No
+	do cargarFinal("soloAmigos")
+
+~ siguee
+do set_background("negroo")
+After reading this and realizing my feelings, it’s obvious that I can’t truly maintain a friendship with him. But I need him to know. 
+Deep down, I think I would like him to read this.
+[speed= 0.0001] 
+do set_background("fucsiaMuyOscuro")
+Maybe we could be something more. Maybe he sees me as more than a friend.
+Perhaps he’ll be just as wonderful once we’re a couple..
+There’s a possibility that he isn’t like the other guys I’ve met, except for two, of course; my father and an old friend.
+do set_background("habitacionAtardecer")
+What the hell am I thinking of?
+How could I be his girlfriend?
+
+.[wait=0.5].[wait=0.5].
+
+do set_background("negro")
+Am I really ready to be in a relationship?
+Not too long ago, I got out of one, will I be able to get into another?
+do set_background("fucsiaOscuro") 
+I think that, if it’s him, yes. A thousand times yes
+After all, I’ve learned a lot thanks to an old friend I liked. Even though it was online, the feelings were real.
+
+do set_background("rosa")
+Mateo has shown me many things, and so far, all of them have been good.
+Maybe I can try…
+You already know the answer could be ‘no’… so maybe it’s worth giving it a shot…
+
+.[wait=0.5].[wait=0.5].
+
+One moment, no. I can’t just give it to him and be done with it.
+Although, on the other hand, maybe I only need an excuse to give it to him.
+There’s no time until the 14th of February, Valentine’s day…
+No, it would be too much. Even for me.
+
+do set_background("habitacionAtardecer")
+Either way, in a way, I tried hyping myself up to do it. After all, you have all eternity to regret this.
+
+Every time I read the letter, I improved it as best as I could. I added sentences, deleted others, and replaced some words… I revised it with the goal in mind that, if he ever read it, it would be one of the best letters he had ever seen and that it would move him, even just a little. Of course, I also wanted him to understand everything I was saying in it.
+
+Until, finally, I arrived at the version I wanted.
+Still, I went over the letter every day as many times as needed to make sure it was perfect and that everything could be understood.
+
+It’s worth noting that I never neglected my studies or assignments.
+
+I grew increasingly close to Mateo, to the point where we would meet and talk several days a week. I even felt comfortable with the idea of giving him the letter I had written, but, as I mentioned before, I wanted to wait for the perfect excuse. In the meantime, I kept improving it. Besides, I didn’t feel completely ready.
+
+The more days passed and the closer I became to that boy, the more I felt it would be silly to give him the letter that day.
+
+The 14th of February arrived.
+do set_background("calleDia")
+
+I had plans with Mateo, and the only thing keeping me from being with him that day was an exam I had on the 15th, but that didn’t stop me.
+I even brought the letter with me in case the right moment came to give it to him, though I didn’t think I would be able to. At least not without giving in to my impulsive side. After all, some say that to do something, all you need is a little push.
+I guess that’s what happened to me.
+
+do set_background("calleNoche")
+After spending some time with him in the park we would frequent, we arrived at my door.
+He was talking about something, but I wasn’t able to pay attention to what he was saying, because I was thinking about another thing…
+
+I felt it, it was time.
+It may be now or never.
+Maybe I wouldn’t even get this chance if I missed it. 
+[b]Should I really give it to him?
+- Of course
+	do cargarSiguienteCap("cap 5")
+- No
+	do cargarFinal("finalCobarde")
+
+=> END

@@ -1,0 +1,418 @@
+~ start
+
+do set_background("habitacion1")
+I put down my phone, I really needed to focus on finishing some homework.
+
+
+do set_background("habitacionNoche")
+The night arrived and, since I had classes tomorrow again, I went to sleep.
+When I woke up I was surprised by something that I wasn’t expecting at all.
+
+#*encima de habitación coso móvil con mensajes*
+do set_background("habitacion1")
+[i]Right, On a different note, I wanted to tell you something.
+[i]I don’t want to overwhelm you with this message, but I wanted to thank you for allowing me to talk to you and get to know you, even if not in person because of class schedules and such. I really appreciate that, and you seem like an amazing person to me, and I sense that you have a big heart. And yes, even with the little we’ve talked, that’s the impression I get.
+[i]You seem to be that way and you come across like that, and if you allow me to get to know more about you, even if it’s just here, without overwhelming you, I would really appreciate it. Don’t find these words strange. You deserve them, and I wanted to share what I think of you with this message, in this moment HAAHAKA 
+[i]And if they manage, at least, to brighten your day or encourage you, then I will have fulfilled my purpose. Sorry for the length of the message. I’m not used to gaining trust with someone so quickly, and I know it can be overwhelming to read it all at once
+
+I was smiling like a fool.
+I was going to reply, but I realised I was late to class.
+
+do set_background("clase")
+The hours passed, and with them came the time to go home. Because I had a check-up with the doctor to make sure my wound and intestines were doing well, I completely forgot that I hadn’t replied to him, at least until I remembered the next day.
+
+do set_background("habitacion1")
+What should I reply? 
+- Reply in a shy manner
+	[i]Don’t worry and thank you so much for your words ^^
+	=> sigue
+	
+- Reply in a rude way
+	do SistemaPuntos.cambiarPuntos("mateo", -1.5)
+	[i] Sometimes it is better to keep your thoughts of other people to yourself. Please, for now, don’t say anything like that again.
+	I replied without thinking.
+	do SistemaPuntos.cambiarPuntos("kristine", -2)
+	Fuck, why did I write that?
+	I was going to eliminate it. I was so nervous that I waited too long and when I was going to eliminate it, or even edit the message, it was already too late.
+	He replied with an apology.
+	I hate being this way, I wish I could have been a bit kinder ...
+	=> sigue
+
+- Reply later and ask him what that was about
+	do SistemaPuntos.cambiarPuntos("mateo", -0.5)
+	I didn’t know what to reply so I left him on read.
+	But I don’t like leaving messages that I know I have to respond to on read.
+	Indecisive, I spent several minutes writing something to ask him the reason for his message, but without sounding too rude.
+	[i] What is that about?
+	I got ready to do my homework, but I was distracted by the sound indicating a new notification.
+	And, effectively, it was him.
+	[i] Nothing. I just wanted you to know that I value being able to talk to you.
+	[i] I’m sorry if it bothered you, that wasn’t my intention.
+	I apologised to him because I didn’t want to sound rude.
+	=> sigue
+
+~ sigue
+do set_background("habitacion1")
+In any case, after that, we kept talking. About anything, really, about the course, hobbies… Even if I mentioned having trouble with something in a subject, he would explain whatever was necessary.
+
+do set_background("habitacionNoche")
+In fact, one day in December, after telling him that I was struggling a lot with a subject, Development Environments, at 12.00 AM, I went to sleep.
+
+do set_background("habitacion1")
+When I woke up, I checked my phone as usual, but I was very surprised to see that he had replied at 6.48 in the morning. And as if the advice he had given me before and the links he had sent to help me weren’t enough, he sent me a Word file that he had made himself, full of explanations and examples about what I didn’t understand. He had done it in the middle of the night. For me. To help me.
+I immediately thanked him for what he had done. After all, those notes were exactly what I needed to better handle the exam, but one question lingered in my mind; Why was he doing this?
+Although I greatly appreciated the gesture he had shown me and continued to show every day, by taking an interest in me, asking me questions, and helping me with subjects or problems with assignments, even when we didn’t even know each other in person, I couldn’t stop wondering why he was doing all of this.
+Without realizing it, that stranger, who little by little was ceasing to feel like one, occupied many of my thoughts during the day. Without a doubt, I needed to get to know him and thank him.
+And that wouldn’t take long to happen.
+do set_background("negro")
+13 of december. 
+It was almost winter, and the Christmas holidays were just around the corner. That was something I both loved and disliked at the same time.
+
+do set_background("clase")
+I was thinking a lot, too much, if I’m honest, because of him.
+All because of a message of his.
+
+#*encima del fondo mostrar pc y mensajes*
+[i]Today I will finish 1 hour earlier, but I can stay in class and wait for you ^^
+[i]If you want, of course
+
+[b]I should be kind to him… Right?
+- Agree and meet up with him
+	do SistemaPuntos.cambiarPuntos("mateo", 2)
+	[i]Sure ^^
+	=> siguee
+
+- Cancel
+	do SistemaPuntos.cambiarPuntos("mateo", -0.5)
+	I don’t even know him...
+	I shouldn’t meet with him until I feel comfortable, I suppose.
+	do SistemaPuntos.cambiarPuntos("kristine", -1)
+	Without knowing too much what to say, I cancelled it, but I told him that I wouldn’t mind another day, If both of us were available, of course.
+	Immediately I regretted it. Why would I cancel on him when I really wanted to meet him?
+	I erased the message that I wrote and tried it again saying yes to see him.
+	=> siguee
+
+- Lie
+	do SistemaPuntos.cambiarPuntos("mateo", -2)
+	Indecisive, I decided to tell him a small lie.
+	[i]I’m really sorry, I am quite busy today. Another day if you don’t mind ^^
+	It really wasn’t a big lie. After all, I had some pending assignments to do. However, they weren’t that urgent.
+	=> seSalta
+
+~ siguee
+do set_background("clase")
+I’m not going to lie.
+I’m very restless. My mind keeps going over the same thing.
+I’m going to see him.
+I’m going to meet the guy who has been helping me so much these past few days, the same one who dedicated kind words to me.
+As soon as class is over, I’ll be face to face with the same guy who has told me that I’m an amazing person with a big heart.
+
+I’m not sure if I'm regretting this, if I'm impatient or, in a way, both.
+
+In the end, the teacher finished his explanation, and since it was already 2:30 PM, the class ended.
+Everyone began to gather their things, myself included, but unlike the others, I did it more slowly. I needed to take my time to process the fact that I was going to have to socialize a little bit more.
+
+do set_background("calleDia")
+do Audio.change_music(Audio.primeraQuedada, -2)
+Almost 10 minutes later, I left the center and found him there.
+Just as he had said before, he was waiting for me near the entrance.
+When he saw me, he greeted me.
+
+do show_character("kristine", "derecha", "sinHablar")
+do show_character("mateo", "izq", "hablaAlegre")
+Mateo: Hiii, how is it going?
+do show_character("kristine", "derecha", "hablaNormal")
+do show_character("mateo", "izq", "sinHablar")
+Kristine: Fine, and you?
+do show_character("kristine", "derecha", "sinHablar")
+do show_character("mateo", "izq", "hablaAlegre")
+Mateo: Fine fine. 
+do show_character("mateo", "izq", "sinHablar")
+
+After saying that, we started walking back to our respective homes.
+
+do show_character("mateo", "izq", "hablaNormal")
+Mateo: By the way, I wanted to ask you something, only if you don’t mind.
+do show_character("mateo", "izq", "sinHablar")
+do show_character("kristine", "derecha", "hablaAlegre")
+Kristine: Of course, go on.
+do show_character("kristine", "derecha", "sinHablar")
+do show_character("mateo", "izq", "hablaPreocupado")
+Mateo: When you were absent the other week, did something serious happen to you?
+do show_character("mateo", "izq", "sinHablar")
+
+Wit how kind he’s been to me, [b]i would like to tell him the truth…
+- Tell him the truth
+	do show_character("kristine", "derecha", "hablaPreocupada")
+	Kristine: Well, I used to have an ostomy, so I had to be absent because of the surgery they performed to remove it.
+	do show_character("kristine", "derecha", "sinHablar")
+	
+	Seeing the surprised look on his face amused me a little.
+	For some reason, his gaze encouraged me to keep talking, something that had almost never happened with anyone else.
+
+	do show_character("kristine", "derecha", "hablaAlegre")
+	Kristine: Now I’m fine, you don’t have to worry. That surgery was the last one they had to perform on me; what remains are check-ups and tests every month, and later they will be annual.
+	do show_character("kristine", "derecha", "sinHablar")
+	do show_character("mateo", "izq", "hablaPreocupado")
+	Mateo: Why?, I mean, why did you have it? What is that?
+	do show_character("mateo", "izq", "sinHablar")
+	do show_character("kristine", "derecha", "hablaPreocupada")
+	Kristine: I don’t want to bore you or overwhelm you.
+	do show_character("kristine", "derecha", "sinHablar")
+	do show_character("mateo", "izq", "hablaAlegre")
+	Mateo: It won’t happen, don’t worry. You can tell me, have no fear.
+	do show_character("mateo", "izq", "sinHablar")
+	do show_character("kristine", "derecha", "intentoSonrisa")
+	And that was enough to tell him everything.
+
+	do show_character("kristine", "derecha", "hablaPreocupada")
+	Kristine: Okay… An ostomy is an opening in the body, roughly at the level of the intestine, that allows waste to exit into a bag, which is what I had until just under a month ago.
+	do show_character("kristine", "derecha", "sinHablar")
+	do show_character("mateo", "izq", "hablaPreocupado")
+	Mateo: And you had it because…
+	do show_character("mateo", "izq", "sinHablar")
+	He said so I could keep talking.
+	
+	do show_character("kristine", "derecha", "hablaNormal")
+	Kristine:  Because I had peritonitis.
+	do show_character("kristine", "derecha", "hablaPreocupada")
+	Kristine: In short, I’ve had to undergo several surgeries for cancer and other related issues.
+	do show_character("kristine", "derecha", "hablaAlegre") 
+	Kristine: But as I said, I’m fine now.
+	do show_character("kristine", "derecha", "sinHablar")
+	do show_character("mateo", "izq", "hablaNormal")
+	Mateo: Wow… I’m surprised that, despite the surgeries, you’ve been able to keep going. 
+	do show_character("mateo", "izq", "hablaAlegre")
+	Mateo: Still, I’m really glad that you’re finally well, I truly mean it from the bottom of my heart.
+	do show_character("mateo", "izq", "sinHablar")
+	do show_character("kristine", "derecha", "hablaAlegre") 
+	Kristine: Thank you so much.
+	do show_character("kristine", "derecha", "feliz") 
+	=> sigueee
+	
+- Change the topic
+	do SistemaPuntos.cambiarPuntos("mateo", -0.25)
+	do show_character("kristine", "derecha", "hablaNormal")
+	Kristine: Well...
+	do show_character("kristine", "derecha", "sinHablar")
+	do show_character("mateo", "izq", "hablaNormal") 
+	Mateo: Yes?
+	do show_character("mateo", "izq", "sinHablar") 
+	Kristine: I would like to know more about you before.
+	do show_character("kristine", "derecha", "sinHablar")
+	do show_character("mateo", "izq", "hablaAlegre") 
+	Mateo: I understand. What would you like to know?
+	do show_character("mateo", "izq", "sinHablar") 
+	Kristine: I don’t know, what were you doing before studying this, friendships, maybe your love life...
+	do show_character("mateo", "izq", "hablaNormal") 
+	do show_character("kristine", "derecha", "sinHablar")
+	Mateo: Oh, before I started studying this I was studying something called...
+	do show_character("mateo", "izq", "sinHablar") 
+	do show_character("kristine", "derecha", "sinHablar")
+	
+	And, without realizing what I was provoking, he started talking about his life.
+	He tried to do the bachellor, but he didn’t like it and enrolled in a vocational program instead. There, he met his current best friend and a group of friends who, the more he spent time with them, the more he realized how toxic that environment was.
+	Apparently, he liked a girl, but it didn’t go well because she ended up cheating on him in a cruel way. I really find that kind of people disgusting…
+	=> sigueee
+	
+- Lie
+	do SistemaPuntos.cambiarPuntos("mateo", -1.5)
+	do show_character("mateo", "izq", "sinHablar") 
+	do show_character("kristine", "derecha", "hablaNormal")
+	Kristine: Oh, no. Nothing serious, it was only a cold. Don’t worry about it.
+	do show_character("mateo", "izq", "hablaAlegre") 
+	do show_character("kristine", "derecha", "sinHablar")
+	Mateo: Thank god you’re okay now.
+	do show_character("mateo", "izq", "sinHablar") 
+	do show_character("kristine", "derecha", "hablaNormal")
+	Kristine: Yeah...
+	do show_character("mateo", "izq", "sinHablar") 
+	do show_character("kristine", "derecha", "sinHablar")
+	
+	Why did I lie to him?
+	Although it wasn’t pleasant to remember what had happened to me, maybe it would have been good to tell him, even if he was an apparently unknown person who was no longer so unknown.
+	I would have liked to tell him the truth, but maybe I did the right thing by not sharing it. Not everyone would want to hear about the number of surgeries a person has had and the reasons behind them.
+	It’s discouraging, and then having to listen to how “strong” you’ve been during the process, that not everyone could have fought like you did, and the rest of that cliché speech… It's exhausting and far from original, but above all, it’s draining.
+	It gets tiring to hear the same thing from every person who knows or is starting to know about your struggle, a struggle in which you weren’t really living, but surviving, in a way where you had no other choice.
+	No one likes being strong, but sooner or later, it’s something you have to be.
+	Oh well, nothing I can do now...
+	=> sigueee
+
+~ sigueee
+do show_character("kristine", "derecha", "sinHablar") 
+do show_character("mateo", "izq", "sinHablar") 
+I didn’t realize that we were already close to my house.
+ 
+do show_character("mateo", "izq", "hablaNormal") 
+Mateo: Where do you live?
+do show_character("kristine", "derecha", "hablaNormal") 
+do show_character("mateo", "izq", "sinHablar") 
+Kristine: Actually, right on this street.
+do show_character("kristine", "derecha", "sinHablar") 
+do show_character("mateo", "izq", "hablaNormal") 
+Mateo: Do you have anything to do?
+do show_character("mateo", "izq", "sinHablar") 
+
+I could tell him the truth. Or should I lie? A little lie wouldn’t harm anyone… Right?
+- Tell him the truth
+	do SistemaPuntos.cambiarPuntos("mateo", 1)
+	
+	do show_character("kristine", "derecha", "hablaNormal") 
+	do show_character("mateo", "izq", "sinHablar")
+	Kristine: Yes, in a couple of days I have some exams.
+	do show_character("mateo", "izq", "hablaAlegre")
+	do show_character("kristine", "derecha", "sinHablar")
+	Mateo: Ohhh ok. I live a little further away, so I have to take the bus.
+	do show_character("mateo", "izq", "sinHablar")
+	do show_character("kristine", "derecha", "hablaNormal")
+	Kristine: Ok, no problem.
+	do show_character("kristine", "derecha", "sinHablar")
+
+	Just as I was about to say goodbye to him, he gave me a brief hug.
+
+	do show_character("mateo", "izq", "hablaAlegre")
+	Mateo: See you!
+	do hide_character("izq")
+	do hide_character("derecha")
+	do set_background("negroo")
+	And that’s how I finally met him, but, this time, in person.
+	=> historiaNormal
+	
+- Lie
+	do show_character("mateo", "izq", "sinHablar")
+	do show_character("kristine", "derecha", "hablaNormal")
+	Kristine: No. I don’t have anything to do at this moment.
+	do SistemaPuntos.cambiarPuntos("mateo", -1.5)
+	do show_character("mateo", "izq", "hablaNormal")
+	do show_character("kristine", "derecha", "sinHablar")
+	Mateo: Ohhh that’s good.
+	do show_character("mateo", "izq", "sinHablar")
+	Why do I feel as if he knew something that I don’t?
+	do show_character("mateo", "izq", "hablaNormal")
+	Mateo: Well, my bus is about to leave, so I need to go.
+	do show_character("mateo", "izq", "sinHablar")
+	do show_character("kristine", "derecha", "hablaNormal")
+	Kristine: Sure, don’t worry.
+	do show_character("kristine", "derecha", "sinHablar")
+	
+	After that, we said our goodbyes.
+	That’s how I met him, but, this time, in person.
+	=> historiaNormal
+
+~ historiaNormal
+if SistemaPuntos.obtenerPuntos("mateo") <= 0:
+	do cargarFinal("demasiadasMentiras")
+	#SistemaPuntos.obtenerPuntos()
+else:
+	do set_background("habitacionMasOscura")
+	A while later, I noticed a notification from a few hours ago. 
+	I had been really caught up studying.
+
+	#*en móvil*
+	[i]I really liked talking to you
+	[i]I didn’t want to keep you from studying, so I said goodbye when we got to your place. ^^ 
+	[i]and hey, if you want I can wait for you tomorrow too, if that works for you, and if you have the time, of course ^^ 
+	
+	[i]Thanks for telling me about the surgeries. I’m really glad you’re doing well and that, even going through them, they haven’t affected you too much
+	[i]You know I’m here for anything, and I really appreciate you sharing this with me, I truly mean it
+
+	Without hesitation, I replied.
+
+	[i]Don’t worry, it’s nothing ^^
+	[i]And I think it’s a good idea for us to meet again tomorrow
+	[i]Thank you for listening and for your kind words ^^
+
+	[i]I was going to listen no matter what, because aside from the topic itself and how important it is, I think you’re an incredible person and I feel very comfortable with you, honestly. I hope I make you feel the same. I like the way you think and who you are as a person, you’re genuinely great, and I really appreciate the trust you’ve shown in opening up to me, even though we haven’t known each other very long ^^ 
+
+	do set_background("habitacionMasOscura")
+	I didn’t understand how he could be so sweet, but I couldn’t get any more distracted.
+	~ seSalta
+	do set_background("habitacionAtardecer")
+	I continued studying and doing some work for the rest of the day so I could learn all the concepts well and do well in the exam that I had tomorrow.
+	And it seems to be that way.
+
+	do set_background("clase")
+	I did the exam calmly.
+	I didn’t feel that it had gone as badly as I expected, so I left class feeling happy.
+
+	do set_background("calleDia")
+	As soon as I was outside the center, I saw someone who looked familiar to me.
+	Was it him?
+	He was waiting for me.
+	He spent 20 minutes outside, alone, just to wait for me.
+	And he, based on what he had told me, needed to take the bus.
+
+	I felt so bad that the moment I saw him, I apologized.
+
+	do show_character("mateo", "izq", "hablaNormal")
+	do show_character("kristine", "derecha", "sinHablar")
+	Mateo: Don’t worry, did the exam go well?
+	do show_character("mateo", "izq", "sinHablar")
+	do show_character("kristine", "derecha", "hablaAlegre")
+	Kristine: Yes. I’d like to think so.
+	do show_character("mateo", "izq", "hablaAlegre")
+	do show_character("kristine", "derecha", "sinHablar")
+	Mateo: I see, that's good.
+	do show_character("kristine", "derecha", "feliz")
+	do show_character("mateo", "izq", "feliz")
+
+	I asked him about his day, and we talked all the way to my house. 
+	I lived much closer to the school than he did.
+	When we arrived, I was about to say goodbye, but he surprised me with something I hadn’t anticipated.
+
+	do show_character("mateo", "izq", "hablaNormal")
+	do show_character("kristine", "derecha", "sinHablar")
+	Mateo:Hey, by the way, could I have your number?
+	do show_character("mateo", "izq", "sinHablar")
+
+	Although it caught me off guard, I replied to him.
+	do show_character("kristine", "derecha", "hablaAlegre")
+	Kristine: Sure.
+	do show_character("kristine", "derecha", "sinHablar")
+
+	He took out his phone and I gave him my number.
+	I didn’t want him to get it wrong, so I made sure he had it written down correctly before he saved it. 
+
+	do hide_character("izq")
+	do hide_character("derecha")
+	do set_background("habitacionMasOscura")
+	Just when I entered my home I received a notification:
+
+	#*movil ya como si fuera whatsapp*
+	do Audio.play_sfx(Audio.notificacion)
+	[i]Hiiii, it’s Mateo
+
+	When I saw it, for some strange reason, a smile came immediately to my face. And I replied to him, of course.
+
+	do set_background("negroo")
+	Since that day, we talked quite a lot.
+
+	At Christmas, even though it wasn’t as enjoyable as I had hoped, I got to spend time with my best friend and with him. I never thought that after such a rough winter, I would finally get a bit of a break.
+	do set_background("fucsiaMuyOscuro")
+	In part, that light started to reach me thanks to him, Mateo, who cheered up some of my days, sometimes with jokes, sometimes with a video he sent, and other times just by sharing things about himself that I didn’t know.
+
+	That winter break was useful for two, or rather three, things; relaxing, learning and catching up on some work, and getting to know Mateo better, who quickly became a close friend.
+
+	Without realizing how time had passed, my birthday was almost here; January 24.
+	However, I didn’t expect what would happen next.
+
+	do set_background("habitacionNoche")
+	My birthday went well, Mateo wished me a happy birthday at exactly 12:00 AM and the rest of the day went as usual.
+	do set_background("habitacionAtardecer")
+	On January 25, I had an exam, so I spent my birthday studying. 
+
+	do set_background("habitacion1")
+	That day I woke up feeling off, but that wasn’t an excuse to skip class, of course not, I had an important programming exam to take.
+	If I learned anything in bachelor's, it was that, no matter what, you couldn’t miss exams. You had to take them, no matter what, so skipping class wasn’t an option.
+	I had to take and pass that exam.
+
+	I got out of bed and, once ready, headed to class with my notes in hand.
+
+	do set_background("clase")
+	do Audio.change_music(Audio.momentoMareo, -1)
+	While taking the exam, I started to feel a bit dizzy, but I didn’t think much of it. What I didn’t know was that this would turn out to be the worst decision I would make.
+
+	I’m starting to feel really bad...
+	do cargarSiguienteCap("cap4")
+
+	=> END

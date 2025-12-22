@@ -1,16 +1,16 @@
 [gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
 
-[ext_resource type="Script" uid="uid://dbs4435dsf3ry" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_u6kxg"]
+[ext_resource type="Script" uid="uid://dbs4435dsf3ry" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_re7rb"]
 
 [resource]
-script = ExtResource("1_u6kxg")
+script = ExtResource("1_re7rb")
 using_states = PackedStringArray()
 titles = {
-"historiaNormal": "300",
-"seSalta": "327",
-"sigue": "53",
+"historiaNormal": "302",
+"seSalta": "329",
+"sigue": "54",
 "siguee": "102",
-"sigueee": "240",
+"sigueee": "241",
 "start": "2"
 }
 character_names = PackedStringArray("Mateo", "Kristine")
@@ -28,24 +28,8 @@ lines = {
 },
 "10": {
 &"id": "10",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"function": "set_background",
-&"i": 3,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 18,
-&"type": &"string",
-&"value": "habitacion1"
-}, {
-&"i": 31,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
 &"next_id": "11",
-&"type": "mutation"
+&"type": ""
 },
 "100": {
 &"id": "100",
@@ -81,31 +65,31 @@ lines = {
 "103": {
 &"id": "103",
 &"next_id": "104",
-&"text": "No voy a mentirte.",
+&"text": "I’m not going to lie.",
 &"type": "dialogue"
 },
 "104": {
 &"id": "104",
 &"next_id": "105",
-&"text": "Estoy muy inquieta. Mi mente no deja de darle vueltas a lo mismo.",
+&"text": "I’m very restless. My mind keeps going over the same thing.",
 &"type": "dialogue"
 },
 "105": {
 &"id": "105",
 &"next_id": "106",
-&"text": "Voy a verlo.",
+&"text": "I’m going to see him.",
 &"type": "dialogue"
 },
 "106": {
 &"id": "106",
 &"next_id": "107",
-&"text": "Voy a conocer al chico que me ha estado ayudando tanto estos últimos días. El mismo que me dedicó palabras bonitas, a mí.",
+&"text": "I’m going to meet the guy who has been helping me so much these past few days, the same one who dedicated kind words to me.",
 &"type": "dialogue"
 },
 "107": {
 &"id": "107",
 &"next_id": "109",
-&"text": "En cuanto termine la clase tendré enfrente al mismo chico que me ha dicho que soy alguien genial y con un gran corazón.",
+&"text": "As soon as class is over, I’ll be face to face with the same guy who has told me that I’m an amazing person with a big heart.",
 &"type": "dialogue"
 },
 "108": {
@@ -116,14 +100,29 @@ lines = {
 "109": {
 &"id": "109",
 &"next_id": "111",
-&"text": "No sé si me arrepiento, si estoy impaciente o, en parte, ambas.",
+&"text": "I’m not sure if I'm regretting this, if I'm impatient or, in a way, both.",
 &"type": "dialogue"
 },
 "11": {
 &"id": "11",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "habitacion1"
+}, {
+&"i": 31,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
 &"next_id": "12",
-&"text": "[i]Cierto, como tema aparte te quería comentar algo.",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "110": {
 &"id": "110",
@@ -133,13 +132,13 @@ lines = {
 "111": {
 &"id": "111",
 &"next_id": "112",
-&"text": "Al final el profesor terminó con su explicación y, dado que ya eran las 14:30, la clase terminó.",
+&"text": "In the end, the teacher finished his explanation, and since it was already 2:30 PM, the class ended.",
 &"type": "dialogue"
 },
 "112": {
 &"id": "112",
 &"next_id": "114",
-&"text": "Todos comenzaron a recoger sus cosas, incluida yo, pero, a diferencia del resto, lo hacía más lento. Necesitaba tomarme mi tiempo para asimilar que iba a tener que socializar un poco más.",
+&"text": "Everyone began to gather their things, myself included, but unlike the others, I did it more slowly. I needed to take my time to process the fact that I was going to have to socialize a little bit more.",
 &"type": "dialogue"
 },
 "113": {
@@ -210,19 +209,19 @@ lines = {
 "116": {
 &"id": "116",
 &"next_id": "117",
-&"text": "Casi 10 minutos después salí del centro y lo encontré ahí.",
+&"text": "Almost 10 minutes later, I left the center and found him there.",
 &"type": "dialogue"
 },
 "117": {
 &"id": "117",
 &"next_id": "118",
-&"text": "Tal y como dijo antes, estaba esperándome casi en la entrada.",
+&"text": "Just as he had said before, he was waiting for me near the entrance.",
 &"type": "dialogue"
 },
 "118": {
 &"id": "118",
 &"next_id": "120",
-&"text": "Al verme, me saludó.",
+&"text": "When he saw me, he greeted me.",
 &"type": "dialogue"
 },
 "119": {
@@ -233,7 +232,7 @@ lines = {
 "12": {
 &"id": "12",
 &"next_id": "13",
-&"text": "[i]No quiero abrumarte con este mensaje, quería agradecerte el permitirme hablar contigo y conocerte, aunque no sea en persona por los horarios de clase y tal. Aprecio mucho eso y me pareces alguien genial e intuyo con un gran corazón, y sí, aún con lo poco que hemos hablado me da esa sensación.",
+&"text": "[i]Right, On a different note, I wanted to tell you something.",
 &"type": "dialogue"
 },
 "120": {
@@ -298,7 +297,7 @@ lines = {
 &"character": "Mateo",
 &"id": "122",
 &"next_id": "123",
-&"text": "Holaaa, ¿qué tal te ha ido?",
+&"text": "Hiii, how is it going?",
 &"type": "dialogue"
 },
 "123": {
@@ -363,7 +362,7 @@ lines = {
 &"character": "Kristine",
 &"id": "125",
 &"next_id": "126",
-&"text": "Bien, ¿y a ti?",
+&"text": "Fine, and you?",
 &"type": "dialogue"
 },
 "126": {
@@ -428,7 +427,7 @@ lines = {
 &"character": "Mateo",
 &"id": "128",
 &"next_id": "129",
-&"text": "Bien bien.",
+&"text": "Fine fine.",
 &"type": "dialogue"
 },
 "129": {
@@ -463,7 +462,7 @@ lines = {
 "13": {
 &"id": "13",
 &"next_id": "14",
-&"text": "[i]Me pareces y transmites ser así y si me permites saber más de ti aún siendo por aquí, sin agobiarte, lo agradecería mucho. Que no te extrañen estas palabras. Te las mereces y quería compartir lo que opino de ti con este gran mensaje del momento JAAJAKA",
+&"text": "[i]I don’t want to overwhelm you with this message, but I wanted to thank you for allowing me to talk to you and get to know you, even if not in person because of class schedules and such. I really appreciate that, and you seem like an amazing person to me, and I sense that you have a big heart. And yes, even with the little we’ve talked, that’s the impression I get.",
 &"type": "dialogue"
 },
 "130": {
@@ -474,7 +473,7 @@ lines = {
 "131": {
 &"id": "131",
 &"next_id": "133",
-&"text": "Al decir aquello comenzamos a caminar para volver a nuestras respectivas casas.",
+&"text": "After saying that, we started walking back to our respective homes.",
 &"type": "dialogue"
 },
 "132": {
@@ -515,7 +514,7 @@ lines = {
 &"character": "Mateo",
 &"id": "134",
 &"next_id": "135",
-&"text": "Por cierto, quería preguntarte algo. Sólo si no te molesta.",
+&"text": "By the way, I wanted to ask you something, only if you don’t mind.",
 &"type": "dialogue"
 },
 "135": {
@@ -580,7 +579,7 @@ lines = {
 &"character": "Kristine",
 &"id": "137",
 &"next_id": "138",
-&"text": "Claro, adelante.",
+&"text": "Of course, go on.",
 &"type": "dialogue"
 },
 "138": {
@@ -643,15 +642,15 @@ lines = {
 },
 "14": {
 &"id": "14",
-&"next_id": "16",
-&"text": "[i]Y si al menos consiguen alegrarte el día o animarte, habré cumplido con mi propósito. Disculpa por la longitud. No estoy acostumbrado a ganar confianza tan rápido con alguien y sé que puede abrumar verlo al momento",
+&"next_id": "15",
+&"text": "[i]You seem to be that way and you come across like that, and if you allow me to get to know more about you, even if it’s just here, without overwhelming you, I would really appreciate it. Don’t find these words strange. You deserve them, and I wanted to share what I think of you with this message, in this moment HAAHAKA",
 &"type": "dialogue"
 },
 "140": {
 &"character": "Mateo",
 &"id": "140",
 &"next_id": "141",
-&"text": "La vez que faltaste la otra semana, ¿te pasó algo grave?",
+&"text": "When you were absent the other week, did something serious happen to you?",
 &"type": "dialogue"
 },
 "141": {
@@ -691,14 +690,14 @@ lines = {
 "143": {
 &"id": "143",
 &"next_id": "144",
-&"text": "Con lo amable que ha sido conmigo, [b]me gustaría decirle la verdad…",
+&"text": "Wit how kind he’s been to me, [b]i would like to tell him the truth…",
 &"type": "dialogue"
 },
 "144": {
 &"id": "144",
 &"next_id": "145",
-&"responses": PackedStringArray("144", "192", "216"),
-&"text": "Contarle la verdad",
+&"responses": PackedStringArray("144", "192", "217"),
+&"text": "Tell him the truth",
 &"type": "response"
 },
 "145": {
@@ -734,7 +733,7 @@ lines = {
 &"character": "Kristine",
 &"id": "146",
 &"next_id": "147",
-&"text": "Bueno, antes tenía una ostomía, entonces tuve que faltar por la operación que me hicieron para quitarla.",
+&"text": "Well, I used to have an ostomy, so I had to be absent because of the surgery they performed to remove it.",
 &"type": "dialogue"
 },
 "147": {
@@ -774,18 +773,19 @@ lines = {
 "149": {
 &"id": "149",
 &"next_id": "150",
-&"text": "Ver su cara de sorpresa me hizo un poco de gracia.",
+&"text": "Seeing the surprised look on his face amused me a little.",
 &"type": "dialogue"
 },
 "15": {
 &"id": "15",
-&"next_id": "16",
-&"type": ""
+&"next_id": "17",
+&"text": "[i]And if they manage, at least, to brighten your day or encourage you, then I will have fulfilled my purpose. Sorry for the length of the message. I’m not used to gaining trust with someone so quickly, and I know it can be overwhelming to read it all at once",
+&"type": "dialogue"
 },
 "150": {
 &"id": "150",
 &"next_id": "152",
-&"text": "Por algún motivo, su mirada me animaba a seguir hablando, cosa que con casi nadie me había pasado.",
+&"text": "For some reason, his gaze encouraged me to keep talking, something that had almost never happened with anyone else.",
 &"type": "dialogue"
 },
 "151": {
@@ -826,7 +826,7 @@ lines = {
 &"character": "Kristine",
 &"id": "153",
 &"next_id": "154",
-&"text": "Ya estoy bien, no te preocupes. Esa operación era la última que tenían que hacerme, lo que me queda son revisiones y pruebas cada mes y luego serán anuales.",
+&"text": "Now I’m fine, you don’t have to worry. That surgery was the last one they had to perform on me; what remains are check-ups and tests every month, and later they will be annual.",
 &"type": "dialogue"
 },
 "154": {
@@ -891,7 +891,7 @@ lines = {
 &"character": "Mateo",
 &"id": "156",
 &"next_id": "157",
-&"text": "¿Por qué?, quiero decir, ¿por qué tenías eso? ¿Y qué es?",
+&"text": "Why?, I mean, why did you have it? What is that?",
 &"type": "dialogue"
 },
 "157": {
@@ -956,14 +956,13 @@ lines = {
 &"character": "Kristine",
 &"id": "159",
 &"next_id": "160",
-&"text": "No quiero aburrirte o abrumarte.",
+&"text": "I don’t want to bore you or overwhelm you.",
 &"type": "dialogue"
 },
 "16": {
 &"id": "16",
 &"next_id": "17",
-&"text": "Sonreí como una tonta.",
-&"type": "dialogue"
+&"type": ""
 },
 "160": {
 &"id": "160",
@@ -1027,7 +1026,7 @@ lines = {
 &"character": "Mateo",
 &"id": "162",
 &"next_id": "163",
-&"text": "No lo vas a hacer, tranquila. Cuéntame, sin miedo.",
+&"text": "It won’t happen, don’t worry. You can tell me, have no fear.",
 &"type": "dialogue"
 },
 "163": {
@@ -1091,7 +1090,7 @@ lines = {
 "165": {
 &"id": "165",
 &"next_id": "167",
-&"text": "Y aquello fue suficiente para contarle todo.",
+&"text": "And that was enough to tell him everything.",
 &"type": "dialogue"
 },
 "166": {
@@ -1132,7 +1131,7 @@ lines = {
 &"character": "Kristine",
 &"id": "168",
 &"next_id": "169",
-&"text": "Está bien… La ostomía es una apertura que tienes en el cuerpo, más o menos a la altura del intestino, que permite la salida de heces hacia una bolsa, que era lo que tenía hace poco menos de un mes.",
+&"text": "Okay… An ostomy is an opening in the body, roughly at the level of the intestine, that allows waste to exit into a bag, which is what I had until just under a month ago.",
 &"type": "dialogue"
 },
 "169": {
@@ -1166,8 +1165,8 @@ lines = {
 },
 "17": {
 &"id": "17",
-&"next_id": "19",
-&"text": "Iba a responderle, pero me di cuenta que se me hizo tarde para ir a clase.",
+&"next_id": "18",
+&"text": "I was smiling like a fool.",
 &"type": "dialogue"
 },
 "170": {
@@ -1203,7 +1202,7 @@ lines = {
 &"character": "Mateo",
 &"id": "171",
 &"next_id": "172",
-&"text": "Y la tenías por…",
+&"text": "And you had it because…",
 &"type": "dialogue"
 },
 "172": {
@@ -1238,7 +1237,7 @@ lines = {
 "173": {
 &"id": "173",
 &"next_id": "175",
-&"text": "Animó para que siguiera hablando",
+&"text": "He said so I could keep talking.",
 &"type": "dialogue"
 },
 "174": {
@@ -1279,7 +1278,7 @@ lines = {
 &"character": "Kristine",
 &"id": "176",
 &"next_id": "177",
-&"text": "Porque tuve una peritonitis.",
+&"text": "Because I had peritonitis.",
 &"type": "dialogue"
 },
 "177": {
@@ -1315,7 +1314,7 @@ lines = {
 &"character": "Kristine",
 &"id": "178",
 &"next_id": "179",
-&"text": "En resumen, me han tenido que operar varias veces por cáncer y demás.",
+&"text": "In short, I’ve had to undergo several surgeries for cancer and other related issues.",
 &"type": "dialogue"
 },
 "179": {
@@ -1349,14 +1348,15 @@ lines = {
 },
 "18": {
 &"id": "18",
-&"next_id": "19",
-&"type": ""
+&"next_id": "20",
+&"text": "I was going to reply, but I realised I was late to class.",
+&"type": "dialogue"
 },
 "180": {
 &"character": "Kristine",
 &"id": "180",
 &"next_id": "181",
-&"text": "Pero lo dicho, ya estoy bien.",
+&"text": "But as I said, I’m fine now.",
 &"type": "dialogue"
 },
 "181": {
@@ -1421,7 +1421,7 @@ lines = {
 &"character": "Mateo",
 &"id": "183",
 &"next_id": "184",
-&"text": "Vaya… Me sorprende que, a pesar de las operaciones, hayas podido seguir.",
+&"text": "Wow… I’m surprised that, despite the surgeries, you’ve been able to keep going.",
 &"type": "dialogue"
 },
 "184": {
@@ -1457,7 +1457,7 @@ lines = {
 &"character": "Mateo",
 &"id": "185",
 &"next_id": "186",
-&"text": "Igual, me alegra mucho que estés bien por fin, de corazón te lo digo.",
+&"text": "Still, I’m really glad that you’re finally well, I truly mean it from the bottom of my heart.",
 &"type": "dialogue"
 },
 "186": {
@@ -1522,7 +1522,7 @@ lines = {
 &"character": "Kristine",
 &"id": "188",
 &"next_id": "189",
-&"text": "Muchas gracias.",
+&"text": "Thank you so much.",
 &"type": "dialogue"
 },
 "189": {
@@ -1556,29 +1556,13 @@ lines = {
 },
 "19": {
 &"id": "19",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"function": "set_background",
-&"i": 3,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 18,
-&"type": &"string",
-&"value": "clase"
-}, {
-&"i": 25,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
 &"next_id": "20",
-&"type": "mutation"
+&"type": ""
 },
 "190": {
 &"id": "190",
 &"is_snippet": false,
-&"next_id": "240",
+&"next_id": "241",
 &"next_id_after": "",
 &"type": "goto"
 },
@@ -1590,7 +1574,7 @@ lines = {
 "192": {
 &"id": "192",
 &"next_id": "193",
-&"text": "Cambiar de tema",
+&"text": "Change the topic",
 &"type": "response"
 },
 "193": {
@@ -1658,7 +1642,7 @@ lines = {
 &"character": "Kristine",
 &"id": "195",
 &"next_id": "196",
-&"text": "Bueno...",
+&"text": "Well...",
 &"type": "dialogue"
 },
 "196": {
@@ -1723,7 +1707,7 @@ lines = {
 &"character": "Mateo",
 &"id": "198",
 &"next_id": "199",
-&"text": "¿Si?",
+&"text": "Yes?",
 &"type": "dialogue"
 },
 "199": {
@@ -1778,15 +1762,30 @@ lines = {
 },
 "20": {
 &"id": "20",
-&"next_id": "22",
-&"text": "Pasaron las horas y con ello llegó la hora de ir a casa. Debido a que tenía una revisión con el médico, para asegurarse de que mi herida y mi intestino iban bien, se me olvidó completamente que no le había contestado, no hasta que lo recordé al día siguiente.",
-&"type": "dialogue"
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "clase"
+}, {
+&"i": 25,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "21",
+&"type": "mutation"
 },
 "200": {
 &"character": "Kristine",
 &"id": "200",
 &"next_id": "201",
-&"text": "Preferiría saber de ti antes.",
+&"text": "I would like to know more about you before.",
 &"type": "dialogue"
 },
 "201": {
@@ -1851,7 +1850,7 @@ lines = {
 &"character": "Mateo",
 &"id": "203",
 &"next_id": "204",
-&"text": "Entiendo. ¿Qué quieres saber?",
+&"text": "I understand. What would you like to know?",
 &"type": "dialogue"
 },
 "204": {
@@ -1887,7 +1886,7 @@ lines = {
 &"character": "Kristine",
 &"id": "205",
 &"next_id": "206",
-&"text": "No sé, qué hiciste antes de este grado, amistades, tal vez vida amorosa...",
+&"text": "I don’t know, what were you doing before studying this, friendships, maybe your love life...",
 &"type": "dialogue"
 },
 "206": {
@@ -1952,7 +1951,7 @@ lines = {
 &"character": "Mateo",
 &"id": "208",
 &"next_id": "209",
-&"text": "Oh, antes de entrar en este grado hice el grado medio de...",
+&"text": "Oh, before I started studying this I was studying something called...",
 &"type": "dialogue"
 },
 "209": {
@@ -1986,8 +1985,9 @@ lines = {
 },
 "21": {
 &"id": "21",
-&"next_id": "22",
-&"type": ""
+&"next_id": "23",
+&"text": "The hours passed, and with them came the time to go home. Because I had a check-up with the doctor to make sure my wound and intestines were doing well, I completely forgot that I hadn’t replied to him, at least until I remembered the next day.",
+&"type": "dialogue"
 },
 "210": {
 &"id": "210",
@@ -2026,36 +2026,41 @@ lines = {
 "212": {
 &"id": "212",
 &"next_id": "213",
-&"text": "Y, sin darme cuenta de lo que había provocado, comenzó a hablar de su vida.",
+&"text": "And, without realizing what I was provoking, he started talking about his life.",
 &"type": "dialogue"
 },
 "213": {
 &"id": "213",
 &"next_id": "214",
-&"text": "Intentó hacer el bachillerato, pero no le gustó y se metió a un grado medio. Allí conoció a actual su mejor amigo y a un grupo de amigos que conforme más se juntaba con ellos más se daba cuenta de la toxicidad que había en ese ambiente.",
+&"text": "He tried to do the bachellor, but he didn’t like it and enrolled in a vocational program instead. There, he met his current best friend and a group of friends who, the more he spent time with them, the more he realized how toxic that environment was.",
 &"type": "dialogue"
 },
 "214": {
 &"id": "214",
 &"next_id": "215",
-&"text": "Al parecer le gustó una chica, pero no le fue muy bien puesto que terminó engañándolo de una forma cruel. Qué asco dan las personas así...",
+&"text": "Apparently, he liked a girl, but it didn’t go well because she ended up cheating on him in a cruel way. I really find that kind of people disgusting…",
 &"type": "dialogue"
 },
 "215": {
 &"id": "215",
 &"is_snippet": false,
-&"next_id": "240",
+&"next_id": "241",
 &"next_id_after": "",
 &"type": "goto"
 },
 "216": {
 &"id": "216",
 &"next_id": "217",
-&"text": "Mentir",
-&"type": "response"
+&"type": ""
 },
 "217": {
 &"id": "217",
+&"next_id": "218",
+&"text": "Lie",
+&"type": "response"
+},
+"218": {
+&"id": "218",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"i": 3,
@@ -2083,11 +2088,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "218",
+&"next_id": "219",
 &"type": "mutation"
 },
-"218": {
-&"id": "218",
+"219": {
+&"id": "219",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -2112,11 +2117,16 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "219",
+&"next_id": "220",
 &"type": "mutation"
 },
-"219": {
-&"id": "219",
+"22": {
+&"id": "22",
+&"next_id": "23",
+&"type": ""
+},
+"220": {
+&"id": "220",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -2141,39 +2151,18 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "220",
-&"type": "mutation"
-},
-"22": {
-&"id": "22",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"function": "set_background",
-&"i": 3,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 18,
-&"type": &"string",
-&"value": "habitacion1"
-}, {
-&"i": 31,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
-&"next_id": "23",
-&"type": "mutation"
-},
-"220": {
-&"character": "Kristine",
-&"id": "220",
 &"next_id": "221",
-&"text": "Oh, no. Nada grave, sólo un resfriado. No te preocupes.",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "221": {
+&"character": "Kristine",
 &"id": "221",
+&"next_id": "222",
+&"text": "Oh, no. Nothing serious, it was only a cold. Don’t worry about it.",
+&"type": "dialogue"
+},
+"222": {
+&"id": "222",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -2198,11 +2187,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "222",
+&"next_id": "223",
 &"type": "mutation"
 },
-"222": {
-&"id": "222",
+"223": {
+&"id": "223",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -2227,44 +2216,15 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "223",
-&"type": "mutation"
-},
-"223": {
-&"character": "Mateo",
-&"id": "223",
 &"next_id": "224",
-&"text": "Menos mal que ya estás bien.",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "224": {
+&"character": "Mateo",
 &"id": "224",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"function": "show_character",
-&"i": 3,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 18,
-&"type": &"string",
-&"value": "mateo"
-}]), Array[Dictionary]([{
-&"i": 27,
-&"type": &"string",
-&"value": "izq"
-}]), Array[Dictionary]([{
-&"i": 34,
-&"type": &"string",
-&"value": "sinHablar"
-}, {
-&"i": 45,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
 &"next_id": "225",
-&"type": "mutation"
+&"text": "Thank god you’re okay now.",
+&"type": "dialogue"
 },
 "225": {
 &"id": "225",
@@ -2276,42 +2236,6 @@ lines = {
 &"value": Array[Array]([Array[Dictionary]([{
 &"i": 18,
 &"type": &"string",
-&"value": "kristine"
-}]), Array[Dictionary]([{
-&"i": 30,
-&"type": &"string",
-&"value": "derecha"
-}]), Array[Dictionary]([{
-&"i": 41,
-&"type": &"string",
-&"value": "hablaNormal"
-}, {
-&"i": 54,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
-&"next_id": "226",
-&"type": "mutation"
-},
-"226": {
-&"character": "Kristine",
-&"id": "226",
-&"next_id": "227",
-&"text": "Si...",
-&"type": "dialogue"
-},
-"227": {
-&"id": "227",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"function": "show_character",
-&"i": 3,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 18,
-&"type": &"string",
 &"value": "mateo"
 }]), Array[Dictionary]([{
 &"i": 27,
@@ -2328,8 +2252,44 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "228",
+&"next_id": "226",
 &"type": "mutation"
+},
+"226": {
+&"id": "226",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "kristine"
+}]), Array[Dictionary]([{
+&"i": 30,
+&"type": &"string",
+&"value": "derecha"
+}]), Array[Dictionary]([{
+&"i": 41,
+&"type": &"string",
+&"value": "hablaNormal"
+}, {
+&"i": 54,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "227",
+&"type": "mutation"
+},
+"227": {
+&"character": "Kristine",
+&"id": "227",
+&"next_id": "228",
+&"text": "Yeah...",
+&"type": "dialogue"
 },
 "228": {
 &"id": "228",
@@ -2341,104 +2301,27 @@ lines = {
 &"value": Array[Array]([Array[Dictionary]([{
 &"i": 18,
 &"type": &"string",
-&"value": "kristine"
+&"value": "mateo"
 }]), Array[Dictionary]([{
-&"i": 30,
+&"i": 27,
 &"type": &"string",
-&"value": "derecha"
+&"value": "izq"
 }]), Array[Dictionary]([{
-&"i": 41,
+&"i": 34,
 &"type": &"string",
 &"value": "sinHablar"
 }, {
-&"i": 52,
+&"i": 45,
 &"type": &"parens_close"
 }])])
 }]),
 &"is_blocking": true
 },
-&"next_id": "230",
+&"next_id": "229",
 &"type": "mutation"
 },
 "229": {
 &"id": "229",
-&"next_id": "230",
-&"type": ""
-},
-"23": {
-&"id": "23",
-&"next_id": "24",
-&"text": "¿Qué le respondo?",
-&"type": "dialogue"
-},
-"230": {
-&"id": "230",
-&"next_id": "231",
-&"text": "¿Por qué le mentí?",
-&"type": "dialogue"
-},
-"231": {
-&"id": "231",
-&"next_id": "232",
-&"text": "Aunque no era agradable el recordar lo que me había pasado, quizá me hubiera venido bien contarlo, aunque fuera a un aparentemente desconocido que ya no era tan desconocido.",
-&"type": "dialogue"
-},
-"232": {
-&"id": "232",
-&"next_id": "233",
-&"text": "Me hubiera gustado decirle la verdad, pero a lo mejor hice bien no contándoselo. No a todos les gustaría escuchar la cantidad de operaciones que ha tenido una persona y las razones.",
-&"type": "dialogue"
-},
-"233": {
-&"id": "233",
-&"next_id": "234",
-&"text": "Es desmotivante y luego tener que escuchar lo \"fuerte\" que has sido en ese proceso, que no todos podrían haber luchado igual que tú y el resto de ese discurso tan cliché, es... Es desesperante y para nada original, pero, sobre todo, es agotador.",
-&"type": "dialogue"
-},
-"234": {
-&"id": "234",
-&"next_id": "235",
-&"text": "Termina cansando escuchar lo mismo de cada persona que sabe o empieza a conocer de tu lucha en la que no vivías, sino que sobrevivías y de una forma en la que no te queda de otra.",
-&"type": "dialogue"
-},
-"235": {
-&"id": "235",
-&"next_id": "236",
-&"text": "A nadie le gusta ser fuerte, pero, tarde o temprano, toca serlo.",
-&"type": "dialogue"
-},
-"236": {
-&"id": "236",
-&"next_id": "237",
-&"text": "En fin...",
-&"type": "dialogue"
-},
-"237": {
-&"id": "237",
-&"is_snippet": false,
-&"next_id": "240",
-&"next_id_after": "",
-&"type": "goto"
-},
-"238": {
-&"id": "238",
-&"next_id": "239",
-&"type": ""
-},
-"239": {
-&"id": "239",
-&"next_id": "240",
-&"type": "title"
-},
-"24": {
-&"id": "24",
-&"next_id": "25",
-&"responses": PackedStringArray("24", "28", "39"),
-&"text": "Contestar con timidez",
-&"type": "response"
-},
-"240": {
-&"id": "240",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -2463,11 +2346,131 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "241",
+&"next_id": "231",
 &"type": "mutation"
+},
+"23": {
+&"id": "23",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "habitacion1"
+}, {
+&"i": 31,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "24",
+&"type": "mutation"
+},
+"230": {
+&"id": "230",
+&"next_id": "231",
+&"type": ""
+},
+"231": {
+&"id": "231",
+&"next_id": "232",
+&"text": "Why did I lie to him?",
+&"type": "dialogue"
+},
+"232": {
+&"id": "232",
+&"next_id": "233",
+&"text": "Although it wasn’t pleasant to remember what had happened to me, maybe it would have been good to tell him, even if he was an apparently unknown person who was no longer so unknown.",
+&"type": "dialogue"
+},
+"233": {
+&"id": "233",
+&"next_id": "234",
+&"text": "I would have liked to tell him the truth, but maybe I did the right thing by not sharing it. Not everyone would want to hear about the number of surgeries a person has had and the reasons behind them.",
+&"type": "dialogue"
+},
+"234": {
+&"id": "234",
+&"next_id": "235",
+&"text": "It’s discouraging, and then having to listen to how “strong” you’ve been during the process, that not everyone could have fought like you did, and the rest of that cliché speech… It's exhausting and far from original, but above all, it’s draining.",
+&"type": "dialogue"
+},
+"235": {
+&"id": "235",
+&"next_id": "236",
+&"text": "It gets tiring to hear the same thing from every person who knows or is starting to know about your struggle, a struggle in which you weren’t really living, but surviving, in a way where you had no other choice.",
+&"type": "dialogue"
+},
+"236": {
+&"id": "236",
+&"next_id": "237",
+&"text": "No one likes being strong, but sooner or later, it’s something you have to be.",
+&"type": "dialogue"
+},
+"237": {
+&"id": "237",
+&"next_id": "238",
+&"text": "Oh well, nothing I can do now...",
+&"type": "dialogue"
+},
+"238": {
+&"id": "238",
+&"is_snippet": false,
+&"next_id": "241",
+&"next_id_after": "",
+&"type": "goto"
+},
+"239": {
+&"id": "239",
+&"next_id": "240",
+&"type": ""
+},
+"24": {
+&"id": "24",
+&"next_id": "25",
+&"text": "What should I reply?",
+&"type": "dialogue"
+},
+"240": {
+&"id": "240",
+&"next_id": "241",
+&"type": "title"
 },
 "241": {
 &"id": "241",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "kristine"
+}]), Array[Dictionary]([{
+&"i": 30,
+&"type": &"string",
+&"value": "derecha"
+}]), Array[Dictionary]([{
+&"i": 41,
+&"type": &"string",
+&"value": "sinHablar"
+}, {
+&"i": 52,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "242",
+&"type": "mutation"
+},
+"242": {
+&"id": "242",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -2492,22 +2495,22 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "242",
+&"next_id": "243",
 &"type": "mutation"
-},
-"242": {
-&"id": "242",
-&"next_id": "244",
-&"text": "No me di cuenta de que ya estábamos cerca de mi casa.",
-&"type": "dialogue"
 },
 "243": {
 &"id": "243",
-&"next_id": "244",
-&"type": ""
+&"next_id": "245",
+&"text": "I didn’t realize that we were already close to my house.",
+&"type": "dialogue"
 },
 "244": {
 &"id": "244",
+&"next_id": "245",
+&"type": ""
+},
+"245": {
+&"id": "245",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -2532,18 +2535,18 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "245",
+&"next_id": "246",
 &"type": "mutation"
 },
-"245": {
+"246": {
 &"character": "Mateo",
-&"id": "245",
-&"next_id": "246",
-&"text": "¿Por dónde vives?",
+&"id": "246",
+&"next_id": "247",
+&"text": "Where do you live?",
 &"type": "dialogue"
 },
-"246": {
-&"id": "246",
+"247": {
+&"id": "247",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -2568,11 +2571,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "247",
+&"next_id": "248",
 &"type": "mutation"
 },
-"247": {
-&"id": "247",
+"248": {
+&"id": "248",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -2597,18 +2600,25 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "248",
+&"next_id": "249",
 &"type": "mutation"
 },
-"248": {
+"249": {
 &"character": "Kristine",
-&"id": "248",
-&"next_id": "249",
-&"text": "Pues justo en esta calle.",
+&"id": "249",
+&"next_id": "250",
+&"text": "Actually, right on this street.",
 &"type": "dialogue"
 },
-"249": {
-&"id": "249",
+"25": {
+&"id": "25",
+&"next_id": "26",
+&"responses": PackedStringArray("25", "29", "40"),
+&"text": "Reply in a shy manner",
+&"type": "response"
+},
+"250": {
+&"id": "250",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -2633,17 +2643,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "250",
+&"next_id": "251",
 &"type": "mutation"
 },
-"25": {
-&"id": "25",
-&"next_id": "26",
-&"text": "[i]No te preocupes y muchas gracias por  tus palabras ^^",
-&"type": "dialogue"
-},
-"250": {
-&"id": "250",
+"251": {
+&"id": "251",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -2668,18 +2672,18 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "251",
+&"next_id": "252",
 &"type": "mutation"
 },
-"251": {
+"252": {
 &"character": "Mateo",
-&"id": "251",
-&"next_id": "252",
-&"text": "¿Tienes algo que hacer?",
+&"id": "252",
+&"next_id": "253",
+&"text": "Do you have anything to do?",
 &"type": "dialogue"
 },
-"252": {
-&"id": "252",
+"253": {
+&"id": "253",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -2704,29 +2708,29 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "254",
+&"next_id": "255",
 &"type": "mutation"
-},
-"253": {
-&"id": "253",
-&"next_id": "254",
-&"type": ""
 },
 "254": {
 &"id": "254",
 &"next_id": "255",
-&"text": "Podría decirle la verdad. ¿O le miento? Una pequeña mentira no hace daño a nadie… ¿No?",
-&"type": "dialogue"
+&"type": ""
 },
 "255": {
 &"id": "255",
 &"next_id": "256",
-&"responses": PackedStringArray("255", "278"),
-&"text": "Decir la verdad",
-&"type": "response"
+&"text": "I could tell him the truth. Or should I lie? A little lie wouldn’t harm anyone… Right?",
+&"type": "dialogue"
 },
 "256": {
 &"id": "256",
+&"next_id": "257",
+&"responses": PackedStringArray("256", "280"),
+&"text": "Tell him the truth",
+&"type": "response"
+},
+"257": {
+&"id": "257",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"i": 3,
@@ -2754,42 +2758,13 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "258",
+&"next_id": "259",
 &"type": "mutation"
-},
-"257": {
-&"id": "257",
-&"next_id": "258",
-&"type": ""
 },
 "258": {
 &"id": "258",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"function": "show_character",
-&"i": 3,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 18,
-&"type": &"string",
-&"value": "kristine"
-}]), Array[Dictionary]([{
-&"i": 30,
-&"type": &"string",
-&"value": "derecha"
-}]), Array[Dictionary]([{
-&"i": 41,
-&"type": &"string",
-&"value": "hablaNormal"
-}, {
-&"i": 54,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
 &"next_id": "259",
-&"type": "mutation"
+&"type": ""
 },
 "259": {
 &"id": "259",
@@ -2801,6 +2776,41 @@ lines = {
 &"value": Array[Array]([Array[Dictionary]([{
 &"i": 18,
 &"type": &"string",
+&"value": "kristine"
+}]), Array[Dictionary]([{
+&"i": 30,
+&"type": &"string",
+&"value": "derecha"
+}]), Array[Dictionary]([{
+&"i": 41,
+&"type": &"string",
+&"value": "hablaNormal"
+}, {
+&"i": 54,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "260",
+&"type": "mutation"
+},
+"26": {
+&"id": "26",
+&"next_id": "27",
+&"text": "[i]Don’t worry and thank you so much for your words ^^",
+&"type": "dialogue"
+},
+"260": {
+&"id": "260",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
 &"value": "mateo"
 }]), Array[Dictionary]([{
 &"i": 27,
@@ -2817,25 +2827,18 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "260",
+&"next_id": "261",
 &"type": "mutation"
 },
-"26": {
-&"id": "26",
-&"is_snippet": false,
-&"next_id": "53",
-&"next_id_after": "",
-&"type": "goto"
-},
-"260": {
+"261": {
 &"character": "Kristine",
-&"id": "260",
-&"next_id": "261",
-&"text": "Sí, tengo en unos días algunos exámenes.",
+&"id": "261",
+&"next_id": "262",
+&"text": "Yes, in a couple of days I have some exams.",
 &"type": "dialogue"
 },
-"261": {
-&"id": "261",
+"262": {
+&"id": "262",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -2860,11 +2863,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "262",
+&"next_id": "263",
 &"type": "mutation"
 },
-"262": {
-&"id": "262",
+"263": {
+&"id": "263",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -2889,18 +2892,18 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "263",
+&"next_id": "264",
 &"type": "mutation"
 },
-"263": {
+"264": {
 &"character": "Mateo",
-&"id": "263",
-&"next_id": "264",
-&"text": "Ohhh vale. Yo vivo un poco más lejos, así que tendré que coger el bus.",
+&"id": "264",
+&"next_id": "265",
+&"text": "Ohhh ok. I live a little further away, so I have to take the bus.",
 &"type": "dialogue"
 },
-"264": {
-&"id": "264",
+"265": {
+&"id": "265",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -2925,11 +2928,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "265",
+&"next_id": "266",
 &"type": "mutation"
 },
-"265": {
-&"id": "265",
+"266": {
+&"id": "266",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -2954,18 +2957,18 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "266",
+&"next_id": "267",
 &"type": "mutation"
 },
-"266": {
+"267": {
 &"character": "Kristine",
-&"id": "266",
-&"next_id": "267",
-&"text": "Vale, sin problema.",
+&"id": "267",
+&"next_id": "268",
+&"text": "Ok, no problem.",
 &"type": "dialogue"
 },
-"267": {
-&"id": "267",
+"268": {
+&"id": "268",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -2990,32 +2993,34 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "269",
+&"next_id": "270",
 &"type": "mutation"
-},
-"268": {
-&"id": "268",
-&"next_id": "269",
-&"type": ""
 },
 "269": {
 &"id": "269",
-&"next_id": "271",
-&"text": "Justo cuando me iba a despedir de él, me dio un abrazo, el cual terminó rápido.",
-&"type": "dialogue"
+&"next_id": "270",
+&"type": ""
 },
 "27": {
 &"id": "27",
-&"next_id": "28",
-&"type": ""
+&"is_snippet": false,
+&"next_id": "54",
+&"next_id_after": "",
+&"type": "goto"
 },
 "270": {
 &"id": "270",
-&"next_id": "271",
-&"type": ""
+&"next_id": "272",
+&"text": "Just as I was about to say goodbye to him, he gave me a brief hug.",
+&"type": "dialogue"
 },
 "271": {
 &"id": "271",
+&"next_id": "272",
+&"type": ""
+},
+"272": {
+&"id": "272",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -3040,18 +3045,18 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "272",
+&"next_id": "273",
 &"type": "mutation"
 },
-"272": {
+"273": {
 &"character": "Mateo",
-&"id": "272",
-&"next_id": "273",
-&"text": "¡Nos vemos!",
+&"id": "273",
+&"next_id": "274",
+&"text": "See you!",
 &"type": "dialogue"
 },
-"273": {
-&"id": "273",
+"274": {
+&"id": "274",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "hide_character",
@@ -3068,11 +3073,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "274",
+&"next_id": "275",
 &"type": "mutation"
 },
-"274": {
-&"id": "274",
+"275": {
+&"id": "275",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "hide_character",
@@ -3089,11 +3094,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "275",
+&"next_id": "276",
 &"type": "mutation"
 },
-"275": {
-&"id": "275",
+"276": {
+&"id": "276",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "set_background",
@@ -3110,30 +3115,40 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "276",
-&"type": "mutation"
-},
-"276": {
-&"id": "276",
 &"next_id": "277",
-&"text": "Y así fue como, definitivamente, lo conocí. En persona esta vez.",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "277": {
 &"id": "277",
-&"is_snippet": false,
-&"next_id": "300",
-&"next_id_after": "",
-&"type": "goto"
+&"next_id": "278",
+&"text": "And that’s how I finally met him, but, this time, in person.",
+&"type": "dialogue"
 },
 "278": {
 &"id": "278",
-&"next_id": "279",
-&"text": "Mentir",
-&"type": "response"
+&"is_snippet": false,
+&"next_id": "302",
+&"next_id_after": "",
+&"type": "goto"
 },
 "279": {
 &"id": "279",
+&"next_id": "280",
+&"type": ""
+},
+"28": {
+&"id": "28",
+&"next_id": "29",
+&"type": ""
+},
+"280": {
+&"id": "280",
+&"next_id": "281",
+&"text": "Lie",
+&"type": "response"
+},
+"281": {
+&"id": "281",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -3158,17 +3173,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "280",
+&"next_id": "282",
 &"type": "mutation"
 },
-"28": {
-&"id": "28",
-&"next_id": "29",
-&"text": "Contestar de forma borde",
-&"type": "response"
-},
-"280": {
-&"id": "280",
+"282": {
+&"id": "282",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -3193,18 +3202,18 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "281",
+&"next_id": "283",
 &"type": "mutation"
 },
-"281": {
+"283": {
 &"character": "Kristine",
-&"id": "281",
-&"next_id": "282",
-&"text": "No. No tengo nada pendiente por el momento.",
+&"id": "283",
+&"next_id": "284",
+&"text": "No. I don’t have anything to do at this moment.",
 &"type": "dialogue"
 },
-"282": {
-&"id": "282",
+"284": {
+&"id": "284",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"i": 3,
@@ -3232,11 +3241,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "283",
+&"next_id": "285",
 &"type": "mutation"
 },
-"283": {
-&"id": "283",
+"285": {
+&"id": "285",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -3261,11 +3270,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "284",
+&"next_id": "286",
 &"type": "mutation"
 },
-"284": {
-&"id": "284",
+"286": {
+&"id": "286",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -3290,49 +3299,14 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "285",
-&"type": "mutation"
-},
-"285": {
-&"character": "Mateo",
-&"id": "285",
-&"next_id": "286",
-&"text": "Ohhh qué bien.",
-&"type": "dialogue"
-},
-"286": {
-&"id": "286",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"function": "show_character",
-&"i": 3,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 18,
-&"type": &"string",
-&"value": "mateo"
-}]), Array[Dictionary]([{
-&"i": 27,
-&"type": &"string",
-&"value": "izq"
-}]), Array[Dictionary]([{
-&"i": 34,
-&"type": &"string",
-&"value": "sinHablar"
-}, {
-&"i": 45,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
 &"next_id": "287",
 &"type": "mutation"
 },
 "287": {
+&"character": "Mateo",
 &"id": "287",
 &"next_id": "288",
-&"text": "¿Por qué siento que él sabe algo que yo no?",
+&"text": "Ohhh that’s good.",
 &"type": "dialogue"
 },
 "288": {
@@ -3353,9 +3327,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "hablaNormal"
+&"value": "sinHablar"
 }, {
-&"i": 47,
+&"i": 45,
 &"type": &"parens_close"
 }])])
 }]),
@@ -3365,14 +3339,179 @@ lines = {
 &"type": "mutation"
 },
 "289": {
-&"character": "Mateo",
 &"id": "289",
 &"next_id": "290",
-&"text": "Bueno, mi autobús sale en nada así que tengo que irme.",
+&"text": "Why do I feel as if he knew something that I don’t?",
 &"type": "dialogue"
 },
 "29": {
 &"id": "29",
+&"next_id": "30",
+&"text": "Reply in a rude way",
+&"type": "response"
+},
+"290": {
+&"id": "290",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "mateo"
+}]), Array[Dictionary]([{
+&"i": 27,
+&"type": &"string",
+&"value": "izq"
+}]), Array[Dictionary]([{
+&"i": 34,
+&"type": &"string",
+&"value": "hablaNormal"
+}, {
+&"i": 47,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "291",
+&"type": "mutation"
+},
+"291": {
+&"character": "Mateo",
+&"id": "291",
+&"next_id": "292",
+&"text": "Well, my bus is about to leave, so I need to go.",
+&"type": "dialogue"
+},
+"292": {
+&"id": "292",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "mateo"
+}]), Array[Dictionary]([{
+&"i": 27,
+&"type": &"string",
+&"value": "izq"
+}]), Array[Dictionary]([{
+&"i": 34,
+&"type": &"string",
+&"value": "sinHablar"
+}, {
+&"i": 45,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "293",
+&"type": "mutation"
+},
+"293": {
+&"id": "293",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "kristine"
+}]), Array[Dictionary]([{
+&"i": 30,
+&"type": &"string",
+&"value": "derecha"
+}]), Array[Dictionary]([{
+&"i": 41,
+&"type": &"string",
+&"value": "hablaNormal"
+}, {
+&"i": 54,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "294",
+&"type": "mutation"
+},
+"294": {
+&"character": "Kristine",
+&"id": "294",
+&"next_id": "295",
+&"text": "Sure, don’t worry.",
+&"type": "dialogue"
+},
+"295": {
+&"id": "295",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "kristine"
+}]), Array[Dictionary]([{
+&"i": 30,
+&"type": &"string",
+&"value": "derecha"
+}]), Array[Dictionary]([{
+&"i": 41,
+&"type": &"string",
+&"value": "sinHablar"
+}, {
+&"i": 52,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "297",
+&"type": "mutation"
+},
+"296": {
+&"id": "296",
+&"next_id": "297",
+&"type": ""
+},
+"297": {
+&"id": "297",
+&"next_id": "298",
+&"text": "After that, we said our goodbyes.",
+&"type": "dialogue"
+},
+"298": {
+&"id": "298",
+&"next_id": "299",
+&"text": "That’s how I met him, but, this time, in person.",
+&"type": "dialogue"
+},
+"299": {
+&"id": "299",
+&"is_snippet": false,
+&"next_id": "302",
+&"next_id_after": "",
+&"type": "goto"
+},
+"3": {
+&"id": "3",
+&"next_id": "6",
+&"text": "I put down my phone, I really needed to focus on finishing some homework.",
+&"type": "dialogue"
+},
+"30": {
+&"id": "30",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"i": 3,
@@ -3400,150 +3539,20 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "30",
-&"type": "mutation"
-},
-"290": {
-&"id": "290",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"function": "show_character",
-&"i": 3,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 18,
-&"type": &"string",
-&"value": "mateo"
-}]), Array[Dictionary]([{
-&"i": 27,
-&"type": &"string",
-&"value": "izq"
-}]), Array[Dictionary]([{
-&"i": 34,
-&"type": &"string",
-&"value": "sinHablar"
-}, {
-&"i": 45,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
-&"next_id": "291",
-&"type": "mutation"
-},
-"291": {
-&"id": "291",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"function": "show_character",
-&"i": 3,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 18,
-&"type": &"string",
-&"value": "kristine"
-}]), Array[Dictionary]([{
-&"i": 30,
-&"type": &"string",
-&"value": "derecha"
-}]), Array[Dictionary]([{
-&"i": 41,
-&"type": &"string",
-&"value": "hablaNormal"
-}, {
-&"i": 54,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
-&"next_id": "292",
-&"type": "mutation"
-},
-"292": {
-&"character": "Kristine",
-&"id": "292",
-&"next_id": "293",
-&"text": "Vale, no te preocupes.",
-&"type": "dialogue"
-},
-"293": {
-&"id": "293",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"function": "show_character",
-&"i": 3,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 18,
-&"type": &"string",
-&"value": "kristine"
-}]), Array[Dictionary]([{
-&"i": 30,
-&"type": &"string",
-&"value": "derecha"
-}]), Array[Dictionary]([{
-&"i": 41,
-&"type": &"string",
-&"value": "sinHablar"
-}, {
-&"i": 52,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
-&"next_id": "295",
-&"type": "mutation"
-},
-"294": {
-&"id": "294",
-&"next_id": "295",
-&"type": ""
-},
-"295": {
-&"id": "295",
-&"next_id": "296",
-&"text": "Después de aquello, nos despedimos.",
-&"type": "dialogue"
-},
-"296": {
-&"id": "296",
-&"next_id": "297",
-&"text": "Así fue como lo conocí. En persona, esta vez.",
-&"type": "dialogue"
-},
-"297": {
-&"id": "297",
-&"is_snippet": false,
-&"next_id": "300",
-&"next_id_after": "",
-&"type": "goto"
-},
-"298": {
-&"id": "298",
-&"next_id": "299",
-&"type": ""
-},
-"299": {
-&"id": "299",
-&"next_id": "300",
-&"type": "title"
-},
-"3": {
-&"id": "3",
-&"next_id": "5",
-&"text": "Dejé el móvil, realmente necesitaba concentrarme para terminar algunas tareas.",
-&"type": "dialogue"
-},
-"30": {
-&"id": "30",
 &"next_id": "31",
-&"text": "[i] A veces está bien guardarse lo que opinas de la gente para uno mismo. Por favor, por el momento, no me digas nada por el estilo a lo que dijiste antes.",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "300": {
+&"id": "300",
+&"next_id": "301",
+&"type": ""
+},
+"301": {
+&"id": "301",
+&"next_id": "302",
+&"type": "title"
+},
+"302": {
 &"condition": {
 &"expression": Array[Dictionary]([{
 &"i": 3,
@@ -3574,14 +3583,14 @@ lines = {
 &"value": 0
 }])
 },
-&"id": "300",
-&"next_id": "301",
-&"next_id_after": "416",
-&"next_sibling_id": "303",
+&"id": "302",
+&"next_id": "303",
+&"next_id_after": "418",
+&"next_sibling_id": "305",
 &"type": "condition"
 },
-"301": {
-&"id": "301",
+"303": {
+&"id": "303",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "cargarFinal",
@@ -3598,23 +3607,23 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "416",
+&"next_id": "418",
 &"type": "mutation"
-},
-"302": {
-&"id": "302",
-&"next_id": "303",
-&"type": ""
-},
-"303": {
-&"condition": {},
-&"id": "303",
-&"next_id": "304",
-&"next_id_after": "416",
-&"type": "condition"
 },
 "304": {
 &"id": "304",
+&"next_id": "305",
+&"type": ""
+},
+"305": {
+&"condition": {},
+&"id": "305",
+&"next_id": "306",
+&"next_id_after": "418",
+&"type": "condition"
+},
+"306": {
+&"id": "306",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "set_background",
@@ -3631,76 +3640,65 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "305",
+&"next_id": "307",
 &"type": "mutation"
 },
-"305": {
-&"id": "305",
-&"next_id": "306",
-&"text": "Un rato después vi una notificación que tenía nueva de hace unas horas.",
-&"type": "dialogue"
-},
-"306": {
-&"id": "306",
-&"next_id": "309",
-&"text": "Me entretuve bastante estudiando.",
+"307": {
+&"id": "307",
+&"next_id": "308",
+&"text": "A while later, I noticed a notification from a few hours ago.",
 &"type": "dialogue"
 },
 "308": {
 &"id": "308",
-&"next_id": "309",
-&"type": ""
-},
-"309": {
-&"id": "309",
-&"next_id": "310",
-&"text": "[i]Me ha gustado hablar contigo",
+&"next_id": "311",
+&"text": "I had been really caught up studying.",
 &"type": "dialogue"
 },
 "31": {
 &"id": "31",
 &"next_id": "32",
-&"text": "Respondí sin pensar.",
+&"text": "[i] Sometimes it is better to keep your thoughts of other people to yourself. Please, for now, don’t say anything like that again.",
 &"type": "dialogue"
 },
 "310": {
 &"id": "310",
 &"next_id": "311",
-&"text": "[i]No te he querido entretener mucho para que puedas estudiar tranquila y por eso me he despedido al llegar a tu casa ^^",
-&"type": "dialogue"
+&"type": ""
 },
 "311": {
 &"id": "311",
-&"next_id": "313",
-&"text": "[i]y oye, si quieres mañana te espero también, si te parece bien y si tienes tiempo claro ^^",
+&"next_id": "312",
+&"text": "[i]I really liked talking to you",
 &"type": "dialogue"
 },
 "312": {
 &"id": "312",
 &"next_id": "313",
-&"type": ""
+&"text": "[i]I didn’t want to keep you from studying, so I said goodbye when we got to your place. ^^",
+&"type": "dialogue"
 },
 "313": {
 &"id": "313",
-&"next_id": "314",
-&"text": "[i]Y gracias por comentarme lo de las operaciones. De verdad que me alegro que estés bien y que aún pasando por ellas, no te afecten en gran medida",
+&"next_id": "315",
+&"text": "[i]and hey, if you want I can wait for you tomorrow too, if that works for you, and if you have the time, of course ^^",
 &"type": "dialogue"
 },
 "314": {
 &"id": "314",
-&"next_id": "316",
-&"text": "[i]Aunque ya lo sabes, estoy para lo que sea y gracias por comentarme sobre ello, de corazón te lo digo",
-&"type": "dialogue"
+&"next_id": "315",
+&"type": ""
 },
 "315": {
 &"id": "315",
 &"next_id": "316",
-&"type": ""
+&"text": "[i]Thanks for telling me about the surgeries. I’m really glad you’re doing well and that, even going through them, they haven’t affected you too much",
+&"type": "dialogue"
 },
 "316": {
 &"id": "316",
 &"next_id": "318",
-&"text": "Sin dudarlo, le respondí.",
+&"text": "[i]You know I’m here for anything, and I really appreciate you sharing this with me, I truly mean it",
 &"type": "dialogue"
 },
 "317": {
@@ -3710,18 +3708,110 @@ lines = {
 },
 "318": {
 &"id": "318",
-&"next_id": "319",
-&"text": "[i]No te preocupes, no pasa nada ^^",
+&"next_id": "320",
+&"text": "Without hesitation, I replied.",
 &"type": "dialogue"
 },
 "319": {
 &"id": "319",
 &"next_id": "320",
-&"text": "[i]Y me parece bien que nos veamos mañana de nuevo",
-&"type": "dialogue"
+&"type": ""
 },
 "32": {
 &"id": "32",
+&"next_id": "33",
+&"text": "I replied without thinking.",
+&"type": "dialogue"
+},
+"320": {
+&"id": "320",
+&"next_id": "321",
+&"text": "[i]Don’t worry, it’s nothing ^^",
+&"type": "dialogue"
+},
+"321": {
+&"id": "321",
+&"next_id": "322",
+&"text": "[i]And I think it’s a good idea for us to meet again tomorrow",
+&"type": "dialogue"
+},
+"322": {
+&"id": "322",
+&"next_id": "324",
+&"text": "[i]Thank you for listening and for your kind words ^^",
+&"type": "dialogue"
+},
+"323": {
+&"id": "323",
+&"next_id": "324",
+&"type": ""
+},
+"324": {
+&"id": "324",
+&"next_id": "326",
+&"text": "[i]I was going to listen no matter what, because aside from the topic itself and how important it is, I think you’re an incredible person and I feel very comfortable with you, honestly. I hope I make you feel the same. I like the way you think and who you are as a person, you’re genuinely great, and I really appreciate the trust you’ve shown in opening up to me, even though we haven’t known each other very long ^^",
+&"type": "dialogue"
+},
+"325": {
+&"id": "325",
+&"next_id": "326",
+&"type": ""
+},
+"326": {
+&"id": "326",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "habitacionMasOscura"
+}, {
+&"i": 39,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "327",
+&"type": "mutation"
+},
+"327": {
+&"id": "327",
+&"next_id": "328",
+&"text": "I didn’t understand how he could be so sweet, but I couldn’t get any more distracted.",
+&"type": "dialogue"
+},
+"328": {
+&"id": "328",
+&"next_id": "329",
+&"type": "title"
+},
+"329": {
+&"id": "329",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "habitacionAtardecer"
+}, {
+&"i": 39,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "330",
+&"type": "mutation"
+},
+"33": {
+&"id": "33",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"i": 3,
@@ -3749,109 +3839,28 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "33",
-&"type": "mutation"
-},
-"320": {
-&"id": "320",
-&"next_id": "322",
-&"text": "[i]Gracias a ti por escuchar y por tus palabras ^^",
-&"type": "dialogue"
-},
-"321": {
-&"id": "321",
-&"next_id": "322",
-&"type": ""
-},
-"322": {
-&"id": "322",
-&"next_id": "324",
-&"text": "[i]Te iba a escuchar sí o sí, ya que aparte del tema y la importancia del mismo en sí, me pareces una persona increíble y me siento muy cómodo contigo, la verdad. Espero transmitir lo mismo, me gusta tu forma de pensar y quién eres como persona, técnicamente eres genial en resumidas cuentas y agradezco la confianza que me das para contarme las cosas aún conociéndonos poco ^^",
-&"type": "dialogue"
-},
-"323": {
-&"id": "323",
-&"next_id": "324",
-&"type": ""
-},
-"324": {
-&"id": "324",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"function": "set_background",
-&"i": 3,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 18,
-&"type": &"string",
-&"value": "habitacionMasOscura"
-}, {
-&"i": 39,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
-&"next_id": "325",
-&"type": "mutation"
-},
-"325": {
-&"id": "325",
-&"next_id": "326",
-&"text": "No entiendo cómo se podía ser tan tierno, pero no podía distraerme más.",
-&"type": "dialogue"
-},
-"326": {
-&"id": "326",
-&"next_id": "327",
-&"type": "title"
-},
-"327": {
-&"id": "327",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"function": "set_background",
-&"i": 3,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 18,
-&"type": &"string",
-&"value": "habitacionAtardecer"
-}, {
-&"i": 39,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
-&"next_id": "328",
-&"type": "mutation"
-},
-"328": {
-&"id": "328",
-&"next_id": "329",
-&"text": "Seguí estudiando y haciendo ejercicios el resto del día para aprenderme bien los conceptos y hacer bien el examen que tenía al día siguiente.",
-&"type": "dialogue"
-},
-"329": {
-&"id": "329",
-&"next_id": "331",
-&"text": "Pareció que así fue.",
-&"type": "dialogue"
-},
-"33": {
-&"id": "33",
 &"next_id": "34",
-&"text": "Mierda, ¿por qué escribí eso?",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "330": {
 &"id": "330",
 &"next_id": "331",
-&"type": ""
+&"text": "I continued studying and doing some work for the rest of the day so I could learn all the concepts well and do well in the exam that I had tomorrow.",
+&"type": "dialogue"
 },
 "331": {
 &"id": "331",
+&"next_id": "333",
+&"text": "And it seems to be that way.",
+&"type": "dialogue"
+},
+"332": {
+&"id": "332",
+&"next_id": "333",
+&"type": ""
+},
+"333": {
+&"id": "333",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "set_background",
@@ -3868,28 +3877,28 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "332",
+&"next_id": "334",
 &"type": "mutation"
-},
-"332": {
-&"id": "332",
-&"next_id": "333",
-&"text": "Hice el examen tranquila.",
-&"type": "dialogue"
-},
-"333": {
-&"id": "333",
-&"next_id": "335",
-&"text": "No sentía que me había salido tan mal como esperaba, por lo que salí de clase contenta.",
-&"type": "dialogue"
 },
 "334": {
 &"id": "334",
 &"next_id": "335",
-&"type": ""
+&"text": "I did the exam calmly.",
+&"type": "dialogue"
 },
 "335": {
 &"id": "335",
+&"next_id": "337",
+&"text": "I didn’t feel that it had gone as badly as I expected, so I left class feeling happy.",
+&"type": "dialogue"
+},
+"336": {
+&"id": "336",
+&"next_id": "337",
+&"type": ""
+},
+"337": {
+&"id": "337",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "set_background",
@@ -3906,54 +3915,43 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "336",
-&"type": "mutation"
-},
-"336": {
-&"id": "336",
-&"next_id": "337",
-&"text": "En cuanto estuve fuera del centro, vi a alguien que se me hacia conocido.",
-&"type": "dialogue"
-},
-"337": {
-&"id": "337",
 &"next_id": "338",
-&"text": "¿Era él?",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "338": {
 &"id": "338",
 &"next_id": "339",
-&"text": "Me estaba esperando.",
+&"text": "As soon as I was outside the center, I saw someone who looked familiar to me.",
 &"type": "dialogue"
 },
 "339": {
 &"id": "339",
 &"next_id": "340",
-&"text": "Llevaba 20 minutos de más fuera, en la calle, para esperarme.",
+&"text": "Was it him?",
 &"type": "dialogue"
 },
 "34": {
 &"id": "34",
 &"next_id": "35",
-&"text": "Iba a borrarlo. Por los nervios tardé de más y, cuando quise borrarlo o editar el mensaje, ya era tarde.",
+&"text": "Fuck, why did I write that?",
 &"type": "dialogue"
 },
 "340": {
 &"id": "340",
-&"next_id": "342",
-&"text": "Y él, por lo que me contó, debía coger un autobús.",
+&"next_id": "341",
+&"text": "He was waiting for me.",
 &"type": "dialogue"
 },
 "341": {
 &"id": "341",
 &"next_id": "342",
-&"type": ""
+&"text": "He spent 20 minutes outside, alone, just to wait for me.",
+&"type": "dialogue"
 },
 "342": {
 &"id": "342",
 &"next_id": "344",
-&"text": "Me dio tanta pena que en cuanto lo vi, me disculpé con él.",
+&"text": "And he, based on what he had told me, needed to take the bus.",
 &"type": "dialogue"
 },
 "343": {
@@ -3963,6 +3961,17 @@ lines = {
 },
 "344": {
 &"id": "344",
+&"next_id": "346",
+&"text": "I felt so bad that the moment I saw him, I apologized.",
+&"type": "dialogue"
+},
+"345": {
+&"id": "345",
+&"next_id": "346",
+&"type": ""
+},
+"346": {
+&"id": "346",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -3987,11 +3996,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "345",
+&"next_id": "347",
 &"type": "mutation"
 },
-"345": {
-&"id": "345",
+"347": {
+&"id": "347",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -4016,18 +4025,18 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "346",
+&"next_id": "348",
 &"type": "mutation"
 },
-"346": {
+"348": {
 &"character": "Mateo",
-&"id": "346",
-&"next_id": "347",
-&"text": "No te preocupes, ¿te salió bien el examen?",
+&"id": "348",
+&"next_id": "349",
+&"text": "Don’t worry, did the exam go well?",
 &"type": "dialogue"
 },
-"347": {
-&"id": "347",
+"349": {
+&"id": "349",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -4052,11 +4061,17 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "348",
+&"next_id": "350",
 &"type": "mutation"
 },
-"348": {
-&"id": "348",
+"35": {
+&"id": "35",
+&"next_id": "36",
+&"text": "I was going to eliminate it. I was so nervous that I waited too long and when I was going to eliminate it, or even edit the message, it was already too late.",
+&"type": "dialogue"
+},
+"350": {
+&"id": "350",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -4081,24 +4096,18 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "349",
+&"next_id": "351",
 &"type": "mutation"
 },
-"349": {
+"351": {
 &"character": "Kristine",
-&"id": "349",
-&"next_id": "350",
-&"text": "Sí. Bastante bien.",
+&"id": "351",
+&"next_id": "352",
+&"text": "Yes. I’d like to think so.",
 &"type": "dialogue"
 },
-"35": {
-&"id": "35",
-&"next_id": "36",
-&"text": "Me contestó con una disculpa.",
-&"type": "dialogue"
-},
-"350": {
-&"id": "350",
+"352": {
+&"id": "352",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -4123,11 +4132,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "351",
+&"next_id": "353",
 &"type": "mutation"
 },
-"351": {
-&"id": "351",
+"353": {
+&"id": "353",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -4152,18 +4161,18 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "352",
+&"next_id": "354",
 &"type": "mutation"
 },
-"352": {
+"354": {
 &"character": "Mateo",
-&"id": "352",
-&"next_id": "353",
-&"text": "Me alegro.",
+&"id": "354",
+&"next_id": "355",
+&"text": "I see, that's good.",
 &"type": "dialogue"
 },
-"353": {
-&"id": "353",
+"355": {
+&"id": "355",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -4188,11 +4197,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "354",
+&"next_id": "356",
 &"type": "mutation"
 },
-"354": {
-&"id": "354",
+"356": {
+&"id": "356",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -4217,33 +4226,45 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "356",
+&"next_id": "358",
 &"type": "mutation"
-},
-"355": {
-&"id": "355",
-&"next_id": "356",
-&"type": ""
-},
-"356": {
-&"id": "356",
-&"next_id": "357",
-&"text": "Le pregunté sobre su día y estuvimos hablando durante todo el trayecto hasta mi casa. Vivía mucho más cerca del instituto que él.",
-&"type": "dialogue"
 },
 "357": {
 &"id": "357",
-&"next_id": "359",
-&"text": "Cuando llegamos iba a despedirme, pero se adelantó con algo que no esperaba.",
-&"type": "dialogue"
+&"next_id": "358",
+&"type": ""
 },
 "358": {
 &"id": "358",
 &"next_id": "359",
-&"type": ""
+&"text": "I asked him about his day, and we talked all the way to my house.",
+&"type": "dialogue"
 },
 "359": {
 &"id": "359",
+&"next_id": "360",
+&"text": "I lived much closer to the school than he did.",
+&"type": "dialogue"
+},
+"36": {
+&"id": "36",
+&"next_id": "37",
+&"text": "He replied with an apology.",
+&"type": "dialogue"
+},
+"360": {
+&"id": "360",
+&"next_id": "362",
+&"text": "When we arrived, I was about to say goodbye, but he surprised me with something I hadn’t anticipated.",
+&"type": "dialogue"
+},
+"361": {
+&"id": "361",
+&"next_id": "362",
+&"type": ""
+},
+"362": {
+&"id": "362",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -4268,17 +4289,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "360",
+&"next_id": "363",
 &"type": "mutation"
 },
-"36": {
-&"id": "36",
-&"next_id": "37",
-&"text": "Odio ser así, ojalá hubiera sido más amable...",
-&"type": "dialogue"
-},
-"360": {
-&"id": "360",
+"363": {
+&"id": "363",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -4303,18 +4318,17 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "361",
+&"next_id": "364",
 &"type": "mutation"
 },
-"361": {
-&"character": "Mateo",
-&"id": "361",
-&"next_id": "362",
-&"text": "Oye, a todo esto, ¿podría tener tu número?",
+"364": {
+&"id": "364",
+&"next_id": "365",
+&"text": "Mateo:Hey, by the way, could I have your number?",
 &"type": "dialogue"
 },
-"362": {
-&"id": "362",
+"365": {
+&"id": "365",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -4339,22 +4353,22 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "364",
+&"next_id": "367",
 &"type": "mutation"
 },
-"363": {
-&"id": "363",
-&"next_id": "364",
+"366": {
+&"id": "366",
+&"next_id": "367",
 &"type": ""
 },
-"364": {
-&"id": "364",
-&"next_id": "365",
-&"text": "Aunque me pilló desprevenida, le respondí.",
+"367": {
+&"id": "367",
+&"next_id": "368",
+&"text": "Although it caught me off guard, I replied to him.",
 &"type": "dialogue"
 },
-"365": {
-&"id": "365",
+"368": {
+&"id": "368",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -4379,18 +4393,24 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "366",
+&"next_id": "369",
 &"type": "mutation"
 },
-"366": {
+"369": {
 &"character": "Kristine",
-&"id": "366",
-&"next_id": "367",
-&"text": "Claro.",
+&"id": "369",
+&"next_id": "370",
+&"text": "Sure.",
 &"type": "dialogue"
 },
-"367": {
-&"id": "367",
+"37": {
+&"id": "37",
+&"next_id": "38",
+&"text": "I hate being this way, I wish I could have been a bit kinder ...",
+&"type": "dialogue"
+},
+"370": {
+&"id": "370",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -4415,32 +4435,8 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "369",
-&"type": "mutation"
-},
-"368": {
-&"id": "368",
-&"next_id": "369",
-&"type": ""
-},
-"369": {
-&"id": "369",
-&"next_id": "370",
-&"text": "Sacó su móvil y le dí mi número.",
-&"type": "dialogue"
-},
-"37": {
-&"id": "37",
-&"is_snippet": false,
-&"next_id": "53",
-&"next_id_after": "",
-&"type": "goto"
-},
-"370": {
-&"id": "370",
 &"next_id": "372",
-&"text": "No quería que estuviera mal, por lo que me aseguré de que lo apuntó correctamente y luego lo guardó.",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "371": {
 &"id": "371",
@@ -4449,6 +4445,23 @@ lines = {
 },
 "372": {
 &"id": "372",
+&"next_id": "373",
+&"text": "He took out his phone and I gave him my number.",
+&"type": "dialogue"
+},
+"373": {
+&"id": "373",
+&"next_id": "375",
+&"text": "I didn’t want him to get it wrong, so I made sure he had it written down correctly before he saved it.",
+&"type": "dialogue"
+},
+"374": {
+&"id": "374",
+&"next_id": "375",
+&"type": ""
+},
+"375": {
+&"id": "375",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "hide_character",
@@ -4465,11 +4478,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "373",
+&"next_id": "376",
 &"type": "mutation"
 },
-"373": {
-&"id": "373",
+"376": {
+&"id": "376",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "hide_character",
@@ -4486,11 +4499,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "374",
+&"next_id": "377",
 &"type": "mutation"
 },
-"374": {
-&"id": "374",
+"377": {
+&"id": "377",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "set_background",
@@ -4507,22 +4520,29 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "375",
+&"next_id": "378",
 &"type": "mutation"
-},
-"375": {
-&"id": "375",
-&"next_id": "378",
-&"text": "Justamente al llegar a mi casa recibí una notificación:",
-&"type": "dialogue"
-},
-"377": {
-&"id": "377",
-&"next_id": "378",
-&"type": ""
 },
 "378": {
 &"id": "378",
+&"next_id": "381",
+&"text": "Just when I entered my home I received a notification:",
+&"type": "dialogue"
+},
+"38": {
+&"id": "38",
+&"is_snippet": false,
+&"next_id": "54",
+&"next_id_after": "",
+&"type": "goto"
+},
+"380": {
+&"id": "380",
+&"next_id": "381",
+&"type": ""
+},
+"381": {
+&"id": "381",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"i": 3,
@@ -4553,38 +4573,33 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "379",
+&"next_id": "382",
 &"type": "mutation"
-},
-"379": {
-&"id": "379",
-&"next_id": "381",
-&"text": "[i]Holaaaa soy Mateo",
-&"type": "dialogue"
-},
-"38": {
-&"id": "38",
-&"next_id": "39",
-&"type": ""
-},
-"380": {
-&"id": "380",
-&"next_id": "381",
-&"type": ""
-},
-"381": {
-&"id": "381",
-&"next_id": "383",
-&"text": "Al verlo, por alguna razón, sonreí al instante. Y le respondí, por supuesto.",
-&"type": "dialogue"
 },
 "382": {
 &"id": "382",
-&"next_id": "383",
-&"type": ""
+&"next_id": "384",
+&"text": "[i]Hiiii, it’s Mateo",
+&"type": "dialogue"
 },
 "383": {
 &"id": "383",
+&"next_id": "384",
+&"type": ""
+},
+"384": {
+&"id": "384",
+&"next_id": "386",
+&"text": "When I saw it, for some strange reason, a smile came immediately to my face. And I replied to him, of course.",
+&"type": "dialogue"
+},
+"385": {
+&"id": "385",
+&"next_id": "386",
+&"type": ""
+},
+"386": {
+&"id": "386",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "set_background",
@@ -4601,28 +4616,33 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "384",
-&"type": "mutation"
-},
-"384": {
-&"id": "384",
-&"next_id": "386",
-&"text": "Desde ese día hablábamos bastante.",
-&"type": "dialogue"
-},
-"385": {
-&"id": "385",
-&"next_id": "386",
-&"type": ""
-},
-"386": {
-&"id": "386",
 &"next_id": "387",
-&"text": "En Navidad, aunque no lo pasé tan bien como esperé, pude quedar con mi mejor amiga y con él. No creí que después de haberlo pasado tan mal en ese invierno, llegaría un descanso.",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "387": {
 &"id": "387",
+&"next_id": "389",
+&"text": "Since that day, we talked quite a lot.",
+&"type": "dialogue"
+},
+"388": {
+&"id": "388",
+&"next_id": "389",
+&"type": ""
+},
+"389": {
+&"id": "389",
+&"next_id": "390",
+&"text": "At Christmas, even though it wasn’t as enjoyable as I had hoped, I got to spend time with my best friend and with him. I never thought that after such a rough winter, I would finally get a bit of a break.",
+&"type": "dialogue"
+},
+"39": {
+&"id": "39",
+&"next_id": "40",
+&"type": ""
+},
+"390": {
+&"id": "390",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "set_background",
@@ -4639,47 +4659,24 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "388",
+&"next_id": "391",
 &"type": "mutation"
-},
-"388": {
-&"id": "388",
-&"next_id": "390",
-&"text": "En parte, esa luz empezó a llegar gracias a él, Mateo, quien me alegraba algunos días; a veces con bromas, a veces con algún vídeo que me mandaba y otras veces porque simplemente me contaba cosas que no sabía sobre él.",
-&"type": "dialogue"
-},
-"389": {
-&"id": "389",
-&"next_id": "390",
-&"type": ""
-},
-"39": {
-&"id": "39",
-&"next_id": "40",
-&"text": "Contestar después y preguntarle a qué viene eso",
-&"type": "response"
-},
-"390": {
-&"id": "390",
-&"next_id": "392",
-&"text": "Esas vacaciones de invierno me sirvieron para dos cosas o bueno, tres; despejarme, aprender y adelantar algunos trabajos y también para conocer mejor a Mateo, quien, con rapidez, se convirtió en un gran amigo para mí.",
-&"type": "dialogue"
 },
 "391": {
 &"id": "391",
-&"next_id": "392",
-&"type": ""
+&"next_id": "393",
+&"text": "In part, that light started to reach me thanks to him, Mateo, who cheered up some of my days, sometimes with jokes, sometimes with a video he sent, and other times just by sharing things about himself that I didn’t know.",
+&"type": "dialogue"
 },
 "392": {
 &"id": "392",
 &"next_id": "393",
-&"text": "Sin darme cuenta del paso del tiempo, ya casi era mi cumpleaños; 24 de enero.",
-&"type": "dialogue"
+&"type": ""
 },
 "393": {
 &"id": "393",
 &"next_id": "395",
-&"text": "No obstante, no esperaba lo que sucedería después.",
+&"text": "That winter break was useful for two, or rather three, things; relaxing, learning and catching up on some work, and getting to know Mateo better, who quickly became a close friend.",
 &"type": "dialogue"
 },
 "394": {
@@ -4689,6 +4686,23 @@ lines = {
 },
 "395": {
 &"id": "395",
+&"next_id": "396",
+&"text": "Without realizing how time had passed, my birthday was almost here; January 24.",
+&"type": "dialogue"
+},
+"396": {
+&"id": "396",
+&"next_id": "398",
+&"text": "However, I didn’t expect what would happen next.",
+&"type": "dialogue"
+},
+"397": {
+&"id": "397",
+&"next_id": "398",
+&"type": ""
+},
+"398": {
+&"id": "398",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "set_background",
@@ -4705,17 +4719,23 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "396",
+&"next_id": "399",
 &"type": "mutation"
 },
-"396": {
-&"id": "396",
-&"next_id": "397",
-&"text": "Mi cumpleaños fue bien, Mateo me felicitó justo a las 00:00 y el resto del día fue normal.",
+"399": {
+&"id": "399",
+&"next_id": "400",
+&"text": "My birthday went well, Mateo wished me a happy birthday at exactly 12:00 AM and the rest of the day went as usual.",
 &"type": "dialogue"
 },
-"397": {
-&"id": "397",
+"40": {
+&"id": "40",
+&"next_id": "41",
+&"text": "Reply later and ask him what that was about",
+&"type": "response"
+},
+"400": {
+&"id": "400",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "set_background",
@@ -4732,27 +4752,77 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "398",
+&"next_id": "401",
 &"type": "mutation"
 },
-"398": {
-&"id": "398",
-&"next_id": "400",
-&"text": "El 25 de enero tenía un examen, por lo que estuve estudiando en mi cumple.",
+"401": {
+&"id": "401",
+&"next_id": "403",
+&"text": "On January 25, I had an exam, so I spent my birthday studying.",
 &"type": "dialogue"
 },
-"399": {
-&"id": "399",
-&"next_id": "400",
+"402": {
+&"id": "402",
+&"next_id": "403",
 &"type": ""
 },
-"4": {
-&"id": "4",
-&"next_id": "5",
+"403": {
+&"id": "403",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "habitacion1"
+}, {
+&"i": 31,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "404",
+&"type": "mutation"
+},
+"404": {
+&"id": "404",
+&"next_id": "405",
+&"text": "That day I woke up feeling off, but that wasn’t an excuse to skip class, of course not, I had an important programming exam to take.",
+&"type": "dialogue"
+},
+"405": {
+&"id": "405",
+&"next_id": "406",
+&"text": "If I learned anything in bachelor's, it was that, no matter what, you couldn’t miss exams. You had to take them, no matter what, so skipping class wasn’t an option.",
+&"type": "dialogue"
+},
+"406": {
+&"id": "406",
+&"next_id": "408",
+&"text": "I had to take and pass that exam.",
+&"type": "dialogue"
+},
+"407": {
+&"id": "407",
+&"next_id": "408",
 &"type": ""
 },
-"40": {
-&"id": "40",
+"408": {
+&"id": "408",
+&"next_id": "410",
+&"text": "I got out of bed and, once ready, headed to class with my notes in hand.",
+&"type": "dialogue"
+},
+"409": {
+&"id": "409",
+&"next_id": "410",
+&"type": ""
+},
+"41": {
+&"id": "41",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"i": 3,
@@ -4780,66 +4850,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "41",
+&"next_id": "42",
 &"type": "mutation"
 },
-"400": {
-&"id": "400",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"function": "set_background",
-&"i": 3,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 18,
-&"type": &"string",
-&"value": "habitacion1"
-}, {
-&"i": 31,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
-&"next_id": "401",
-&"type": "mutation"
-},
-"401": {
-&"id": "401",
-&"next_id": "402",
-&"text": "Aquel día me desperté rara, pero no era una excusa para faltar, claro que no, tenía un examen importante de programación que hacer.",
-&"type": "dialogue"
-},
-"402": {
-&"id": "402",
-&"next_id": "403",
-&"text": "Si algo aprendí de bachillerato, era que, pasara lo que pasara, no podías faltar a los exámenes. Tenías que hacerlo sí o sí, así que no ir a clase no era una opción.",
-&"type": "dialogue"
-},
-"403": {
-&"id": "403",
-&"next_id": "405",
-&"text": "Debía hacer y aprobar ese examen.",
-&"type": "dialogue"
-},
-"404": {
-&"id": "404",
-&"next_id": "405",
-&"type": ""
-},
-"405": {
-&"id": "405",
-&"next_id": "407",
-&"text": "Me levanté de la cama y, una vez lista, me dirigí a clases con los apuntes en mano.",
-&"type": "dialogue"
-},
-"406": {
-&"id": "406",
-&"next_id": "407",
-&"type": ""
-},
-"407": {
-&"id": "407",
+"410": {
+&"id": "410",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "set_background",
@@ -4856,16 +4871,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "409",
+&"next_id": "411",
 &"type": "mutation"
 },
-"408": {
-&"id": "408",
-&"next_id": "409",
-&"type": ""
-},
-"409": {
-&"id": "409",
+"411": {
+&"id": "411",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"i": 3,
@@ -4900,34 +4910,28 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "410",
+&"next_id": "412",
 &"type": "mutation"
-},
-"41": {
-&"id": "41",
-&"next_id": "42",
-&"text": "Sin saber qué responder, le dejé en visto.",
-&"type": "dialogue"
-},
-"410": {
-&"id": "410",
-&"next_id": "412",
-&"text": "Mientras hacía el examen, comencé a notar algunos mareos, pero no le di importancia. Lo que no sabía era que aquello sería la peor decisión que tomaría.",
-&"type": "dialogue"
-},
-"411": {
-&"id": "411",
-&"next_id": "412",
-&"type": ""
 },
 "412": {
 &"id": "412",
-&"next_id": "413",
-&"text": "Empiezo a encontrarme muy rara...",
+&"next_id": "414",
+&"text": "While taking the exam, I started to feel a bit dizzy, but I didn’t think much of it. What I didn’t know was that this would turn out to be the worst decision I would make.",
 &"type": "dialogue"
 },
 "413": {
 &"id": "413",
+&"next_id": "414",
+&"type": ""
+},
+"414": {
+&"id": "414",
+&"next_id": "415",
+&"text": "I’m starting to feel really bad...",
+&"type": "dialogue"
+},
+"415": {
+&"id": "415",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "cargarSiguienteCap",
@@ -4944,23 +4948,23 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "415",
+&"next_id": "417",
 &"type": "mutation"
 },
-"414": {
-&"id": "414",
-&"next_id": "415",
+"416": {
+&"id": "416",
+&"next_id": "417",
 &"type": ""
 },
-"415": {
-&"id": "415",
+"417": {
+&"id": "417",
 &"is_snippet": false,
 &"next_id": "end",
 &"next_id_after": "",
 &"type": "goto"
 },
-"416": {
-&"id": "416",
+"418": {
+&"id": "418",
 &"is_snippet": false,
 &"next_id": "end",
 &"next_id_after": "",
@@ -4969,91 +4973,81 @@ lines = {
 "42": {
 &"id": "42",
 &"next_id": "43",
-&"text": "Pero no me gusta dejar en visto mensajes que sé que debo contestar.",
+&"text": "I didn’t know what to reply so I left him on read.",
 &"type": "dialogue"
 },
 "43": {
 &"id": "43",
 &"next_id": "44",
-&"text": "Indecisa, tardé varios minutos en escribir algo para preguntarle el porqué de su mensaje, pero sin sonar muy borde.",
+&"text": "But I don’t like leaving messages that I know I have to respond to on read.",
 &"type": "dialogue"
 },
 "44": {
 &"id": "44",
 &"next_id": "45",
-&"text": "[i] ¿A qué viene eso?",
+&"text": "Indecisive, I spent several minutes writing something to ask him the reason for his message, but without sounding too rude.",
 &"type": "dialogue"
 },
 "45": {
 &"id": "45",
 &"next_id": "46",
-&"text": "Me dispuse a hacer mis deberes, pero me distrajo el sonido que indicaba una nueva notificación.",
+&"text": "[i] What is that about?",
 &"type": "dialogue"
 },
 "46": {
 &"id": "46",
 &"next_id": "47",
-&"text": "Y, efectivamente, era él.",
+&"text": "I got ready to do my homework, but I was distracted by the sound indicating a new notification.",
 &"type": "dialogue"
 },
 "47": {
 &"id": "47",
 &"next_id": "48",
-&"text": "[i] Nada. Sólo quería hacerte saber que agradezco el poder hablar contigo",
+&"text": "And, effectively, it was him.",
 &"type": "dialogue"
 },
 "48": {
 &"id": "48",
 &"next_id": "49",
-&"text": "[i] Lamento si te ha molestado, no era mi intención.",
+&"text": "[i] Nothing. I just wanted you to know that I value being able to talk to you.",
 &"type": "dialogue"
 },
 "49": {
 &"id": "49",
 &"next_id": "50",
-&"text": "Me disculpé con él porque no quería sonar borde.",
+&"text": "[i] I’m sorry if it bothered you, that wasn’t my intention.",
 &"type": "dialogue"
 },
 "5": {
 &"id": "5",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"function": "set_background",
-&"i": 3,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 18,
-&"type": &"string",
-&"value": "habitacionNoche"
-}, {
-&"i": 35,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
 &"next_id": "6",
-&"type": "mutation"
+&"type": ""
 },
 "50": {
 &"id": "50",
-&"is_snippet": false,
-&"next_id": "53",
-&"next_id_after": "",
-&"type": "goto"
+&"next_id": "51",
+&"text": "I apologised to him because I didn’t want to sound rude.",
+&"type": "dialogue"
 },
 "51": {
 &"id": "51",
-&"next_id": "52",
-&"type": ""
+&"is_snippet": false,
+&"next_id": "54",
+&"next_id_after": "",
+&"type": "goto"
 },
 "52": {
 &"id": "52",
 &"next_id": "53",
-&"type": "title"
+&"type": ""
 },
 "53": {
 &"id": "53",
+&"next_id": "54",
+&"type": "title"
+},
+"54": {
+&"id": "54",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "set_background",
@@ -5070,22 +5064,22 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "54",
+&"next_id": "55",
 &"type": "mutation"
-},
-"54": {
-&"id": "54",
-&"next_id": "56",
-&"text": "En fin, después de aquello, seguimos hablando. De cualquier cosa en verdad, sobre el curso, aficiones… Inclusive si decía algún comentario sobre si se me complicaba algo de una asignatura, él me explicaba lo que fuera necesario.",
-&"type": "dialogue"
 },
 "55": {
 &"id": "55",
-&"next_id": "56",
-&"type": ""
+&"next_id": "57",
+&"text": "In any case, after that, we kept talking. About anything, really, about the course, hobbies… Even if I mentioned having trouble with something in a subject, he would explain whatever was necessary.",
+&"type": "dialogue"
 },
 "56": {
 &"id": "56",
+&"next_id": "57",
+&"type": ""
+},
+"57": {
+&"id": "57",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "set_background",
@@ -5102,22 +5096,43 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "57",
+&"next_id": "58",
 &"type": "mutation"
-},
-"57": {
-&"id": "57",
-&"next_id": "59",
-&"text": "De hecho, un día de diciembre, después de comentarle que llevaba muy mal una asignatura; Entornos de desarrollo, a las 00:00, me fui a dormir.",
-&"type": "dialogue"
 },
 "58": {
 &"id": "58",
-&"next_id": "59",
-&"type": ""
+&"next_id": "60",
+&"text": "In fact, one day in December, after telling him that I was struggling a lot with a subject, Development Environments, at 12.00 AM, I went to sleep.",
+&"type": "dialogue"
 },
 "59": {
 &"id": "59",
+&"next_id": "60",
+&"type": ""
+},
+"6": {
+&"id": "6",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "habitacionNoche"
+}, {
+&"i": 35,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "7",
+&"type": "mutation"
+},
+"60": {
+&"id": "60",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "set_background",
@@ -5134,49 +5149,38 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "60",
-&"type": "mutation"
-},
-"6": {
-&"id": "6",
-&"next_id": "7",
-&"text": "Llegó la noche y, como mañana de nuevo tenía clase, me dormí.",
-&"type": "dialogue"
-},
-"60": {
-&"id": "60",
 &"next_id": "61",
-&"text": "Al despertar, miré el móvil como de costumbre, pero me sorprendí mucho al ver que él, a las 6:48 de la mañana, me respondió y, por si fueran poco los consejos que anteriormente me dio y los enlaces que me pasó para ayudarme, me mandó un archivo word hecho por él, el cual estaba lleno de explicaciones y ejemplos sobre lo que no entendía. Lo había hecho de madrugada. Por mí. Para ayudarme a mí.",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "61": {
 &"id": "61",
 &"next_id": "62",
-&"text": "Enseguida le di las gracias por lo que había hecho. Al fin y al cabo, aquellos apuntes eran justo lo que necesitaba para llevar mejor el examen, pero una cuestión rondaba mi mente. ¿Por qué lo hacía?",
+&"text": "When I woke up, I checked my phone as usual, but I was very surprised to see that he had replied at 6.48 in the morning. And as if the advice he had given me before and the links he had sent to help me weren’t enough, he sent me a Word file that he had made himself, full of explanations and examples about what I didn’t understand. He had done it in the middle of the night. For me. To help me.",
 &"type": "dialogue"
 },
 "62": {
 &"id": "62",
 &"next_id": "63",
-&"text": "Aunque agradecía enormemente el gesto que había tenido conmigo y seguía teniendo cada día al interesarse por mí, preguntarme y ayudarme con las asignaturas o problemas con tareas que hacía, aún cuando ni nos conocíamos de vista, no dejaba de pensar en la razón por la que hacía todo aquello.",
+&"text": "I immediately thanked him for what he had done. After all, those notes were exactly what I needed to better handle the exam, but one question lingered in my mind; Why was he doing this?",
 &"type": "dialogue"
 },
 "63": {
 &"id": "63",
 &"next_id": "64",
-&"text": "Sin darme cuenta, aquel extraño que poco a poco dejaba de serlo, ocupaba varios de mis pensamientos al día. Sin duda alguna, necesitaba conocerlo y agradecerle.",
+&"text": "Although I greatly appreciated the gesture he had shown me and continued to show every day, by taking an interest in me, asking me questions, and helping me with subjects or problems with assignments, even when we didn’t even know each other in person, I couldn’t stop wondering why he was doing all of this.",
 &"type": "dialogue"
 },
 "64": {
 &"id": "64",
-&"next_id": "66",
-&"text": "Y eso no tardaría mucho en ocurrir.",
+&"next_id": "65",
+&"text": "Without realizing it, that stranger, who little by little was ceasing to feel like one, occupied many of my thoughts during the day. Without a doubt, I needed to get to know him and thank him.",
 &"type": "dialogue"
 },
 "65": {
 &"id": "65",
 &"next_id": "66",
-&"type": ""
+&"text": "And that wouldn’t take long to happen.",
+&"type": "dialogue"
 },
 "66": {
 &"id": "66",
@@ -5202,13 +5206,13 @@ lines = {
 "67": {
 &"id": "67",
 &"next_id": "68",
-&"text": "13 de diciembre.",
+&"text": "13 of december.",
 &"type": "dialogue"
 },
 "68": {
 &"id": "68",
 &"next_id": "70",
-&"text": "Ya casi era invierno y quedaba poco para las vacaciones de Navidad. Aquello era algo que me encantaba y me desagradaba al mismo tiempo.",
+&"text": "It was almost winter, and the Christmas holidays were just around the corner. That was something I both loved and disliked at the same time.",
 &"type": "dialogue"
 },
 "69": {
@@ -5218,8 +5222,8 @@ lines = {
 },
 "7": {
 &"id": "7",
-&"next_id": "10",
-&"text": "Al despertar me sorprendí al leer algo que no esperaba para nada.",
+&"next_id": "8",
+&"text": "The night arrived and, since I had classes tomorrow again, I went to sleep.",
 &"type": "dialogue"
 },
 "70": {
@@ -5246,13 +5250,13 @@ lines = {
 "71": {
 &"id": "71",
 &"next_id": "72",
-&"text": "Estaba pensando bastante, demasiado si soy sincera, por su culpa.",
+&"text": "I was thinking a lot, too much, if I’m honest, because of him.",
 &"type": "dialogue"
 },
 "72": {
 &"id": "72",
 &"next_id": "75",
-&"text": "Todo debido a un mensaje suyo...",
+&"text": "All because of a message of his.",
 &"type": "dialogue"
 },
 "74": {
@@ -5263,13 +5267,13 @@ lines = {
 "75": {
 &"id": "75",
 &"next_id": "76",
-&"text": "[i]Hoy salgo 1 hora antes, pero me quedo en clase para esperarte luego ^^",
+&"text": "[i]Today I will finish 1 hour earlier, but I can stay in class and wait for you ^^",
 &"type": "dialogue"
 },
 "76": {
 &"id": "76",
 &"next_id": "78",
-&"text": "[i]Si quieres, claro",
+&"text": "[i]If you want, of course",
 &"type": "dialogue"
 },
 "77": {
@@ -5280,15 +5284,21 @@ lines = {
 "78": {
 &"id": "78",
 &"next_id": "79",
-&"text": "[b]Debo ser agradable con él… ¿No?",
+&"text": "[b]I should be kind to him… Right?",
 &"type": "dialogue"
 },
 "79": {
 &"id": "79",
 &"next_id": "80",
 &"responses": PackedStringArray("79", "84", "94"),
-&"text": "Aceptar y quedar con él",
+&"text": "Agree and meet up with him",
 &"type": "response"
+},
+"8": {
+&"id": "8",
+&"next_id": "11",
+&"text": "When I woke up I was surprised by something that I wasn’t expecting at all.",
+&"type": "dialogue"
 },
 "80": {
 &"id": "80",
@@ -5325,7 +5335,7 @@ lines = {
 "81": {
 &"id": "81",
 &"next_id": "82",
-&"text": "[i]Vale ^^",
+&"text": "[i]Sure ^^",
 &"type": "dialogue"
 },
 "82": {
@@ -5343,7 +5353,7 @@ lines = {
 "84": {
 &"id": "84",
 &"next_id": "85",
-&"text": "Cancelarlo",
+&"text": "Cancel",
 &"type": "response"
 },
 "85": {
@@ -5381,13 +5391,13 @@ lines = {
 "86": {
 &"id": "86",
 &"next_id": "87",
-&"text": "Ni siquiera lo conozco...",
+&"text": "I don’t even know him...",
 &"type": "dialogue"
 },
 "87": {
 &"id": "87",
 &"next_id": "88",
-&"text": "No debería quedar con él hasta que me sienta cómoda, supongo.",
+&"text": "I shouldn’t meet with him until I feel comfortable, I suppose.",
 &"type": "dialogue"
 },
 "88": {
@@ -5425,24 +5435,19 @@ lines = {
 "89": {
 &"id": "89",
 &"next_id": "90",
-&"text": "Sin saber muy bien qué decirle, le cancelé, pero le dije que otro día sí, siempre que ambos pudiéramos, claro.",
+&"text": "Without knowing too much what to say, I cancelled it, but I told him that I wouldn’t mind another day, If both of us were available, of course.",
 &"type": "dialogue"
-},
-"9": {
-&"id": "9",
-&"next_id": "10",
-&"type": ""
 },
 "90": {
 &"id": "90",
 &"next_id": "91",
-&"text": "Enseguida me arrepentí. ¿Por qué le cancelaría cuando realmente me gustaría conocerlo?",
+&"text": "Immediately I regretted it. Why would I cancel on him when I really wanted to meet him?",
 &"type": "dialogue"
 },
 "91": {
 &"id": "91",
 &"next_id": "92",
-&"text": "Borré el mensaje que le escribí para rectificarme y decirle que sí al vernos.",
+&"text": "I erased the message that I wrote and tried it again saying yes to see him.",
 &"type": "dialogue"
 },
 "92": {
@@ -5460,7 +5465,7 @@ lines = {
 "94": {
 &"id": "94",
 &"next_id": "95",
-&"text": "Mentir",
+&"text": "Lie",
 &"type": "response"
 },
 "95": {
@@ -5498,25 +5503,25 @@ lines = {
 "96": {
 &"id": "96",
 &"next_id": "97",
-&"text": "Indecisa, decidí decirle una pequeña mentira.",
+&"text": "Indecisive, I decided to tell him a small lie.",
 &"type": "dialogue"
 },
 "97": {
 &"id": "97",
 &"next_id": "98",
-&"text": "[i]Lo siento, tengo muchas cosas que hacer hoy. Otro día si quieres ^^",
+&"text": "[i]I’m really sorry, I am quite busy today. Another day if you don’t mind ^^",
 &"type": "dialogue"
 },
 "98": {
 &"id": "98",
 &"next_id": "99",
-&"text": "Realmente no era una gran mentira. Después de todo, tenía algunas tareas pendientes por hacer. Sin embargo, no era tan urgente.",
+&"text": "It really wasn’t a big lie. After all, I had some pending assignments to do. However, they weren’t that urgent.",
 &"type": "dialogue"
 },
 "99": {
 &"id": "99",
 &"is_snippet": false,
-&"next_id": "327",
+&"next_id": "329",
 &"next_id_after": "",
 &"type": "goto"
 }
@@ -5524,300 +5529,302 @@ lines = {
 raw_text = "~ start
 
 do set_background(\"habitacion1\")
-Dejé el móvil, realmente necesitaba concentrarme para terminar algunas tareas.
+I put down my phone, I really needed to focus on finishing some homework.
+
 
 do set_background(\"habitacionNoche\")
-Llegó la noche y, como mañana de nuevo tenía clase, me dormí.
-Al despertar me sorprendí al leer algo que no esperaba para nada.
+The night arrived and, since I had classes tomorrow again, I went to sleep.
+When I woke up I was surprised by something that I wasn’t expecting at all.
 
 #*encima de habitación coso móvil con mensajes*
 do set_background(\"habitacion1\")
-[i]Cierto, como tema aparte te quería comentar algo.
-[i]No quiero abrumarte con este mensaje, quería agradecerte el permitirme hablar contigo y conocerte, aunque no sea en persona por los horarios de clase y tal. Aprecio mucho eso y me pareces alguien genial e intuyo con un gran corazón, y sí, aún con lo poco que hemos hablado me da esa sensación.
-[i]Me pareces y transmites ser así y si me permites saber más de ti aún siendo por aquí, sin agobiarte, lo agradecería mucho. Que no te extrañen estas palabras. Te las mereces y quería compartir lo que opino de ti con este gran mensaje del momento JAAJAKA 
-[i]Y si al menos consiguen alegrarte el día o animarte, habré cumplido con mi propósito. Disculpa por la longitud. No estoy acostumbrado a ganar confianza tan rápido con alguien y sé que puede abrumar verlo al momento
+[i]Right, On a different note, I wanted to tell you something.
+[i]I don’t want to overwhelm you with this message, but I wanted to thank you for allowing me to talk to you and get to know you, even if not in person because of class schedules and such. I really appreciate that, and you seem like an amazing person to me, and I sense that you have a big heart. And yes, even with the little we’ve talked, that’s the impression I get.
+[i]You seem to be that way and you come across like that, and if you allow me to get to know more about you, even if it’s just here, without overwhelming you, I would really appreciate it. Don’t find these words strange. You deserve them, and I wanted to share what I think of you with this message, in this moment HAAHAKA 
+[i]And if they manage, at least, to brighten your day or encourage you, then I will have fulfilled my purpose. Sorry for the length of the message. I’m not used to gaining trust with someone so quickly, and I know it can be overwhelming to read it all at once
 
-Sonreí como una tonta.
-Iba a responderle, pero me di cuenta que se me hizo tarde para ir a clase.
+I was smiling like a fool.
+I was going to reply, but I realised I was late to class.
 
 do set_background(\"clase\")
-Pasaron las horas y con ello llegó la hora de ir a casa. Debido a que tenía una revisión con el médico, para asegurarse de que mi herida y mi intestino iban bien, se me olvidó completamente que no le había contestado, no hasta que lo recordé al día siguiente.
+The hours passed, and with them came the time to go home. Because I had a check-up with the doctor to make sure my wound and intestines were doing well, I completely forgot that I hadn’t replied to him, at least until I remembered the next day.
 
 do set_background(\"habitacion1\")
-¿Qué le respondo? 
-- Contestar con timidez 
-	[i]No te preocupes y muchas gracias por  tus palabras ^^
+What should I reply? 
+- Reply in a shy manner
+	[i]Don’t worry and thank you so much for your words ^^
 	=> sigue
 	
-- Contestar de forma borde
+- Reply in a rude way
 	do SistemaPuntos.cambiarPuntos(\"mateo\", -1.5)
-	[i] A veces está bien guardarse lo que opinas de la gente para uno mismo. Por favor, por el momento, no me digas nada por el estilo a lo que dijiste antes.
-	Respondí sin pensar.
+	[i] Sometimes it is better to keep your thoughts of other people to yourself. Please, for now, don’t say anything like that again.
+	I replied without thinking.
 	do SistemaPuntos.cambiarPuntos(\"kristine\", -2)
-	Mierda, ¿por qué escribí eso?
-	Iba a borrarlo. Por los nervios tardé de más y, cuando quise borrarlo o editar el mensaje, ya era tarde.
-	Me contestó con una disculpa.
-	Odio ser así, ojalá hubiera sido más amable...
+	Fuck, why did I write that?
+	I was going to eliminate it. I was so nervous that I waited too long and when I was going to eliminate it, or even edit the message, it was already too late.
+	He replied with an apology.
+	I hate being this way, I wish I could have been a bit kinder ...
 	=> sigue
 
-- Contestar después y preguntarle a qué viene eso
+- Reply later and ask him what that was about
 	do SistemaPuntos.cambiarPuntos(\"mateo\", -0.5)
-	Sin saber qué responder, le dejé en visto.
-	Pero no me gusta dejar en visto mensajes que sé que debo contestar. 
-	Indecisa, tardé varios minutos en escribir algo para preguntarle el porqué de su mensaje, pero sin sonar muy borde.
-	[i] ¿A qué viene eso?
-	Me dispuse a hacer mis deberes, pero me distrajo el sonido que indicaba una nueva notificación.
-	Y, efectivamente, era él.
-	[i] Nada. Sólo quería hacerte saber que agradezco el poder hablar contigo
-	[i] Lamento si te ha molestado, no era mi intención.
-	Me disculpé con él porque no quería sonar borde.
+	I didn’t know what to reply so I left him on read.
+	But I don’t like leaving messages that I know I have to respond to on read.
+	Indecisive, I spent several minutes writing something to ask him the reason for his message, but without sounding too rude.
+	[i] What is that about?
+	I got ready to do my homework, but I was distracted by the sound indicating a new notification.
+	And, effectively, it was him.
+	[i] Nothing. I just wanted you to know that I value being able to talk to you.
+	[i] I’m sorry if it bothered you, that wasn’t my intention.
+	I apologised to him because I didn’t want to sound rude.
 	=> sigue
 
 ~ sigue
 do set_background(\"habitacion1\")
-En fin, después de aquello, seguimos hablando. De cualquier cosa en verdad, sobre el curso, aficiones… Inclusive si decía algún comentario sobre si se me complicaba algo de una asignatura, él me explicaba lo que fuera necesario. 
+In any case, after that, we kept talking. About anything, really, about the course, hobbies… Even if I mentioned having trouble with something in a subject, he would explain whatever was necessary.
 
 do set_background(\"habitacionNoche\")
-De hecho, un día de diciembre, después de comentarle que llevaba muy mal una asignatura; Entornos de desarrollo, a las 00:00, me fui a dormir. 
+In fact, one day in December, after telling him that I was struggling a lot with a subject, Development Environments, at 12.00 AM, I went to sleep.
 
 do set_background(\"habitacion1\")
-Al despertar, miré el móvil como de costumbre, pero me sorprendí mucho al ver que él, a las 6:48 de la mañana, me respondió y, por si fueran poco los consejos que anteriormente me dio y los enlaces que me pasó para ayudarme, me mandó un archivo word hecho por él, el cual estaba lleno de explicaciones y ejemplos sobre lo que no entendía. Lo había hecho de madrugada. Por mí. Para ayudarme a mí. 
-Enseguida le di las gracias por lo que había hecho. Al fin y al cabo, aquellos apuntes eran justo lo que necesitaba para llevar mejor el examen, pero una cuestión rondaba mi mente. ¿Por qué lo hacía?
-Aunque agradecía enormemente el gesto que había tenido conmigo y seguía teniendo cada día al interesarse por mí, preguntarme y ayudarme con las asignaturas o problemas con tareas que hacía, aún cuando ni nos conocíamos de vista, no dejaba de pensar en la razón por la que hacía todo aquello.
-Sin darme cuenta, aquel extraño que poco a poco dejaba de serlo, ocupaba varios de mis pensamientos al día. Sin duda alguna, necesitaba conocerlo y agradecerle.
-Y eso no tardaría mucho en ocurrir.
-
+When I woke up, I checked my phone as usual, but I was very surprised to see that he had replied at 6.48 in the morning. And as if the advice he had given me before and the links he had sent to help me weren’t enough, he sent me a Word file that he had made himself, full of explanations and examples about what I didn’t understand. He had done it in the middle of the night. For me. To help me.
+I immediately thanked him for what he had done. After all, those notes were exactly what I needed to better handle the exam, but one question lingered in my mind; Why was he doing this?
+Although I greatly appreciated the gesture he had shown me and continued to show every day, by taking an interest in me, asking me questions, and helping me with subjects or problems with assignments, even when we didn’t even know each other in person, I couldn’t stop wondering why he was doing all of this.
+Without realizing it, that stranger, who little by little was ceasing to feel like one, occupied many of my thoughts during the day. Without a doubt, I needed to get to know him and thank him.
+And that wouldn’t take long to happen.
 do set_background(\"negro\")
-13 de diciembre. 
-Ya casi era invierno y quedaba poco para las vacaciones de Navidad. Aquello era algo que me encantaba y me desagradaba al mismo tiempo.
+13 of december. 
+It was almost winter, and the Christmas holidays were just around the corner. That was something I both loved and disliked at the same time.
 
 do set_background(\"clase\")
-Estaba pensando bastante, demasiado si soy sincera, por su culpa.
-Todo debido a un mensaje suyo...
+I was thinking a lot, too much, if I’m honest, because of him.
+All because of a message of his.
 
 #*encima del fondo mostrar pc y mensajes*
-[i]Hoy salgo 1 hora antes, pero me quedo en clase para esperarte luego ^^
-[i]Si quieres, claro
+[i]Today I will finish 1 hour earlier, but I can stay in class and wait for you ^^
+[i]If you want, of course
 
-[b]Debo ser agradable con él… ¿No?
-- Aceptar y quedar con él
+[b]I should be kind to him… Right?
+- Agree and meet up with him
 	do SistemaPuntos.cambiarPuntos(\"mateo\", 2)
-	[i]Vale ^^
+	[i]Sure ^^
 	=> siguee
 
-- Cancelarlo
+- Cancel
 	do SistemaPuntos.cambiarPuntos(\"mateo\", -0.5)
-	Ni siquiera lo conozco...
-	No debería quedar con él hasta que me sienta cómoda, supongo.
+	I don’t even know him...
+	I shouldn’t meet with him until I feel comfortable, I suppose.
 	do SistemaPuntos.cambiarPuntos(\"kristine\", -1)
-	Sin saber muy bien qué decirle, le cancelé, pero le dije que otro día sí, siempre que ambos pudiéramos, claro.
-	Enseguida me arrepentí. ¿Por qué le cancelaría cuando realmente me gustaría conocerlo?
-	Borré el mensaje que le escribí para rectificarme y decirle que sí al vernos.
+	Without knowing too much what to say, I cancelled it, but I told him that I wouldn’t mind another day, If both of us were available, of course.
+	Immediately I regretted it. Why would I cancel on him when I really wanted to meet him?
+	I erased the message that I wrote and tried it again saying yes to see him.
 	=> siguee
 
-- Mentir
+- Lie
 	do SistemaPuntos.cambiarPuntos(\"mateo\", -2)
-	Indecisa, decidí decirle una pequeña mentira.
-	[i]Lo siento, tengo muchas cosas que hacer hoy. Otro día si quieres ^^
-	Realmente no era una gran mentira. Después de todo, tenía algunas tareas pendientes por hacer. Sin embargo, no era tan urgente.
+	Indecisive, I decided to tell him a small lie.
+	[i]I’m really sorry, I am quite busy today. Another day if you don’t mind ^^
+	It really wasn’t a big lie. After all, I had some pending assignments to do. However, they weren’t that urgent.
 	=> seSalta
 
 ~ siguee
 do set_background(\"clase\")
-No voy a mentirte.
-Estoy muy inquieta. Mi mente no deja de darle vueltas a lo mismo.
-Voy a verlo.
-Voy a conocer al chico que me ha estado ayudando tanto estos últimos días. El mismo que me dedicó palabras bonitas, a mí.
-En cuanto termine la clase tendré enfrente al mismo chico que me ha dicho que soy alguien genial y con un gran corazón.
+I’m not going to lie.
+I’m very restless. My mind keeps going over the same thing.
+I’m going to see him.
+I’m going to meet the guy who has been helping me so much these past few days, the same one who dedicated kind words to me.
+As soon as class is over, I’ll be face to face with the same guy who has told me that I’m an amazing person with a big heart.
 
-No sé si me arrepiento, si estoy impaciente o, en parte, ambas.
+I’m not sure if I'm regretting this, if I'm impatient or, in a way, both.
 
-Al final el profesor terminó con su explicación y, dado que ya eran las 14:30, la clase terminó.
-Todos comenzaron a recoger sus cosas, incluida yo, pero, a diferencia del resto, lo hacía más lento. Necesitaba tomarme mi tiempo para asimilar que iba a tener que socializar un poco más.
+In the end, the teacher finished his explanation, and since it was already 2:30 PM, the class ended.
+Everyone began to gather their things, myself included, but unlike the others, I did it more slowly. I needed to take my time to process the fact that I was going to have to socialize a little bit more.
 
 do set_background(\"calleDia\")
 do Audio.change_music(Audio.primeraQuedada, -2)
-Casi 10 minutos después salí del centro y lo encontré ahí.
-Tal y como dijo antes, estaba esperándome casi en la entrada.
-Al verme, me saludó.
+Almost 10 minutes later, I left the center and found him there.
+Just as he had said before, he was waiting for me near the entrance.
+When he saw me, he greeted me.
 
 do show_character(\"kristine\", \"derecha\", \"sinHablar\")
 do show_character(\"mateo\", \"izq\", \"hablaAlegre\")
-Mateo: Holaaa, ¿qué tal te ha ido?
+Mateo: Hiii, how is it going?
 do show_character(\"kristine\", \"derecha\", \"hablaNormal\")
 do show_character(\"mateo\", \"izq\", \"sinHablar\")
-Kristine: Bien, ¿y a ti?
+Kristine: Fine, and you?
 do show_character(\"kristine\", \"derecha\", \"sinHablar\")
 do show_character(\"mateo\", \"izq\", \"hablaAlegre\")
-Mateo: Bien bien. 
+Mateo: Fine fine. 
 do show_character(\"mateo\", \"izq\", \"sinHablar\")
 
-Al decir aquello comenzamos a caminar para volver a nuestras respectivas casas.
+After saying that, we started walking back to our respective homes.
 
 do show_character(\"mateo\", \"izq\", \"hablaNormal\")
-Mateo: Por cierto, quería preguntarte algo. Sólo si no te molesta.
+Mateo: By the way, I wanted to ask you something, only if you don’t mind.
 do show_character(\"mateo\", \"izq\", \"sinHablar\")
 do show_character(\"kristine\", \"derecha\", \"hablaAlegre\")
-Kristine: Claro, adelante.
+Kristine: Of course, go on.
 do show_character(\"kristine\", \"derecha\", \"sinHablar\")
 do show_character(\"mateo\", \"izq\", \"hablaPreocupado\")
-Mateo: La vez que faltaste la otra semana, ¿te pasó algo grave?
+Mateo: When you were absent the other week, did something serious happen to you?
 do show_character(\"mateo\", \"izq\", \"sinHablar\")
 
-Con lo amable que ha sido conmigo, [b]me gustaría decirle la verdad…
-- Contarle la verdad
+Wit how kind he’s been to me, [b]i would like to tell him the truth…
+- Tell him the truth
 	do show_character(\"kristine\", \"derecha\", \"hablaPreocupada\")
-	Kristine: Bueno, antes tenía una ostomía, entonces tuve que faltar por la operación que me hicieron para quitarla.
+	Kristine: Well, I used to have an ostomy, so I had to be absent because of the surgery they performed to remove it.
 	do show_character(\"kristine\", \"derecha\", \"sinHablar\")
 	
-	Ver su cara de sorpresa me hizo un poco de gracia. 
-	Por algún motivo, su mirada me animaba a seguir hablando, cosa que con casi nadie me había pasado.
+	Seeing the surprised look on his face amused me a little.
+	For some reason, his gaze encouraged me to keep talking, something that had almost never happened with anyone else.
 
 	do show_character(\"kristine\", \"derecha\", \"hablaAlegre\")
-	Kristine: Ya estoy bien, no te preocupes. Esa operación era la última que tenían que hacerme, lo que me queda son revisiones y pruebas cada mes y luego serán anuales.
+	Kristine: Now I’m fine, you don’t have to worry. That surgery was the last one they had to perform on me; what remains are check-ups and tests every month, and later they will be annual.
 	do show_character(\"kristine\", \"derecha\", \"sinHablar\")
 	do show_character(\"mateo\", \"izq\", \"hablaPreocupado\")
-	Mateo: ¿Por qué?, quiero decir, ¿por qué tenías eso? ¿Y qué es?
+	Mateo: Why?, I mean, why did you have it? What is that?
 	do show_character(\"mateo\", \"izq\", \"sinHablar\")
 	do show_character(\"kristine\", \"derecha\", \"hablaPreocupada\")
-	Kristine: No quiero aburrirte o abrumarte.
+	Kristine: I don’t want to bore you or overwhelm you.
 	do show_character(\"kristine\", \"derecha\", \"sinHablar\")
 	do show_character(\"mateo\", \"izq\", \"hablaAlegre\")
-	Mateo: No lo vas a hacer, tranquila. Cuéntame, sin miedo.
+	Mateo: It won’t happen, don’t worry. You can tell me, have no fear.
 	do show_character(\"mateo\", \"izq\", \"sinHablar\")
 	do show_character(\"kristine\", \"derecha\", \"intentoSonrisa\")
-	Y aquello fue suficiente para contarle todo.
+	And that was enough to tell him everything.
 
 	do show_character(\"kristine\", \"derecha\", \"hablaPreocupada\")
-	Kristine: Está bien… La ostomía es una apertura que tienes en el cuerpo, más o menos a la altura del intestino, que permite la salida de heces hacia una bolsa, que era lo que tenía hace poco menos de un mes.
+	Kristine: Okay… An ostomy is an opening in the body, roughly at the level of the intestine, that allows waste to exit into a bag, which is what I had until just under a month ago.
 	do show_character(\"kristine\", \"derecha\", \"sinHablar\")
 	do show_character(\"mateo\", \"izq\", \"hablaPreocupado\")
-	Mateo: Y la tenías por…
+	Mateo: And you had it because…
 	do show_character(\"mateo\", \"izq\", \"sinHablar\")
-	Animó para que siguiera hablando
+	He said so I could keep talking.
 	
 	do show_character(\"kristine\", \"derecha\", \"hablaNormal\")
-	Kristine: Porque tuve una peritonitis. 
+	Kristine:  Because I had peritonitis.
 	do show_character(\"kristine\", \"derecha\", \"hablaPreocupada\")
-	Kristine: En resumen, me han tenido que operar varias veces por cáncer y demás.
+	Kristine: In short, I’ve had to undergo several surgeries for cancer and other related issues.
 	do show_character(\"kristine\", \"derecha\", \"hablaAlegre\") 
-	Kristine: Pero lo dicho, ya estoy bien.
+	Kristine: But as I said, I’m fine now.
 	do show_character(\"kristine\", \"derecha\", \"sinHablar\")
 	do show_character(\"mateo\", \"izq\", \"hablaNormal\")
-	Mateo: Vaya… Me sorprende que, a pesar de las operaciones, hayas podido seguir. 
+	Mateo: Wow… I’m surprised that, despite the surgeries, you’ve been able to keep going. 
 	do show_character(\"mateo\", \"izq\", \"hablaAlegre\")
-	Mateo: Igual, me alegra mucho que estés bien por fin, de corazón te lo digo.
+	Mateo: Still, I’m really glad that you’re finally well, I truly mean it from the bottom of my heart.
 	do show_character(\"mateo\", \"izq\", \"sinHablar\")
 	do show_character(\"kristine\", \"derecha\", \"hablaAlegre\") 
-	Kristine: Muchas gracias.
+	Kristine: Thank you so much.
 	do show_character(\"kristine\", \"derecha\", \"feliz\") 
 	=> sigueee
 	
-- Cambiar de tema
+- Change the topic
 	do SistemaPuntos.cambiarPuntos(\"mateo\", -0.25)
 	do show_character(\"kristine\", \"derecha\", \"hablaNormal\")
-	Kristine: Bueno...
+	Kristine: Well...
 	do show_character(\"kristine\", \"derecha\", \"sinHablar\")
 	do show_character(\"mateo\", \"izq\", \"hablaNormal\") 
-	Mateo: ¿Si?
+	Mateo: Yes?
 	do show_character(\"mateo\", \"izq\", \"sinHablar\") 
-	Kristine: Preferiría saber de ti antes. 
+	Kristine: I would like to know more about you before.
 	do show_character(\"kristine\", \"derecha\", \"sinHablar\")
 	do show_character(\"mateo\", \"izq\", \"hablaAlegre\") 
-	Mateo: Entiendo. ¿Qué quieres saber?
+	Mateo: I understand. What would you like to know?
 	do show_character(\"mateo\", \"izq\", \"sinHablar\") 
-	Kristine: No sé, qué hiciste antes de este grado, amistades, tal vez vida amorosa...
+	Kristine: I don’t know, what were you doing before studying this, friendships, maybe your love life...
 	do show_character(\"mateo\", \"izq\", \"hablaNormal\") 
 	do show_character(\"kristine\", \"derecha\", \"sinHablar\")
-	Mateo: Oh, antes de entrar en este grado hice el grado medio de...
+	Mateo: Oh, before I started studying this I was studying something called...
 	do show_character(\"mateo\", \"izq\", \"sinHablar\") 
 	do show_character(\"kristine\", \"derecha\", \"sinHablar\")
 	
-	Y, sin darme cuenta de lo que había provocado, comenzó a hablar de su vida.
-	Intentó hacer el bachillerato, pero no le gustó y se metió a un grado medio. Allí conoció a actual su mejor amigo y a un grupo de amigos que conforme más se juntaba con ellos más se daba cuenta de la toxicidad que había en ese ambiente.
-	Al parecer le gustó una chica, pero no le fue muy bien puesto que terminó engañándolo de una forma cruel. Qué asco dan las personas así...
+	And, without realizing what I was provoking, he started talking about his life.
+	He tried to do the bachellor, but he didn’t like it and enrolled in a vocational program instead. There, he met his current best friend and a group of friends who, the more he spent time with them, the more he realized how toxic that environment was.
+	Apparently, he liked a girl, but it didn’t go well because she ended up cheating on him in a cruel way. I really find that kind of people disgusting…
 	=> sigueee
-- Mentir
+	
+- Lie
 	do SistemaPuntos.cambiarPuntos(\"mateo\", -1.5)
 	do show_character(\"mateo\", \"izq\", \"sinHablar\") 
 	do show_character(\"kristine\", \"derecha\", \"hablaNormal\")
-	Kristine: Oh, no. Nada grave, sólo un resfriado. No te preocupes.
+	Kristine: Oh, no. Nothing serious, it was only a cold. Don’t worry about it.
 	do show_character(\"mateo\", \"izq\", \"hablaAlegre\") 
 	do show_character(\"kristine\", \"derecha\", \"sinHablar\")
-	Mateo: Menos mal que ya estás bien.
+	Mateo: Thank god you’re okay now.
 	do show_character(\"mateo\", \"izq\", \"sinHablar\") 
 	do show_character(\"kristine\", \"derecha\", \"hablaNormal\")
-	Kristine: Si...
+	Kristine: Yeah...
 	do show_character(\"mateo\", \"izq\", \"sinHablar\") 
 	do show_character(\"kristine\", \"derecha\", \"sinHablar\")
 	
-	¿Por qué le mentí?
-	Aunque no era agradable el recordar lo que me había pasado, quizá me hubiera venido bien contarlo, aunque fuera a un aparentemente desconocido que ya no era tan desconocido.
-	Me hubiera gustado decirle la verdad, pero a lo mejor hice bien no contándoselo. No a todos les gustaría escuchar la cantidad de operaciones que ha tenido una persona y las razones. 
-	Es desmotivante y luego tener que escuchar lo \"fuerte\" que has sido en ese proceso, que no todos podrían haber luchado igual que tú y el resto de ese discurso tan cliché, es... Es desesperante y para nada original, pero, sobre todo, es agotador.
-	Termina cansando escuchar lo mismo de cada persona que sabe o empieza a conocer de tu lucha en la que no vivías, sino que sobrevivías y de una forma en la que no te queda de otra.
-	A nadie le gusta ser fuerte, pero, tarde o temprano, toca serlo.
-	En fin...
+	Why did I lie to him?
+	Although it wasn’t pleasant to remember what had happened to me, maybe it would have been good to tell him, even if he was an apparently unknown person who was no longer so unknown.
+	I would have liked to tell him the truth, but maybe I did the right thing by not sharing it. Not everyone would want to hear about the number of surgeries a person has had and the reasons behind them.
+	It’s discouraging, and then having to listen to how “strong” you’ve been during the process, that not everyone could have fought like you did, and the rest of that cliché speech… It's exhausting and far from original, but above all, it’s draining.
+	It gets tiring to hear the same thing from every person who knows or is starting to know about your struggle, a struggle in which you weren’t really living, but surviving, in a way where you had no other choice.
+	No one likes being strong, but sooner or later, it’s something you have to be.
+	Oh well, nothing I can do now...
 	=> sigueee
 
 ~ sigueee
 do show_character(\"kristine\", \"derecha\", \"sinHablar\") 
 do show_character(\"mateo\", \"izq\", \"sinHablar\") 
-No me di cuenta de que ya estábamos cerca de mi casa.
+I didn’t realize that we were already close to my house.
  
 do show_character(\"mateo\", \"izq\", \"hablaNormal\") 
-Mateo: ¿Por dónde vives?
+Mateo: Where do you live?
 do show_character(\"kristine\", \"derecha\", \"hablaNormal\") 
 do show_character(\"mateo\", \"izq\", \"sinHablar\") 
-Kristine: Pues justo en esta calle.
+Kristine: Actually, right on this street.
 do show_character(\"kristine\", \"derecha\", \"sinHablar\") 
 do show_character(\"mateo\", \"izq\", \"hablaNormal\") 
-Mateo: ¿Tienes algo que hacer?
+Mateo: Do you have anything to do?
 do show_character(\"mateo\", \"izq\", \"sinHablar\") 
 
-Podría decirle la verdad. ¿O le miento? Una pequeña mentira no hace daño a nadie… ¿No?
-- Decir la verdad
+I could tell him the truth. Or should I lie? A little lie wouldn’t harm anyone… Right?
+- Tell him the truth
 	do SistemaPuntos.cambiarPuntos(\"mateo\", 1)
 	
 	do show_character(\"kristine\", \"derecha\", \"hablaNormal\") 
 	do show_character(\"mateo\", \"izq\", \"sinHablar\")
-	Kristine: Sí, tengo en unos días algunos exámenes.
+	Kristine: Yes, in a couple of days I have some exams.
 	do show_character(\"mateo\", \"izq\", \"hablaAlegre\")
 	do show_character(\"kristine\", \"derecha\", \"sinHablar\")
-	Mateo: Ohhh vale. Yo vivo un poco más lejos, así que tendré que coger el bus.
+	Mateo: Ohhh ok. I live a little further away, so I have to take the bus.
 	do show_character(\"mateo\", \"izq\", \"sinHablar\")
 	do show_character(\"kristine\", \"derecha\", \"hablaNormal\")
-	Kristine: Vale, sin problema.
+	Kristine: Ok, no problem.
 	do show_character(\"kristine\", \"derecha\", \"sinHablar\")
 
-	Justo cuando me iba a despedir de él, me dio un abrazo, el cual terminó rápido.
+	Just as I was about to say goodbye to him, he gave me a brief hug.
 
 	do show_character(\"mateo\", \"izq\", \"hablaAlegre\")
-	Mateo: ¡Nos vemos!
+	Mateo: See you!
 	do hide_character(\"izq\")
 	do hide_character(\"derecha\")
 	do set_background(\"negroo\")
-	Y así fue como, definitivamente, lo conocí. En persona esta vez.
+	And that’s how I finally met him, but, this time, in person.
 	=> historiaNormal
-- Mentir
+	
+- Lie
 	do show_character(\"mateo\", \"izq\", \"sinHablar\")
 	do show_character(\"kristine\", \"derecha\", \"hablaNormal\")
-	Kristine: No. No tengo nada pendiente por el momento.
+	Kristine: No. I don’t have anything to do at this moment.
 	do SistemaPuntos.cambiarPuntos(\"mateo\", -1.5)
 	do show_character(\"mateo\", \"izq\", \"hablaNormal\")
 	do show_character(\"kristine\", \"derecha\", \"sinHablar\")
-	Mateo: Ohhh qué bien.
+	Mateo: Ohhh that’s good.
 	do show_character(\"mateo\", \"izq\", \"sinHablar\")
-	¿Por qué siento que él sabe algo que yo no?
+	Why do I feel as if he knew something that I don’t?
 	do show_character(\"mateo\", \"izq\", \"hablaNormal\")
-	Mateo: Bueno, mi autobús sale en nada así que tengo que irme.
+	Mateo: Well, my bus is about to leave, so I need to go.
 	do show_character(\"mateo\", \"izq\", \"sinHablar\")
 	do show_character(\"kristine\", \"derecha\", \"hablaNormal\")
-	Kristine: Vale, no te preocupes.
+	Kristine: Sure, don’t worry.
 	do show_character(\"kristine\", \"derecha\", \"sinHablar\")
 	
-	Después de aquello, nos despedimos.
-	Así fue como lo conocí. En persona, esta vez.
+	After that, we said our goodbyes.
+	That’s how I met him, but, this time, in person.
 	=> historiaNormal
 
 ~ historiaNormal
@@ -5826,114 +5833,114 @@ if SistemaPuntos.obtenerPuntos(\"mateo\") <= 0:
 	#SistemaPuntos.obtenerPuntos()
 else:
 	do set_background(\"habitacionMasOscura\")
-	Un rato después vi una notificación que tenía nueva de hace unas horas.
-	Me entretuve bastante estudiando.
+	A while later, I noticed a notification from a few hours ago. 
+	I had been really caught up studying.
 
 	#*en móvil*
-	[i]Me ha gustado hablar contigo
-	[i]No te he querido entretener mucho para que puedas estudiar tranquila y por eso me he despedido al llegar a tu casa ^^ 
-	[i]y oye, si quieres mañana te espero también, si te parece bien y si tienes tiempo claro ^^ 
+	[i]I really liked talking to you
+	[i]I didn’t want to keep you from studying, so I said goodbye when we got to your place. ^^ 
+	[i]and hey, if you want I can wait for you tomorrow too, if that works for you, and if you have the time, of course ^^ 
+	
+	[i]Thanks for telling me about the surgeries. I’m really glad you’re doing well and that, even going through them, they haven’t affected you too much
+	[i]You know I’m here for anything, and I really appreciate you sharing this with me, I truly mean it
 
-	[i]Y gracias por comentarme lo de las operaciones. De verdad que me alegro que estés bien y que aún pasando por ellas, no te afecten en gran medida
-	[i]Aunque ya lo sabes, estoy para lo que sea y gracias por comentarme sobre ello, de corazón te lo digo
+	Without hesitation, I replied.
 
-	Sin dudarlo, le respondí.
+	[i]Don’t worry, it’s nothing ^^
+	[i]And I think it’s a good idea for us to meet again tomorrow
+	[i]Thank you for listening and for your kind words ^^
 
-	[i]No te preocupes, no pasa nada ^^
-	[i]Y me parece bien que nos veamos mañana de nuevo
-	[i]Gracias a ti por escuchar y por tus palabras ^^
-
-	[i]Te iba a escuchar sí o sí, ya que aparte del tema y la importancia del mismo en sí, me pareces una persona increíble y me siento muy cómodo contigo, la verdad. Espero transmitir lo mismo, me gusta tu forma de pensar y quién eres como persona, técnicamente eres genial en resumidas cuentas y agradezco la confianza que me das para contarme las cosas aún conociéndonos poco ^^ 
+	[i]I was going to listen no matter what, because aside from the topic itself and how important it is, I think you’re an incredible person and I feel very comfortable with you, honestly. I hope I make you feel the same. I like the way you think and who you are as a person, you’re genuinely great, and I really appreciate the trust you’ve shown in opening up to me, even though we haven’t known each other very long ^^ 
 
 	do set_background(\"habitacionMasOscura\")
-	No entiendo cómo se podía ser tan tierno, pero no podía distraerme más.
+	I didn’t understand how he could be so sweet, but I couldn’t get any more distracted.
 	~ seSalta
 	do set_background(\"habitacionAtardecer\")
-	Seguí estudiando y haciendo ejercicios el resto del día para aprenderme bien los conceptos y hacer bien el examen que tenía al día siguiente.
-	Pareció que así fue.
+	I continued studying and doing some work for the rest of the day so I could learn all the concepts well and do well in the exam that I had tomorrow.
+	And it seems to be that way.
 
 	do set_background(\"clase\")
-	Hice el examen tranquila.
-	No sentía que me había salido tan mal como esperaba, por lo que salí de clase contenta.
+	I did the exam calmly.
+	I didn’t feel that it had gone as badly as I expected, so I left class feeling happy.
 
 	do set_background(\"calleDia\")
-	En cuanto estuve fuera del centro, vi a alguien que se me hacia conocido.
-	¿Era él?
-	Me estaba esperando.
-	Llevaba 20 minutos de más fuera, en la calle, para esperarme.
-	Y él, por lo que me contó, debía coger un autobús.
+	As soon as I was outside the center, I saw someone who looked familiar to me.
+	Was it him?
+	He was waiting for me.
+	He spent 20 minutes outside, alone, just to wait for me.
+	And he, based on what he had told me, needed to take the bus.
 
-	Me dio tanta pena que en cuanto lo vi, me disculpé con él.
+	I felt so bad that the moment I saw him, I apologized.
 
 	do show_character(\"mateo\", \"izq\", \"hablaNormal\")
 	do show_character(\"kristine\", \"derecha\", \"sinHablar\")
-	Mateo: No te preocupes, ¿te salió bien el examen?
+	Mateo: Don’t worry, did the exam go well?
 	do show_character(\"mateo\", \"izq\", \"sinHablar\")
 	do show_character(\"kristine\", \"derecha\", \"hablaAlegre\")
-	Kristine: Sí. Bastante bien.
+	Kristine: Yes. I’d like to think so.
 	do show_character(\"mateo\", \"izq\", \"hablaAlegre\")
 	do show_character(\"kristine\", \"derecha\", \"sinHablar\")
-	Mateo: Me alegro.
+	Mateo: I see, that's good.
 	do show_character(\"kristine\", \"derecha\", \"feliz\")
 	do show_character(\"mateo\", \"izq\", \"feliz\")
 
-	Le pregunté sobre su día y estuvimos hablando durante todo el trayecto hasta mi casa. Vivía mucho más cerca del instituto que él. 
-	Cuando llegamos iba a despedirme, pero se adelantó con algo que no esperaba.
+	I asked him about his day, and we talked all the way to my house. 
+	I lived much closer to the school than he did.
+	When we arrived, I was about to say goodbye, but he surprised me with something I hadn’t anticipated.
 
 	do show_character(\"mateo\", \"izq\", \"hablaNormal\")
 	do show_character(\"kristine\", \"derecha\", \"sinHablar\")
-	Mateo: Oye, a todo esto, ¿podría tener tu número?
+	Mateo:Hey, by the way, could I have your number?
 	do show_character(\"mateo\", \"izq\", \"sinHablar\")
 
-	Aunque me pilló desprevenida, le respondí.
+	Although it caught me off guard, I replied to him.
 	do show_character(\"kristine\", \"derecha\", \"hablaAlegre\")
-	Kristine: Claro.
+	Kristine: Sure.
 	do show_character(\"kristine\", \"derecha\", \"sinHablar\")
 
-	Sacó su móvil y le dí mi número.
-	No quería que estuviera mal, por lo que me aseguré de que lo apuntó correctamente y luego lo guardó. 
+	He took out his phone and I gave him my number.
+	I didn’t want him to get it wrong, so I made sure he had it written down correctly before he saved it. 
 
 	do hide_character(\"izq\")
 	do hide_character(\"derecha\")
 	do set_background(\"habitacionMasOscura\")
-	Justamente al llegar a mi casa recibí una notificación:
+	Just when I entered my home I received a notification:
 
 	#*movil ya como si fuera whatsapp*
 	do Audio.play_sfx(Audio.notificacion)
-	[i]Holaaaa soy Mateo
+	[i]Hiiii, it’s Mateo
 
-	Al verlo, por alguna razón, sonreí al instante. Y le respondí, por supuesto.
+	When I saw it, for some strange reason, a smile came immediately to my face. And I replied to him, of course.
 
 	do set_background(\"negroo\")
-	Desde ese día hablábamos bastante.
+	Since that day, we talked quite a lot.
 
-	En Navidad, aunque no lo pasé tan bien como esperé, pude quedar con mi mejor amiga y con él. No creí que después de haberlo pasado tan mal en ese invierno, llegaría un descanso.
+	At Christmas, even though it wasn’t as enjoyable as I had hoped, I got to spend time with my best friend and with him. I never thought that after such a rough winter, I would finally get a bit of a break.
 	do set_background(\"fucsiaMuyOscuro\")
-	En parte, esa luz empezó a llegar gracias a él, Mateo, quien me alegraba algunos días; a veces con bromas, a veces con algún vídeo que me mandaba y otras veces porque simplemente me contaba cosas que no sabía sobre él.
+	In part, that light started to reach me thanks to him, Mateo, who cheered up some of my days, sometimes with jokes, sometimes with a video he sent, and other times just by sharing things about himself that I didn’t know.
 
-	Esas vacaciones de invierno me sirvieron para dos cosas o bueno, tres; despejarme, aprender y adelantar algunos trabajos y también para conocer mejor a Mateo, quien, con rapidez, se convirtió en un gran amigo para mí.
+	That winter break was useful for two, or rather three, things; relaxing, learning and catching up on some work, and getting to know Mateo better, who quickly became a close friend.
 
-	Sin darme cuenta del paso del tiempo, ya casi era mi cumpleaños; 24 de enero.
-	No obstante, no esperaba lo que sucedería después.
+	Without realizing how time had passed, my birthday was almost here; January 24.
+	However, I didn’t expect what would happen next.
 
 	do set_background(\"habitacionNoche\")
-	Mi cumpleaños fue bien, Mateo me felicitó justo a las 00:00 y el resto del día fue normal. 
+	My birthday went well, Mateo wished me a happy birthday at exactly 12:00 AM and the rest of the day went as usual.
 	do set_background(\"habitacionAtardecer\")
-	El 25 de enero tenía un examen, por lo que estuve estudiando en mi cumple. 
+	On January 25, I had an exam, so I spent my birthday studying. 
 
 	do set_background(\"habitacion1\")
-	Aquel día me desperté rara, pero no era una excusa para faltar, claro que no, tenía un examen importante de programación que hacer.
-	Si algo aprendí de bachillerato, era que, pasara lo que pasara, no podías faltar a los exámenes. Tenías que hacerlo sí o sí, así que no ir a clase no era una opción.
-	Debía hacer y aprobar ese examen.
+	That day I woke up feeling off, but that wasn’t an excuse to skip class, of course not, I had an important programming exam to take.
+	If I learned anything in bachelor's, it was that, no matter what, you couldn’t miss exams. You had to take them, no matter what, so skipping class wasn’t an option.
+	I had to take and pass that exam.
 
-	Me levanté de la cama y, una vez lista, me dirigí a clases con los apuntes en mano.
+	I got out of bed and, once ready, headed to class with my notes in hand.
 
 	do set_background(\"clase\")
-	#aqui cambiop musica
 	do Audio.change_music(Audio.momentoMareo, -1)
-	Mientras hacía el examen, comencé a notar algunos mareos, pero no le di importancia. Lo que no sabía era que aquello sería la peor decisión que tomaría.
+	While taking the exam, I started to feel a bit dizzy, but I didn’t think much of it. What I didn’t know was that this would turn out to be the worst decision I would make.
 
-	Empiezo a encontrarme muy rara...
+	I’m starting to feel really bad...
 	do cargarSiguienteCap(\"cap4\")
 
 	=> END"

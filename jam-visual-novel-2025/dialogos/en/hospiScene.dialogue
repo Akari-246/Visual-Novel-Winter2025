@@ -1,0 +1,148 @@
+~ start
+do set_background("negroo")
+do hide_character("izq")
+do hide_character("derecha")
+I did what I was told by the anesthesiologist and, in a couple minutes, I fell asleep.
+
+Just how they told me, everything went smoothly.
+The only problem was that I needed to stay a couple days in the hospital, Felix said between 5 and 8 days, and I wanted to go to class, however, I needed to understand that everything was just a matter of time before I could go back.
+
+3 days later.
+
+do set_background("habitacionHospital")
+I was getting used, again, to live in a different way, the same way I used to live before the puncture that I had.
+Bit by bit I was getting better, which helped improve my mood, enough so that I could look over the messages I had and reply to them all.
+One caught my eye. Or, rather, several of them.
+
+It was him.
+
+#*encima del fondo de habitación de hospital mostrar móvil y mensajes estilo discord*
+11/20
+[i]How’s the exam coming along??[/i]
+[i]Things are coming, we have to submit some projects and do presentations in 2 weeks, let’s see how that goes
+
+11/22
+[i]Hii
+[i]Sorry for the message, yesterday I found out you didn’t come and I wanted to know how you were doing
+[i]Are you ok? 
+[i]If you’re not, I hope you get better soon and that it’s nothing serious ^^
+
+Oh, I hope he doesn’t get mad if I reply to him now. 
+At least it hasn’t been too long since he sent that.
+
+11/24 
+[i]Sorry, I just saw your messages 
+[i]I’m fine,I will probably be back next week ^^
+[i]And don’t worry, I’m sure the presentations will go well 
+
+I was going to put down my phone and sleep, but I saw that he had already replied.
+Given that I was in the hospital, I wanted a distraction, so I waited for him to finish writing to reply.
+
+do Audio.play_sfx(Audio.notificacion)
+[i]Don’t say sorry. What’s important is that you’re ok and that everything has gone well ^^
+[i]Give it your all with more energy and lots of encouragementttt
+[i]By the way, I’m happy that you’re fine ^^ 
+
+In the face of that strange concern, fueled by the fact that he is a stranger to me, I could only let out a little laugh while I replied a thanks.
+
+[i]Thank you so much ^^
+
+#*se quita el móvil y vuelta sólo fondo habitación hospital*
+A couple of days passed until, finally, what I was waiting most for finally happened.
+
+Every day they did blood tests on me, at first the blood indicated that I had white blood cells and CRP quite high, but since the fourth day it seems as if the values were going back to normal bit by bit.
+
+And one day, the surgeon gave me a visit.
+
+do show_character("felix", "izq")
+Felix: How is the girl?
+do show_character("mama", "derecha")
+do show_character("felixNoHabla", "izq")
+Mamá: Well, there she is, watching some tv.
+do show_character("mamaNoHabla", "derecha")
+do show_character("felix", "izq")
+Felix: And well? How do you go to the bathroom?
+do hide_character("derecha")
+This time he was talking to me.
+do show_character("kristine", "derecha", "hablaAlegre")
+do show_character("felixNoHabla", "izq")
+Kristine: Well, a bit difficult and uncomfortable, but I'm starting to get used to it.
+do show_character("kristine", "derecha", "sinHablar")
+do show_character("felix", "izq")
+Felix: That’s good. As for today’s tests, it seems that everything is in order. If tomorrow it stays like that, we would be able to discharge you on the 27 of this month. Either way, it will only happen if tomorrow’s ultrasound comes back fine.
+do show_character("felixNoHabla", "izq")
+
+As soon as he said those words I couldn't help but get emotional.
+do hide_character("izq")
+do hide_character("derecha")
+After 6 days in the hospital, with fatigue during the first few days, severe abdominal discomfort and relearning how to have a normal body within society, I was tired of staying there, although the staff were the best thing that could have happened to me because they were wonderful, I wished I could get home. I needed to get home.
+And one day later, it finally happened.
+
+do show_character("felix", "izq")
+Felix: Hello, family. The results of the ultrasound and the blood test came back fine. You don’t have anything inflamed; your white blood cell count and CRP are normal. What you do need to be careful with is the wound where you had the bag. You should clean it every day, and it’s very important that it is not exposed to the sun so it can heal properly.
+
+do hide_character("izq")
+After following the instructions the surgeon gave me, my parents were able to take care of the paperwork so that I could be discharged. 
+
+do set_background("negroo")
+Within a matter of hours, I was already at home. One could say with the same body as before, but that wouldn’t be entirely true, however, I was confident that, with time, I would get used to it again. At least, that’s what I hoped.
+
+A couple days later I gradually resumed my routine of going to classes, studying what was needed and doing the overdue assignments I still had pending, as well as the exams, of course.
+
+do set_background("habitacion1")
+do Audio.change_music(Audio.noviembre, -5)
+28th of November.
+When I woke up a new notification caught my attention. And to no one’s surprise, it was him.
+It was strange having to get used again to having messages from people, from a certain person.
+
+#*encima del fondo de habitacion mostrar movil y mensajes*
+[i]How has going back to classes been for you? And lots of encouragement today ^^
+[i]I’m wearing a black jacket because I thought today would be colder, and now I’m boiling.
+[i]Now it’s time to regret that decision HAKSAK 
+
+do set_background("fucsiaMuyOscuro") #n vez de negro que sea un poco mas rosa muyyy oscuro
+Even though he was a stranger to me, I couldn’t help but feel tenderness because of how he worried about me. And not only this time, because that would be one of the many times he would care about me.
+
+do set_background("negroo")
+Some exams were coming up, and clearly, my postoperative condition wasn’t going to stop me from taking them. However, I would be lying if I said that I didn’t find it a bit difficult to concentrate on studying.
+
+As the days went by, it became increasingly difficult for me to learn and understand various concepts in some subjects, but, for some reason, when I mentioned it to the guy I had started talking to just a few days ago, he would encourage me and tell me that I would get through it.
+
+Of course, I trust myself. I don’t need anyone’s encouragement, but I have to admit that it made me smile reading his response.”
+
+#*encima del fondo mostrar movil con mensajes*
+do Audio.play_sfx(Audio.notificacion)
+[i]Either way I’m sure you will get it once you practise 
+[i]I’m sure of it ^^
+
+Apart from hyping me up and wishing me luck every time I had to do an exam, we used to talk about trivial things; pets, musical tastes, hobbies, favourites videogames… 
+
+One day he realised he never got my name. And the way in which he asked was really funny.
+
+do set_background("habitacion1")
+#*fondo de habitación y encima móvil con mensajes estilo discord*
+do Audio.play_sfx(Audio.notificacion)
+[i]By the way, I never got around to ask you, what is your name? Because I doubt it is sparkly or light in Japanese.
+[i]Even though I find that nickname cute.
+
+Akari is the nickname that I use. It means, indeed, light in Japanese.
+
+[b]What should I tell him?[/b]
+- Answer and ask his name
+	do SistemaPuntos.cambiarPuntos("mateo", 2)
+	[i]Don’t worry, my name is Kristine
+	[i]I assume you’re Mateo?
+	It was easier for me to know thanks to the nickname he used; Mateo-x-path.
+	[i]Yess, but you can call me however you please ^^
+	do cargarSiguienteCap("cap3")
+- Avoid topic
+	do SistemaPuntos.cambiarPuntos("mateo", -0.5)
+	I didn’t want to respond to that question, so I told him that I found Akari to be a really pretty name.
+	It seems that the answer let him down a bit, but oh well, life continues.
+	do cargarSiguienteCap("cap3")
+- Lie to him 
+	do SistemaPuntos.cambiarPuntos("mateo", -1)
+	[i] You can call me Kris.
+	It wasn’t my name per se, but it wasn’t a lie that he could call me that if he so wishes...
+	do cargarSiguienteCap("cap3")
+=> END
