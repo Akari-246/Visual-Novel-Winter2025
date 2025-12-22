@@ -91,6 +91,9 @@ func _ready():
 	
 	IdiomaManager.idioma_cambiado.connect(_on_idioma_cambiado)
 	var ruta_dialogo := IdiomaManager.obtener_ruta_dialogo("inicio")
+	if not FileAccess.file_exists(ruta_dialogo):
+		push_warning("Traducción no disponible. Usando español.")
+		ruta_dialogo = "res://dialogos/es/inicio.dialogue"
 	dialogue_resource = load(ruta_dialogo)
 
 	DialogueManager.dialogue_ended.connect(_on_dialogue_ended)
@@ -130,10 +133,21 @@ func _ready():
 # ====== para idioma ======
 func _on_idioma_cambiado(nuevo_idioma: String):
 	# Actualizar textos del menú de pausa
-	continuar.text = tr("MENU_CONTINUAR")
-	salir.text = tr("MENU_SALIR")
-	opciones.text = tr("MENU_OPCIONES")
-
+	continuar.text = tr("ui_continuar")
+	salir.text = tr("ui_salir")
+	opciones.text = tr("ui_opciones")
+	
+	if opSubMenu.has_node("opciones/exit"): # Actualizar botón salir del submenú
+		opSubMenu.get_node("opciones/exit").text = tr("ui_volver")
+	
+	if opSubMenu.has_node("TabContainer"):# Actualizar tabs si existen
+		var tabs = opSubMenu.get_node("TabContainer")
+		for i in range(tabs.get_tab_count()):# Actualizar nombres de tabs
+			var tab_name = tabs.get_tab_control(i).name
+			if tab_name == "idioma":
+				tabs.set_tab_title(i, tr("MENU_IDIOMA"))
+			elif tab_name == "audio":
+				tabs.set_tab_title(i, tr("MENU_AUDIO"))
 
 # ====== DIALOGO ======
 func start_dialogue():
@@ -275,6 +289,8 @@ func _on_dialogue_ended(_resource: DialogueResource):
 func cargarSiguienteCap(nombreCap: String):
 	await get_tree().create_timer(0.5).timeout
 	var ruta := IdiomaManager.obtener_ruta_dialogo(nombreCap)
+	if not FileAccess.file_exists(ruta):
+		ruta = "res://dialogos/es/" +nombreCap+ ".dialogue"
 	dialogue_resource = load(ruta)
 	#dialogue_resource = load("res://dialogos/" + nombreCap + ".dialogue")
 	balloon_actual = DialogueManager.show_example_dialogue_balloon(dialogue_resource, "start")
@@ -286,6 +302,8 @@ func inicioMaxNegativos():
 func cargarFinal(nombreFinal: String):
 	await get_tree().create_timer(0.5).timeout
 	var ruta:= IdiomaManager.obtener_ruta_dialogo("finales")
+	if not FileAccess.file_exists(ruta):
+		ruta = "res://dialogos/es/finales.dialogue"
 	dialogue_resource = load(ruta)
 	#dialogue_resource = load("res://dialogos/finales.dialogue")
 	balloon_actual = DialogueManager.show_example_dialogue_balloon(dialogue_resource, nombreFinal)

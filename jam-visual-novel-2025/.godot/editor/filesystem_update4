@@ -8,3 +8,6 @@ res://scripts/sistemaPuntos.gd
 res://escenas/menu.tscn
 res://scripts/idiomas.gd
 res://scripts/selectorIdiomas.gd
+res://traducciones/traduccion.es.translation
+res://traducciones/traduccion.en.translation
+res://scripts/menu_op.gd

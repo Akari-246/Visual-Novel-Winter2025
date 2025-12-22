@@ -3,6 +3,7 @@ Has llegado al final de la historia.
 => END
 
 ~ finalCanon
+do Audio.change_music(Audio.finalCanon, 0)
 do set_background("negroo")
 La anterior navidad no la pasé muy bien que digamos por culpa de las disputas familiares. Esta vez, este año no sería diferente, además, mi abuelo había fallecido, por lo que era peor que el anterior. Y a eso sumándole el hecho de que habían tenido que operarme de nuevo no hace mucho por urgencia; sepsis y peritonitis de nuevo.
 Pensé que estas vacaciones serían de las peores, pero, en cierta parte, me equivoqué.
@@ -21,7 +22,6 @@ do show_character("kristine", "derecha", "sinHablar")
 Al entrar en el portal de mi casa junto a mi acompañante para refugiarnos del frío, noté que me quería decir algo.
 Le di el tiempo necesario para que hablara. Intentaba mirarlo con cariño y no con curiosidad.
 El portal estaba decorado con un muñeco de nieve de plástico y varias cajas que simulaban ser regalos. Arriba del ascensor había un letrero en el que ponía “Feliz Navidad”. Intenté enfocarme en el decorado para no ponerlo nervioso.
-
 
 do show_character("mateo", "izq", "hablaAlegre")
 Mateo: Quiero darte algo. De parte de mi madre y mía, claro.
@@ -99,6 +99,7 @@ Ahora sí, me despido de ti, querido jugador.
 # ========================================
 ~ finalMalo
 do set_background("negroo")
+do Audio.change_music(Audio.finalMalo, 0)
 Sin embargo, sucedió algo que no esperaba. O quizá sí, pero no quise reconocerlo.
 
 Justo cuando creí que iba a ser más cercana a Mateo, con el paso del tiempo, comenzó a hablarme menos.
@@ -130,6 +131,7 @@ do set_background("negroo")
 => opGameOver
 
 ~ soloAmigos
+do Audio.change_music(Audio.finalAmigos, 0)
 do set_background("negroo")
 No. Por supuesto que no.
 ¿Y si me rechaza? ¿Y si luego nuestra amistad no vuelve a ser la misma?
@@ -158,6 +160,7 @@ Ojalá hubiera tenido el valor suficiente para admitir la realidad...
 => opGameOver
 
 ~ finalCobarde
+do Audio.change_music(Audio.finalCobarde, 0)
 do show_character("mateo", "izq", "hablaPreocupado")
 do show_character("kristine", "derecha", "seria")
 Mateo: Oye, ¿te pasa algo?
@@ -197,6 +200,7 @@ Por suerte, fuimos amigos por mucho tiempo, pero, muy dentro de mí, me hubiera 
 => opGameOver
 
 ~ demasiadasMentiras
+do Audio.change_music(Audio.finalMentiras, 0)
 ¡Oh, no!
 do hide_character("izq")
 do hide_character("derecha")
@@ -257,6 +261,7 @@ Perdí una gran amistad que pudo llegar a algo más...
 # COSOS
 # ========================================
 ~ opGameOver
+do Audio.stop_music()
 [center]Elige una opción[/center]
 - Volver a intentar 
 	=> reintentar
@@ -287,6 +292,7 @@ do set_background("negroo")
 [center]¡Gracias por jugar! \n :D[/center]
 [wait=2.0]
 
+do Audio.stop_music()
 - Volver al menú principal 
 	=> menu
 - Volver a jugar 

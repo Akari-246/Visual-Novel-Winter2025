@@ -437,4 +437,5 @@ libraries = {
 [connection signal="pressed" from="SkipBtn" to="." method="_on_skip_btn_pressed"]
 [connection signal="pressed" from="menuPausa/Panel/VBoxContainer/continuar" to="." method="_on_continuar_pressed"]
 [connection signal="pressed" from="menuPausa/Panel/VBoxContainer/op" to="." method="_on_op_pressed"]
+[connection signal="pressed" from="menuPausa/MenuOp/PanelContainer/opciones/TabContainer/idioma/OptionButton" to="menuPausa/MenuOp" method="_on_option_button_pressed"]
 [connection signal="pressed" from="menuPausa/MenuOp/PanelContainer/opciones/exit" to="." method="_on_exit_pressed"]
