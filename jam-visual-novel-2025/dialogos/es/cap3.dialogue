@@ -70,6 +70,7 @@ Ya casi era invierno y quedaba poco para las vacaciones de Navidad. Aquello era 
 
 do set_background("clase")
 Estaba pensando bastante, demasiado si soy sincera, por su culpa.
+Todo debido a un mensaje suyo...
 
 #*encima del fondo mostrar pc y mensajes*
 [i]Hoy salgo 1 hora antes, pero me quedo en clase para esperarte luego ^^
@@ -112,6 +113,7 @@ Al final el profesor terminó con su explicación y, dado que ya eran las 14:30,
 Todos comenzaron a recoger sus cosas, incluida yo, pero, a diferencia del resto, lo hacía más lento. Necesitaba tomarme mi tiempo para asimilar que iba a tener que socializar un poco más.
 
 do set_background("calleDia")
+do Audio.change_music(Audio.primeraQuedada, -2)
 Casi 10 minutos después salí del centro y lo encontré ahí.
 Tal y como dijo antes, estaba esperándome casi en la entrada.
 Al verme, me saludó.
@@ -374,6 +376,7 @@ else:
 	Justamente al llegar a mi casa recibí una notificación:
 
 	#*movil ya como si fuera whatsapp*
+	do Audio.play_sfx(Audio.notificacion)
 	[i]Holaaaa soy Mateo
 
 	Al verlo, por alguna razón, sonreí al instante. Y le respondí, por supuesto.
@@ -403,6 +406,8 @@ else:
 	Me levanté de la cama y, una vez lista, me dirigí a clases con los apuntes en mano.
 
 	do set_background("clase")
+	#aqui cambiop musica
+	do Audio.change_music(Audio.momentoMareo, -1)
 	Mientras hacía el examen, comencé a notar algunos mareos, pero no le di importancia. Lo que no sabía era que aquello sería la peor decisión que tomaría.
 
 	Empiezo a encontrarme muy rara...

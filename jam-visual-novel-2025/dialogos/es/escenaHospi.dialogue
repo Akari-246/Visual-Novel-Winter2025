@@ -14,7 +14,7 @@ Me estaba acostumbrando, de nuevo, a vivir de forma distinta, tal y como vivía 
 Poco a poco iba mejorando, lo cual subió mi estado de ánimo, lo suficiente como para revisar los mensajes que tenía y responder a todos.
 Uno se llevó mi especial atención. O, mejor dicho, varios.
 
-Era él.
+Eran de él.
 
 #*encima del fondo de habitación de hospital mostrar móvil y mensajes estilo discord*
 20/11
@@ -38,6 +38,7 @@ Al menos no hace relativamente mucho que lo envió.
 Iba a dejar el móvil para dormir, pero vi que enseguida respondió.
 Dado que estaba en el hospital, quería distraerme, así que me quedé esperando a que terminara de escribir para responder. 
 
+do Audio.play_sfx(Audio.notificacion)
 [i]No pidas perdón. Lo importante es que estés bien y todo haya ido bien ^^
 [i]A darle duro con más ganas y mucho animoooo
 [i]Por cierto, me alegra saber que estás bien ^^ 
@@ -89,7 +90,7 @@ En cuestión de horas ya estaba en casa. Se podría decir con el cuerpo de antes
 Pocos días después fui retomando la rutina de ir a clases, estudiar lo necesario y hacer las tareas atrasadas que tenía pendientes, además de los exámenes, claro.
 
 do set_background("habitacion1")
-do Audio.change_music(Audio.noviembre)
+do Audio.change_music(Audio.noviembre, -5)
 28 de noviembre.
 Al despertarme me fijé que tenía una nueva notificación. Cómo no, de él.
 Era raro empezar de nuevo a acostumbrarme a tener mensajes de una persona, de cierta persona.
@@ -110,6 +111,7 @@ Conforme pasaban los días, más me costaba aprender y entender varios conceptos
 Por supuesto que confío en mí. No necesito ánimos de nadie, pero debo admitir que me sacaba una sonrisa al leerlo.
 
 #*encima del fondo mostrar movil con mensajes*
+do Audio.play_sfx(Audio.notificacion)
 [i]De todas formas estoy convencido que lo sacarás una vez lo practiques 
 [i]Estoy seguro de ello ^^
 
@@ -119,6 +121,7 @@ Un día cayó en cuenta de que no sabía mi nombre.Y fue gracioso la manera en l
 
 do set_background("habitacion1")
 #*fondo de habitación y encima móvil con mensajes estilo discord*
+do Audio.play_sfx(Audio.notificacion)
 [i]Por cierto, en su momento no te pregunté, ¿cómo te llamas? Porque brillante o luz en japonés no creo que sea.
 [i]Aunque me parece un bonito apodo.
 

@@ -11,10 +11,12 @@ Me tomé una pastilla con la esperanza de que el malestar se fuera, pero, aunque
 Creo que el profesor preguntó cómo estaba, pero no lo escuché bien por lo que no contesté. Ni siquiera podía pensar bien.
 
 Quería ir al baño.
+do Audio.change_music(Audio.desmayada, 0)
 Me levanté, pero al hacerlo el mundo comenzó a girar y todo se veía borroso.
 Por instinto, me apoyé en la mesa que tenía cerca y caminé hacia la salida, pero, cuando menos lo esperé, mi cuerpo empezó a caer, de no ser por el profesor, quien notó mi malestar, sí me habría caído al suelo. Me agarró de los hombros y me ayudó a salir al pasillo.
 
 ~ seSalta
+do Audio.change_music(Audio.desmayada, 0)
 Pasó un rato y seguía mareada, pero ya estaba tumbada en un sofá que tenían en el pasillo. 
 Por suerte, el profesor y unos compañeros me ayudaron y estuvieron conmigo hasta que mi padre llegara para acompañarme a casa.
 
@@ -45,6 +47,7 @@ do hide_character("centro")
 do set_background("habitacionMasOscura")
 Tal y como dijo, Mateo me acompañó hasta mi casa.
 do hide_character("izq")
+do Audio.change_music(Audio.despuesMareo, 0)
 Una vez se aseguró de que estaba mejor, se fue. Pero eso no quitó el hecho de que estuvo conmigo alrededor de media hora. En mi casa. Cuando él debía coger un autobús para llegar a la suya y, si se retrasaba, lo perdería.
 
 Le dije que no hacía falta que se quedara conmigo, pero lo único que dijo fue:
@@ -58,6 +61,7 @@ Si ya hablábamos a menudo, después de aquello intenté hablar mucho más con �
 En mis pensamientos solía aparecer Mateo y todo lo que pudiera estar relacionado con él.
 
 do set_background("habitacionAtardecer")
+do Audio.change_music(Audio.aceptandoSentimientos, 0)
 Sin darme cuenta y sin siquiera notarlo, un día de invierno, escribí algo. Algo que explicaba exactamente lo que sentía. Y no me costó hacerlo, no se me dificultó expresar todo lo que tenía adentro y de lo que no me percaté.
 
 Le escribí una carta a Mateo y, mientras escribía, ni siquiera era consciente de lo que hacía, no hasta que lo terminé y leí.
