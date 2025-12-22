@@ -1,0 +1,1662 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" uid="uid://dbs4435dsf3ry" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_vyq38"]
+
+[resource]
+script = ExtResource("1_vyq38")
+using_states = PackedStringArray()
+titles = {
+"start": "1"
+}
+character_names = PackedStringArray("Felix", "Mamá", "Kristine")
+first_title = "0"
+lines = {
+"0": {
+&"id": "0",
+&"next_id": "1",
+&"type": "title"
+},
+"1": {
+&"id": "1",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "negroo"
+}, {
+&"i": 26,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "2",
+&"type": "mutation"
+},
+"10": {
+&"id": "10",
+&"next_id": "11",
+&"type": ""
+},
+"100": {
+&"id": "100",
+&"next_id": "102",
+&"text": "[i]Now it’s time to regret that decision HAKSAK",
+&"type": "dialogue"
+},
+"101": {
+&"id": "101",
+&"next_id": "102",
+&"type": ""
+},
+"102": {
+&"id": "102",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "fucsiaMuyOscuro"
+}, {
+&"i": 35,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "103",
+&"type": "mutation"
+},
+"103": {
+&"id": "103",
+&"next_id": "105",
+&"text": "Even though he was a stranger to me, I couldn’t help but feel tenderness because of how he worried about me. And not only this time, because that would be one of the many times he would care about me.",
+&"type": "dialogue"
+},
+"104": {
+&"id": "104",
+&"next_id": "105",
+&"type": ""
+},
+"105": {
+&"id": "105",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "negroo"
+}, {
+&"i": 26,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "106",
+&"type": "mutation"
+},
+"106": {
+&"id": "106",
+&"next_id": "108",
+&"text": "Some exams were coming up, and clearly, my postoperative condition wasn’t going to stop me from taking them. However, I would be lying if I said that I didn’t find it a bit difficult to concentrate on studying.",
+&"type": "dialogue"
+},
+"107": {
+&"id": "107",
+&"next_id": "108",
+&"type": ""
+},
+"108": {
+&"id": "108",
+&"next_id": "110",
+&"text": "As the days went by, it became increasingly difficult for me to learn and understand various concepts in some subjects, but, for some reason, when I mentioned it to the guy I had started talking to just a few days ago, he would encourage me and tell me that I would get through it.",
+&"type": "dialogue"
+},
+"109": {
+&"id": "109",
+&"next_id": "110",
+&"type": ""
+},
+"11": {
+&"id": "11",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "habitacionHospital"
+}, {
+&"i": 38,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "12",
+&"type": "mutation"
+},
+"110": {
+&"id": "110",
+&"next_id": "113",
+&"text": "Of course, I trust myself. I don’t need anyone’s encouragement, but I have to admit that it made me smile reading his response.”",
+&"type": "dialogue"
+},
+"112": {
+&"id": "112",
+&"next_id": "113",
+&"type": ""
+},
+"113": {
+&"id": "113",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"i": 3,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 8,
+&"type": &"dot"
+}, {
+&"function": "play_sfx",
+&"i": 9,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 23,
+&"type": &"dot"
+}, {
+&"i": 24,
+&"type": &"variable",
+&"value": "notificacion"
+}, {
+&"i": 36,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "114",
+&"type": "mutation"
+},
+"114": {
+&"id": "114",
+&"next_id": "115",
+&"text": "[i]Either way I’m sure you will get it once you practise",
+&"type": "dialogue"
+},
+"115": {
+&"id": "115",
+&"next_id": "117",
+&"text": "[i]I’m sure of it ^^",
+&"type": "dialogue"
+},
+"116": {
+&"id": "116",
+&"next_id": "117",
+&"type": ""
+},
+"117": {
+&"id": "117",
+&"next_id": "119",
+&"text": "Apart from hyping me up and wishing me luck every time I had to do an exam, we used to talk about trivial things; pets, musical tastes, hobbies, favourites videogames…",
+&"type": "dialogue"
+},
+"118": {
+&"id": "118",
+&"next_id": "119",
+&"type": ""
+},
+"119": {
+&"id": "119",
+&"next_id": "121",
+&"text": "One day he realised he never got my name. And the way in which he asked was really funny.",
+&"type": "dialogue"
+},
+"12": {
+&"id": "12",
+&"next_id": "13",
+&"text": "I was getting used, again, to live in a different way, the same way I used to live before the puncture that I had.",
+&"type": "dialogue"
+},
+"120": {
+&"id": "120",
+&"next_id": "121",
+&"type": ""
+},
+"121": {
+&"id": "121",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "habitacion1"
+}, {
+&"i": 31,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "123",
+&"type": "mutation"
+},
+"122": {
+&"id": "122",
+&"next_id": "123",
+&"type": ""
+},
+"123": {
+&"id": "123",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"i": 3,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 8,
+&"type": &"dot"
+}, {
+&"function": "play_sfx",
+&"i": 9,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 23,
+&"type": &"dot"
+}, {
+&"i": 24,
+&"type": &"variable",
+&"value": "notificacion"
+}, {
+&"i": 36,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "124",
+&"type": "mutation"
+},
+"124": {
+&"id": "124",
+&"next_id": "125",
+&"text": "[i]By the way, I never got around to ask you, what is your name? Because I doubt it is sparkly or light in Japanese.",
+&"type": "dialogue"
+},
+"125": {
+&"id": "125",
+&"next_id": "127",
+&"text": "[i]Even though I find that nickname cute.",
+&"type": "dialogue"
+},
+"126": {
+&"id": "126",
+&"next_id": "127",
+&"type": ""
+},
+"127": {
+&"id": "127",
+&"next_id": "129",
+&"text": "Akari is the nickname that I use. It means, indeed, light in Japanese.",
+&"type": "dialogue"
+},
+"128": {
+&"id": "128",
+&"next_id": "129",
+&"type": ""
+},
+"129": {
+&"id": "129",
+&"next_id": "130",
+&"text": "[b]What should I tell him?[/b]",
+&"type": "dialogue"
+},
+"13": {
+&"id": "13",
+&"next_id": "14",
+&"text": "Bit by bit I was getting better, which helped improve my mood, enough so that I could look over the messages I had and reply to them all.",
+&"type": "dialogue"
+},
+"130": {
+&"id": "130",
+&"next_id": "131",
+&"responses": PackedStringArray("130", "137", "142"),
+&"text": "Answer and ask his name",
+&"type": "response"
+},
+"131": {
+&"id": "131",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"i": 3,
+&"type": &"variable",
+&"value": "SistemaPuntos"
+}, {
+&"i": 16,
+&"type": &"dot"
+}, {
+&"function": "cambiarPuntos",
+&"i": 17,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 31,
+&"type": &"string",
+&"value": "mateo"
+}]), Array[Dictionary]([{
+&"i": 40,
+&"type": &"number",
+&"value": 2
+}, {
+&"i": 41,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "132",
+&"type": "mutation"
+},
+"132": {
+&"id": "132",
+&"next_id": "133",
+&"text": "[i]Don’t worry, my name is Kristine",
+&"type": "dialogue"
+},
+"133": {
+&"id": "133",
+&"next_id": "134",
+&"text": "[i]I assume you’re Mateo?",
+&"type": "dialogue"
+},
+"134": {
+&"id": "134",
+&"next_id": "135",
+&"text": "It was easier for me to know thanks to the nickname he used; Mateo-x-path.",
+&"type": "dialogue"
+},
+"135": {
+&"id": "135",
+&"next_id": "136",
+&"text": "[i]Yess, but you can call me however you please ^^",
+&"type": "dialogue"
+},
+"136": {
+&"id": "136",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "cargarSiguienteCap",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 22,
+&"type": &"string",
+&"value": "cap3"
+}, {
+&"i": 28,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "147",
+&"type": "mutation"
+},
+"137": {
+&"id": "137",
+&"next_id": "138",
+&"text": "Avoid topic",
+&"type": "response"
+},
+"138": {
+&"id": "138",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"i": 3,
+&"type": &"variable",
+&"value": "SistemaPuntos"
+}, {
+&"i": 16,
+&"type": &"dot"
+}, {
+&"function": "cambiarPuntos",
+&"i": 17,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 31,
+&"type": &"string",
+&"value": "mateo"
+}]), Array[Dictionary]([{
+&"i": 40,
+&"type": &"number",
+&"value": -0.5
+}, {
+&"i": 44,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "139",
+&"type": "mutation"
+},
+"139": {
+&"id": "139",
+&"next_id": "140",
+&"text": "I didn’t want to respond to that question, so I told him that I found Akari to be a really pretty name.",
+&"type": "dialogue"
+},
+"14": {
+&"id": "14",
+&"next_id": "16",
+&"text": "One caught my eye. Or, rather, several of them.",
+&"type": "dialogue"
+},
+"140": {
+&"id": "140",
+&"next_id": "141",
+&"text": "It seems that the answer let him down a bit, but oh well, life continues.",
+&"type": "dialogue"
+},
+"141": {
+&"id": "141",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "cargarSiguienteCap",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 22,
+&"type": &"string",
+&"value": "cap3"
+}, {
+&"i": 28,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "147",
+&"type": "mutation"
+},
+"142": {
+&"id": "142",
+&"next_id": "143",
+&"text": "Lie to him",
+&"type": "response"
+},
+"143": {
+&"id": "143",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"i": 3,
+&"type": &"variable",
+&"value": "SistemaPuntos"
+}, {
+&"i": 16,
+&"type": &"dot"
+}, {
+&"function": "cambiarPuntos",
+&"i": 17,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 31,
+&"type": &"string",
+&"value": "mateo"
+}]), Array[Dictionary]([{
+&"i": 40,
+&"type": &"number",
+&"value": -1
+}, {
+&"i": 42,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "144",
+&"type": "mutation"
+},
+"144": {
+&"id": "144",
+&"next_id": "145",
+&"text": "[i] You can call me Kris.",
+&"type": "dialogue"
+},
+"145": {
+&"id": "145",
+&"next_id": "146",
+&"text": "It wasn’t my name per se, but it wasn’t a lie that he could call me that if he so wishes...",
+&"type": "dialogue"
+},
+"146": {
+&"id": "146",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "cargarSiguienteCap",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 22,
+&"type": &"string",
+&"value": "cap3"
+}, {
+&"i": 28,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "147",
+&"type": "mutation"
+},
+"147": {
+&"id": "147",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"148": {
+&"id": "148",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"15": {
+&"id": "15",
+&"next_id": "16",
+&"type": ""
+},
+"16": {
+&"id": "16",
+&"next_id": "19",
+&"text": "It was him.",
+&"type": "dialogue"
+},
+"18": {
+&"id": "18",
+&"next_id": "19",
+&"type": ""
+},
+"19": {
+&"id": "19",
+&"next_id": "20",
+&"text": "11/20",
+&"type": "dialogue"
+},
+"2": {
+&"id": "2",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "hide_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "izq"
+}, {
+&"i": 23,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "3",
+&"type": "mutation"
+},
+"20": {
+&"id": "20",
+&"next_id": "21",
+&"text": "[i]How’s the exam coming along??[/i]",
+&"type": "dialogue"
+},
+"21": {
+&"id": "21",
+&"next_id": "23",
+&"text": "[i]Things are coming, we have to submit some projects and do presentations in 2 weeks, let’s see how that goes",
+&"type": "dialogue"
+},
+"22": {
+&"id": "22",
+&"next_id": "23",
+&"type": ""
+},
+"23": {
+&"id": "23",
+&"next_id": "24",
+&"text": "11/22",
+&"type": "dialogue"
+},
+"24": {
+&"id": "24",
+&"next_id": "25",
+&"text": "[i]Hii",
+&"type": "dialogue"
+},
+"25": {
+&"id": "25",
+&"next_id": "26",
+&"text": "[i]Sorry for the message, yesterday I found out you didn’t come and I wanted to know how you were doing",
+&"type": "dialogue"
+},
+"26": {
+&"id": "26",
+&"next_id": "27",
+&"text": "[i]Are you ok?",
+&"type": "dialogue"
+},
+"27": {
+&"id": "27",
+&"next_id": "29",
+&"text": "[i]If you’re not, I hope you get better soon and that it’s nothing serious ^^",
+&"type": "dialogue"
+},
+"28": {
+&"id": "28",
+&"next_id": "29",
+&"type": ""
+},
+"29": {
+&"id": "29",
+&"next_id": "30",
+&"text": "Oh, I hope he doesn’t get mad if I reply to him now.",
+&"type": "dialogue"
+},
+"3": {
+&"id": "3",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "hide_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "derecha"
+}, {
+&"i": 27,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "4",
+&"type": "mutation"
+},
+"30": {
+&"id": "30",
+&"next_id": "32",
+&"text": "At least it hasn’t been too long since he sent that.",
+&"type": "dialogue"
+},
+"31": {
+&"id": "31",
+&"next_id": "32",
+&"type": ""
+},
+"32": {
+&"id": "32",
+&"next_id": "33",
+&"text": "11/24",
+&"type": "dialogue"
+},
+"33": {
+&"id": "33",
+&"next_id": "34",
+&"text": "[i]Sorry, I just saw your messages",
+&"type": "dialogue"
+},
+"34": {
+&"id": "34",
+&"next_id": "35",
+&"text": "[i]I’m fine,I will probably be back next week ^^",
+&"type": "dialogue"
+},
+"35": {
+&"id": "35",
+&"next_id": "37",
+&"text": "[i]And don’t worry, I’m sure the presentations will go well",
+&"type": "dialogue"
+},
+"36": {
+&"id": "36",
+&"next_id": "37",
+&"type": ""
+},
+"37": {
+&"id": "37",
+&"next_id": "38",
+&"text": "I was going to put down my phone and sleep, but I saw that he had already replied.",
+&"type": "dialogue"
+},
+"38": {
+&"id": "38",
+&"next_id": "40",
+&"text": "Given that I was in the hospital, I wanted a distraction, so I waited for him to finish writing to reply.",
+&"type": "dialogue"
+},
+"39": {
+&"id": "39",
+&"next_id": "40",
+&"type": ""
+},
+"4": {
+&"id": "4",
+&"next_id": "6",
+&"text": "I did what I was told by the anesthesiologist and, in a couple minutes, I fell asleep.",
+&"type": "dialogue"
+},
+"40": {
+&"id": "40",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"i": 3,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 8,
+&"type": &"dot"
+}, {
+&"function": "play_sfx",
+&"i": 9,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 23,
+&"type": &"dot"
+}, {
+&"i": 24,
+&"type": &"variable",
+&"value": "notificacion"
+}, {
+&"i": 36,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "41",
+&"type": "mutation"
+},
+"41": {
+&"id": "41",
+&"next_id": "42",
+&"text": "[i]Don’t say sorry. What’s important is that you’re ok and that everything has gone well ^^",
+&"type": "dialogue"
+},
+"42": {
+&"id": "42",
+&"next_id": "43",
+&"text": "[i]Give it your all with more energy and lots of encouragementttt",
+&"type": "dialogue"
+},
+"43": {
+&"id": "43",
+&"next_id": "45",
+&"text": "[i]By the way, I’m happy that you’re fine ^^",
+&"type": "dialogue"
+},
+"44": {
+&"id": "44",
+&"next_id": "45",
+&"type": ""
+},
+"45": {
+&"id": "45",
+&"next_id": "47",
+&"text": "In the face of that strange concern, fueled by the fact that he is a stranger to me, I could only let out a little laugh while I replied a thanks.",
+&"type": "dialogue"
+},
+"46": {
+&"id": "46",
+&"next_id": "47",
+&"type": ""
+},
+"47": {
+&"id": "47",
+&"next_id": "50",
+&"text": "[i]Thank you so much ^^",
+&"type": "dialogue"
+},
+"49": {
+&"id": "49",
+&"next_id": "50",
+&"type": ""
+},
+"5": {
+&"id": "5",
+&"next_id": "6",
+&"type": ""
+},
+"50": {
+&"id": "50",
+&"next_id": "52",
+&"text": "A couple of days passed until, finally, what I was waiting most for finally happened.",
+&"type": "dialogue"
+},
+"51": {
+&"id": "51",
+&"next_id": "52",
+&"type": ""
+},
+"52": {
+&"id": "52",
+&"next_id": "54",
+&"text": "Every day they did blood tests on me, at first the blood indicated that I had white blood cells and CRP quite high, but since the fourth day it seems as if the values were going back to normal bit by bit.",
+&"type": "dialogue"
+},
+"53": {
+&"id": "53",
+&"next_id": "54",
+&"type": ""
+},
+"54": {
+&"id": "54",
+&"next_id": "56",
+&"text": "And one day, the surgeon gave me a visit.",
+&"type": "dialogue"
+},
+"55": {
+&"id": "55",
+&"next_id": "56",
+&"type": ""
+},
+"56": {
+&"id": "56",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "felix"
+}]), Array[Dictionary]([{
+&"i": 27,
+&"type": &"string",
+&"value": "izq"
+}, {
+&"i": 32,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "57",
+&"type": "mutation"
+},
+"57": {
+&"character": "Felix",
+&"id": "57",
+&"next_id": "58",
+&"text": "How is the girl?",
+&"type": "dialogue"
+},
+"58": {
+&"id": "58",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "mama"
+}]), Array[Dictionary]([{
+&"i": 26,
+&"type": &"string",
+&"value": "derecha"
+}, {
+&"i": 35,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "59",
+&"type": "mutation"
+},
+"59": {
+&"id": "59",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "felixNoHabla"
+}]), Array[Dictionary]([{
+&"i": 34,
+&"type": &"string",
+&"value": "izq"
+}, {
+&"i": 39,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "60",
+&"type": "mutation"
+},
+"6": {
+&"id": "6",
+&"next_id": "7",
+&"text": "Just how they told me, everything went smoothly.",
+&"type": "dialogue"
+},
+"60": {
+&"character": "Mamá",
+&"id": "60",
+&"next_id": "61",
+&"text": "Well, there she is, watching some tv.",
+&"type": "dialogue"
+},
+"61": {
+&"id": "61",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "mamaNoHabla"
+}]), Array[Dictionary]([{
+&"i": 33,
+&"type": &"string",
+&"value": "derecha"
+}, {
+&"i": 42,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "62",
+&"type": "mutation"
+},
+"62": {
+&"id": "62",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "felix"
+}]), Array[Dictionary]([{
+&"i": 27,
+&"type": &"string",
+&"value": "izq"
+}, {
+&"i": 32,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "63",
+&"type": "mutation"
+},
+"63": {
+&"character": "Felix",
+&"id": "63",
+&"next_id": "64",
+&"text": "And well? How do you go to the bathroom?",
+&"type": "dialogue"
+},
+"64": {
+&"id": "64",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "hide_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "derecha"
+}, {
+&"i": 27,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "65",
+&"type": "mutation"
+},
+"65": {
+&"id": "65",
+&"next_id": "66",
+&"text": "This time he was talking to me.",
+&"type": "dialogue"
+},
+"66": {
+&"id": "66",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "kristine"
+}]), Array[Dictionary]([{
+&"i": 30,
+&"type": &"string",
+&"value": "derecha"
+}]), Array[Dictionary]([{
+&"i": 41,
+&"type": &"string",
+&"value": "hablaAlegre"
+}, {
+&"i": 54,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "67",
+&"type": "mutation"
+},
+"67": {
+&"id": "67",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "felixNoHabla"
+}]), Array[Dictionary]([{
+&"i": 34,
+&"type": &"string",
+&"value": "izq"
+}, {
+&"i": 39,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "68",
+&"type": "mutation"
+},
+"68": {
+&"character": "Kristine",
+&"id": "68",
+&"next_id": "69",
+&"text": "Well, a bit difficult and uncomfortable, but I'm starting to get used to it.",
+&"type": "dialogue"
+},
+"69": {
+&"id": "69",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "kristine"
+}]), Array[Dictionary]([{
+&"i": 30,
+&"type": &"string",
+&"value": "derecha"
+}]), Array[Dictionary]([{
+&"i": 41,
+&"type": &"string",
+&"value": "sinHablar"
+}, {
+&"i": 52,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "70",
+&"type": "mutation"
+},
+"7": {
+&"id": "7",
+&"next_id": "9",
+&"text": "The only problem was that I needed to stay a couple days in the hospital, Felix said between 5 and 8 days, and I wanted to go to class, however, I needed to understand that everything was just a matter of time before I could go back.",
+&"type": "dialogue"
+},
+"70": {
+&"id": "70",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "felix"
+}]), Array[Dictionary]([{
+&"i": 27,
+&"type": &"string",
+&"value": "izq"
+}, {
+&"i": 32,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "71",
+&"type": "mutation"
+},
+"71": {
+&"character": "Felix",
+&"id": "71",
+&"next_id": "72",
+&"text": "That’s good. As for today’s tests, it seems that everything is in order. If tomorrow it stays like that, we would be able to discharge you on the 27 of this month. Either way, it will only happen if tomorrow’s ultrasound comes back fine.",
+&"type": "dialogue"
+},
+"72": {
+&"id": "72",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "felixNoHabla"
+}]), Array[Dictionary]([{
+&"i": 34,
+&"type": &"string",
+&"value": "izq"
+}, {
+&"i": 39,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "74",
+&"type": "mutation"
+},
+"73": {
+&"id": "73",
+&"next_id": "74",
+&"type": ""
+},
+"74": {
+&"id": "74",
+&"next_id": "75",
+&"text": "As soon as he said those words I couldn't help but get emotional.",
+&"type": "dialogue"
+},
+"75": {
+&"id": "75",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "hide_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "izq"
+}, {
+&"i": 23,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "76",
+&"type": "mutation"
+},
+"76": {
+&"id": "76",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "hide_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "derecha"
+}, {
+&"i": 27,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "77",
+&"type": "mutation"
+},
+"77": {
+&"id": "77",
+&"next_id": "78",
+&"text": "After 6 days in the hospital, with fatigue during the first few days, severe abdominal discomfort and relearning how to have a normal body within society, I was tired of staying there, although the staff were the best thing that could have happened to me because they were wonderful, I wished I could get home. I needed to get home.",
+&"type": "dialogue"
+},
+"78": {
+&"id": "78",
+&"next_id": "80",
+&"text": "And one day later, it finally happened.",
+&"type": "dialogue"
+},
+"79": {
+&"id": "79",
+&"next_id": "80",
+&"type": ""
+},
+"8": {
+&"id": "8",
+&"next_id": "9",
+&"type": ""
+},
+"80": {
+&"id": "80",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "felix"
+}]), Array[Dictionary]([{
+&"i": 27,
+&"type": &"string",
+&"value": "izq"
+}, {
+&"i": 32,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "81",
+&"type": "mutation"
+},
+"81": {
+&"character": "Felix",
+&"id": "81",
+&"next_id": "83",
+&"text": "Hello, family. The results of the ultrasound and the blood test came back fine. You don’t have anything inflamed; your white blood cell count and CRP are normal. What you do need to be careful with is the wound where you had the bag. You should clean it every day, and it’s very important that it is not exposed to the sun so it can heal properly.",
+&"type": "dialogue"
+},
+"82": {
+&"id": "82",
+&"next_id": "83",
+&"type": ""
+},
+"83": {
+&"id": "83",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "hide_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "izq"
+}, {
+&"i": 23,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "84",
+&"type": "mutation"
+},
+"84": {
+&"id": "84",
+&"next_id": "86",
+&"text": "After following the instructions the surgeon gave me, my parents were able to take care of the paperwork so that I could be discharged.",
+&"type": "dialogue"
+},
+"85": {
+&"id": "85",
+&"next_id": "86",
+&"type": ""
+},
+"86": {
+&"id": "86",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "negroo"
+}, {
+&"i": 26,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "87",
+&"type": "mutation"
+},
+"87": {
+&"id": "87",
+&"next_id": "89",
+&"text": "Within a matter of hours, I was already at home. One could say with the same body as before, but that wouldn’t be entirely true, however, I was confident that, with time, I would get used to it again. At least, that’s what I hoped.",
+&"type": "dialogue"
+},
+"88": {
+&"id": "88",
+&"next_id": "89",
+&"type": ""
+},
+"89": {
+&"id": "89",
+&"next_id": "91",
+&"text": "A couple days later I gradually resumed my routine of going to classes, studying what was needed and doing the overdue assignments I still had pending, as well as the exams, of course.",
+&"type": "dialogue"
+},
+"9": {
+&"id": "9",
+&"next_id": "11",
+&"text": "3 days later.",
+&"type": "dialogue"
+},
+"90": {
+&"id": "90",
+&"next_id": "91",
+&"type": ""
+},
+"91": {
+&"id": "91",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "habitacion1"
+}, {
+&"i": 31,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "92",
+&"type": "mutation"
+},
+"92": {
+&"id": "92",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"i": 3,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 8,
+&"type": &"dot"
+}, {
+&"function": "change_music",
+&"i": 9,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 22,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 27,
+&"type": &"dot"
+}, {
+&"i": 28,
+&"type": &"variable",
+&"value": "noviembre"
+}]), Array[Dictionary]([{
+&"i": 39,
+&"type": &"number",
+&"value": -5
+}, {
+&"i": 41,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "93",
+&"type": "mutation"
+},
+"93": {
+&"id": "93",
+&"next_id": "94",
+&"text": "28th of November.",
+&"type": "dialogue"
+},
+"94": {
+&"id": "94",
+&"next_id": "95",
+&"text": "When I woke up a new notification caught my attention. And to no one’s surprise, it was him.",
+&"type": "dialogue"
+},
+"95": {
+&"id": "95",
+&"next_id": "98",
+&"text": "It was strange having to get used again to having messages from people, from a certain person.",
+&"type": "dialogue"
+},
+"97": {
+&"id": "97",
+&"next_id": "98",
+&"type": ""
+},
+"98": {
+&"id": "98",
+&"next_id": "99",
+&"text": "[i]How has going back to classes been for you? And lots of encouragement today ^^",
+&"type": "dialogue"
+},
+"99": {
+&"id": "99",
+&"next_id": "100",
+&"text": "[i]I’m wearing a black jacket because I thought today would be colder, and now I’m boiling.",
+&"type": "dialogue"
+}
+}
+raw_text = "~ start
+do set_background(\"negroo\")
+do hide_character(\"izq\")
+do hide_character(\"derecha\")
+I did what I was told by the anesthesiologist and, in a couple minutes, I fell asleep.
+
+Just how they told me, everything went smoothly.
+The only problem was that I needed to stay a couple days in the hospital, Felix said between 5 and 8 days, and I wanted to go to class, however, I needed to understand that everything was just a matter of time before I could go back.
+
+3 days later.
+
+do set_background(\"habitacionHospital\")
+I was getting used, again, to live in a different way, the same way I used to live before the puncture that I had.
+Bit by bit I was getting better, which helped improve my mood, enough so that I could look over the messages I had and reply to them all.
+One caught my eye. Or, rather, several of them.
+
+It was him.
+
+#*encima del fondo de habitación de hospital mostrar móvil y mensajes estilo discord*
+11/20
+[i]How’s the exam coming along??[/i]
+[i]Things are coming, we have to submit some projects and do presentations in 2 weeks, let’s see how that goes
+
+11/22
+[i]Hii
+[i]Sorry for the message, yesterday I found out you didn’t come and I wanted to know how you were doing
+[i]Are you ok? 
+[i]If you’re not, I hope you get better soon and that it’s nothing serious ^^
+
+Oh, I hope he doesn’t get mad if I reply to him now. 
+At least it hasn’t been too long since he sent that.
+
+11/24 
+[i]Sorry, I just saw your messages 
+[i]I’m fine,I will probably be back next week ^^
+[i]And don’t worry, I’m sure the presentations will go well 
+
+I was going to put down my phone and sleep, but I saw that he had already replied.
+Given that I was in the hospital, I wanted a distraction, so I waited for him to finish writing to reply.
+
+do Audio.play_sfx(Audio.notificacion)
+[i]Don’t say sorry. What’s important is that you’re ok and that everything has gone well ^^
+[i]Give it your all with more energy and lots of encouragementttt
+[i]By the way, I’m happy that you’re fine ^^ 
+
+In the face of that strange concern, fueled by the fact that he is a stranger to me, I could only let out a little laugh while I replied a thanks.
+
+[i]Thank you so much ^^
+
+#*se quita el móvil y vuelta sólo fondo habitación hospital*
+A couple of days passed until, finally, what I was waiting most for finally happened.
+
+Every day they did blood tests on me, at first the blood indicated that I had white blood cells and CRP quite high, but since the fourth day it seems as if the values were going back to normal bit by bit.
+
+And one day, the surgeon gave me a visit.
+
+do show_character(\"felix\", \"izq\")
+Felix: How is the girl?
+do show_character(\"mama\", \"derecha\")
+do show_character(\"felixNoHabla\", \"izq\")
+Mamá: Well, there she is, watching some tv.
+do show_character(\"mamaNoHabla\", \"derecha\")
+do show_character(\"felix\", \"izq\")
+Felix: And well? How do you go to the bathroom?
+do hide_character(\"derecha\")
+This time he was talking to me.
+do show_character(\"kristine\", \"derecha\", \"hablaAlegre\")
+do show_character(\"felixNoHabla\", \"izq\")
+Kristine: Well, a bit difficult and uncomfortable, but I'm starting to get used to it.
+do show_character(\"kristine\", \"derecha\", \"sinHablar\")
+do show_character(\"felix\", \"izq\")
+Felix: That’s good. As for today’s tests, it seems that everything is in order. If tomorrow it stays like that, we would be able to discharge you on the 27 of this month. Either way, it will only happen if tomorrow’s ultrasound comes back fine.
+do show_character(\"felixNoHabla\", \"izq\")
+
+As soon as he said those words I couldn't help but get emotional.
+do hide_character(\"izq\")
+do hide_character(\"derecha\")
+After 6 days in the hospital, with fatigue during the first few days, severe abdominal discomfort and relearning how to have a normal body within society, I was tired of staying there, although the staff were the best thing that could have happened to me because they were wonderful, I wished I could get home. I needed to get home.
+And one day later, it finally happened.
+
+do show_character(\"felix\", \"izq\")
+Felix: Hello, family. The results of the ultrasound and the blood test came back fine. You don’t have anything inflamed; your white blood cell count and CRP are normal. What you do need to be careful with is the wound where you had the bag. You should clean it every day, and it’s very important that it is not exposed to the sun so it can heal properly.
+
+do hide_character(\"izq\")
+After following the instructions the surgeon gave me, my parents were able to take care of the paperwork so that I could be discharged. 
+
+do set_background(\"negroo\")
+Within a matter of hours, I was already at home. One could say with the same body as before, but that wouldn’t be entirely true, however, I was confident that, with time, I would get used to it again. At least, that’s what I hoped.
+
+A couple days later I gradually resumed my routine of going to classes, studying what was needed and doing the overdue assignments I still had pending, as well as the exams, of course.
+
+do set_background(\"habitacion1\")
+do Audio.change_music(Audio.noviembre, -5)
+28th of November.
+When I woke up a new notification caught my attention. And to no one’s surprise, it was him.
+It was strange having to get used again to having messages from people, from a certain person.
+
+#*encima del fondo de habitacion mostrar movil y mensajes*
+[i]How has going back to classes been for you? And lots of encouragement today ^^
+[i]I’m wearing a black jacket because I thought today would be colder, and now I’m boiling.
+[i]Now it’s time to regret that decision HAKSAK 
+
+do set_background(\"fucsiaMuyOscuro\") #n vez de negro que sea un poco mas rosa muyyy oscuro
+Even though he was a stranger to me, I couldn’t help but feel tenderness because of how he worried about me. And not only this time, because that would be one of the many times he would care about me.
+
+do set_background(\"negroo\")
+Some exams were coming up, and clearly, my postoperative condition wasn’t going to stop me from taking them. However, I would be lying if I said that I didn’t find it a bit difficult to concentrate on studying.
+
+As the days went by, it became increasingly difficult for me to learn and understand various concepts in some subjects, but, for some reason, when I mentioned it to the guy I had started talking to just a few days ago, he would encourage me and tell me that I would get through it.
+
+Of course, I trust myself. I don’t need anyone’s encouragement, but I have to admit that it made me smile reading his response.”
+
+#*encima del fondo mostrar movil con mensajes*
+do Audio.play_sfx(Audio.notificacion)
+[i]Either way I’m sure you will get it once you practise 
+[i]I’m sure of it ^^
+
+Apart from hyping me up and wishing me luck every time I had to do an exam, we used to talk about trivial things; pets, musical tastes, hobbies, favourites videogames… 
+
+One day he realised he never got my name. And the way in which he asked was really funny.
+
+do set_background(\"habitacion1\")
+#*fondo de habitación y encima móvil con mensajes estilo discord*
+do Audio.play_sfx(Audio.notificacion)
+[i]By the way, I never got around to ask you, what is your name? Because I doubt it is sparkly or light in Japanese.
+[i]Even though I find that nickname cute.
+
+Akari is the nickname that I use. It means, indeed, light in Japanese.
+
+[b]What should I tell him?[/b]
+- Answer and ask his name
+	do SistemaPuntos.cambiarPuntos(\"mateo\", 2)
+	[i]Don’t worry, my name is Kristine
+	[i]I assume you’re Mateo?
+	It was easier for me to know thanks to the nickname he used; Mateo-x-path.
+	[i]Yess, but you can call me however you please ^^
+	do cargarSiguienteCap(\"cap3\")
+- Avoid topic
+	do SistemaPuntos.cambiarPuntos(\"mateo\", -0.5)
+	I didn’t want to respond to that question, so I told him that I found Akari to be a really pretty name.
+	It seems that the answer let him down a bit, but oh well, life continues.
+	do cargarSiguienteCap(\"cap3\")
+- Lie to him 
+	do SistemaPuntos.cambiarPuntos(\"mateo\", -1)
+	[i] You can call me Kris.
+	It wasn’t my name per se, but it wasn’t a lie that he could call me that if he so wishes...
+	do cargarSiguienteCap(\"cap3\")
+=> END"
+metadata/dialogue_manager_version = "3.9.0"

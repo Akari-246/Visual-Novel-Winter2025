@@ -1,0 +1,130 @@
+~ start
+
+do set_background("habitacion1")
+do Audio.change_music(Audio.inicio, 0)
+It was a day like any other, and I got ready to go to class.
+I have wished for this day to come for quite some time now; the opportunity to study something that I really wanted.
+
+Some months ago I finished bachelor's, a time where I was feeling really stressed and overwhelmed. If someone asked me, it was one of the worst times of my life, but that changed a couple weeks ago.
+
+For a few years now I have wanted to study computer science, but at the time I was told that I needed to pass bachelor's, and I did, but, finally, this year is completely different. At last I have the reins of my life or well, almost.
+I had surgery relatively recently (a month and a half now) caused by a peritonitis by[speed=0.08]…[/speed]
+Well, I’m not getting into details. The thing is that I had surgery and now I have to live a little differently because of a bag that I have glued to my skin, an [b]ostomy[/b].
+
+#**cuando lo diga que aparezca como un icono de información a que si lo pulsas salga el texto informativo (si quieres te traduzco el texto informativo también -Alisia)** 
+
+Well, I’m getting off topic here.
+The thing is that now I’m heading to one of my many classes as a student of CPAD, finally.
+
+do set_background("clase")
+It was now recess time when, suddenly, I found out that I had a new notification. Oh, who could it be?
+Wait, a stranger?, why would they talk to me?, do they want something?
+Maybe they got me confused with someone else?
+
+#*en pantalla del pc tipo como si vieras discord*
+do Audio.play_sfx(Audio.notificacion)
+[i]Hiii, sorry for the intrusion and I hope I’m not bothering you.
+[i]I'm from second year, I was talking with a professor and some classmates of yours and I found out that you had an exam.
+[i]I was writing to see how it went for you and everyone in general. I hope it went well and sorry for the sudden intrusion.
+
+I thought for a bit before responding, but I couldn't help but be kind. Even if it was a bit foolish, it was kind of funny that notification.
+I didn’t take much longer to reply and, without noticing, I had already sent the message.
+
+[i]Hii
+[i] So the exam went well, I think that only two people failed it.
+[i]Thanks for asking ^^
+
+I was planning to get ahead with some tasks, but soon after I was distracted by something.
+
+#*mostrar pantalla del pc y, anterior a los dos mensajes, nuevo mensaje:*
+do Audio.play_sfx(Audio.notificacion)
+[i]You’re welcomee ^^
+do Audio.play_sfx(Audio.notificacion)
+[i]And sorry for this random message.
+do Audio.play_sfx(Audio.notificacion)
+[i]I’m happy that it went well. I was seated before with 2 of your classmates and I didn’t want to disturb you by coming in. 
+do Audio.play_sfx(Audio.notificacion)
+[i]Best of luck with the rest of the day.
+
+#*mostrar dialogo pero por encima del fondo del pc y mensajes*
+Wow, he surely responded quickly.
+After I realized that, I couldn't simply leave him on read.
+
+#*mostrar mensaje*
+[i]Don’t worry about it, I hope it goes well for you too.
+
+After that small conversation that I had with the unknown boy that wasn’t even in my class, but was, seemingly, in my grade, the rest of my day went as usual. However, even if it seemed as if he already knew me, I didn’t even know how he looked, and I must admit that this fact caused me to space out while thinking of it and how he managed to contact me, but I had to continue with my tasks.
+
+do set_background("negroo")
+
+As the days went by my nerves grew exponentially.
+In no time my surgery would come so I could go back to normal. They would get rid of the ostomy.
+And that was one of my most important surgeries, because it would mean that soon my body would go back to being, relatively, normal. Maybe it wouldn’t work as before, I will surely never go back to being the same either way, but now I won’t have to live with this bag that has caused me so many issues.
+
+do Audio.change_music(Audio.hospi)
+21st of November.
+Today was the day of my surgery.
+I remember that before entering I talked with my mother and my friends, who already knew of the intervention that I would have to get through.
+
+do set_background("habitacionHospital")
+Once the doctors entered the room where I was staying, I knew what was coming.
+It was time.
+
+I got changed, they started my IV and, with my body full of nerves, they quickly wheeled the stretcher I was lying on into the operating room.
+
+do set_background("negroo")
+It was really cold, I would never get used to that place, but I knew that everything would be fine, after all, my favorite surgeon was the one performing my operation.
+
+do show_character("felix", "izq")
+do show_character("kristine", "derecha", "sinHablar")
+Felix: Hii, little one. How are you? Nervous?
+do show_character("felixNoHabla", "izq")
+do show_character("kristine", "derecha", "hablaPreocupada")
+Kristine: To be honest? A little bit, yeah.
+do show_character("felix", "izq")
+do show_character("kristine", "derecha", "sinHablar")
+Felix: Don’t worry. I’m going to do my best with you. In no time you will be able to go to the bathroom like before.
+do show_character("felixNoHabla", "izq")
+do show_character("kristine", "derecha", "hablaPreocupada")
+Kristine: I hope so.
+do show_character("kristine", "derecha", "sinHablar")
+Anesthesiologist: Of course, everything will go fine. Now I need you to take a deep breath in and count to 10.
+
+#do marcar_punto_decision("decisionQuirofano")
+do Audio.change_music(Audio.momentoDecidir)
+Even if it’s a stupid question [b]What should I do?[/b]:
+- Comply
+	do Audio.change_music(Audio.hospi)
+	do cargarSiguienteCap("escenaHospi")
+	=> END
+
+- Don’t comply
+	do Audio.change_music(Audio.hospi)
+	do hide_character("izq")
+	do hide_character("derecha")
+	No, I can't do that.
+	After all the time I spend to prepare myself mentally and all the paperwork my parents had to do, I can't simply not follow what professionals are telling me to do.
+	In short, that would be a terrible idea.
+	It would be better If I comply. After all, I was waiting for this moment to arrive.
+        
+	In the end, slowly and full of nerves, I started counting.
+	It’s not my first time going through this either way.
+	I can do it.
+	do cargarSiguienteCap("escenaHospi")
+	=> END
+
+- Irte
+	do hide_character("izq")
+	do hide_character("derecha")
+	do Audio.change_music(Audio.finalEstupido2)
+	Without saying anything, I took out the device they put on my face to make me sleep, I also removed the IV in one go and, without caring about what the doctors had to say or what could happen, I left the operating room.
+	I ran.
+	I don’t know why, but I ran for my life, although I forgot a small detail.
+	I was barefoot and was still wearing only the shirt from the hospital, the one that patients who are going to get surgery usually wear and is tied behind your back.
+	The thing is, by not wearing shoes or anything to cover my feet, while I was descending the stairs I tripped with what seemed to be a banana [wave](Who would leave that on the hospital floor?)[wave]
+	And I fell. In a way that, I don’t know how, made me fall unconscious.
+	For a couple minutes I saw black. Hours, I think.
+	I couldn’t move my body, I couldn’t do anything.
+	[wait=1][wave]This is how dying feels like?[/wave]    
+	do cargarFinal("finalEstupido")
+	=> END

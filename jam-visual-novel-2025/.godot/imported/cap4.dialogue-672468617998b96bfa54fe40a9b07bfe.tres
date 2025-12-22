@@ -1,0 +1,1644 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" uid="uid://dbs4435dsf3ry" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_mseut"]
+
+[resource]
+script = ExtResource("1_mseut")
+using_states = PackedStringArray()
+titles = {
+"historiaSigue": "8",
+"seSalta": "18",
+"siguee": "84",
+"start": "1"
+}
+character_names = PackedStringArray("Mateo", "Classamte 1", "Classamte 2", "Papá")
+first_title = "0"
+lines = {
+"0": {
+&"id": "0",
+&"next_id": "1",
+&"type": "title"
+},
+"1": {
+&"id": "1",
+&"next_id": "2",
+&"text": "Should I tell someone?",
+&"type": "dialogue"
+},
+"10": {
+&"id": "10",
+&"next_id": "12",
+&"text": "I think the teacher asked how I was, but I didn’t hear properly, so I didn’t answer. I couldn’t even think clearly.",
+&"type": "dialogue"
+},
+"100": {
+&"id": "100",
+&"next_id": "101",
+&"text": "Not too long ago, I got out of one, will I be able to get into another?",
+&"type": "dialogue"
+},
+"101": {
+&"id": "101",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "fucsiaOscuro"
+}, {
+&"i": 32,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "102",
+&"type": "mutation"
+},
+"102": {
+&"id": "102",
+&"next_id": "103",
+&"text": "I think that, if it’s him, yes. A thousand times yes",
+&"type": "dialogue"
+},
+"103": {
+&"id": "103",
+&"next_id": "105",
+&"text": "After all, I’ve learned a lot thanks to an old friend I liked. Even though it was online, the feelings were real.",
+&"type": "dialogue"
+},
+"104": {
+&"id": "104",
+&"next_id": "105",
+&"type": ""
+},
+"105": {
+&"id": "105",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "rosa"
+}, {
+&"i": 24,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "106",
+&"type": "mutation"
+},
+"106": {
+&"id": "106",
+&"next_id": "107",
+&"text": "Mateo has shown me many things, and so far, all of them have been good.",
+&"type": "dialogue"
+},
+"107": {
+&"id": "107",
+&"next_id": "108",
+&"text": "Maybe I can try…",
+&"type": "dialogue"
+},
+"108": {
+&"id": "108",
+&"next_id": "110",
+&"text": "You already know the answer could be ‘no’… so maybe it’s worth giving it a shot…",
+&"type": "dialogue"
+},
+"109": {
+&"id": "109",
+&"next_id": "110",
+&"type": ""
+},
+"11": {
+&"id": "11",
+&"next_id": "12",
+&"type": ""
+},
+"110": {
+&"id": "110",
+&"next_id": "112",
+&"text": ".[wait=0.5].[wait=0.5].",
+&"type": "dialogue"
+},
+"111": {
+&"id": "111",
+&"next_id": "112",
+&"type": ""
+},
+"112": {
+&"id": "112",
+&"next_id": "113",
+&"text": "One moment, no. I can’t just give it to him and be done with it.",
+&"type": "dialogue"
+},
+"113": {
+&"id": "113",
+&"next_id": "114",
+&"text": "Although, on the other hand, maybe I only need an excuse to give it to him.",
+&"type": "dialogue"
+},
+"114": {
+&"id": "114",
+&"next_id": "115",
+&"text": "There’s no time until the 14th of February, Valentine’s day…",
+&"type": "dialogue"
+},
+"115": {
+&"id": "115",
+&"next_id": "117",
+&"text": "No, it would be too much. Even for me.",
+&"type": "dialogue"
+},
+"116": {
+&"id": "116",
+&"next_id": "117",
+&"type": ""
+},
+"117": {
+&"id": "117",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "habitacionAtardecer"
+}, {
+&"i": 39,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "118",
+&"type": "mutation"
+},
+"118": {
+&"id": "118",
+&"next_id": "120",
+&"text": "Either way, in a way, I tried hyping myself up to do it. After all, you have all eternity to regret this.",
+&"type": "dialogue"
+},
+"119": {
+&"id": "119",
+&"next_id": "120",
+&"type": ""
+},
+"12": {
+&"id": "12",
+&"next_id": "13",
+&"text": "I wanted to go to the bathroom.",
+&"type": "dialogue"
+},
+"120": {
+&"id": "120",
+&"next_id": "122",
+&"text": "Every time I read the letter, I improved it as best as I could. I added sentences, deleted others, and replaced some words… I revised it with the goal in mind that, if he ever read it, it would be one of the best letters he had ever seen and that it would move him, even just a little. Of course, I also wanted him to understand everything I was saying in it.",
+&"type": "dialogue"
+},
+"121": {
+&"id": "121",
+&"next_id": "122",
+&"type": ""
+},
+"122": {
+&"id": "122",
+&"next_id": "123",
+&"text": "Until, finally, I arrived at the version I wanted.",
+&"type": "dialogue"
+},
+"123": {
+&"id": "123",
+&"next_id": "125",
+&"text": "Still, I went over the letter every day as many times as needed to make sure it was perfect and that everything could be understood.",
+&"type": "dialogue"
+},
+"124": {
+&"id": "124",
+&"next_id": "125",
+&"type": ""
+},
+"125": {
+&"id": "125",
+&"next_id": "127",
+&"text": "It’s worth noting that I never neglected my studies or assignments.",
+&"type": "dialogue"
+},
+"126": {
+&"id": "126",
+&"next_id": "127",
+&"type": ""
+},
+"127": {
+&"id": "127",
+&"next_id": "129",
+&"text": "I grew increasingly close to Mateo, to the point where we would meet and talk several days a week. I even felt comfortable with the idea of giving him the letter I had written, but, as I mentioned before, I wanted to wait for the perfect excuse. In the meantime, I kept improving it. Besides, I didn’t feel completely ready.",
+&"type": "dialogue"
+},
+"128": {
+&"id": "128",
+&"next_id": "129",
+&"type": ""
+},
+"129": {
+&"id": "129",
+&"next_id": "131",
+&"text": "The more days passed and the closer I became to that boy, the more I felt it would be silly to give him the letter that day.",
+&"type": "dialogue"
+},
+"13": {
+&"id": "13",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"i": 3,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 8,
+&"type": &"dot"
+}, {
+&"function": "change_music",
+&"i": 9,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 22,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 27,
+&"type": &"dot"
+}, {
+&"i": 28,
+&"type": &"variable",
+&"value": "desmayada"
+}]), Array[Dictionary]([{
+&"i": 39,
+&"type": &"number",
+&"value": 0
+}, {
+&"i": 40,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "14",
+&"type": "mutation"
+},
+"130": {
+&"id": "130",
+&"next_id": "131",
+&"type": ""
+},
+"131": {
+&"id": "131",
+&"next_id": "132",
+&"text": "The 14th of February arrived.",
+&"type": "dialogue"
+},
+"132": {
+&"id": "132",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "calleDia"
+}, {
+&"i": 28,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "134",
+&"type": "mutation"
+},
+"133": {
+&"id": "133",
+&"next_id": "134",
+&"type": ""
+},
+"134": {
+&"id": "134",
+&"next_id": "135",
+&"text": "I had plans with Mateo, and the only thing keeping me from being with him that day was an exam I had on the 15th, but that didn’t stop me.",
+&"type": "dialogue"
+},
+"135": {
+&"id": "135",
+&"next_id": "136",
+&"text": "I even brought the letter with me in case the right moment came to give it to him, though I didn’t think I would be able to. At least not without giving in to my impulsive side. After all, some say that to do something, all you need is a little push.",
+&"type": "dialogue"
+},
+"136": {
+&"id": "136",
+&"next_id": "138",
+&"text": "I guess that’s what happened to me.",
+&"type": "dialogue"
+},
+"137": {
+&"id": "137",
+&"next_id": "138",
+&"type": ""
+},
+"138": {
+&"id": "138",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "calleNoche"
+}, {
+&"i": 30,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "139",
+&"type": "mutation"
+},
+"139": {
+&"id": "139",
+&"next_id": "140",
+&"text": "After spending some time with him in the park we would frequent, we arrived at my door.",
+&"type": "dialogue"
+},
+"14": {
+&"id": "14",
+&"next_id": "15",
+&"text": "I stood up, but as I did, the world began to spin and everything looked blurry.",
+&"type": "dialogue"
+},
+"140": {
+&"id": "140",
+&"next_id": "142",
+&"text": "He was talking about something, but I wasn’t able to pay attention to what he was saying, because I was thinking about another thing…",
+&"type": "dialogue"
+},
+"141": {
+&"id": "141",
+&"next_id": "142",
+&"type": ""
+},
+"142": {
+&"id": "142",
+&"next_id": "143",
+&"text": "I felt it, it was time.",
+&"type": "dialogue"
+},
+"143": {
+&"id": "143",
+&"next_id": "144",
+&"text": "It may be now or never.",
+&"type": "dialogue"
+},
+"144": {
+&"id": "144",
+&"next_id": "145",
+&"text": "Maybe I wouldn’t even get this chance if I missed it.",
+&"type": "dialogue"
+},
+"145": {
+&"id": "145",
+&"next_id": "146",
+&"text": "[b]Should I really give it to him?",
+&"type": "dialogue"
+},
+"146": {
+&"id": "146",
+&"next_id": "147",
+&"responses": PackedStringArray("146", "148"),
+&"text": "Of course",
+&"type": "response"
+},
+"147": {
+&"id": "147",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "cargarSiguienteCap",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 22,
+&"type": &"string",
+&"value": "cap 5"
+}, {
+&"i": 29,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "151",
+&"type": "mutation"
+},
+"148": {
+&"id": "148",
+&"next_id": "149",
+&"text": "No",
+&"type": "response"
+},
+"149": {
+&"id": "149",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "cargarFinal",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 15,
+&"type": &"string",
+&"value": "finalCobarde"
+}, {
+&"i": 29,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "151",
+&"type": "mutation"
+},
+"15": {
+&"id": "15",
+&"next_id": "17",
+&"text": "Instinctively, I leaned on the nearby desk and started walking toward the exit, but before I knew it, my body began to collapse. If it weren’t for the teacher, who noticed I was unwell, I would have fallen to the floor. He grabbed me by the shoulders and helped me out into the hallway.",
+&"type": "dialogue"
+},
+"150": {
+&"id": "150",
+&"next_id": "151",
+&"type": ""
+},
+"151": {
+&"id": "151",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"152": {
+&"id": "152",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"16": {
+&"id": "16",
+&"next_id": "17",
+&"type": ""
+},
+"17": {
+&"id": "17",
+&"next_id": "18",
+&"type": "title"
+},
+"18": {
+&"id": "18",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"i": 3,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 8,
+&"type": &"dot"
+}, {
+&"function": "change_music",
+&"i": 9,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 22,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 27,
+&"type": &"dot"
+}, {
+&"i": 28,
+&"type": &"variable",
+&"value": "desmayada"
+}]), Array[Dictionary]([{
+&"i": 39,
+&"type": &"number",
+&"value": 0
+}, {
+&"i": 40,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "19",
+&"type": "mutation"
+},
+"19": {
+&"id": "19",
+&"next_id": "20",
+&"text": "Some time passed, and I was still dizzy, but I was lying on a sofa they had in the hallway.",
+&"type": "dialogue"
+},
+"2": {
+&"id": "2",
+&"next_id": "3",
+&"responses": PackedStringArray("2", "4"),
+&"text": "No",
+&"type": "response"
+},
+"20": {
+&"id": "20",
+&"next_id": "22",
+&"text": "Fortunately, the teacher and a few classmates helped me and stayed with me until my father arrived to take me home.",
+&"type": "dialogue"
+},
+"21": {
+&"id": "21",
+&"next_id": "22",
+&"type": ""
+},
+"22": {
+&"id": "22",
+&"next_id": "24",
+&"text": "What I definitely didn’t expect was for Mateo to come and stay by my side.",
+&"type": "dialogue"
+},
+"23": {
+&"id": "23",
+&"next_id": "24",
+&"type": ""
+},
+"24": {
+&"id": "24",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "mateo"
+}]), Array[Dictionary]([{
+&"i": 27,
+&"type": &"string",
+&"value": "izq"
+}]), Array[Dictionary]([{
+&"i": 34,
+&"type": &"string",
+&"value": "hablaPreocupado"
+}, {
+&"i": 51,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "25",
+&"type": "mutation"
+},
+"25": {
+&"character": "Mateo",
+&"id": "25",
+&"next_id": "26",
+&"text": "How is she?",
+&"type": "dialogue"
+},
+"26": {
+&"id": "26",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "mateo"
+}]), Array[Dictionary]([{
+&"i": 27,
+&"type": &"string",
+&"value": "izq"
+}]), Array[Dictionary]([{
+&"i": 34,
+&"type": &"string",
+&"value": "sinHablar"
+}, {
+&"i": 45,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "27",
+&"type": "mutation"
+},
+"27": {
+&"id": "27",
+&"next_id": "28",
+&"text": "He sounded nervous.",
+&"type": "dialogue"
+},
+"28": {
+&"id": "28",
+&"next_id": "30",
+&"text": "I tried to open my eyes so I could see him, but everything was blurry and It was overwhelming, so I just kept them closed.",
+&"type": "dialogue"
+},
+"29": {
+&"id": "29",
+&"next_id": "30",
+&"type": ""
+},
+"3": {
+&"id": "3",
+&"is_snippet": false,
+&"next_id": "8",
+&"next_id_after": "",
+&"type": "goto"
+},
+"30": {
+&"character": "Classamte 1",
+&"id": "30",
+&"next_id": "31",
+&"text": "Well, she’s there.",
+&"type": "dialogue"
+},
+"31": {
+&"id": "31",
+&"next_id": "32",
+&"text": "He said that while pointing at me in some way, at least I think so.",
+&"type": "dialogue"
+},
+"32": {
+&"character": "Classamte 2",
+&"id": "32",
+&"next_id": "34",
+&"text": "She’s dizzy, but it seems she’s a bit better.",
+&"type": "dialogue"
+},
+"33": {
+&"id": "33",
+&"next_id": "34",
+&"type": ""
+},
+"34": {
+&"id": "34",
+&"next_id": "36",
+&"text": "Mateo, those classmates and the teacher stayed with me until, finally, my father arrived.",
+&"type": "dialogue"
+},
+"35": {
+&"id": "35",
+&"next_id": "36",
+&"type": ""
+},
+"36": {
+&"id": "36",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "papaNoHabla"
+}]), Array[Dictionary]([{
+&"i": 33,
+&"type": &"string",
+&"value": "centro"
+}, {
+&"i": 41,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "37",
+&"type": "mutation"
+},
+"37": {
+&"id": "37",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "mateo"
+}]), Array[Dictionary]([{
+&"i": 27,
+&"type": &"string",
+&"value": "izq"
+}]), Array[Dictionary]([{
+&"i": 34,
+&"type": &"string",
+&"value": "hablaPreocupado"
+}, {
+&"i": 51,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "38",
+&"type": "mutation"
+},
+"38": {
+&"character": "Mateo",
+&"id": "38",
+&"next_id": "39",
+&"text": "Excuse me, do you mind If I help carry her and go with you?",
+&"type": "dialogue"
+},
+"39": {
+&"id": "39",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "papa"
+}]), Array[Dictionary]([{
+&"i": 26,
+&"type": &"string",
+&"value": "centro"
+}, {
+&"i": 34,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "40",
+&"type": "mutation"
+},
+"4": {
+&"id": "4",
+&"next_id": "5",
+&"text": "Yes",
+&"type": "response"
+},
+"40": {
+&"id": "40",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "mateo"
+}]), Array[Dictionary]([{
+&"i": 27,
+&"type": &"string",
+&"value": "izq"
+}]), Array[Dictionary]([{
+&"i": 34,
+&"type": &"string",
+&"value": "sinHablar"
+}, {
+&"i": 45,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "41",
+&"type": "mutation"
+},
+"41": {
+&"character": "Papá",
+&"id": "41",
+&"next_id": "42",
+&"text": "No, of course not.",
+&"type": "dialogue"
+},
+"42": {
+&"id": "42",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "papaNoHabla"
+}]), Array[Dictionary]([{
+&"i": 33,
+&"type": &"string",
+&"value": "centro"
+}, {
+&"i": 41,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "43",
+&"type": "mutation"
+},
+"43": {
+&"id": "43",
+&"next_id": "45",
+&"text": "I was surprised to hear my father accepting the help.",
+&"type": "dialogue"
+},
+"44": {
+&"id": "44",
+&"next_id": "45",
+&"type": ""
+},
+"45": {
+&"id": "45",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "hide_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "centro"
+}, {
+&"i": 26,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "46",
+&"type": "mutation"
+},
+"46": {
+&"id": "46",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "habitacionMasOscura"
+}, {
+&"i": 39,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "47",
+&"type": "mutation"
+},
+"47": {
+&"id": "47",
+&"next_id": "48",
+&"text": "Just as he said, Mateo accompanied me home.",
+&"type": "dialogue"
+},
+"48": {
+&"id": "48",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "hide_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "izq"
+}, {
+&"i": 23,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "49",
+&"type": "mutation"
+},
+"49": {
+&"id": "49",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"i": 3,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 8,
+&"type": &"dot"
+}, {
+&"function": "change_music",
+&"i": 9,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 22,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 27,
+&"type": &"dot"
+}, {
+&"i": 28,
+&"type": &"variable",
+&"value": "despuesMareo"
+}]), Array[Dictionary]([{
+&"i": 42,
+&"type": &"number",
+&"value": 0
+}, {
+&"i": 43,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "50",
+&"type": "mutation"
+},
+"5": {
+&"id": "5",
+&"is_snippet": false,
+&"next_id": "18",
+&"next_id_after": "",
+&"type": "goto"
+},
+"50": {
+&"id": "50",
+&"next_id": "52",
+&"text": "Once he made sure I was feeling better, he left. But that didn’t change the fact that he had stayed with me for about half an hour, at my house, when he needed to catch a bus to get to his own, and if he was late, he would miss it.",
+&"type": "dialogue"
+},
+"51": {
+&"id": "51",
+&"next_id": "52",
+&"type": ""
+},
+"52": {
+&"id": "52",
+&"next_id": "53",
+&"text": "I told him he didn’t need to stay with me, but the only thing he said was:",
+&"type": "dialogue"
+},
+"53": {
+&"id": "53",
+&"next_id": "54",
+&"text": "[speed=0.5][b]I didn’t plan on going until I made sure you were fine. Even if that meant going with you wherever was necessary",
+&"type": "dialogue"
+},
+"54": {
+&"id": "54",
+&"next_id": "56",
+&"text": "[speed=0.5][b]Don’t worry and get some rest, what’s important now is that you get better.",
+&"type": "dialogue"
+},
+"55": {
+&"id": "55",
+&"next_id": "56",
+&"type": ""
+},
+"56": {
+&"id": "56",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "negroo"
+}, {
+&"i": 26,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "57",
+&"type": "mutation"
+},
+"57": {
+&"id": "57",
+&"next_id": "59",
+&"text": "I don’t know exactly how or why, but from then on, something started to awaken in me. And it grew in a strangely exaggerated way, yet I didn’t notice, or perhaps I didn’t want to notice that feeling, both unfamiliar and familiar at the same time.",
+&"type": "dialogue"
+},
+"58": {
+&"id": "58",
+&"next_id": "59",
+&"type": ""
+},
+"59": {
+&"id": "59",
+&"next_id": "60",
+&"text": "If we already talked often, after that I tried to talk with him even more. He cared about me just as much as I cared about him.",
+&"type": "dialogue"
+},
+"6": {
+&"id": "6",
+&"next_id": "7",
+&"type": ""
+},
+"60": {
+&"id": "60",
+&"next_id": "62",
+&"text": "Mateo and everything related to him often appeared in my thoughts.",
+&"type": "dialogue"
+},
+"61": {
+&"id": "61",
+&"next_id": "62",
+&"type": ""
+},
+"62": {
+&"id": "62",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "habitacionAtardecer"
+}, {
+&"i": 39,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "63",
+&"type": "mutation"
+},
+"63": {
+&"id": "63",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"i": 3,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 8,
+&"type": &"dot"
+}, {
+&"function": "change_music",
+&"i": 9,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 22,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 27,
+&"type": &"dot"
+}, {
+&"i": 28,
+&"type": &"variable",
+&"value": "aceptandoSentimientos"
+}]), Array[Dictionary]([{
+&"i": 51,
+&"type": &"number",
+&"value": 0
+}, {
+&"i": 52,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "64",
+&"type": "mutation"
+},
+"64": {
+&"id": "64",
+&"next_id": "66",
+&"text": "Without realizing it, one winter day I wrote something, something that perfectly captured what I felt. It wasn’t difficult at all, I was able to express everything inside me, even what I hadn’t been fully aware of.",
+&"type": "dialogue"
+},
+"65": {
+&"id": "65",
+&"next_id": "66",
+&"type": ""
+},
+"66": {
+&"id": "66",
+&"next_id": "67",
+&"text": "I wrote a letter to Mateo, and as I was writing it, I wasn’t even aware of what I was doing, not until I finished and read it.",
+&"type": "dialogue"
+},
+"67": {
+&"id": "67",
+&"next_id": "69",
+&"text": "I was dying of embarrassment once I finished reading it.",
+&"type": "dialogue"
+},
+"68": {
+&"id": "68",
+&"next_id": "69",
+&"type": ""
+},
+"69": {
+&"id": "69",
+&"next_id": "70",
+&"text": "[b]Should I really give it to him?[/b] Is it [b]necessary[/b] that he reads and knows how I feel?",
+&"type": "dialogue"
+},
+"7": {
+&"id": "7",
+&"next_id": "8",
+&"type": "title"
+},
+"70": {
+&"id": "70",
+&"next_id": "72",
+&"text": "No, of course not. [speed=0.3]Not unless…",
+&"type": "dialogue"
+},
+"71": {
+&"id": "71",
+&"next_id": "72",
+&"type": ""
+},
+"72": {
+&"id": "72",
+&"next_id": "73",
+&"text": "[b]Would I like to start something with him?",
+&"type": "dialogue"
+},
+"73": {
+&"id": "73",
+&"next_id": "74",
+&"responses": PackedStringArray("73", "80"),
+&"text": "Yes",
+&"type": "response"
+},
+"74": {
+&"condition": {
+&"expression": Array[Dictionary]([{
+&"i": 4,
+&"type": &"variable",
+&"value": "SistemaPuntos"
+}, {
+&"i": 17,
+&"type": &"dot"
+}, {
+&"function": "obtenerPuntos",
+&"i": 18,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 32,
+&"type": &"string",
+&"value": "mateo"
+}, {
+&"i": 39,
+&"type": &"parens_close"
+}])])
+}, {
+&"i": 41,
+&"type": &"comparison",
+&"value": "<="
+}, {
+&"i": 44,
+&"type": &"number",
+&"value": -4
+}])
+},
+&"id": "74",
+&"next_id": "75",
+&"next_id_after": "83",
+&"next_sibling_id": "78",
+&"type": "condition"
+},
+"75": {
+&"id": "75",
+&"next_id": "76",
+&"type": ""
+},
+"76": {
+&"id": "76",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "cargarFinal",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 15,
+&"type": &"string",
+&"value": "finalMalo"
+}, {
+&"i": 26,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "83",
+&"type": "mutation"
+},
+"77": {
+&"id": "77",
+&"next_id": "78",
+&"type": ""
+},
+"78": {
+&"condition": {},
+&"id": "78",
+&"next_id": "79",
+&"next_id_after": "83",
+&"type": "condition"
+},
+"79": {
+&"id": "79",
+&"is_snippet": false,
+&"next_id": "84",
+&"next_id_after": "",
+&"type": "goto"
+},
+"8": {
+&"id": "8",
+&"next_id": "10",
+&"text": "I took a pill hoping the discomfort would go away, but, even though I didn’t want to admit it at the time, I think it only made the sudden discomfort worse.",
+&"type": "dialogue"
+},
+"80": {
+&"id": "80",
+&"next_id": "81",
+&"text": "No",
+&"type": "response"
+},
+"81": {
+&"id": "81",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "cargarFinal",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 15,
+&"type": &"string",
+&"value": "soloAmigos"
+}, {
+&"i": 27,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "83",
+&"type": "mutation"
+},
+"82": {
+&"id": "82",
+&"next_id": "83",
+&"type": ""
+},
+"83": {
+&"id": "83",
+&"next_id": "84",
+&"type": "title"
+},
+"84": {
+&"id": "84",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "negroo"
+}, {
+&"i": 26,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "85",
+&"type": "mutation"
+},
+"85": {
+&"id": "85",
+&"next_id": "86",
+&"text": "After reading this and realizing my feelings, it’s obvious that I can’t truly maintain a friendship with him. But I need him to know.",
+&"type": "dialogue"
+},
+"86": {
+&"id": "86",
+&"next_id": "87",
+&"text": "Deep down, I think I would like him to read this.",
+&"type": "dialogue"
+},
+"87": {
+&"id": "87",
+&"next_id": "88",
+&"text": "[speed= 0.0001]",
+&"type": "dialogue"
+},
+"88": {
+&"id": "88",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "fucsiaMuyOscuro"
+}, {
+&"i": 35,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "89",
+&"type": "mutation"
+},
+"89": {
+&"id": "89",
+&"next_id": "90",
+&"text": "Maybe we could be something more. Maybe he sees me as more than a friend.",
+&"type": "dialogue"
+},
+"9": {
+&"id": "9",
+&"next_id": "10",
+&"type": ""
+},
+"90": {
+&"id": "90",
+&"next_id": "91",
+&"text": "Perhaps he’ll be just as wonderful once we’re a couple..",
+&"type": "dialogue"
+},
+"91": {
+&"id": "91",
+&"next_id": "92",
+&"text": "There’s a possibility that he isn’t like the other guys I’ve met, except for two, of course; my father and an old friend.",
+&"type": "dialogue"
+},
+"92": {
+&"id": "92",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "habitacionAtardecer"
+}, {
+&"i": 39,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "93",
+&"type": "mutation"
+},
+"93": {
+&"id": "93",
+&"next_id": "94",
+&"text": "What the hell am I thinking of?",
+&"type": "dialogue"
+},
+"94": {
+&"id": "94",
+&"next_id": "96",
+&"text": "How could I be his girlfriend?",
+&"type": "dialogue"
+},
+"95": {
+&"id": "95",
+&"next_id": "96",
+&"type": ""
+},
+"96": {
+&"id": "96",
+&"next_id": "98",
+&"text": ".[wait=0.5].[wait=0.5].",
+&"type": "dialogue"
+},
+"97": {
+&"id": "97",
+&"next_id": "98",
+&"type": ""
+},
+"98": {
+&"id": "98",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "negro"
+}, {
+&"i": 25,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "99",
+&"type": "mutation"
+},
+"99": {
+&"id": "99",
+&"next_id": "100",
+&"text": "Am I really ready to be in a relationship?",
+&"type": "dialogue"
+}
+}
+raw_text = "~ start
+Should I tell someone?
+- No
+	=> historiaSigue
+- Yes
+	=> seSalta
+
+~ historiaSigue
+I took a pill hoping the discomfort would go away, but, even though I didn’t want to admit it at the time, I think it only made the sudden discomfort worse.
+
+I think the teacher asked how I was, but I didn’t hear properly, so I didn’t answer. I couldn’t even think clearly.
+
+I wanted to go to the bathroom.
+do Audio.change_music(Audio.desmayada, 0)
+I stood up, but as I did, the world began to spin and everything looked blurry.
+Instinctively, I leaned on the nearby desk and started walking toward the exit, but before I knew it, my body began to collapse. If it weren’t for the teacher, who noticed I was unwell, I would have fallen to the floor. He grabbed me by the shoulders and helped me out into the hallway.
+
+~ seSalta
+do Audio.change_music(Audio.desmayada, 0)
+Some time passed, and I was still dizzy, but I was lying on a sofa they had in the hallway.
+Fortunately, the teacher and a few classmates helped me and stayed with me until my father arrived to take me home.
+
+What I definitely didn’t expect was for Mateo to come and stay by my side.
+
+do show_character(\"mateo\", \"izq\", \"hablaPreocupado\")
+Mateo: How is she?
+do show_character(\"mateo\", \"izq\", \"sinHablar\")
+He sounded nervous. 
+I tried to open my eyes so I could see him, but everything was blurry and It was overwhelming, so I just kept them closed.
+
+Classamte 1: Well, she’s there.
+He said that while pointing at me in some way, at least I think so. 
+Classamte 2: She’s dizzy, but it seems she’s a bit better. 
+
+Mateo, those classmates and the teacher stayed with me until, finally, my father arrived.
+
+do show_character(\"papaNoHabla\", \"centro\")
+do show_character(\"mateo\", \"izq\", \"hablaPreocupado\")
+Mateo: Excuse me, do you mind If I help carry her and go with you?
+do show_character(\"papa\", \"centro\")
+do show_character(\"mateo\", \"izq\", \"sinHablar\")
+Papá: No, of course not.
+do show_character(\"papaNoHabla\", \"centro\")
+I was surprised to hear my father accepting the help.
+
+do hide_character(\"centro\")
+do set_background(\"habitacionMasOscura\")
+Just as he said, Mateo accompanied me home.
+do hide_character(\"izq\")
+do Audio.change_music(Audio.despuesMareo, 0)
+Once he made sure I was feeling better, he left. But that didn’t change the fact that he had stayed with me for about half an hour, at my house, when he needed to catch a bus to get to his own, and if he was late, he would miss it.
+
+I told him he didn’t need to stay with me, but the only thing he said was:
+[speed=0.5][b]I didn’t plan on going until I made sure you were fine. Even if that meant going with you wherever was necessary
+[speed=0.5][b]Don’t worry and get some rest, what’s important now is that you get better.
+
+do set_background(\"negroo\")
+I don’t know exactly how or why, but from then on, something started to awaken in me. And it grew in a strangely exaggerated way, yet I didn’t notice, or perhaps I didn’t want to notice that feeling, both unfamiliar and familiar at the same time.
+
+If we already talked often, after that I tried to talk with him even more. He cared about me just as much as I cared about him.
+Mateo and everything related to him often appeared in my thoughts.
+
+do set_background(\"habitacionAtardecer\")
+do Audio.change_music(Audio.aceptandoSentimientos, 0)
+Without realizing it, one winter day I wrote something, something that perfectly captured what I felt. It wasn’t difficult at all, I was able to express everything inside me, even what I hadn’t been fully aware of.
+
+I wrote a letter to Mateo, and as I was writing it, I wasn’t even aware of what I was doing, not until I finished and read it.
+I was dying of embarrassment once I finished reading it.
+
+[b]Should I really give it to him?[/b] Is it [b]necessary[/b] that he reads and knows how I feel?
+No, of course not. [speed=0.3]Not unless…
+
+[b]Would I like to start something with him?
+- Yes
+	if SistemaPuntos.obtenerPuntos(\"mateo\") <= -4:
+		#do cargarFinal(\"finalMalo\")#mostrarFinal()	
+		do cargarFinal(\"finalMalo\")
+		#SistemaPuntos.obtenerPuntos()
+	else:
+		=> siguee
+- No
+	do cargarFinal(\"soloAmigos\")
+
+~ siguee
+do set_background(\"negroo\")
+After reading this and realizing my feelings, it’s obvious that I can’t truly maintain a friendship with him. But I need him to know. 
+Deep down, I think I would like him to read this.
+[speed= 0.0001] 
+do set_background(\"fucsiaMuyOscuro\")
+Maybe we could be something more. Maybe he sees me as more than a friend.
+Perhaps he’ll be just as wonderful once we’re a couple..
+There’s a possibility that he isn’t like the other guys I’ve met, except for two, of course; my father and an old friend.
+do set_background(\"habitacionAtardecer\")
+What the hell am I thinking of?
+How could I be his girlfriend?
+
+.[wait=0.5].[wait=0.5].
+
+do set_background(\"negro\")
+Am I really ready to be in a relationship?
+Not too long ago, I got out of one, will I be able to get into another?
+do set_background(\"fucsiaOscuro\") 
+I think that, if it’s him, yes. A thousand times yes
+After all, I’ve learned a lot thanks to an old friend I liked. Even though it was online, the feelings were real.
+
+do set_background(\"rosa\")
+Mateo has shown me many things, and so far, all of them have been good.
+Maybe I can try…
+You already know the answer could be ‘no’… so maybe it’s worth giving it a shot…
+
+.[wait=0.5].[wait=0.5].
+
+One moment, no. I can’t just give it to him and be done with it.
+Although, on the other hand, maybe I only need an excuse to give it to him.
+There’s no time until the 14th of February, Valentine’s day…
+No, it would be too much. Even for me.
+
+do set_background(\"habitacionAtardecer\")
+Either way, in a way, I tried hyping myself up to do it. After all, you have all eternity to regret this.
+
+Every time I read the letter, I improved it as best as I could. I added sentences, deleted others, and replaced some words… I revised it with the goal in mind that, if he ever read it, it would be one of the best letters he had ever seen and that it would move him, even just a little. Of course, I also wanted him to understand everything I was saying in it.
+
+Until, finally, I arrived at the version I wanted.
+Still, I went over the letter every day as many times as needed to make sure it was perfect and that everything could be understood.
+
+It’s worth noting that I never neglected my studies or assignments.
+
+I grew increasingly close to Mateo, to the point where we would meet and talk several days a week. I even felt comfortable with the idea of giving him the letter I had written, but, as I mentioned before, I wanted to wait for the perfect excuse. In the meantime, I kept improving it. Besides, I didn’t feel completely ready.
+
+The more days passed and the closer I became to that boy, the more I felt it would be silly to give him the letter that day.
+
+The 14th of February arrived.
+do set_background(\"calleDia\")
+
+I had plans with Mateo, and the only thing keeping me from being with him that day was an exam I had on the 15th, but that didn’t stop me.
+I even brought the letter with me in case the right moment came to give it to him, though I didn’t think I would be able to. At least not without giving in to my impulsive side. After all, some say that to do something, all you need is a little push.
+I guess that’s what happened to me.
+
+do set_background(\"calleNoche\")
+After spending some time with him in the park we would frequent, we arrived at my door.
+He was talking about something, but I wasn’t able to pay attention to what he was saying, because I was thinking about another thing…
+
+I felt it, it was time.
+It may be now or never.
+Maybe I wouldn’t even get this chance if I missed it. 
+[b]Should I really give it to him?
+- Of course
+	do cargarSiguienteCap(\"cap 5\")
+- No
+	do cargarFinal(\"finalCobarde\")
+
+=> END"
+metadata/dialogue_manager_version = "3.9.0"

@@ -40,7 +40,7 @@ do show_character("kristine", "derecha", "feliz")
 Una vez vi su contenido me asombré ante el detalle tan bonito que habían tenido su madre y él.
 
 do show_character("mateo", "izq", "feliz")
-do show_character("kristine", "derecha", "feliz")
+do show_character("kristine", "derecha", "hablaAlegre")
 Kristine: Muchas gracias… 
 do show_character("kristine", "derecha", "hablaPreocupada")
 Kristine: Tu regalo va a tardar un poco en llegar, ¿te lo dije?
@@ -252,7 +252,7 @@ La amistad que teníamos se rompió. Y no sé porqué me extraña, si era eviden
 Perdí una gran amistad que pudo llegar a algo más...
 
 [wait=2.0]
-[center][b][color=red]━━━━━━━━━━━━━━━━━━ FINAL MALO ━━━━━━━━━━━━━━━━━━\n[center][b][color=white]Demasiadas mentiras \n[center][b][color=red] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color][/b][/center]
+[center][b][color=red]━━━━━━━━━━━━━━━━━━ FINAL DE UNA MENTIROSA ━━━━━━━━━━━━━━━━━━\n[center][b][color=white]Demasiadas mentiras \n[center][b][color=red] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color][/b][/center]
 [center]"Las mentiras pueden destruir cualquier tipo de relación, incluso la más fuerte"[/center]
 [wait=2.0]
 => opGameOver
@@ -287,7 +287,7 @@ do set_background("negroo")
 [wait=2.0]
 [center]Creado con \n[center]Godot Engine 4 \n[center]Y Dialogue Manager 3[/center]
 [center]Herramientas usadas para los assets: \n[center]Ibis paint X y Krita\n[center]
-[wait=2] Agradecimientos especiales a mis amigas por ayudarme. \n Sobre todo a mi mejor amiga por hacer la traducción al inglés posible \n y a mi novio por hacer de esta historia una real.
+[wait=2] Agradecimientos especiales a mis amigas por ayudarme. \n Sobre todo a mi Liz por hacer la traducción al inglés posible, a Luli sensei por ayudarme a mejorar visualmente el juego para darle una estética invernal \n Y a mi novio por hacer de esta historia una real.
 [center] 
 [center]¡Gracias por jugar! \n :D[/center]
 [wait=2.0]

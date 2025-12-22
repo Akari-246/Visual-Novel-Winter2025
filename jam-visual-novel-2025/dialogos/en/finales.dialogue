@@ -1,0 +1,305 @@
+~ start
+You have reached the end of this story.
+=> END
+
+~ finalCanon
+do Audio.change_music(Audio.finalCanon, 0)
+do set_background("negroo")
+Last Christmas was not a very good one for me, to say the least, because of family disputes. This time, this year, it was no different. On top of that, my grandfather had passed away, which made it even worse than the previous one. And adding to that the fact that I had to undergo emergency surgery again not long ago; sepsis and peritonitis once more.
+I thought these holidays would be among the worst, but in a way, I was mistaken.
+
+I was alive. I had to take advantage of that.
+I had survived something that very few people ever do, and although I was exhausted from surviving so many battles after years of surgeries and constant tests, there was one person who gave meaning to my struggle.
+Mateo.
+
+do set_background("calleDia")
+December’s cold was already making itself known.
+We had spent the afternoon simply walking through the city, already lit up with Christmas lights, talking about everything and nothing at the same time.
+
+do set_background("entradaPortal")
+do show_character("mateo", "izq", "sinHablar")
+do show_character("kristine", "derecha", "sinHablar")
+As we entered the doorway of my building together to take shelter from the cold, I noticed that he wanted to tell me something.
+I gave him the time he needed to speak. I tried  looking at him with affection instead of curiosity.
+The entrance hall was decorated with a plastic snowman and several boxes made to look like gifts. Above the elevator there was a sign that read ‘Merry Christmas.’ I tried to focus on the decorations so as not to make him nervous.
+
+do show_character("mateo", "izq", "hablaAlegre")
+Mateo: I want to give you something. From my mother and me, of course.
+do show_character("mateo", "izq", "feliz")
+do show_character("kristine", "derecha", "hablaNormal")
+Kristine: What is it?
+do show_character("mateo", "izq", "hablaAlegre")
+do show_character("kristine", "derecha", "seria")
+Mateo: Look at it yourself.
+do show_character("mateo", "izq", "feliz")
+do show_character("kristine", "derecha", "seria")
+
+After saying that, he gave me a small bag.
+Curious, I took the little bag and opened it, only to find a small box inside.
+do show_character("kristine", "derecha", "feliz")
+Once I saw its contents, I was amazed by the thoughtful gesture of him and his mother.
+
+do show_character("mateo", "izq", "feliz")
+do show_character("kristine", "derecha", "hablaAlegre")
+Kristine: Thank you so much…
+do show_character("kristine", "derecha", "hablaPreocupada")
+Kristine: Your gift will arrive a little later, have I already told you?
+do show_character("mateo", "izq", "hablaAlegre")
+do show_character("kristine", "derecha", "intentoSonrisa")
+Mateo: Yes, you did. Don’t worry about that. Do you need help putting it on?
+do show_character("mateo", "izq", "feliz")
+do show_character("kristine", "derecha", "hablaAlegre")
+Kristine: Yes, please.
+do show_character("kristine", "derecha", "feliz")
+
+I was thankful that he asked. Even though we have been together for almost a year, I felt a little embarrassed asking him for favors, even something as simple as putting on a pendant.
+
+do show_character("kristine", "derecha", "hablaAlegre")
+Kristine: It’s stunning.
+do show_character("kristine", "derecha", "feliz")
+With love, I cradled his face in my hands.
+
+do show_character("kristine", "derecha", "hablaAlegre")
+Kristine: Thank you so much.
+do show_character("kristine", "derecha", "feliz")
+He simply smiled and leaned his head down a little to be at my height.
+
+do show_character("mateo", "izq", "hablaAlegre")
+Mateo: It’s nothing.
+do show_character("mateo", "izq", "feliz")
+
+When he finished talking, he gently moved my hands from his face and embraced me.
+Seconds later, we pulled back slightly to gaze at each other. 
+
+Unable to wait any longer out of impatience, I kissed him.
+It was slow and warm, contrasting with the cold both inside and out.
+It was a confident kiss, unhurried, without mishaps. A well-given one, indeed, there were no jokes afterward.
+
+do show_character("kristine", "derecha", "hablaAlegre")
+Kristine: Merry Christmas.
+do show_character("mateo", "izq", "hablaAlegre")
+do show_character("kristine", "derecha", "feliz")
+Mateo: Merry Christmas, my love.
+do show_character("mateo", "izq", "feliz")
+
+do hide_character("izq")
+do hide_character("derecha")
+do set_background("negroo")
+And well, I could go on and on about what happened next, but, instead of doing that, I prefer leaving it at this.
+
+Thank you for coming along with me on this little story. 
+I hope that you found it enjoyable.
+
+Now, I bid you farewell, dear player..
+=> creditos
+
+
+# ========================================
+# FINALES MALOS 
+# ========================================
+~ finalMalo
+do set_background("negroo")
+do Audio.change_music(Audio.finalMalo, 0)
+However, something unexpected happened. Or maybe it wasn’t so unexpected, but I didn’t want to admit that.
+
+Just when I thought I’ll get closer to Mateo, with the passing of time, he started talking to me less and less.
+Those conversations that we used to have became less frequent and now he didn’t reply as often as before.
+Maybe I had it coming.
+In the end, I was quite rude with him on some occasions...
+
+[wait=2.0]
+[center][b][color=purple] ━━━━━━━━━━━━━━━━━━ BAD ENDING ━━━━━━━━━━━━━━━━━━ \n[center][b][color=white]Caminos Separados [center][b][color=purple]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[wait=2.0]
+[center]"Sometimes, if you don’t take the chance you won’t get another. It just won’t happen."[/center]
+[wait=2.0]
+=> opGameOver
+
+~ finalEstupido
+do Audio.change_music(Audio.finalEstupido2)
+do set_background("negroo")
+[wait=2.0]
+[center][b][color=red] ━━━━━━━━━━━━━━━━━━ STILLY ENDING ━━━━━━━━━━━━━━━━━━ \n[center][b][color=white]Muerte inmediata[center][b][color=red]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[wait=2.0]
+[center]They couldn’t perform surgery on Kristine, and, on top of that, she died because of you. Congratulations.[/center]
+[wait=2.0]
+=> opGameOver
+
+~ soloAmigos
+do Audio.change_music(Audio.finalAmigos, 0)
+do set_background("negroo")
+No. Of course not.
+What if he rejects me? And then our friendship won’t stay the same?
+I can’t risk it, I don’t want to lose someone I hold dear because of a slip up...
+
+After that, days passed and, for some damn reason, what I felt for him didn’t change, moreover, it increased.
+I tried to forget any feelings I had about him and every time I was near him I tried focusing on other things that wasn’t him, but, simply put, I couldn’t. It was impossible.
+I was in love with Mateo and, for better or for worse, nobody could change that, not even me.
+
+I swear I tried to keep being her friend, but when someone harbors these kind of feelings for a friend, that friendship stops being a pure friendship.
+Yes, there is real care, yes, of course, but maybe it’s not the kind that he wants.
+
+With time, I realized that I couldn’t continue like this and I started distancing myself from him, but not for his sake, for mine.
+He was always so kind to me, but I wasn’t happy with that kind of relationship. 
+I needed more.
+
+I wanted to be his girlfriend, but I never had the courage to tell him anything. 
+
+I wish I would have done it.
+I wish I had had the courage that was needed to admit the truth...
+
+[wait=2.0]
+[center][b][color=cyan] ━━━━━━━━━━━━━━━━━━ FRIENDS ENDING ━━━━━━━━━━━━━━━━━━ \n[center][b][color=white]Kristine y Mateo fueron buenos amigos[center][b][color=cyan]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[wait=2.0]
+[center]"It is never wrong to admit what you feel deep inside."[/center]
+[wait=2.0]
+=> opGameOver
+
+~ finalCobarde
+do Audio.change_music(Audio.finalCobarde, 0)
+do show_character("mateo", "izq", "hablaPreocupado")
+do show_character("kristine", "derecha", "seria")
+Mateo: Hey, is something the matter?
+do show_character("mateo", "izq", "trite")
+do show_character("kristine", "derecha", "hablaNormal")
+Kristine: No, nothing. Don’t worry
+do show_character("kristine", "derecha", "intentoSonrisa")
+do show_character("mateo", "izq", "serio")
+I smiled at him to convince him that there was really no problem, which I achieved.
+
+do show_character("kristine", "derecha", "sinHablar")
+do show_character("mateo", "izq", "sinHablar")
+I can’t give him the letter. Of course not.
+What if he laughs in my face once he knows about my feelings?
+And if he rips the letter? Or lights it on fire? And what if, when he finds out how I feel, he tries to take advantage of me?
+Or worse, what if he shows what I wrote to someone else?
+
+I don’t know what I was thinking, but I can’t give him the letter, not with so many cruel possibilities of what could happen.
+Simply put, I can’t.
+It’s scary.
+I don’t want to go through anything bad.
+I can’t let them break my heart into tiny pieces. Not anymore.
+
+do hide_character("izq")
+do hide_character("derecha")
+do set_background("negroo")
+After that outing, something changed inside of me.
+I was aware of what I felt for Mateo, but I never got the courage to tell him.
+
+Fortunately, we stayed friends for a really long time, but, deep inside me, I would have liked to give him that letter that I wrote…
+
+[wait=2.0]
+[center][b][color=orange] ━━━━━━━━━━━━━━━━━━ A COWARD'S ENDING ━━━━━━━━━━━━━━━━━━ \n[center][b][color=white]El temor se apoderó de Kristine y ella nunca confesó sus sentimientos[center][b][color=orange]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[wait=2.0]
+[center]"To regret should never be the option."[/center]
+[wait=2.0]
+=> opGameOver
+
+~ demasiadasMentiras
+do Audio.change_music(Audio.finalMentiras, 0)
+¡Oh, no!
+do hide_character("izq")
+do hide_character("derecha")
+do set_background("negroo")
+[wait=1.0]
+[center]You have accumulated [color=red][b]too many[/b][/color] lies...[/center]
+[wait=2.0]
+do set_background("clase")
+One day as any other, I got out of class. Nevertheless, I ran into Mateo as I was leaving.
+do set_background("calleDia")
+do show_character("mateo", "izq", "serio")
+Just as I was about to talk to him, he said something I wasn’t expecting…
+
+do show_character("kristine", "derecha", "seria")
+do show_character("mateo", "izq", "hablaNormal")
+Mateo: Kristine... I can’t take it anymore.
+do show_character("mateo", "izq", "serio")
+He said it so seriously that it surprised me. I never had seen him like this
+
+do show_character("kristine", "derecha", "hablaPreocupada")
+do show_character("mateo", "izq", "serio")
+Kristine: What do you mean?
+do show_character("kristine", "derecha", "seria")
+do show_character("mateo", "izq", "hablaNormal")
+Mateo: You have lied so many times that now I’m not able to tell what’s real and what’s not about you.
+do show_character("mateo", "izq", "hablaPreocupado")
+Mateo: I’m sorry, but I can no longer trust you, not if you continue lying.
+do show_character("mateo", "izq", "serio")
+
+I opened my mouth to say something, but the words got stuck inside.
+do show_character("kristine", "derecha", "hablaTrite")
+Kristine: I’m sorry...
+do show_character("kristine", "derecha", "seria")
+do show_character("mateo", "izq", "hablaNormal")
+Mateo: Me too.
+do show_character("kristine", "derecha", "sinHablar")
+do show_character("mateo", "izq", "sinHablar")
+
+I tried to say something that made more sense, I even tried to explain, however, there is nothing that can justify a lie.
+I didn’t know what else to say apart from a sincere apology, no more lies.
+do hide_character("izq")
+I was going to say something else, but he left me.
+do hide_character("derecha")
+do set_background("negroo")
+From that day on, as it was expected, he never spoke to me again.
+Unfortunately, things with Mateo never went back to being as before. His trust in me never recovered, I even tried talking to him on some occasion, but it was clear the conversation was forced…
+The friendship that we had was broken. And I don’t know why it surprised me, it was evident that sooner or later this would happen, because almost nothing I said was true… I should have been more honest.
+
+I lost a beautiful friendship that could have become something else...
+
+[wait=2.0]
+[center][b][color=red]━━━━━━━━━━━━━━━━━━ A LIAR’S ENDING ━━━━━━━━━━━━━━━━━━\n[center][b][color=white]Demasiadas mentiras \n[center][b][color=red] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color][/b][/center]
+[center]"Lies can destroy any type of relationship, even the stronger ones."[/center]
+[wait=2.0]
+=> opGameOver
+
+# ========================================
+# COSOS
+# ========================================
+~ opGameOver
+do Audio.stop_music()
+[center]Choose an option[/center]
+- Try again 
+	=> reintentar
+- Go back to the menu  
+	=> menu
+
+~ reintentar
+do retry_game()
+=> END
+
+- Try again => reintentar
+- Go back to the menu => menu
+
+~ menu
+do get_tree().change_scene_to_file("res://escenas/menu.tscn")
+=> END
+
+~ creditos
+do set_background("negroo")
+[center][b]━━━━━━━━━━━━━━━━━━━━ \n[center][b]CREDITS\n[center][b]━━━━━━━━━━━━━━━━━━━━[/b][/center]
+[wait=1.0]
+[center]A story, written by me; \n[center][b]Akari[/b]\n[center] Story inspired by something that actually happened
+[wait=2.0]
+[center]Created with \n[center]Godot Engine 4 \n[center]And Dialogue Manager 3[/center]
+[center]Tools used for the assets: \n[center]Ibis paint X and Krita\n[center]
+[wait=2] Special thanks to my friends for helping me. \n Especially to my Liz for making the english translation possible, a Luli sensei for helping me visually improve the game to give it a winter aesthetic \n And to my boyfriend for making this a real story.
+[center] 
+[center]¡Thank you for playing! \n :D[/center]
+[wait=2.0]
+
+do Audio.stop_music()
+- Go back to the menu 
+	=> menu
+- Play again 
+	=> reintentar
+
+=> reintentar
+#do get_tree().reload_current_scene()
+do retry_game()
+=> END
+
+=> menu
+do get_tree().change_scene_to_file("res://escenas/menu.tscn")
+=> END
+
+=> END

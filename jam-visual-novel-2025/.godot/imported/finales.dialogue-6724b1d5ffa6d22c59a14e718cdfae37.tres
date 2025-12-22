@@ -1,24 +1,24 @@
 [gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
 
-[ext_resource type="Script" uid="uid://dbs4435dsf3ry" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_j13o2"]
+[ext_resource type="Script" uid="uid://dbs4435dsf3ry" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_f0ulh"]
 
 [resource]
-script = ExtResource("1_j13o2")
+script = ExtResource("1_f0ulh")
 using_states = PackedStringArray()
 titles = {
-"creditos": "282",
-"demasiadasMentiras": "202",
+"creditos": "277",
+"demasiadasMentiras": "197",
 "finalCanon": "5",
-"finalCobarde": "162",
-"finalEstupido": "123",
+"finalCobarde": "157",
+"finalEstupido": "117",
 "finalMalo": "100",
-"menu": "278",
-"opGameOver": "263",
-"reintentar": "271",
-"soloAmigos": "133",
+"menu": "273",
+"opGameOver": "258",
+"reintentar": "266",
+"soloAmigos": "127",
 "start": "1"
 }
-character_names = PackedStringArray("Mateo", "Kristine", "[center]Herramientas usadas para los assets")
+character_names = PackedStringArray("Mateo", "Kristine", "[center]Tools used for the assets")
 first_title = "0"
 lines = {
 "0": {
@@ -29,13 +29,13 @@ lines = {
 "1": {
 &"id": "1",
 &"next_id": "2",
-&"text": "Has llegado al final de la historia.",
+&"text": "You have reached the end of this story.",
 &"type": "dialogue"
 },
 "10": {
 &"id": "10",
 &"next_id": "11",
-&"text": "Estaba viva. Debía aprovechar eso.",
+&"text": "I was alive. I had to take advantage of that.",
 &"type": "dialogue"
 },
 "100": {
@@ -101,7 +101,7 @@ lines = {
 "102": {
 &"id": "102",
 &"next_id": "104",
-&"text": "Sin embargo, sucedió algo que no esperaba. O quizá sí, pero no quise reconocerlo.",
+&"text": "However, something unexpected happened. Or maybe it wasn’t so unexpected, but I didn’t want to admit that.",
 &"type": "dialogue"
 },
 "103": {
@@ -112,25 +112,25 @@ lines = {
 "104": {
 &"id": "104",
 &"next_id": "105",
-&"text": "Justo cuando creí que iba a ser más cercana a Mateo, con el paso del tiempo, comenzó a hablarme menos.",
+&"text": "Just when I thought I’ll get closer to Mateo, with the passing of time, he started talking to me less and less.",
 &"type": "dialogue"
 },
 "105": {
 &"id": "105",
 &"next_id": "106",
-&"text": "Aquellas conversaciones que teníamos disminuyeron y ya no me respondía tan frecuente como antes.",
+&"text": "Those conversations that we used to have became less frequent and now he didn’t reply as often as before.",
 &"type": "dialogue"
 },
 "106": {
 &"id": "106",
 &"next_id": "107",
-&"text": "Tal vez, lo tenía merecido.",
+&"text": "Maybe I had it coming.",
 &"type": "dialogue"
 },
 "107": {
 &"id": "107",
 &"next_id": "109",
-&"text": "Al fin y al cabo, en ocasiones no fui muy agradable con él...",
+&"text": "In the end, I was quite rude with him on some occasions...",
 &"type": "dialogue"
 },
 "108": {
@@ -141,99 +141,59 @@ lines = {
 "109": {
 &"id": "109",
 &"next_id": "110",
-&"text": "Terminé mi primer año en DAM y, dado que ya no hablaba tanto con Mateo, dejé de verlo.",
+&"text": "[wait=2.0]",
 &"type": "dialogue"
 },
 "11": {
 &"id": "11",
 &"next_id": "12",
-&"text": "Había sobrevivido ante algo que casi nadie ha conseguido y, aunque estaba cansada de sobrevivir ante tanta lucha tras años de operaciones y pruebas constantes, había una persona que hacía de mi vida una lucha con sentido.",
+&"text": "I had survived something that very few people ever do, and although I was exhausted from surviving so many battles after years of surgeries and constant tests, there was one person who gave meaning to my struggle.",
 &"type": "dialogue"
 },
 "110": {
 &"id": "110",
-&"next_id": "112",
-&"text": "Es más, apenas hablamos ahora.",
+&"next_id": "111",
+&"text": "[center][b][color=purple] ━━━━━━━━━━━━━━━━━━ BAD ENDING ━━━━━━━━━━━━━━━━━━ 
+[center][b][color=white]Caminos Separados [center][b][color=purple]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
 &"type": "dialogue"
 },
 "111": {
 &"id": "111",
 &"next_id": "112",
-&"type": ""
+&"text": "[wait=2.0]",
+&"type": "dialogue"
 },
 "112": {
 &"id": "112",
-&"next_id": "114",
-&"text": "Echo de menos cuando conversábamos sin parar...",
+&"next_id": "113",
+&"text": "[center]\"Sometimes, if you don’t take the chance you won’t get another. It just won’t happen.\"[/center]",
 &"type": "dialogue"
 },
 "113": {
 &"id": "113",
 &"next_id": "114",
-&"type": ""
+&"text": "[wait=2.0]",
+&"type": "dialogue"
 },
 "114": {
 &"id": "114",
-&"next_id": "115",
-&"text": "No debí de comportarme de esa forma con él...",
-&"type": "dialogue"
+&"is_snippet": false,
+&"next_id": "258",
+&"next_id_after": "",
+&"type": "goto"
 },
 "115": {
 &"id": "115",
 &"next_id": "116",
-&"text": "[wait=2.0]",
-&"type": "dialogue"
+&"type": ""
 },
 "116": {
 &"id": "116",
 &"next_id": "117",
-&"text": "[center][b][color=purple] ━━━━━━━━━━━━━━━━━━ FINAL MALO ━━━━━━━━━━━━━━━━━━ 
-[center][b][color=white]Caminos Separados [center][b][color=purple]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
-&"type": "dialogue"
+&"type": "title"
 },
 "117": {
 &"id": "117",
-&"next_id": "118",
-&"text": "[wait=2.0]",
-&"type": "dialogue"
-},
-"118": {
-&"id": "118",
-&"next_id": "119",
-&"text": "[center]\"A veces, las oportunidades que tenías no vuelven. Jamás lo harán\"[/center]",
-&"type": "dialogue"
-},
-"119": {
-&"id": "119",
-&"next_id": "120",
-&"text": "[wait=2.0]",
-&"type": "dialogue"
-},
-"12": {
-&"id": "12",
-&"next_id": "14",
-&"text": "Mateo.",
-&"type": "dialogue"
-},
-"120": {
-&"id": "120",
-&"is_snippet": false,
-&"next_id": "263",
-&"next_id_after": "",
-&"type": "goto"
-},
-"121": {
-&"id": "121",
-&"next_id": "122",
-&"type": ""
-},
-"122": {
-&"id": "122",
-&"next_id": "123",
-&"type": "title"
-},
-"123": {
-&"id": "123",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"i": 3,
@@ -264,11 +224,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "124",
+&"next_id": "118",
 &"type": "mutation"
 },
-"124": {
-&"id": "124",
+"118": {
+&"id": "118",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "set_background",
@@ -285,64 +245,65 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "125",
+&"next_id": "119",
 &"type": "mutation"
+},
+"119": {
+&"id": "119",
+&"next_id": "120",
+&"text": "[wait=2.0]",
+&"type": "dialogue"
+},
+"12": {
+&"id": "12",
+&"next_id": "14",
+&"text": "Mateo.",
+&"type": "dialogue"
+},
+"120": {
+&"id": "120",
+&"next_id": "121",
+&"text": "[center][b][color=red] ━━━━━━━━━━━━━━━━━━ STILLY ENDING ━━━━━━━━━━━━━━━━━━ 
+[center][b][color=white]Muerte inmediata[center][b][color=red]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+&"type": "dialogue"
+},
+"121": {
+&"id": "121",
+&"next_id": "122",
+&"text": "[wait=2.0]",
+&"type": "dialogue"
+},
+"122": {
+&"id": "122",
+&"next_id": "123",
+&"text": "[center]They couldn’t perform surgery on Kristine, and, on top of that, she died because of you. Congratulations.[/center]",
+&"type": "dialogue"
+},
+"123": {
+&"id": "123",
+&"next_id": "124",
+&"text": "[wait=2.0]",
+&"type": "dialogue"
+},
+"124": {
+&"id": "124",
+&"is_snippet": false,
+&"next_id": "258",
+&"next_id_after": "",
+&"type": "goto"
 },
 "125": {
 &"id": "125",
 &"next_id": "126",
-&"text": "[wait=2.0]",
-&"type": "dialogue"
+&"type": ""
 },
 "126": {
 &"id": "126",
 &"next_id": "127",
-&"text": "[center][b][color=red] ━━━━━━━━━━━━━━━━━━ FINAL ESTÚPIDO ━━━━━━━━━━━━━━━━━━ 
-[center][b][color=white]Muerte inmediata[center][b][color=red]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
-&"type": "dialogue"
+&"type": "title"
 },
 "127": {
 &"id": "127",
-&"next_id": "128",
-&"text": "[wait=2.0]",
-&"type": "dialogue"
-},
-"128": {
-&"id": "128",
-&"next_id": "129",
-&"text": "[center]No pudieron operar a Kristine y, para colmo, murió por tu culpa. Enhorabuena.[/center]",
-&"type": "dialogue"
-},
-"129": {
-&"id": "129",
-&"next_id": "130",
-&"text": "[wait=2.0]",
-&"type": "dialogue"
-},
-"13": {
-&"id": "13",
-&"next_id": "14",
-&"type": ""
-},
-"130": {
-&"id": "130",
-&"is_snippet": false,
-&"next_id": "263",
-&"next_id_after": "",
-&"type": "goto"
-},
-"131": {
-&"id": "131",
-&"next_id": "132",
-&"type": ""
-},
-"132": {
-&"id": "132",
-&"next_id": "133",
-&"type": "title"
-},
-"133": {
-&"id": "133",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"i": 3,
@@ -377,11 +338,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "134",
+&"next_id": "128",
 &"type": "mutation"
 },
-"134": {
-&"id": "134",
+"128": {
+&"id": "128",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "set_background",
@@ -398,37 +359,76 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "135",
+&"next_id": "129",
 &"type": "mutation"
+},
+"129": {
+&"id": "129",
+&"next_id": "130",
+&"text": "No. Of course not.",
+&"type": "dialogue"
+},
+"13": {
+&"id": "13",
+&"next_id": "14",
+&"type": ""
+},
+"130": {
+&"id": "130",
+&"next_id": "131",
+&"text": "What if he rejects me? And then our friendship won’t stay the same?",
+&"type": "dialogue"
+},
+"131": {
+&"id": "131",
+&"next_id": "133",
+&"text": "I can’t risk it, I don’t want to lose someone I hold dear because of a slip up...",
+&"type": "dialogue"
+},
+"132": {
+&"id": "132",
+&"next_id": "133",
+&"type": ""
+},
+"133": {
+&"id": "133",
+&"next_id": "134",
+&"text": "After that, days passed and, for some damn reason, what I felt for him didn’t change, moreover, it increased.",
+&"type": "dialogue"
+},
+"134": {
+&"id": "134",
+&"next_id": "135",
+&"text": "I tried to forget any feelings I had about him and every time I was near him I tried focusing on other things that wasn’t him, but, simply put, I couldn’t. It was impossible.",
+&"type": "dialogue"
 },
 "135": {
 &"id": "135",
-&"next_id": "136",
-&"text": "No. Por supuesto que no.",
+&"next_id": "137",
+&"text": "I was in love with Mateo and, for better or for worse, nobody could change that, not even me.",
 &"type": "dialogue"
 },
 "136": {
 &"id": "136",
 &"next_id": "137",
-&"text": "¿Y si me rechaza? ¿Y si luego nuestra amistad no vuelve a ser la misma?",
-&"type": "dialogue"
+&"type": ""
 },
 "137": {
 &"id": "137",
-&"next_id": "139",
-&"text": "No puedo arriesgarme, no si vuelvo a perder a alguien que quiero por un desliz...",
+&"next_id": "138",
+&"text": "I swear I tried to keep being her friend, but when someone harbors these kind of feelings for a friend, that friendship stops being a pure friendship.",
 &"type": "dialogue"
 },
 "138": {
 &"id": "138",
-&"next_id": "139",
-&"type": ""
+&"next_id": "140",
+&"text": "Yes, there is real care, yes, of course, but maybe it’s not the kind that he wants.",
+&"type": "dialogue"
 },
 "139": {
 &"id": "139",
 &"next_id": "140",
-&"text": "Después de aquello, los días pasaron y, por alguna maldita razón, lo que sentía por Mateo no cesaba, es más, se intensificaba.",
-&"type": "dialogue"
+&"type": ""
 },
 "14": {
 &"id": "14",
@@ -454,30 +454,30 @@ lines = {
 "140": {
 &"id": "140",
 &"next_id": "141",
-&"text": "Intenté olvidar cualquier sentimiento que tuviera por él y cada vez que estaba a su lado intentaba concentrarme en otras cosas que no fuera él, pero, simplemente, no podía. Era imposible.",
+&"text": "With time, I realized that I couldn’t continue like this and I started distancing myself from him, but not for his sake, for mine.",
 &"type": "dialogue"
 },
 "141": {
 &"id": "141",
-&"next_id": "143",
-&"text": "Estaba enamorada de Mateo y, por suerte o por desgracia, nadie podría cambiar eso, ni siquiera yo misma.",
+&"next_id": "142",
+&"text": "He was always so kind to me, but I wasn’t happy with that kind of relationship.",
 &"type": "dialogue"
 },
 "142": {
 &"id": "142",
-&"next_id": "143",
-&"type": ""
+&"next_id": "144",
+&"text": "I needed more.",
+&"type": "dialogue"
 },
 "143": {
 &"id": "143",
 &"next_id": "144",
-&"text": "Juro que intenté seguir siendo su amiga, pero cuando uno guarda esta clase de sentimientos por un amigo, sencillamente la amistad deja de ser una amistad real.",
-&"type": "dialogue"
+&"type": ""
 },
 "144": {
 &"id": "144",
 &"next_id": "146",
-&"text": "Sí, hay cariño real, por supuesto que sí, pero no es lo que quizás él quiere.",
+&"text": "I wanted to be his girlfriend, but I never had the courage to tell him anything.",
 &"type": "dialogue"
 },
 "145": {
@@ -488,13 +488,13 @@ lines = {
 "146": {
 &"id": "146",
 &"next_id": "147",
-&"text": "Con el tiempo, me di cuenta de que no podía seguir así y me fui alejando de él, pero no por él, sino por mí.",
+&"text": "I wish I would have done it.",
 &"type": "dialogue"
 },
 "147": {
 &"id": "147",
 &"next_id": "149",
-&"text": "Él siempre fue muy bueno conmigo, mas yo no estaba contenta con esa relación. Necesitaba más.",
+&"text": "I wish I had had the courage that was needed to admit the truth...",
 &"type": "dialogue"
 },
 "148": {
@@ -504,94 +504,60 @@ lines = {
 },
 "149": {
 &"id": "149",
-&"next_id": "151",
-&"text": "Quería ser su novia, pero nunca me atreví a decirle nada.",
+&"next_id": "150",
+&"text": "[wait=2.0]",
 &"type": "dialogue"
 },
 "15": {
 &"id": "15",
 &"next_id": "16",
-&"text": "Ya era notorio el frío de diciembre.",
+&"text": "December’s cold was already making itself known.",
 &"type": "dialogue"
 },
 "150": {
 &"id": "150",
 &"next_id": "151",
-&"type": ""
+&"text": "[center][b][color=cyan] ━━━━━━━━━━━━━━━━━━ FRIENDS ENDING ━━━━━━━━━━━━━━━━━━ 
+[center][b][color=white]Kristine y Mateo fueron buenos amigos[center][b][color=cyan]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+&"type": "dialogue"
 },
 "151": {
 &"id": "151",
 &"next_id": "152",
-&"text": "Ojalá me hubiera animado.",
+&"text": "[wait=2.0]",
 &"type": "dialogue"
 },
 "152": {
 &"id": "152",
-&"next_id": "154",
-&"text": "Ojalá hubiera tenido el valor suficiente para admitir la realidad...",
+&"next_id": "153",
+&"text": "[center]\"It is never wrong to admit what you feel deep inside.\"[/center]",
 &"type": "dialogue"
 },
 "153": {
 &"id": "153",
 &"next_id": "154",
-&"type": ""
+&"text": "[wait=2.0]",
+&"type": "dialogue"
 },
 "154": {
 &"id": "154",
-&"next_id": "155",
-&"text": "[wait=2.0]",
-&"type": "dialogue"
+&"is_snippet": false,
+&"next_id": "258",
+&"next_id_after": "",
+&"type": "goto"
 },
 "155": {
 &"id": "155",
 &"next_id": "156",
-&"text": "[center][b][color=cyan] ━━━━━━━━━━━━━━━━━━ FINAL AMIGOS ━━━━━━━━━━━━━━━━━━ 
-[center][b][color=white]Kristine y Mateo fueron buenos amigos[center][b][color=cyan]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
-&"type": "dialogue"
+&"type": ""
 },
 "156": {
 &"id": "156",
 &"next_id": "157",
-&"text": "[wait=2.0]",
-&"type": "dialogue"
+&"type": "title"
 },
 "157": {
 &"id": "157",
-&"next_id": "158",
-&"text": "[center]\"Nunca es malo admitir lo que hay dentro de ti\"[/center]",
-&"type": "dialogue"
-},
-"158": {
-&"id": "158",
-&"next_id": "159",
-&"text": "[wait=2.0]",
-&"type": "dialogue"
-},
-"159": {
-&"id": "159",
-&"is_snippet": false,
-&"next_id": "263",
-&"next_id_after": "",
-&"type": "goto"
-},
-"16": {
-&"id": "16",
-&"next_id": "18",
-&"text": "Habíamos pasado la tarde simplemente caminando por la ciudad ya alumbrada con las luces de Navidad hablando de todo y de nada a la vez.",
-&"type": "dialogue"
-},
-"160": {
-&"id": "160",
-&"next_id": "161",
-&"type": ""
-},
-"161": {
-&"id": "161",
-&"next_id": "162",
-&"type": "title"
-},
-"162": {
-&"id": "162",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"i": 3,
@@ -626,11 +592,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "163",
+&"next_id": "158",
 &"type": "mutation"
 },
-"163": {
-&"id": "163",
+"158": {
+&"id": "158",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -655,11 +621,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "164",
+&"next_id": "159",
 &"type": "mutation"
 },
-"164": {
-&"id": "164",
+"159": {
+&"id": "159",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -684,18 +650,24 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "165",
+&"next_id": "160",
 &"type": "mutation"
 },
-"165": {
-&"character": "Mateo",
-&"id": "165",
-&"next_id": "166",
-&"text": "Oye, ¿te pasa algo?",
+"16": {
+&"id": "16",
+&"next_id": "18",
+&"text": "We had spent the afternoon simply walking through the city, already lit up with Christmas lights, talking about everything and nothing at the same time.",
 &"type": "dialogue"
 },
-"166": {
-&"id": "166",
+"160": {
+&"character": "Mateo",
+&"id": "160",
+&"next_id": "161",
+&"text": "Hey, is something the matter?",
+&"type": "dialogue"
+},
+"161": {
+&"id": "161",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -720,11 +692,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "167",
+&"next_id": "162",
 &"type": "mutation"
 },
-"167": {
-&"id": "167",
+"162": {
+&"id": "162",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -749,18 +721,18 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "168",
+&"next_id": "163",
 &"type": "mutation"
 },
-"168": {
+"163": {
 &"character": "Kristine",
-&"id": "168",
-&"next_id": "169",
-&"text": "No, nada. No te preocupes",
+&"id": "163",
+&"next_id": "164",
+&"text": "No, nothing. Don’t worry",
 &"type": "dialogue"
 },
-"169": {
-&"id": "169",
+"164": {
+&"id": "164",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -785,16 +757,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "170",
+&"next_id": "165",
 &"type": "mutation"
 },
-"17": {
-&"id": "17",
-&"next_id": "18",
-&"type": ""
-},
-"170": {
-&"id": "170",
+"165": {
+&"id": "165",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -819,22 +786,22 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "171",
+&"next_id": "166",
 &"type": "mutation"
 },
-"171": {
-&"id": "171",
-&"next_id": "173",
-&"text": "Le sonreí para convencerle de que de verdad no pasaba nada, cosa que logré.",
+"166": {
+&"id": "166",
+&"next_id": "168",
+&"text": "I smiled at him to convince him that there was really no problem, which I achieved.",
 &"type": "dialogue"
 },
-"172": {
-&"id": "172",
-&"next_id": "173",
+"167": {
+&"id": "167",
+&"next_id": "168",
 &"type": ""
 },
-"173": {
-&"id": "173",
+"168": {
+&"id": "168",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -859,11 +826,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "174",
+&"next_id": "169",
 &"type": "mutation"
 },
-"174": {
-&"id": "174",
+"169": {
+&"id": "169",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -888,37 +855,72 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "175",
+&"next_id": "170",
 &"type": "mutation"
+},
+"17": {
+&"id": "17",
+&"next_id": "18",
+&"type": ""
+},
+"170": {
+&"id": "170",
+&"next_id": "171",
+&"text": "I can’t give him the letter. Of course not.",
+&"type": "dialogue"
+},
+"171": {
+&"id": "171",
+&"next_id": "172",
+&"text": "What if he laughs in my face once he knows about my feelings?",
+&"type": "dialogue"
+},
+"172": {
+&"id": "172",
+&"next_id": "173",
+&"text": "And if he rips the letter? Or lights it on fire? And what if, when he finds out how I feel, he tries to take advantage of me?",
+&"type": "dialogue"
+},
+"173": {
+&"id": "173",
+&"next_id": "175",
+&"text": "Or worse, what if he shows what I wrote to someone else?",
+&"type": "dialogue"
+},
+"174": {
+&"id": "174",
+&"next_id": "175",
+&"type": ""
 },
 "175": {
 &"id": "175",
 &"next_id": "176",
-&"text": "No puedo darle la carta. Por supuesto que no.",
+&"text": "I don’t know what I was thinking, but I can’t give him the letter, not with so many cruel possibilities of what could happen.",
 &"type": "dialogue"
 },
 "176": {
 &"id": "176",
 &"next_id": "177",
-&"text": "¿Qué pasa si se ríe en mi cara una vez sepa de mis sentimientos?",
+&"text": "Simply put, I can’t.",
 &"type": "dialogue"
 },
 "177": {
 &"id": "177",
 &"next_id": "178",
-&"text": "¿Y si rompe la carta? ¿Y si le prende fuego? ¿Y si, en cuanto sepa lo que siento, se intenta aprovechar de mí?",
+&"text": "It’s scary.",
 &"type": "dialogue"
 },
 "178": {
 &"id": "178",
-&"next_id": "180",
-&"text": "O peor, ¿y si le muestra lo que le escribí a alguien más?",
+&"next_id": "179",
+&"text": "I don’t want to go through anything bad.",
 &"type": "dialogue"
 },
 "179": {
 &"id": "179",
-&"next_id": "180",
-&"type": ""
+&"next_id": "181",
+&"text": "I can’t let them break my heart into tiny pieces. Not anymore.",
+&"type": "dialogue"
 },
 "18": {
 &"id": "18",
@@ -944,40 +946,10 @@ lines = {
 "180": {
 &"id": "180",
 &"next_id": "181",
-&"text": "No sé en qué pensé, pero no puedo darle la carta, no si hay tantas posibilidades crueles que puedan pasar.",
-&"type": "dialogue"
+&"type": ""
 },
 "181": {
 &"id": "181",
-&"next_id": "182",
-&"text": "Simplemente, no puedo.",
-&"type": "dialogue"
-},
-"182": {
-&"id": "182",
-&"next_id": "183",
-&"text": "Da miedo.",
-&"type": "dialogue"
-},
-"183": {
-&"id": "183",
-&"next_id": "184",
-&"text": "No quiero pasar por nada malo.",
-&"type": "dialogue"
-},
-"184": {
-&"id": "184",
-&"next_id": "186",
-&"text": "No puedo dejar que fragmenten mi corazón en pedacitos. No más veces.",
-&"type": "dialogue"
-},
-"185": {
-&"id": "185",
-&"next_id": "186",
-&"type": ""
-},
-"186": {
-&"id": "186",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "hide_character",
@@ -994,11 +966,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "187",
+&"next_id": "182",
 &"type": "mutation"
 },
-"187": {
-&"id": "187",
+"182": {
+&"id": "182",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "hide_character",
@@ -1015,11 +987,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "188",
+&"next_id": "183",
 &"type": "mutation"
 },
-"188": {
-&"id": "188",
+"183": {
+&"id": "183",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "set_background",
@@ -1036,13 +1008,41 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "189",
+&"next_id": "184",
 &"type": "mutation"
+},
+"184": {
+&"id": "184",
+&"next_id": "185",
+&"text": "After that outing, something changed inside of me.",
+&"type": "dialogue"
+},
+"185": {
+&"id": "185",
+&"next_id": "187",
+&"text": "I was aware of what I felt for Mateo, but I never got the courage to tell him.",
+&"type": "dialogue"
+},
+"186": {
+&"id": "186",
+&"next_id": "187",
+&"type": ""
+},
+"187": {
+&"id": "187",
+&"next_id": "189",
+&"text": "Fortunately, we stayed friends for a really long time, but, deep inside me, I would have liked to give him that letter that I wrote…",
+&"type": "dialogue"
+},
+"188": {
+&"id": "188",
+&"next_id": "189",
+&"type": ""
 },
 "189": {
 &"id": "189",
 &"next_id": "190",
-&"text": "Después de esa quedada, algo cambió dentro de mí.",
+&"text": "[wait=2.0]",
 &"type": "dialogue"
 },
 "19": {
@@ -1076,63 +1076,111 @@ lines = {
 },
 "190": {
 &"id": "190",
-&"next_id": "192",
-&"text": "Era consciente de lo que sentía por Mateo, pero nunca me atreví a contárselo.",
+&"next_id": "191",
+&"text": "[center][b][color=orange] ━━━━━━━━━━━━━━━━━━ A COWARD'S ENDING ━━━━━━━━━━━━━━━━━━ 
+[center][b][color=white]El temor se apoderó de Kristine y ella nunca confesó sus sentimientos[center][b][color=orange]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
 &"type": "dialogue"
 },
 "191": {
 &"id": "191",
 &"next_id": "192",
-&"type": ""
+&"text": "[wait=2.0]",
+&"type": "dialogue"
 },
 "192": {
 &"id": "192",
-&"next_id": "194",
-&"text": "Por suerte, fuimos amigos por mucho tiempo, pero, muy dentro de mí, me hubiera gustado darle esa carta que le escribí...",
+&"next_id": "193",
+&"text": "[center]\"To regret should never be the option.\"[/center]",
 &"type": "dialogue"
 },
 "193": {
 &"id": "193",
 &"next_id": "194",
-&"type": ""
+&"text": "[wait=2.0]",
+&"type": "dialogue"
 },
 "194": {
 &"id": "194",
-&"next_id": "195",
-&"text": "[wait=2.0]",
-&"type": "dialogue"
+&"is_snippet": false,
+&"next_id": "258",
+&"next_id_after": "",
+&"type": "goto"
 },
 "195": {
 &"id": "195",
 &"next_id": "196",
-&"text": "[center][b][color=orange] ━━━━━━━━━━━━━━━━━━ FINAL COBARDE ━━━━━━━━━━━━━━━━━━ 
-[center][b][color=white]El temor se apoderó de Kristine y ella nunca confesó sus sentimientos[center][b][color=orange]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━",
-&"type": "dialogue"
+&"type": ""
 },
 "196": {
 &"id": "196",
 &"next_id": "197",
-&"text": "[wait=2.0]",
-&"type": "dialogue"
+&"type": "title"
 },
 "197": {
 &"id": "197",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"i": 3,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 8,
+&"type": &"dot"
+}, {
+&"function": "change_music",
+&"i": 9,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 22,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 27,
+&"type": &"dot"
+}, {
+&"i": 28,
+&"type": &"variable",
+&"value": "finalMentiras"
+}]), Array[Dictionary]([{
+&"i": 43,
+&"type": &"number",
+&"value": 0
+}, {
+&"i": 44,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
 &"next_id": "198",
-&"text": "[center]\"Arrepentirse nunca es la opción\"[/center]",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "198": {
 &"id": "198",
 &"next_id": "199",
-&"text": "[wait=2.0]",
+&"text": "¡Oh, no!",
 &"type": "dialogue"
 },
 "199": {
 &"id": "199",
-&"is_snippet": false,
-&"next_id": "263",
-&"next_id_after": "",
-&"type": "goto"
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "hide_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "izq"
+}, {
+&"i": 23,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "200",
+&"type": "mutation"
 },
 "2": {
 &"id": "2",
@@ -1172,82 +1220,6 @@ lines = {
 },
 "200": {
 &"id": "200",
-&"next_id": "201",
-&"type": ""
-},
-"201": {
-&"id": "201",
-&"next_id": "202",
-&"type": "title"
-},
-"202": {
-&"id": "202",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"i": 3,
-&"type": &"variable",
-&"value": "Audio"
-}, {
-&"i": 8,
-&"type": &"dot"
-}, {
-&"function": "change_music",
-&"i": 9,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 22,
-&"type": &"variable",
-&"value": "Audio"
-}, {
-&"i": 27,
-&"type": &"dot"
-}, {
-&"i": 28,
-&"type": &"variable",
-&"value": "finalMentiras"
-}]), Array[Dictionary]([{
-&"i": 43,
-&"type": &"number",
-&"value": 0
-}, {
-&"i": 44,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
-&"next_id": "203",
-&"type": "mutation"
-},
-"203": {
-&"id": "203",
-&"next_id": "204",
-&"text": "¡Oh, no!",
-&"type": "dialogue"
-},
-"204": {
-&"id": "204",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"function": "hide_character",
-&"i": 3,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 18,
-&"type": &"string",
-&"value": "izq"
-}, {
-&"i": 23,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
-&"next_id": "205",
-&"type": "mutation"
-},
-"205": {
-&"id": "205",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "hide_character",
@@ -1264,11 +1236,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "206",
+&"next_id": "201",
 &"type": "mutation"
 },
-"206": {
-&"id": "206",
+"201": {
+&"id": "201",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "set_background",
@@ -1285,35 +1257,29 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "207",
+&"next_id": "202",
 &"type": "mutation"
 },
-"207": {
-&"id": "207",
-&"next_id": "208",
+"202": {
+&"id": "202",
+&"next_id": "203",
 &"text": "[wait=1.0]",
 &"type": "dialogue"
 },
-"208": {
-&"id": "208",
-&"next_id": "209",
-&"text": "[center]Has acumulado [color=red][b]demasiadas[/b][/color] mentiras...[/center]",
+"203": {
+&"id": "203",
+&"next_id": "204",
+&"text": "[center]You have accumulated [color=red][b]too many[/b][/color] lies...[/center]",
 &"type": "dialogue"
 },
-"209": {
-&"id": "209",
-&"next_id": "210",
+"204": {
+&"id": "204",
+&"next_id": "205",
 &"text": "[wait=2.0]",
 &"type": "dialogue"
 },
-"21": {
-&"id": "21",
-&"next_id": "22",
-&"text": "Al entrar en el portal de mi casa junto a mi acompañante para refugiarnos del frío, noté que me quería decir algo.",
-&"type": "dialogue"
-},
-"210": {
-&"id": "210",
+"205": {
+&"id": "205",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "set_background",
@@ -1330,17 +1296,17 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "211",
+&"next_id": "206",
 &"type": "mutation"
 },
-"211": {
-&"id": "211",
-&"next_id": "212",
-&"text": "Un día como otro cualquiera, salí de clases. No obstante, me encontré a la salida con Mateo.",
+"206": {
+&"id": "206",
+&"next_id": "207",
+&"text": "One day as any other, I got out of class. Nevertheless, I ran into Mateo as I was leaving.",
 &"type": "dialogue"
 },
-"212": {
-&"id": "212",
+"207": {
+&"id": "207",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "set_background",
@@ -1357,11 +1323,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "213",
+&"next_id": "208",
 &"type": "mutation"
 },
-"213": {
-&"id": "213",
+"208": {
+&"id": "208",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -1386,22 +1352,28 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "214",
+&"next_id": "209",
 &"type": "mutation"
 },
-"214": {
-&"id": "214",
-&"next_id": "216",
-&"text": "Justo cuando iba a hablarle, dijo algo que no esperaba...",
+"209": {
+&"id": "209",
+&"next_id": "211",
+&"text": "Just as I was about to talk to him, he said something I wasn’t expecting…",
 &"type": "dialogue"
 },
-"215": {
-&"id": "215",
-&"next_id": "216",
+"21": {
+&"id": "21",
+&"next_id": "22",
+&"text": "As we entered the doorway of my building together to take shelter from the cold, I noticed that he wanted to tell me something.",
+&"type": "dialogue"
+},
+"210": {
+&"id": "210",
+&"next_id": "211",
 &"type": ""
 },
-"216": {
-&"id": "216",
+"211": {
+&"id": "211",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -1426,11 +1398,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "217",
+&"next_id": "212",
 &"type": "mutation"
 },
-"217": {
-&"id": "217",
+"212": {
+&"id": "212",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -1455,18 +1427,18 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "218",
+&"next_id": "213",
 &"type": "mutation"
 },
-"218": {
+"213": {
 &"character": "Mateo",
-&"id": "218",
-&"next_id": "219",
-&"text": "Kristine... ya no puedo más.",
+&"id": "213",
+&"next_id": "214",
+&"text": "Kristine... I can’t take it anymore.",
 &"type": "dialogue"
 },
-"219": {
-&"id": "219",
+"214": {
+&"id": "214",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -1491,28 +1463,22 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "220",
+&"next_id": "215",
 &"type": "mutation"
 },
-"22": {
-&"id": "22",
-&"next_id": "23",
-&"text": "Le di el tiempo necesario para que hablara. Intentaba mirarlo con cariño y no con curiosidad.",
+"215": {
+&"id": "215",
+&"next_id": "217",
+&"text": "He said it so seriously that it surprised me. I never had seen him like this",
 &"type": "dialogue"
 },
-"220": {
-&"id": "220",
-&"next_id": "222",
-&"text": "Lo dijo tan serio que me extrañó. Nunca lo había visto así.",
-&"type": "dialogue"
-},
-"221": {
-&"id": "221",
-&"next_id": "222",
+"216": {
+&"id": "216",
+&"next_id": "217",
 &"type": ""
 },
-"222": {
-&"id": "222",
+"217": {
+&"id": "217",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -1537,11 +1503,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "223",
+&"next_id": "218",
 &"type": "mutation"
 },
-"223": {
-&"id": "223",
+"218": {
+&"id": "218",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -1566,18 +1532,24 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "224",
+&"next_id": "219",
 &"type": "mutation"
 },
-"224": {
+"219": {
 &"character": "Kristine",
-&"id": "224",
-&"next_id": "225",
-&"text": "¿Qué quieres decir?",
+&"id": "219",
+&"next_id": "220",
+&"text": "What do you mean?",
 &"type": "dialogue"
 },
-"225": {
-&"id": "225",
+"22": {
+&"id": "22",
+&"next_id": "23",
+&"text": "I gave him the time he needed to speak. I tried  looking at him with affection instead of curiosity.",
+&"type": "dialogue"
+},
+"220": {
+&"id": "220",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -1602,11 +1574,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "226",
+&"next_id": "221",
 &"type": "mutation"
 },
-"226": {
-&"id": "226",
+"221": {
+&"id": "221",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -1631,18 +1603,18 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "227",
+&"next_id": "222",
 &"type": "mutation"
 },
-"227": {
+"222": {
 &"character": "Mateo",
-&"id": "227",
-&"next_id": "228",
-&"text": "Has mentido tantas veces que ya no sé qué es real de ti y qué no.",
+&"id": "222",
+&"next_id": "223",
+&"text": "You have lied so many times that now I’m not able to tell what’s real and what’s not about you.",
 &"type": "dialogue"
 },
-"228": {
-&"id": "228",
+"223": {
+&"id": "223",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -1667,24 +1639,18 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "229",
+&"next_id": "224",
 &"type": "mutation"
 },
-"229": {
+"224": {
 &"character": "Mateo",
-&"id": "229",
-&"next_id": "230",
-&"text": "Lo siento, pero no puedo confiar en alguien así, no si sigues mintiendo.",
+&"id": "224",
+&"next_id": "225",
+&"text": "I’m sorry, but I can no longer trust you, not if you continue lying.",
 &"type": "dialogue"
 },
-"23": {
-&"id": "23",
-&"next_id": "25",
-&"text": "El portal estaba decorado con un muñeco de nieve de plástico y varias cajas que simulaban ser regalos. Arriba del ascensor había un letrero en el que ponía “Feliz Navidad”. Intenté enfocarme en el decorado para no ponerlo nervioso.",
-&"type": "dialogue"
-},
-"230": {
-&"id": "230",
+"225": {
+&"id": "225",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -1709,22 +1675,22 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "232",
+&"next_id": "227",
 &"type": "mutation"
 },
-"231": {
-&"id": "231",
-&"next_id": "232",
+"226": {
+&"id": "226",
+&"next_id": "227",
 &"type": ""
 },
-"232": {
-&"id": "232",
-&"next_id": "233",
-&"text": "Abrí la boca para decir algo, pero no me salieron las palabras.",
+"227": {
+&"id": "227",
+&"next_id": "228",
+&"text": "I opened my mouth to say something, but the words got stuck inside.",
 &"type": "dialogue"
 },
-"233": {
-&"id": "233",
+"228": {
+&"id": "228",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -1749,18 +1715,24 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "234",
+&"next_id": "229",
 &"type": "mutation"
 },
-"234": {
+"229": {
 &"character": "Kristine",
-&"id": "234",
-&"next_id": "235",
-&"text": "Lo siento...",
+&"id": "229",
+&"next_id": "230",
+&"text": "I’m sorry...",
 &"type": "dialogue"
 },
-"235": {
-&"id": "235",
+"23": {
+&"id": "23",
+&"next_id": "25",
+&"text": "The entrance hall was decorated with a plastic snowman and several boxes made to look like gifts. Above the elevator there was a sign that read ‘Merry Christmas.’ I tried to focus on the decorations so as not to make him nervous.",
+&"type": "dialogue"
+},
+"230": {
+&"id": "230",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -1785,11 +1757,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "236",
+&"next_id": "231",
 &"type": "mutation"
 },
-"236": {
-&"id": "236",
+"231": {
+&"id": "231",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -1814,18 +1786,18 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "237",
+&"next_id": "232",
 &"type": "mutation"
 },
-"237": {
+"232": {
 &"character": "Mateo",
-&"id": "237",
-&"next_id": "238",
-&"text": "Yo también.",
+&"id": "232",
+&"next_id": "233",
+&"text": "Me too.",
 &"type": "dialogue"
 },
-"238": {
-&"id": "238",
+"233": {
+&"id": "233",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -1850,11 +1822,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "239",
+&"next_id": "234",
 &"type": "mutation"
 },
-"239": {
-&"id": "239",
+"234": {
+&"id": "234",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -1879,33 +1851,28 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "241",
+&"next_id": "236",
 &"type": "mutation"
 },
-"24": {
-&"id": "24",
-&"next_id": "25",
+"235": {
+&"id": "235",
+&"next_id": "236",
 &"type": ""
 },
-"240": {
-&"id": "240",
-&"next_id": "241",
-&"type": ""
-},
-"241": {
-&"id": "241",
-&"next_id": "242",
-&"text": "Intenté pensar en alguna frase más que tuviera sentido, incluso explicarle, sin embargo, para las mentiras no suele haber excusa que lo justifique.",
+"236": {
+&"id": "236",
+&"next_id": "237",
+&"text": "I tried to say something that made more sense, I even tried to explain, however, there is nothing that can justify a lie.",
 &"type": "dialogue"
 },
-"242": {
-&"id": "242",
-&"next_id": "243",
-&"text": "No sabía qué más decir a excepción de una sincera disculpa.",
+"237": {
+&"id": "237",
+&"next_id": "238",
+&"text": "I didn’t know what else to say apart from a sincere apology, no more lies.",
 &"type": "dialogue"
 },
-"243": {
-&"id": "243",
+"238": {
+&"id": "238",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "hide_character",
@@ -1922,17 +1889,22 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "244",
+&"next_id": "239",
 &"type": "mutation"
 },
-"244": {
-&"id": "244",
-&"next_id": "245",
-&"text": "Iba a decir algo, pero él se alejó.",
+"239": {
+&"id": "239",
+&"next_id": "240",
+&"text": "I was going to say something else, but he left me.",
 &"type": "dialogue"
 },
-"245": {
-&"id": "245",
+"24": {
+&"id": "24",
+&"next_id": "25",
+&"type": ""
+},
+"240": {
+&"id": "240",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "hide_character",
@@ -1949,11 +1921,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "246",
+&"next_id": "241",
 &"type": "mutation"
 },
-"246": {
-&"id": "246",
+"241": {
+&"id": "241",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "set_background",
@@ -1970,25 +1942,55 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "247",
+&"next_id": "242",
 &"type": "mutation"
+},
+"242": {
+&"id": "242",
+&"next_id": "243",
+&"text": "From that day on, as it was expected, he never spoke to me again.",
+&"type": "dialogue"
+},
+"243": {
+&"id": "243",
+&"next_id": "244",
+&"text": "Unfortunately, things with Mateo never went back to being as before. His trust in me never recovered, I even tried talking to him on some occasion, but it was clear the conversation was forced…",
+&"type": "dialogue"
+},
+"244": {
+&"id": "244",
+&"next_id": "246",
+&"text": "The friendship that we had was broken. And I don’t know why it surprised me, it was evident that sooner or later this would happen, because almost nothing I said was true… I should have been more honest.",
+&"type": "dialogue"
+},
+"245": {
+&"id": "245",
+&"next_id": "246",
+&"type": ""
+},
+"246": {
+&"id": "246",
+&"next_id": "248",
+&"text": "I lost a beautiful friendship that could have become something else...",
+&"type": "dialogue"
 },
 "247": {
 &"id": "247",
 &"next_id": "248",
-&"text": "Desde ese día, como era de esperar, no volvió a dirigirme la palabra.",
-&"type": "dialogue"
+&"type": ""
 },
 "248": {
 &"id": "248",
 &"next_id": "249",
-&"text": "Por desgracia, las cosas con Mateo no volvieron a ser como antes. Su confianza en mí no volvió, inclusive intenté hablarle en algunas ocasiones, pero se notaba que la conversación era forzada...",
+&"text": "[wait=2.0]",
 &"type": "dialogue"
 },
 "249": {
 &"id": "249",
-&"next_id": "251",
-&"text": "La amistad que teníamos se rompió. Y no sé porqué me extraña, si era evidente que tarde o temprano pasara, puesto que casi nunca de lo que le decía era verdad... Desearía haber sido más sincera.",
+&"next_id": "250",
+&"text": "[center][b][color=red]━━━━━━━━━━━━━━━━━━ A LIAR’S ENDING ━━━━━━━━━━━━━━━━━━
+[center][b][color=white]Demasiadas mentiras 
+[center][b][color=red] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color][/b][/center]",
 &"type": "dialogue"
 },
 "25": {
@@ -2023,71 +2025,34 @@ lines = {
 "250": {
 &"id": "250",
 &"next_id": "251",
-&"type": ""
+&"text": "[center]\"Lies can destroy any type of relationship, even the stronger ones.\"[/center]",
+&"type": "dialogue"
 },
 "251": {
 &"id": "251",
-&"next_id": "253",
-&"text": "Perdí una gran amistad que pudo llegar a algo más...",
+&"next_id": "252",
+&"text": "[wait=2.0]",
 &"type": "dialogue"
 },
 "252": {
 &"id": "252",
-&"next_id": "253",
-&"type": ""
-},
-"253": {
-&"id": "253",
-&"next_id": "254",
-&"text": "[wait=2.0]",
-&"type": "dialogue"
-},
-"254": {
-&"id": "254",
-&"next_id": "255",
-&"text": "[center][b][color=red]━━━━━━━━━━━━━━━━━━ FINAL DE UNA MENTIROSA ━━━━━━━━━━━━━━━━━━
-[center][b][color=white]Demasiadas mentiras 
-[center][b][color=red] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color][/b][/center]",
-&"type": "dialogue"
-},
-"255": {
-&"id": "255",
-&"next_id": "256",
-&"text": "[center]\"Las mentiras pueden destruir cualquier tipo de relación, incluso la más fuerte\"[/center]",
-&"type": "dialogue"
+&"is_snippet": false,
+&"next_id": "258",
+&"next_id_after": "",
+&"type": "goto"
 },
 "256": {
 &"id": "256",
 &"next_id": "257",
-&"text": "[wait=2.0]",
-&"type": "dialogue"
+&"type": ""
 },
 "257": {
 &"id": "257",
-&"is_snippet": false,
-&"next_id": "263",
-&"next_id_after": "",
-&"type": "goto"
-},
-"26": {
-&"character": "Mateo",
-&"id": "26",
-&"next_id": "27",
-&"text": "Quiero darte algo. De parte de mi madre y mía, claro.",
-&"type": "dialogue"
-},
-"261": {
-&"id": "261",
-&"next_id": "262",
-&"type": ""
-},
-"262": {
-&"id": "262",
-&"next_id": "263",
+&"next_id": "258",
 &"type": "title"
 },
-"263": {
-&"id": "263",
+"258": {
+&"id": "258",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"i": 3,
@@ -2107,46 +2072,94 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "264",
+&"next_id": "259",
 &"type": "mutation"
+},
+"259": {
+&"id": "259",
+&"next_id": "260",
+&"text": "[center]Choose an option[/center]",
+&"type": "dialogue"
+},
+"26": {
+&"character": "Mateo",
+&"id": "26",
+&"next_id": "27",
+&"text": "I want to give you something. From my mother and me, of course.",
+&"type": "dialogue"
+},
+"260": {
+&"id": "260",
+&"next_id": "261",
+&"responses": PackedStringArray("260", "262"),
+&"text": "Try again",
+&"type": "response"
+},
+"261": {
+&"id": "261",
+&"is_snippet": false,
+&"next_id": "266",
+&"next_id_after": "",
+&"type": "goto"
+},
+"262": {
+&"id": "262",
+&"next_id": "263",
+&"text": "Go back to the menu",
+&"type": "response"
+},
+"263": {
+&"id": "263",
+&"is_snippet": false,
+&"next_id": "273",
+&"next_id_after": "",
+&"type": "goto"
 },
 "264": {
 &"id": "264",
 &"next_id": "265",
-&"text": "[center]Elige una opción[/center]",
-&"type": "dialogue"
+&"type": ""
 },
 "265": {
 &"id": "265",
 &"next_id": "266",
-&"responses": PackedStringArray("265", "267"),
-&"text": "Volver a intentar",
-&"type": "response"
+&"type": "title"
 },
 "266": {
 &"id": "266",
-&"is_snippet": false,
-&"next_id": "271",
-&"next_id_after": "",
-&"type": "goto"
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "retry_game",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 14,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "267",
+&"type": "mutation"
 },
 "267": {
 &"id": "267",
-&"next_id": "268",
-&"text": "Ir al menú principal",
-&"type": "response"
-},
-"268": {
-&"id": "268",
 &"is_snippet": false,
-&"next_id": "278",
+&"next_id": "end",
 &"next_id_after": "",
 &"type": "goto"
 },
+"268": {
+&"id": "268",
+&"next_id": "269",
+&"type": ""
+},
 "269": {
 &"id": "269",
-&"next_id": "270",
-&"type": ""
+&"next_id": "266",
+&"responses": PackedStringArray("269", "270"),
+&"text": "Try again",
+&"type": "response"
 },
 "27": {
 &"id": "27",
@@ -2179,63 +2192,22 @@ lines = {
 },
 "270": {
 &"id": "270",
-&"next_id": "271",
-&"type": "title"
+&"next_id": "273",
+&"text": "Go back to the menu",
+&"type": "response"
 },
 "271": {
 &"id": "271",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"function": "retry_game",
-&"i": 3,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 14,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
 &"next_id": "272",
-&"type": "mutation"
+&"type": ""
 },
 "272": {
 &"id": "272",
-&"is_snippet": false,
-&"next_id": "end",
-&"next_id_after": "",
-&"type": "goto"
+&"next_id": "273",
+&"type": "title"
 },
 "273": {
 &"id": "273",
-&"next_id": "274",
-&"type": ""
-},
-"274": {
-&"id": "274",
-&"next_id": "271",
-&"responses": PackedStringArray("274", "275"),
-&"text": "Volver a intentar",
-&"type": "response"
-},
-"275": {
-&"id": "275",
-&"next_id": "278",
-&"text": "Ir al menú principal",
-&"type": "response"
-},
-"276": {
-&"id": "276",
-&"next_id": "277",
-&"type": ""
-},
-"277": {
-&"id": "277",
-&"next_id": "278",
-&"type": "title"
-},
-"278": {
-&"id": "278",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "get_tree",
@@ -2263,15 +2235,60 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "279",
+&"next_id": "274",
 &"type": "mutation"
 },
-"279": {
-&"id": "279",
+"274": {
+&"id": "274",
 &"is_snippet": false,
 &"next_id": "end",
 &"next_id_after": "",
 &"type": "goto"
+},
+"275": {
+&"id": "275",
+&"next_id": "276",
+&"type": ""
+},
+"276": {
+&"id": "276",
+&"next_id": "277",
+&"type": "title"
+},
+"277": {
+&"id": "277",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "negroo"
+}, {
+&"i": 26,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "278",
+&"type": "mutation"
+},
+"278": {
+&"id": "278",
+&"next_id": "279",
+&"text": "[center][b]━━━━━━━━━━━━━━━━━━━━ 
+[center][b]CREDITS
+[center][b]━━━━━━━━━━━━━━━━━━━━[/b][/center]",
+&"type": "dialogue"
+},
+"279": {
+&"id": "279",
+&"next_id": "280",
+&"text": "[wait=1.0]",
+&"type": "dialogue"
 },
 "28": {
 &"id": "28",
@@ -2305,119 +2322,67 @@ lines = {
 "280": {
 &"id": "280",
 &"next_id": "281",
-&"type": ""
+&"text": "[center]A story, written by me; 
+[center][b]Akari[/b]
+[center] Story inspired by something that actually happened",
+&"type": "dialogue"
 },
 "281": {
 &"id": "281",
 &"next_id": "282",
-&"type": "title"
+&"text": "[wait=2.0]",
+&"type": "dialogue"
 },
 "282": {
 &"id": "282",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"function": "set_background",
-&"i": 3,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 18,
-&"type": &"string",
-&"value": "negroo"
-}, {
-&"i": 26,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
 &"next_id": "283",
-&"type": "mutation"
+&"text": "[center]Created with 
+[center]Godot Engine 4 
+[center]And Dialogue Manager 3[/center]",
+&"type": "dialogue"
 },
 "283": {
+&"character": "[center]Tools used for the assets",
 &"id": "283",
 &"next_id": "284",
-&"text": "[center][b]━━━━━━━━━━━━━━━━━━━━ 
-[center][b]CRÉDITOS 
-[center][b]━━━━━━━━━━━━━━━━━━━━[/b][/center]",
+&"text": "[center]Ibis paint X and Krita
+[center]",
 &"type": "dialogue"
 },
 "284": {
 &"id": "284",
 &"next_id": "285",
-&"text": "[wait=1.0]",
+&"text": "[wait=2] Special thanks to my friends for helping me. 
+ Especially to my Liz for making the english translation possible, a Luli sensei for helping me visually improve the game to give it a winter aesthetic 
+ And to my boyfriend for making this a real story.",
 &"type": "dialogue"
 },
 "285": {
 &"id": "285",
 &"next_id": "286",
-&"text": "[center]Una historia, escrita por mí; 
-[center][b]Akari[/b]
-[center] Historia inspirada en algo que sucedió de verdad",
+&"text": "[center]",
 &"type": "dialogue"
 },
 "286": {
 &"id": "286",
 &"next_id": "287",
-&"text": "[wait=2.0]",
+&"text": "[center]¡Thank you for playing! 
+ :D[/center]",
 &"type": "dialogue"
 },
 "287": {
 &"id": "287",
-&"next_id": "288",
-&"text": "[center]Creado con 
-[center]Godot Engine 4 
-[center]Y Dialogue Manager 3[/center]",
-&"type": "dialogue"
-},
-"288": {
-&"character": "[center]Herramientas usadas para los assets",
-&"id": "288",
 &"next_id": "289",
-&"text": "[center]Ibis paint X y Krita
-[center]",
-&"type": "dialogue"
-},
-"289": {
-&"id": "289",
-&"next_id": "290",
-&"text": "[wait=2] Agradecimientos especiales a mis amigas por ayudarme. 
- Sobre todo a mi Liz por hacer la traducción al inglés posible, a Luli sensei por ayudarme a mejorar visualmente el juego para darle una estética invernal 
- Y a mi novio por hacer de esta historia una real.",
-&"type": "dialogue"
-},
-"29": {
-&"character": "Kristine",
-&"id": "29",
-&"next_id": "30",
-&"text": "¿Qué es?",
-&"type": "dialogue"
-},
-"290": {
-&"id": "290",
-&"next_id": "291",
-&"text": "[center]",
-&"type": "dialogue"
-},
-"291": {
-&"id": "291",
-&"next_id": "292",
-&"text": "[center]¡Gracias por jugar! 
- :D[/center]",
-&"type": "dialogue"
-},
-"292": {
-&"id": "292",
-&"next_id": "294",
 &"text": "[wait=2.0]",
 &"type": "dialogue"
 },
-"293": {
-&"id": "293",
-&"next_id": "294",
+"288": {
+&"id": "288",
+&"next_id": "289",
 &"type": ""
 },
-"294": {
-&"id": "294",
+"289": {
+&"id": "289",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"i": 3,
@@ -2437,33 +2402,81 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "295",
+&"next_id": "290",
 &"type": "mutation"
 },
-"295": {
-&"id": "295",
-&"next_id": "296",
-&"responses": PackedStringArray("295", "297"),
-&"text": "Volver al menú principal",
+"29": {
+&"character": "Kristine",
+&"id": "29",
+&"next_id": "30",
+&"text": "What is it?",
+&"type": "dialogue"
+},
+"290": {
+&"id": "290",
+&"next_id": "291",
+&"responses": PackedStringArray("290", "292"),
+&"text": "Go back to the menu",
 &"type": "response"
 },
-"296": {
-&"id": "296",
+"291": {
+&"id": "291",
 &"is_snippet": false,
-&"next_id": "278",
+&"next_id": "273",
 &"next_id_after": "",
 &"type": "goto"
 },
+"292": {
+&"id": "292",
+&"next_id": "293",
+&"text": "Play again",
+&"type": "response"
+},
+"293": {
+&"id": "293",
+&"is_snippet": false,
+&"next_id": "266",
+&"next_id_after": "",
+&"type": "goto"
+},
+"294": {
+&"id": "294",
+&"next_id": "295",
+&"type": ""
+},
+"295": {
+&"id": "295",
+&"is_snippet": false,
+&"next_id": "266",
+&"next_id_after": "",
+&"type": "goto"
+},
+"296": {
+&"id": "296",
+&"next_id": "297",
+&"type": ""
+},
 "297": {
 &"id": "297",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "retry_game",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 14,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
 &"next_id": "298",
-&"text": "Volver a jugar",
-&"type": "response"
+&"type": "mutation"
 },
 "298": {
 &"id": "298",
 &"is_snippet": false,
-&"next_id": "271",
+&"next_id": "end",
 &"next_id_after": "",
 &"type": "goto"
 },
@@ -2509,53 +2522,12 @@ lines = {
 "300": {
 &"id": "300",
 &"is_snippet": false,
-&"next_id": "271",
+&"next_id": "273",
 &"next_id_after": "",
 &"type": "goto"
 },
 "301": {
 &"id": "301",
-&"next_id": "302",
-&"type": ""
-},
-"302": {
-&"id": "302",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"function": "retry_game",
-&"i": 3,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 14,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
-&"next_id": "303",
-&"type": "mutation"
-},
-"303": {
-&"id": "303",
-&"is_snippet": false,
-&"next_id": "end",
-&"next_id_after": "",
-&"type": "goto"
-},
-"304": {
-&"id": "304",
-&"next_id": "305",
-&"type": ""
-},
-"305": {
-&"id": "305",
-&"is_snippet": false,
-&"next_id": "278",
-&"next_id_after": "",
-&"type": "goto"
-},
-"306": {
-&"id": "306",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "get_tree",
@@ -2583,23 +2555,30 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "307",
+&"next_id": "302",
 &"type": "mutation"
 },
-"307": {
-&"id": "307",
+"302": {
+&"id": "302",
 &"is_snippet": false,
 &"next_id": "end",
 &"next_id_after": "",
 &"type": "goto"
 },
-"308": {
-&"id": "308",
-&"next_id": "309",
+"303": {
+&"id": "303",
+&"next_id": "304",
 &"type": ""
 },
-"309": {
-&"id": "309",
+"304": {
+&"id": "304",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"305": {
+&"id": "305",
 &"is_snippet": false,
 &"next_id": "end",
 &"next_id_after": "",
@@ -2634,18 +2613,11 @@ lines = {
 &"next_id": "32",
 &"type": "mutation"
 },
-"310": {
-&"id": "310",
-&"is_snippet": false,
-&"next_id": "end",
-&"next_id_after": "",
-&"type": "goto"
-},
 "32": {
 &"character": "Mateo",
 &"id": "32",
 &"next_id": "33",
-&"text": "Míralo por ti misma.",
+&"text": "Look at it yourself.",
 &"type": "dialogue"
 },
 "33": {
@@ -2714,13 +2686,13 @@ lines = {
 "36": {
 &"id": "36",
 &"next_id": "37",
-&"text": "Luego de que dijera eso, me dio una bolsa pequeña.",
+&"text": "After saying that, he gave me a small bag.",
 &"type": "dialogue"
 },
 "37": {
 &"id": "37",
 &"next_id": "38",
-&"text": "Curiosa, cogí la bolsita y la abrí para encontrarme con una cajita.",
+&"text": "Curious, I took the little bag and opened it, only to find a small box inside.",
 &"type": "dialogue"
 },
 "38": {
@@ -2755,7 +2727,7 @@ lines = {
 "39": {
 &"id": "39",
 &"next_id": "41",
-&"text": "Una vez vi su contenido me asombré ante el detalle tan bonito que habían tenido su madre y él.",
+&"text": "Once I saw its contents, I was amazed by the thoughtful gesture of him and his mother.",
 &"type": "dialogue"
 },
 "4": {
@@ -2830,7 +2802,7 @@ lines = {
 &"character": "Kristine",
 &"id": "43",
 &"next_id": "44",
-&"text": "Muchas gracias…",
+&"text": "Thank you so much…",
 &"type": "dialogue"
 },
 "44": {
@@ -2866,7 +2838,7 @@ lines = {
 &"character": "Kristine",
 &"id": "45",
 &"next_id": "46",
-&"text": "Tu regalo va a tardar un poco en llegar, ¿te lo dije?",
+&"text": "Your gift will arrive a little later, have I already told you?",
 &"type": "dialogue"
 },
 "46": {
@@ -2931,7 +2903,7 @@ lines = {
 &"character": "Mateo",
 &"id": "48",
 &"next_id": "49",
-&"text": "Sí, tranquila. No te preocupes por eso. ¿Quieres que te lo ponga?",
+&"text": "Yes, you did. Don’t worry about that. Do you need help putting it on?",
 &"type": "dialogue"
 },
 "49": {
@@ -3035,7 +3007,7 @@ lines = {
 &"character": "Kristine",
 &"id": "51",
 &"next_id": "52",
-&"text": "Por favor.",
+&"text": "Yes, please.",
 &"type": "dialogue"
 },
 "52": {
@@ -3075,7 +3047,7 @@ lines = {
 "54": {
 &"id": "54",
 &"next_id": "56",
-&"text": "Agradecí que lo preguntara él. A pesar de que llevábamos ya casi 1 año juntos, me apenaba un poco pedirle favores como uno tan simple como poner un colgante.",
+&"text": "I was thankful that he asked. Even though we have been together for almost a year, I felt a little embarrassed asking him for favors, even something as simple as putting on a pendant.",
 &"type": "dialogue"
 },
 "55": {
@@ -3116,7 +3088,7 @@ lines = {
 &"character": "Kristine",
 &"id": "57",
 &"next_id": "58",
-&"text": "Es precioso.",
+&"text": "It’s stunning.",
 &"type": "dialogue"
 },
 "58": {
@@ -3151,7 +3123,7 @@ lines = {
 "59": {
 &"id": "59",
 &"next_id": "61",
-&"text": "Con cariño, acuné su cara entre mis manos.",
+&"text": "With love, I cradled his face in my hands.",
 &"type": "dialogue"
 },
 "6": {
@@ -3213,7 +3185,7 @@ lines = {
 &"character": "Kristine",
 &"id": "62",
 &"next_id": "63",
-&"text": "Muchas gracias.",
+&"text": "Thank you so much.",
 &"type": "dialogue"
 },
 "63": {
@@ -3248,7 +3220,7 @@ lines = {
 "64": {
 &"id": "64",
 &"next_id": "66",
-&"text": "Él sólo sonrió y agachó un poco su cabeza para estar a mi altura.",
+&"text": "He simply smiled and leaned his head down a little to be at my height.",
 &"type": "dialogue"
 },
 "65": {
@@ -3289,7 +3261,7 @@ lines = {
 &"character": "Mateo",
 &"id": "67",
 &"next_id": "68",
-&"text": "No es nada.",
+&"text": "It’s nothing.",
 &"type": "dialogue"
 },
 "68": {
@@ -3329,19 +3301,19 @@ lines = {
 "7": {
 &"id": "7",
 &"next_id": "8",
-&"text": "La anterior navidad no la pasé muy bien que digamos por culpa de las disputas familiares. Esta vez, este año no sería diferente, además, mi abuelo había fallecido, por lo que era peor que el anterior. Y a eso sumándole el hecho de que habían tenido que operarme de nuevo no hace mucho por urgencia; sepsis y peritonitis de nuevo.",
+&"text": "Last Christmas was not a very good one for me, to say the least, because of family disputes. This time, this year, it was no different. On top of that, my grandfather had passed away, which made it even worse than the previous one. And adding to that the fact that I had to undergo emergency surgery again not long ago; sepsis and peritonitis once more.",
 &"type": "dialogue"
 },
 "70": {
 &"id": "70",
 &"next_id": "71",
-&"text": "Cuando terminó de hablar, separó mis manos de su rostro para abrazarme.",
+&"text": "When he finished talking, he gently moved my hands from his face and embraced me.",
 &"type": "dialogue"
 },
 "71": {
 &"id": "71",
 &"next_id": "73",
-&"text": "Segundos después, nos distanciamos un poco para mirarnos fijamente.",
+&"text": "Seconds later, we pulled back slightly to gaze at each other.",
 &"type": "dialogue"
 },
 "72": {
@@ -3352,19 +3324,19 @@ lines = {
 "73": {
 &"id": "73",
 &"next_id": "74",
-&"text": "Impaciente, no pude esperar más y lo besé.",
+&"text": "Unable to wait any longer out of impatience, I kissed him.",
 &"type": "dialogue"
 },
 "74": {
 &"id": "74",
 &"next_id": "75",
-&"text": "Fue lento y cálido. Contrastaba con el frío que hacía tanto dentro como fuera.",
+&"text": "It was slow and warm, contrasting with the cold both inside and out.",
 &"type": "dialogue"
 },
 "75": {
 &"id": "75",
 &"next_id": "77",
-&"text": "Era un beso seguro, sin prisas, sin accidentes. Uno bien dado, por cierto, no hubo ninguna broma después.",
+&"text": "It was a confident kiss, unhurried, without mishaps. A well-given one, indeed, there were no jokes afterward.",
 &"type": "dialogue"
 },
 "76": {
@@ -3405,7 +3377,7 @@ lines = {
 &"character": "Kristine",
 &"id": "78",
 &"next_id": "79",
-&"text": "Feliz Navidad.",
+&"text": "Merry Christmas.",
 &"type": "dialogue"
 },
 "79": {
@@ -3440,7 +3412,7 @@ lines = {
 "8": {
 &"id": "8",
 &"next_id": "10",
-&"text": "Pensé que estas vacaciones serían de las peores, pero, en cierta parte, me equivoqué.",
+&"text": "I thought these holidays would be among the worst, but in a way, I was mistaken.",
 &"type": "dialogue"
 },
 "80": {
@@ -3476,7 +3448,7 @@ lines = {
 &"character": "Mateo",
 &"id": "81",
 &"next_id": "82",
-&"text": "Feliz Navidad, mi amor.",
+&"text": "Merry Christmas, my love.",
 &"type": "dialogue"
 },
 "82": {
@@ -3579,7 +3551,7 @@ lines = {
 "87": {
 &"id": "87",
 &"next_id": "89",
-&"text": "Y bueno, podría contar mucho más, pero, para eso, prefiero dejarlo aquí.",
+&"text": "And well, I could go on and on about what happened next, but, instead of doing that, I prefer leaving it at this.",
 &"type": "dialogue"
 },
 "88": {
@@ -3590,7 +3562,7 @@ lines = {
 "89": {
 &"id": "89",
 &"next_id": "90",
-&"text": "Gracias por haberme acompañado en esta pequeña historia.",
+&"text": "Thank you for coming along with me on this little story.",
 &"type": "dialogue"
 },
 "9": {
@@ -3601,7 +3573,7 @@ lines = {
 "90": {
 &"id": "90",
 &"next_id": "92",
-&"text": "Espero que te haya resultado agradable.",
+&"text": "I hope that you found it enjoyable.",
 &"type": "dialogue"
 },
 "91": {
@@ -3612,13 +3584,13 @@ lines = {
 "92": {
 &"id": "92",
 &"next_id": "93",
-&"text": "Ahora sí, me despido de ti, querido jugador.",
+&"text": "Now, I bid you farewell, dear player..",
 &"type": "dialogue"
 },
 "93": {
 &"id": "93",
 &"is_snippet": false,
-&"next_id": "282",
+&"next_id": "277",
 &"next_id_after": "",
 &"type": "goto"
 },
@@ -3634,98 +3606,98 @@ lines = {
 }
 }
 raw_text = "~ start
-Has llegado al final de la historia.
+You have reached the end of this story.
 => END
 
 ~ finalCanon
 do Audio.change_music(Audio.finalCanon, 0)
 do set_background(\"negroo\")
-La anterior navidad no la pasé muy bien que digamos por culpa de las disputas familiares. Esta vez, este año no sería diferente, además, mi abuelo había fallecido, por lo que era peor que el anterior. Y a eso sumándole el hecho de que habían tenido que operarme de nuevo no hace mucho por urgencia; sepsis y peritonitis de nuevo.
-Pensé que estas vacaciones serían de las peores, pero, en cierta parte, me equivoqué.
+Last Christmas was not a very good one for me, to say the least, because of family disputes. This time, this year, it was no different. On top of that, my grandfather had passed away, which made it even worse than the previous one. And adding to that the fact that I had to undergo emergency surgery again not long ago; sepsis and peritonitis once more.
+I thought these holidays would be among the worst, but in a way, I was mistaken.
 
-Estaba viva. Debía aprovechar eso.
-Había sobrevivido ante algo que casi nadie ha conseguido y, aunque estaba cansada de sobrevivir ante tanta lucha tras años de operaciones y pruebas constantes, había una persona que hacía de mi vida una lucha con sentido.
+I was alive. I had to take advantage of that.
+I had survived something that very few people ever do, and although I was exhausted from surviving so many battles after years of surgeries and constant tests, there was one person who gave meaning to my struggle.
 Mateo.
 
 do set_background(\"calleDia\")
-Ya era notorio el frío de diciembre.
-Habíamos pasado la tarde simplemente caminando por la ciudad ya alumbrada con las luces de Navidad hablando de todo y de nada a la vez.
+December’s cold was already making itself known.
+We had spent the afternoon simply walking through the city, already lit up with Christmas lights, talking about everything and nothing at the same time.
 
 do set_background(\"entradaPortal\")
 do show_character(\"mateo\", \"izq\", \"sinHablar\")
 do show_character(\"kristine\", \"derecha\", \"sinHablar\")
-Al entrar en el portal de mi casa junto a mi acompañante para refugiarnos del frío, noté que me quería decir algo.
-Le di el tiempo necesario para que hablara. Intentaba mirarlo con cariño y no con curiosidad.
-El portal estaba decorado con un muñeco de nieve de plástico y varias cajas que simulaban ser regalos. Arriba del ascensor había un letrero en el que ponía “Feliz Navidad”. Intenté enfocarme en el decorado para no ponerlo nervioso.
+As we entered the doorway of my building together to take shelter from the cold, I noticed that he wanted to tell me something.
+I gave him the time he needed to speak. I tried  looking at him with affection instead of curiosity.
+The entrance hall was decorated with a plastic snowman and several boxes made to look like gifts. Above the elevator there was a sign that read ‘Merry Christmas.’ I tried to focus on the decorations so as not to make him nervous.
 
 do show_character(\"mateo\", \"izq\", \"hablaAlegre\")
-Mateo: Quiero darte algo. De parte de mi madre y mía, claro.
+Mateo: I want to give you something. From my mother and me, of course.
 do show_character(\"mateo\", \"izq\", \"feliz\")
 do show_character(\"kristine\", \"derecha\", \"hablaNormal\")
-Kristine: ¿Qué es?
+Kristine: What is it?
 do show_character(\"mateo\", \"izq\", \"hablaAlegre\")
 do show_character(\"kristine\", \"derecha\", \"seria\")
-Mateo: Míralo por ti misma.
+Mateo: Look at it yourself.
 do show_character(\"mateo\", \"izq\", \"feliz\")
 do show_character(\"kristine\", \"derecha\", \"seria\")
 
-Luego de que dijera eso, me dio una bolsa pequeña.
-Curiosa, cogí la bolsita y la abrí para encontrarme con una cajita.
+After saying that, he gave me a small bag.
+Curious, I took the little bag and opened it, only to find a small box inside.
 do show_character(\"kristine\", \"derecha\", \"feliz\")
-Una vez vi su contenido me asombré ante el detalle tan bonito que habían tenido su madre y él.
+Once I saw its contents, I was amazed by the thoughtful gesture of him and his mother.
 
 do show_character(\"mateo\", \"izq\", \"feliz\")
 do show_character(\"kristine\", \"derecha\", \"hablaAlegre\")
-Kristine: Muchas gracias… 
+Kristine: Thank you so much…
 do show_character(\"kristine\", \"derecha\", \"hablaPreocupada\")
-Kristine: Tu regalo va a tardar un poco en llegar, ¿te lo dije?
+Kristine: Your gift will arrive a little later, have I already told you?
 do show_character(\"mateo\", \"izq\", \"hablaAlegre\")
 do show_character(\"kristine\", \"derecha\", \"intentoSonrisa\")
-Mateo: Sí, tranquila. No te preocupes por eso. ¿Quieres que te lo ponga?
+Mateo: Yes, you did. Don’t worry about that. Do you need help putting it on?
 do show_character(\"mateo\", \"izq\", \"feliz\")
 do show_character(\"kristine\", \"derecha\", \"hablaAlegre\")
-Kristine: Por favor.
+Kristine: Yes, please.
 do show_character(\"kristine\", \"derecha\", \"feliz\")
 
-Agradecí que lo preguntara él. A pesar de que llevábamos ya casi 1 año juntos, me apenaba un poco pedirle favores como uno tan simple como poner un colgante.
-
-do show_character(\"kristine\", \"derecha\", \"hablaAlegre\")
-Kristine: Es precioso.
-do show_character(\"kristine\", \"derecha\", \"feliz\")
-Con cariño, acuné su cara entre mis manos.
+I was thankful that he asked. Even though we have been together for almost a year, I felt a little embarrassed asking him for favors, even something as simple as putting on a pendant.
 
 do show_character(\"kristine\", \"derecha\", \"hablaAlegre\")
-Kristine: Muchas gracias.
+Kristine: It’s stunning.
 do show_character(\"kristine\", \"derecha\", \"feliz\")
-Él sólo sonrió y agachó un poco su cabeza para estar a mi altura.
+With love, I cradled his face in my hands.
+
+do show_character(\"kristine\", \"derecha\", \"hablaAlegre\")
+Kristine: Thank you so much.
+do show_character(\"kristine\", \"derecha\", \"feliz\")
+He simply smiled and leaned his head down a little to be at my height.
 
 do show_character(\"mateo\", \"izq\", \"hablaAlegre\")
-Mateo: No es nada.
+Mateo: It’s nothing.
 do show_character(\"mateo\", \"izq\", \"feliz\")
 
-Cuando terminó de hablar, separó mis manos de su rostro para abrazarme.
-Segundos después, nos distanciamos un poco para mirarnos fijamente.
+When he finished talking, he gently moved my hands from his face and embraced me.
+Seconds later, we pulled back slightly to gaze at each other. 
 
-Impaciente, no pude esperar más y lo besé.
-Fue lento y cálido. Contrastaba con el frío que hacía tanto dentro como fuera. 
-Era un beso seguro, sin prisas, sin accidentes. Uno bien dado, por cierto, no hubo ninguna broma después.
+Unable to wait any longer out of impatience, I kissed him.
+It was slow and warm, contrasting with the cold both inside and out.
+It was a confident kiss, unhurried, without mishaps. A well-given one, indeed, there were no jokes afterward.
 
 do show_character(\"kristine\", \"derecha\", \"hablaAlegre\")
-Kristine: Feliz Navidad.
+Kristine: Merry Christmas.
 do show_character(\"mateo\", \"izq\", \"hablaAlegre\")
 do show_character(\"kristine\", \"derecha\", \"feliz\")
-Mateo: Feliz Navidad, mi amor.
+Mateo: Merry Christmas, my love.
 do show_character(\"mateo\", \"izq\", \"feliz\")
 
 do hide_character(\"izq\")
 do hide_character(\"derecha\")
 do set_background(\"negroo\")
-Y bueno, podría contar mucho más, pero, para eso, prefiero dejarlo aquí.
+And well, I could go on and on about what happened next, but, instead of doing that, I prefer leaving it at this.
 
-Gracias por haberme acompañado en esta pequeña historia.
-Espero que te haya resultado agradable.
+Thank you for coming along with me on this little story. 
+I hope that you found it enjoyable.
 
-Ahora sí, me despido de ti, querido jugador.
+Now, I bid you farewell, dear player..
 => creditos
 
 
@@ -3735,23 +3707,17 @@ Ahora sí, me despido de ti, querido jugador.
 ~ finalMalo
 do set_background(\"negroo\")
 do Audio.change_music(Audio.finalMalo, 0)
-Sin embargo, sucedió algo que no esperaba. O quizá sí, pero no quise reconocerlo.
+However, something unexpected happened. Or maybe it wasn’t so unexpected, but I didn’t want to admit that.
 
-Justo cuando creí que iba a ser más cercana a Mateo, con el paso del tiempo, comenzó a hablarme menos.
-Aquellas conversaciones que teníamos disminuyeron y ya no me respondía tan frecuente como antes.
-Tal vez, lo tenía merecido.
-Al fin y al cabo, en ocasiones no fui muy agradable con él...
+Just when I thought I’ll get closer to Mateo, with the passing of time, he started talking to me less and less.
+Those conversations that we used to have became less frequent and now he didn’t reply as often as before.
+Maybe I had it coming.
+In the end, I was quite rude with him on some occasions...
 
-Terminé mi primer año en DAM y, dado que ya no hablaba tanto con Mateo, dejé de verlo.
-Es más, apenas hablamos ahora.
-
-Echo de menos cuando conversábamos sin parar...
-
-No debí de comportarme de esa forma con él...
 [wait=2.0]
-[center][b][color=purple] ━━━━━━━━━━━━━━━━━━ FINAL MALO ━━━━━━━━━━━━━━━━━━ \\n[center][b][color=white]Caminos Separados [center][b][color=purple]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[center][b][color=purple] ━━━━━━━━━━━━━━━━━━ BAD ENDING ━━━━━━━━━━━━━━━━━━ \\n[center][b][color=white]Caminos Separados [center][b][color=purple]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [wait=2.0]
-[center]\"A veces, las oportunidades que tenías no vuelven. Jamás lo harán\"[/center]
+[center]\"Sometimes, if you don’t take the chance you won’t get another. It just won’t happen.\"[/center]
 [wait=2.0]
 => opGameOver
 
@@ -3759,38 +3725,39 @@ No debí de comportarme de esa forma con él...
 do Audio.change_music(Audio.finalEstupido2)
 do set_background(\"negroo\")
 [wait=2.0]
-[center][b][color=red] ━━━━━━━━━━━━━━━━━━ FINAL ESTÚPIDO ━━━━━━━━━━━━━━━━━━ \\n[center][b][color=white]Muerte inmediata[center][b][color=red]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[center][b][color=red] ━━━━━━━━━━━━━━━━━━ STILLY ENDING ━━━━━━━━━━━━━━━━━━ \\n[center][b][color=white]Muerte inmediata[center][b][color=red]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [wait=2.0]
-[center]No pudieron operar a Kristine y, para colmo, murió por tu culpa. Enhorabuena.[/center]
+[center]They couldn’t perform surgery on Kristine, and, on top of that, she died because of you. Congratulations.[/center]
 [wait=2.0]
 => opGameOver
 
 ~ soloAmigos
 do Audio.change_music(Audio.finalAmigos, 0)
 do set_background(\"negroo\")
-No. Por supuesto que no.
-¿Y si me rechaza? ¿Y si luego nuestra amistad no vuelve a ser la misma?
-No puedo arriesgarme, no si vuelvo a perder a alguien que quiero por un desliz...
+No. Of course not.
+What if he rejects me? And then our friendship won’t stay the same?
+I can’t risk it, I don’t want to lose someone I hold dear because of a slip up...
 
-Después de aquello, los días pasaron y, por alguna maldita razón, lo que sentía por Mateo no cesaba, es más, se intensificaba.
-Intenté olvidar cualquier sentimiento que tuviera por él y cada vez que estaba a su lado intentaba concentrarme en otras cosas que no fuera él, pero, simplemente, no podía. Era imposible.
-Estaba enamorada de Mateo y, por suerte o por desgracia, nadie podría cambiar eso, ni siquiera yo misma.
+After that, days passed and, for some damn reason, what I felt for him didn’t change, moreover, it increased.
+I tried to forget any feelings I had about him and every time I was near him I tried focusing on other things that wasn’t him, but, simply put, I couldn’t. It was impossible.
+I was in love with Mateo and, for better or for worse, nobody could change that, not even me.
 
-Juro que intenté seguir siendo su amiga, pero cuando uno guarda esta clase de sentimientos por un amigo, sencillamente la amistad deja de ser una amistad real.
-Sí, hay cariño real, por supuesto que sí, pero no es lo que quizás él quiere.
+I swear I tried to keep being her friend, but when someone harbors these kind of feelings for a friend, that friendship stops being a pure friendship.
+Yes, there is real care, yes, of course, but maybe it’s not the kind that he wants.
 
-Con el tiempo, me di cuenta de que no podía seguir así y me fui alejando de él, pero no por él, sino por mí.
-Él siempre fue muy bueno conmigo, mas yo no estaba contenta con esa relación. Necesitaba más.
+With time, I realized that I couldn’t continue like this and I started distancing myself from him, but not for his sake, for mine.
+He was always so kind to me, but I wasn’t happy with that kind of relationship. 
+I needed more.
 
-Quería ser su novia, pero nunca me atreví a decirle nada.
+I wanted to be his girlfriend, but I never had the courage to tell him anything. 
 
-Ojalá me hubiera animado.
-Ojalá hubiera tenido el valor suficiente para admitir la realidad...
+I wish I would have done it.
+I wish I had had the courage that was needed to admit the truth...
 
 [wait=2.0]
-[center][b][color=cyan] ━━━━━━━━━━━━━━━━━━ FINAL AMIGOS ━━━━━━━━━━━━━━━━━━ \\n[center][b][color=white]Kristine y Mateo fueron buenos amigos[center][b][color=cyan]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[center][b][color=cyan] ━━━━━━━━━━━━━━━━━━ FRIENDS ENDING ━━━━━━━━━━━━━━━━━━ \\n[center][b][color=white]Kristine y Mateo fueron buenos amigos[center][b][color=cyan]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [wait=2.0]
-[center]\"Nunca es malo admitir lo que hay dentro de ti\"[/center]
+[center]\"It is never wrong to admit what you feel deep inside.\"[/center]
 [wait=2.0]
 => opGameOver
 
@@ -3798,39 +3765,39 @@ Ojalá hubiera tenido el valor suficiente para admitir la realidad...
 do Audio.change_music(Audio.finalCobarde, 0)
 do show_character(\"mateo\", \"izq\", \"hablaPreocupado\")
 do show_character(\"kristine\", \"derecha\", \"seria\")
-Mateo: Oye, ¿te pasa algo?
+Mateo: Hey, is something the matter?
 do show_character(\"mateo\", \"izq\", \"trite\")
 do show_character(\"kristine\", \"derecha\", \"hablaNormal\")
-Kristine: No, nada. No te preocupes
+Kristine: No, nothing. Don’t worry
 do show_character(\"kristine\", \"derecha\", \"intentoSonrisa\")
 do show_character(\"mateo\", \"izq\", \"serio\")
-Le sonreí para convencerle de que de verdad no pasaba nada, cosa que logré.
+I smiled at him to convince him that there was really no problem, which I achieved.
 
 do show_character(\"kristine\", \"derecha\", \"sinHablar\")
 do show_character(\"mateo\", \"izq\", \"sinHablar\")
-No puedo darle la carta. Por supuesto que no.
-¿Qué pasa si se ríe en mi cara una vez sepa de mis sentimientos?
-¿Y si rompe la carta? ¿Y si le prende fuego? ¿Y si, en cuanto sepa lo que siento, se intenta aprovechar de mí?
-O peor, ¿y si le muestra lo que le escribí a alguien más?
+I can’t give him the letter. Of course not.
+What if he laughs in my face once he knows about my feelings?
+And if he rips the letter? Or lights it on fire? And what if, when he finds out how I feel, he tries to take advantage of me?
+Or worse, what if he shows what I wrote to someone else?
 
-No sé en qué pensé, pero no puedo darle la carta, no si hay tantas posibilidades crueles que puedan pasar.
-Simplemente, no puedo.
-Da miedo.
-No quiero pasar por nada malo.
-No puedo dejar que fragmenten mi corazón en pedacitos. No más veces.
+I don’t know what I was thinking, but I can’t give him the letter, not with so many cruel possibilities of what could happen.
+Simply put, I can’t.
+It’s scary.
+I don’t want to go through anything bad.
+I can’t let them break my heart into tiny pieces. Not anymore.
 
 do hide_character(\"izq\")
 do hide_character(\"derecha\")
 do set_background(\"negroo\")
-Después de esa quedada, algo cambió dentro de mí.
-Era consciente de lo que sentía por Mateo, pero nunca me atreví a contárselo.
+After that outing, something changed inside of me.
+I was aware of what I felt for Mateo, but I never got the courage to tell him.
 
-Por suerte, fuimos amigos por mucho tiempo, pero, muy dentro de mí, me hubiera gustado darle esa carta que le escribí...
+Fortunately, we stayed friends for a really long time, but, deep inside me, I would have liked to give him that letter that I wrote…
 
 [wait=2.0]
-[center][b][color=orange] ━━━━━━━━━━━━━━━━━━ FINAL COBARDE ━━━━━━━━━━━━━━━━━━ \\n[center][b][color=white]El temor se apoderó de Kristine y ella nunca confesó sus sentimientos[center][b][color=orange]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[center][b][color=orange] ━━━━━━━━━━━━━━━━━━ A COWARD'S ENDING ━━━━━━━━━━━━━━━━━━ \\n[center][b][color=white]El temor se apoderó de Kristine y ella nunca confesó sus sentimientos[center][b][color=orange]━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 [wait=2.0]
-[center]\"Arrepentirse nunca es la opción\"[/center]
+[center]\"To regret should never be the option.\"[/center]
 [wait=2.0]
 => opGameOver
 
@@ -3841,54 +3808,54 @@ do hide_character(\"izq\")
 do hide_character(\"derecha\")
 do set_background(\"negroo\")
 [wait=1.0]
-[center]Has acumulado [color=red][b]demasiadas[/b][/color] mentiras...[/center]
+[center]You have accumulated [color=red][b]too many[/b][/color] lies...[/center]
 [wait=2.0]
 do set_background(\"clase\")
-Un día como otro cualquiera, salí de clases. No obstante, me encontré a la salida con Mateo.
+One day as any other, I got out of class. Nevertheless, I ran into Mateo as I was leaving.
 do set_background(\"calleDia\")
 do show_character(\"mateo\", \"izq\", \"serio\")
-Justo cuando iba a hablarle, dijo algo que no esperaba...
+Just as I was about to talk to him, he said something I wasn’t expecting…
 
 do show_character(\"kristine\", \"derecha\", \"seria\")
 do show_character(\"mateo\", \"izq\", \"hablaNormal\")
-Mateo: Kristine... ya no puedo más.
+Mateo: Kristine... I can’t take it anymore.
 do show_character(\"mateo\", \"izq\", \"serio\")
-Lo dijo tan serio que me extrañó. Nunca lo había visto así.
+He said it so seriously that it surprised me. I never had seen him like this
 
 do show_character(\"kristine\", \"derecha\", \"hablaPreocupada\")
 do show_character(\"mateo\", \"izq\", \"serio\")
-Kristine: ¿Qué quieres decir?
+Kristine: What do you mean?
 do show_character(\"kristine\", \"derecha\", \"seria\")
 do show_character(\"mateo\", \"izq\", \"hablaNormal\")
-Mateo: Has mentido tantas veces que ya no sé qué es real de ti y qué no. 
+Mateo: You have lied so many times that now I’m not able to tell what’s real and what’s not about you.
 do show_character(\"mateo\", \"izq\", \"hablaPreocupado\")
-Mateo: Lo siento, pero no puedo confiar en alguien así, no si sigues mintiendo.
+Mateo: I’m sorry, but I can no longer trust you, not if you continue lying.
 do show_character(\"mateo\", \"izq\", \"serio\")
 
-Abrí la boca para decir algo, pero no me salieron las palabras.
+I opened my mouth to say something, but the words got stuck inside.
 do show_character(\"kristine\", \"derecha\", \"hablaTrite\")
-Kristine: Lo siento...
+Kristine: I’m sorry...
 do show_character(\"kristine\", \"derecha\", \"seria\")
 do show_character(\"mateo\", \"izq\", \"hablaNormal\")
-Mateo: Yo también.
+Mateo: Me too.
 do show_character(\"kristine\", \"derecha\", \"sinHablar\")
 do show_character(\"mateo\", \"izq\", \"sinHablar\")
 
-Intenté pensar en alguna frase más que tuviera sentido, incluso explicarle, sin embargo, para las mentiras no suele haber excusa que lo justifique.
-No sabía qué más decir a excepción de una sincera disculpa.
+I tried to say something that made more sense, I even tried to explain, however, there is nothing that can justify a lie.
+I didn’t know what else to say apart from a sincere apology, no more lies.
 do hide_character(\"izq\")
-Iba a decir algo, pero él se alejó.
+I was going to say something else, but he left me.
 do hide_character(\"derecha\")
 do set_background(\"negroo\")
-Desde ese día, como era de esperar, no volvió a dirigirme la palabra.
-Por desgracia, las cosas con Mateo no volvieron a ser como antes. Su confianza en mí no volvió, inclusive intenté hablarle en algunas ocasiones, pero se notaba que la conversación era forzada...
-La amistad que teníamos se rompió. Y no sé porqué me extraña, si era evidente que tarde o temprano pasara, puesto que casi nunca de lo que le decía era verdad... Desearía haber sido más sincera.
+From that day on, as it was expected, he never spoke to me again.
+Unfortunately, things with Mateo never went back to being as before. His trust in me never recovered, I even tried talking to him on some occasion, but it was clear the conversation was forced…
+The friendship that we had was broken. And I don’t know why it surprised me, it was evident that sooner or later this would happen, because almost nothing I said was true… I should have been more honest.
 
-Perdí una gran amistad que pudo llegar a algo más...
+I lost a beautiful friendship that could have become something else...
 
 [wait=2.0]
-[center][b][color=red]━━━━━━━━━━━━━━━━━━ FINAL DE UNA MENTIROSA ━━━━━━━━━━━━━━━━━━\\n[center][b][color=white]Demasiadas mentiras \\n[center][b][color=red] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color][/b][/center]
-[center]\"Las mentiras pueden destruir cualquier tipo de relación, incluso la más fuerte\"[/center]
+[center][b][color=red]━━━━━━━━━━━━━━━━━━ A LIAR’S ENDING ━━━━━━━━━━━━━━━━━━\\n[center][b][color=white]Demasiadas mentiras \\n[center][b][color=red] ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[/color][/b][/center]
+[center]\"Lies can destroy any type of relationship, even the stronger ones.\"[/center]
 [wait=2.0]
 => opGameOver
 
@@ -3897,18 +3864,18 @@ Perdí una gran amistad que pudo llegar a algo más...
 # ========================================
 ~ opGameOver
 do Audio.stop_music()
-[center]Elige una opción[/center]
-- Volver a intentar 
+[center]Choose an option[/center]
+- Try again 
 	=> reintentar
-- Ir al menú principal 
+- Go back to the menu  
 	=> menu
 
 ~ reintentar
 do retry_game()
 => END
 
-- Volver a intentar => reintentar
-- Ir al menú principal => menu
+- Try again => reintentar
+- Go back to the menu => menu
 
 ~ menu
 do get_tree().change_scene_to_file(\"res://escenas/menu.tscn\")
@@ -3916,21 +3883,21 @@ do get_tree().change_scene_to_file(\"res://escenas/menu.tscn\")
 
 ~ creditos
 do set_background(\"negroo\")
-[center][b]━━━━━━━━━━━━━━━━━━━━ \\n[center][b]CRÉDITOS \\n[center][b]━━━━━━━━━━━━━━━━━━━━[/b][/center]
+[center][b]━━━━━━━━━━━━━━━━━━━━ \\n[center][b]CREDITS\\n[center][b]━━━━━━━━━━━━━━━━━━━━[/b][/center]
 [wait=1.0]
-[center]Una historia, escrita por mí; \\n[center][b]Akari[/b]\\n[center] Historia inspirada en algo que sucedió de verdad
+[center]A story, written by me; \\n[center][b]Akari[/b]\\n[center] Story inspired by something that actually happened
 [wait=2.0]
-[center]Creado con \\n[center]Godot Engine 4 \\n[center]Y Dialogue Manager 3[/center]
-[center]Herramientas usadas para los assets: \\n[center]Ibis paint X y Krita\\n[center]
-[wait=2] Agradecimientos especiales a mis amigas por ayudarme. \\n Sobre todo a mi Liz por hacer la traducción al inglés posible, a Luli sensei por ayudarme a mejorar visualmente el juego para darle una estética invernal \\n Y a mi novio por hacer de esta historia una real.
+[center]Created with \\n[center]Godot Engine 4 \\n[center]And Dialogue Manager 3[/center]
+[center]Tools used for the assets: \\n[center]Ibis paint X and Krita\\n[center]
+[wait=2] Special thanks to my friends for helping me. \\n Especially to my Liz for making the english translation possible, a Luli sensei for helping me visually improve the game to give it a winter aesthetic \\n And to my boyfriend for making this a real story.
 [center] 
-[center]¡Gracias por jugar! \\n :D[/center]
+[center]¡Thank you for playing! \\n :D[/center]
 [wait=2.0]
 
 do Audio.stop_music()
-- Volver al menú principal 
+- Go back to the menu 
 	=> menu
-- Volver a jugar 
+- Play again 
 	=> reintentar
 
 => reintentar

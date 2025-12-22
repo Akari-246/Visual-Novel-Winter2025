@@ -1,0 +1,1574 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" uid="uid://dbs4435dsf3ry" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_j1vm0"]
+
+[resource]
+script = ExtResource("1_j1vm0")
+using_states = PackedStringArray()
+titles = {
+"start": "2"
+}
+character_names = PackedStringArray("Felix", "Kristine", "Anesthesiologist")
+first_title = "0"
+lines = {
+"0": {
+&"id": "0",
+&"next_id": "2",
+&"type": "title"
+},
+"1": {
+&"id": "1",
+&"next_id": "2",
+&"type": ""
+},
+"10": {
+&"id": "10",
+&"next_id": "11",
+&"text": "I had surgery relatively recently (a month and a half now) caused by a peritonitis by[speed=0.08]…[/speed]",
+&"type": "dialogue"
+},
+"100": {
+&"id": "100",
+&"next_id": "101",
+&"text": "Don’t comply",
+&"type": "response"
+},
+"101": {
+&"id": "101",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"i": 3,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 8,
+&"type": &"dot"
+}, {
+&"function": "change_music",
+&"i": 9,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 22,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 27,
+&"type": &"dot"
+}, {
+&"i": 28,
+&"type": &"variable",
+&"value": "hospi"
+}, {
+&"i": 33,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "102",
+&"type": "mutation"
+},
+"102": {
+&"id": "102",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "hide_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "izq"
+}, {
+&"i": 23,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "103",
+&"type": "mutation"
+},
+"103": {
+&"id": "103",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "hide_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "derecha"
+}, {
+&"i": 27,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "104",
+&"type": "mutation"
+},
+"104": {
+&"id": "104",
+&"next_id": "105",
+&"text": "No, I can't do that.",
+&"type": "dialogue"
+},
+"105": {
+&"id": "105",
+&"next_id": "106",
+&"text": "After all the time I spend to prepare myself mentally and all the paperwork my parents had to do, I can't simply not follow what professionals are telling me to do.",
+&"type": "dialogue"
+},
+"106": {
+&"id": "106",
+&"next_id": "107",
+&"text": "In short, that would be a terrible idea.",
+&"type": "dialogue"
+},
+"107": {
+&"id": "107",
+&"next_id": "109",
+&"text": "It would be better If I comply. After all, I was waiting for this moment to arrive.",
+&"type": "dialogue"
+},
+"108": {
+&"id": "108",
+&"next_id": "109",
+&"type": ""
+},
+"109": {
+&"id": "109",
+&"next_id": "110",
+&"text": "In the end, slowly and full of nerves, I started counting.",
+&"type": "dialogue"
+},
+"11": {
+&"id": "11",
+&"next_id": "15",
+&"text": "Well, I’m not getting into details. The thing is that I had surgery and now I have to live a little differently because of a bag that I have glued to my skin, an [b]ostomy[/b].",
+&"type": "dialogue"
+},
+"110": {
+&"id": "110",
+&"next_id": "111",
+&"text": "It’s not my first time going through this either way.",
+&"type": "dialogue"
+},
+"111": {
+&"id": "111",
+&"next_id": "112",
+&"text": "I can do it.",
+&"type": "dialogue"
+},
+"112": {
+&"id": "112",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "cargarSiguienteCap",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 22,
+&"type": &"string",
+&"value": "escenaHospi"
+}, {
+&"i": 35,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "113",
+&"type": "mutation"
+},
+"113": {
+&"id": "113",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"114": {
+&"id": "114",
+&"next_id": "115",
+&"type": ""
+},
+"115": {
+&"id": "115",
+&"next_id": "116",
+&"text": "Irte",
+&"type": "response"
+},
+"116": {
+&"id": "116",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "hide_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "izq"
+}, {
+&"i": 23,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "117",
+&"type": "mutation"
+},
+"117": {
+&"id": "117",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "hide_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "derecha"
+}, {
+&"i": 27,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "118",
+&"type": "mutation"
+},
+"118": {
+&"id": "118",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"i": 3,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 8,
+&"type": &"dot"
+}, {
+&"function": "change_music",
+&"i": 9,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 22,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 27,
+&"type": &"dot"
+}, {
+&"i": 28,
+&"type": &"variable",
+&"value": "finalEstupido2"
+}, {
+&"i": 42,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "119",
+&"type": "mutation"
+},
+"119": {
+&"id": "119",
+&"next_id": "120",
+&"text": "Without saying anything, I took out the device they put on my face to make me sleep, I also removed the IV in one go and, without caring about what the doctors had to say or what could happen, I left the operating room.",
+&"type": "dialogue"
+},
+"120": {
+&"id": "120",
+&"next_id": "121",
+&"text": "I ran.",
+&"type": "dialogue"
+},
+"121": {
+&"id": "121",
+&"next_id": "122",
+&"text": "I don’t know why, but I ran for my life, although I forgot a small detail.",
+&"type": "dialogue"
+},
+"122": {
+&"id": "122",
+&"next_id": "123",
+&"text": "I was barefoot and was still wearing only the shirt from the hospital, the one that patients who are going to get surgery usually wear and is tied behind your back.",
+&"type": "dialogue"
+},
+"123": {
+&"id": "123",
+&"next_id": "124",
+&"text": "The thing is, by not wearing shoes or anything to cover my feet, while I was descending the stairs I tripped with what seemed to be a banana [wave](Who would leave that on the hospital floor?)[wave]",
+&"type": "dialogue"
+},
+"124": {
+&"id": "124",
+&"next_id": "125",
+&"text": "And I fell. In a way that, I don’t know how, made me fall unconscious.",
+&"type": "dialogue"
+},
+"125": {
+&"id": "125",
+&"next_id": "126",
+&"text": "For a couple minutes I saw black. Hours, I think.",
+&"type": "dialogue"
+},
+"126": {
+&"id": "126",
+&"next_id": "127",
+&"text": "I couldn’t move my body, I couldn’t do anything.",
+&"type": "dialogue"
+},
+"127": {
+&"id": "127",
+&"next_id": "128",
+&"text": "[wait=1][wave]This is how dying feels like?[/wave]",
+&"type": "dialogue"
+},
+"128": {
+&"id": "128",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "cargarFinal",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 15,
+&"type": &"string",
+&"value": "finalEstupido"
+}, {
+&"i": 30,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "129",
+&"type": "mutation"
+},
+"129": {
+&"id": "129",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"130": {
+&"id": "130",
+&"next_id": "131",
+&"type": ""
+},
+"131": {
+&"id": "131",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"14": {
+&"id": "14",
+&"next_id": "15",
+&"type": ""
+},
+"15": {
+&"id": "15",
+&"next_id": "16",
+&"text": "Well, I’m getting off topic here.",
+&"type": "dialogue"
+},
+"16": {
+&"id": "16",
+&"next_id": "18",
+&"text": "The thing is that now I’m heading to one of my many classes as a student of CPAD, finally.",
+&"type": "dialogue"
+},
+"17": {
+&"id": "17",
+&"next_id": "18",
+&"type": ""
+},
+"18": {
+&"id": "18",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "clase"
+}, {
+&"i": 25,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "19",
+&"type": "mutation"
+},
+"19": {
+&"id": "19",
+&"next_id": "20",
+&"text": "It was now recess time when, suddenly, I found out that I had a new notification. Oh, who could it be?",
+&"type": "dialogue"
+},
+"2": {
+&"id": "2",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "habitacion1"
+}, {
+&"i": 31,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "3",
+&"type": "mutation"
+},
+"20": {
+&"id": "20",
+&"next_id": "21",
+&"text": "Wait, a stranger?, why would they talk to me?, do they want something?",
+&"type": "dialogue"
+},
+"21": {
+&"id": "21",
+&"next_id": "24",
+&"text": "Maybe they got me confused with someone else?",
+&"type": "dialogue"
+},
+"23": {
+&"id": "23",
+&"next_id": "24",
+&"type": ""
+},
+"24": {
+&"id": "24",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"i": 3,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 8,
+&"type": &"dot"
+}, {
+&"function": "play_sfx",
+&"i": 9,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 23,
+&"type": &"dot"
+}, {
+&"i": 24,
+&"type": &"variable",
+&"value": "notificacion"
+}, {
+&"i": 36,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "25",
+&"type": "mutation"
+},
+"25": {
+&"id": "25",
+&"next_id": "26",
+&"text": "[i]Hiii, sorry for the intrusion and I hope I’m not bothering you.",
+&"type": "dialogue"
+},
+"26": {
+&"id": "26",
+&"next_id": "27",
+&"text": "[i]I'm from second year, I was talking with a professor and some classmates of yours and I found out that you had an exam.",
+&"type": "dialogue"
+},
+"27": {
+&"id": "27",
+&"next_id": "29",
+&"text": "[i]I was writing to see how it went for you and everyone in general. I hope it went well and sorry for the sudden intrusion.",
+&"type": "dialogue"
+},
+"28": {
+&"id": "28",
+&"next_id": "29",
+&"type": ""
+},
+"29": {
+&"id": "29",
+&"next_id": "30",
+&"text": "I thought for a bit before responding, but I couldn't help but be kind. Even if it was a bit foolish, it was kind of funny that notification.",
+&"type": "dialogue"
+},
+"3": {
+&"id": "3",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"i": 3,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 8,
+&"type": &"dot"
+}, {
+&"function": "change_music",
+&"i": 9,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 22,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 27,
+&"type": &"dot"
+}, {
+&"i": 28,
+&"type": &"variable",
+&"value": "inicio"
+}]), Array[Dictionary]([{
+&"i": 36,
+&"type": &"number",
+&"value": 0
+}, {
+&"i": 37,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "4",
+&"type": "mutation"
+},
+"30": {
+&"id": "30",
+&"next_id": "32",
+&"text": "I didn’t take much longer to reply and, without noticing, I had already sent the message.",
+&"type": "dialogue"
+},
+"31": {
+&"id": "31",
+&"next_id": "32",
+&"type": ""
+},
+"32": {
+&"id": "32",
+&"next_id": "33",
+&"text": "[i]Hii",
+&"type": "dialogue"
+},
+"33": {
+&"id": "33",
+&"next_id": "34",
+&"text": "[i] So the exam went well, I think that only two people failed it.",
+&"type": "dialogue"
+},
+"34": {
+&"id": "34",
+&"next_id": "36",
+&"text": "[i]Thanks for asking ^^",
+&"type": "dialogue"
+},
+"35": {
+&"id": "35",
+&"next_id": "36",
+&"type": ""
+},
+"36": {
+&"id": "36",
+&"next_id": "39",
+&"text": "I was planning to get ahead with some tasks, but soon after I was distracted by something.",
+&"type": "dialogue"
+},
+"38": {
+&"id": "38",
+&"next_id": "39",
+&"type": ""
+},
+"39": {
+&"id": "39",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"i": 3,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 8,
+&"type": &"dot"
+}, {
+&"function": "play_sfx",
+&"i": 9,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 23,
+&"type": &"dot"
+}, {
+&"i": 24,
+&"type": &"variable",
+&"value": "notificacion"
+}, {
+&"i": 36,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "40",
+&"type": "mutation"
+},
+"4": {
+&"id": "4",
+&"next_id": "5",
+&"text": "It was a day like any other, and I got ready to go to class.",
+&"type": "dialogue"
+},
+"40": {
+&"id": "40",
+&"next_id": "41",
+&"text": "[i]You’re welcomee ^^",
+&"type": "dialogue"
+},
+"41": {
+&"id": "41",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"i": 3,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 8,
+&"type": &"dot"
+}, {
+&"function": "play_sfx",
+&"i": 9,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 23,
+&"type": &"dot"
+}, {
+&"i": 24,
+&"type": &"variable",
+&"value": "notificacion"
+}, {
+&"i": 36,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "42",
+&"type": "mutation"
+},
+"42": {
+&"id": "42",
+&"next_id": "43",
+&"text": "[i]And sorry for this random message.",
+&"type": "dialogue"
+},
+"43": {
+&"id": "43",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"i": 3,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 8,
+&"type": &"dot"
+}, {
+&"function": "play_sfx",
+&"i": 9,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 23,
+&"type": &"dot"
+}, {
+&"i": 24,
+&"type": &"variable",
+&"value": "notificacion"
+}, {
+&"i": 36,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "44",
+&"type": "mutation"
+},
+"44": {
+&"id": "44",
+&"next_id": "45",
+&"text": "[i]I’m happy that it went well. I was seated before with 2 of your classmates and I didn’t want to disturb you by coming in.",
+&"type": "dialogue"
+},
+"45": {
+&"id": "45",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"i": 3,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 8,
+&"type": &"dot"
+}, {
+&"function": "play_sfx",
+&"i": 9,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 23,
+&"type": &"dot"
+}, {
+&"i": 24,
+&"type": &"variable",
+&"value": "notificacion"
+}, {
+&"i": 36,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "46",
+&"type": "mutation"
+},
+"46": {
+&"id": "46",
+&"next_id": "49",
+&"text": "[i]Best of luck with the rest of the day.",
+&"type": "dialogue"
+},
+"48": {
+&"id": "48",
+&"next_id": "49",
+&"type": ""
+},
+"49": {
+&"id": "49",
+&"next_id": "50",
+&"text": "Wow, he surely responded quickly.",
+&"type": "dialogue"
+},
+"5": {
+&"id": "5",
+&"next_id": "7",
+&"text": "I have wished for this day to come for quite some time now; the opportunity to study something that I really wanted.",
+&"type": "dialogue"
+},
+"50": {
+&"id": "50",
+&"next_id": "53",
+&"text": "After I realized that, I couldn't simply leave him on read.",
+&"type": "dialogue"
+},
+"52": {
+&"id": "52",
+&"next_id": "53",
+&"type": ""
+},
+"53": {
+&"id": "53",
+&"next_id": "55",
+&"text": "[i]Don’t worry about it, I hope it goes well for you too.",
+&"type": "dialogue"
+},
+"54": {
+&"id": "54",
+&"next_id": "55",
+&"type": ""
+},
+"55": {
+&"id": "55",
+&"next_id": "57",
+&"text": "After that small conversation that I had with the unknown boy that wasn’t even in my class, but was, seemingly, in my grade, the rest of my day went as usual. However, even if it seemed as if he already knew me, I didn’t even know how he looked, and I must admit that this fact caused me to space out while thinking of it and how he managed to contact me, but I had to continue with my tasks.",
+&"type": "dialogue"
+},
+"56": {
+&"id": "56",
+&"next_id": "57",
+&"type": ""
+},
+"57": {
+&"id": "57",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "negroo"
+}, {
+&"i": 26,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "59",
+&"type": "mutation"
+},
+"58": {
+&"id": "58",
+&"next_id": "59",
+&"type": ""
+},
+"59": {
+&"id": "59",
+&"next_id": "60",
+&"text": "As the days went by my nerves grew exponentially.",
+&"type": "dialogue"
+},
+"6": {
+&"id": "6",
+&"next_id": "7",
+&"type": ""
+},
+"60": {
+&"id": "60",
+&"next_id": "61",
+&"text": "In no time my surgery would come so I could go back to normal. They would get rid of the ostomy.",
+&"type": "dialogue"
+},
+"61": {
+&"id": "61",
+&"next_id": "63",
+&"text": "And that was one of my most important surgeries, because it would mean that soon my body would go back to being, relatively, normal. Maybe it wouldn’t work as before, I will surely never go back to being the same either way, but now I won’t have to live with this bag that has caused me so many issues.",
+&"type": "dialogue"
+},
+"62": {
+&"id": "62",
+&"next_id": "63",
+&"type": ""
+},
+"63": {
+&"id": "63",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"i": 3,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 8,
+&"type": &"dot"
+}, {
+&"function": "change_music",
+&"i": 9,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 22,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 27,
+&"type": &"dot"
+}, {
+&"i": 28,
+&"type": &"variable",
+&"value": "hospi"
+}, {
+&"i": 33,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "64",
+&"type": "mutation"
+},
+"64": {
+&"id": "64",
+&"next_id": "65",
+&"text": "21st of November.",
+&"type": "dialogue"
+},
+"65": {
+&"id": "65",
+&"next_id": "66",
+&"text": "Today was the day of my surgery.",
+&"type": "dialogue"
+},
+"66": {
+&"id": "66",
+&"next_id": "68",
+&"text": "I remember that before entering I talked with my mother and my friends, who already knew of the intervention that I would have to get through.",
+&"type": "dialogue"
+},
+"67": {
+&"id": "67",
+&"next_id": "68",
+&"type": ""
+},
+"68": {
+&"id": "68",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "habitacionHospital"
+}, {
+&"i": 38,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "69",
+&"type": "mutation"
+},
+"69": {
+&"id": "69",
+&"next_id": "70",
+&"text": "Once the doctors entered the room where I was staying, I knew what was coming.",
+&"type": "dialogue"
+},
+"7": {
+&"id": "7",
+&"next_id": "9",
+&"text": "Some months ago I finished bachelor's, a time where I was feeling really stressed and overwhelmed. If someone asked me, it was one of the worst times of my life, but that changed a couple weeks ago.",
+&"type": "dialogue"
+},
+"70": {
+&"id": "70",
+&"next_id": "72",
+&"text": "It was time.",
+&"type": "dialogue"
+},
+"71": {
+&"id": "71",
+&"next_id": "72",
+&"type": ""
+},
+"72": {
+&"id": "72",
+&"next_id": "74",
+&"text": "I got changed, they started my IV and, with my body full of nerves, they quickly wheeled the stretcher I was lying on into the operating room.",
+&"type": "dialogue"
+},
+"73": {
+&"id": "73",
+&"next_id": "74",
+&"type": ""
+},
+"74": {
+&"id": "74",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "negroo"
+}, {
+&"i": 26,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "75",
+&"type": "mutation"
+},
+"75": {
+&"id": "75",
+&"next_id": "77",
+&"text": "It was really cold, I would never get used to that place, but I knew that everything would be fine, after all, my favorite surgeon was the one performing my operation.",
+&"type": "dialogue"
+},
+"76": {
+&"id": "76",
+&"next_id": "77",
+&"type": ""
+},
+"77": {
+&"id": "77",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "felix"
+}]), Array[Dictionary]([{
+&"i": 27,
+&"type": &"string",
+&"value": "izq"
+}, {
+&"i": 32,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "78",
+&"type": "mutation"
+},
+"78": {
+&"id": "78",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "kristine"
+}]), Array[Dictionary]([{
+&"i": 30,
+&"type": &"string",
+&"value": "derecha"
+}]), Array[Dictionary]([{
+&"i": 41,
+&"type": &"string",
+&"value": "sinHablar"
+}, {
+&"i": 52,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "79",
+&"type": "mutation"
+},
+"79": {
+&"character": "Felix",
+&"id": "79",
+&"next_id": "80",
+&"text": "Hii, little one. How are you? Nervous?",
+&"type": "dialogue"
+},
+"8": {
+&"id": "8",
+&"next_id": "9",
+&"type": ""
+},
+"80": {
+&"id": "80",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "felixNoHabla"
+}]), Array[Dictionary]([{
+&"i": 34,
+&"type": &"string",
+&"value": "izq"
+}, {
+&"i": 39,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "81",
+&"type": "mutation"
+},
+"81": {
+&"id": "81",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "kristine"
+}]), Array[Dictionary]([{
+&"i": 30,
+&"type": &"string",
+&"value": "derecha"
+}]), Array[Dictionary]([{
+&"i": 41,
+&"type": &"string",
+&"value": "hablaPreocupada"
+}, {
+&"i": 58,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "82",
+&"type": "mutation"
+},
+"82": {
+&"character": "Kristine",
+&"id": "82",
+&"next_id": "83",
+&"text": "To be honest? A little bit, yeah.",
+&"type": "dialogue"
+},
+"83": {
+&"id": "83",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "felix"
+}]), Array[Dictionary]([{
+&"i": 27,
+&"type": &"string",
+&"value": "izq"
+}, {
+&"i": 32,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "84",
+&"type": "mutation"
+},
+"84": {
+&"id": "84",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "kristine"
+}]), Array[Dictionary]([{
+&"i": 30,
+&"type": &"string",
+&"value": "derecha"
+}]), Array[Dictionary]([{
+&"i": 41,
+&"type": &"string",
+&"value": "sinHablar"
+}, {
+&"i": 52,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "85",
+&"type": "mutation"
+},
+"85": {
+&"character": "Felix",
+&"id": "85",
+&"next_id": "86",
+&"text": "Don’t worry. I’m going to do my best with you. In no time you will be able to go to the bathroom like before.",
+&"type": "dialogue"
+},
+"86": {
+&"id": "86",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "felixNoHabla"
+}]), Array[Dictionary]([{
+&"i": 34,
+&"type": &"string",
+&"value": "izq"
+}, {
+&"i": 39,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "87",
+&"type": "mutation"
+},
+"87": {
+&"id": "87",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "kristine"
+}]), Array[Dictionary]([{
+&"i": 30,
+&"type": &"string",
+&"value": "derecha"
+}]), Array[Dictionary]([{
+&"i": 41,
+&"type": &"string",
+&"value": "hablaPreocupada"
+}, {
+&"i": 58,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "88",
+&"type": "mutation"
+},
+"88": {
+&"character": "Kristine",
+&"id": "88",
+&"next_id": "89",
+&"text": "I hope so.",
+&"type": "dialogue"
+},
+"89": {
+&"id": "89",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "kristine"
+}]), Array[Dictionary]([{
+&"i": 30,
+&"type": &"string",
+&"value": "derecha"
+}]), Array[Dictionary]([{
+&"i": 41,
+&"type": &"string",
+&"value": "sinHablar"
+}, {
+&"i": 52,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "90",
+&"type": "mutation"
+},
+"9": {
+&"id": "9",
+&"next_id": "10",
+&"text": "For a few years now I have wanted to study computer science, but at the time I was told that I needed to pass bachelor's, and I did, but, finally, this year is completely different. At last I have the reins of my life or well, almost.",
+&"type": "dialogue"
+},
+"90": {
+&"character": "Anesthesiologist",
+&"id": "90",
+&"next_id": "93",
+&"text": "Of course, everything will go fine. Now I need you to take a deep breath in and count to 10.",
+&"type": "dialogue"
+},
+"92": {
+&"id": "92",
+&"next_id": "93",
+&"type": ""
+},
+"93": {
+&"id": "93",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"i": 3,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 8,
+&"type": &"dot"
+}, {
+&"function": "change_music",
+&"i": 9,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 22,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 27,
+&"type": &"dot"
+}, {
+&"i": 28,
+&"type": &"variable",
+&"value": "momentoDecidir"
+}, {
+&"i": 42,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "94",
+&"type": "mutation"
+},
+"94": {
+&"id": "94",
+&"next_id": "95",
+&"text": "Even if it’s a stupid question [b]What should I do?[/b]:",
+&"type": "dialogue"
+},
+"95": {
+&"id": "95",
+&"next_id": "96",
+&"responses": PackedStringArray("95", "100", "115"),
+&"text": "Comply",
+&"type": "response"
+},
+"96": {
+&"id": "96",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"i": 3,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 8,
+&"type": &"dot"
+}, {
+&"function": "change_music",
+&"i": 9,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 22,
+&"type": &"variable",
+&"value": "Audio"
+}, {
+&"i": 27,
+&"type": &"dot"
+}, {
+&"i": 28,
+&"type": &"variable",
+&"value": "hospi"
+}, {
+&"i": 33,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "97",
+&"type": "mutation"
+},
+"97": {
+&"id": "97",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "cargarSiguienteCap",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 22,
+&"type": &"string",
+&"value": "escenaHospi"
+}, {
+&"i": 35,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "98",
+&"type": "mutation"
+},
+"98": {
+&"id": "98",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"99": {
+&"id": "99",
+&"next_id": "100",
+&"type": ""
+}
+}
+raw_text = "~ start
+
+do set_background(\"habitacion1\")
+do Audio.change_music(Audio.inicio, 0)
+It was a day like any other, and I got ready to go to class.
+I have wished for this day to come for quite some time now; the opportunity to study something that I really wanted.
+
+Some months ago I finished bachelor's, a time where I was feeling really stressed and overwhelmed. If someone asked me, it was one of the worst times of my life, but that changed a couple weeks ago.
+
+For a few years now I have wanted to study computer science, but at the time I was told that I needed to pass bachelor's, and I did, but, finally, this year is completely different. At last I have the reins of my life or well, almost.
+I had surgery relatively recently (a month and a half now) caused by a peritonitis by[speed=0.08]…[/speed]
+Well, I’m not getting into details. The thing is that I had surgery and now I have to live a little differently because of a bag that I have glued to my skin, an [b]ostomy[/b].
+
+#**cuando lo diga que aparezca como un icono de información a que si lo pulsas salga el texto informativo (si quieres te traduzco el texto informativo también -Alisia)** 
+
+Well, I’m getting off topic here.
+The thing is that now I’m heading to one of my many classes as a student of CPAD, finally.
+
+do set_background(\"clase\")
+It was now recess time when, suddenly, I found out that I had a new notification. Oh, who could it be?
+Wait, a stranger?, why would they talk to me?, do they want something?
+Maybe they got me confused with someone else?
+
+#*en pantalla del pc tipo como si vieras discord*
+do Audio.play_sfx(Audio.notificacion)
+[i]Hiii, sorry for the intrusion and I hope I’m not bothering you.
+[i]I'm from second year, I was talking with a professor and some classmates of yours and I found out that you had an exam.
+[i]I was writing to see how it went for you and everyone in general. I hope it went well and sorry for the sudden intrusion.
+
+I thought for a bit before responding, but I couldn't help but be kind. Even if it was a bit foolish, it was kind of funny that notification.
+I didn’t take much longer to reply and, without noticing, I had already sent the message.
+
+[i]Hii
+[i] So the exam went well, I think that only two people failed it.
+[i]Thanks for asking ^^
+
+I was planning to get ahead with some tasks, but soon after I was distracted by something.
+
+#*mostrar pantalla del pc y, anterior a los dos mensajes, nuevo mensaje:*
+do Audio.play_sfx(Audio.notificacion)
+[i]You’re welcomee ^^
+do Audio.play_sfx(Audio.notificacion)
+[i]And sorry for this random message.
+do Audio.play_sfx(Audio.notificacion)
+[i]I’m happy that it went well. I was seated before with 2 of your classmates and I didn’t want to disturb you by coming in. 
+do Audio.play_sfx(Audio.notificacion)
+[i]Best of luck with the rest of the day.
+
+#*mostrar dialogo pero por encima del fondo del pc y mensajes*
+Wow, he surely responded quickly.
+After I realized that, I couldn't simply leave him on read.
+
+#*mostrar mensaje*
+[i]Don’t worry about it, I hope it goes well for you too.
+
+After that small conversation that I had with the unknown boy that wasn’t even in my class, but was, seemingly, in my grade, the rest of my day went as usual. However, even if it seemed as if he already knew me, I didn’t even know how he looked, and I must admit that this fact caused me to space out while thinking of it and how he managed to contact me, but I had to continue with my tasks.
+
+do set_background(\"negroo\")
+
+As the days went by my nerves grew exponentially.
+In no time my surgery would come so I could go back to normal. They would get rid of the ostomy.
+And that was one of my most important surgeries, because it would mean that soon my body would go back to being, relatively, normal. Maybe it wouldn’t work as before, I will surely never go back to being the same either way, but now I won’t have to live with this bag that has caused me so many issues.
+
+do Audio.change_music(Audio.hospi)
+21st of November.
+Today was the day of my surgery.
+I remember that before entering I talked with my mother and my friends, who already knew of the intervention that I would have to get through.
+
+do set_background(\"habitacionHospital\")
+Once the doctors entered the room where I was staying, I knew what was coming.
+It was time.
+
+I got changed, they started my IV and, with my body full of nerves, they quickly wheeled the stretcher I was lying on into the operating room.
+
+do set_background(\"negroo\")
+It was really cold, I would never get used to that place, but I knew that everything would be fine, after all, my favorite surgeon was the one performing my operation.
+
+do show_character(\"felix\", \"izq\")
+do show_character(\"kristine\", \"derecha\", \"sinHablar\")
+Felix: Hii, little one. How are you? Nervous?
+do show_character(\"felixNoHabla\", \"izq\")
+do show_character(\"kristine\", \"derecha\", \"hablaPreocupada\")
+Kristine: To be honest? A little bit, yeah.
+do show_character(\"felix\", \"izq\")
+do show_character(\"kristine\", \"derecha\", \"sinHablar\")
+Felix: Don’t worry. I’m going to do my best with you. In no time you will be able to go to the bathroom like before.
+do show_character(\"felixNoHabla\", \"izq\")
+do show_character(\"kristine\", \"derecha\", \"hablaPreocupada\")
+Kristine: I hope so.
+do show_character(\"kristine\", \"derecha\", \"sinHablar\")
+Anesthesiologist: Of course, everything will go fine. Now I need you to take a deep breath in and count to 10.
+
+#do marcar_punto_decision(\"decisionQuirofano\")
+do Audio.change_music(Audio.momentoDecidir)
+Even if it’s a stupid question [b]What should I do?[/b]:
+- Comply
+	do Audio.change_music(Audio.hospi)
+	do cargarSiguienteCap(\"escenaHospi\")
+	=> END
+
+- Don’t comply
+	do Audio.change_music(Audio.hospi)
+	do hide_character(\"izq\")
+	do hide_character(\"derecha\")
+	No, I can't do that.
+	After all the time I spend to prepare myself mentally and all the paperwork my parents had to do, I can't simply not follow what professionals are telling me to do.
+	In short, that would be a terrible idea.
+	It would be better If I comply. After all, I was waiting for this moment to arrive.
+        
+	In the end, slowly and full of nerves, I started counting.
+	It’s not my first time going through this either way.
+	I can do it.
+	do cargarSiguienteCap(\"escenaHospi\")
+	=> END
+
+- Irte
+	do hide_character(\"izq\")
+	do hide_character(\"derecha\")
+	do Audio.change_music(Audio.finalEstupido2)
+	Without saying anything, I took out the device they put on my face to make me sleep, I also removed the IV in one go and, without caring about what the doctors had to say or what could happen, I left the operating room.
+	I ran.
+	I don’t know why, but I ran for my life, although I forgot a small detail.
+	I was barefoot and was still wearing only the shirt from the hospital, the one that patients who are going to get surgery usually wear and is tied behind your back.
+	The thing is, by not wearing shoes or anything to cover my feet, while I was descending the stairs I tripped with what seemed to be a banana [wave](Who would leave that on the hospital floor?)[wave]
+	And I fell. In a way that, I don’t know how, made me fall unconscious.
+	For a couple minutes I saw black. Hours, I think.
+	I couldn’t move my body, I couldn’t do anything.
+	[wait=1][wave]This is how dying feels like?[/wave]    
+	do cargarFinal(\"finalEstupido\")
+	=> END
+"
+metadata/dialogue_manager_version = "3.9.0"

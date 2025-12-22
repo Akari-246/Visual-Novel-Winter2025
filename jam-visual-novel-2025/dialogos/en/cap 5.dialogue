@@ -1,0 +1,290 @@
+~ start
+do set_background("calleNoche")
+do Audio.change_music(Audio.darCarta, -1)
+Yes.
+I can’t back down now. Not when I’ve already, unconsciously, prepared myself to give it to him. Not when I’ve pictured every possible outcome and am ready for any rejection he might offer.
+
+do show_character("kristine", "derecha", "sonrojadaHabla")
+do show_character("mateo", "izq", "sinHablar")
+Kristine: By the way… I wanted… I wanted to give you something.
+
+do show_character("mateo", "izq", "serio")
+do show_character("kristine", "derecha", "sonrojada")
+When I said that, Mateo’s expression was a mix of confusion and curiosity. How could he be so cute?
+
+do show_character("kristine", "derecha", "sonrojadaHabla")
+Kristine: I know that… M-maybe it’s kind of cliché to do it on Valentine’s Day, but I promise it’s not because of the date itself… Anyway, on the first page there are… some notes. I need you to follow them to the letter, please.
+do show_character("kristine", "derecha", "seria")
+
+And after that, without thinking, I handed him the letter quickly so I wouldn’t have time to regret it.
+
+do show_character("mateo", "izq", "hablaAlegre")
+Mateo: Ok, sure…
+do show_character("mateo", "izq", "feliz")
+
+Suddenly, that familiar winter-day silence filled the air, and he broke it, completely out of the blue.
+
+do show_character("mateo", "izq", "hablaNormal")
+Mateo: [wait=1]Can I kiss you?
+do show_character("kristine", "derecha", "sonrojada")
+do show_character("mateo", "izq", "sonrojado")
+
+[speed=0.01]...
+[wait=4]What?
+
+do show_character("kristine", "derecha", "sonrojadaHabla2")
+Kristine: What?
+do show_character("mateo", "izq", "hablaNormal")
+do show_character("kristine", "derecha", "avergonzada")
+Mateo: If I can kiss you.
+do show_character("mateo", "izq", "avergonzado")
+do show_character("kristine", "derecha", "avergonzada")
+
+[speed=0.06]...
+[wait=2]
+do show_character("kristine", "derecha", "sonrojadaHabla2")
+Kristine: What?
+
+do show_character("mateo", "izq", "sonrojado")
+do show_character("kristine", "derecha", "sonrojada")
+I couldn’t believe what he was saying.
+To begin with, what had he said?, to kiss?, who?, me?, so suddenly?, why?, how? 
+And how are people supposed to kiss?
+
+do show_character("mateo", "izq", "hablaNormal")
+Mateo: If I can kiss you.
+do show_character("kristine", "derecha", "avergonzada")
+do show_character("mateo", "izq", "serio")
+
+- Act in a shy manner
+	do SistemaPuntos.cambiarPuntos("mateo", 1)
+	do show_character("kristine", "derecha", "sonrojadaHabla")
+	do show_character("mateo", "izq", "serio")
+	Kristine: N-no... No. Sorry.
+	do show_character("mateo", "izq", "hablaPreocupado")
+	do show_character("kristine", "derecha", "avergonzada")
+	Mateo: That’s fine, I’m sorry. Don’t worry.
+	=> siguee
+
+- Be direct
+	do show_character("kristine", "derecha", "sonrojadaHabla2")
+	do show_character("mateo", "izq", "serio")
+	Kristine: No.
+	do show_character("mateo", "izq", "hablaPreocupado")
+	do show_character("kristine", "derecha", "avergonzada")
+	Mateo: That’s fine. I’m sorry...
+	=> siguee
+
+~ siguee
+do show_character("mateo", "izq", "sonrojado")
+do show_character("kristine", "derecha", "sonrojada")
+After that somewhat awkward interaction, we said goodbye, and I went into my house.
+
+do hide_character("izq")
+do hide_character("derecha")
+do set_background("habitacionNoche")
+I couldn’t believe what had just happened, what had just been done, not even what he said.
+He asked me if he could kiss me. And he did it with a face that was so… cute.
+His eyes had a special sparkle that I won’t be able to forget.
+
+Considering how many guys wouldn’t ask and would just go ahead without caring about your true feelings, he asked for permission. He wanted to know if I was willing.
+And that was without even reading any of the letter…
+So, does he have any ideas?, will he even expect anything from what he’s about to read?
+
+Whatever it was, he listened to what I told him.
+
+Before the letter, I attached a note clearly specifying that he shouldn’t say anything until we saw each other and were alone, just the two of us.
+
+do set_background("negroo")
+Two days passed, which felt like an eternity, after that.
+
+Just yesterday, right after finishing the exam, Mateo asked me if we could meet on the 16th. Without thinking, I said yes. And at what a cost.
+
+I should have said no and postponed the meeting until I was truly ready, but if I’m being honest, had I delayed that meeting to another day or until I felt prepared, I would never have seen him.
+That meeting would never have happened, because I would always feel these nerves coursing through my body.
+I would never have been truly ready to see him in person, to talk to him face to face.
+Simply put, that moment I thought would be perfect for when I was ready to talk to him would never really come.
+
+And, without realizing how quickly that span of time passed, which I had thought would be longer, the moment arrived.
+
+do set_background("habitacionMasOscura")
+6:00 PM.
+
+He was already waiting for me outside.
+
+I was already somewhat ready.
+Emotionally, though, I wasn’t. I never would be, knowing what I had to talk about when I saw him. But at least physically, I was ready.
+
+16th of February…
+
+do set_background("calleDia")
+As I stepped outside, I noticed how cold it was, and I saw him waiting.
+The moment he looked at me, he let out a smile.
+
+Luckily for me, the first thing we did that day was go to the café we used to frequent. It had become a habit to go there.
+
+do set_background("negroo")
+While I sipped my beloved cappuccino to warm up and try to calm my nerves, he talked about his family, things that happened to some of his classmates, and other topics.
+
+I tried to look at him, I swear I tried to meet his eyes, but I simply couldn’t. I was incapable of doing so knowing that he had already read my letter.
+He already knew how I felt, but I didn’t know whether those feelings were returned or not. And that was slowly killing me.
+
+Definitely, I was a masochist.
+
+I couldn’t complain, knowing full well that I was the one who had told him not to say anything about the letter or its contents until we were alone. And I didn’t know how to bring up the subject.
+I suppose that if I didn’t do it, he would. Sooner or later.
+
+do set_background("parqueNoche")
+After a couple hours, we reached the park, the one we would often find ourselves in.
+
+It was already dark, even though it was around 8:00 PM, and it was cold. Very cold.
+Not even the velvet hoodie I was wearing was enough to keep me warm. I hugged myself, hoping the chills would lessen.
+Failed attempt.
+Honestly, I hate being so sensitive to the cold.
+
+Luckily, or unfortunately, he noticed. And he hugged me.
+Immediately, I felt something rise. My face was red. Because of him. Silly.
+Slowly, I pulled away from him, and we sat on an empty bench..
+
+I was wrong to think that my nerves had left my body.
+
+do Audio.change_music(Audio.declaracionMateo, -1)
+do show_character("mateo", "izq", "hablaNormal")
+do show_character("kristine", "derecha", "avergonzada")
+Mateo: I’ll be brief.
+do show_character("mateo", "izq", "serio")
+
+No, please.
+I both wanted and didn’t want this day to come.
+
+do show_character("mateo", "izq", "hablaNormal")
+Mateo: About your letter… 
+do show_character("mateo", "izq", "hablaAlegre")
+do show_character("kristine", "derecha", "intentoSonrisa")
+Mateo: I really appreciate that you gave it to me. Your writing is really pretty, by the way. I wanted to tell you that…
+
+do show_character("mateo", "izq", "serio")
+Here we go… Is he going to reject me? Because it seems that way.
+
+do show_character("mateo", "izq", "hablaAlegre")
+Mateo: I wanted to tell you that I feel the same way about you.
+do show_character("mateo", "izq", "feliz")
+
+[speed= 0.0001]...
+[speed=0.03]How?
+
+do show_character("kristine", "derecha", "hablaNormal")
+Kristine: What?
+do show_character("mateo", "izq", "hablaAlegre")
+do show_character("kristine", "derecha", "avergonzada")
+Mateo: I feel the same way you do. I like you. A lot. And yes, I feel very lucky to have met you, and I’d also like to spend more time with you. You’re right that three or four hours aren’t enough to be together. You make time pass far too quickly, and I don’t know whether I like that or hate it. But don’t misunderstand me, I love being by your side.
+
+do show_character("mateo", "izq", "feliz")
+do show_character("kristine", "derecha", "feliz")
+I let out a laugh, and my breath formed a small cloud in the icy air. 
+It truly was freezing.
+Without realizing it, I edged a bit closer to him as I spoke.
+I couldn’t believe the words were coming out of his mouth.
+
+do show_character("mateo", "izq", "hablaAlegre")
+Mateo: I’d also like to have you, not in a possessive sense. I’d also like to be your partner in this life and always be there for you, especially when you need it. I love spending time with you, I truly always have a good time when it’s with you…
+
+do show_character("mateo", "izq", "feliz")
+Since I remained silent and the words wouldn’t come out of my mouth, he kept talking.
+
+do show_character("mateo", "izq", "hablaAlegre")
+Mateo: Then, now that you know that your feelings are reciprocated… 
+do show_character("mateo", "izq", "hablaNormal")
+Mateo: Will you be my girlfriend?
+do show_character("kristine", "derecha", "avergonzada")
+do show_character("mateo", "izq", "feliz")
+
+Have I already mentioned that I couldn’t believe what was happening?
+
+I was stunned, but I knew I had to reply.
+
+~ momentoDecision
+What do I tell him?
+- Yes
+	do SistemaPuntos.cambiarPuntos("mateo", 2)
+	=> sigue
+- No
+	No.
+	I couldn’t tell him that.
+	Not when I know what I want and I finally know that he wants me in the least possible way I could think of.
+	I’m not that stupid as to let this opportunity go. And much less when it’s right in front of me.
+	=> momentoDecision
+- Don’t say anything
+	What?
+	No, I have to say something.
+	I really [b]want[/b] to start something with him...
+	=> momentoDecision
+
+~ sigue
+do show_character("kristine", "derecha", "sonrojadaHabla2")
+Kristine: Y-yes. Oh my god, a thousand times yes.
+do show_character("kristine", "derecha", "avergonzada")
+
+Mateo smiled. His smile was so warm and contagious that I smiled too.
+do show_character("kristine", "derecha", "feliz")
+He moved closer until we were hugging. It was so cozy that I almost forgot I was trembling, both from my earlier nerves and the cold.
+
+In an attempt to get closer and ease the cold I felt, I positioned myself so that my head rested on his chest while he hugged me from behind, giving me gentle affection.
+I could hear his heartbeat, and I decided that it was my favourite melody.
+
+do show_character("mateo", "izq", "hablaAlegre")
+Mateo: You’re heart is beating really fast, by the way
+do show_character("mateo", "izq", "feliz")
+do show_character("kristine", "derecha", "hablaNormal")
+Kristine: I was really nervous.
+do show_character("mateo", "izq", "hablaAlegre")
+do show_character("kristine", "derecha", "feliz")
+Mateo: I know, I could see it in your face.
+do show_character("mateo", "izq", "hablaNormal")
+do show_character("kristine", "derecha", "feliz")
+Mateo: That’s why we went first to the coffee shop, I thought it would make it easier for you to have this conversation. 
+
+do show_character("mateo", "izq", "serio")
+And he wasn’t in the wrong.
+
+do show_character("mateo", "izq", "feliz")
+do show_character("kristine", "derecha", "hablaNormal")
+Kristine: Your heart is also racing.
+do show_character("mateo", "izq", "hablaAlegre")
+do show_character("kristine", "derecha", "feliz")
+Mateo: Because I’m finally with the girl I have dreamt of.
+do show_character("mateo", "izq", "feliz")
+do show_character("kristine", "derecha", "avergonzada")
+
+I looked him in the eyes. How could he say that so quickly and without flinching?, and how could he be so sure of it?
+
+do show_character("mateo", "izq", "hablaAlegre")
+Mateo: I had liked you since the first time I saw you.
+
+do show_character("mateo", "izq", "sonrojado")
+do show_character("kristine", "derecha", "sonrojada")
+
+He went straight to the point and without any sugarcoating.
+That was another tiny shock to my heart. How could he say such things and not feel even a bit embarrassed? I really admired that about him.
+
+I looked at him, thinking he was joking, but from his gaze, I knew he wasn’t. He wasn’t lying, just as I hadn’t lied in the letter, he wasn’t lying in his confession or in what he had just said.
+
+do hide_character("izq")
+do hide_character("derecha")
+do set_background("fucsiaMuyOscuro")
+That’s how I managed to give the letter in which I confessed my feelings to the boy I liked, and two days later, I became his girlfriend. It became official.
+I’d be lying if I said it was the best day of my life, since that was the day my ostomy was removed. But if it wasn’t the very best, it was definitely one of the best days I’ve ever had.
+
+Since then, we have been practically inseparable.
+If there was ever a problem, we always tried to solve it calmly, with love above all else.
+
+And so, almost without realizing it, winter slipped away, making way for the bright and warm arrival of summer.
+
+I remember how, sometimes, he would slowly lean in to try to kiss me, and when he saw I wasn’t ready, he would simply apologize and say not to worry, that he would wait as long as necessary until I was prepared.
+Until one summer day.
+
+if SistemaPuntos.obtenerPuntos("mateo") >= 1:
+	do cargarFinal("finalCanon")
+else:
+	do Game.mostrarFinal()
+	=> END
