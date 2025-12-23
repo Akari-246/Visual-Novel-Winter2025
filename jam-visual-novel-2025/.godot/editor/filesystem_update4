@@ -11,3 +11,4 @@ res://scripts/selectorIdiomas.gd
 res://traducciones/traduccion.es.translation
 res://traducciones/traduccion.en.translation
 res://scripts/menu_op.gd
+res://scripts/sistemaSkip.gd
