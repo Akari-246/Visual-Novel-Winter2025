@@ -18,6 +18,7 @@ Este juego, al ser una novela visual, tiene únicamente opciones de teclado/rat�
 - **Para avanzar diálogos**: Click izquierdo / Space / Enter
 - **Para elegir opciones**: Click izquierdo
 - **Menú de pausa**: Q
+- **Mecánica skip para saltarse diálogos**: S / Tab
 
 
 ## Índice
