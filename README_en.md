@@ -18,6 +18,7 @@ This game, given that it’s a visual novel, it only the options of keyboard/mou
 - **To progress through the dialogue**: Left click / Space / Enter
 - **To choose options**: Left click
 - **Pause menu**: Q
+- **Skip**: S / Tab
 
 ## Index
 
