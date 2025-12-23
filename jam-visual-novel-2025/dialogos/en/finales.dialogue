@@ -257,6 +257,7 @@ I lost a beautiful friendship that could have become something else...
 # ========================================
 ~ opGameOver
 do Audio.stop_music()
+[b]You can press the s or tab key to move forward faster
 [center]Choose an option[/center]
 - Try again 
 	=> reintentar
@@ -288,6 +289,7 @@ do set_background("negroo")
 [wait=2.0]
 
 do Audio.stop_music()
+[b]You can press the s or tab key to move forward faster
 - Go back to the menu 
 	=> menu
 - Play again 

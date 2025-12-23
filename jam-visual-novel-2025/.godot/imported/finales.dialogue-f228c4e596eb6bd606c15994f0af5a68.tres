@@ -6,15 +6,15 @@
 script = ExtResource("1_j13o2")
 using_states = PackedStringArray()
 titles = {
-"creditos": "282",
+"creditos": "283",
 "demasiadasMentiras": "202",
 "finalCanon": "5",
 "finalCobarde": "162",
 "finalEstupido": "123",
 "finalMalo": "100",
-"menu": "278",
+"menu": "279",
 "opGameOver": "263",
-"reintentar": "271",
+"reintentar": "272",
 "soloAmigos": "133",
 "start": "1"
 }
@@ -2113,40 +2113,41 @@ lines = {
 "264": {
 &"id": "264",
 &"next_id": "265",
-&"text": "[center]Elige una opción[/center]",
+&"text": "[b]Puedes pulsar la tecla s o tab para avanzar más rápido",
 &"type": "dialogue"
 },
 "265": {
 &"id": "265",
 &"next_id": "266",
-&"responses": PackedStringArray("265", "267"),
-&"text": "Volver a intentar",
-&"type": "response"
+&"text": "[center]Elige una opción[/center]",
+&"type": "dialogue"
 },
 "266": {
 &"id": "266",
-&"is_snippet": false,
-&"next_id": "271",
-&"next_id_after": "",
-&"type": "goto"
+&"next_id": "267",
+&"responses": PackedStringArray("266", "268"),
+&"text": "Volver a intentar",
+&"type": "response"
 },
 "267": {
 &"id": "267",
-&"next_id": "268",
-&"text": "Ir al menú principal",
-&"type": "response"
-},
-"268": {
-&"id": "268",
 &"is_snippet": false,
-&"next_id": "278",
+&"next_id": "272",
 &"next_id_after": "",
 &"type": "goto"
 },
+"268": {
+&"id": "268",
+&"next_id": "269",
+&"text": "Ir al menú principal",
+&"type": "response"
+},
 "269": {
 &"id": "269",
-&"next_id": "270",
-&"type": ""
+&"is_snippet": false,
+&"next_id": "279",
+&"next_id_after": "",
+&"type": "goto"
 },
 "27": {
 &"id": "27",
@@ -2180,10 +2181,15 @@ lines = {
 "270": {
 &"id": "270",
 &"next_id": "271",
-&"type": "title"
+&"type": ""
 },
 "271": {
 &"id": "271",
+&"next_id": "272",
+&"type": "title"
+},
+"272": {
+&"id": "272",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "retry_game",
@@ -2196,46 +2202,46 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "272",
+&"next_id": "273",
 &"type": "mutation"
 },
-"272": {
-&"id": "272",
+"273": {
+&"id": "273",
 &"is_snippet": false,
 &"next_id": "end",
 &"next_id_after": "",
 &"type": "goto"
 },
-"273": {
-&"id": "273",
-&"next_id": "274",
-&"type": ""
-},
 "274": {
 &"id": "274",
-&"next_id": "271",
-&"responses": PackedStringArray("274", "275"),
-&"text": "Volver a intentar",
-&"type": "response"
+&"next_id": "275",
+&"type": ""
 },
 "275": {
 &"id": "275",
-&"next_id": "278",
-&"text": "Ir al menú principal",
+&"next_id": "272",
+&"responses": PackedStringArray("275", "276"),
+&"text": "Volver a intentar",
 &"type": "response"
 },
 "276": {
 &"id": "276",
-&"next_id": "277",
-&"type": ""
+&"next_id": "279",
+&"text": "Ir al menú principal",
+&"type": "response"
 },
 "277": {
 &"id": "277",
 &"next_id": "278",
-&"type": "title"
+&"type": ""
 },
 "278": {
 &"id": "278",
+&"next_id": "279",
+&"type": "title"
+},
+"279": {
+&"id": "279",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "get_tree",
@@ -2263,15 +2269,8 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "279",
+&"next_id": "280",
 &"type": "mutation"
-},
-"279": {
-&"id": "279",
-&"is_snippet": false,
-&"next_id": "end",
-&"next_id_after": "",
-&"type": "goto"
 },
 "28": {
 &"id": "28",
@@ -2304,16 +2303,23 @@ lines = {
 },
 "280": {
 &"id": "280",
-&"next_id": "281",
-&"type": ""
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
 },
 "281": {
 &"id": "281",
 &"next_id": "282",
-&"type": "title"
+&"type": ""
 },
 "282": {
 &"id": "282",
+&"next_id": "283",
+&"type": "title"
+},
+"283": {
+&"id": "283",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "set_background",
@@ -2330,59 +2336,51 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "283",
+&"next_id": "284",
 &"type": "mutation"
 },
-"283": {
-&"id": "283",
-&"next_id": "284",
+"284": {
+&"id": "284",
+&"next_id": "285",
 &"text": "[center][b]━━━━━━━━━━━━━━━━━━━━ 
 [center][b]CRÉDITOS 
 [center][b]━━━━━━━━━━━━━━━━━━━━[/b][/center]",
 &"type": "dialogue"
 },
-"284": {
-&"id": "284",
-&"next_id": "285",
-&"text": "[wait=1.0]",
-&"type": "dialogue"
-},
 "285": {
 &"id": "285",
 &"next_id": "286",
-&"text": "[center]Una historia, escrita por mí; 
-[center][b]Akari[/b]
-[center] Historia inspirada en algo que sucedió de verdad",
+&"text": "[wait=1.0]",
 &"type": "dialogue"
 },
 "286": {
 &"id": "286",
 &"next_id": "287",
-&"text": "[wait=2.0]",
+&"text": "[center]Una historia, escrita por mí; 
+[center][b]Akari[/b]
+[center] Historia inspirada en algo que sucedió de verdad",
 &"type": "dialogue"
 },
 "287": {
 &"id": "287",
 &"next_id": "288",
+&"text": "[wait=2.0]",
+&"type": "dialogue"
+},
+"288": {
+&"id": "288",
+&"next_id": "289",
 &"text": "[center]Creado con 
 [center]Godot Engine 4 
 [center]Y Dialogue Manager 3[/center]",
 &"type": "dialogue"
 },
-"288": {
-&"character": "[center]Herramientas usadas para los assets",
-&"id": "288",
-&"next_id": "289",
-&"text": "[center]Ibis paint X y Krita
-[center]",
-&"type": "dialogue"
-},
 "289": {
+&"character": "[center]Herramientas usadas para los assets",
 &"id": "289",
 &"next_id": "290",
-&"text": "[wait=2] Agradecimientos especiales a mis amigas por ayudarme. 
- Sobre todo a mi Liz por hacer la traducción al inglés posible, a Luli sensei por ayudarme a mejorar visualmente el juego para darle una estética invernal 
- Y a mi novio por hacer de esta historia una real.",
+&"text": "[center]Ibis paint X y Krita
+[center]",
 &"type": "dialogue"
 },
 "29": {
@@ -2395,29 +2393,37 @@ lines = {
 "290": {
 &"id": "290",
 &"next_id": "291",
-&"text": "[center]",
+&"text": "[wait=2] Agradecimientos especiales a mis amigas por ayudarme. 
+ Sobre todo a mi Liz por hacer la traducción al inglés posible, a Luli sensei por ayudarme a mejorar visualmente el juego para darle una estética invernal 
+ Y a mi novio por hacer de esta historia una real.",
 &"type": "dialogue"
 },
 "291": {
 &"id": "291",
 &"next_id": "292",
-&"text": "[center]¡Gracias por jugar! 
- :D[/center]",
+&"text": "[center]",
 &"type": "dialogue"
 },
 "292": {
 &"id": "292",
-&"next_id": "294",
-&"text": "[wait=2.0]",
+&"next_id": "293",
+&"text": "[center]¡Gracias por jugar! 
+ :D[/center]",
 &"type": "dialogue"
 },
 "293": {
 &"id": "293",
-&"next_id": "294",
-&"type": ""
+&"next_id": "295",
+&"text": "[wait=2.0]",
+&"type": "dialogue"
 },
 "294": {
 &"id": "294",
+&"next_id": "295",
+&"type": ""
+},
+"295": {
+&"id": "295",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"i": 3,
@@ -2437,40 +2443,34 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "295",
-&"type": "mutation"
-},
-"295": {
-&"id": "295",
 &"next_id": "296",
-&"responses": PackedStringArray("295", "297"),
-&"text": "Volver al menú principal",
-&"type": "response"
+&"type": "mutation"
 },
 "296": {
 &"id": "296",
-&"is_snippet": false,
-&"next_id": "278",
-&"next_id_after": "",
-&"type": "goto"
+&"next_id": "297",
+&"text": "[b]Puedes pulsar la tecla s o tab para avanzar más rápido",
+&"type": "dialogue"
 },
 "297": {
 &"id": "297",
 &"next_id": "298",
-&"text": "Volver a jugar",
+&"responses": PackedStringArray("297", "299"),
+&"text": "Volver al menú principal",
 &"type": "response"
 },
 "298": {
 &"id": "298",
 &"is_snippet": false,
-&"next_id": "271",
+&"next_id": "279",
 &"next_id_after": "",
 &"type": "goto"
 },
 "299": {
 &"id": "299",
 &"next_id": "300",
-&"type": ""
+&"text": "Volver a jugar",
+&"type": "response"
 },
 "3": {
 &"id": "3",
@@ -2509,7 +2509,7 @@ lines = {
 "300": {
 &"id": "300",
 &"is_snippet": false,
-&"next_id": "271",
+&"next_id": "272",
 &"next_id_after": "",
 &"type": "goto"
 },
@@ -2520,6 +2520,18 @@ lines = {
 },
 "302": {
 &"id": "302",
+&"is_snippet": false,
+&"next_id": "272",
+&"next_id_after": "",
+&"type": "goto"
+},
+"303": {
+&"id": "303",
+&"next_id": "304",
+&"type": ""
+},
+"304": {
+&"id": "304",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "retry_game",
@@ -2532,30 +2544,30 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "303",
+&"next_id": "305",
 &"type": "mutation"
 },
-"303": {
-&"id": "303",
+"305": {
+&"id": "305",
 &"is_snippet": false,
 &"next_id": "end",
 &"next_id_after": "",
 &"type": "goto"
 },
-"304": {
-&"id": "304",
-&"next_id": "305",
+"306": {
+&"id": "306",
+&"next_id": "307",
 &"type": ""
 },
-"305": {
-&"id": "305",
+"307": {
+&"id": "307",
 &"is_snippet": false,
-&"next_id": "278",
+&"next_id": "279",
 &"next_id_after": "",
 &"type": "goto"
 },
-"306": {
-&"id": "306",
+"308": {
+&"id": "308",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "get_tree",
@@ -2583,20 +2595,8 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "307",
-&"type": "mutation"
-},
-"307": {
-&"id": "307",
-&"is_snippet": false,
-&"next_id": "end",
-&"next_id_after": "",
-&"type": "goto"
-},
-"308": {
-&"id": "308",
 &"next_id": "309",
-&"type": ""
+&"type": "mutation"
 },
 "309": {
 &"id": "309",
@@ -2636,6 +2636,18 @@ lines = {
 },
 "310": {
 &"id": "310",
+&"next_id": "311",
+&"type": ""
+},
+"311": {
+&"id": "311",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"312": {
+&"id": "312",
 &"is_snippet": false,
 &"next_id": "end",
 &"next_id_after": "",
@@ -3618,7 +3630,7 @@ lines = {
 "93": {
 &"id": "93",
 &"is_snippet": false,
-&"next_id": "282",
+&"next_id": "283",
 &"next_id_after": "",
 &"type": "goto"
 },
@@ -3897,6 +3909,7 @@ Perdí una gran amistad que pudo llegar a algo más...
 # ========================================
 ~ opGameOver
 do Audio.stop_music()
+[b]Puedes pulsar la tecla s o tab para avanzar más rápido
 [center]Elige una opción[/center]
 - Volver a intentar 
 	=> reintentar
@@ -3928,6 +3941,7 @@ do set_background(\"negroo\")
 [wait=2.0]
 
 do Audio.stop_music()
+[b]Puedes pulsar la tecla s o tab para avanzar más rápido
 - Volver al menú principal 
 	=> menu
 - Volver a jugar 
