@@ -262,6 +262,7 @@ Perdí una gran amistad que pudo llegar a algo más...
 # ========================================
 ~ opGameOver
 do Audio.stop_music()
+[b]Puedes pulsar la tecla s o tab para avanzar más rápido
 [center]Elige una opción[/center]
 - Volver a intentar 
 	=> reintentar
@@ -293,6 +294,7 @@ do set_background("negroo")
 [wait=2.0]
 
 do Audio.stop_music()
+[b]Puedes pulsar la tecla s o tab para avanzar más rápido
 - Volver al menú principal 
 	=> menu
 - Volver a jugar 
