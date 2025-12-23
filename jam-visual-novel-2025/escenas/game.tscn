@@ -106,6 +106,7 @@ offset_bottom = 78.0
 grow_horizontal = 0
 theme_override_fonts/font = ExtResource("3_6kmlf")
 theme_override_font_sizes/font_size = 28
+toggle_mode = true
 text = "Skip"
 
 [node name="DiscordScreen" type="CanvasLayer" parent="."]
@@ -195,6 +196,7 @@ position = Vector2(160, 330)
 scale = Vector2(0.5, 0.5)
 
 [node name="menuPausa" type="CanvasLayer" parent="."]
+layer = 10000
 
 [node name="Panel" type="Panel" parent="menuPausa"]
 anchors_preset = 8
@@ -434,7 +436,6 @@ libraries = {
 &"": SubResource("AnimationLibrary_56ah5")
 }
 
-[connection signal="pressed" from="SkipBtn" to="." method="_on_skip_btn_pressed"]
 [connection signal="pressed" from="menuPausa/Panel/VBoxContainer/continuar" to="." method="_on_continuar_pressed"]
 [connection signal="pressed" from="menuPausa/Panel/VBoxContainer/op" to="." method="_on_op_pressed"]
 [connection signal="pressed" from="menuPausa/MenuOp/PanelContainer/opciones/TabContainer/idioma/OptionButton" to="menuPausa/MenuOp" method="_on_option_button_pressed"]
