@@ -405,7 +405,7 @@ else:
 
 	Me levanté de la cama y, una vez lista, me dirigí a clases con los apuntes en mano.
 
-	do set_background("clase")
+	do set_background("claseInvierno")
 	#aqui cambiop musica
 	do Audio.change_music(Audio.momentoMareo, -1)
 	Mientras hacía el examen, comencé a notar algunos mareos, pero no le di importancia. Lo que no sabía era que aquello sería la peor decisión que tomaría.

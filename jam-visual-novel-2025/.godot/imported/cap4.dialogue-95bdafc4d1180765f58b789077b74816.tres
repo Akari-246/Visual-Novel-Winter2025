@@ -324,9 +324,9 @@ lines = {
 &"value": Array[Array]([Array[Dictionary]([{
 &"i": 18,
 &"type": &"string",
-&"value": "calleDia"
+&"value": "calleDiaInvierno"
 }, {
-&"i": 28,
+&"i": 36,
 &"type": &"parens_close"
 }])])
 }]),
@@ -373,9 +373,9 @@ lines = {
 &"value": Array[Array]([Array[Dictionary]([{
 &"i": 18,
 &"type": &"string",
-&"value": "calleNoche"
+&"value": "calleNocheInvierno"
 }, {
-&"i": 30,
+&"i": 38,
 &"type": &"parens_close"
 }])])
 }]),
@@ -1628,13 +1628,13 @@ Me fui haciendo cada vez más cercana a Mateo, a tal punto en el que varios día
 Conforme pasaban los días y más unida me iba haciendo a aquel chico, más pensaba en que era absurdo darle la carta ese día.
 
 El 14 de febrero llegó.
-do set_background(\"calleDia\")
+do set_background(\"calleDiaInvierno\")
 
 Había quedado con Mateo y lo único que me impedía estar con él ese mismo día era un examen que tenía el 15, pero eso no evitó nada.
 Inclusive traje conmigo la carta por si se daba la ocasión que creía oportuna para entregársela, pero no creía ser capaz. No al menos si no me ganaba mi lado impulsivo. Al fin y al cabo, algunos dicen que para hacer algo sólo te hace falta un pequeño empujón. 
 Imagino que eso fue lo que me pasó.
 
-do set_background(\"calleNoche\")
+do set_background(\"calleNocheInvierno\")
 Después de pasar el rato con él en un parque que frecuentábamos, ya estábamos enfrente del portal de mi casa.
 Me estaba hablando de algo, pero yo no era capaz de retener esa información, puesto que estaba concentrada en otra cosa…
 

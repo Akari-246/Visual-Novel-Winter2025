@@ -6,8 +6,8 @@
 script = ExtResource("1_abg16")
 using_states = PackedStringArray()
 titles = {
-"momentoDecision": "206",
-"sigue": "223",
+"momentoDecision": "207",
+"sigue": "224",
 "siguee": "79",
 "start": "1"
 }
@@ -29,9 +29,9 @@ lines = {
 &"value": Array[Array]([Array[Dictionary]([{
 &"i": 18,
 &"type": &"string",
-&"value": "calleNoche"
+&"value": "calleNocheInvierno"
 }, {
-&"i": 30,
+&"i": 38,
 &"type": &"parens_close"
 }])])
 }]),
@@ -119,9 +119,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "serio"
+&"value": "serioInvierno"
 }, {
-&"i": 41,
+&"i": 49,
 &"type": &"parens_close"
 }])])
 }]),
@@ -219,9 +219,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "sonrojada"
+&"value": "sonrojadaInvierno"
 }, {
-&"i": 52,
+&"i": 60,
 &"type": &"parens_close"
 }])])
 }]),
@@ -240,9 +240,9 @@ lines = {
 &"value": Array[Array]([Array[Dictionary]([{
 &"i": 18,
 &"type": &"string",
-&"value": "calleDia"
+&"value": "calleDiaInvierno"
 }, {
-&"i": 28,
+&"i": 36,
 &"type": &"parens_close"
 }])])
 }]),
@@ -372,9 +372,9 @@ lines = {
 &"value": Array[Array]([Array[Dictionary]([{
 &"i": 18,
 &"type": &"string",
-&"value": "parqueNoche"
+&"value": "parqueInvierno"
 }, {
-&"i": 31,
+&"i": 34,
 &"type": &"parens_close"
 }])])
 }]),
@@ -475,9 +475,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "sonrojadaHabla"
+&"value": "sonrojadaHablaInvierno"
 }, {
-&"i": 57,
+&"i": 65,
 &"type": &"parens_close"
 }])])
 }]),
@@ -548,9 +548,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "hablaNormal"
+&"value": "hablaNormalInvierno"
 }, {
-&"i": 47,
+&"i": 55,
 &"type": &"parens_close"
 }])])
 }]),
@@ -577,9 +577,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "avergonzada"
+&"value": "avergonzadaInvierno"
 }, {
-&"i": 54,
+&"i": 62,
 &"type": &"parens_close"
 }])])
 }]),
@@ -613,9 +613,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "serio"
+&"value": "serioInvierno"
 }, {
-&"i": 41,
+&"i": 49,
 &"type": &"parens_close"
 }])])
 }]),
@@ -671,9 +671,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "hablaNormal"
+&"value": "hablaNormalInvierno"
 }, {
-&"i": 47,
+&"i": 55,
 &"type": &"parens_close"
 }])])
 }]),
@@ -707,9 +707,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "hablaAlegre"
+&"value": "hablaAlegreInvierno"
 }, {
-&"i": 47,
+&"i": 55,
 &"type": &"parens_close"
 }])])
 }]),
@@ -736,9 +736,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "intentoSonrisa"
+&"value": "intentoSonrisaInvierno"
 }, {
-&"i": 57,
+&"i": 65,
 &"type": &"parens_close"
 }])])
 }]),
@@ -777,9 +777,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "serio"
+&"value": "serioInvierno"
 }, {
-&"i": 41,
+&"i": 49,
 &"type": &"parens_close"
 }])])
 }]),
@@ -817,9 +817,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "hablaAlegre"
+&"value": "hablaAlegreInvierno"
 }, {
-&"i": 47,
+&"i": 55,
 &"type": &"parens_close"
 }])])
 }]),
@@ -846,9 +846,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "seria"
+&"value": "seriaInvierno"
 }, {
-&"i": 48,
+&"i": 56,
 &"type": &"parens_close"
 }])])
 }]),
@@ -882,9 +882,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "feliz"
+&"value": "felizInvierno"
 }, {
-&"i": 41,
+&"i": 49,
 &"type": &"parens_close"
 }])])
 }]),
@@ -933,9 +933,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "hablaNormal"
+&"value": "hablaNormalInvierno"
 }, {
-&"i": 54,
+&"i": 62,
 &"type": &"parens_close"
 }])])
 }]),
@@ -969,9 +969,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "hablaAlegre"
+&"value": "hablaAlegreInvierno"
 }, {
-&"i": 47,
+&"i": 55,
 &"type": &"parens_close"
 }])])
 }]),
@@ -998,9 +998,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "avergonzada"
+&"value": "avergonzadaInvierno"
 }, {
-&"i": 54,
+&"i": 62,
 &"type": &"parens_close"
 }])])
 }]),
@@ -1044,9 +1044,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "feliz"
+&"value": "felizInvierno"
 }, {
-&"i": 41,
+&"i": 49,
 &"type": &"parens_close"
 }])])
 }]),
@@ -1073,9 +1073,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "feliz"
+&"value": "felizInvierno"
 }, {
-&"i": 48,
+&"i": 56,
 &"type": &"parens_close"
 }])])
 }]),
@@ -1125,9 +1125,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "hablaAlegre"
+&"value": "hablaAlegreInvierno"
 }, {
-&"i": 47,
+&"i": 55,
 &"type": &"parens_close"
 }])])
 }]),
@@ -1172,9 +1172,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "feliz"
+&"value": "felizInvierno"
 }, {
-&"i": 41,
+&"i": 49,
 &"type": &"parens_close"
 }])])
 }]),
@@ -1212,9 +1212,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "hablaAlegre"
+&"value": "hablaAlegreInvierno"
 }, {
-&"i": 47,
+&"i": 55,
 &"type": &"parens_close"
 }])])
 }]),
@@ -1248,9 +1248,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "hablaNormal"
+&"value": "hablaNormalInvierno"
 }, {
-&"i": 47,
+&"i": 55,
 &"type": &"parens_close"
 }])])
 }]),
@@ -1284,9 +1284,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "avergonzada"
+&"value": "avergonzadaInvierno"
 }, {
-&"i": 54,
+&"i": 62,
 &"type": &"parens_close"
 }])])
 }]),
@@ -1313,9 +1313,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "feliz"
+&"value": "felizInvierno"
 }, {
-&"i": 41,
+&"i": 49,
 &"type": &"parens_close"
 }])])
 }]),
@@ -1352,35 +1352,56 @@ lines = {
 },
 "203": {
 &"id": "203",
-&"next_id": "205",
-&"text": "Estaba estupefacta, pero debía responder.",
-&"type": "dialogue"
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "set_background",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "parqueInvierno"
+}, {
+&"i": 34,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "204",
+&"type": "mutation"
 },
 "204": {
 &"id": "204",
-&"next_id": "205",
-&"type": ""
+&"next_id": "206",
+&"text": "Estaba estupefacta, pero debía responder.",
+&"type": "dialogue"
 },
 "205": {
 &"id": "205",
 &"next_id": "206",
-&"type": "title"
+&"type": ""
 },
 "206": {
 &"id": "206",
 &"next_id": "207",
-&"text": "¿Qué le digo?",
-&"type": "dialogue"
+&"type": "title"
 },
 "207": {
 &"id": "207",
 &"next_id": "208",
-&"responses": PackedStringArray("207", "210", "216"),
-&"text": "Si",
-&"type": "response"
+&"text": "¿Qué le digo?",
+&"type": "dialogue"
 },
 "208": {
 &"id": "208",
+&"next_id": "209",
+&"responses": PackedStringArray("208", "211", "217"),
+&"text": "Si",
+&"type": "response"
+},
+"209": {
+&"id": "209",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"i": 3,
@@ -1408,15 +1429,8 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "209",
+&"next_id": "210",
 &"type": "mutation"
-},
-"209": {
-&"id": "209",
-&"is_snippet": false,
-&"next_id": "223",
-&"next_id_after": "",
-&"type": "goto"
 },
 "21": {
 &"id": "21",
@@ -1436,9 +1450,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "hablaAlegre"
+&"value": "hablaAlegreInvierno"
 }, {
-&"i": 47,
+&"i": 55,
 &"type": &"parens_close"
 }])])
 }]),
@@ -1449,63 +1463,64 @@ lines = {
 },
 "210": {
 &"id": "210",
-&"next_id": "211",
-&"text": "No",
-&"type": "response"
+&"is_snippet": false,
+&"next_id": "224",
+&"next_id_after": "",
+&"type": "goto"
 },
 "211": {
 &"id": "211",
 &"next_id": "212",
-&"text": "No.",
-&"type": "dialogue"
+&"text": "No",
+&"type": "response"
 },
 "212": {
 &"id": "212",
 &"next_id": "213",
-&"text": "No puedo decirle que no.",
+&"text": "No.",
 &"type": "dialogue"
 },
 "213": {
 &"id": "213",
 &"next_id": "214",
-&"text": "No cuando sé lo que quiero y que él también me quiere de la forma en la que menos pensé que me querría.",
+&"text": "No puedo decirle que no.",
 &"type": "dialogue"
 },
 "214": {
 &"id": "214",
 &"next_id": "215",
-&"text": "No soy tan estúpida como para dejar marchar esta oportunidad. Y menos cuando la tengo frente a mis narices.",
+&"text": "No cuando sé lo que quiero y que él también me quiere de la forma en la que menos pensé que me querría.",
 &"type": "dialogue"
 },
 "215": {
 &"id": "215",
-&"is_snippet": false,
-&"next_id": "206",
-&"next_id_after": "",
-&"type": "goto"
+&"next_id": "216",
+&"text": "No soy tan estúpida como para dejar marchar esta oportunidad. Y menos cuando la tengo frente a mis narices.",
+&"type": "dialogue"
 },
 "216": {
 &"id": "216",
-&"next_id": "217",
-&"text": "No decir nada",
-&"type": "response"
+&"is_snippet": false,
+&"next_id": "207",
+&"next_id_after": "",
+&"type": "goto"
 },
 "217": {
 &"id": "217",
 &"next_id": "218",
-&"text": "¿Qué?",
-&"type": "dialogue"
+&"text": "No decir nada",
+&"type": "response"
 },
 "218": {
 &"id": "218",
 &"next_id": "219",
-&"text": "No, debo decirle algo.",
+&"text": "¿Qué?",
 &"type": "dialogue"
 },
 "219": {
 &"id": "219",
 &"next_id": "220",
-&"text": "De verdad [b]quiero[/b] empezar algo con él...",
+&"text": "No, debo decirle algo.",
 &"type": "dialogue"
 },
 "22": {
@@ -1517,23 +1532,29 @@ lines = {
 },
 "220": {
 &"id": "220",
-&"is_snippet": false,
-&"next_id": "206",
-&"next_id_after": "",
-&"type": "goto"
+&"next_id": "221",
+&"text": "De verdad [b]quiero[/b] empezar algo con él...",
+&"type": "dialogue"
 },
 "221": {
 &"id": "221",
-&"next_id": "222",
-&"type": ""
+&"is_snippet": false,
+&"next_id": "207",
+&"next_id_after": "",
+&"type": "goto"
 },
 "222": {
 &"id": "222",
 &"next_id": "223",
-&"type": "title"
+&"type": ""
 },
 "223": {
 &"id": "223",
+&"next_id": "224",
+&"type": "title"
+},
+"224": {
+&"id": "224",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -1550,26 +1571,26 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "sonrojadaHabla2"
+&"value": "sonrojadaHabla2Invierno"
 }, {
-&"i": 58,
+&"i": 66,
 &"type": &"parens_close"
 }])])
 }]),
 &"is_blocking": true
 },
-&"next_id": "224",
+&"next_id": "225",
 &"type": "mutation"
 },
-"224": {
+"225": {
 &"character": "Kristine",
-&"id": "224",
-&"next_id": "225",
+&"id": "225",
+&"next_id": "226",
 &"text": "S-sí. Claro.",
 &"type": "dialogue"
 },
-"225": {
-&"id": "225",
+"226": {
+&"id": "226",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -1586,30 +1607,30 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "avergonzada"
+&"value": "avergonzadaInvierno"
 }, {
-&"i": 54,
+&"i": 62,
 &"type": &"parens_close"
 }])])
 }]),
 &"is_blocking": true
 },
-&"next_id": "227",
+&"next_id": "228",
 &"type": "mutation"
-},
-"226": {
-&"id": "226",
-&"next_id": "227",
-&"type": ""
 },
 "227": {
 &"id": "227",
 &"next_id": "228",
-&"text": "Mateo sonrió. Su sonrisa era tan cálida y contagiosa que yo también sonreí.",
-&"type": "dialogue"
+&"type": ""
 },
 "228": {
 &"id": "228",
+&"next_id": "229",
+&"text": "Mateo sonrió. Su sonrisa era tan cálida y contagiosa que yo también sonreí.",
+&"type": "dialogue"
+},
+"229": {
+&"id": "229",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -1626,22 +1647,16 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "feliz"
+&"value": "felizInvierno"
 }, {
-&"i": 48,
+&"i": 56,
 &"type": &"parens_close"
 }])])
 }]),
 &"is_blocking": true
 },
-&"next_id": "229",
+&"next_id": "230",
 &"type": "mutation"
-},
-"229": {
-&"id": "229",
-&"next_id": "231",
-&"text": "Se acercó más a mí hasta estar abrazados. Era acogedor, tanto que casi se me olvidaba que estaba temblando, tanto por los nervios de antes como por las bajas temperaturas.",
-&"type": "dialogue"
 },
 "23": {
 &"id": "23",
@@ -1661,9 +1676,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "feliz"
+&"value": "felizInvierno"
 }, {
-&"i": 41,
+&"i": 49,
 &"type": &"parens_close"
 }])])
 }]),
@@ -1674,28 +1689,34 @@ lines = {
 },
 "230": {
 &"id": "230",
-&"next_id": "231",
-&"type": ""
+&"next_id": "232",
+&"text": "Se acercó más a mí hasta estar abrazados. Era acogedor, tanto que casi se me olvidaba que estaba temblando, tanto por los nervios de antes como por las bajas temperaturas.",
+&"type": "dialogue"
 },
 "231": {
 &"id": "231",
 &"next_id": "232",
-&"text": "En un intento de estar más cerca y disminuir el frío que sentía, me acomodé de forma en que mi cabeza quedó encima de su pecho mientras él me abrazaba por la espalda, dándome cariño con delicadeza.",
-&"type": "dialogue"
+&"type": ""
 },
 "232": {
 &"id": "232",
-&"next_id": "234",
-&"text": "Escuchaba su corazón y me encantaba aquella melodía.",
+&"next_id": "233",
+&"text": "En un intento de estar más cerca y disminuir el frío que sentía, me acomodé de forma en que mi cabeza quedó encima de su pecho mientras él me abrazaba por la espalda, dándome cariño con delicadeza.",
 &"type": "dialogue"
 },
 "233": {
 &"id": "233",
-&"next_id": "234",
-&"type": ""
+&"next_id": "235",
+&"text": "Escuchaba su corazón y me encantaba aquella melodía.",
+&"type": "dialogue"
 },
 "234": {
 &"id": "234",
+&"next_id": "235",
+&"type": ""
+},
+"235": {
+&"id": "235",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -1712,26 +1733,26 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "hablaAlegre"
+&"value": "hablaAlegreInvierno"
 }, {
-&"i": 47,
+&"i": 55,
 &"type": &"parens_close"
 }])])
 }]),
 &"is_blocking": true
 },
-&"next_id": "235",
+&"next_id": "236",
 &"type": "mutation"
 },
-"235": {
+"236": {
 &"character": "Mateo",
-&"id": "235",
-&"next_id": "236",
+&"id": "236",
+&"next_id": "237",
 &"text": "Tu corazón no deja de latir rápido, por cierto.",
 &"type": "dialogue"
 },
-"236": {
-&"id": "236",
+"237": {
+&"id": "237",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -1748,19 +1769,19 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "feliz"
+&"value": "felizInvierno"
 }, {
-&"i": 41,
+&"i": 49,
 &"type": &"parens_close"
 }])])
 }]),
 &"is_blocking": true
 },
-&"next_id": "237",
+&"next_id": "238",
 &"type": "mutation"
 },
-"237": {
-&"id": "237",
+"238": {
+&"id": "238",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -1777,52 +1798,23 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "hablaNormal"
+&"value": "hablaNormalInvierno"
 }, {
-&"i": 54,
+&"i": 62,
 &"type": &"parens_close"
 }])])
 }]),
 &"is_blocking": true
 },
-&"next_id": "238",
-&"type": "mutation"
-},
-"238": {
-&"character": "Kristine",
-&"id": "238",
 &"next_id": "239",
-&"text": "Estaba nerviosa.",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "239": {
+&"character": "Kristine",
 &"id": "239",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"function": "show_character",
-&"i": 3,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 18,
-&"type": &"string",
-&"value": "mateo"
-}]), Array[Dictionary]([{
-&"i": 27,
-&"type": &"string",
-&"value": "izq"
-}]), Array[Dictionary]([{
-&"i": 34,
-&"type": &"string",
-&"value": "hablaAlegre"
-}, {
-&"i": 47,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
 &"next_id": "240",
-&"type": "mutation"
+&"text": "Estaba nerviosa.",
+&"type": "dialogue"
 },
 "24": {
 &"id": "24",
@@ -1839,17 +1831,17 @@ lines = {
 &"value": Array[Array]([Array[Dictionary]([{
 &"i": 18,
 &"type": &"string",
-&"value": "kristine"
+&"value": "mateo"
 }]), Array[Dictionary]([{
-&"i": 30,
+&"i": 27,
 &"type": &"string",
-&"value": "derecha"
+&"value": "izq"
 }]), Array[Dictionary]([{
-&"i": 41,
+&"i": 34,
 &"type": &"string",
-&"value": "feliz"
+&"value": "hablaAlegreInvierno"
 }, {
-&"i": 48,
+&"i": 55,
 &"type": &"parens_close"
 }])])
 }]),
@@ -1859,14 +1851,7 @@ lines = {
 &"type": "mutation"
 },
 "241": {
-&"character": "Mateo",
 &"id": "241",
-&"next_id": "242",
-&"text": "Ya, lo he notado.",
-&"type": "dialogue"
-},
-"242": {
-&"id": "242",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -1875,24 +1860,31 @@ lines = {
 &"value": Array[Array]([Array[Dictionary]([{
 &"i": 18,
 &"type": &"string",
-&"value": "mateo"
+&"value": "kristine"
 }]), Array[Dictionary]([{
-&"i": 27,
+&"i": 30,
 &"type": &"string",
-&"value": "izq"
+&"value": "derecha"
 }]), Array[Dictionary]([{
-&"i": 34,
+&"i": 41,
 &"type": &"string",
-&"value": "hablaNormal"
+&"value": "felizInvierno"
 }, {
-&"i": 47,
+&"i": 56,
 &"type": &"parens_close"
 }])])
 }]),
 &"is_blocking": true
 },
-&"next_id": "243",
+&"next_id": "242",
 &"type": "mutation"
+},
+"242": {
+&"character": "Mateo",
+&"id": "242",
+&"next_id": "243",
+&"text": "Ya, lo he notado.",
+&"type": "dialogue"
 },
 "243": {
 &"id": "243",
@@ -1904,17 +1896,17 @@ lines = {
 &"value": Array[Array]([Array[Dictionary]([{
 &"i": 18,
 &"type": &"string",
-&"value": "kristine"
+&"value": "mateo"
 }]), Array[Dictionary]([{
-&"i": 30,
+&"i": 27,
 &"type": &"string",
-&"value": "derecha"
+&"value": "izq"
 }]), Array[Dictionary]([{
-&"i": 41,
+&"i": 34,
 &"type": &"string",
-&"value": "feliz"
+&"value": "hablaNormalInvierno"
 }, {
-&"i": 48,
+&"i": 55,
 &"type": &"parens_close"
 }])])
 }]),
@@ -1924,59 +1916,48 @@ lines = {
 &"type": "mutation"
 },
 "244": {
-&"character": "Mateo",
 &"id": "244",
-&"next_id": "246",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
+&"value": "kristine"
+}]), Array[Dictionary]([{
+&"i": 30,
+&"type": &"string",
+&"value": "derecha"
+}]), Array[Dictionary]([{
+&"i": 41,
+&"type": &"string",
+&"value": "felizInvierno"
+}, {
+&"i": 56,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "245",
+&"type": "mutation"
+},
+"245": {
+&"character": "Mateo",
+&"id": "245",
+&"next_id": "247",
 &"text": "Y fuimos antes a la cafetería porque pensé que así te sería más fácil hablar.",
 &"type": "dialogue"
 },
-"245": {
-&"id": "245",
-&"next_id": "246",
-&"type": ""
-},
 "246": {
 &"id": "246",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"function": "show_character",
-&"i": 3,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 18,
-&"type": &"string",
-&"value": "mateo"
-}]), Array[Dictionary]([{
-&"i": 27,
-&"type": &"string",
-&"value": "izq"
-}]), Array[Dictionary]([{
-&"i": 34,
-&"type": &"string",
-&"value": "serio"
-}, {
-&"i": 41,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
 &"next_id": "247",
-&"type": "mutation"
+&"type": ""
 },
 "247": {
 &"id": "247",
-&"next_id": "249",
-&"text": "Y no se equivocaba.",
-&"type": "dialogue"
-},
-"248": {
-&"id": "248",
-&"next_id": "249",
-&"type": ""
-},
-"249": {
-&"id": "249",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -1993,16 +1974,27 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "feliz"
+&"value": "serioInvierno"
 }, {
-&"i": 41,
+&"i": 49,
 &"type": &"parens_close"
 }])])
 }]),
 &"is_blocking": true
 },
-&"next_id": "250",
+&"next_id": "248",
 &"type": "mutation"
+},
+"248": {
+&"id": "248",
+&"next_id": "250",
+&"text": "Y no se equivocaba.",
+&"type": "dialogue"
+},
+"249": {
+&"id": "249",
+&"next_id": "250",
+&"type": ""
 },
 "25": {
 &"id": "25",
@@ -2020,17 +2012,17 @@ lines = {
 &"value": Array[Array]([Array[Dictionary]([{
 &"i": 18,
 &"type": &"string",
-&"value": "kristine"
+&"value": "mateo"
 }]), Array[Dictionary]([{
-&"i": 30,
+&"i": 27,
 &"type": &"string",
-&"value": "derecha"
+&"value": "izq"
 }]), Array[Dictionary]([{
-&"i": 41,
+&"i": 34,
 &"type": &"string",
-&"value": "hablaNormal"
+&"value": "felizInvierno"
 }, {
-&"i": 54,
+&"i": 49,
 &"type": &"parens_close"
 }])])
 }]),
@@ -2040,14 +2032,7 @@ lines = {
 &"type": "mutation"
 },
 "251": {
-&"character": "Kristine",
 &"id": "251",
-&"next_id": "252",
-&"text": "Tu corazón también late rápido.",
-&"type": "dialogue"
-},
-"252": {
-&"id": "252",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -2056,24 +2041,31 @@ lines = {
 &"value": Array[Array]([Array[Dictionary]([{
 &"i": 18,
 &"type": &"string",
-&"value": "mateo"
+&"value": "kristine"
 }]), Array[Dictionary]([{
-&"i": 27,
+&"i": 30,
 &"type": &"string",
-&"value": "izq"
+&"value": "derecha"
 }]), Array[Dictionary]([{
-&"i": 34,
+&"i": 41,
 &"type": &"string",
-&"value": "hablaAlegre"
+&"value": "hablaNormalInvierno"
 }, {
-&"i": 47,
+&"i": 62,
 &"type": &"parens_close"
 }])])
 }]),
 &"is_blocking": true
 },
-&"next_id": "253",
+&"next_id": "252",
 &"type": "mutation"
+},
+"252": {
+&"character": "Kristine",
+&"id": "252",
+&"next_id": "253",
+&"text": "Tu corazón también late rápido.",
+&"type": "dialogue"
 },
 "253": {
 &"id": "253",
@@ -2085,17 +2077,17 @@ lines = {
 &"value": Array[Array]([Array[Dictionary]([{
 &"i": 18,
 &"type": &"string",
-&"value": "kristine"
+&"value": "mateo"
 }]), Array[Dictionary]([{
-&"i": 30,
+&"i": 27,
 &"type": &"string",
-&"value": "derecha"
+&"value": "izq"
 }]), Array[Dictionary]([{
-&"i": 41,
+&"i": 34,
 &"type": &"string",
-&"value": "feliz"
+&"value": "hablaAlegreInvierno"
 }, {
-&"i": 48,
+&"i": 55,
 &"type": &"parens_close"
 }])])
 }]),
@@ -2105,14 +2097,7 @@ lines = {
 &"type": "mutation"
 },
 "254": {
-&"character": "Mateo",
 &"id": "254",
-&"next_id": "255",
-&"text": "Porque por fin estoy con la chica que siempre quise.",
-&"type": "dialogue"
-},
-"255": {
-&"id": "255",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -2121,24 +2106,31 @@ lines = {
 &"value": Array[Array]([Array[Dictionary]([{
 &"i": 18,
 &"type": &"string",
-&"value": "mateo"
+&"value": "kristine"
 }]), Array[Dictionary]([{
-&"i": 27,
+&"i": 30,
 &"type": &"string",
-&"value": "izq"
+&"value": "derecha"
 }]), Array[Dictionary]([{
-&"i": 34,
-&"type": &"string",
-&"value": "feliz"
-}, {
 &"i": 41,
+&"type": &"string",
+&"value": "felizInvierno"
+}, {
+&"i": 56,
 &"type": &"parens_close"
 }])])
 }]),
 &"is_blocking": true
 },
-&"next_id": "256",
+&"next_id": "255",
 &"type": "mutation"
+},
+"255": {
+&"character": "Mateo",
+&"id": "255",
+&"next_id": "256",
+&"text": "Porque por fin estoy con la chica que siempre quise.",
+&"type": "dialogue"
 },
 "256": {
 &"id": "256",
@@ -2150,6 +2142,35 @@ lines = {
 &"value": Array[Array]([Array[Dictionary]([{
 &"i": 18,
 &"type": &"string",
+&"value": "mateo"
+}]), Array[Dictionary]([{
+&"i": 27,
+&"type": &"string",
+&"value": "izq"
+}]), Array[Dictionary]([{
+&"i": 34,
+&"type": &"string",
+&"value": "felizInvierno"
+}, {
+&"i": 49,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "257",
+&"type": "mutation"
+},
+"257": {
+&"id": "257",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
 &"value": "kristine"
 }]), Array[Dictionary]([{
 &"i": 30,
@@ -2158,32 +2179,27 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "avergonzada"
+&"value": "avergonzadaInvierno"
 }, {
-&"i": 54,
+&"i": 62,
 &"type": &"parens_close"
 }])])
 }]),
 &"is_blocking": true
 },
-&"next_id": "258",
+&"next_id": "259",
 &"type": "mutation"
-},
-"257": {
-&"id": "257",
-&"next_id": "258",
-&"type": ""
 },
 "258": {
 &"id": "258",
-&"next_id": "260",
-&"text": "Lo miré a los ojos. ¿Cómo podía decir eso tan rápido y sin inmutarse?, ¿y cómo estaba seguro de aquello?",
-&"type": "dialogue"
+&"next_id": "259",
+&"type": ""
 },
 "259": {
 &"id": "259",
-&"next_id": "260",
-&"type": ""
+&"next_id": "261",
+&"text": "Lo miré a los ojos. ¿Cómo podía decir eso tan rápido y sin inmutarse?, ¿y cómo estaba seguro de aquello?",
+&"type": "dialogue"
 },
 "26": {
 &"id": "26",
@@ -2192,6 +2208,11 @@ lines = {
 },
 "260": {
 &"id": "260",
+&"next_id": "261",
+&"type": ""
+},
+"261": {
+&"id": "261",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "show_character",
@@ -2208,57 +2229,28 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "hablaAlegre"
+&"value": "hablaAlegreInvierno"
 }, {
-&"i": 47,
+&"i": 55,
 &"type": &"parens_close"
 }])])
 }]),
 &"is_blocking": true
 },
-&"next_id": "261",
+&"next_id": "262",
 &"type": "mutation"
 },
-"261": {
+"262": {
 &"character": "Mateo",
-&"id": "261",
-&"next_id": "263",
+&"id": "262",
+&"next_id": "264",
 &"text": "Me gustaste desde la primera vez que te vi.",
 &"type": "dialogue"
 },
-"262": {
-&"id": "262",
-&"next_id": "263",
-&"type": ""
-},
 "263": {
 &"id": "263",
-&"mutation": {
-&"expression": Array[Dictionary]([{
-&"function": "show_character",
-&"i": 3,
-&"type": &"function",
-&"value": Array[Array]([Array[Dictionary]([{
-&"i": 18,
-&"type": &"string",
-&"value": "mateo"
-}]), Array[Dictionary]([{
-&"i": 27,
-&"type": &"string",
-&"value": "izq"
-}]), Array[Dictionary]([{
-&"i": 34,
-&"type": &"string",
-&"value": "sonrojado"
-}, {
-&"i": 45,
-&"type": &"parens_close"
-}])])
-}]),
-&"is_blocking": true
-},
 &"next_id": "264",
-&"type": "mutation"
+&"type": ""
 },
 "264": {
 &"id": "264",
@@ -2270,6 +2262,35 @@ lines = {
 &"value": Array[Array]([Array[Dictionary]([{
 &"i": 18,
 &"type": &"string",
+&"value": "mateo"
+}]), Array[Dictionary]([{
+&"i": 27,
+&"type": &"string",
+&"value": "izq"
+}]), Array[Dictionary]([{
+&"i": 34,
+&"type": &"string",
+&"value": "sonrojadoInvierno"
+}, {
+&"i": 53,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "265",
+&"type": "mutation"
+},
+"265": {
+&"id": "265",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"function": "show_character",
+&"i": 3,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 18,
+&"type": &"string",
 &"value": "kristine"
 }]), Array[Dictionary]([{
 &"i": 30,
@@ -2278,44 +2299,38 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "sonrojada"
+&"value": "sonrojadaInvierno"
 }, {
-&"i": 52,
+&"i": 60,
 &"type": &"parens_close"
 }])])
 }]),
 &"is_blocking": true
 },
-&"next_id": "266",
+&"next_id": "267",
 &"type": "mutation"
-},
-"265": {
-&"id": "265",
-&"next_id": "266",
-&"type": ""
 },
 "266": {
 &"id": "266",
 &"next_id": "267",
-&"text": "Directo y sin anestesia.",
-&"type": "dialogue"
+&"type": ""
 },
 "267": {
 &"id": "267",
-&"next_id": "269",
-&"text": "Esa fue otra mini bomba para mi corazón. ¿Cómo era capaz de decir ese tipo de cosas sin luego avergonzarse? Admiraba eso de él.",
+&"next_id": "268",
+&"text": "Directo y sin anestesia.",
 &"type": "dialogue"
 },
 "268": {
 &"id": "268",
-&"next_id": "269",
-&"type": ""
+&"next_id": "270",
+&"text": "Esa fue otra mini bomba para mi corazón. ¿Cómo era capaz de decir ese tipo de cosas sin luego avergonzarse? Admiraba eso de él.",
+&"type": "dialogue"
 },
 "269": {
 &"id": "269",
-&"next_id": "271",
-&"text": "Lo miré, pensando que lo decía de broma, pero con su mirada supe que no. No mentía, al igual que yo no mentí en la carta, él no mentía en su confesión ni en lo que acababa de decir.",
-&"type": "dialogue"
+&"next_id": "270",
+&"type": ""
 },
 "27": {
 &"id": "27",
@@ -2335,9 +2350,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "hablaNormal"
+&"value": "hablaNormalInvierno"
 }, {
-&"i": 47,
+&"i": 55,
 &"type": &"parens_close"
 }])])
 }]),
@@ -2348,11 +2363,17 @@ lines = {
 },
 "270": {
 &"id": "270",
-&"next_id": "271",
-&"type": ""
+&"next_id": "272",
+&"text": "Lo miré, pensando que lo decía de broma, pero con su mirada supe que no. No mentía, al igual que yo no mentí en la carta, él no mentía en su confesión ni en lo que acababa de decir.",
+&"type": "dialogue"
 },
 "271": {
 &"id": "271",
+&"next_id": "272",
+&"type": ""
+},
+"272": {
+&"id": "272",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "hide_character",
@@ -2369,11 +2390,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "272",
+&"next_id": "273",
 &"type": "mutation"
 },
-"272": {
-&"id": "272",
+"273": {
+&"id": "273",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "hide_character",
@@ -2390,11 +2411,11 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "273",
+&"next_id": "274",
 &"type": "mutation"
 },
-"273": {
-&"id": "273",
+"274": {
+&"id": "274",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "set_background",
@@ -2411,42 +2432,37 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "274",
-&"type": "mutation"
-},
-"274": {
-&"id": "274",
 &"next_id": "275",
-&"text": "Así fue como logré darle la carta en la que confesaba lo que sentía al chico que me gustaba y, dos días después, conseguí estar con él como pareja. Aquello se hizo oficial.",
-&"type": "dialogue"
+&"type": "mutation"
 },
 "275": {
 &"id": "275",
-&"next_id": "277",
-&"text": "Mentiría si dijera que era el mejor día de mi vida, ya que ese fue cuando me quitaron la ostomía. Pero, si no era el primero, era de los primeros mejores días que he podido tener.",
+&"next_id": "276",
+&"text": "Así fue como logré darle la carta en la que confesaba lo que sentía al chico que me gustaba y, dos días después, conseguí estar con él como pareja. Aquello se hizo oficial.",
 &"type": "dialogue"
 },
 "276": {
 &"id": "276",
-&"next_id": "277",
-&"type": ""
+&"next_id": "278",
+&"text": "Mentiría si dijera que era el mejor día de mi vida, ya que ese fue cuando me quitaron la ostomía. Pero, si no era el primero, era de los primeros mejores días que he podido tener.",
+&"type": "dialogue"
 },
 "277": {
 &"id": "277",
 &"next_id": "278",
-&"text": "Desde entonces, fuimos prácticamente inseparables.",
-&"type": "dialogue"
+&"type": ""
 },
 "278": {
 &"id": "278",
-&"next_id": "280",
-&"text": "Si había algún problema siempre intentábamos solucionarlo con calma y amor ante todo.",
+&"next_id": "279",
+&"text": "Desde entonces, fuimos prácticamente inseparables.",
 &"type": "dialogue"
 },
 "279": {
 &"id": "279",
-&"next_id": "280",
-&"type": ""
+&"next_id": "281",
+&"text": "Si había algún problema siempre intentábamos solucionarlo con calma y amor ante todo.",
+&"type": "dialogue"
 },
 "28": {
 &"character": "Mateo",
@@ -2457,33 +2473,38 @@ lines = {
 },
 "280": {
 &"id": "280",
-&"next_id": "282",
-&"text": "Y así, casi sin darnos cuenta, el invierno se quedó atrás para dejar paso a la llegada brillante y cálida del verano.",
-&"type": "dialogue"
+&"next_id": "281",
+&"type": ""
 },
 "281": {
 &"id": "281",
-&"next_id": "282",
-&"type": ""
+&"next_id": "283",
+&"text": "Y así, casi sin darnos cuenta, el invierno se quedó atrás para dejar paso a la llegada brillante y cálida del verano.",
+&"type": "dialogue"
 },
 "282": {
 &"id": "282",
 &"next_id": "283",
-&"text": "Recuerdo cómo algunas veces él se acercaba a mí lentamente para intentar besarme y cuando veía que no estaba lista, simplemente se disculpaba y decía que no me preocupara, que esperaría lo que fuera necesario hasta que estuviera preparada.",
-&"type": "dialogue"
+&"type": ""
 },
 "283": {
 &"id": "283",
-&"next_id": "285",
-&"text": "Hasta un día de verano.",
+&"next_id": "284",
+&"text": "Recuerdo cómo algunas veces él se acercaba a mí lentamente para intentar besarme y cuando veía que no estaba lista, simplemente se disculpaba y decía que no me preocupara, que esperaría lo que fuera necesario hasta que estuviera preparada.",
 &"type": "dialogue"
 },
 "284": {
 &"id": "284",
-&"next_id": "285",
-&"type": ""
+&"next_id": "286",
+&"text": "Hasta un día de verano.",
+&"type": "dialogue"
 },
 "285": {
+&"id": "285",
+&"next_id": "286",
+&"type": ""
+},
+"286": {
 &"condition": {
 &"expression": Array[Dictionary]([{
 &"i": 3,
@@ -2514,14 +2535,14 @@ lines = {
 &"value": 1
 }])
 },
-&"id": "285",
-&"next_id": "286",
-&"next_id_after": "290",
-&"next_sibling_id": "287",
+&"id": "286",
+&"next_id": "287",
+&"next_id_after": "291",
+&"next_sibling_id": "288",
 &"type": "condition"
 },
-"286": {
-&"id": "286",
+"287": {
+&"id": "287",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"function": "cargarFinal",
@@ -2538,18 +2559,18 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "290",
+&"next_id": "291",
 &"type": "mutation"
 },
-"287": {
+"288": {
 &"condition": {},
-&"id": "287",
-&"next_id": "288",
-&"next_id_after": "290",
+&"id": "288",
+&"next_id": "289",
+&"next_id_after": "291",
 &"type": "condition"
 },
-"288": {
-&"id": "288",
+"289": {
+&"id": "289",
 &"mutation": {
 &"expression": Array[Dictionary]([{
 &"i": 3,
@@ -2569,15 +2590,8 @@ lines = {
 }]),
 &"is_blocking": true
 },
-&"next_id": "289",
+&"next_id": "290",
 &"type": "mutation"
-},
-"289": {
-&"id": "289",
-&"is_snippet": false,
-&"next_id": "end",
-&"next_id_after": "",
-&"type": "goto"
 },
 "29": {
 &"id": "29",
@@ -2597,9 +2611,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "sonrojada"
+&"value": "sonrojadaInvierno"
 }, {
-&"i": 52,
+&"i": 60,
 &"type": &"parens_close"
 }])])
 }]),
@@ -2610,6 +2624,13 @@ lines = {
 },
 "290": {
 &"id": "290",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"291": {
+&"id": "291",
 &"is_snippet": false,
 &"next_id": "end",
 &"next_id_after": "",
@@ -2672,9 +2693,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "sonrojado"
+&"value": "sonrojadoInvierno"
 }, {
-&"i": 45,
+&"i": 53,
 &"type": &"parens_close"
 }])])
 }]),
@@ -2723,9 +2744,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "sonrojadaHabla2"
+&"value": "sonrojadaHabla2Invierno"
 }, {
-&"i": 58,
+&"i": 66,
 &"type": &"parens_close"
 }])])
 }]),
@@ -2759,9 +2780,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "hablaNormal"
+&"value": "hablaNormalInvierno"
 }, {
-&"i": 47,
+&"i": 55,
 &"type": &"parens_close"
 }])])
 }]),
@@ -2788,9 +2809,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "avergonzada"
+&"value": "avergonzadaInvierno"
 }, {
-&"i": 54,
+&"i": 62,
 &"type": &"parens_close"
 }])])
 }]),
@@ -2830,9 +2851,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "avergonzado"
+&"value": "avergonzadoInvierno"
 }, {
-&"i": 47,
+&"i": 55,
 &"type": &"parens_close"
 }])])
 }]),
@@ -2859,9 +2880,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "avergonzada"
+&"value": "avergonzadaInvierno"
 }, {
-&"i": 54,
+&"i": 62,
 &"type": &"parens_close"
 }])])
 }]),
@@ -2905,9 +2926,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "sonrojadaHabla2"
+&"value": "sonrojadaHabla2Invierno"
 }, {
-&"i": 58,
+&"i": 66,
 &"type": &"parens_close"
 }])])
 }]),
@@ -2946,9 +2967,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "sonrojado"
+&"value": "sonrojadoInvierno"
 }, {
-&"i": 45,
+&"i": 53,
 &"type": &"parens_close"
 }])])
 }]),
@@ -2975,9 +2996,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "sonrojada"
+&"value": "sonrojadaInvierno"
 }, {
-&"i": 52,
+&"i": 60,
 &"type": &"parens_close"
 }])])
 }]),
@@ -3033,9 +3054,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "hablaNormal"
+&"value": "hablaNormalInvierno"
 }, {
-&"i": 47,
+&"i": 55,
 &"type": &"parens_close"
 }])])
 }]),
@@ -3069,9 +3090,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "avergonzada"
+&"value": "avergonzadaInvierno"
 }, {
-&"i": 54,
+&"i": 62,
 &"type": &"parens_close"
 }])])
 }]),
@@ -3098,9 +3119,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "serio"
+&"value": "serioInvierno"
 }, {
-&"i": 41,
+&"i": 49,
 &"type": &"parens_close"
 }])])
 }]),
@@ -3176,9 +3197,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "sonrojadaHabla"
+&"value": "sonrojadaHablaInvierno"
 }, {
-&"i": 57,
+&"i": 65,
 &"type": &"parens_close"
 }])])
 }]),
@@ -3205,9 +3226,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "serio"
+&"value": "serioInvierno"
 }, {
-&"i": 41,
+&"i": 49,
 &"type": &"parens_close"
 }])])
 }]),
@@ -3241,9 +3262,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "hablaPreocupado"
+&"value": "hablaPreocupadoInvierno"
 }, {
-&"i": 51,
+&"i": 59,
 &"type": &"parens_close"
 }])])
 }]),
@@ -3270,9 +3291,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "avergonzada"
+&"value": "avergonzadaInvierno"
 }, {
-&"i": 54,
+&"i": 62,
 &"type": &"parens_close"
 }])])
 }]),
@@ -3324,9 +3345,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "sonrojadaHabla"
+&"value": "sonrojadaHablaInvierno"
 }, {
-&"i": 57,
+&"i": 65,
 &"type": &"parens_close"
 }])])
 }]),
@@ -3353,9 +3374,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "sonrojadaHabla2"
+&"value": "sonrojadaHabla2Invierno"
 }, {
-&"i": 58,
+&"i": 66,
 &"type": &"parens_close"
 }])])
 }]),
@@ -3382,9 +3403,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "serio"
+&"value": "serioInvierno"
 }, {
-&"i": 41,
+&"i": 49,
 &"type": &"parens_close"
 }])])
 }]),
@@ -3418,9 +3439,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "hablaPreocupado"
+&"value": "hablaPreocupadoInvierno"
 }, {
-&"i": 51,
+&"i": 59,
 &"type": &"parens_close"
 }])])
 }]),
@@ -3447,9 +3468,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "avergonzada"
+&"value": "avergonzadaInvierno"
 }, {
-&"i": 54,
+&"i": 62,
 &"type": &"parens_close"
 }])])
 }]),
@@ -3500,9 +3521,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "sonrojado"
+&"value": "sonrojadoInvierno"
 }, {
-&"i": 45,
+&"i": 53,
 &"type": &"parens_close"
 }])])
 }]),
@@ -3529,9 +3550,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "sinHablar"
+&"value": "sinHablarInvierno"
 }, {
-&"i": 45,
+&"i": 53,
 &"type": &"parens_close"
 }])])
 }]),
@@ -3558,9 +3579,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "sonrojada"
+&"value": "sonrojadaInvierno"
 }, {
-&"i": 52,
+&"i": 60,
 &"type": &"parens_close"
 }])])
 }]),
@@ -3747,86 +3768,86 @@ lines = {
 }
 }
 raw_text = "~ start
-do set_background(\"calleNoche\")
+do set_background(\"calleNocheInvierno\")
 
 do Audio.change_music(Audio.darCarta, -1)
 Sí.
 No puedo acobardarme justo ahora. No cuando inconscientemente me he hecho a la idea de dárselo. No cuando ya he imaginado cada posible escenario y estoy abierta a cualquier rechazo que me pueda dar.
 
-do show_character(\"kristine\", \"derecha\", \"sonrojadaHabla\")
-do show_character(\"mateo\", \"izq\", \"sinHablar\")
+do show_character(\"kristine\", \"derecha\", \"sonrojadaHablaInvierno\")
+do show_character(\"mateo\", \"izq\", \"sinHablarInvierno\")
 Kristine: Por cierto… Quería… Quería darte algo.
 
-do show_character(\"mateo\", \"izq\", \"serio\")
-do show_character(\"kristine\", \"derecha\", \"sonrojada\")
+do show_character(\"mateo\", \"izq\", \"serioInvierno\")
+do show_character(\"kristine\", \"derecha\", \"sonrojadaInvierno\")
 Cuando dije eso, Mateo mostró una cara de confusión y curiosidad al mismo tiempo. ¿Cómo podía ser tan adorable?
 
-do show_character(\"kristine\", \"derecha\", \"sonrojadaHabla\")
+do show_character(\"kristine\", \"derecha\", \"sonrojadaHablaInvierno\")
 Kristine: Sé que… Q-quizás sea mítico hacerlo un 14 de febrero, pero te prometo que no es por la fecha en sí… En fin, en la primera página hay… Algunas notas. Necesito que sigas al pie de la letra esas anotaciones, por favor.
-do show_character(\"kristine\", \"derecha\", \"seria\")
+do show_character(\"kristine\", \"derecha\", \"seriaInvierno\")
 
 Y tras eso, sin pensarlo, le entregué la carta con rapidez para no tener tiempo de arrepentirme.
 
-do show_character(\"mateo\", \"izq\", \"hablaAlegre\")
+do show_character(\"mateo\", \"izq\", \"hablaAlegreInvierno\")
 Mateo: Está bien… 
-do show_character(\"mateo\", \"izq\", \"feliz\")
+do show_character(\"mateo\", \"izq\", \"felizInvierno\")
 
 Enseguida se hizo presente el silencio aquel día de tantos en invierno, el cual él mismo rompió. Y sin venir a cuento.
 
-do show_character(\"mateo\", \"izq\", \"hablaNormal\")
+do show_character(\"mateo\", \"izq\", \"hablaNormalInvierno\")
 Mateo: [wait=1]¿Te puedo besar?
-do show_character(\"kristine\", \"derecha\", \"sonrojada\")
-do show_character(\"mateo\", \"izq\", \"sonrojado\")
+do show_character(\"kristine\", \"derecha\", \"sonrojadaInvierno\")
+do show_character(\"mateo\", \"izq\", \"sonrojadoInvierno\")
 
 [speed=0.01]...
 [wait=4]¿Qué?
 
-do show_character(\"kristine\", \"derecha\", \"sonrojadaHabla2\")
+do show_character(\"kristine\", \"derecha\", \"sonrojadaHabla2Invierno\")
 Kristine: ¿Qué?
-do show_character(\"mateo\", \"izq\", \"hablaNormal\")
-do show_character(\"kristine\", \"derecha\", \"avergonzada\")
+do show_character(\"mateo\", \"izq\", \"hablaNormalInvierno\")
+do show_character(\"kristine\", \"derecha\", \"avergonzadaInvierno\")
 Mateo: Si te puedo besar.
-do show_character(\"mateo\", \"izq\", \"avergonzado\")
-do show_character(\"kristine\", \"derecha\", \"avergonzada\")
+do show_character(\"mateo\", \"izq\", \"avergonzadoInvierno\")
+do show_character(\"kristine\", \"derecha\", \"avergonzadaInvierno\")
 
 [speed=0.06]...
 [wait=2]
-do show_character(\"kristine\", \"derecha\", \"sonrojadaHabla2\")
+do show_character(\"kristine\", \"derecha\", \"sonrojadaHabla2Invierno\")
 Kristine: ¿Qué?
 
-do show_character(\"mateo\", \"izq\", \"sonrojado\")
-do show_character(\"kristine\", \"derecha\", \"sonrojada\")
+do show_character(\"mateo\", \"izq\", \"sonrojadoInvierno\")
+do show_character(\"kristine\", \"derecha\", \"sonrojadaInvierno\")
 No podía creer lo que dijo.
 Para empezar, ¿qué había dicho?, ¿besar?, ¿a mí?, ¿tan de repente?, ¿por qué?, ¿cómo? 
 ¿Y cómo se supone que se besan las personas?
 
-do show_character(\"mateo\", \"izq\", \"hablaNormal\")
+do show_character(\"mateo\", \"izq\", \"hablaNormalInvierno\")
 Mateo: Si te puedo dar un beso.
-do show_character(\"kristine\", \"derecha\", \"avergonzada\")
-do show_character(\"mateo\", \"izq\", \"serio\")
+do show_character(\"kristine\", \"derecha\", \"avergonzadaInvierno\")
+do show_character(\"mateo\", \"izq\", \"serioInvierno\")
 
 - Actuar con timidez
 	do SistemaPuntos.cambiarPuntos(\"mateo\", 1)
-	do show_character(\"kristine\", \"derecha\", \"sonrojadaHabla\")
-	do show_character(\"mateo\", \"izq\", \"serio\")
+	do show_character(\"kristine\", \"derecha\", \"sonrojadaHablaInvierno\")
+	do show_character(\"mateo\", \"izq\", \"serioInvierno\")
 	Kristine: N-no... No. Perdón.
-	do show_character(\"mateo\", \"izq\", \"hablaPreocupado\")
-	do show_character(\"kristine\", \"derecha\", \"avergonzada\")
+	do show_character(\"mateo\", \"izq\", \"hablaPreocupadoInvierno\")
+	do show_character(\"kristine\", \"derecha\", \"avergonzadaInvierno\")
 	Mateo: Está bien, lo siento. No te preocupes.
 	=> siguee
 
 - Ser directa
-	do show_character(\"kristine\", \"derecha\", \"sonrojadaHabla2\")
-	do show_character(\"mateo\", \"izq\", \"serio\")
+	do show_character(\"kristine\", \"derecha\", \"sonrojadaHabla2Invierno\")
+	do show_character(\"mateo\", \"izq\", \"serioInvierno\")
 	Kristine: No.
-	do show_character(\"mateo\", \"izq\", \"hablaPreocupado\")
-	do show_character(\"kristine\", \"derecha\", \"avergonzada\")
+	do show_character(\"mateo\", \"izq\", \"hablaPreocupadoInvierno\")
+	do show_character(\"kristine\", \"derecha\", \"avergonzadaInvierno\")
 	Mateo: Está bien. Lo siento...
 	=> siguee
 
 ~ siguee
-do show_character(\"mateo\", \"izq\", \"sonrojado\")
-do show_character(\"kristine\", \"derecha\", \"sonrojada\")
+do show_character(\"mateo\", \"izq\", \"sonrojadoInvierno\")
+do show_character(\"kristine\", \"derecha\", \"sonrojadaInvierno\")
 Después de aquella interacción y el momento algo extraño para mí, nos despedimos y entré en mi casa.
 
 do hide_character(\"izq\")
@@ -3866,7 +3887,7 @@ Si hablamos sentimentalmente, no lo estaba. Nunca lo estaría sabiendo lo que de
 
 16 de febrero…
 
-do set_background(\"calleDia\")
+do set_background(\"calleDiaInvierno\")
 Al salir, noté el frío que hacía y lo vi, esperando.
 En cuanto me miró, dejó escapar una sonrisa.
 
@@ -3883,7 +3904,7 @@ Definitivamente, era masoquista.
 No podía quejarme, no siendo consciente de que fui yo misma la que le dijo que no me contara nada sobre la carta ni lo que ponía ahí hasta que estuviéramos a solas. Y yo no sabía cómo sacar el tema.
 Supongo que, si no lo hacía yo, lo haría él. Tarde o temprano.
 
-do set_background(\"parqueNoche\")
+do set_background(\"parqueInvierno\")
 Después de unas horas, llegamos al parque, aquel al que solíamos ir.
 
 Ya había anochecido, a pesar de que eran las 20:00 aproximadamente, y hacía frío. Mucho frío. 
@@ -3898,57 +3919,58 @@ Con lentitud, me aparté de él y nos sentamos en un banco que había libre.
 Hice mal al pensar que los nervios habían abandonado mi cuerpo.
 
 do Audio.change_music(Audio.declaracionMateo, -1)
-do show_character(\"mateo\", \"izq\", \"hablaNormal\")
-do show_character(\"kristine\", \"derecha\", \"avergonzada\")
+do show_character(\"mateo\", \"izq\", \"hablaNormalInvierno\")
+do show_character(\"kristine\", \"derecha\", \"avergonzadaInvierno\")
 Mateo: Seré breve.
-do show_character(\"mateo\", \"izq\", \"serio\")
+do show_character(\"mateo\", \"izq\", \"serioInvierno\")
 
 No, por favor.
 Quería y no quería que este momento llegara.
 
-do show_character(\"mateo\", \"izq\", \"hablaNormal\")
+do show_character(\"mateo\", \"izq\", \"hablaNormalInvierno\")
 Mateo: Sobre lo de tu carta… 
-do show_character(\"mateo\", \"izq\", \"hablaAlegre\")
-do show_character(\"kristine\", \"derecha\", \"intentoSonrisa\")
+do show_character(\"mateo\", \"izq\", \"hablaAlegreInvierno\")
+do show_character(\"kristine\", \"derecha\", \"intentoSonrisaInvierno\")
 Mateo: Te agradezco mucho que me la hayas dado. Escribes muy bonito, por cierto. Quería decirte que…
 
-do show_character(\"mateo\", \"izq\", \"serio\")
+do show_character(\"mateo\", \"izq\", \"serioInvierno\")
 Aquí vamos… ¿Me va a rechazar? Parece que sí.
 
-do show_character(\"mateo\", \"izq\", \"hablaAlegre\")
+do show_character(\"mateo\", \"izq\", \"hablaAlegreInvierno\")
 Mateo: Quería decirte que yo también siento lo mismo.
-do show_character(\"mateo\", \"izq\", \"feliz\")
+do show_character(\"mateo\", \"izq\", \"felizInvierno\")
 
 [speed= 0.0001]...
 [speed=0.03]¿Cómo?
 
-do show_character(\"kristine\", \"derecha\", \"hablaNormal\")
+do show_character(\"kristine\", \"derecha\", \"hablaNormalInvierno\")
 Kristine: ¿Qué?
-do show_character(\"mateo\", \"izq\", \"hablaAlegre\")
-do show_character(\"kristine\", \"derecha\", \"avergonzada\")
+do show_character(\"mateo\", \"izq\", \"hablaAlegreInvierno\")
+do show_character(\"kristine\", \"derecha\", \"avergonzadaInvierno\")
 Mateo: Que siento lo mismo que tú. Me gustas. Mucho. Y sí, me siento muy afortunado de haberte conocido y también me gustaría pasar más tiempo contigo. Tienes razón en que 3 o 4 horas no son suficientes para estar juntos. Haces que el tiempo pase demasiado rápido, y no sé si me gusta o si lo odio. Pero no me malinterpretes, me encanta estar a tu lado.
 
-do show_character(\"mateo\", \"izq\", \"feliz\")
-do show_character(\"kristine\", \"derecha\", \"feliz\")
+do show_character(\"mateo\", \"izq\", \"felizInvierno\")
+do show_character(\"kristine\", \"derecha\", \"felizInvierno\")
 Se me escapó una risa, y mi aliento se convirtió en una nubecita de vapor en el aire helado. De verdad que hacía mucho frío.
 Inconscientemente, mientras hablaba, me acerqué un poquito más a él.
 No podía creer lo que estaba diciendo.
 
-do show_character(\"mateo\", \"izq\", \"hablaAlegre\")
+do show_character(\"mateo\", \"izq\", \"hablaAlegreInvierno\")
 Mateo: También me gustaría tenerte, y no en el sentido de posesión. También me gustaría ser tu compañero en esta vida y estar para ti siempre, sobre todo cuando lo necesites. Me encanta pasar tiempo contigo, siempre me lo paso bien si es contigo realmente…
 
-do show_character(\"mateo\", \"izq\", \"feliz\")
+do show_character(\"mateo\", \"izq\", \"felizInvierno\")
 Dado que yo estaba callada, las palabras no salían de mis labios, él siguió hablando.
 
-do show_character(\"mateo\", \"izq\", \"hablaAlegre\")
+do show_character(\"mateo\", \"izq\", \"hablaAlegreInvierno\")
 Mateo: Entonces, ahora que sabes que siento lo mismo que tú por mí… 
-do show_character(\"mateo\", \"izq\", \"hablaNormal\")
+do show_character(\"mateo\", \"izq\", \"hablaNormalInvierno\")
 Mateo: ¿Quieres ser mi novia?
-do show_character(\"kristine\", \"derecha\", \"avergonzada\")
-do show_character(\"mateo\", \"izq\", \"feliz\")
+do show_character(\"kristine\", \"derecha\", \"avergonzadaInvierno\")
+do show_character(\"mateo\", \"izq\", \"felizInvierno\")
 
 ¿Ya dije que no podía creer lo que estaba pasando?
 
+do set_background(\"parqueInvierno\")
 Estaba estupefacta, pero debía responder.
 
 ~ momentoDecision
@@ -3969,48 +3991,48 @@ Estaba estupefacta, pero debía responder.
 	=> momentoDecision
 
 ~ sigue
-do show_character(\"kristine\", \"derecha\", \"sonrojadaHabla2\")
+do show_character(\"kristine\", \"derecha\", \"sonrojadaHabla2Invierno\")
 Kristine: S-sí. Claro.
-do show_character(\"kristine\", \"derecha\", \"avergonzada\")
+do show_character(\"kristine\", \"derecha\", \"avergonzadaInvierno\")
 
 Mateo sonrió. Su sonrisa era tan cálida y contagiosa que yo también sonreí.
-do show_character(\"kristine\", \"derecha\", \"feliz\")
+do show_character(\"kristine\", \"derecha\", \"felizInvierno\")
 Se acercó más a mí hasta estar abrazados. Era acogedor, tanto que casi se me olvidaba que estaba temblando, tanto por los nervios de antes como por las bajas temperaturas.
 
 En un intento de estar más cerca y disminuir el frío que sentía, me acomodé de forma en que mi cabeza quedó encima de su pecho mientras él me abrazaba por la espalda, dándome cariño con delicadeza. 
 Escuchaba su corazón y me encantaba aquella melodía.
 
-do show_character(\"mateo\", \"izq\", \"hablaAlegre\")
+do show_character(\"mateo\", \"izq\", \"hablaAlegreInvierno\")
 Mateo: Tu corazón no deja de latir rápido, por cierto.
-do show_character(\"mateo\", \"izq\", \"feliz\")
-do show_character(\"kristine\", \"derecha\", \"hablaNormal\")
+do show_character(\"mateo\", \"izq\", \"felizInvierno\")
+do show_character(\"kristine\", \"derecha\", \"hablaNormalInvierno\")
 Kristine: Estaba nerviosa.
-do show_character(\"mateo\", \"izq\", \"hablaAlegre\")
-do show_character(\"kristine\", \"derecha\", \"feliz\")
+do show_character(\"mateo\", \"izq\", \"hablaAlegreInvierno\")
+do show_character(\"kristine\", \"derecha\", \"felizInvierno\")
 Mateo: Ya, lo he notado. 
-do show_character(\"mateo\", \"izq\", \"hablaNormal\")
-do show_character(\"kristine\", \"derecha\", \"feliz\")
+do show_character(\"mateo\", \"izq\", \"hablaNormalInvierno\")
+do show_character(\"kristine\", \"derecha\", \"felizInvierno\")
 Mateo: Y fuimos antes a la cafetería porque pensé que así te sería más fácil hablar. 
 
-do show_character(\"mateo\", \"izq\", \"serio\")
+do show_character(\"mateo\", \"izq\", \"serioInvierno\")
 Y no se equivocaba.
 
-do show_character(\"mateo\", \"izq\", \"feliz\")
-do show_character(\"kristine\", \"derecha\", \"hablaNormal\")
+do show_character(\"mateo\", \"izq\", \"felizInvierno\")
+do show_character(\"kristine\", \"derecha\", \"hablaNormalInvierno\")
 Kristine: Tu corazón también late rápido.
-do show_character(\"mateo\", \"izq\", \"hablaAlegre\")
-do show_character(\"kristine\", \"derecha\", \"feliz\")
+do show_character(\"mateo\", \"izq\", \"hablaAlegreInvierno\")
+do show_character(\"kristine\", \"derecha\", \"felizInvierno\")
 Mateo: Porque por fin estoy con la chica que siempre quise.
-do show_character(\"mateo\", \"izq\", \"feliz\")
-do show_character(\"kristine\", \"derecha\", \"avergonzada\")
+do show_character(\"mateo\", \"izq\", \"felizInvierno\")
+do show_character(\"kristine\", \"derecha\", \"avergonzadaInvierno\")
 
 Lo miré a los ojos. ¿Cómo podía decir eso tan rápido y sin inmutarse?, ¿y cómo estaba seguro de aquello?
 
-do show_character(\"mateo\", \"izq\", \"hablaAlegre\")
+do show_character(\"mateo\", \"izq\", \"hablaAlegreInvierno\")
 Mateo: Me gustaste desde la primera vez que te vi.
 
-do show_character(\"mateo\", \"izq\", \"sonrojado\")
-do show_character(\"kristine\", \"derecha\", \"sonrojada\")
+do show_character(\"mateo\", \"izq\", \"sonrojadoInvierno\")
+do show_character(\"kristine\", \"derecha\", \"sonrojadaInvierno\")
 
 Directo y sin anestesia. 
 Esa fue otra mini bomba para mi corazón. ¿Cómo era capaz de decir ese tipo de cosas sin luego avergonzarse? Admiraba eso de él.

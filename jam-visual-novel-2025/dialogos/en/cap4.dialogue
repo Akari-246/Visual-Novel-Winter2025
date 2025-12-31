@@ -39,7 +39,7 @@ do show_character("mateo", "izq", "hablaPreocupado")
 Mateo: Excuse me, do you mind If I help carry her and go with you?
 do show_character("papa", "centro")
 do show_character("mateo", "izq", "sinHablar")
-Papá: No, of course not.
+Dad: No, of course not.
 do show_character("papaNoHabla", "centro")
 I was surprised to hear my father accepting the help.
 
@@ -130,13 +130,13 @@ I grew increasingly close to Mateo, to the point where we would meet and talk se
 The more days passed and the closer I became to that boy, the more I felt it would be silly to give him the letter that day.
 
 The 14th of February arrived.
-do set_background("calleDia")
+do set_background("calleDiaInvierno")
 
 I had plans with Mateo, and the only thing keeping me from being with him that day was an exam I had on the 15th, but that didn’t stop me.
 I even brought the letter with me in case the right moment came to give it to him, though I didn’t think I would be able to. At least not without giving in to my impulsive side. After all, some say that to do something, all you need is a little push.
 I guess that’s what happened to me.
 
-do set_background("calleNoche")
+do set_background("calleNocheInvierno")
 After spending some time with him in the park we would frequent, we arrived at my door.
 He was talking about something, but I wasn’t able to pay attention to what he was saying, because I was thinking about another thing…
 
