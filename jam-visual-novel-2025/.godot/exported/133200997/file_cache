@@ -1,0 +1,11 @@
+res://addons/dialogue_manager/example_balloon/example_balloon.tscn::e963dd03890898bc745145812339e762::1766257785::res://.godot/exported/133200997/export-57fc9b32a4ae3d4a3041b46baf4b8f92-example_balloon.scn
+res://addons/dialogue_manager/example_balloon/small_example_balloon.tscn::ad39f864cd724c0ab85c37ccb1b3962b::1765451405::res://.godot/exported/133200997/export-25872080cd204f02261b5746b425708f-small_example_balloon.scn
+res://addons/dialogue_manager/dialogue_label.tscn::5087c11b45dfaf8effc779674dfe11e8::1765451405::res://.godot/exported/133200997/export-e41b7d5321416240678013b406b79557-dialogue_label.scn
+res://addons/dialogue_manager/test_scene.tscn::5946a9a55ceff988ba46e7f734ff0538::1765451405::res://.godot/exported/133200997/export-74a175fe1e216df3bdf79c5c27a2ac2c-test_scene.scn
+res://escenas/audio.tscn::95a3a872a6785a904284c4d26077f0d1::1766325069::res://.godot/exported/133200997/export-20b60d2d8044fed6bfb5fe03103beba0-audio.scn
+res://escenas/game.tscn::14be5f73bbca9ccf3ebd6d93e3f6c1a4::1767137877::res://.godot/exported/133200997/export-a6517fc0df186b4d36db4a868f4be8c6-game.scn
+res://escenas/idioma.tscn::9774a8d0036466c305486d4b90a149f5::1766346887::res://.godot/exported/133200997/export-d81cfbd050bb2922e0043e10815bed7a-idioma.scn
+res://escenas/medidorPuntos.tscn::3846771bf88508b0dc8a0b4b3173313b::1765832090::res://.godot/exported/133200997/export-12d5675e338cd773adb308086c40cab1-medidorPuntos.scn
+res://escenas/menu.tscn::572f4483555511add9d162269888b376::1766420678::res://.godot/exported/133200997/export-f80071edd3ea3f721181d9218e927c76-menu.scn
+res://escenas/sistema_puntos.tscn::b473751e30757a6a9c1968f7ed72597b::1765721185::res://.godot/exported/133200997/export-d0966674b2b3b504d02033005ac8ccb0-sistema_puntos.scn
+res://default_bus_layout.tres::0edfbfc98dbcef7b53bf5dec1380daab::1765568351::res://.godot/exported/133200997/export-19246414aa9fb561ced4b8dce477acec-default_bus_layout.res

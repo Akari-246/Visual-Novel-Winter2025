@@ -14,26 +14,3 @@ func _on_seleccionado(index: int):
 	var idiomas := ["es", "en"]
 	IdiomaManager.cambiar_idioma(idiomas[index])
 	Audio.pulsar_btn()
-
-
-## **Paso 6: Estructura de carpetas**
-#dialogos/
-#├── es/
-#│   ├── inicio.dialogue
-#│   ├── cap2.dialogue
-#│   └── finales.dialogue
-#└── en/
-	#├── inicio.dialogue
-	#├── cap2.dialogue
-	#└── finales.dialogue
-
-## **Paso 7: Traducir diálogos manualmente**
-#**dialogos/es/inicio.dialogue:**
-#~ start
-#do set_background("habitacion1")
-#Un día como otro cualquiera me preparé para ir a clases.
-#
-#**dialogos/en/inicio.dialogue:**
-#~ start
-#do set_background("habitacion1")
-#Just another day, I prepared to go to class.

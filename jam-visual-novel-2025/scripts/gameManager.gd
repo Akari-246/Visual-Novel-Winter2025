@@ -36,7 +36,11 @@ var backgrounds = {
 	"fucsiaMuyOscuro": "res://assets/imagenes/fondos/fucsia muy oscuro.jpeg",
 	"fucsiaOscuro": "res://assets/imagenes/fondos/fucsia oscuro.jpeg",
 	"rosa": "res://assets/imagenes/fondos/rosa.jpeg",
-	"entradaPortal": "res://assets/imagenes/fondos/portal.jpeg"
+	"entradaPortal": "res://assets/imagenes/fondos/portal.jpeg",
+	"calleDiaInvierno": "res://assets/imagenes/fondos/invierno/thumbnail_calleDia.jpg",
+	"calleNocheInvierno": "res://assets/imagenes/fondos/invierno/calleNoche.jpeg",
+	"parqueInvierno":"res://assets/imagenes/fondos/invierno/WhatsApp Image 2025-12-23 at 16.26.56.jpg",
+	"claseInvierno": "res://assets/imagenes/fondos/invierno/fondo clase.jpg"
 }
 
 # ====== personajes ======
@@ -53,7 +57,19 @@ var personajes = {
 		"sinHablar": "res://assets/imagenes/personajes/kristine sin hablar.png",
 		"sonrojada": "res://assets/imagenes/personajes/kristineAvergonzada.png",
 		"sonrojadaHabla": "res://assets/imagenes/personajes/kristineSonrojadaHablando.png",
-		"sonrojadaHabla2": "res://assets/imagenes/personajes/kristineSonrojadaHablando2.png"
+		"sonrojadaHabla2": "res://assets/imagenes/personajes/kristineSonrojadaHablando2.png",
+		"seriaInvierno": "res://assets/imagenes/personajes/invierno/kristine/kristine seria.png",
+		"felizInvierno" : "res://assets/imagenes/personajes/invierno/kristine/kris feliz.png",
+		"avergonzadaInvierno" : "res://assets/imagenes/personajes/invierno/kristine/kristine sonrojada2.png",
+		"hablaNormalInvierno":"res://assets/imagenes/personajes/invierno/kristine/kris habla normañ.png",
+		"hablaAlegreInvierno":"res://assets/imagenes/personajes/invierno/kristine/kris habla alegre.png",
+		"hablaPreocupadaInvierno":"res://assets/imagenes/personajes/invierno/kristine/kris habla mal.png",
+		"hablaTriteInvierno": "res://assets/imagenes/personajes/invierno/kristine/kris habla preocupada.png",
+		"intentoSonrisaInvierno":"res://assets/imagenes/personajes/invierno/kristine/kris intento sonrie.png",
+		"sinHablarInvierno":"res://assets/imagenes/personajes/invierno/kristine/kristine sin hablar.png",
+		"sonrojadaInvierno":"res://assets/imagenes/personajes/invierno/kristine/kristine avergonzada.png",
+		"sonrojadaHablaInvierno":"res://assets/imagenes/personajes/invierno/kristine/kristine sonrojada hablando.png",
+		"sonrojadaHabla2Invierno":"res://assets/imagenes/personajes/invierno/kristine/kristine sonrojada hablando 2.png"
 	},
 	"mateo": {
 		"serio": "res://assets/imagenes/personajes/mateo serio.png",
@@ -64,7 +80,16 @@ var personajes = {
 		"hablaAlegre": "res://assets/imagenes/personajes/mateo habla2.png",
 		"sinHablar": "res://assets/imagenes/personajes/mateo sin hablar.png",
 		"hablaPreocupado": "res://assets/imagenes/personajes/mateo habla preocupado.png",
-		"sonrojado": "res://assets/imagenes/personajes/mateo sonrojo serio.png"
+		"sonrojado": "res://assets/imagenes/personajes/mateo sonrojo serio.png",
+		"serioInvierno":"res://assets/imagenes/personajes/invierno/mateo/mateo serio.png",
+		"felizInvierno": "res://assets/imagenes/personajes/invierno/mateo/Mateo sonrie.png",
+		"triteInvierno":"res://assets/imagenes/personajes/invierno/mateo/mateo trite.png",
+		"avergonzadoInvierno":"res://assets/imagenes/personajes/invierno/mateo/mateo sonrojo serio2.png",
+		"hablaNormalInvierno":"res://assets/imagenes/personajes/invierno/mateo/Mateo habla1.png",
+		"hablaAlegreInvierno":"res://assets/imagenes/personajes/invierno/mateo/mateo habla2.png",
+		"sinHablarInvierno":"res://assets/imagenes/personajes/invierno/mateo/mateo sin hablar.png",
+		"hablaPreocupadoInvierno":"res://assets/imagenes/personajes/invierno/mateo/mateo habla preocupado.png",
+		"sonrojadoInvierno":"res://assets/imagenes/personajes/invierno/mateo/mateo sonrojo serio.png"
 	},
 	"mama" : "res://assets/imagenes/personajes/secundarios/madre.png",
 	"mamaNoHabla": "res://assets/imagenes/personajes/secundarios/mama sin hablar.png",
@@ -92,7 +117,7 @@ func _ready():
 	if pause_menu is CanvasLayer:
 		pause_menu.layer = 10000
 	Game.manager = self
-	#dialogue_resource = load("res://dialogos/es/inicio.dialogue")
+	#dialogue_resource = w("res://dialogos/es/inicio.dialogue")
 	
 	IdiomaManager.idioma_cambiado.connect(_on_idioma_cambiado)
 	var ruta_dialogo := IdiomaManager.obtener_ruta_dialogo("inicio")

@@ -4863,9 +4863,9 @@ lines = {
 &"value": Array[Array]([Array[Dictionary]([{
 &"i": 18,
 &"type": &"string",
-&"value": "clase"
+&"value": "claseInvierno"
 }, {
-&"i": 25,
+&"i": 33,
 &"type": &"parens_close"
 }])])
 }]),
@@ -5936,7 +5936,7 @@ else:
 
 	I got out of bed and, once ready, headed to class with my notes in hand.
 
-	do set_background(\"clase\")
+	do set_background(\"claseInvierno\")
 	do Audio.change_music(Audio.momentoMareo, -1)
 	While taking the exam, I started to feel a bit dizzy, but I didn’t think much of it. What I didn’t know was that this would turn out to be the worst decision I would make.
 

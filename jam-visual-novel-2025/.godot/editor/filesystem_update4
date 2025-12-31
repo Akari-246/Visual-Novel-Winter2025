@@ -1,14 +1,2 @@
-res://scripts/audio.gd
-res://scripts/menuManager.gd
-res://scripts/audioControl.gd
-res://escenas/audio.tscn
-res://escenas/game.tscn
 res://scripts/gameManager.gd
-res://scripts/sistemaPuntos.gd
-res://escenas/menu.tscn
-res://scripts/idiomas.gd
-res://scripts/selectorIdiomas.gd
-res://traducciones/traduccion.es.translation
-res://traducciones/traduccion.en.translation
-res://scripts/menu_op.gd
-res://scripts/sistemaSkip.gd
+res://escenas/game.tscn

@@ -440,9 +440,9 @@ lines = {
 &"value": Array[Array]([Array[Dictionary]([{
 &"i": 18,
 &"type": &"string",
-&"value": "calleDia"
+&"value": "calleDiaInvierno"
 }, {
-&"i": 28,
+&"i": 36,
 &"type": &"parens_close"
 }])])
 }]),
@@ -1063,9 +1063,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "sinHablar"
+&"value": "sinHablarInvierno"
 }, {
-&"i": 45,
+&"i": 53,
 &"type": &"parens_close"
 }])])
 }]),
@@ -1207,9 +1207,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "sinHablar"
+&"value": "sinHablarInvierno"
 }, {
-&"i": 52,
+&"i": 60,
 &"type": &"parens_close"
 }])])
 }]),
@@ -2011,9 +2011,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "hablaAlegre"
+&"value": "hablaAlegreInvierno"
 }, {
-&"i": 47,
+&"i": 55,
 &"type": &"parens_close"
 }])])
 }]),
@@ -2178,9 +2178,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "feliz"
+&"value": "felizInvierno"
 }, {
-&"i": 41,
+&"i": 49,
 &"type": &"parens_close"
 }])])
 }]),
@@ -2308,9 +2308,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "hablaNormal"
+&"value": "hablaNormalInvierno"
 }, {
-&"i": 54,
+&"i": 62,
 &"type": &"parens_close"
 }])])
 }]),
@@ -2508,9 +2508,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "hablaAlegre"
+&"value": "hablaAlegreInvierno"
 }, {
-&"i": 47,
+&"i": 55,
 &"type": &"parens_close"
 }])])
 }]),
@@ -2614,9 +2614,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "seria"
+&"value": "seriaInvierno"
 }, {
-&"i": 48,
+&"i": 56,
 &"type": &"parens_close"
 }])])
 }]),
@@ -2650,9 +2650,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "feliz"
+&"value": "felizInvierno"
 }, {
-&"i": 41,
+&"i": 49,
 &"type": &"parens_close"
 }])])
 }]),
@@ -2679,9 +2679,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "seria"
+&"value": "seriaInvierno"
 }, {
-&"i": 48,
+&"i": 56,
 &"type": &"parens_close"
 }])])
 }]),
@@ -2725,9 +2725,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "feliz"
+&"value": "felizInvierno"
 }, {
-&"i": 48,
+&"i": 56,
 &"type": &"parens_close"
 }])])
 }]),
@@ -2770,9 +2770,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "feliz"
+&"value": "felizInvierno"
 }, {
-&"i": 41,
+&"i": 49,
 &"type": &"parens_close"
 }])])
 }]),
@@ -2799,9 +2799,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "hablaAlegre"
+&"value": "hablaAlegreInvierno"
 }, {
-&"i": 54,
+&"i": 62,
 &"type": &"parens_close"
 }])])
 }]),
@@ -2835,9 +2835,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "hablaPreocupada"
+&"value": "hablaPreocupadaInvierno"
 }, {
-&"i": 58,
+&"i": 66,
 &"type": &"parens_close"
 }])])
 }]),
@@ -2871,9 +2871,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "hablaAlegre"
+&"value": "hablaAlegreInvierno"
 }, {
-&"i": 47,
+&"i": 55,
 &"type": &"parens_close"
 }])])
 }]),
@@ -2900,9 +2900,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "intentoSonrisa"
+&"value": "intentoSonrisaInvierno"
 }, {
-&"i": 57,
+&"i": 65,
 &"type": &"parens_close"
 }])])
 }]),
@@ -2936,9 +2936,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "feliz"
+&"value": "felizInvierno"
 }, {
-&"i": 41,
+&"i": 49,
 &"type": &"parens_close"
 }])])
 }]),
@@ -3004,9 +3004,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "hablaAlegre"
+&"value": "hablaAlegreInvierno"
 }, {
-&"i": 54,
+&"i": 62,
 &"type": &"parens_close"
 }])])
 }]),
@@ -3040,9 +3040,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "feliz"
+&"value": "felizInvierno"
 }, {
-&"i": 48,
+&"i": 56,
 &"type": &"parens_close"
 }])])
 }]),
@@ -3085,9 +3085,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "hablaAlegre"
+&"value": "hablaAlegreInvierno"
 }, {
-&"i": 54,
+&"i": 62,
 &"type": &"parens_close"
 }])])
 }]),
@@ -3121,9 +3121,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "feliz"
+&"value": "felizInvierno"
 }, {
-&"i": 48,
+&"i": 56,
 &"type": &"parens_close"
 }])])
 }]),
@@ -3182,9 +3182,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "hablaAlegre"
+&"value": "hablaAlegreInvierno"
 }, {
-&"i": 54,
+&"i": 62,
 &"type": &"parens_close"
 }])])
 }]),
@@ -3218,9 +3218,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "feliz"
+&"value": "felizInvierno"
 }, {
-&"i": 48,
+&"i": 56,
 &"type": &"parens_close"
 }])])
 }]),
@@ -3258,9 +3258,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "hablaAlegre"
+&"value": "hablaAlegreInvierno"
 }, {
-&"i": 47,
+&"i": 55,
 &"type": &"parens_close"
 }])])
 }]),
@@ -3294,9 +3294,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "feliz"
+&"value": "felizInvierno"
 }, {
-&"i": 41,
+&"i": 49,
 &"type": &"parens_close"
 }])])
 }]),
@@ -3374,9 +3374,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "hablaAlegre"
+&"value": "hablaAlegreInvierno"
 }, {
-&"i": 54,
+&"i": 62,
 &"type": &"parens_close"
 }])])
 }]),
@@ -3410,9 +3410,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "hablaAlegre"
+&"value": "hablaAlegreInvierno"
 }, {
-&"i": 47,
+&"i": 55,
 &"type": &"parens_close"
 }])])
 }]),
@@ -3445,9 +3445,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 41,
 &"type": &"string",
-&"value": "feliz"
+&"value": "felizInvierno"
 }, {
-&"i": 48,
+&"i": 56,
 &"type": &"parens_close"
 }])])
 }]),
@@ -3481,9 +3481,9 @@ lines = {
 }]), Array[Dictionary]([{
 &"i": 34,
 &"type": &"string",
-&"value": "feliz"
+&"value": "felizInvierno"
 }, {
-&"i": 41,
+&"i": 49,
 &"type": &"parens_close"
 }])])
 }]),
@@ -3631,61 +3631,61 @@ I was alive. I had to take advantage of that.
 I had survived something that very few people ever do, and although I was exhausted from surviving so many battles after years of surgeries and constant tests, there was one person who gave meaning to my struggle.
 Mateo.
 
-do set_background(\"calleDia\")
+do set_background(\"calleDiaInvierno\")
 December’s cold was already making itself known.
 We had spent the afternoon simply walking through the city, already lit up with Christmas lights, talking about everything and nothing at the same time.
 
 do set_background(\"entradaPortal\")
-do show_character(\"mateo\", \"izq\", \"sinHablar\")
-do show_character(\"kristine\", \"derecha\", \"sinHablar\")
+do show_character(\"mateo\", \"izq\", \"sinHablarInvierno\")
+do show_character(\"kristine\", \"derecha\", \"sinHablarInvierno\")
 As we entered the doorway of my building together to take shelter from the cold, I noticed that he wanted to tell me something.
 I gave him the time he needed to speak. I tried  looking at him with affection instead of curiosity.
 The entrance hall was decorated with a plastic snowman and several boxes made to look like gifts. Above the elevator there was a sign that read ‘Merry Christmas.’ I tried to focus on the decorations so as not to make him nervous.
 
-do show_character(\"mateo\", \"izq\", \"hablaAlegre\")
+do show_character(\"mateo\", \"izq\", \"hablaAlegreInvierno\")
 Mateo: I want to give you something. From my mother and me, of course.
-do show_character(\"mateo\", \"izq\", \"feliz\")
-do show_character(\"kristine\", \"derecha\", \"hablaNormal\")
+do show_character(\"mateo\", \"izq\", \"felizInvierno\")
+do show_character(\"kristine\", \"derecha\", \"hablaNormalInvierno\")
 Kristine: What is it?
-do show_character(\"mateo\", \"izq\", \"hablaAlegre\")
-do show_character(\"kristine\", \"derecha\", \"seria\")
+do show_character(\"mateo\", \"izq\", \"hablaAlegreInvierno\")
+do show_character(\"kristine\", \"derecha\", \"seriaInvierno\")
 Mateo: Look at it yourself.
-do show_character(\"mateo\", \"izq\", \"feliz\")
-do show_character(\"kristine\", \"derecha\", \"seria\")
+do show_character(\"mateo\", \"izq\", \"felizInvierno\")
+do show_character(\"kristine\", \"derecha\", \"seriaInvierno\")
 
 After saying that, he gave me a small bag.
 Curious, I took the little bag and opened it, only to find a small box inside.
-do show_character(\"kristine\", \"derecha\", \"feliz\")
+do show_character(\"kristine\", \"derecha\", \"felizInvierno\")
 Once I saw its contents, I was amazed by the thoughtful gesture of him and his mother.
 
-do show_character(\"mateo\", \"izq\", \"feliz\")
-do show_character(\"kristine\", \"derecha\", \"hablaAlegre\")
+do show_character(\"mateo\", \"izq\", \"felizInvierno\")
+do show_character(\"kristine\", \"derecha\", \"hablaAlegreInvierno\")
 Kristine: Thank you so much…
-do show_character(\"kristine\", \"derecha\", \"hablaPreocupada\")
+do show_character(\"kristine\", \"derecha\", \"hablaPreocupadaInvierno\")
 Kristine: Your gift will arrive a little later, have I already told you?
-do show_character(\"mateo\", \"izq\", \"hablaAlegre\")
-do show_character(\"kristine\", \"derecha\", \"intentoSonrisa\")
+do show_character(\"mateo\", \"izq\", \"hablaAlegreInvierno\")
+do show_character(\"kristine\", \"derecha\", \"intentoSonrisaInvierno\")
 Mateo: Yes, you did. Don’t worry about that. Do you need help putting it on?
-do show_character(\"mateo\", \"izq\", \"feliz\")
-do show_character(\"kristine\", \"derecha\", \"hablaAlegre\")
+do show_character(\"mateo\", \"izq\", \"felizInvierno\")
+do show_character(\"kristine\", \"derecha\", \"hablaAlegreInvierno\")
 Kristine: Yes, please.
-do show_character(\"kristine\", \"derecha\", \"feliz\")
+do show_character(\"kristine\", \"derecha\", \"felizInvierno\")
 
 I was thankful that he asked. Even though we have been together for almost a year, I felt a little embarrassed asking him for favors, even something as simple as putting on a pendant.
 
-do show_character(\"kristine\", \"derecha\", \"hablaAlegre\")
+do show_character(\"kristine\", \"derecha\", \"hablaAlegreInvierno\")
 Kristine: It’s stunning.
-do show_character(\"kristine\", \"derecha\", \"feliz\")
+do show_character(\"kristine\", \"derecha\", \"felizInvierno\")
 With love, I cradled his face in my hands.
 
-do show_character(\"kristine\", \"derecha\", \"hablaAlegre\")
+do show_character(\"kristine\", \"derecha\", \"hablaAlegreInvierno\")
 Kristine: Thank you so much.
-do show_character(\"kristine\", \"derecha\", \"feliz\")
+do show_character(\"kristine\", \"derecha\", \"felizInvierno\")
 He simply smiled and leaned his head down a little to be at my height.
 
-do show_character(\"mateo\", \"izq\", \"hablaAlegre\")
+do show_character(\"mateo\", \"izq\", \"hablaAlegreInvierno\")
 Mateo: It’s nothing.
-do show_character(\"mateo\", \"izq\", \"feliz\")
+do show_character(\"mateo\", \"izq\", \"felizInvierno\")
 
 When he finished talking, he gently moved my hands from his face and embraced me.
 Seconds later, we pulled back slightly to gaze at each other. 
@@ -3694,12 +3694,12 @@ Unable to wait any longer out of impatience, I kissed him.
 It was slow and warm, contrasting with the cold both inside and out.
 It was a confident kiss, unhurried, without mishaps. A well-given one, indeed, there were no jokes afterward.
 
-do show_character(\"kristine\", \"derecha\", \"hablaAlegre\")
+do show_character(\"kristine\", \"derecha\", \"hablaAlegreInvierno\")
 Kristine: Merry Christmas.
-do show_character(\"mateo\", \"izq\", \"hablaAlegre\")
-do show_character(\"kristine\", \"derecha\", \"feliz\")
+do show_character(\"mateo\", \"izq\", \"hablaAlegreInvierno\")
+do show_character(\"kristine\", \"derecha\", \"felizInvierno\")
 Mateo: Merry Christmas, my love.
-do show_character(\"mateo\", \"izq\", \"feliz\")
+do show_character(\"mateo\", \"izq\", \"felizInvierno\")
 
 do hide_character(\"izq\")
 do hide_character(\"derecha\")

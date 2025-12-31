@@ -1,84 +1,84 @@
 ~ start
-do set_background("calleNoche")
+do set_background("calleNocheInvierno")
 
 do Audio.change_music(Audio.darCarta, -1)
 Sí.
 No puedo acobardarme justo ahora. No cuando inconscientemente me he hecho a la idea de dárselo. No cuando ya he imaginado cada posible escenario y estoy abierta a cualquier rechazo que me pueda dar.
 
-do show_character("kristine", "derecha", "sonrojadaHabla")
-do show_character("mateo", "izq", "sinHablar")
+do show_character("kristine", "derecha", "sonrojadaHablaInvierno")
+do show_character("mateo", "izq", "sinHablarInvierno")
 Kristine: Por cierto… Quería… Quería darte algo.
 
-do show_character("mateo", "izq", "serio")
-do show_character("kristine", "derecha", "sonrojada")
+do show_character("mateo", "izq", "serioInvierno")
+do show_character("kristine", "derecha", "sonrojadaInvierno")
 Cuando dije eso, Mateo mostró una cara de confusión y curiosidad al mismo tiempo. ¿Cómo podía ser tan adorable?
 
-do show_character("kristine", "derecha", "sonrojadaHabla")
+do show_character("kristine", "derecha", "sonrojadaHablaInvierno")
 Kristine: Sé que… Q-quizás sea mítico hacerlo un 14 de febrero, pero te prometo que no es por la fecha en sí… En fin, en la primera página hay… Algunas notas. Necesito que sigas al pie de la letra esas anotaciones, por favor.
-do show_character("kristine", "derecha", "seria")
+do show_character("kristine", "derecha", "seriaInvierno")
 
 Y tras eso, sin pensarlo, le entregué la carta con rapidez para no tener tiempo de arrepentirme.
 
-do show_character("mateo", "izq", "hablaAlegre")
+do show_character("mateo", "izq", "hablaAlegreInvierno")
 Mateo: Está bien… 
-do show_character("mateo", "izq", "feliz")
+do show_character("mateo", "izq", "felizInvierno")
 
 Enseguida se hizo presente el silencio aquel día de tantos en invierno, el cual él mismo rompió. Y sin venir a cuento.
 
-do show_character("mateo", "izq", "hablaNormal")
+do show_character("mateo", "izq", "hablaNormalInvierno")
 Mateo: [wait=1]¿Te puedo besar?
-do show_character("kristine", "derecha", "sonrojada")
-do show_character("mateo", "izq", "sonrojado")
+do show_character("kristine", "derecha", "sonrojadaInvierno")
+do show_character("mateo", "izq", "sonrojadoInvierno")
 
 [speed=0.01]...
 [wait=4]¿Qué?
 
-do show_character("kristine", "derecha", "sonrojadaHabla2")
+do show_character("kristine", "derecha", "sonrojadaHabla2Invierno")
 Kristine: ¿Qué?
-do show_character("mateo", "izq", "hablaNormal")
-do show_character("kristine", "derecha", "avergonzada")
+do show_character("mateo", "izq", "hablaNormalInvierno")
+do show_character("kristine", "derecha", "avergonzadaInvierno")
 Mateo: Si te puedo besar.
-do show_character("mateo", "izq", "avergonzado")
-do show_character("kristine", "derecha", "avergonzada")
+do show_character("mateo", "izq", "avergonzadoInvierno")
+do show_character("kristine", "derecha", "avergonzadaInvierno")
 
 [speed=0.06]...
 [wait=2]
-do show_character("kristine", "derecha", "sonrojadaHabla2")
+do show_character("kristine", "derecha", "sonrojadaHabla2Invierno")
 Kristine: ¿Qué?
 
-do show_character("mateo", "izq", "sonrojado")
-do show_character("kristine", "derecha", "sonrojada")
+do show_character("mateo", "izq", "sonrojadoInvierno")
+do show_character("kristine", "derecha", "sonrojadaInvierno")
 No podía creer lo que dijo.
 Para empezar, ¿qué había dicho?, ¿besar?, ¿a mí?, ¿tan de repente?, ¿por qué?, ¿cómo? 
 ¿Y cómo se supone que se besan las personas?
 
-do show_character("mateo", "izq", "hablaNormal")
+do show_character("mateo", "izq", "hablaNormalInvierno")
 Mateo: Si te puedo dar un beso.
-do show_character("kristine", "derecha", "avergonzada")
-do show_character("mateo", "izq", "serio")
+do show_character("kristine", "derecha", "avergonzadaInvierno")
+do show_character("mateo", "izq", "serioInvierno")
 
 - Actuar con timidez
 	do SistemaPuntos.cambiarPuntos("mateo", 1)
-	do show_character("kristine", "derecha", "sonrojadaHabla")
-	do show_character("mateo", "izq", "serio")
+	do show_character("kristine", "derecha", "sonrojadaHablaInvierno")
+	do show_character("mateo", "izq", "serioInvierno")
 	Kristine: N-no... No. Perdón.
-	do show_character("mateo", "izq", "hablaPreocupado")
-	do show_character("kristine", "derecha", "avergonzada")
+	do show_character("mateo", "izq", "hablaPreocupadoInvierno")
+	do show_character("kristine", "derecha", "avergonzadaInvierno")
 	Mateo: Está bien, lo siento. No te preocupes.
 	=> siguee
 
 - Ser directa
-	do show_character("kristine", "derecha", "sonrojadaHabla2")
-	do show_character("mateo", "izq", "serio")
+	do show_character("kristine", "derecha", "sonrojadaHabla2Invierno")
+	do show_character("mateo", "izq", "serioInvierno")
 	Kristine: No.
-	do show_character("mateo", "izq", "hablaPreocupado")
-	do show_character("kristine", "derecha", "avergonzada")
+	do show_character("mateo", "izq", "hablaPreocupadoInvierno")
+	do show_character("kristine", "derecha", "avergonzadaInvierno")
 	Mateo: Está bien. Lo siento...
 	=> siguee
 
 ~ siguee
-do show_character("mateo", "izq", "sonrojado")
-do show_character("kristine", "derecha", "sonrojada")
+do show_character("mateo", "izq", "sonrojadoInvierno")
+do show_character("kristine", "derecha", "sonrojadaInvierno")
 Después de aquella interacción y el momento algo extraño para mí, nos despedimos y entré en mi casa.
 
 do hide_character("izq")
@@ -118,7 +118,7 @@ Si hablamos sentimentalmente, no lo estaba. Nunca lo estaría sabiendo lo que de
 
 16 de febrero…
 
-do set_background("calleDia")
+do set_background("calleDiaInvierno")
 Al salir, noté el frío que hacía y lo vi, esperando.
 En cuanto me miró, dejó escapar una sonrisa.
 
@@ -135,7 +135,7 @@ Definitivamente, era masoquista.
 No podía quejarme, no siendo consciente de que fui yo misma la que le dijo que no me contara nada sobre la carta ni lo que ponía ahí hasta que estuviéramos a solas. Y yo no sabía cómo sacar el tema.
 Supongo que, si no lo hacía yo, lo haría él. Tarde o temprano.
 
-do set_background("parqueNoche")
+do set_background("parqueInvierno")
 Después de unas horas, llegamos al parque, aquel al que solíamos ir.
 
 Ya había anochecido, a pesar de que eran las 20:00 aproximadamente, y hacía frío. Mucho frío. 
@@ -150,57 +150,58 @@ Con lentitud, me aparté de él y nos sentamos en un banco que había libre.
 Hice mal al pensar que los nervios habían abandonado mi cuerpo.
 
 do Audio.change_music(Audio.declaracionMateo, -1)
-do show_character("mateo", "izq", "hablaNormal")
-do show_character("kristine", "derecha", "avergonzada")
+do show_character("mateo", "izq", "hablaNormalInvierno")
+do show_character("kristine", "derecha", "avergonzadaInvierno")
 Mateo: Seré breve.
-do show_character("mateo", "izq", "serio")
+do show_character("mateo", "izq", "serioInvierno")
 
 No, por favor.
 Quería y no quería que este momento llegara.
 
-do show_character("mateo", "izq", "hablaNormal")
+do show_character("mateo", "izq", "hablaNormalInvierno")
 Mateo: Sobre lo de tu carta… 
-do show_character("mateo", "izq", "hablaAlegre")
-do show_character("kristine", "derecha", "intentoSonrisa")
+do show_character("mateo", "izq", "hablaAlegreInvierno")
+do show_character("kristine", "derecha", "intentoSonrisaInvierno")
 Mateo: Te agradezco mucho que me la hayas dado. Escribes muy bonito, por cierto. Quería decirte que…
 
-do show_character("mateo", "izq", "serio")
+do show_character("mateo", "izq", "serioInvierno")
 Aquí vamos… ¿Me va a rechazar? Parece que sí.
 
-do show_character("mateo", "izq", "hablaAlegre")
+do show_character("mateo", "izq", "hablaAlegreInvierno")
 Mateo: Quería decirte que yo también siento lo mismo.
-do show_character("mateo", "izq", "feliz")
+do show_character("mateo", "izq", "felizInvierno")
 
 [speed= 0.0001]...
 [speed=0.03]¿Cómo?
 
-do show_character("kristine", "derecha", "hablaNormal")
+do show_character("kristine", "derecha", "hablaNormalInvierno")
 Kristine: ¿Qué?
-do show_character("mateo", "izq", "hablaAlegre")
-do show_character("kristine", "derecha", "avergonzada")
+do show_character("mateo", "izq", "hablaAlegreInvierno")
+do show_character("kristine", "derecha", "avergonzadaInvierno")
 Mateo: Que siento lo mismo que tú. Me gustas. Mucho. Y sí, me siento muy afortunado de haberte conocido y también me gustaría pasar más tiempo contigo. Tienes razón en que 3 o 4 horas no son suficientes para estar juntos. Haces que el tiempo pase demasiado rápido, y no sé si me gusta o si lo odio. Pero no me malinterpretes, me encanta estar a tu lado.
 
-do show_character("mateo", "izq", "feliz")
-do show_character("kristine", "derecha", "feliz")
+do show_character("mateo", "izq", "felizInvierno")
+do show_character("kristine", "derecha", "felizInvierno")
 Se me escapó una risa, y mi aliento se convirtió en una nubecita de vapor en el aire helado. De verdad que hacía mucho frío.
 Inconscientemente, mientras hablaba, me acerqué un poquito más a él.
 No podía creer lo que estaba diciendo.
 
-do show_character("mateo", "izq", "hablaAlegre")
+do show_character("mateo", "izq", "hablaAlegreInvierno")
 Mateo: También me gustaría tenerte, y no en el sentido de posesión. También me gustaría ser tu compañero en esta vida y estar para ti siempre, sobre todo cuando lo necesites. Me encanta pasar tiempo contigo, siempre me lo paso bien si es contigo realmente…
 
-do show_character("mateo", "izq", "feliz")
+do show_character("mateo", "izq", "felizInvierno")
 Dado que yo estaba callada, las palabras no salían de mis labios, él siguió hablando.
 
-do show_character("mateo", "izq", "hablaAlegre")
+do show_character("mateo", "izq", "hablaAlegreInvierno")
 Mateo: Entonces, ahora que sabes que siento lo mismo que tú por mí… 
-do show_character("mateo", "izq", "hablaNormal")
+do show_character("mateo", "izq", "hablaNormalInvierno")
 Mateo: ¿Quieres ser mi novia?
-do show_character("kristine", "derecha", "avergonzada")
-do show_character("mateo", "izq", "feliz")
+do show_character("kristine", "derecha", "avergonzadaInvierno")
+do show_character("mateo", "izq", "felizInvierno")
 
 ¿Ya dije que no podía creer lo que estaba pasando?
 
+do set_background("parqueInvierno")
 Estaba estupefacta, pero debía responder.
 
 ~ momentoDecision
@@ -221,48 +222,48 @@ Estaba estupefacta, pero debía responder.
 	=> momentoDecision
 
 ~ sigue
-do show_character("kristine", "derecha", "sonrojadaHabla2")
+do show_character("kristine", "derecha", "sonrojadaHabla2Invierno")
 Kristine: S-sí. Claro.
-do show_character("kristine", "derecha", "avergonzada")
+do show_character("kristine", "derecha", "avergonzadaInvierno")
 
 Mateo sonrió. Su sonrisa era tan cálida y contagiosa que yo también sonreí.
-do show_character("kristine", "derecha", "feliz")
+do show_character("kristine", "derecha", "felizInvierno")
 Se acercó más a mí hasta estar abrazados. Era acogedor, tanto que casi se me olvidaba que estaba temblando, tanto por los nervios de antes como por las bajas temperaturas.
 
 En un intento de estar más cerca y disminuir el frío que sentía, me acomodé de forma en que mi cabeza quedó encima de su pecho mientras él me abrazaba por la espalda, dándome cariño con delicadeza. 
 Escuchaba su corazón y me encantaba aquella melodía.
 
-do show_character("mateo", "izq", "hablaAlegre")
+do show_character("mateo", "izq", "hablaAlegreInvierno")
 Mateo: Tu corazón no deja de latir rápido, por cierto.
-do show_character("mateo", "izq", "feliz")
-do show_character("kristine", "derecha", "hablaNormal")
+do show_character("mateo", "izq", "felizInvierno")
+do show_character("kristine", "derecha", "hablaNormalInvierno")
 Kristine: Estaba nerviosa.
-do show_character("mateo", "izq", "hablaAlegre")
-do show_character("kristine", "derecha", "feliz")
+do show_character("mateo", "izq", "hablaAlegreInvierno")
+do show_character("kristine", "derecha", "felizInvierno")
 Mateo: Ya, lo he notado. 
-do show_character("mateo", "izq", "hablaNormal")
-do show_character("kristine", "derecha", "feliz")
+do show_character("mateo", "izq", "hablaNormalInvierno")
+do show_character("kristine", "derecha", "felizInvierno")
 Mateo: Y fuimos antes a la cafetería porque pensé que así te sería más fácil hablar. 
 
-do show_character("mateo", "izq", "serio")
+do show_character("mateo", "izq", "serioInvierno")
 Y no se equivocaba.
 
-do show_character("mateo", "izq", "feliz")
-do show_character("kristine", "derecha", "hablaNormal")
+do show_character("mateo", "izq", "felizInvierno")
+do show_character("kristine", "derecha", "hablaNormalInvierno")
 Kristine: Tu corazón también late rápido.
-do show_character("mateo", "izq", "hablaAlegre")
-do show_character("kristine", "derecha", "feliz")
+do show_character("mateo", "izq", "hablaAlegreInvierno")
+do show_character("kristine", "derecha", "felizInvierno")
 Mateo: Porque por fin estoy con la chica que siempre quise.
-do show_character("mateo", "izq", "feliz")
-do show_character("kristine", "derecha", "avergonzada")
+do show_character("mateo", "izq", "felizInvierno")
+do show_character("kristine", "derecha", "avergonzadaInvierno")
 
 Lo miré a los ojos. ¿Cómo podía decir eso tan rápido y sin inmutarse?, ¿y cómo estaba seguro de aquello?
 
-do show_character("mateo", "izq", "hablaAlegre")
+do show_character("mateo", "izq", "hablaAlegreInvierno")
 Mateo: Me gustaste desde la primera vez que te vi.
 
-do show_character("mateo", "izq", "sonrojado")
-do show_character("kristine", "derecha", "sonrojada")
+do show_character("mateo", "izq", "sonrojadoInvierno")
+do show_character("kristine", "derecha", "sonrojadaInvierno")
 
 Directo y sin anestesia. 
 Esa fue otra mini bomba para mi corazón. ¿Cómo era capaz de decir ese tipo de cosas sin luego avergonzarse? Admiraba eso de él.
